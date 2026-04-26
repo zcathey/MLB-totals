@@ -1,0 +1,271 @@
+{
+  "generated": "2026-04-26T23:36:39.377536Z",
+  "date": "2026-04-26",
+  "season": 2026,
+  "team_batting": {},
+  "team_pitching": {},
+  "pitcher_stats": {},
+  "recent_form": {
+    "LAA": {
+      "rg": 5.21,
+      "games": 14
+    },
+    "ARI": {
+      "rg": 6.0,
+      "games": 12
+    },
+    "BAL": {
+      "rg": 5.07,
+      "games": 14
+    },
+    "BOS": {
+      "rg": 4.57,
+      "games": 14
+    },
+    "CHC": {
+      "rg": 6.43,
+      "games": 14
+    },
+    "CIN": {
+      "rg": 5.38,
+      "games": 13
+    },
+    "CLE": {
+      "rg": 4.36,
+      "games": 14
+    },
+    "COL": {
+      "rg": 3.93,
+      "games": 14
+    },
+    "DET": {
+      "rg": 5.0,
+      "games": 14
+    },
+    "HOU": {
+      "rg": 4.21,
+      "games": 14
+    },
+    "KCR": {
+      "rg": 4.69,
+      "games": 13
+    },
+    "LAD": {
+      "rg": 5.0,
+      "games": 14
+    },
+    "WSH": {
+      "rg": 5.0,
+      "games": 15
+    },
+    "NYM": {
+      "rg": 2.31,
+      "games": 13
+    },
+    "ATH": {
+      "rg": 4.07,
+      "games": 14
+    },
+    "PIT": {
+      "rg": 5.36,
+      "games": 14
+    },
+    "SDP": {
+      "rg": 4.67,
+      "games": 12
+    },
+    "SEA": {
+      "rg": 4.36,
+      "games": 14
+    },
+    "SFG": {
+      "rg": 3.69,
+      "games": 13
+    },
+    "STL": {
+      "rg": 4.77,
+      "games": 13
+    },
+    "TBR": {
+      "rg": 5.15,
+      "games": 13
+    },
+    "TEX": {
+      "rg": 4.21,
+      "games": 14
+    },
+    "TOR": {
+      "rg": 4.23,
+      "games": 13
+    },
+    "MIN": {
+      "rg": 4.69,
+      "games": 13
+    },
+    "PHI": {
+      "rg": 3.71,
+      "games": 14
+    },
+    "ATL": {
+      "rg": 6.36,
+      "games": 14
+    },
+    "CWS": {
+      "rg": 5.38,
+      "games": 13
+    },
+    "MIA": {
+      "rg": 4.46,
+      "games": 13
+    },
+    "NYY": {
+      "rg": 6.07,
+      "games": 14
+    },
+    "MIL": {
+      "rg": 4.46,
+      "games": 13
+    }
+  },
+  "platoon": {
+    "LAA": {
+      "vsL": 0.727,
+      "vsR": 0.711
+    },
+    "ARI": {
+      "vsL": 0.837,
+      "vsR": 0.696
+    },
+    "BAL": {
+      "vsL": 0.687,
+      "vsR": 0.733
+    },
+    "BOS": {
+      "vsL": 0.694,
+      "vsR": 0.66
+    },
+    "CHC": {
+      "vsL": 0.844,
+      "vsR": 0.745
+    },
+    "CIN": {
+      "vsL": 0.719,
+      "vsR": 0.673
+    },
+    "CLE": {
+      "vsL": 0.745,
+      "vsR": 0.68
+    },
+    "COL": {
+      "vsL": 0.641,
+      "vsR": 0.724
+    },
+    "DET": {
+      "vsL": 0.713,
+      "vsR": 0.76
+    },
+    "HOU": {
+      "vsL": 0.767,
+      "vsR": 0.789
+    },
+    "KCR": {
+      "vsL": 0.616,
+      "vsR": 0.715
+    },
+    "LAD": {
+      "vsL": 0.843,
+      "vsR": 0.823
+    },
+    "WSH": {
+      "vsL": 0.762,
+      "vsR": 0.703
+    },
+    "NYM": {
+      "vsL": 0.636,
+      "vsR": 0.62
+    },
+    "ATH": {
+      "vsL": 0.617,
+      "vsR": 0.746
+    },
+    "PIT": {
+      "vsL": 0.65,
+      "vsR": 0.718
+    },
+    "SDP": {
+      "vsL": 0.617,
+      "vsR": 0.708
+    },
+    "SEA": {
+      "vsL": 0.648,
+      "vsR": 0.722
+    },
+    "SFG": {
+      "vsL": 0.734,
+      "vsR": 0.643
+    },
+    "STL": {
+      "vsL": 0.749,
+      "vsR": 0.7
+    },
+    "TBR": {
+      "vsL": 0.718,
+      "vsR": 0.733
+    },
+    "TEX": {
+      "vsL": 0.595,
+      "vsR": 0.734
+    },
+    "TOR": {
+      "vsL": 0.699,
+      "vsR": 0.7
+    },
+    "MIN": {
+      "vsL": 0.697,
+      "vsR": 0.698
+    },
+    "PHI": {
+      "vsL": 0.563,
+      "vsR": 0.708
+    },
+    "ATL": {
+      "vsL": 0.788,
+      "vsR": 0.796
+    },
+    "CWS": {
+      "vsL": 0.73,
+      "vsR": 0.672
+    },
+    "MIA": {
+      "vsL": 0.642,
+      "vsR": 0.748
+    },
+    "NYY": {
+      "vsL": 0.726,
+      "vsR": 0.778
+    },
+    "MIL": {
+      "vsL": 0.639,
+      "vsR": 0.694
+    }
+  },
+  "schedule": [
+    {
+      "away": "LAA",
+      "home": "KCR",
+      "game_date": "2026-04-26T20:10:00Z",
+      "game_pk": 824122,
+      "status": "delayed",
+      "away_pitcher": {
+        "id": 672282,
+        "name": "Reid Detmers",
+        "hand": null
+      },
+      "home_pitcher": {
+        "id": 607625,
+        "name": "Seth Lugo",
+        "hand": null
+      }
+    }
+  ]
+}
