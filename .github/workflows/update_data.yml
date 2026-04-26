@@ -2,13 +2,15 @@ name: Update MLB Data
 
 on:
   schedule:
-    # Runs at 11:00 AM ET (15:00 UTC) every day — after probable pitchers are posted
     - cron: '0 15 * * *'
-  workflow_dispatch:  # allows manual trigger from GitHub Actions tab
+  workflow_dispatch:
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repo
@@ -20,8 +22,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install pybaseball requests pandas
+        run: pip install pybaseball requests pandas
 
       - name: Run data generator
         run: python generate_data.py
