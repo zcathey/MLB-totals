@@ -1,130 +1,130 @@
 {
-  "generated": "2026-04-26T23:36:39.377536Z",
-  "date": "2026-04-26",
+  "generated": "2026-04-27T01:01:59.528321Z",
+  "date": "2026-04-27",
   "season": 2026,
   "team_batting": {},
   "team_pitching": {},
   "pitcher_stats": {},
   "recent_form": {
     "LAA": {
-      "rg": 5.21,
-      "games": 14
+      "rg": 5.0,
+      "games": 13
     },
     "ARI": {
-      "rg": 6.0,
-      "games": 12
+      "rg": 6.18,
+      "games": 11
     },
     "BAL": {
-      "rg": 5.07,
-      "games": 14
+      "rg": 5.0,
+      "games": 13
     },
     "BOS": {
-      "rg": 4.57,
-      "games": 14
-    },
-    "CHC": {
-      "rg": 6.43,
-      "games": 14
-    },
-    "CIN": {
-      "rg": 5.38,
-      "games": 13
-    },
-    "CLE": {
-      "rg": 4.36,
-      "games": 14
-    },
-    "COL": {
-      "rg": 3.93,
-      "games": 14
-    },
-    "DET": {
-      "rg": 5.0,
-      "games": 14
-    },
-    "HOU": {
-      "rg": 4.21,
-      "games": 14
-    },
-    "KCR": {
-      "rg": 4.69,
-      "games": 13
-    },
-    "LAD": {
-      "rg": 5.0,
-      "games": 14
-    },
-    "WSH": {
-      "rg": 5.0,
-      "games": 15
-    },
-    "NYM": {
-      "rg": 2.31,
-      "games": 13
-    },
-    "ATH": {
-      "rg": 4.07,
-      "games": 14
-    },
-    "PIT": {
-      "rg": 5.36,
-      "games": 14
-    },
-    "SDP": {
-      "rg": 4.67,
-      "games": 12
-    },
-    "SEA": {
-      "rg": 4.36,
-      "games": 14
-    },
-    "SFG": {
-      "rg": 3.69,
-      "games": 13
-    },
-    "STL": {
-      "rg": 4.77,
-      "games": 13
-    },
-    "TBR": {
-      "rg": 5.15,
-      "games": 13
-    },
-    "TEX": {
-      "rg": 4.21,
-      "games": 14
-    },
-    "TOR": {
       "rg": 4.23,
       "games": 13
     },
-    "MIN": {
-      "rg": 4.69,
+    "CHC": {
+      "rg": 6.38,
       "games": 13
+    },
+    "CIN": {
+      "rg": 5.33,
+      "games": 12
+    },
+    "CLE": {
+      "rg": 4.62,
+      "games": 13
+    },
+    "COL": {
+      "rg": 4.08,
+      "games": 13
+    },
+    "DET": {
+      "rg": 4.77,
+      "games": 13
+    },
+    "HOU": {
+      "rg": 4.46,
+      "games": 13
+    },
+    "KCR": {
+      "rg": 5.0,
+      "games": 12
+    },
+    "LAD": {
+      "rg": 5.23,
+      "games": 13
+    },
+    "WSH": {
+      "rg": 4.79,
+      "games": 14
+    },
+    "NYM": {
+      "rg": 2.5,
+      "games": 12
+    },
+    "ATH": {
+      "rg": 4.31,
+      "games": 13
+    },
+    "PIT": {
+      "rg": 5.31,
+      "games": 13
+    },
+    "SDP": {
+      "rg": 4.45,
+      "games": 11
+    },
+    "SEA": {
+      "rg": 4.23,
+      "games": 13
+    },
+    "SFG": {
+      "rg": 3.83,
+      "games": 12
+    },
+    "STL": {
+      "rg": 4.92,
+      "games": 12
+    },
+    "TBR": {
+      "rg": 5.17,
+      "games": 12
+    },
+    "TEX": {
+      "rg": 4.15,
+      "games": 13
+    },
+    "TOR": {
+      "rg": 4.42,
+      "games": 12
+    },
+    "MIN": {
+      "rg": 4.42,
+      "games": 12
     },
     "PHI": {
-      "rg": 3.71,
-      "games": 14
+      "rg": 3.77,
+      "games": 13
     },
     "ATL": {
-      "rg": 6.36,
-      "games": 14
+      "rg": 5.85,
+      "games": 13
     },
     "CWS": {
-      "rg": 5.38,
-      "games": 13
+      "rg": 5.33,
+      "games": 12
     },
     "MIA": {
-      "rg": 4.46,
-      "games": 13
+      "rg": 4.67,
+      "games": 12
     },
     "NYY": {
-      "rg": 6.07,
-      "games": 14
+      "rg": 6.23,
+      "games": 13
     },
     "MIL": {
-      "rg": 4.46,
-      "games": 13
+      "rg": 4.33,
+      "games": 12
     }
   },
   "platoon": {
@@ -251,20 +251,139 @@
   },
   "schedule": [
     {
-      "away": "LAA",
-      "home": "KCR",
-      "game_date": "2026-04-26T20:10:00Z",
-      "game_pk": 824122,
-      "status": "delayed",
+      "away": "TBR",
+      "home": "CLE",
+      "game_date": "2026-04-27T22:10:00Z",
+      "game_pk": 824446,
+      "status": "scheduled",
       "away_pitcher": {
-        "id": 672282,
-        "name": "Reid Detmers",
-        "hand": null
+        "id": 571927,
+        "name": "Steven Matz",
+        "hand": "L"
       },
       "home_pitcher": {
-        "id": 607625,
-        "name": "Seth Lugo",
-        "hand": null
+        "id": 800048,
+        "name": "Parker Messick",
+        "hand": "L"
+      }
+    },
+    {
+      "away": "STL",
+      "home": "PIT",
+      "game_date": "2026-04-27T22:40:00Z",
+      "game_pk": 823395,
+      "status": "scheduled",
+      "away_pitcher": {
+        "id": 669160,
+        "name": "Dustin May",
+        "hand": "R"
+      },
+      "home_pitcher": {
+        "id": 682254,
+        "name": "Mason Montgomery",
+        "hand": "L"
+      }
+    },
+    {
+      "away": "BOS",
+      "home": "TOR",
+      "game_date": "2026-04-27T23:07:00Z",
+      "game_pk": 822825,
+      "status": "scheduled",
+      "away_pitcher": {
+        "id": 624133,
+        "name": "Ranger Suarez",
+        "hand": "L"
+      },
+      "home_pitcher": {
+        "id": 656302,
+        "name": "Dylan Cease",
+        "hand": "R"
+      }
+    },
+    {
+      "away": "SEA",
+      "home": "MIN",
+      "game_date": "2026-04-27T23:40:00Z",
+      "game_pk": 823719,
+      "status": "scheduled",
+      "away_pitcher": {
+        "id": 622491,
+        "name": "Luis Castillo",
+        "hand": "R"
+      },
+      "home_pitcher": {
+        "id": 687570,
+        "name": "Connor Prielipp",
+        "hand": "L"
+      }
+    },
+    {
+      "away": "LAA",
+      "home": "CWS",
+      "game_date": "2026-04-27T23:40:00Z",
+      "game_pk": 824609,
+      "status": "scheduled",
+      "away_pitcher": {
+        "id": 686799,
+        "name": "Jack Kochanowicz",
+        "hand": "R"
+      },
+      "home_pitcher": {
+        "id": 641743,
+        "name": "Anthony Kay",
+        "hand": "L"
+      }
+    },
+    {
+      "away": "NYY",
+      "home": "TEX",
+      "game_date": "2026-04-28T00:05:00Z",
+      "game_pk": 822906,
+      "status": "scheduled",
+      "away_pitcher": {
+        "id": 608331,
+        "name": "Max Fried",
+        "hand": "L"
+      },
+      "home_pitcher": {
+        "id": 683004,
+        "name": "Jack Leiter",
+        "hand": "R"
+      }
+    },
+    {
+      "away": "CHC",
+      "home": "SDP",
+      "game_date": "2026-04-28T01:40:00Z",
+      "game_pk": 823311,
+      "status": "scheduled",
+      "away_pitcher": {
+        "id": 571510,
+        "name": "Matthew Boyd",
+        "hand": "L"
+      },
+      "home_pitcher": {
+        "id": 681190,
+        "name": "Randy V\u00e1squez",
+        "hand": "R"
+      }
+    },
+    {
+      "away": "MIA",
+      "home": "LAD",
+      "game_date": "2026-04-28T02:10:00Z",
+      "game_pk": 823961,
+      "status": "scheduled",
+      "away_pitcher": {
+        "id": 663978,
+        "name": "Chris Paddack",
+        "hand": "R"
+      },
+      "home_pitcher": {
+        "id": 808967,
+        "name": "Yoshinobu Yamamoto",
+        "hand": "R"
       }
     }
   ]
