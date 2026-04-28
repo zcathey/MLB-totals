@@ -24,7 +24,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pybaseball requests pandas
+        run: pip install pybaseball requests pandas beautifulsoup4
 
       - name: Run data generator
         run: python generate_data.py
