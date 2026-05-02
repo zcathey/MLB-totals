@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """
 generate_data.py
-Runs daily via GitHub Actions. Fetches team stats, pitcher stats,
-platoon splits, and recent form using pybaseball + MLB Stats API.
-Outputs data.json which the HTML app reads instead of hitting APIs directly.
+Runs daily via GitHub Actions. Outputs data.json for the MLB totals app.
 """
 
 import json, datetime, warnings, time, requests
@@ -29,11 +27,9 @@ def fg_get(url, retries=3):
             time.sleep(3)
     return None
 
-# ── CONSTANTS ─────────────────────────────────────────────────────────────────
 SEASON = datetime.date.today().year
 TODAY  = datetime.date.today().isoformat()
 
-# FanGraphs team name → our abbreviation
 FG_TEAM_MAP = {
     'Angels':'LAA','Astros':'HOU','Athletics':'ATH','Blue Jays':'TOR',
     'Braves':'ATL','Brewers':'MIL','Cardinals':'STL','Cubs':'CHC',
@@ -71,11 +67,10 @@ def mlb_get(url, retries=3):
             time.sleep(2)
     return None
 
-# ── 1. TEAM BATTING (wRC+ via multiple sources) ──────────────────────────────
+# ── 1. TEAM BATTING ───────────────────────────────────────────────────────────
 print("Fetching team batting / wRC+...")
 team_bat = {}
 
-# Source A: Baseball Reference team stats CSV (publicly accessible)
 BREF_TEAM_MAP = {
     'Arizona Diamondbacks':'ARI','Atlanta Braves':'ATL','Baltimore Orioles':'BAL',
     'Boston Red Sox':'BOS','Chicago Cubs':'CHC','Chicago White Sox':'CWS',
@@ -89,8 +84,9 @@ BREF_TEAM_MAP = {
     'Texas Rangers':'TEX','Toronto Blue Jays':'TOR','Washington Nationals':'WSH',
     'Athletics':'ATH',
 }
+
 try:
-    from bs4 import BeautifulSoup
+    from bs4 import BeautifulSoup, Comment
     bref_url = f'https://www.baseball-reference.com/leagues/majors/{SEASON}-standard-batting.shtml'
     r = requests.get(bref_url, headers={
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
@@ -102,21 +98,17 @@ try:
     }, timeout=30)
     print(f"  BRef status: {r.status_code}, size: {len(r.text)} chars")
     if r.ok:
-        from bs4 import Comment
         soup = BeautifulSoup(r.text, 'html.parser')
-        # BRef hides most tables inside HTML comments — must uncomment first
         for comment in soup.find_all(string=lambda t: isinstance(t, Comment)):
             cs = str(comment)
             if 'teams_standard_batting' in cs or 'onbase_plus_slugging' in cs:
                 soup.append(BeautifulSoup(cs, 'html.parser'))
-        # Try multiple table IDs
         table = None
         for tid in ['teams_standard_batting', 'batting_team', 'teams_batting']:
             table = soup.find('table', {'id': tid})
             if table:
                 print(f"  Found table: {tid}")
                 break
-        # Also try finding any table with team batting data
         if not table:
             tables = soup.find_all('table')
             print(f"  Tables found: {len(tables)}, ids: {[t.get('id','') for t in tables[:10]]}")
@@ -129,7 +121,6 @@ try:
             for row in table.find('tbody').find_all('tr'):
                 if row.get('class') and 'thead' in row.get('class', []):
                     continue
-                # Get team name from link or text
                 name_cell = row.find('td', {'data-stat': 'team_name'})
                 if not name_cell:
                     name_cell = row.find('th', {'data-stat': 'team_name'})
@@ -144,7 +135,6 @@ try:
                     try: return float(c.get_text(strip=True).replace(',','')) if c and c.get_text(strip=True) else default
                     except: return default
                 runs = gs('R'); games = gs('G', 1); ops = gs('onbase_plus_slugging')
-                # Also try to get OPS+ directly if available
                 ops_plus = gs('onbase_plus_slugging_plus')
                 team_bat[abbr] = {
                     'wrc_plus': int(ops_plus) if ops_plus > 0 else (int(round((ops/0.720)*100)) if ops > 0 else 100),
@@ -160,14 +150,12 @@ except ImportError:
 except Exception as e:
     print(f"  BRef error: {e}")
 
-# Source B: FanGraphs API direct
 if not team_bat:
     print("  Trying FanGraphs API...")
     try:
         url = f'https://www.fangraphs.com/api/leaders/major-league/data?age=&pos=all&stats=bat&lg=all&qual=0&season={SEASON}&season1={SEASON}&ind=0&team=0,ts&rost=0&players=0&type=8&postseason=&sortdir=default&pageitems=2000000000&pagenum=1'
         d = fg_get(url)
         rows = (d.get('data') or []) if isinstance(d, dict) else []
-        print(f"  FG rows: {len(rows)}, keys: {list(rows[0].keys())[:10] if rows else 'none'}")
         for row in rows:
             name = str(row.get('TeamName') or row.get('teamName') or '').strip()
             abbr = FG_TEAM_MAP.get(name, '')
@@ -183,7 +171,6 @@ if not team_bat:
     except Exception as e:
         print(f"  FG error: {e}")
 
-# Source C: MLB Stats API OPS proxy
 if not team_bat:
     print("  Trying MLB Stats API OPS proxy...")
     LG_OPS = 0.720
@@ -209,7 +196,7 @@ if not team_bat:
 
 print(f"  Team batting total: {len(team_bat)} teams")
 
-# ── 2. TEAM PITCHING (FIP, K%, BB% from FanGraphs API) ──────────────────────
+# ── 2. TEAM PITCHING ──────────────────────────────────────────────────────────
 print("Fetching team pitching from FanGraphs...")
 team_pitch = {}
 try:
@@ -227,12 +214,10 @@ try:
                 'era':    round(float(row.get('ERA', 4.50) or 4.50), 2),
             }
     print(f"  Got {len(team_pitch)} teams")
-    if not team_pitch and rows:
-        print(f"  Sample row keys: {list(rows[0].keys())[:15]}")
 except Exception as e:
     print(f"  team pitching failed: {e}")
 
-# ── 3. STARTER FIP/K%/BB% (FanGraphs API individual pitching) ───────────────
+# ── 3. PITCHER STATS ──────────────────────────────────────────────────────────
 print("Fetching individual pitcher stats from FanGraphs...")
 pitcher_stats = {}
 try:
@@ -251,12 +236,10 @@ try:
                 'era':    round(float(row.get('ERA', 0) or 0), 2),
             }
     print(f"  Got {len(pitcher_stats)} pitchers")
-    if not pitcher_stats and rows:
-        print(f"  Sample row keys: {list(rows[0].keys())[:15]}")
 except Exception as e:
     print(f"  pitcher stats failed: {e}")
 
-# ── 4. RECENT FORM — last 14 days R/G via MLB Stats API ─────────────────────
+# ── 4. RECENT FORM ────────────────────────────────────────────────────────────
 print("Fetching recent form (L14 R/G) from MLB Stats API...")
 recent_form = {}
 end_date   = datetime.date.today()
@@ -274,14 +257,13 @@ for abbr, team_id in MLB_TEAM_ID.items():
             r = int(st.get('runs', 0) or 0)
             if g >= 5:
                 recent_form[abbr] = {'rg': round(r/g, 2), 'games': g}
-    time.sleep(0.05)  # be polite
+    time.sleep(0.05)
 print(f"  Got recent form for {len(recent_form)} teams")
 
-# ── 5. PLATOON SPLITS — vs LHP / vs RHP OPS via MLB Stats API ───────────────
+# ── 5. PLATOON SPLITS ─────────────────────────────────────────────────────────
 print("Fetching platoon splits from MLB Stats API...")
 platoon = {}
 for abbr, team_id in MLB_TEAM_ID.items():
-    # Try statSplits with sitCodes
     url = (f'https://statsapi.mlb.com/api/v1/teams/{team_id}/stats'
            f'?stats=statSplits&group=hitting&season={SEASON}&sitCodes=vl,vr')
     d = mlb_get(url)
@@ -302,7 +284,7 @@ for abbr, team_id in MLB_TEAM_ID.items():
     time.sleep(0.05)
 print(f"  Got platoon splits for {len(platoon)} teams")
 
-# ── 6. TODAY'S SCHEDULE + PROBABLE PITCHERS via MLB Stats API ────────────────
+# ── 6. SCHEDULE ───────────────────────────────────────────────────────────────
 print("Fetching today's schedule...")
 schedule = []
 url = (f'https://statsapi.mlb.com/api/v1/schedule'
@@ -319,14 +301,12 @@ if d:
         ha = TEAM_ID_MAP.get(ht['id'], ht.get('abbreviation','???'))
         away_pp = g['teams']['away'].get('probablePitcher') or {}
         home_pp = g['teams']['home'].get('probablePitcher') or {}
-        # Fetch pitcher handedness directly if not in schedule hydration
         def get_hand(pp):
             hand = pp.get('pitchHand',{}).get('code')
             if not hand and pp.get('id'):
                 d2 = mlb_get(f'https://statsapi.mlb.com/api/v1/people/{pp["id"]}?hydrate=pitchHand')
                 hand = (d2 or {}).get('people',[{}])[0].get('pitchHand',{}).get('code')
             return hand
-
         schedule.append({
             'away': aa, 'home': ha,
             'game_date': g.get('gameDate',''),
@@ -345,21 +325,25 @@ if d:
         })
 print(f"  Got {len(schedule)} games")
 
-# ── 7. ASSEMBLE + WRITE data.json ────────────────────────────────────────────
+# ── 7. WRITE data.json ────────────────────────────────────────────────────────
 output = {
     'generated': datetime.datetime.utcnow().isoformat() + 'Z',
     'date': TODAY,
     'season': SEASON,
-    'team_batting': team_bat,       # wrc_plus, ops, r_g per team
-    'team_pitching': team_pitch,    # fip, k_pct, bb_pct per team (bullpen proxy)
-    'pitcher_stats': pitcher_stats, # fip, k_pct, bb_pct, ip per pitcher name
-    'recent_form': recent_form,     # last 14 days r_g per team
-    'platoon': platoon,             # vsL, vsR OPS per team
-    'schedule': schedule,           # today's games with probable pitchers
+    'team_batting': team_bat,
+    'team_pitching': team_pitch,
+    'pitcher_stats': pitcher_stats,
+    'recent_form': recent_form,
+    'platoon': platoon,
+    'schedule': schedule,
 }
 
 with open('data.json', 'w') as f:
     json.dump(output, f, indent=2)
+
+# Force git to always see a change so push never gets skipped
+with open('.last_update', 'w') as f:
+    f.write(datetime.datetime.utcnow().isoformat() + 'Z\n')
 
 print(f"\ndata.json written successfully")
 print(f"  Teams with batting data:  {len(team_bat)}")
