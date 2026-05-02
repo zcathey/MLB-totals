@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git restore -- .github/
+          git checkout HEAD -- .github/workflows/update_data.yml
           git add data.json .last_update
           git diff --staged --quiet || git commit -m "Auto-update data.json $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push --force origin main
