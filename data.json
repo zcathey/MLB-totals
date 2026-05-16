@@ -1,198 +1,198 @@
 {
-  "generated": "2026-05-15T20:07:26.145726Z",
-  "date": "2026-05-15",
+  "generated": "2026-05-16T18:06:39.137588Z",
+  "date": "2026-05-16",
   "season": 2026,
   "team_batting": {
     "ARI": {
-      "wrc_plus": 93,
-      "ops": 0.686,
-      "r_g": 4.26,
-      "games": 42
-    },
-    "ATH": {
-      "wrc_plus": 99,
-      "ops": 0.734,
-      "r_g": 4.42,
+      "wrc_plus": 94,
+      "ops": 0.69,
+      "r_g": 4.37,
       "games": 43
     },
-    "ATL": {
-      "wrc_plus": 121,
-      "ops": 0.779,
-      "r_g": 5.39,
+    "ATH": {
+      "wrc_plus": 100,
+      "ops": 0.736,
+      "r_g": 4.43,
       "games": 44
+    },
+    "ATL": {
+      "wrc_plus": 120,
+      "ops": 0.775,
+      "r_g": 5.33,
+      "games": 45
     },
     "BAL": {
       "wrc_plus": 97,
-      "ops": 0.693,
-      "r_g": 4.39,
-      "games": 44
-    },
-    "BOS": {
-      "wrc_plus": 91,
-      "ops": 0.667,
-      "r_g": 3.74,
-      "games": 43
-    },
-    "CHC": {
-      "wrc_plus": 117,
-      "ops": 0.744,
-      "r_g": 5.0,
-      "games": 44
-    },
-    "CWS": {
-      "wrc_plus": 102,
-      "ops": 0.721,
-      "r_g": 4.4,
-      "games": 43
-    },
-    "CIN": {
-      "wrc_plus": 93,
-      "ops": 0.699,
-      "r_g": 4.32,
-      "games": 44
-    },
-    "CLE": {
-      "wrc_plus": 95,
-      "ops": 0.686,
-      "r_g": 4.16,
+      "ops": 0.69,
+      "r_g": 4.33,
       "games": 45
     },
-    "COL": {
-      "wrc_plus": 93,
-      "ops": 0.714,
-      "r_g": 4.27,
+    "BOS": {
+      "wrc_plus": 92,
+      "ops": 0.668,
+      "r_g": 3.7,
       "games": 44
+    },
+    "CHC": {
+      "wrc_plus": 118,
+      "ops": 0.747,
+      "r_g": 5.11,
+      "games": 45
+    },
+    "CWS": {
+      "wrc_plus": 104,
+      "ops": 0.725,
+      "r_g": 4.41,
+      "games": 44
+    },
+    "CIN": {
+      "wrc_plus": 94,
+      "ops": 0.703,
+      "r_g": 4.38,
+      "games": 45
+    },
+    "CLE": {
+      "wrc_plus": 96,
+      "ops": 0.689,
+      "r_g": 4.2,
+      "games": 46
+    },
+    "COL": {
+      "wrc_plus": 91,
+      "ops": 0.708,
+      "r_g": 4.2,
+      "games": 45
     },
     "DET": {
       "wrc_plus": 99,
-      "ops": 0.714,
-      "r_g": 4.16,
-      "games": 44
+      "ops": 0.712,
+      "r_g": 4.13,
+      "games": 45
     },
     "HOU": {
-      "wrc_plus": 110,
-      "ops": 0.749,
-      "r_g": 4.58,
-      "games": 45
+      "wrc_plus": 109,
+      "ops": 0.745,
+      "r_g": 4.52,
+      "games": 46
     },
     "KCR": {
       "wrc_plus": 99,
-      "ops": 0.708,
+      "ops": 0.703,
       "r_g": 4.11,
-      "games": 44
+      "games": 45
     },
     "LAA": {
-      "wrc_plus": 100,
-      "ops": 0.705,
-      "r_g": 4.16,
-      "games": 44
+      "wrc_plus": 98,
+      "ops": 0.697,
+      "r_g": 4.07,
+      "games": 45
     },
     "LAD": {
       "wrc_plus": 121,
-      "ops": 0.775,
-      "r_g": 4.93,
-      "games": 44
+      "ops": 0.776,
+      "r_g": 4.96,
+      "games": 45
     },
     "MIA": {
       "wrc_plus": 97,
-      "ops": 0.693,
-      "r_g": 4.23,
-      "games": 44
+      "ops": 0.69,
+      "r_g": 4.18,
+      "games": 45
     },
     "MIL": {
-      "wrc_plus": 97,
-      "ops": 0.695,
-      "r_g": 5.1,
-      "games": 41
+      "wrc_plus": 96,
+      "ops": 0.692,
+      "r_g": 5.05,
+      "games": 42
     },
     "MIN": {
       "wrc_plus": 97,
-      "ops": 0.71,
-      "r_g": 4.8,
-      "games": 44
+      "ops": 0.707,
+      "r_g": 4.73,
+      "games": 45
     },
     "NYM": {
-      "wrc_plus": 84,
-      "ops": 0.641,
-      "r_g": 3.74,
-      "games": 43
+      "wrc_plus": 83,
+      "ops": 0.638,
+      "r_g": 3.7,
+      "games": 44
     },
     "NYY": {
       "wrc_plus": 112,
       "ops": 0.763,
       "r_g": 5.07,
-      "games": 44
+      "games": 45
     },
     "PHI": {
-      "wrc_plus": 90,
-      "ops": 0.687,
-      "r_g": 4.0,
-      "games": 44
+      "wrc_plus": 91,
+      "ops": 0.692,
+      "r_g": 4.16,
+      "games": 45
     },
     "PIT": {
       "wrc_plus": 105,
-      "ops": 0.728,
-      "r_g": 5.0,
-      "games": 44
+      "ops": 0.732,
+      "r_g": 5.09,
+      "games": 45
     },
     "SDP": {
-      "wrc_plus": 86,
-      "ops": 0.659,
-      "r_g": 4.14,
-      "games": 43
+      "wrc_plus": 85,
+      "ops": 0.657,
+      "r_g": 4.09,
+      "games": 44
     },
     "SEA": {
       "wrc_plus": 105,
-      "ops": 0.708,
-      "r_g": 4.24,
-      "games": 45
+      "ops": 0.704,
+      "r_g": 4.15,
+      "games": 46
     },
     "SFG": {
-      "wrc_plus": 87,
-      "ops": 0.65,
-      "r_g": 3.34,
-      "games": 44
+      "wrc_plus": 88,
+      "ops": 0.654,
+      "r_g": 3.31,
+      "games": 45
     },
     "STL": {
-      "wrc_plus": 106,
-      "ops": 0.711,
-      "r_g": 4.63,
-      "games": 43
+      "wrc_plus": 107,
+      "ops": 0.717,
+      "r_g": 4.64,
+      "games": 44
     },
     "TBR": {
-      "wrc_plus": 99,
-      "ops": 0.705,
-      "r_g": 4.5,
-      "games": 42
+      "wrc_plus": 102,
+      "ops": 0.713,
+      "r_g": 4.56,
+      "games": 43
     },
     "TEX": {
-      "wrc_plus": 105,
-      "ops": 0.684,
-      "r_g": 3.77,
-      "games": 43
+      "wrc_plus": 101,
+      "ops": 0.673,
+      "r_g": 3.68,
+      "games": 44
     },
     "TOR": {
-      "wrc_plus": 90,
-      "ops": 0.686,
-      "r_g": 4.19,
-      "games": 43
+      "wrc_plus": 89,
+      "ops": 0.683,
+      "r_g": 4.14,
+      "games": 44
     },
     "WSH": {
-      "wrc_plus": 110,
-      "ops": 0.731,
-      "r_g": 5.36,
-      "games": 44
+      "wrc_plus": 109,
+      "ops": 0.729,
+      "r_g": 5.31,
+      "games": 45
     }
   },
   "team_pitching": {},
   "pitcher_stats": {},
   "recent_form": {
     "LAA": {
-      "rg": 2.75,
+      "rg": 2.5,
       "games": 12
     },
     "ARI": {
-      "rg": 3.17,
+      "rg": 3.5,
       "games": 12
     },
     "BAL": {
@@ -200,47 +200,47 @@
       "games": 13
     },
     "BOS": {
-      "rg": 3.17,
+      "rg": 3.08,
       "games": 12
     },
     "CHC": {
-      "rg": 3.92,
-      "games": 13
-    },
-    "CIN": {
-      "rg": 4.38,
-      "games": 13
-    },
-    "CLE": {
-      "rg": 4.92,
-      "games": 13
-    },
-    "COL": {
-      "rg": 4.25,
-      "games": 12
-    },
-    "DET": {
-      "rg": 3.42,
-      "games": 12
-    },
-    "HOU": {
-      "rg": 2.92,
-      "games": 13
-    },
-    "KCR": {
       "rg": 4.23,
       "games": 13
     },
+    "CIN": {
+      "rg": 4.85,
+      "games": 13
+    },
+    "CLE": {
+      "rg": 4.77,
+      "games": 13
+    },
+    "COL": {
+      "rg": 3.83,
+      "games": 12
+    },
+    "DET": {
+      "rg": 3.08,
+      "games": 13
+    },
+    "HOU": {
+      "rg": 3.0,
+      "games": 13
+    },
+    "KCR": {
+      "rg": 4.0,
+      "games": 13
+    },
     "LAD": {
-      "rg": 3.85,
+      "rg": 4.15,
       "games": 13
     },
     "WSH": {
-      "rg": 5.08,
+      "rg": 5.25,
       "games": 12
     },
     "NYM": {
-      "rg": 4.58,
+      "rg": 4.42,
       "games": 12
     },
     "ATH": {
@@ -256,433 +256,433 @@
       "games": 13
     },
     "SEA": {
-      "rg": 4.38,
-      "games": 13
-    },
-    "SFG": {
-      "rg": 3.31,
-      "games": 13
-    },
-    "STL": {
-      "rg": 3.67,
-      "games": 12
-    },
-    "TBR": {
-      "rg": 4.33,
-      "games": 12
-    },
-    "TEX": {
-      "rg": 3.5,
-      "games": 12
-    },
-    "TOR": {
-      "rg": 4.83,
-      "games": 12
-    },
-    "MIN": {
-      "rg": 4.75,
-      "games": 12
-    },
-    "PHI": {
-      "rg": 4.46,
-      "games": 13
-    },
-    "ATL": {
-      "rg": 5.0,
-      "games": 12
-    },
-    "CWS": {
-      "rg": 5.0,
-      "games": 12
-    },
-    "MIA": {
       "rg": 3.92,
       "games": 13
     },
+    "SFG": {
+      "rg": 3.46,
+      "games": 13
+    },
+    "STL": {
+      "rg": 3.5,
+      "games": 12
+    },
+    "TBR": {
+      "rg": 4.67,
+      "games": 12
+    },
+    "TEX": {
+      "rg": 3.08,
+      "games": 12
+    },
+    "TOR": {
+      "rg": 4.08,
+      "games": 13
+    },
+    "MIN": {
+      "rg": 4.67,
+      "games": 12
+    },
+    "PHI": {
+      "rg": 4.85,
+      "games": 13
+    },
+    "ATL": {
+      "rg": 4.58,
+      "games": 12
+    },
+    "CWS": {
+      "rg": 4.75,
+      "games": 12
+    },
+    "MIA": {
+      "rg": 3.69,
+      "games": 13
+    },
     "NYY": {
-      "rg": 5.38,
+      "rg": 5.23,
       "games": 13
     },
     "MIL": {
-      "rg": 4.45,
+      "rg": 4.18,
       "games": 11
     }
   },
   "platoon": {
     "LAA": {
-      "vsL": 0.737,
-      "vsR": 0.691
+      "vsL": 0.728,
+      "vsR": 0.683
     },
     "ARI": {
-      "vsL": 0.726,
-      "vsR": 0.667
+      "vsL": 0.742,
+      "vsR": 0.666
     },
     "BAL": {
-      "vsL": 0.672,
-      "vsR": 0.702
+      "vsL": 0.674,
+      "vsR": 0.697
     },
     "BOS": {
-      "vsL": 0.739,
-      "vsR": 0.643
+      "vsL": 0.738,
+      "vsR": 0.645
     },
     "CHC": {
-      "vsL": 0.767,
-      "vsR": 0.733
+      "vsL": 0.774,
+      "vsR": 0.735
     },
     "CIN": {
-      "vsL": 0.695,
-      "vsR": 0.701
+      "vsL": 0.697,
+      "vsR": 0.705
     },
     "CLE": {
-      "vsL": 0.741,
-      "vsR": 0.664
+      "vsL": 0.737,
+      "vsR": 0.668
     },
     "COL": {
       "vsL": 0.637,
-      "vsR": 0.739
+      "vsR": 0.732
     },
     "DET": {
       "vsL": 0.681,
-      "vsR": 0.726
+      "vsR": 0.722
     },
     "HOU": {
       "vsL": 0.733,
-      "vsR": 0.754
+      "vsR": 0.749
     },
     "KCR": {
-      "vsL": 0.676,
-      "vsR": 0.72
+      "vsL": 0.672,
+      "vsR": 0.715
     },
     "LAD": {
-      "vsL": 0.775,
-      "vsR": 0.775
+      "vsL": 0.77,
+      "vsR": 0.777
     },
     "WSH": {
-      "vsL": 0.781,
-      "vsR": 0.71
+      "vsL": 0.776,
+      "vsR": 0.709
     },
     "NYM": {
       "vsL": 0.615,
-      "vsR": 0.65
+      "vsR": 0.646
     },
     "ATH": {
-      "vsL": 0.684,
-      "vsR": 0.756
+      "vsL": 0.679,
+      "vsR": 0.762
     },
     "PIT": {
-      "vsL": 0.673,
-      "vsR": 0.75
+      "vsL": 0.676,
+      "vsR": 0.753
     },
     "SDP": {
-      "vsL": 0.601,
+      "vsL": 0.596,
       "vsR": 0.674
     },
     "SEA": {
-      "vsL": 0.61,
-      "vsR": 0.748
+      "vsL": 0.608,
+      "vsR": 0.743
     },
     "SFG": {
-      "vsL": 0.634,
-      "vsR": 0.656
+      "vsL": 0.638,
+      "vsR": 0.66
     },
     "STL": {
-      "vsL": 0.696,
-      "vsR": 0.719
-    },
-    "TBR": {
-      "vsL": 0.667,
+      "vsL": 0.699,
       "vsR": 0.724
     },
+    "TBR": {
+      "vsL": 0.662,
+      "vsR": 0.737
+    },
     "TEX": {
-      "vsL": 0.559,
-      "vsR": 0.719
+      "vsL": 0.552,
+      "vsR": 0.709
     },
     "TOR": {
-      "vsL": 0.649,
-      "vsR": 0.701
+      "vsL": 0.655,
+      "vsR": 0.693
     },
     "MIN": {
-      "vsL": 0.721,
-      "vsR": 0.705
+      "vsL": 0.725,
+      "vsR": 0.697
     },
     "PHI": {
-      "vsL": 0.661,
-      "vsR": 0.699
+      "vsL": 0.669,
+      "vsR": 0.703
     },
     "ATL": {
-      "vsL": 0.753,
-      "vsR": 0.792
+      "vsL": 0.75,
+      "vsR": 0.79
     },
     "CWS": {
-      "vsL": 0.773,
-      "vsR": 0.7
+      "vsL": 0.786,
+      "vsR": 0.701
     },
     "MIA": {
-      "vsL": 0.666,
-      "vsR": 0.703
+      "vsL": 0.67,
+      "vsR": 0.697
     },
     "NYY": {
       "vsL": 0.778,
-      "vsR": 0.755
+      "vsR": 0.756
     },
     "MIL": {
-      "vsL": 0.605,
-      "vsR": 0.734
+      "vsL": 0.602,
+      "vsR": 0.73
     }
   },
   "schedule": [
     {
-      "away": "PHI",
-      "home": "PIT",
-      "game_date": "2026-05-15T22:40:00Z",
-      "game_pk": 823384,
-      "status": "pre-game",
-      "away_pitcher": {
-        "id": 605400,
-        "name": "Aaron Nola",
-        "hand": "R"
-      },
-      "home_pitcher": {
-        "id": 677952,
-        "name": "Braxton Ashcraft",
-        "hand": "R"
-      }
-    },
-    {
-      "away": "BAL",
-      "home": "WSH",
-      "game_date": "2026-05-15T22:45:00Z",
-      "game_pk": 822739,
-      "status": "pre-game",
-      "away_pitcher": {
-        "id": 669358,
-        "name": "Shane Baz",
-        "hand": "R"
-      },
-      "home_pitcher": {
-        "id": 641793,
-        "name": "Zack Littell",
-        "hand": "R"
-      }
-    },
-    {
       "away": "TOR",
       "home": "DET",
-      "game_date": "2026-05-15T22:45:00Z",
-      "game_pk": 824280,
-      "status": "pre-game",
+      "game_date": "2026-05-16T17:10:00Z",
+      "game_pk": 824278,
+      "status": "in progress",
       "away_pitcher": {
-        "id": 702056,
-        "name": "Trey Yesavage",
-        "hand": "R"
-      },
-      "home_pitcher": {
-        "id": 669724,
-        "name": "Brenan Hanifee",
-        "hand": "R"
-      }
-    },
-    {
-      "away": "CIN",
-      "home": "CLE",
-      "game_date": "2026-05-15T23:10:00Z",
-      "game_pk": 824439,
-      "status": "pre-game",
-      "away_pitcher": {
-        "id": 671096,
-        "name": "Andrew Abbott",
+        "id": 689254,
+        "name": "Mason Fluharty",
         "hand": "L"
       },
       "home_pitcher": {
-        "id": 676440,
-        "name": "Tanner Bibee",
-        "hand": "R"
-      }
-    },
-    {
-      "away": "MIA",
-      "home": "TBR",
-      "game_date": "2026-05-15T23:10:00Z",
-      "game_pk": 822983,
-      "status": "pre-game",
-      "away_pitcher": {
-        "id": 676083,
-        "name": "Janson Junk",
-        "hand": "R"
-      },
-      "home_pitcher": {
-        "id": 669947,
-        "name": "Jesse Scholtens",
-        "hand": "R"
-      }
-    },
-    {
-      "away": "MIL",
-      "home": "MIN",
-      "game_date": "2026-05-15T23:10:00Z",
-      "game_pk": 823707,
-      "status": "pre-game",
-      "away_pitcher": {
-        "id": 689441,
-        "name": "Coleman Crow",
-        "hand": "R"
-      },
-      "home_pitcher": {
-        "id": 657746,
-        "name": "Joe Ryan",
-        "hand": "R"
-      }
-    },
-    {
-      "away": "BOS",
-      "home": "ATL",
-      "game_date": "2026-05-15T23:15:00Z",
-      "game_pk": 824925,
-      "status": "pre-game",
-      "away_pitcher": {
-        "id": 813349,
-        "name": "Connelly Early",
-        "hand": "L"
-      },
-      "home_pitcher": {
-        "id": 675911,
-        "name": "Spencer Strider",
-        "hand": "R"
-      }
-    },
-    {
-      "away": "NYY",
-      "home": "NYM",
-      "game_date": "2026-05-15T23:15:00Z",
-      "game_pk": 823629,
-      "status": "pre-game",
-      "away_pitcher": {
-        "id": 693645,
-        "name": "Cam Schlittler",
-        "hand": "R"
-      },
-      "home_pitcher": {
-        "id": 605280,
-        "name": "Clay Holmes",
-        "hand": "R"
-      }
-    },
-    {
-      "away": "CHC",
-      "home": "CWS",
-      "game_date": "2026-05-15T23:40:00Z",
-      "game_pk": 824601,
-      "status": "pre-game",
-      "away_pitcher": {
-        "id": 665795,
-        "name": "Edward Cabrera",
-        "hand": "R"
-      },
-      "home_pitcher": {
-        "id": 680732,
-        "name": "Sean Burke",
-        "hand": "R"
-      }
-    },
-    {
-      "away": "TEX",
-      "home": "HOU",
-      "game_date": "2026-05-16T00:10:00Z",
-      "game_pk": 824194,
-      "status": "pre-game",
-      "away_pitcher": {
-        "id": 683004,
-        "name": "Jack Leiter",
-        "hand": "R"
-      },
-      "home_pitcher": {
-        "id": 681293,
-        "name": "Spencer Arrighetti",
+        "id": 663554,
+        "name": "Casey Mize",
         "hand": "R"
       }
     },
     {
       "away": "KCR",
       "home": "STL",
-      "game_date": "2026-05-16T00:15:00Z",
-      "game_pk": 823061,
-      "status": "pre-game",
+      "game_date": "2026-05-16T18:15:00Z",
+      "game_pk": 823060,
+      "status": "delayed start",
       "away_pitcher": {
-        "id": 608379,
-        "name": "Michael Wacha",
-        "hand": "R"
+        "id": 702070,
+        "name": "Noah Cameron",
+        "hand": "L"
       },
       "home_pitcher": {
-        "id": 669160,
-        "name": "Dustin May",
+        "id": 681517,
+        "name": "Kyle Leahy",
         "hand": "R"
       }
     },
     {
       "away": "ARI",
       "home": "COL",
-      "game_date": "2026-05-16T00:40:00Z",
-      "game_pk": 824360,
+      "game_date": "2026-05-16T19:10:00Z",
+      "game_pk": 824359,
       "status": "pre-game",
       "away_pitcher": {
-        "id": 518876,
-        "name": "Merrill Kelly",
+        "id": 593958,
+        "name": "Eduardo Rodriguez",
+        "hand": "L"
+      },
+      "home_pitcher": {
+        "id": 608372,
+        "name": "Tomoyuki Sugano",
+        "hand": "R"
+      }
+    },
+    {
+      "away": "BAL",
+      "home": "WSH",
+      "game_date": "2026-05-16T20:05:00Z",
+      "game_pk": 822737,
+      "status": "pre-game",
+      "away_pitcher": {
+        "id": 605135,
+        "name": "Chris Bassitt",
         "hand": "R"
       },
       "home_pitcher": {
-        "id": 607536,
-        "name": "Kyle Freeland",
+        "id": 676917,
+        "name": "Cade Cavalli",
+        "hand": "R"
+      }
+    },
+    {
+      "away": "PHI",
+      "home": "PIT",
+      "game_date": "2026-05-16T20:05:00Z",
+      "game_pk": 823382,
+      "status": "pre-game",
+      "away_pitcher": {
+        "id": 650911,
+        "name": "Cristopher S\u00e1nchez",
+        "hand": "L"
+      },
+      "home_pitcher": {
+        "id": 696149,
+        "name": "Bubba Chandler",
+        "hand": "R"
+      }
+    },
+    {
+      "away": "MIA",
+      "home": "TBR",
+      "game_date": "2026-05-16T20:10:00Z",
+      "game_pk": 822981,
+      "status": "pre-game",
+      "away_pitcher": {
+        "id": 645261,
+        "name": "Sandy Alcantara",
+        "hand": "R"
+      },
+      "home_pitcher": {
+        "id": 607259,
+        "name": "Nick Martinez",
+        "hand": "R"
+      }
+    },
+    {
+      "away": "CIN",
+      "home": "CLE",
+      "game_date": "2026-05-16T22:10:00Z",
+      "game_pk": 824435,
+      "status": "pre-game",
+      "away_pitcher": {
+        "id": 663978,
+        "name": "Chris Paddack",
+        "hand": "R"
+      },
+      "home_pitcher": {
+        "id": 676282,
+        "name": "Joey Cantillo",
         "hand": "L"
       }
     },
     {
-      "away": "LAD",
-      "home": "LAA",
-      "game_date": "2026-05-16T01:38:00Z",
-      "game_pk": 824037,
+      "away": "TEX",
+      "home": "HOU",
+      "game_date": "2026-05-16T23:10:00Z",
+      "game_pk": 824193,
       "status": "scheduled",
       "away_pitcher": {
-        "id": 605483,
-        "name": "Blake Snell",
-        "hand": "L"
+        "id": 594798,
+        "name": "Jacob deGrom",
+        "hand": "R"
       },
       "home_pitcher": {
-        "id": 686799,
-        "name": "Jack Kochanowicz",
+        "id": 678906,
+        "name": "Kai-Wei Teng",
         "hand": "R"
+      }
+    },
+    {
+      "away": "CHC",
+      "home": "CWS",
+      "game_date": "2026-05-16T23:10:00Z",
+      "game_pk": 824600,
+      "status": "scheduled",
+      "away_pitcher": {
+        "id": 592791,
+        "name": "Jameson Taillon",
+        "hand": "R"
+      },
+      "home_pitcher": {
+        "id": 663436,
+        "name": "Davis Martin",
+        "hand": "R"
+      }
+    },
+    {
+      "away": "MIL",
+      "home": "MIN",
+      "game_date": "2026-05-16T23:10:00Z",
+      "game_pk": 823706,
+      "status": "scheduled",
+      "away_pitcher": {
+        "id": 701656,
+        "name": "Logan Henderson",
+        "hand": "R"
+      },
+      "home_pitcher": {
+        "id": 687570,
+        "name": "Connor Prielipp",
+        "hand": "L"
       }
     },
     {
       "away": "SDP",
       "home": "SEA",
-      "game_date": "2026-05-16T01:40:00Z",
-      "game_pk": 823140,
+      "game_date": "2026-05-16T23:15:00Z",
+      "game_pk": 823139,
       "status": "scheduled",
       "away_pitcher": {
-        "id": 681190,
-        "name": "Randy V\u00e1squez",
+        "id": 621111,
+        "name": "Walker Buehler",
         "hand": "R"
       },
       "home_pitcher": {
-        "id": 676106,
-        "name": "Emerson Hancock",
+        "id": 669302,
+        "name": "Logan Gilbert",
+        "hand": "R"
+      }
+    },
+    {
+      "away": "BOS",
+      "home": "ATL",
+      "game_date": "2026-05-16T23:15:00Z",
+      "game_pk": 824924,
+      "status": "scheduled",
+      "away_pitcher": {
+        "id": 801139,
+        "name": "Payton Tolle",
+        "hand": "L"
+      },
+      "home_pitcher": {
+        "id": 693821,
+        "name": "Bryce Elder",
+        "hand": "R"
+      }
+    },
+    {
+      "away": "NYY",
+      "home": "NYM",
+      "game_date": "2026-05-16T23:15:00Z",
+      "game_pk": 823627,
+      "status": "pre-game",
+      "away_pitcher": {
+        "id": 607074,
+        "name": "Carlos Rod\u00f3n",
+        "hand": "L"
+      },
+      "home_pitcher": {
+        "id": 623211,
+        "name": "Huascar Brazob\u00e1n",
+        "hand": "R"
+      }
+    },
+    {
+      "away": "LAD",
+      "home": "LAA",
+      "game_date": "2026-05-17T01:38:00Z",
+      "game_pk": 824038,
+      "status": "scheduled",
+      "away_pitcher": {
+        "id": 680736,
+        "name": "Justin Wrobleski",
+        "hand": "L"
+      },
+      "home_pitcher": {
+        "id": 667755,
+        "name": "Jos\u00e9 Soriano",
         "hand": "R"
       }
     },
     {
       "away": "SFG",
       "home": "ATH",
-      "game_date": "2026-05-16T01:40:00Z",
-      "game_pk": 825009,
+      "game_date": "2026-05-17T01:40:00Z",
+      "game_pk": 825007,
       "status": "scheduled",
       "away_pitcher": {
-        "id": 641816,
-        "name": "Tyler Mahle",
+        "id": 686790,
+        "name": "Trevor McDonald",
         "hand": "R"
       },
       "home_pitcher": {
-        "id": 650644,
-        "name": "Aaron Civale",
+        "id": 622663,
+        "name": "Luis Severino",
         "hand": "R"
       }
     }
