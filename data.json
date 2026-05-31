@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T16:12:52.597680Z",
+  "generated": "2026-05-31T16:48:14.369146Z",
   "date": "2026-05-31",
   "season": 2026,
   "team_batting": {
@@ -196,8 +196,8 @@
       "games": 13
     },
     "BAL": {
-      "rg": 5.23,
-      "games": 13
+      "rg": 4.93,
+      "games": 14
     },
     "BOS": {
       "rg": 4.67,
@@ -276,8 +276,8 @@
       "games": 13
     },
     "TOR": {
-      "rg": 3.93,
-      "games": 14
+      "rg": 3.67,
+      "games": 15
     },
     "MIN": {
       "rg": 4.46,
@@ -436,7 +436,7 @@
       "home": "BAL",
       "game_date": "2026-05-31T16:15:00Z",
       "game_pk": 824832,
-      "status": "warmup",
+      "status": "in progress",
       "away_pitcher": {
         "id": 693686,
         "name": "Spencer Miles",
@@ -470,7 +470,7 @@
       "home": "PIT",
       "game_date": "2026-05-31T17:35:00Z",
       "game_pk": 823373,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 805673,
         "name": "Zebby Matthews",
