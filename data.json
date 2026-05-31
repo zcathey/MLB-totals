@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T03:01:25.460249Z",
+  "generated": "2026-05-31T03:10:31.846277Z",
   "date": "2026-05-31",
   "season": 2026,
   "team_batting": {
@@ -216,7 +216,7 @@
       "games": 13
     },
     "COL": {
-      "rg": 3.77,
+      "rg": 3.85,
       "games": 13
     },
     "DET": {
@@ -685,6 +685,164 @@
         "name": "Matthew Liberatore",
         "hand": "L"
       }
+    }
+  ],
+  "picks_history": [
+    {
+      "date": "2026-05-31",
+      "away": "TOR",
+      "home": "BAL",
+      "game": "TOR @ BAL",
+      "pick": "OVER",
+      "line": 8.0,
+      "model": 9.3,
+      "edge": 1.3,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "MIN",
+      "home": "PIT",
+      "game": "MIN @ PIT",
+      "pick": "OVER",
+      "line": 7.5,
+      "model": 9.3,
+      "edge": 1.8,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "BOS",
+      "home": "CLE",
+      "game": "BOS @ CLE",
+      "pick": "OVER",
+      "line": 7.5,
+      "model": 8.0,
+      "edge": 0.5,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "LAA",
+      "home": "TBR",
+      "game": "LAA @ TBR",
+      "pick": "OVER",
+      "line": 8.0,
+      "model": 9.2,
+      "edge": 1.2,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "ATL",
+      "home": "CIN",
+      "game": "ATL @ CIN",
+      "pick": "OVER",
+      "line": 8.5,
+      "model": 9.7,
+      "edge": 1.2,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "MIA",
+      "home": "NYM",
+      "game": "MIA @ NYM",
+      "pick": "OVER",
+      "line": 7.5,
+      "model": 8.4,
+      "edge": 0.9,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "DET",
+      "home": "CWS",
+      "game": "DET @ CWS",
+      "pick": "OVER",
+      "line": 7.5,
+      "model": 8.7,
+      "edge": 1.2,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "MIL",
+      "home": "HOU",
+      "game": "MIL @ HOU",
+      "pick": "OVER",
+      "line": 7.5,
+      "model": 9.5,
+      "edge": 2.0,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "KCR",
+      "home": "TEX",
+      "game": "KCR @ TEX",
+      "pick": "OVER",
+      "line": 7.5,
+      "model": 8.0,
+      "edge": 0.5,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "SFG",
+      "home": "COL",
+      "game": "SFG @ COL",
+      "pick": "UNDER",
+      "line": 11.0,
+      "model": 8.9,
+      "edge": -2.1,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "NYY",
+      "home": "ATH",
+      "game": "NYY @ ATH",
+      "pick": "UNDER",
+      "line": 10.0,
+      "model": 9.1,
+      "edge": -0.9,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "ARI",
+      "home": "SEA",
+      "game": "ARI @ SEA",
+      "pick": "OVER",
+      "line": 7.5,
+      "model": 8.4,
+      "edge": 0.9,
+      "result": "PENDING",
+      "final_total": null
+    },
+    {
+      "date": "2026-05-31",
+      "away": "CHC",
+      "home": "STL",
+      "game": "CHC @ STL",
+      "pick": "OVER",
+      "line": 8.5,
+      "model": 9.3,
+      "edge": 0.8,
+      "result": "PENDING",
+      "final_total": null
     }
   ]
 }
