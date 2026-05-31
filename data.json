@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T15:49:44.950643Z",
+  "generated": "2026-05-31T15:57:58.494137Z",
   "date": "2026-05-31",
   "season": 2026,
   "team_batting": {
@@ -436,7 +436,7 @@
       "home": "BAL",
       "game_date": "2026-05-31T16:15:00Z",
       "game_pk": 824832,
-      "status": "pre-game",
+      "status": "warmup",
       "away_pitcher": {
         "id": 693686,
         "name": "Spencer Miles",
