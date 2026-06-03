@@ -1,199 +1,199 @@
 {
-  "generated": "2026-06-03T01:05:05.158389Z",
+  "generated": "2026-06-03T18:46:51.926166Z",
   "date": "2026-06-03",
   "season": 2026,
   "team_batting": {
     "ARI": {
-      "wrc_plus": 97,
-      "ops": 0.704,
-      "r_g": 4.54,
-      "games": 59
+      "wrc_plus": 98,
+      "ops": 0.706,
+      "r_g": 4.55,
+      "games": 60
     },
     "ATH": {
       "wrc_plus": 96,
-      "ops": 0.724,
-      "r_g": 4.27,
-      "games": 59
+      "ops": 0.72,
+      "r_g": 4.23,
+      "games": 60
     },
     "ATL": {
-      "wrc_plus": 117,
-      "ops": 0.761,
-      "r_g": 5.27,
-      "games": 60
+      "wrc_plus": 116,
+      "ops": 0.759,
+      "r_g": 5.25,
+      "games": 61
     },
     "BAL": {
       "wrc_plus": 103,
-      "ops": 0.715,
-      "r_g": 4.58,
-      "games": 60
+      "ops": 0.717,
+      "r_g": 4.57,
+      "games": 61
     },
     "BOS": {
-      "wrc_plus": 99,
-      "ops": 0.696,
-      "r_g": 3.98,
-      "games": 58
-    },
-    "CHC": {
-      "wrc_plus": 111,
-      "ops": 0.723,
-      "r_g": 4.73,
-      "games": 60
-    },
-    "CWS": {
-      "wrc_plus": 105,
-      "ops": 0.733,
-      "r_g": 4.68,
-      "games": 60
-    },
-    "CIN": {
-      "wrc_plus": 95,
-      "ops": 0.709,
-      "r_g": 4.37,
+      "wrc_plus": 98,
+      "ops": 0.693,
+      "r_g": 3.95,
       "games": 59
     },
-    "CLE": {
-      "wrc_plus": 95,
-      "ops": 0.692,
-      "r_g": 4.08,
+    "CHC": {
+      "wrc_plus": 109,
+      "ops": 0.718,
+      "r_g": 4.67,
       "games": 61
+    },
+    "CWS": {
+      "wrc_plus": 104,
+      "ops": 0.73,
+      "r_g": 4.67,
+      "games": 61
+    },
+    "CIN": {
+      "wrc_plus": 94,
+      "ops": 0.707,
+      "r_g": 4.37,
+      "games": 60
+    },
+    "CLE": {
+      "wrc_plus": 97,
+      "ops": 0.696,
+      "r_g": 4.16,
+      "games": 62
     },
     "COL": {
-      "wrc_plus": 89,
-      "ops": 0.702,
-      "r_g": 4.26,
-      "games": 61
+      "wrc_plus": 90,
+      "ops": 0.708,
+      "r_g": 4.32,
+      "games": 62
     },
     "DET": {
-      "wrc_plus": 92,
-      "ops": 0.687,
-      "r_g": 3.82,
-      "games": 61
+      "wrc_plus": 94,
+      "ops": 0.693,
+      "r_g": 3.89,
+      "games": 62
     },
     "HOU": {
       "wrc_plus": 103,
-      "ops": 0.727,
-      "r_g": 4.44,
-      "games": 61
+      "ops": 0.726,
+      "r_g": 4.47,
+      "games": 62
     },
     "KCR": {
-      "wrc_plus": 95,
-      "ops": 0.69,
-      "r_g": 3.83,
-      "games": 60
+      "wrc_plus": 94,
+      "ops": 0.686,
+      "r_g": 3.82,
+      "games": 61
     },
     "LAA": {
       "wrc_plus": 98,
-      "ops": 0.701,
-      "r_g": 4.31,
-      "games": 61
+      "ops": 0.7,
+      "r_g": 4.27,
+      "games": 62
     },
     "LAD": {
-      "wrc_plus": 121,
+      "wrc_plus": 122,
       "ops": 0.787,
-      "r_g": 5.25,
-      "games": 60
+      "r_g": 5.26,
+      "games": 61
     },
     "MIA": {
-      "wrc_plus": 99,
-      "ops": 0.696,
-      "r_g": 4.21,
-      "games": 61
+      "wrc_plus": 100,
+      "ops": 0.701,
+      "r_g": 4.26,
+      "games": 62
     },
     "MIL": {
-      "wrc_plus": 97,
-      "ops": 0.7,
-      "r_g": 4.98,
-      "games": 57
+      "wrc_plus": 98,
+      "ops": 0.705,
+      "r_g": 5.03,
+      "games": 58
     },
     "MIN": {
-      "wrc_plus": 95,
+      "wrc_plus": 96,
       "ops": 0.703,
-      "r_g": 4.66,
-      "games": 61
+      "r_g": 4.68,
+      "games": 62
     },
     "NYM": {
       "wrc_plus": 85,
       "ops": 0.65,
-      "r_g": 4.02,
-      "games": 60
+      "r_g": 4.0,
+      "games": 61
     },
     "NYY": {
-      "wrc_plus": 115,
-      "ops": 0.77,
-      "r_g": 5.17,
-      "games": 59
-    },
-    "PHI": {
-      "wrc_plus": 84,
-      "ops": 0.673,
-      "r_g": 3.9,
-      "games": 59
-    },
-    "PIT": {
-      "wrc_plus": 105,
-      "ops": 0.733,
-      "r_g": 5.02,
+      "wrc_plus": 114,
+      "ops": 0.767,
+      "r_g": 5.15,
       "games": 60
     },
+    "PHI": {
+      "wrc_plus": 85,
+      "ops": 0.675,
+      "r_g": 3.88,
+      "games": 60
+    },
+    "PIT": {
+      "wrc_plus": 107,
+      "ops": 0.74,
+      "r_g": 5.1,
+      "games": 61
+    },
     "SDP": {
-      "wrc_plus": 86,
-      "ops": 0.657,
-      "r_g": 3.91,
-      "games": 58
+      "wrc_plus": 85,
+      "ops": 0.655,
+      "r_g": 3.88,
+      "games": 59
     },
     "SEA": {
-      "wrc_plus": 105,
-      "ops": 0.712,
-      "r_g": 4.23,
-      "games": 61
+      "wrc_plus": 106,
+      "ops": 0.717,
+      "r_g": 4.29,
+      "games": 62
     },
     "SFG": {
       "wrc_plus": 103,
-      "ops": 0.703,
-      "r_g": 3.9,
-      "games": 60
+      "ops": 0.704,
+      "r_g": 3.89,
+      "games": 61
     },
     "STL": {
       "wrc_plus": 101,
-      "ops": 0.696,
-      "r_g": 4.28,
-      "games": 58
+      "ops": 0.698,
+      "r_g": 4.27,
+      "games": 59
     },
     "TBR": {
-      "wrc_plus": 104,
-      "ops": 0.728,
-      "r_g": 4.75,
-      "games": 57
+      "wrc_plus": 103,
+      "ops": 0.723,
+      "r_g": 4.67,
+      "games": 58
     },
     "TEX": {
       "wrc_plus": 105,
       "ops": 0.696,
-      "r_g": 3.98,
-      "games": 60
+      "r_g": 4.03,
+      "games": 61
     },
     "TOR": {
       "wrc_plus": 90,
-      "ops": 0.69,
-      "r_g": 4.07,
-      "games": 60
+      "ops": 0.689,
+      "r_g": 4.05,
+      "games": 61
     },
     "WSH": {
-      "wrc_plus": 112,
-      "ops": 0.743,
-      "r_g": 5.36,
-      "games": 61
+      "wrc_plus": 110,
+      "ops": 0.739,
+      "r_g": 5.32,
+      "games": 62
     }
   },
   "team_pitching": {},
   "pitcher_stats": {},
   "recent_form": {
     "LAA": {
-      "rg": 5.75,
-      "games": 12
+      "rg": 5.46,
+      "games": 13
     },
     "ARI": {
-      "rg": 4.42,
-      "games": 12
+      "rg": 4.46,
+      "games": 13
     },
     "BAL": {
       "rg": 5.58,
@@ -208,23 +208,23 @@
       "games": 12
     },
     "CIN": {
-      "rg": 4.27,
+      "rg": 4.55,
       "games": 11
     },
     "CLE": {
-      "rg": 2.67,
+      "rg": 3.0,
       "games": 12
     },
     "COL": {
-      "rg": 4.5,
-      "games": 12
-    },
-    "DET": {
-      "rg": 3.69,
+      "rg": 4.77,
       "games": 13
     },
+    "DET": {
+      "rg": 3.86,
+      "games": 14
+    },
     "HOU": {
-      "rg": 4.75,
+      "rg": 5.0,
       "games": 12
     },
     "KCR": {
@@ -232,23 +232,23 @@
       "games": 12
     },
     "LAD": {
-      "rg": 5.64,
-      "games": 11
+      "rg": 5.67,
+      "games": 12
     },
     "WSH": {
-      "rg": 4.54,
-      "games": 13
+      "rg": 4.29,
+      "games": 14
     },
     "NYM": {
-      "rg": 3.58,
-      "games": 12
+      "rg": 3.54,
+      "games": 13
     },
     "ATH": {
       "rg": 3.25,
       "games": 12
     },
     "PIT": {
-      "rg": 5.23,
+      "rg": 5.85,
       "games": 13
     },
     "SDP": {
@@ -256,23 +256,23 @@
       "games": 11
     },
     "SEA": {
-      "rg": 4.82,
-      "games": 11
+      "rg": 5.08,
+      "games": 12
     },
     "SFG": {
-      "rg": 5.33,
+      "rg": 5.58,
       "games": 12
     },
     "STL": {
-      "rg": 2.75,
+      "rg": 2.92,
       "games": 12
     },
     "TBR": {
-      "rg": 4.0,
-      "games": 11
+      "rg": 3.83,
+      "games": 12
     },
     "TEX": {
-      "rg": 4.0,
+      "rg": 4.54,
       "games": 13
     },
     "TOR": {
@@ -280,8 +280,8 @@
       "games": 13
     },
     "MIN": {
-      "rg": 4.85,
-      "games": 13
+      "rg": 4.57,
+      "games": 14
     },
     "PHI": {
       "rg": 2.55,
@@ -292,19 +292,19 @@
       "games": 12
     },
     "CWS": {
-      "rg": 5.38,
-      "games": 13
+      "rg": 5.36,
+      "games": 14
     },
     "MIA": {
-      "rg": 3.38,
-      "games": 13
+      "rg": 3.43,
+      "games": 14
     },
     "NYY": {
       "rg": 5.45,
       "games": 11
     },
     "MIL": {
-      "rg": 4.58,
+      "rg": 5.0,
       "games": 12
     }
   },
@@ -314,120 +314,120 @@
       "vsR": 0.697
     },
     "ARI": {
-      "vsL": 0.795,
-      "vsR": 0.67
+      "vsL": 0.793,
+      "vsR": 0.673
     },
     "BAL": {
-      "vsL": 0.652,
-      "vsR": 0.742
+      "vsL": 0.664,
+      "vsR": 0.74
     },
     "BOS": {
       "vsL": 0.754,
-      "vsR": 0.677
+      "vsR": 0.673
     },
     "CHC": {
-      "vsL": 0.719,
-      "vsR": 0.725
+      "vsL": 0.704,
+      "vsR": 0.723
     },
     "CIN": {
-      "vsL": 0.761,
-      "vsR": 0.693
+      "vsL": 0.743,
+      "vsR": 0.695
     },
     "CLE": {
-      "vsL": 0.744,
-      "vsR": 0.67
+      "vsL": 0.742,
+      "vsR": 0.677
     },
     "COL": {
-      "vsL": 0.657,
-      "vsR": 0.716
+      "vsL": 0.654,
+      "vsR": 0.727
     },
     "DET": {
-      "vsL": 0.668,
-      "vsR": 0.694
+      "vsL": 0.7,
+      "vsR": 0.693
     },
     "HOU": {
-      "vsL": 0.757,
+      "vsL": 0.754,
       "vsR": 0.717
     },
     "KCR": {
-      "vsL": 0.685,
-      "vsR": 0.691
+      "vsL": 0.678,
+      "vsR": 0.69
     },
     "LAD": {
       "vsL": 0.773,
-      "vsR": 0.792
+      "vsR": 0.793
     },
     "WSH": {
-      "vsL": 0.766,
-      "vsR": 0.734
+      "vsL": 0.76,
+      "vsR": 0.731
     },
     "NYM": {
       "vsL": 0.645,
       "vsR": 0.652
     },
     "ATH": {
-      "vsL": 0.692,
-      "vsR": 0.736
+      "vsL": 0.686,
+      "vsR": 0.734
     },
     "PIT": {
-      "vsL": 0.691,
-      "vsR": 0.751
+      "vsL": 0.689,
+      "vsR": 0.76
     },
     "SDP": {
-      "vsL": 0.636,
-      "vsR": 0.663
+      "vsL": 0.632,
+      "vsR": 0.662
     },
     "SEA": {
-      "vsL": 0.618,
-      "vsR": 0.753
+      "vsL": 0.622,
+      "vsR": 0.757
     },
     "SFG": {
-      "vsL": 0.684,
+      "vsL": 0.688,
       "vsR": 0.71
     },
     "STL": {
-      "vsL": 0.685,
-      "vsR": 0.7
+      "vsL": 0.682,
+      "vsR": 0.704
     },
     "TBR": {
-      "vsL": 0.685,
-      "vsR": 0.748
+      "vsL": 0.673,
+      "vsR": 0.746
     },
     "TEX": {
-      "vsL": 0.619,
-      "vsR": 0.718
+      "vsL": 0.624,
+      "vsR": 0.716
     },
     "TOR": {
       "vsL": 0.648,
-      "vsR": 0.705
+      "vsR": 0.704
     },
     "MIN": {
-      "vsL": 0.689,
-      "vsR": 0.708
+      "vsL": 0.686,
+      "vsR": 0.711
     },
     "PHI": {
-      "vsL": 0.659,
-      "vsR": 0.679
+      "vsL": 0.66,
+      "vsR": 0.68
     },
     "ATL": {
-      "vsL": 0.727,
-      "vsR": 0.781
+      "vsL": 0.726,
+      "vsR": 0.779
     },
     "CWS": {
-      "vsL": 0.772,
-      "vsR": 0.716
+      "vsL": 0.771,
+      "vsR": 0.715
     },
     "MIA": {
-      "vsL": 0.695,
-      "vsR": 0.698
+      "vsL": 0.698,
+      "vsR": 0.702
     },
     "NYY": {
-      "vsL": 0.806,
-      "vsR": 0.752
+      "vsL": 0.808,
+      "vsR": 0.747
     },
     "MIL": {
-      "vsL": 0.636,
-      "vsR": 0.727
+      "vsL": 0.638,
+      "vsR": 0.734
     }
   },
   "schedule": [
@@ -436,7 +436,7 @@
       "home": "WSH",
       "game_date": "2026-06-03T17:05:00Z",
       "game_pk": 822727,
-      "status": "scheduled",
+      "status": "in progress",
       "away_pitcher": {
         "id": 676974,
         "name": "Max Meyer",
@@ -453,7 +453,7 @@
       "home": "TBR",
       "game_date": "2026-06-03T17:10:00Z",
       "game_pk": 822973,
-      "status": "scheduled",
+      "status": "in progress",
       "away_pitcher": {
         "id": 675512,
         "name": "Troy Melton",
@@ -470,7 +470,7 @@
       "home": "MIN",
       "game_date": "2026-06-03T17:40:00Z",
       "game_pk": 823701,
-      "status": "scheduled",
+      "status": "in progress",
       "away_pitcher": {
         "id": 607200,
         "name": "Erick Fedde",
@@ -487,7 +487,7 @@
       "home": "SEA",
       "game_date": "2026-06-03T19:40:00Z",
       "game_pk": 823130,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 642547,
         "name": "Freddy Peralta",
@@ -521,7 +521,7 @@
       "home": "BOS",
       "game_date": "2026-06-03T22:45:00Z",
       "game_pk": 824755,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 605135,
         "name": "Chris Bassitt",
@@ -555,7 +555,7 @@
       "home": "CIN",
       "game_date": "2026-06-03T23:10:00Z",
       "game_pk": 824509,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 663568,
         "name": "Stephen Kolek",
@@ -788,8 +788,8 @@
       "line": 8.0,
       "model": 7.1,
       "edge": -0.9,
-      "result": "PENDING",
-      "final_total": null,
+      "result": "WIN",
+      "final_total": 5,
       "source": "baseline"
     },
     {
@@ -801,8 +801,8 @@
       "line": 8.5,
       "model": 9.5,
       "edge": 1.0,
-      "result": "PENDING",
-      "final_total": null,
+      "result": "LOSS",
+      "final_total": 6,
       "source": "baseline"
     },
     {
@@ -814,8 +814,8 @@
       "line": 7.5,
       "model": 9.1,
       "edge": 1.6,
-      "result": "PENDING",
-      "final_total": null,
+      "result": "WIN",
+      "final_total": 13,
       "source": "baseline"
     },
     {
@@ -827,8 +827,8 @@
       "line": 9.0,
       "model": 8.0,
       "edge": -1.0,
-      "result": "PENDING",
-      "final_total": null,
+      "result": "WIN",
+      "final_total": 7,
       "source": "baseline"
     },
     {
@@ -840,8 +840,8 @@
       "line": 7.5,
       "model": 9.6,
       "edge": 2.1,
-      "result": "PENDING",
-      "final_total": null,
+      "result": "LOSS",
+      "final_total": 7,
       "source": "baseline"
     },
     {
@@ -853,8 +853,8 @@
       "line": 8.0,
       "model": 9.7,
       "edge": 1.7,
-      "result": "PENDING",
-      "final_total": null,
+      "result": "WIN",
+      "final_total": 10,
       "source": "baseline"
     },
     {
@@ -866,8 +866,8 @@
       "line": 7.5,
       "model": 8.5,
       "edge": 1.0,
-      "result": "PENDING",
-      "final_total": null,
+      "result": "WIN",
+      "final_total": 11,
       "source": "baseline"
     },
     {
@@ -879,8 +879,8 @@
       "line": 7.0,
       "model": 8.9,
       "edge": 1.9,
-      "result": "PENDING",
-      "final_total": null,
+      "result": "WIN",
+      "final_total": 11,
       "source": "baseline"
     },
     {
@@ -892,8 +892,8 @@
       "line": 7.5,
       "model": 9.1,
       "edge": 1.6,
-      "result": "PENDING",
-      "final_total": null,
+      "result": "LOSS",
+      "final_total": 3,
       "source": "baseline"
     },
     {
@@ -905,8 +905,8 @@
       "line": 9.0,
       "model": 10.2,
       "edge": 1.2,
-      "result": "PENDING",
-      "final_total": null,
+      "result": "WIN",
+      "final_total": 16,
       "source": "baseline"
     },
     {
@@ -918,8 +918,8 @@
       "line": 9.5,
       "model": 10.7,
       "edge": 1.2,
-      "result": "PENDING",
-      "final_total": null,
+      "result": "WIN",
+      "final_total": 11,
       "source": "baseline"
     },
     {
