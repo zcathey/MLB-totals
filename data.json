@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T19:41:21.264542Z",
+  "generated": "2026-06-06T19:48:54.791409Z",
   "date": "2026-06-06",
   "season": 2026,
   "team_batting": {
@@ -260,7 +260,7 @@
       "games": 13
     },
     "SFG": {
-      "rg": 6.5,
+      "rg": 6.57,
       "games": 14
     },
     "STL": {
@@ -538,7 +538,7 @@
       "home": "ARI",
       "game_date": "2026-06-06T20:10:00Z",
       "game_pk": 825075,
-      "status": "pre-game",
+      "status": "warmup",
       "away_pitcher": {
         "id": 641793,
         "name": "Zack Littell",
@@ -1405,5 +1405,146 @@
     }
   ],
   "il_moves": {},
-  "moneylines": {}
+  "moneylines": {
+    "KCR|MIN": {
+      "away": {
+        "abbr": "KCR",
+        "ml": 129
+      },
+      "home": {
+        "abbr": "MIN",
+        "ml": -169
+      }
+    },
+    "CIN|STL": {
+      "away": {
+        "abbr": "CIN",
+        "ml": -300
+      },
+      "home": {
+        "abbr": "STL",
+        "ml": 218
+      }
+    },
+    "CHC|SFG": {
+      "away": {
+        "abbr": "SFG",
+        "ml": -168
+      },
+      "home": {
+        "abbr": "CHC",
+        "ml": 129
+      }
+    },
+    "BAL|TOR": {
+      "away": {
+        "abbr": "BAL",
+        "ml": -103
+      },
+      "home": {
+        "abbr": "TOR",
+        "ml": -127
+      }
+    },
+    "CWS|PHI": {
+      "away": {
+        "abbr": "CWS",
+        "ml": 117
+      },
+      "home": {
+        "abbr": "PHI",
+        "ml": -141
+      }
+    },
+    "ARI|WSH": {
+      "away": {
+        "abbr": "WSH",
+        "ml": 129
+      },
+      "home": {
+        "abbr": "ARI",
+        "ml": -156
+      }
+    },
+    "ATH|HOU": {
+      "away": {
+        "abbr": "ATH",
+        "ml": 108
+      },
+      "home": {
+        "abbr": "HOU",
+        "ml": -130
+      }
+    },
+    "ATL|PIT": {
+      "away": {
+        "abbr": "PIT",
+        "ml": -103
+      },
+      "home": {
+        "abbr": "ATL",
+        "ml": -117
+      }
+    },
+    "MIA|TBR": {
+      "away": {
+        "abbr": "TBR",
+        "ml": -131
+      },
+      "home": {
+        "abbr": "MIA",
+        "ml": 109
+      }
+    },
+    "BOS|NYY": {
+      "away": {
+        "abbr": "BOS",
+        "ml": -101
+      },
+      "home": {
+        "abbr": "NYY",
+        "ml": -120
+      }
+    },
+    "CLE|TEX": {
+      "away": {
+        "abbr": "CLE",
+        "ml": 101
+      },
+      "home": {
+        "abbr": "TEX",
+        "ml": -122
+      }
+    },
+    "COL|MIL": {
+      "away": {
+        "abbr": "MIL",
+        "ml": -273
+      },
+      "home": {
+        "abbr": "COL",
+        "ml": 219
+      }
+    },
+    "LAA|LAD": {
+      "away": {
+        "abbr": "LAA",
+        "ml": 292
+      },
+      "home": {
+        "abbr": "LAD",
+        "ml": -377
+      }
+    },
+    "NYM|SDP": {
+      "away": {
+        "abbr": "NYM",
+        "ml": -125
+      },
+      "home": {
+        "abbr": "SDP",
+        "ml": 104
+      }
+    }
+  }
 }
