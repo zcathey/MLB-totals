@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T19:37:21.601832Z",
+  "generated": "2026-06-06T19:41:21.264542Z",
   "date": "2026-06-06",
   "season": 2026,
   "team_batting": {
@@ -276,7 +276,7 @@
       "games": 13
     },
     "TOR": {
-      "rg": 3.71,
+      "rg": 3.79,
       "games": 14
     },
     "MIN": {
@@ -555,7 +555,7 @@
       "home": "HOU",
       "game_date": "2026-06-06T20:10:00Z",
       "game_pk": 824184,
-      "status": "pre-game",
+      "status": "warmup",
       "away_pitcher": {
         "id": 695034,
         "name": "Kade Morris",
@@ -647,9 +647,9 @@
         "hand": "R"
       },
       "home_pitcher": {
-        "id": null,
-        "name": "TBD",
-        "hand": null
+        "id": 688642,
+        "name": "Zach Agnos",
+        "hand": "R"
       }
     },
     {
