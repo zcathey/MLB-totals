@@ -27,6 +27,8 @@ jobs:
         run: pip install pybaseball requests pandas beautifulsoup4
 
       - name: Run data generator
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python generate_data.py
 
       - name: Commit and push
