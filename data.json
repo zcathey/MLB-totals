@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T16:42:15.561680Z",
+  "generated": "2026-06-06T19:37:21.601832Z",
   "date": "2026-06-06",
   "season": 2026,
   "team_batting": {
@@ -196,20 +196,20 @@
       "games": 13
     },
     "BAL": {
-      "rg": 6.08,
-      "games": 13
+      "rg": 5.71,
+      "games": 14
     },
     "BOS": {
       "rg": 5.08,
       "games": 12
     },
     "CHC": {
-      "rg": 3.92,
-      "games": 13
+      "rg": 3.64,
+      "games": 14
     },
     "CIN": {
-      "rg": 3.83,
-      "games": 12
+      "rg": 3.92,
+      "games": 13
     },
     "CLE": {
       "rg": 3.08,
@@ -220,16 +220,16 @@
       "games": 12
     },
     "DET": {
-      "rg": 4.58,
-      "games": 12
+      "rg": 4.23,
+      "games": 13
     },
     "HOU": {
       "rg": 5.54,
       "games": 13
     },
     "KCR": {
-      "rg": 4.23,
-      "games": 13
+      "rg": 4.0,
+      "games": 14
     },
     "LAD": {
       "rg": 5.62,
@@ -256,16 +256,16 @@
       "games": 12
     },
     "SEA": {
-      "rg": 4.83,
-      "games": 12
-    },
-    "SFG": {
-      "rg": 7.0,
+      "rg": 4.77,
       "games": 13
     },
+    "SFG": {
+      "rg": 6.5,
+      "games": 14
+    },
     "STL": {
-      "rg": 4.0,
-      "games": 12
+      "rg": 3.92,
+      "games": 13
     },
     "TBR": {
       "rg": 3.91,
@@ -276,12 +276,12 @@
       "games": 13
     },
     "TOR": {
-      "rg": 4.0,
-      "games": 13
+      "rg": 3.71,
+      "games": 14
     },
     "MIN": {
-      "rg": 4.5,
-      "games": 14
+      "rg": 4.27,
+      "games": 15
     },
     "PHI": {
       "rg": 3.42,
@@ -310,7 +310,7 @@
   },
   "platoon": {
     "LAA": {
-      "vsL": 0.709,
+      "vsL": 0.711,
       "vsR": 0.696
     },
     "ARI": {
@@ -436,7 +436,7 @@
       "home": "DET",
       "game_date": "2026-06-06T17:10:00Z",
       "game_pk": 824269,
-      "status": "pre-game",
+      "status": "in progress",
       "away_pitcher": {
         "id": 682243,
         "name": "Bryce Miller",
@@ -453,7 +453,7 @@
       "home": "MIN",
       "game_date": "2026-06-06T18:10:00Z",
       "game_pk": 823697,
-      "status": "pre-game",
+      "status": "in progress",
       "away_pitcher": {
         "id": 679883,
         "name": "Luinder Avila",
@@ -470,7 +470,7 @@
       "home": "STL",
       "game_date": "2026-06-06T18:15:00Z",
       "game_pk": 823048,
-      "status": "pre-game",
+      "status": "in progress",
       "away_pitcher": {
         "id": 666157,
         "name": "Nick Lodolo",
@@ -487,7 +487,7 @@
       "home": "CHC",
       "game_date": "2026-06-06T18:20:00Z",
       "game_pk": 824669,
-      "status": "pre-game",
+      "status": "in progress",
       "away_pitcher": {
         "id": 694738,
         "name": "Landen Roupp",
@@ -504,7 +504,7 @@
       "home": "TOR",
       "game_date": "2026-06-06T19:07:00Z",
       "game_pk": 822808,
-      "status": "pre-game",
+      "status": "in progress",
       "away_pitcher": {
         "id": 680694,
         "name": "Kyle Bradish",
@@ -538,7 +538,7 @@
       "home": "ARI",
       "game_date": "2026-06-06T20:10:00Z",
       "game_pk": 825075,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 641793,
         "name": "Zack Littell",
@@ -589,7 +589,7 @@
       "home": "MIA",
       "game_date": "2026-06-06T20:10:00Z",
       "game_pk": 823859,
-      "status": "pre-game",
+      "status": "warmup",
       "away_pitcher": {
         "id": 663556,
         "name": "Shane McClanahan",
@@ -606,7 +606,7 @@
       "home": "TEX",
       "game_date": "2026-06-06T23:35:00Z",
       "game_pk": 822891,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 676440,
         "name": "Tanner Bibee",
@@ -640,7 +640,7 @@
       "home": "COL",
       "game_date": "2026-06-07T01:10:00Z",
       "game_pk": 824351,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 694819,
         "name": "Jacob Misiorowski",
@@ -1404,5 +1404,6 @@
       "source": "baseline"
     }
   ],
-  "il_moves": {}
+  "il_moves": {},
+  "moneylines": {}
 }
