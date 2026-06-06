@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T16:07:41.875981Z",
+  "generated": "2026-06-06T16:42:15.561680Z",
   "date": "2026-06-06",
   "season": 2026,
   "team_batting": {
@@ -521,7 +521,7 @@
       "home": "PHI",
       "game_date": "2026-06-06T20:05:00Z",
       "game_pk": 823454,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 685126,
         "name": "Brandon Eisert",
@@ -555,7 +555,7 @@
       "home": "HOU",
       "game_date": "2026-06-06T20:10:00Z",
       "game_pk": 824184,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 695034,
         "name": "Kade Morris",
@@ -572,7 +572,7 @@
       "home": "ATL",
       "game_date": "2026-06-06T20:10:00Z",
       "game_pk": 824915,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 677952,
         "name": "Braxton Ashcraft",
@@ -589,7 +589,7 @@
       "home": "MIA",
       "game_date": "2026-06-06T20:10:00Z",
       "game_pk": 823859,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 663556,
         "name": "Shane McClanahan",
