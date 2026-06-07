@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T01:06:32.610725Z",
+  "generated": "2026-06-07T01:10:23.042974Z",
   "date": "2026-06-07",
   "season": 2026,
   "team_batting": {
@@ -1726,6 +1726,16 @@
       "home": {
         "abbr": "ATL",
         "ml": -149
+      }
+    },
+    "BOS|NYY": {
+      "away": {
+        "abbr": "BOS",
+        "ml": 141
+      },
+      "home": {
+        "abbr": "NYY",
+        "ml": -171
       }
     },
     "CWS|PHI": {
