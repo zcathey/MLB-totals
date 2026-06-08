@@ -612,7 +612,7 @@ FULL_TO_ABBR = {
 if ODDS_API_KEY:
     try:
         odds_url = (f'https://api.the-odds-api.com/v4/sports/baseball_mlb/odds/'
-                    f'?apiKey={ODDS_API_KEY}&regions=us&markets=h2h'
+                    f'?apiKey={ODDS_API_KEY}&regions=eu&markets=h2h'
                     f'&oddsFormat=american&bookmakers=pinnacle')
         odds_r = requests.get(odds_url, timeout=15)
         if odds_r.ok:
