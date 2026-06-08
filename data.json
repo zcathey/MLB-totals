@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T15:35:24.810485Z",
+  "generated": "2026-06-08T17:56:44.338636Z",
   "date": "2026-06-08",
   "season": 2026,
   "team_batting": {
@@ -4599,17 +4599,17 @@
     "BAL|SEA": {
       "away": {
         "abbr": "SEA",
-        "ml": -123
+        "ml": -121
       },
       "home": {
         "abbr": "BAL",
-        "ml": 113
+        "ml": 112
       }
     },
     "BOS|TBR": {
       "away": {
         "abbr": "BOS",
-        "ml": -108
+        "ml": -109
       },
       "home": {
         "abbr": "TBR",
@@ -4619,61 +4619,61 @@
     "CLE|NYY": {
       "away": {
         "abbr": "NYY",
-        "ml": 110
+        "ml": 116
       },
       "home": {
         "abbr": "CLE",
-        "ml": -119
+        "ml": -125
       }
     },
     "PHI|TOR": {
       "away": {
         "abbr": "PHI",
-        "ml": -168
+        "ml": -165
       },
       "home": {
         "abbr": "TOR",
-        "ml": 154
+        "ml": 152
       }
     },
     "HOU|LAA": {
       "away": {
         "abbr": "HOU",
-        "ml": -122
+        "ml": -123
       },
       "home": {
         "abbr": "LAA",
-        "ml": 112
+        "ml": 114
       }
     },
     "CIN|SDP": {
       "away": {
         "abbr": "CIN",
-        "ml": 119
+        "ml": 118
       },
       "home": {
         "abbr": "SDP",
-        "ml": -129
+        "ml": -128
       }
     },
     "SFG|WSH": {
       "away": {
         "abbr": "WSH",
-        "ml": 129
+        "ml": 128
       },
       "home": {
         "abbr": "SFG",
-        "ml": -140
+        "ml": -139
       }
     },
     "ATH|MIL": {
       "away": {
         "abbr": "MIL",
-        "ml": -146
+        "ml": -139
       },
       "home": {
         "abbr": "ATH",
-        "ml": 135
+        "ml": 128
       }
     }
   }
