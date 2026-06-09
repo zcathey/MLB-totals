@@ -29,6 +29,7 @@ jobs:
       - name: Run data generator
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
         run: python generate_data.py
 
       - name: Commit and push
