@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T22:11:29.588964Z",
+  "generated": "2026-06-09T22:26:00.867010Z",
   "date": "2026-06-09",
   "season": 2026,
   "team_batting": {
@@ -4363,7 +4363,7 @@
       "home": "BAL",
       "game_date": "2026-06-09T22:35:00Z",
       "game_pk": 824830,
-      "status": "pre-game",
+      "status": "warmup",
       "away_pitcher": {
         "id": 669302,
         "name": "Logan Gilbert",
@@ -4380,7 +4380,7 @@
       "home": "PIT",
       "game_date": "2026-06-09T22:40:00Z",
       "game_pk": 823374,
-      "status": "pre-game",
+      "status": "warmup",
       "away_pitcher": {
         "id": 641778,
         "name": "Eric Lauer",
@@ -4397,7 +4397,7 @@
       "home": "TBR",
       "game_date": "2026-06-09T22:40:00Z",
       "game_pk": 822969,
-      "status": "pre-game",
+      "status": "warmup",
       "away_pitcher": {
         "id": 801139,
         "name": "Payton Tolle",
@@ -4431,7 +4431,7 @@
       "home": "MIA",
       "game_date": "2026-06-09T22:40:00Z",
       "game_pk": 823858,
-      "status": "pre-game",
+      "status": "warmup",
       "away_pitcher": {
         "id": 668678,
         "name": "Zac Gallen",
@@ -4448,7 +4448,7 @@
       "home": "CLE",
       "game_date": "2026-06-09T22:40:00Z",
       "game_pk": 824429,
-      "status": "pre-game",
+      "status": "warmup",
       "away_pitcher": {
         "id": 543037,
         "name": "Gerrit Cole",
@@ -4620,7 +4620,7 @@
     "ARI": 2.88,
     "BAL": 4.07,
     "BOS": 4.37,
-    "CHC": 4.54,
+    "CHC": 4.49,
     "CIN": 4.85,
     "CLE": 3.26,
     "COL": 4.4,
@@ -4655,17 +4655,17 @@
       },
       "home": {
         "abbr": "BAL",
-        "ml": 104
+        "ml": 105
       }
     },
     "ARI|MIA": {
       "away": {
         "abbr": "ARI",
-        "ml": -105
+        "ml": 124
       },
       "home": {
         "abbr": "MIA",
-        "ml": -105
+        "ml": -135
       }
     },
     "BOS|TBR": {
@@ -4681,41 +4681,41 @@
     "CLE|NYY": {
       "away": {
         "abbr": "NYY",
-        "ml": 102
+        "ml": -116
       },
       "home": {
         "abbr": "CLE",
-        "ml": -113
+        "ml": 107
       }
     },
     "LAD|PIT": {
       "away": {
         "abbr": "LAD",
-        "ml": -190
+        "ml": 107
       },
       "home": {
         "abbr": "PIT",
-        "ml": 169
+        "ml": -115
       }
     },
     "PHI|TOR": {
       "away": {
         "abbr": "PHI",
-        "ml": -101
+        "ml": -102
       },
       "home": {
         "abbr": "TOR",
-        "ml": -107
+        "ml": -106
       }
     },
     "NYM|STL": {
       "away": {
         "abbr": "STL",
-        "ml": 117
+        "ml": 116
       },
       "home": {
         "abbr": "NYM",
-        "ml": -129
+        "ml": -125
       }
     },
     "ATL|CWS": {
@@ -4741,21 +4741,21 @@
     "KCR|TEX": {
       "away": {
         "abbr": "TEX",
-        "ml": -117
+        "ml": -123
       },
       "home": {
         "abbr": "KCR",
-        "ml": 108
+        "ml": 114
       }
     },
     "CHC|COL": {
       "away": {
         "abbr": "CHC",
-        "ml": -158
+        "ml": -153
       },
       "home": {
         "abbr": "COL",
-        "ml": 142
+        "ml": 141
       }
     },
     "HOU|LAA": {
@@ -4771,21 +4771,21 @@
     "CIN|SDP": {
       "away": {
         "abbr": "CIN",
-        "ml": 141
+        "ml": -123
       },
       "home": {
         "abbr": "SDP",
-        "ml": -157
+        "ml": 114
       }
     },
     "SFG|WSH": {
       "away": {
         "abbr": "WSH",
-        "ml": 104
+        "ml": -104
       },
       "home": {
         "abbr": "SFG",
-        "ml": -115
+        "ml": -104
       }
     },
     "ATH|MIL": {
