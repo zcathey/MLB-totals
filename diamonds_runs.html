@@ -355,7 +355,7 @@ const KNOWN_HAND={'Reid Detmers':'L','Tyler Anderson':'L','Patrick Sandoval':'L'
 
 function today(){const d=new Date();return`${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}`}
 function todayISO(){const d=new Date();return`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`}
-function adjRA9(xera){if(xera==null)return LG_FIP+0.35;return xera+0.35;}
+function adjRA9(xera){if(xera==null)return LG_FIP+0.30;return xera+0.30;}
 function combPitch(ra9,bpFip,spXera=null){
   // Elite starters (xERA<2.75) likely pitch deeper — reduce bullpen weight
   if(spXera!=null&&spXera<=2.75)return 0.80*ra9+0.20*bpFip;
@@ -367,7 +367,7 @@ function combPitch(ra9,bpFip,spXera=null){
 function spTag(r){if(r<=2.75)return'<span class="stat-tag good">ELITE</span>';if(r<=3.60)return'<span class="stat-tag good">SOLID</span>';if(r<=5.0)return'<span class="stat-tag">AVG</span>';return'<span class="stat-tag warn">WEAK</span>'}
 function bpTag(f){if(!f)return'';if(f<=3.2)return'<span class="stat-tag good">ELITE PEN</span>';if(f<=3.8)return'<span class="stat-tag good">GOOD PEN</span>';if(f<=4.4)return'<span class="stat-tag">AVG PEN</span>';return'<span class="stat-tag warn">WEAK PEN</span>'}
 function blendedRG(abbr,recentRG,wrcPlus,isHome=false){
-  const homeMult=isHome?1.05:1.00;
+  const homeMult=isHome?1.015:0.985;
   const rbat=wrcPlus??RBAT[abbr]??100;
   const sRG=LG_AVG_RG*(rbat/100)*homeMult;
   if(recentRG==null)return{rg:sRG,blended:false,seasonRG:+sRG.toFixed(2),isHome};
@@ -531,7 +531,7 @@ async function loadAll(){
     const bullpenMap=Object.fromEntries(bullpenEntries.map(([a,v])=>{
       const serverXera=pyData?.bullpen_xera?.[a];
       const raw=serverXera??v?.fip??BP_FIP[a]??4.20;
-      return[a,+(raw+0.35).toFixed(2)];  // +0.35 xERA→est.RA9 same as starters
+      return[a,+(raw+0.30).toFixed(2)];  // +0.30 xERA→est.RA9 same as starters
     }));
     const bullpenRaw=Object.fromEntries(bullpenEntries);
     const rawPlatoon=Object.fromEntries(platoonEntries);
@@ -619,8 +619,8 @@ async function loadAll(){
       // Manual picks only — no auto-generation
       // Build score breakdown for tooltip
       // Full breakdown — each team absorbs proportional share of park/weather
-      const awayBaseRG = +(LG_AVG_RG*(awayWrc/100)).toFixed(2);
-      const homeBaseRG = +(LG_AVG_RG*(homeWrc/100)*1.05).toFixed(2);
+      const awayBaseRG = +(LG_AVG_RG*(awayWrc/100)*0.985).toFixed(2);
+      const homeBaseRG = +(LG_AVG_RG*(homeWrc/100)*1.015).toFixed(2);
       const awayBlendRG = +awayOff.rg.toFixed(2);
       const homeBlendRG = +homeOff.rg.toFixed(2);
       const awayPlatAdj = +awayPlatoon.adj.toFixed(2);
@@ -958,3 +958,4 @@ async function loadAll(){
 }
 loadAll();
 </script></body></html>
+
