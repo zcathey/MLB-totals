@@ -114,6 +114,69 @@ let _picksCache=null; // in-memory cache for this session
 
 function todayISO2(){const d=new Date();return new Date(d.toLocaleString('en-US',{timeZone:'America/New_York'})).toISOString().split('T')[0];}
 
+async function gradePicksInBrowser(picksData){
+  const today = todayISO2();
+  const allPicks = [...(picksData.ou||[]), ...(picksData.dog||[])];
+  const pending = allPicks.filter(p=>p.result==='PENDING' && p.date < today);
+  if(!pending.length) return false; // nothing to grade
+
+  // Get unique dates that need grading
+  const dates = [...new Set(pending.map(p=>p.date))];
+  console.log(`Grading ${pending.length} pending picks from: ${dates.join(', ')}`);
+
+  let anyUpdated = false;
+  for(const date of dates){
+    try{
+      const r = await fetch(`https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=${date}&hydrate=linescore`);
+      if(!r.ok) continue;
+      const schedData = await r.json();
+      const games = (schedData.dates?.[0]?.games)||[];
+      const finals = {};
+      const scores = {};
+      for(const g of games){
+        if(!('final' in (g.status?.detailedState||'').toLowerCase())) continue;
+        // Use detailedState check properly
+        const state = (g.status?.detailedState||'').toLowerCase();
+        if(!state.includes('final')) continue;
+        const aa = g.teams.away.team.abbreviation;
+        const ha = g.teams.home.team.abbreviation;
+        const aScore = g.teams.away.score||0;
+        const hScore = g.teams.home.score||0;
+        const key = `${aa}@${ha}`;
+        finals[key] = aScore + hScore;
+        scores[key] = {away: aScore, home: ha, awayAbbr: aa, homeAbbr: ha, homeScore: hScore};
+      }
+
+      // Grade picks for this date
+      const datePicks = pending.filter(p=>p.date===date);
+      for(const p of datePicks){
+        const key = `${p.away}@${p.home}`;
+        if(!(key in finals)) continue;
+        const total = finals[key];
+        p.final_total = total;
+
+        if(p.pick){ // O/U pick
+          if(p.line==null){p.result='PENDING';continue;} // no line — can't grade
+          if(p.pick==='OVER') p.result = total>p.line?'WIN':total===p.line?'PUSH':'LOSS';
+          else p.result = total<p.line?'WIN':total===p.line?'PUSH':'LOSS';
+        } else if(p.team){ // Dog pick
+          const s = scores[key];
+          if(!s) continue;
+          const teamWon = (p.team===s.awayAbbr && s.away>s.homeScore) ||
+                          (p.team===s.homeAbbr && s.homeScore>s.away);
+          const tied = s.away===s.homeScore;
+          p.result = tied?'PUSH':teamWon?'WIN':'LOSS';
+        }
+        console.log(`Graded ${key} (${date}): ${p.pick||p.team} — Final ${total} → ${p.result}`);
+        anyUpdated = true;
+      }
+    } catch(e){
+      console.warn(`Grading error for ${date}:`, e);
+    }
+  }
+  return anyUpdated;
+}
+
 async function loadGistPicks(){
   if(_picksCache)return _picksCache;
   try{
@@ -127,6 +190,9 @@ async function loadGistPicks(){
     // Also sync to localStorage as fallback
     localStorage.setItem('mlb_picks_gist',raw);
     console.log(`Picks loaded from Gist: ${_picksCache.ou?.length||0} OU, ${_picksCache.dog?.length||0} dog`);
+    // Grade any pending picks from previous days
+    const graded = await gradePicksInBrowser(_picksCache);
+    if(graded) await saveGistPicks(_picksCache); // save results back to Gist
   }catch(e){
     console.warn('Gist load failed, using localStorage fallback:',e);
     try{
