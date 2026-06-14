@@ -878,7 +878,7 @@ async function loadAll(){
           ${r.breakdown.away.envAdj!==0?`<div class="breakdown-row"><span class="breakdown-label">Weather/day (½)</span><span class="breakdown-val ${r.breakdown.away.envAdj>=0?'pos':'neg'}">${r.breakdown.away.envAdj>=0?'+':''}${r.breakdown.away.envAdj}R</span></div>`:''}
           <div class="breakdown-row" style="border-top:1px solid #00aa00"><span class="breakdown-label" style="color:#ffff00">${r.aa} PROJECTED</span><span class="breakdown-val" style="color:#ffff00;font-size:17px">${r.breakdown.away.final}</span></div>
           <div class="breakdown-section">── ${r.ha} RUNS (${r.breakdown.home.final}) ──</div>
-          <div class="breakdown-row"><span class="breakdown-label">wRC+ baseline (+5% home)</span><span class="breakdown-val">${r.breakdown.home.base} R/G</span></div>
+          <div class="breakdown-row"><span class="breakdown-label">wRC+ baseline (+1.5% home)</span><span class="breakdown-val">${r.breakdown.home.base} R/G</span></div>
           <div class="breakdown-row"><span class="breakdown-label">Blended w/L14</span><span class="breakdown-val">${r.breakdown.home.blend} R/G</span></div>
           ${r.homePlatoon?.teamOPS!=null?`<div class="breakdown-row"><span class="breakdown-label">Platoon adj (vs ${r.homePlatoon.spHand==='L'?'LHP':'RHP'})</span><span class="breakdown-val ${r.breakdown.home.platAdj>=0?'pos':'neg'}">${r.breakdown.home.platAdj>=0?'+':''}${r.breakdown.home.platAdj}R</span></div>`:''}
           <div class="breakdown-row"><span class="breakdown-label">50% offense</span><span class="breakdown-val">${r.breakdown.home.offComp}</span></div>
