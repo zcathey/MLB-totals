@@ -653,6 +653,7 @@ output = {
     'il_moves': il_moves,
     'bullpen_xera': bullpen_xera,
     'moneylines': moneylines,
+    'generated_at': datetime.datetime.now(_ET).strftime('%Y-%m-%d %I:%M %p ET'),
 }
 
 with open('data.json', 'w') as f:
