@@ -668,7 +668,7 @@ async function loadAll(){
       results.push({aa,ha,awayPP,homePP,awayS,homeS,
         manualPick:mp?.pick||null,
         manualDogPick:dp?.team||null,
-        awayML,homeML,awayImplied,homeImplied,awayModelWP,homeModelWP,awayEdgePct,homeEdgePct,awayRA9:+awayEffRA9.toFixed(2),homeRA9:+homeEffRA9.toFixed(2),awayComb:+awayComb.toFixed(2),homeComb:+homeComb.toFixed(2),awayOff,homeOff,awayRbat:awayWrc,homeRbat:homeWrc,awayRuns,homeRuns,total,vegasOU,edge,wx,windInfo,weatherAdj:+weatherAdj.toFixed(1),tempAdj,rainAdj,rainFlag,dayNightAdj,isDayGame,awayBullpenGame,homeBullpenGame,awayBpFip:+awayBpFip.toFixed(2),homeBpFip:+homeBpFip.toFixed(2),awayBpLive:!!bullpenRaw[aa]?.fip,homeBpLive:!!bullpenRaw[ha]?.fip,awayPlatoon,homePlatoon,parkName:park?.name||ha,parkFactor:pf,timeStr,isLive,isCoors:ha==='COL',isDome:park?!park.outdoor:false,breakdown});
+        awayML,homeML,awayImplied,homeImplied,awayModelWP,homeModelWP,awayEdgePct,homeEdgePct,awayRA9:+awayEffRA9.toFixed(2),homeRA9:+homeEffRA9.toFixed(2),awayXera:awayS?.xfip??null,homeXera:homeS?.xfip??null,awayComb:+awayComb.toFixed(2),homeComb:+homeComb.toFixed(2),awayOff,homeOff,awayRbat:awayWrc,homeRbat:homeWrc,awayRuns,homeRuns,total,vegasOU,edge,wx,windInfo,weatherAdj:+weatherAdj.toFixed(1),tempAdj,rainAdj,rainFlag,dayNightAdj,isDayGame,awayBullpenGame,homeBullpenGame,awayBpFip:+awayBpFip.toFixed(2),homeBpFip:+homeBpFip.toFixed(2),awayBpLive:!!bullpenRaw[aa]?.fip,homeBpLive:!!bullpenRaw[ha]?.fip,awayPlatoon,homePlatoon,parkName:park?.name||ha,parkFactor:pf,timeStr,isLive,isCoors:ha==='COL',isDome:park?!park.outdoor:false,breakdown});
     }
     results.sort((a,b)=>b.total-a.total);
     // Save today's full-model picks to localStorage
@@ -837,13 +837,13 @@ async function loadAll(){
           <div class="pitcher-card">
             <div class="pitcher-label">Away Starter</div>
             <div class="pitcher-name">${r.awayBullpenGame?'Bullpen Game':r.awayPP?.fullName||'TBD'}${r.awayS?.ip!=null&&r.awayS.ip>0?` <span style="font-size:17px;color:#00aa00">(${r.awayS.ip} IP)</span>`:''}</div>
-            <div class="pitcher-stats">xERA ${af} · K% ${ak} ${r.awayBullpenGame?'':spTag(r.awayRA9)}</div>
+            <div class="pitcher-stats">xERA ${af} · K% ${ak} ${r.awayBullpenGame?'':spTag(r.awayXera??r.awayRA9)}</div>
             <div class="pitcher-stats" style="margin-top:3px;">Pen ${r.awayBpFip.toFixed(2)} ${bpTag(r.awayBpFip)}</div>
           </div>
           <div class="pitcher-card">
             <div class="pitcher-label">Home Starter</div>
             <div class="pitcher-name">${r.homeBullpenGame?'Bullpen Game':r.homePP?.fullName||'TBD'}${r.homeS?.ip!=null&&r.homeS.ip>0?` <span style="font-size:17px;color:#00aa00">(${r.homeS.ip} IP)</span>`:''}</div>
-            <div class="pitcher-stats">xERA ${hf} · K% ${hk} ${r.homeBullpenGame?'':spTag(r.homeRA9)}</div>
+            <div class="pitcher-stats">xERA ${hf} · K% ${hk} ${r.homeBullpenGame?'':spTag(r.homeXera??r.homeRA9)}</div>
             <div class="pitcher-stats" style="margin-top:3px;">Pen ${r.homeBpFip.toFixed(2)} ${bpTag(r.homeBpFip)}</div>
           </div>
         </div>
