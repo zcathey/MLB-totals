@@ -79,7 +79,7 @@
       <div id="underdogSection" style="display:none">
         <div class="leaders-section" style="margin:0;margin-top:12px;border-color:#ffaa00;box-shadow:4px 4px 0 #554400">
           <div class="leaders-headline" style="color:#ffaa00">🐶 UNDERDOG VALUE</div>
-          <div class="leaders-subline">Model Win% vs Implied ML Odds (10%+ edge)</div>
+          <div class="leaders-subline">Model Win% vs Implied ML Odds (9%+ edge)</div>
           <div id="underdogContent"></div>
         </div>
       </div>
@@ -708,9 +708,9 @@ async function loadAll(){
       .flatMap(r=>{
         const picks=[];
         // Only flag the underdog (positive ML) with meaningful edge
-        if(r.awayML!=null&&r.awayML>0&&r.awayEdgePct>=0.10)
+        if(r.awayML!=null&&r.awayML>0&&r.awayEdgePct>=0.09)
           picks.push({game:`${r.aa} @ ${r.ha}`,team:r.aa,role:'Away Dog',ml:r.awayML,implied:r.awayImplied,modelWP:r.awayModelWP,edge:r.awayEdgePct,time:r.timeStr,awayRuns:r.awayRuns,homeRuns:r.homeRuns});
-        if(r.homeML!=null&&r.homeML>0&&r.homeEdgePct>=0.10)
+        if(r.homeML!=null&&r.homeML>0&&r.homeEdgePct>=0.09)
           picks.push({game:`${r.aa} @ ${r.ha}`,team:r.ha,role:'Home Dog',ml:r.homeML,implied:r.homeImplied,modelWP:r.homeModelWP,edge:r.homeEdgePct,time:r.timeStr,awayRuns:r.awayRuns,homeRuns:r.homeRuns});
         return picks;
       })
@@ -782,7 +782,7 @@ async function loadAll(){
         const parts=[r.windInfo.lbl];
         if(r.wx&&!r.isDome){
           const sign=r.tempAdj>0?'+':'';
-          if(Math.abs(r.tempAdj)>=0.10)parts.push(`${r.wx.temp}°F (${sign}${r.tempAdj}R)`);
+          if(Math.abs(r.tempAdj)>=0.09)parts.push(`${r.wx.temp}°F (${sign}${r.tempAdj}R)`);
           else parts.push(`${r.wx.temp}°F`);
         }
         if(r.rainFlag)parts.push(`Rain ${r.rainAdj}R`);
@@ -949,7 +949,7 @@ async function loadAll(){
       document.getElementById('trackerPicksTop').innerHTML = recentHTML;
     }
     // ─────────────────────────────────────────────────────────────────────────
-    document.getElementById('statusText').textContent=`Edition ready · ${results.length} games · ${withLines.length} O/U lines · ${new Date().toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'})}`;
+    const dataAge=pyData?.generated_at?` · Data: ${pyData.generated_at}`:''; document.getElementById('statusText').textContent=`Edition ready · ${results.length} games · ${withLines.length} O/U lines${dataAge}`;
   }catch(err){
     console.error(err);
     document.getElementById('gamesContainer').innerHTML='<p style="padding:40px;color:#ff5500;text-align:center;"><strong>ERROR:</strong> Could not fetch today\'s edition. Check your connection.</p>';
