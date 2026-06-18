@@ -198,6 +198,25 @@ if not team_bat:
 
 print(f"  Team batting total: {len(team_bat)} teams")
 
+# ── 1b. TEAM RECORDS ─────────────────────────────────────────────────────────
+print("Fetching team records...")
+team_records = {}
+try:
+    standings_url = f'https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season={SEASON}&standingsTypes=regularSeason'
+    sd = mlb_get(standings_url)
+    if sd:
+        for division in (sd.get('records') or []):
+            for team in (division.get('teamRecords') or []):
+                tid = team['team']['id']
+                abbr = TEAM_ID_MAP.get(tid, '')
+                if abbr:
+                    w = team.get('wins', 0)
+                    l = team.get('losses', 0)
+                    team_records[abbr] = {'w': w, 'l': l, 'record': f"{w}-{l}"}
+    print(f"  Got records for {len(team_records)} teams")
+except Exception as e:
+    print(f"  Team records error: {e}")
+
 # ── 2. TEAM PITCHING from MLB Stats API ───────────────────────────────────────
 print("Fetching team pitching from MLB Stats API...")
 team_pitch = {}
@@ -653,6 +672,7 @@ output = {
     'il_moves': il_moves,
     'bullpen_xera': bullpen_xera,
     'moneylines': moneylines,
+    'team_records': team_records,
     'generated_at': datetime.datetime.now(_ET).strftime('%Y-%m-%d %I:%M %p ET'),
 }
 
