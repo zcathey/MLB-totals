@@ -453,7 +453,8 @@ async function loadAll(){
   try{
     // Load pybaseball data.json
     let pyData=null;
-    try{const r=await fetch('./data.json?t='+Date.now());if(r.ok)pyData=await r.json();}catch(e){}
+    try{const _et=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));const _cacheKey=`${_et.getFullYear()}-${_et.getMonth()}-${_et.getDate()}-${_et.getHours()}`;
+    const r=await fetch('./data.json?v='+_cacheKey);if(r.ok)pyData=await r.json();}catch(e){}
 
     const[espnR,mlbR]=await Promise.all([
       fetchWithFallback(`https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=${dateStr}&lang=en&region=us&calendartype=blacklist&limit=100`),
@@ -570,6 +571,8 @@ async function loadAll(){
       const awayEffRA9=awayBullpenGame?awayBpFip+1.2:awayRA9,homeEffRA9=homeBullpenGame?homeBpFip+1.2:homeRA9;
       const awayComb=combPitch(awayEffRA9,awayBpFip,awayS?.xfip??null),homeComb=combPitch(homeEffRA9,homeBpFip,homeS?.xfip??null);
       const awayWrc=pyData?.team_batting?.[aa]?.wrc_plus??RBAT[aa]??100;
+      const awayRec=pyData?.team_records?.[aa]?.record||'';
+      const homeRec=pyData?.team_records?.[ha]?.record||'';
       const homeWrc=pyData?.team_batting?.[ha]?.wrc_plus??RBAT[ha]??100;
       const awayOff=blendedRG(aa,formMap[aa]?.rg,awayWrc,false);
       const homeOff=blendedRG(ha,formMap[ha]?.rg,homeWrc,true);
@@ -665,7 +668,7 @@ async function loadAll(){
       };
       const mp=manualPicksToday.find(p=>p.away===aa&&p.home===ha);
       const dp=dogPicksToday.find(p=>p.away===aa&&p.home===ha);
-      results.push({aa,ha,awayPP,homePP,awayS,homeS,
+      results.push({aa,ha,awayRec,homeRec,awayPP,homePP,awayS,homeS,
         manualPick:mp?.pick||null,
         manualDogPick:dp?.team||null,
         awayML,homeML,awayImplied,homeImplied,awayModelWP,homeModelWP,awayEdgePct,homeEdgePct,awayRA9:+awayEffRA9.toFixed(2),homeRA9:+homeEffRA9.toFixed(2),awayXera:awayS?.xfip??null,homeXera:homeS?.xfip??null,awayComb:+awayComb.toFixed(2),homeComb:+homeComb.toFixed(2),awayOff,homeOff,awayRbat:awayWrc,homeRbat:homeWrc,awayRuns,homeRuns,total,vegasOU,edge,wx,windInfo,weatherAdj:+weatherAdj.toFixed(1),tempAdj,rainAdj,rainFlag,dayNightAdj,isDayGame,awayBullpenGame,homeBullpenGame,awayBpFip:+awayBpFip.toFixed(2),homeBpFip:+homeBpFip.toFixed(2),awayBpLive:!!bullpenRaw[aa]?.fip,homeBpLive:!!bullpenRaw[ha]?.fip,awayPlatoon,homePlatoon,parkName:park?.name||ha,parkFactor:pf,timeStr,isLive,isCoors:ha==='COL',isDome:park?!park.outdoor:false,breakdown});
@@ -795,7 +798,9 @@ async function loadAll(){
       const homePlatoonNote=r.homePlatoon?.teamOPS!=null?`vs ${r.homePlatoon.spHand==='L'?'LHP':'RHP'}: OPS ${r.homePlatoon.teamOPS} (${r.homePlatoon.adj>=0?'+':''}${r.homePlatoon.adj}R)`:'';
       html+=`<div class="game-entry ${isFeatured?'featured':''}">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px;">
-          <div class="game-matchup-teams" style="font-family:'Press Start 2P',monospace;font-size:21px;font-weight:900;color:#ffffff;min-width:0;">${teamLogo(r.aa,36)}${r.aa} @ ${teamLogo(r.ha,36)}${r.ha}</div>
+          <div class="game-matchup-teams" style="font-family:'Press Start 2P',monospace;font-size:21px;font-weight:900;color:#ffffff;min-width:0;">
+            <span>${teamLogo(r.aa,36)}${r.aa}</span>${r.awayRec?`<span style="font-family:'VT323',monospace;font-size:14px;color:#888888;font-weight:normal;margin-left:4px;">${r.awayRec}</span>`:''} <span style="color:#555">@</span> <span>${teamLogo(r.ha,36)}${r.ha}</span>${r.homeRec?`<span style="font-family:'VT323',monospace;font-size:14px;color:#888888;font-weight:normal;margin-left:4px;">${r.homeRec}</span>`:''}
+          </div>
           <div style="text-align:right;line-height:1.25;flex-shrink:0;max-width:220px;">
             <div class="game-time" style="color:${r.isLive?'#ff0000':'#00aa00'};margin-bottom:1px;">${r.isLive?'LIVE NOW':r.timeStr}</div>
             <div style="font-family:'VT323',monospace;font-size:16px;color:#ffaa00;margin-bottom:1px;white-space:nowrap;">📍 ${r.parkName}${r.isDome?' · DOME':''}</div>
