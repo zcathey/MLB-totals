@@ -112,7 +112,13 @@ const GIST_TOKEN=['ghp_nlr5','vhMk5AjA','YrHcvsSk','AdQJPTtC','r01V6vPc'].join('
 const GIST_FILE='mlb_picks.json';
 let _picksCache=null; // in-memory cache for this session
 
-function todayISO2(){const d=new Date();return new Date(d.toLocaleString('en-US',{timeZone:'America/New_York'})).toISOString().split('T')[0];}
+function todayISO2(){
+  const d=new Date();
+  // Use Intl.DateTimeFormat for reliable ET date across all browsers including iOS Safari
+  const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);
+  const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));
+  return `${p.year}-${p.month}-${p.day}`;
+}
 
 async function gradePicksInBrowser(picksData){
   const today = todayISO2();
@@ -224,6 +230,17 @@ function getManualPicks(){
 }
 function getDogPicks(){
   try{return(_picksCache?.dog||JSON.parse(localStorage.getItem('mlb_picks_gist')||'{"dog":[]}').dog||[]);}catch{return[];}
+}
+
+async function deletePick(away, home, date, type){
+  const data = await loadGistPicks();
+  if(type==='ou'){
+    data.ou = (data.ou||[]).filter(p=>!(p.away===away&&p.home===home&&p.date===date));
+  } else {
+    data.dog = (data.dog||[]).filter(p=>!(p.away===away&&p.home===home&&p.date===date));
+  }
+  await saveGistPicks(data);
+  loadAll();
 }
 
 async function manualPick(aa, ha, timeStr, line, direction, model){
@@ -743,7 +760,8 @@ async function loadAll(){
       document.getElementById('myPicksContent').innerHTML=myPicks.map(p=>{
         const resultColor=p.result==='WIN'?'#00ff00':p.result==='LOSS'?'#ff4444':p.result==='PUSH'?'#ffff00':'#00aaff';
         const edgeStr=p.edge!=null?(p.edge>0?'+':'')+p.edge+'R':'';
-        return`<div class="leader-item">
+        return`<div class="leader-item" style="position:relative;">
+          <button onclick="deletePick('${p.away}','${p.home}','${p.date}','ou')" style="position:absolute;top:4px;right:4px;background:#330000;color:#ff4444;border:1px solid #660000;font-family:'VT323',monospace;font-size:16px;padding:1px 7px;cursor:pointer;line-height:1.2;">✕</button>
           <div class="leader-matchup" style="color:#00aaff">${p.pick} ${p.game}</div>
           <div class="leader-reason">${p.time||''} · Line: ${p.line||'—'} · Model: ${p.model}${edgeStr?' ('+edgeStr+')':''}</div>
           <div class="leader-values">
@@ -761,7 +779,8 @@ async function loadAll(){
       document.getElementById('myDogContent').innerHTML=myDogs.map(p=>{
         const resultColor=p.result==='WIN'?'#00ff00':p.result==='LOSS'?'#ff4444':p.result==='PUSH'?'#ffff00':'#ffaa00';
         const edgePct=Math.round((p.modelWP-p.impliedWP)*100);
-        return`<div class="leader-item">
+        return`<div class="leader-item" style="position:relative;">
+          <button onclick="deletePick('${p.away}','${p.home}','${p.date}','dog')" style="position:absolute;top:4px;right:4px;background:#330000;color:#ff4444;border:1px solid #660000;font-family:'VT323',monospace;font-size:16px;padding:1px 7px;cursor:pointer;line-height:1.2;">✕</button>
           <div class="leader-matchup" style="color:#ffaa00">${p.team} +${p.ml} <span style="font-size:10px;color:#888">${p.game}</span></div>
           <div class="leader-reason">${p.time||''} · Model ${Math.round(p.modelWP*100)}% · Impl ${Math.round(p.impliedWP*100)}% · Edge +${edgePct}%</div>
           <div class="leader-values">
@@ -943,7 +962,9 @@ async function loadAll(){
         const ri = p.result==='WIN'?'✓':p.result==='LOSS'?'✗':p.result==='PUSH'?'~':'⏳';
         const final = p.final_total!=null?` · Final: ${p.final_total}`:'';
         const betLabel = p.pick?`${p.pick} ${p.line||''}`:p.team?`🐶 ${p.team} +${p.ml}`:'';
-        return`<div class="pick-row">
+        const ptype = p.pick?'ou':'dog';
+        return`<div class="pick-row" style="position:relative;">
+          <button onclick="deletePick('${p.away}','${p.home}','${p.date}','${ptype}')" style="position:absolute;right:0;top:2px;background:#330000;color:#ff4444;border:1px solid #660000;font-family:'VT323',monospace;font-size:14px;padding:0 5px;cursor:pointer;">✕</button>
           <span class="pick-game">${p.game}</span>
           <span class="pick-bet">${betLabel}</span>
           <span class="pick-date" style="font-family:'VT323',monospace;font-size:16px;color:#00aa00;">${p.date}</span>
