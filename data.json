@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03T15:53:49.784272Z",
+  "generated": "2026-07-03T21:43:31.727993Z",
   "date": "2026-07-03",
   "season": 2026,
   "team_batting": {
@@ -210,10 +210,10 @@
       "fip": 3.81
     },
     "CHC": {
-      "era": 4.23,
+      "era": 4.34,
       "k_pct": 1.8,
       "bb_pct": 0.7,
-      "fip": 4.23
+      "fip": 4.34
     },
     "CIN": {
       "era": 4.59,
@@ -300,10 +300,10 @@
       "fip": 4.37
     },
     "STL": {
-      "era": 4.23,
-      "k_pct": 1.8,
+      "era": 4.21,
+      "k_pct": 1.7,
       "bb_pct": 0.8,
-      "fip": 4.23
+      "fip": 4.21
     },
     "TBR": {
       "era": 3.72,
@@ -4502,8 +4502,8 @@
       "games": 13
     },
     "CHC": {
-      "rg": 8.67,
-      "games": 12
+      "rg": 8.0,
+      "games": 13
     },
     "CIN": {
       "rg": 4.08,
@@ -4562,8 +4562,8 @@
       "games": 12
     },
     "STL": {
-      "rg": 4.27,
-      "games": 11
+      "rg": 4.83,
+      "games": 12
     },
     "TBR": {
       "rg": 5.38,
@@ -4625,7 +4625,7 @@
     },
     "CHC": {
       "vsL": 0.778,
-      "vsR": 0.744
+      "vsR": 0.743
     },
     "CIN": {
       "vsL": 0.761,
@@ -4734,7 +4734,7 @@
       "home": "CHC",
       "game_date": "2026-07-03T20:05:00Z",
       "game_pk": 824659,
-      "status": "scheduled",
+      "status": "in progress",
       "away_pitcher": {
         "id": 669467,
         "name": "Andre Pallante",
@@ -4751,7 +4751,7 @@
       "home": "WSH",
       "game_date": "2026-07-03T22:45:00Z",
       "game_pk": 822714,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 656605,
         "name": "Mitch Keller",
@@ -4768,7 +4768,7 @@
       "home": "NYY",
       "game_date": "2026-07-03T23:05:00Z",
       "game_pk": 823527,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 702474,
         "name": "Mike Paredes",
@@ -4785,7 +4785,7 @@
       "home": "CIN",
       "game_date": "2026-07-03T23:10:00Z",
       "game_pk": 824498,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 669432,
         "name": "Trevor Rogers",
@@ -4802,7 +4802,7 @@
       "home": "CLE",
       "game_date": "2026-07-03T23:10:00Z",
       "game_pk": 824417,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 641743,
         "name": "Anthony Kay",
@@ -4819,7 +4819,7 @@
       "home": "ATL",
       "game_date": "2026-07-03T23:15:00Z",
       "game_pk": 824904,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 681035,
         "name": "Christian Scott",
@@ -4836,11 +4836,11 @@
       "home": "COL",
       "game_date": "2026-07-04T00:10:00Z",
       "game_pk": 824336,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
-        "id": null,
-        "name": "TBD",
-        "hand": null
+        "id": 657277,
+        "name": "Logan Webb",
+        "hand": "R"
       },
       "home_pitcher": {
         "id": 663372,
@@ -4853,7 +4853,7 @@
       "home": "HOU",
       "game_date": "2026-07-04T00:15:00Z",
       "game_pk": 824173,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 607259,
         "name": "Nick Martinez",
@@ -4887,7 +4887,7 @@
       "home": "ATH",
       "game_date": "2026-07-04T01:40:00Z",
       "game_pk": 824982,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 663969,
         "name": "Tyler Phillips",
@@ -4904,7 +4904,7 @@
       "home": "ARI",
       "game_date": "2026-07-04T01:45:00Z",
       "game_pk": 825062,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 690986,
         "name": "Kyle Harrison",
@@ -4955,24 +4955,24 @@
   "bullpen_xera": {
     "LAA": 4.03,
     "ARI": 3.68,
-    "BAL": 3.62,
+    "BAL": 3.74,
     "BOS": 3.9,
-    "CHC": 4.42,
+    "CHC": 4.46,
     "CIN": 4.69,
     "CLE": 3.64,
     "COL": 4.61,
     "DET": 3.74,
-    "HOU": 3.5,
+    "HOU": 3.67,
     "KCR": 4.06,
     "LAD": 2.95,
     "WSH": 4.59,
     "NYM": 3.92,
-    "ATH": 3.55,
+    "ATH": 3.62,
     "PIT": 3.87,
     "SDP": 3.43,
     "SEA": 4.04,
     "SFG": 4.37,
-    "STL": 4.92,
+    "STL": 4.59,
     "TBR": 4.17,
     "TEX": 3.67,
     "TOR": 3.5,
@@ -4985,44 +4985,34 @@
     "MIL": 3.29
   },
   "moneylines": {
-    "CHC|STL": {
-      "away": {
-        "abbr": "STL",
-        "ml": 112
-      },
-      "home": {
-        "abbr": "CHC",
-        "ml": -121
-      }
-    },
     "PIT|WSH": {
       "away": {
         "abbr": "PIT",
-        "ml": 135
+        "ml": 130
       },
       "home": {
         "abbr": "WSH",
-        "ml": -146
+        "ml": -141
       }
     },
     "MIN|NYY": {
       "away": {
         "abbr": "MIN",
-        "ml": 165
+        "ml": 196
       },
       "home": {
         "abbr": "NYY",
-        "ml": -180
+        "ml": -216
       }
     },
     "BAL|CIN": {
       "away": {
         "abbr": "BAL",
-        "ml": -117
+        "ml": -121
       },
       "home": {
         "abbr": "CIN",
-        "ml": 108
+        "ml": 111
       }
     },
     "CLE|CWS": {
@@ -5032,17 +5022,17 @@
       },
       "home": {
         "abbr": "CLE",
-        "ml": -125
+        "ml": -126
       }
     },
     "ATL|NYM": {
       "away": {
         "abbr": "NYM",
-        "ml": -101
+        "ml": -104
       },
       "home": {
         "abbr": "ATL",
-        "ml": -107
+        "ml": -104
       }
     },
     "COL|SFG": {
@@ -5068,54 +5058,54 @@
     "BOS|LAA": {
       "away": {
         "abbr": "BOS",
-        "ml": -101
+        "ml": 100
       },
       "home": {
         "abbr": "LAA",
-        "ml": -107
+        "ml": -108
       }
     },
     "ATH|MIA": {
       "away": {
         "abbr": "MIA",
-        "ml": 125
+        "ml": 124
       },
       "home": {
         "abbr": "ATH",
-        "ml": -136
+        "ml": -135
       }
     },
     "ARI|MIL": {
       "away": {
         "abbr": "MIL",
-        "ml": -144
+        "ml": -134
       },
       "home": {
         "abbr": "ARI",
-        "ml": 133
+        "ml": 124
       }
     },
     "LAD|SDP": {
       "away": {
         "abbr": "SDP",
-        "ml": 216
+        "ml": 220
       },
       "home": {
         "abbr": "LAD",
-        "ml": -240
+        "ml": -245
       }
     },
     "SEA|TOR": {
       "away": {
         "abbr": "TOR",
-        "ml": -125
+        "ml": -124
       },
       "home": {
         "abbr": "SEA",
-        "ml": 115
+        "ml": 114
       }
     }
   },
   "team_records": {},
-  "generated_at": "2026-07-03 11:53 AM ET"
+  "generated_at": "2026-07-03 05:43 PM ET"
 }
