@@ -473,25 +473,14 @@ async function loadAll(){
   try{
     // Load pybaseball data.json
     let pyData=null;
-    try{// Fetch data.json from Gist first (bypasses GitHub Pages CDN), fall back to Pages
+    try{// Fetch data.json from GitHub Pages
     try{
-      const gistR=await fetch(`https://api.github.com/gists/${GIST_ID}`,{
-        headers:{'Authorization':`token ${GIST_TOKEN}`,'Accept':'application/vnd.github.v3+json'},
-        cache:'no-store'
-      });
-      if(gistR.ok){
-        const gistData=await gistR.json();
-        const raw=gistData.files?.['mlb_data.json']?.content;
-        if(raw){pyData=JSON.parse(raw);console.log('Data loaded from Gist');}
-      }
-    }catch(e){console.warn('Gist data fetch failed, trying Pages:',e);}
-    // Fallback to GitHub Pages if Gist failed
-    if(!pyData){try{
       const _et=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
       const _cacheKey=`${_et.getFullYear()}-${_et.getMonth()}-${_et.getDate()}-${_et.getHours()}`;
-      const r=await fetch('./data.json?v='+_cacheKey);if(r.ok)pyData=await r.json();
+      const r=await fetch('./data.json?v='+_cacheKey);
+      if(r.ok)pyData=await r.json();
       console.log('Data loaded from GitHub Pages');
-    }catch(e){console.warn('Pages data fetch also failed:',e);}}
+    }catch(e){console.warn('Pages data fetch failed:',e);}
 
     const[espnR,mlbR]=await Promise.all([
       fetchWithFallback(`https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=${dateStr}&lang=en&region=us&calendartype=blacklist&limit=100`),
