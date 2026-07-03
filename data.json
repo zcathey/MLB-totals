@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03T21:50:59.503319Z",
+  "generated": "2026-07-03T22:01:33.078791Z",
   "date": "2026-07-03",
   "season": 2026,
   "team_batting": {
@@ -210,10 +210,10 @@
       "fip": 3.81
     },
     "CHC": {
-      "era": 4.33,
+      "era": 4.37,
       "k_pct": 1.8,
       "bb_pct": 0.7,
-      "fip": 4.33
+      "fip": 4.37
     },
     "CIN": {
       "era": 4.59,
@@ -4562,7 +4562,7 @@
       "games": 12
     },
     "STL": {
-      "rg": 4.83,
+      "rg": 5.08,
       "games": 12
     },
     "TBR": {
@@ -4921,7 +4921,7 @@
       "home": "LAD",
       "game_date": "2026-07-04T02:10:00Z",
       "game_pk": 823933,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 650633,
         "name": "Michael King",
@@ -4980,7 +4980,7 @@
     "PHI": 3.14,
     "ATL": 2.79,
     "CWS": 3.64,
-    "MIA": 3.7,
+    "MIA": 3.62,
     "NYY": 3.37,
     "MIL": 3.29
   },
@@ -4988,27 +4988,27 @@
     "PIT|WSH": {
       "away": {
         "abbr": "PIT",
-        "ml": 130
+        "ml": 129
       },
       "home": {
         "abbr": "WSH",
-        "ml": -141
+        "ml": -140
       }
     },
     "MIN|NYY": {
       "away": {
         "abbr": "MIN",
-        "ml": 196
+        "ml": 197
       },
       "home": {
         "abbr": "NYY",
-        "ml": -216
+        "ml": -217
       }
     },
     "BAL|CIN": {
       "away": {
         "abbr": "BAL",
-        "ml": -121
+        "ml": -120
       },
       "home": {
         "abbr": "CIN",
@@ -5018,11 +5018,11 @@
     "CLE|CWS": {
       "away": {
         "abbr": "CWS",
-        "ml": 116
+        "ml": 115
       },
       "home": {
         "abbr": "CLE",
-        "ml": -126
+        "ml": -124
       }
     },
     "ATL|NYM": {
@@ -5088,24 +5088,24 @@
     "LAD|SDP": {
       "away": {
         "abbr": "SDP",
-        "ml": 220
+        "ml": 221
       },
       "home": {
         "abbr": "LAD",
-        "ml": -245
+        "ml": -246
       }
     },
     "SEA|TOR": {
       "away": {
         "abbr": "TOR",
-        "ml": -124
+        "ml": -126
       },
       "home": {
         "abbr": "SEA",
-        "ml": 114
+        "ml": 116
       }
     }
   },
   "team_records": {},
-  "generated_at": "2026-07-03 05:50 PM ET"
+  "generated_at": "2026-07-03 06:01 PM ET"
 }
