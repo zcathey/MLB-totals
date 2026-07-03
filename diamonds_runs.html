@@ -473,8 +473,25 @@ async function loadAll(){
   try{
     // Load pybaseball data.json
     let pyData=null;
-    try{const _et=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));const _cacheKey=`${_et.getFullYear()}-${_et.getMonth()}-${_et.getDate()}-${_et.getHours()}`;
-    const r=await fetch('./data.json?v='+_cacheKey);if(r.ok)pyData=await r.json();}catch(e){}
+    try{// Fetch data.json from Gist first (bypasses GitHub Pages CDN), fall back to Pages
+    try{
+      const gistR=await fetch(`https://api.github.com/gists/${GIST_ID}`,{
+        headers:{'Authorization':`token ${GIST_TOKEN}`,'Accept':'application/vnd.github.v3+json'},
+        cache:'no-store'
+      });
+      if(gistR.ok){
+        const gistData=await gistR.json();
+        const raw=gistData.files?.['mlb_data.json']?.content;
+        if(raw){pyData=JSON.parse(raw);console.log('Data loaded from Gist');}
+      }
+    }catch(e){console.warn('Gist data fetch failed, trying Pages:',e);}
+    // Fallback to GitHub Pages if Gist failed
+    if(!pyData){try{
+      const _et=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
+      const _cacheKey=`${_et.getFullYear()}-${_et.getMonth()}-${_et.getDate()}-${_et.getHours()}`;
+      const r=await fetch('./data.json?v='+_cacheKey);if(r.ok)pyData=await r.json();
+      console.log('Data loaded from GitHub Pages');
+    }catch(e){console.warn('Pages data fetch also failed:',e);}}
 
     const[espnR,mlbR]=await Promise.all([
       fetchWithFallback(`https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=${dateStr}&lang=en&region=us&calendartype=blacklist&limit=100`),
@@ -518,7 +535,7 @@ async function loadAll(){
     document.getElementById('statusText').textContent='Gathering weather, pitcher stats & form...';
     const[statsEntries,weatherEntries,formEntries,bullpenEntries,platoonEntries]=await Promise.all([
       Promise.all([...pitcherIds].map(async id=>[id,await fetchPitcherStats(id,season)])),
-      Promise.all(homeAbbrs.map(async a=>{const p=PARKS[a];return[a,p?await fetchWeather(p.lat,p.lng,gameTimeByHome[a]):null]})),
+      Promise.all(homeAbbrs.map(async a=>{const p=PARKS[a];try{return[a,p?await fetchWeather(p.lat,p.lng,gameTimeByHome[a]):null]}catch{return[a,null]}})),
       Promise.all(Object.entries(teamIds).map(async([a,id])=>[a,await fetchRecentForm(id,season)])),
       Promise.all(Object.entries(teamIds).map(async([a,id])=>[a,await fetchBullpenFIP(id,season,spIdsByTeam[a]||new Set())])),
       Promise.all(Object.entries(teamIds).map(async([a,id])=>[a,await fetchPlatoonSplits(id,season)]))
