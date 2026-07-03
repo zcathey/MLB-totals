@@ -370,8 +370,16 @@ const KNOWN_HAND={'Reid Detmers':'L','Tyler Anderson':'L','Patrick Sandoval':'L'
         'Kyle Freeland':'L','Austin Gomber':'L','Cal Quantrill':'R','Antonio Senzatela':'R',
         'Germán Márquez':'R','Ryan Feltner':'R','Edward Cabrera':'R','Janson Junk':'R','Shohei Ohtani':'R','Chris Paddack':'R','Nick Martinez':'R'};
 
-function today(){const d=new Date();return`${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}`}
-function todayISO(){const d=new Date();return`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`}
+function today(){
+  const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+  const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));
+  return `${p.year}${p.month}${p.day}`;
+}
+function todayISO(){
+  const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+  const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));
+  return `${p.year}-${p.month}-${p.day}`;
+}
 function adjRA9(xera){if(xera==null)return LG_FIP+0.30;return xera+0.30;}
 function combPitch(ra9,bpFip,spXera=null){
   // Elite starters (xERA<3.20) pitch deeper — reduce bullpen weight
@@ -473,7 +481,6 @@ async function loadAll(){
   try{
     // Load pybaseball data.json
     let pyData=null;
-    try{// Fetch data.json from GitHub Pages
     try{
       const _et=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
       const _cacheKey=`${_et.getFullYear()}-${_et.getMonth()}-${_et.getDate()}-${_et.getHours()}`;
@@ -481,7 +488,6 @@ async function loadAll(){
       if(r.ok)pyData=await r.json();
       console.log('Data loaded from GitHub Pages');
     }catch(e){console.warn('Pages data fetch failed:',e);}
-
     const[espnR,mlbR]=await Promise.all([
       fetchWithFallback(`https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=${dateStr}&lang=en&region=us&calendartype=blacklist&limit=100`),
       fetchWithFallback(`https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=${isoDate}&hydrate=probablePitcher,team,linescore`)
