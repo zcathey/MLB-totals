@@ -464,8 +464,8 @@ async function loadAll(){
   const dateStr=today(),isoDate=todayISO();
   const todayFullPicks=[];
   const today_str=todayISO();
-  // Load picks from Gist (cross-device sync)
-  await loadGistPicks();
+  // Load picks from Gist with hard timeout
+  try{await Promise.race([loadGistPicks(),new Promise((_,r)=>setTimeout(()=>r(new Error('timeout')),10000))]);}catch(e){console.warn('Picks load timed out:',e);}
   const manualPicksToday=getManualPicks().filter(p=>p.date===today_str);
   const dogPicksToday=getDogPicks().filter(p=>p.date===today_str);
   document.getElementById('headerDate').textContent=new Date(isoDate+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});
