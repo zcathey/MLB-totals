@@ -678,6 +678,30 @@ output = {
 
 with open('data.json', 'w') as f:
     json.dump(output, f, indent=2)
+print("data.json written successfully")
+
+# ── PUSH data.json TO GIST ────────────────────────────────────────────────────
+print("Pushing data.json to Gist...")
+DATA_GIST_ID = '54cbeb4378b514d549a26fc7e9566e24'
+if GIST_TOKEN:
+    try:
+        data_json_str = json.dumps(output)
+        patch_r = requests.patch(
+            f'https://api.github.com/gists/{DATA_GIST_ID}',
+            headers={'Authorization': f'token {GIST_TOKEN}',
+                     'Accept': 'application/vnd.github.v3+json',
+                     'Content-Type': 'application/json'},
+            json={'files': {'mlb_data.json': {'content': data_json_str}}},
+            timeout=30
+        )
+        if patch_r.ok:
+            print("  data.json pushed to Gist successfully")
+        else:
+            print(f"  Gist push status: {patch_r.status_code}")
+    except Exception as e:
+        print(f"  Gist push error: {e}")
+else:
+    print("  GIST_TOKEN not set — skipping Gist push")
 
 # Force git to always see a change so push never gets skipped
 with open('.last_update', 'w') as f:
