@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-04T14:39:50.977004Z",
+  "generated": "2026-07-04T15:07:58.588455Z",
   "date": "2026-07-04",
   "season": 2026,
   "team_batting": {
@@ -4734,7 +4734,7 @@
       "home": "WSH",
       "game_date": "2026-07-04T15:05:00Z",
       "game_pk": 822716,
-      "status": "warmup",
+      "status": "in progress",
       "away_pitcher": {
         "id": 677952,
         "name": "Braxton Ashcraft",
@@ -5022,27 +5022,27 @@
     "PIT|WSH": {
       "away": {
         "abbr": "PIT",
-        "ml": -148
+        "ml": -147
       },
       "home": {
         "abbr": "WSH",
-        "ml": 136
+        "ml": 135
       }
     },
     "MIN|NYY": {
       "away": {
         "abbr": "MIN",
-        "ml": 139
+        "ml": 135
       },
       "home": {
         "abbr": "NYY",
-        "ml": -151
+        "ml": -147
       }
     },
     "DET|TEX": {
       "away": {
         "abbr": "DET",
-        "ml": -107
+        "ml": -108
       },
       "home": {
         "abbr": "TEX",
@@ -5052,11 +5052,11 @@
     "SEA|TOR": {
       "away": {
         "abbr": "TOR",
-        "ml": 141
+        "ml": 138
       },
       "home": {
         "abbr": "SEA",
-        "ml": -154
+        "ml": -150
       }
     },
     "BAL|CIN": {
@@ -5072,41 +5072,41 @@
     "CLE|CWS": {
       "away": {
         "abbr": "CWS",
-        "ml": 129
+        "ml": 126
       },
       "home": {
         "abbr": "CLE",
-        "ml": -140
+        "ml": -137
       }
     },
     "HOU|TBR": {
       "away": {
         "abbr": "TBR",
-        "ml": -105
+        "ml": -104
       },
       "home": {
         "abbr": "HOU",
-        "ml": -103
+        "ml": -104
       }
     },
     "ATL|NYM": {
       "away": {
         "abbr": "NYM",
-        "ml": 150
+        "ml": 148
       },
       "home": {
         "abbr": "ATL",
-        "ml": -164
+        "ml": -161
       }
     },
     "CHC|STL": {
       "away": {
         "abbr": "STL",
-        "ml": 137
+        "ml": 138
       },
       "home": {
         "abbr": "CHC",
-        "ml": -149
+        "ml": -150
       }
     },
     "COL|SFG": {
@@ -5116,37 +5116,37 @@
       },
       "home": {
         "abbr": "COL",
-        "ml": 115
+        "ml": 116
       }
     },
     "KCR|PHI": {
       "away": {
         "abbr": "PHI",
-        "ml": -146
+        "ml": -147
       },
       "home": {
         "abbr": "KCR",
-        "ml": 134
+        "ml": 135
       }
     },
     "BOS|LAA": {
       "away": {
         "abbr": "BOS",
-        "ml": -161
+        "ml": -159
       },
       "home": {
         "abbr": "LAA",
-        "ml": 148
+        "ml": 146
       }
     },
     "ARI|MIL": {
       "away": {
         "abbr": "MIL",
-        "ml": -145
+        "ml": -146
       },
       "home": {
         "abbr": "ARI",
-        "ml": 133
+        "ml": 134
       }
     },
     "ATH|MIA": {
@@ -5162,14 +5162,14 @@
     "LAD|SDP": {
       "away": {
         "abbr": "SDP",
-        "ml": 218
+        "ml": 221
       },
       "home": {
         "abbr": "LAD",
-        "ml": -242
+        "ml": -246
       }
     }
   },
   "team_records": {},
-  "generated_at": "2026-07-04 10:39 AM ET"
+  "generated_at": "2026-07-04 11:07 AM ET"
 }
