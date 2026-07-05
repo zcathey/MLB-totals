@@ -196,9 +196,14 @@ async function loadGistPicks(){
     // Also sync to localStorage as fallback
     localStorage.setItem('mlb_picks_gist',raw);
     console.log(`Picks loaded from Gist: ${_picksCache.ou?.length||0} OU, ${_picksCache.dog?.length||0} dog`);
-    // Grade any pending picks from previous days
-    const graded = await gradePicksInBrowser(_picksCache);
-    if(graded) await saveGistPicks(_picksCache); // save results back to Gist
+    // Grade any pending picks from previous days (with timeout)
+    try{
+      const graded = await Promise.race([
+        gradePicksInBrowser(_picksCache),
+        new Promise((_,r)=>setTimeout(()=>r(new Error('grade timeout')),12000))
+      ]);
+      if(graded) await saveGistPicks(_picksCache);
+    }catch(e){console.warn('Grading skipped:',e);}
   }catch(e){
     console.warn('Gist load failed, using localStorage fallback:',e);
     try{
@@ -416,15 +421,29 @@ function classifyWind(wDir,speed,cfDir,outdoor){
   if(!outdoor)return{type:'dome',lbl:'DOME',adj:0};
   if(speed<5)return{type:'calm',lbl:`CALM ${Math.round(speed)}mph`,adj:0};
   const oppCF=(cfDir+180)%360;
-  // Wind OUT: coming from oppCF direction (blowing toward CF)
-  if(angDiff(wDir,oppCF)<=45){
+  const diffOut=angDiff(wDir,oppCF);
+  const diffIn=angDiff(wDir,cfDir);
+  const minDiff=Math.min(diffOut,diffIn);
+  // Full wind out (0-45°)
+  if(diffOut<=45){
     const adj=+Math.min(+(0.05*(speed-4)).toFixed(2),1.4).toFixed(2);
     return{type:'out',lbl:`WIND OUT ${Math.round(speed)}mph`,adj};
   }
-  // Wind IN: coming from CF direction (blowing toward home plate)
-  if(angDiff(wDir,cfDir)<=45){
+  // Full wind in (0-45°)
+  if(diffIn<=45){
     const adj=+Math.max(+(-0.04*(speed-4)).toFixed(2),-1.2).toFixed(2);
     return{type:'in',lbl:`WIND IN ${Math.round(speed)}mph`,adj};
+  }
+  // Partial headwind/tailwind (45-75°) — 50% of full adjustment
+  if(diffOut<=75){
+    const fullAdj=+Math.min(+(0.05*(speed-4)).toFixed(2),1.4).toFixed(2);
+    const adj=+(fullAdj*0.5).toFixed(2);
+    return{type:'partial-out',lbl:`WIND OUT ${Math.round(speed)}mph`,adj};
+  }
+  if(diffIn<=75){
+    const fullAdj=+Math.max(+(-0.04*(speed-4)).toFixed(2),-1.2).toFixed(2);
+    const adj=+(fullAdj*0.5).toFixed(2);
+    return{type:'partial-in',lbl:`WIND IN ${Math.round(speed)}mph`,adj};
   }
   return{type:'cross',lbl:`CROSS WIND ${Math.round(speed)}mph`,adj:0};
 }
