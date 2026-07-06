@@ -553,18 +553,24 @@ print("  Manual picks handled via Gist")
 print("Fetching recent IL moves...")
 il_moves = {}
 try:
-    # MLB transactions endpoint — IL placements in last 5 days
-    il_start = (datetime.date.today() - datetime.timedelta(days=5)).isoformat()
-    tx_url = f'https://statsapi.mlb.com/api/v1/transactions?sportId=1&startDate={il_start}&endDate={TODAY}&limit=200'
+    # MLB transactions endpoint — IL placements in last 7 days
+    il_start = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
+    tx_url = f'https://statsapi.mlb.com/api/v1/transactions?sportId=1&startDate={il_start}&endDate={TODAY}&limit=500'
     tx_d = mlb_get(tx_url)
     if tx_d:
         for tx in (tx_d.get('transactions') or []):
-            tx_type = (tx.get('typeCode') or '').upper()
-            desc = tx.get('description') or ''
-            # Only care about IL placements (not activations)
-            if tx_type not in ('IL','DL') and '10-Day' not in desc and '15-Day' not in desc and '60-Day' not in desc:
+            tx_type = (tx.get('typeCode') or tx.get('type', {}).get('code','') or '').upper()
+            desc = (tx.get('description') or tx.get('notes') or '')
+            # Match IL placements broadly
+            is_il = (
+                tx_type in ('IL','DL','ILDL','10IL','15IL','60IL') or
+                any(x in desc for x in ['10-Day IL','15-Day IL','60-Day IL',
+                                        'placed on the 10','placed on the 15',
+                                        'placed on the 60','Injured List'])
+            )
+            if not is_il:
                 continue
-            if 'reinstated' in desc.lower() or 'activated' in desc.lower():
+            if any(x in desc.lower() for x in ['reinstated','activated','transferred from']):
                 continue
             player = tx.get('player', {})
             player_name = player.get('fullName', '')
@@ -572,9 +578,9 @@ try:
             team_abbr = TEAM_ID_MAP.get(team_id, '')
             if not team_abbr or not player_name:
                 continue
-            # Flag position players only (skip pitchers — we already handle them)
             position = player.get('primaryPosition', {}).get('abbreviation', '')
-            if position == 'P':
+            # Skip two-way players and general utility designations
+            if not position:
                 continue
             tx_date = tx.get('date', TODAY)
             if team_abbr not in il_moves:
