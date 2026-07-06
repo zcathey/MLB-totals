@@ -564,13 +564,6 @@ function playoffPhrase(rec){
   else if(wcgb&&wcgb!=='-'&&!(rank&&(gb==='-'||gb==='0.0')))bits.push(`${wcgb} back of a wild card spot`);
   return bits.length?bits.join(', '):null;
 }
-function formPhrase(off,abbr){
-  if(!off?.blended)return null;
-  const diff=+(off.recentRG-off.seasonRG).toFixed(2);
-  if(diff>=0.5)return`${abbr} have been swinging hot bats, averaging ${off.recentRG} R/G over their last two weeks`;
-  if(diff<=-0.5)return`${abbr} have cooled off at the plate, managing just ${off.recentRG} R/G over their last two weeks`;
-  return null;
-}
 function seriesPhrase(seriesInfo,aa,ha){
   if(!seriesInfo||!seriesInfo.gamesInSeries||seriesInfo.gamesInSeries<=1)return null;
   const bits=[`Game ${seriesInfo.gameNumber} of ${seriesInfo.gamesInSeries}`];
@@ -596,41 +589,26 @@ function buildGamePreview(r,pyData){
   const homeRec=pyData?.team_records?.[r.ha]||null;
   const paras=[];
 
-  // Lede
-  const recBit=(r.awayRec||r.homeRec)?` (${r.awayRec||'—'} vs ${r.homeRec||'—'})`:'';
-  paras.push(`<span class="preview-lede">${r.aa} at ${r.ha}${recBit}</span> — first pitch ${r.timeStr} at ${r.parkName}${r.isDome?' (roof closed)':''}.`);
-
-  // Series context
+  // Series context — not shown on the card
   const seriesLine=seriesPhrase(r.seriesInfo,r.aa,r.ha);
   if(seriesLine)paras.push(seriesLine.charAt(0).toUpperCase()+seriesLine.slice(1)+'.');
 
-  // Streaks
+  // Streaks — not shown on the card
   const awayStreak=streakPhrase(awayRec?.streak),homeStreak=streakPhrase(homeRec?.streak);
   const streakBits=[];
   if(awayStreak)streakBits.push(`${r.aa} have ${awayStreak}`);
   if(homeStreak)streakBits.push(`${r.ha} have ${homeStreak}`);
   if(streakBits.length)paras.push(streakBits.join(', while ')+'.');
 
-  // Playoff / standings context
+  // Playoff / standings context — not shown on the card
   const awayPO=playoffPhrase(awayRec),homePO=playoffPhrase(homeRec);
   const poBits=[];
   if(awayPO)poBits.push(`${r.aa} are ${awayPO}`);
   if(homePO)poBits.push(`${r.ha} are ${homePO}`);
   if(poBits.length)paras.push(poBits.join('; ')+'.');
 
-  // Recent form (only mention if no streak line already covers it distinctly)
-  const awayForm=formPhrase(r.awayOff,r.aa),homeForm=formPhrase(r.homeOff,r.ha);
-  const formBits=[awayForm,homeForm].filter(Boolean);
-  if(formBits.length)paras.push(formBits.join('. ')+'.');
-
-  // Pitching matchup
-  const awaySPName=r.awayBullpenGame?'a bullpen game':(r.awayPP?.fullName||'TBD');
-  const homeSPName=r.homeBullpenGame?'a bullpen game':(r.homePP?.fullName||'TBD');
-  const awaySPTag=r.awayBullpenGame?'':(r.awayXera!=null?` (${r.awayXera.toFixed(2)} xERA)`:'');
-  const homeSPTag=r.homeBullpenGame?'':(r.homeXera!=null?` (${r.homeXera.toFixed(2)} xERA)`:'');
-  paras.push(`On the mound: ${awaySPName}${awaySPTag} takes on ${homeSPName}${homeSPTag}.`);
-
-  // Starters' last outings
+  // Starters' last outings — not shown on the card (card only shows season-to-date xERA/K%)
+  // Names are used here only as a label for the outing, not to restate card stats.
   const outingBits=[];
   if(!r.awayBullpenGame){
     const line=formatOuting(r.awayLastOuting);
@@ -642,38 +620,12 @@ function buildGamePreview(r,pyData){
   }
   if(outingBits.length)paras.push(outingBits.join('; ')+'.');
 
-  // Injuries
-  const awayIL=pyData?.il_moves?.[r.aa]||[],homeIL=pyData?.il_moves?.[r.ha]||[];
-  const ilBits=[];
-  if(awayIL.length)ilBits.push(`${r.aa} have recently placed ${awayIL.map(m=>m.player).join(', ')} on the IL`);
-  if(homeIL.length)ilBits.push(`${r.ha} have recently placed ${homeIL.map(m=>m.player).join(', ')} on the IL`);
-  if(ilBits.length)paras.push(ilBits.join('; ')+'.');
-
-  // Weather / park factor worth noting
-  const wxBits=[];
-  if(r.windInfo&&(r.windInfo.type==='out'||r.windInfo.type==='in'||r.windInfo.type==='partial-out'||r.windInfo.type==='partial-in')){
-    wxBits.push(`${r.windInfo.lbl.toLowerCase()}`);
-  }
+  // Park character — the card shows the park name but not a hitter's/pitcher's park label
   if(r.parkFactor&&(r.parkFactor>=1.10||r.parkFactor<=0.90)){
-    wxBits.push(r.parkFactor>=1.10?`${r.parkName} plays as a strong hitter's park`:`${r.parkName} plays as a strong pitcher's park`);
+    paras.push(r.parkFactor>=1.10?`${r.parkName} plays as one of the league's stronger hitter's parks.`:`${r.parkName} plays as one of the league's stronger pitcher's parks.`);
   }
-  if(wxBits.length)paras.push(`Worth watching: ${wxBits.join(', ')}.`);
 
-  // Model take
-  let modelLine=`The model projects ${r.total} total runs (${r.awayRuns}–${r.homeRuns})`;
-  if(r.vegasOU!=null){
-    const gap=Math.abs(r.edge);
-    if(gap>=0.5)modelLine+=`, ${r.edge>0?'above':'below'} the Vegas line of ${r.vegasOU}`;
-    else modelLine+=`, right in line with the Vegas total of ${r.vegasOU}`;
-  }
-  modelLine+='.';
-  if(r.awayML!=null&&(r.awayEdgePct>=0.09||r.homeEdgePct>=0.09)){
-    const dogTeam=r.awayEdgePct>=0.09?r.aa:r.ha;
-    const dogWP=r.awayEdgePct>=0.09?r.awayModelWP:r.homeModelWP;
-    modelLine+=` ${dogTeam} also stand out as moneyline value at ${Math.round(dogWP*100)}% model win probability.`;
-  }
-  paras.push(`<span class="preview-model">${modelLine}</span>`);
-
+  if(!paras.length)return`<p>No additional storylines beyond what's shown above yet — check back closer to first pitch.</p>`;
   return paras.map(p=>`<p>${p}</p>`).join('');
 }
 
