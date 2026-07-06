@@ -6,6 +6,8 @@
 .tracker-section{background:#0a0a0a;border:1px solid #00aa00;margin:0 0 25px 0;padding:20px}.tracker-headline{font-family:'Press Start 2P',monospace;font-size:14px;font-weight:900;color:#ffff00;border-bottom:2px solid #00aa00;padding-bottom:8px;margin-bottom:12px}.tracker-record{display:flex;gap:20px;margin-bottom:16px;flex-wrap:wrap}.tracker-stat{text-align:center;background:#111111;padding:10px 16px;border:1px solid #00aa00;min-width:70px}.tracker-stat-label{font-family:'VT323',monospace;font-size:14px;color:#00aa00;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}.tracker-stat-val{font-family:'Press Start 2P',monospace;font-size:24px;font-weight:900;color:#ffff00}.tracker-stat-val.green{color:#00ff00}.tracker-stat-val.red{color:#ff0000}.pick-row{display:flex;align-items:center;justify-content:space-between;padding:8px 10px;border-bottom:1px solid #00aa00;font-family:'VT323',monospace;font-size:16px;gap:10px}.pick-row:last-child{border-bottom:none}.pick-game{color:#ffffff;font-weight:700;min-width:100px;font-size:16px}.pick-bet{color:#ffaa00;min-width:90px;font-size:16px}.pick-edge{color:#00aa00;min-width:60px;font-size:15px}.pick-result{font-weight:700;min-width:50px;text-align:right;font-size:16px}.pick-result.win{color:#00ff00;text-shadow:1px 1px 0 #003300}.pick-result.loss{color:#ff5555;text-shadow:1px 1px 0 #550000}.pick-result.push{color:#ffaa00}.pick-result.pending{color:#00aa00}.pick-final{color:#00aa00;font-size:15px}.games-grid-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start;max-width:1200px;margin:0 auto}
 .breakdown-btn{font-family:'Press Start 2P',monospace;font-size:8px;color:#00ff00;background:#003300;border:1px solid #00aa00;padding:4px 8px;cursor:pointer;margin-top:8px;display:inline-block;letter-spacing:1px}
 .breakdown-btn:hover{background:#005500}
+.breakdown-btn.preview-btn{color:#ffff55;background:#332b00;border:1px solid #ffaa00}
+.breakdown-btn.preview-btn:hover{background:#554600}
 .breakdown-panel{display:none;background:#001100;border:2px solid #00aa00;padding:12px;margin-top:8px;font-family:'VT323',monospace;font-size:15px;line-height:1.8}
 .breakdown-panel.open{display:block}
 .breakdown-row{display:flex;justify-content:space-between;border-bottom:1px solid #003300;padding:3px 0}
@@ -15,6 +17,11 @@
 .breakdown-val.pos{color:#00ff00}
 .breakdown-val.neg{color:#ff5555}
 .breakdown-section{color:#ffff00;font-size:13px;letter-spacing:1px;margin-top:6px;margin-bottom:2px}
+.preview-panel{border-color:#ffaa00;background:#150f00}
+.preview-panel p{margin:0 0 10px 0;color:#eeeeee}
+.preview-panel p:last-child{margin-bottom:0}
+.preview-panel .preview-lede{color:#ffff55}
+.preview-panel .preview-model{color:#ffaa00;border-top:1px solid #443300;margin-top:10px;padding-top:8px}
 .top-layout{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start;margin:20px 0}.top-layout>div{display:flex;flex-direction:column;gap:12px}
 .top-right{display:flex;flex-direction:column;gap:12px}
 .top-layout .masthead-stats{margin:0;grid-template-columns:1fr 1fr;padding:12px}
@@ -465,6 +472,54 @@ async function fetchBullpenFIP(teamId,season,spIds=new Set()){
 async function fetchPlatoonSplits(teamId,season){
   try{const urls=[`https://statsapi.mlb.com/api/v1/teams/${teamId}/stats?stats=statSplits&group=hitting&season=${season}&sitCodes=vl,vr`,`https://statsapi.mlb.com/api/v1/teams/${teamId}/stats?stats=statSplits&group=hitting&season=${season}&sitCodes=vs-left,vs-right`,`https://statsapi.mlb.com/api/v1/teams/${teamId}/stats?stats=statSplits&group=hitting&season=${season}`];let vsL=null,vsR=null;for(const url of urls){if(vsL!==null||vsR!==null)break;try{const j=await(await fetchWithFallback(url,6000)).json();for(const block of(j?.stats||[])){for(const s of(block?.splits||[])){const raw=s.split?.code||s.split?.description||s.split?.displayName||'';const code=raw.toLowerCase().split(' ').join('').split('-').join('');const ops=parseFloat(s.stat?.ops)||null;if(!ops||ops<0.3||ops>1.5)continue;if(['vl','vsleft','vslhp','l','vslefthandedpitcher'].includes(code))vsL=ops;if(['vr','vsright','vsrhp','r','vsrighthandedpitcher'].includes(code))vsR=ops;}}}catch(e){continue;}}return(vsL!==null||vsR!==null)?{vsL,vsR}:null;}catch{return null}
 }
+// Starting pitcher's most recent outing this season (date, IP, ER, K, opponent)
+async function fetchLastOuting(pitcherId,season){
+  if(!pitcherId)return null;
+  try{
+    const url=`https://statsapi.mlb.com/api/v1/people/${pitcherId}/stats?stats=gameLog&group=pitching&season=${season}`;
+    const j=await(await fetchWithFallback(url,6000)).json();
+    const splits=j?.stats?.[0]?.splits||[];
+    if(!splits.length)return null;
+    // Game logs come back oldest→newest; take the most recent completed start
+    const last=splits[splits.length-1];
+    const s=last?.stat||{};
+    if(s.inningsPitched==null)return null;
+    return{
+      date:last.date,
+      ip:s.inningsPitched,
+      er:parseInt(s.earnedRuns??0,10),
+      k:parseInt(s.strikeOuts??0,10),
+      bb:parseInt(s.baseOnBalls??0,10),
+      opponent:last.opponent?.abbreviation||''
+    };
+  }catch{return null}
+}
+// How the two teams have fared in the current series so far (before today's game)
+async function fetchSeriesRecord(homeTeamId,awayTeamId,seriesGameNumber,gameDateStr){
+  if(!seriesGameNumber||seriesGameNumber<=1)return null;
+  try{
+    const gameDate=new Date(gameDateStr);
+    const end=new Date(gameDate);end.setUTCDate(end.getUTCDate()-1);
+    const start=new Date(gameDate);start.setUTCDate(start.getUTCDate()-(seriesGameNumber+1));
+    const fmt=d=>d.toISOString().split('T')[0];
+    const url=`https://statsapi.mlb.com/api/v1/schedule?sportId=1&teamId=${homeTeamId}&opponentId=${awayTeamId}&startDate=${fmt(start)}&endDate=${fmt(end)}&hydrate=linescore`;
+    const j=await(await fetchWithFallback(url,6000)).json();
+    let homeWins=0,awayWins=0;
+    for(const d of(j.dates||[])){
+      for(const g of(d.games||[])){
+        const state=(g.status?.detailedState||'').toLowerCase();
+        if(!state.includes('final'))continue;
+        const aScore=g.teams.away.score??0,hScore=g.teams.home.score??0;
+        if(aScore===hScore)continue;
+        const winnerId=aScore>hScore?g.teams.away.team.id:g.teams.home.team.id;
+        if(winnerId===homeTeamId)homeWins++;
+        else if(winnerId===awayTeamId)awayWins++;
+      }
+    }
+    if(homeWins+awayWins===0)return null;
+    return{homeWins,awayWins};
+  }catch{return null}
+}
 async function fetchWeather(lat,lng,gameDate){
   // Cache by lat/lng/date — keyed to the hour to avoid stale data
   const cacheKey=`wx_${lat}_${lng}_${new Date().toISOString().slice(0,13)}`;
@@ -485,6 +540,141 @@ async function fetchWeather(lat,lng,gameDate){
     try{sessionStorage.setItem(cacheKey,JSON.stringify(result));}catch{}
     return result;
   }catch{return null}
+}
+
+// ── GAME PREVIEW (written summary) ────────────────────────────────────────────
+function ordinal(n){
+  const s=['th','st','nd','rd'],v=n%100;
+  return n+(s[(v-20)%10]||s[v]||s[0]);
+}
+function streakPhrase(code){
+  if(!code||code.length<2)return null;
+  const type=code[0]==='W'?'won':code[0]==='L'?'lost':null;
+  const num=parseInt(code.slice(1),10);
+  if(!type||!num)return null;
+  return num===1?`${type} their last one`:`${type} ${num} in a row`;
+}
+function playoffPhrase(rec){
+  if(!rec)return null;
+  const bits=[];
+  const gb=rec.games_back,rank=rec.division_rank,wcgb=rec.wc_games_back;
+  if(rank&&(gb==='-'||gb==='0.0'))bits.push('leading their division');
+  else if(rank)bits.push(`${ordinal(+rank)} in the division, ${gb} back`);
+  if(wcgb==='0.0')bits.push('holding a wild card spot');
+  else if(wcgb&&wcgb!=='-'&&!(rank&&(gb==='-'||gb==='0.0')))bits.push(`${wcgb} back of a wild card spot`);
+  return bits.length?bits.join(', '):null;
+}
+function formPhrase(off,abbr){
+  if(!off?.blended)return null;
+  const diff=+(off.recentRG-off.seasonRG).toFixed(2);
+  if(diff>=0.5)return`${abbr} have been swinging hot bats, averaging ${off.recentRG} R/G over their last two weeks`;
+  if(diff<=-0.5)return`${abbr} have cooled off at the plate, managing just ${off.recentRG} R/G over their last two weeks`;
+  return null;
+}
+function seriesPhrase(seriesInfo,aa,ha){
+  if(!seriesInfo||!seriesInfo.gamesInSeries||seriesInfo.gamesInSeries<=1)return null;
+  const bits=[`Game ${seriesInfo.gameNumber} of ${seriesInfo.gamesInSeries}`];
+  const rec=seriesInfo.rec;
+  if(rec&&(rec.homeWins+rec.awayWins)>0){
+    if(rec.homeWins===rec.awayWins)bits.push(`series tied ${rec.homeWins}-${rec.awayWins}`);
+    else{
+      const leader=rec.homeWins>rec.awayWins?ha:aa;
+      bits.push(`${leader} lead the series ${Math.max(rec.homeWins,rec.awayWins)}-${Math.min(rec.homeWins,rec.awayWins)}`);
+    }
+  }
+  return bits.join(', ');
+}
+function formatOuting(o){
+  if(!o||o.ip==null)return null;
+  let dateStr='';
+  try{dateStr=new Date(o.date+'T00:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});}catch{}
+  const oppStr=o.opponent?` vs ${o.opponent}`:'';
+  return`${dateStr}${oppStr}: ${o.ip} IP, ${o.er} ER, ${o.k} K`;
+}
+function buildGamePreview(r,pyData){
+  const awayRec=pyData?.team_records?.[r.aa]||null;
+  const homeRec=pyData?.team_records?.[r.ha]||null;
+  const paras=[];
+
+  // Lede
+  const recBit=(r.awayRec||r.homeRec)?` (${r.awayRec||'—'} vs ${r.homeRec||'—'})`:'';
+  paras.push(`<span class="preview-lede">${r.aa} at ${r.ha}${recBit}</span> — first pitch ${r.timeStr} at ${r.parkName}${r.isDome?' (roof closed)':''}.`);
+
+  // Series context
+  const seriesLine=seriesPhrase(r.seriesInfo,r.aa,r.ha);
+  if(seriesLine)paras.push(seriesLine.charAt(0).toUpperCase()+seriesLine.slice(1)+'.');
+
+  // Streaks
+  const awayStreak=streakPhrase(awayRec?.streak),homeStreak=streakPhrase(homeRec?.streak);
+  const streakBits=[];
+  if(awayStreak)streakBits.push(`${r.aa} have ${awayStreak}`);
+  if(homeStreak)streakBits.push(`${r.ha} have ${homeStreak}`);
+  if(streakBits.length)paras.push(streakBits.join(', while ')+'.');
+
+  // Playoff / standings context
+  const awayPO=playoffPhrase(awayRec),homePO=playoffPhrase(homeRec);
+  const poBits=[];
+  if(awayPO)poBits.push(`${r.aa} are ${awayPO}`);
+  if(homePO)poBits.push(`${r.ha} are ${homePO}`);
+  if(poBits.length)paras.push(poBits.join('; ')+'.');
+
+  // Recent form (only mention if no streak line already covers it distinctly)
+  const awayForm=formPhrase(r.awayOff,r.aa),homeForm=formPhrase(r.homeOff,r.ha);
+  const formBits=[awayForm,homeForm].filter(Boolean);
+  if(formBits.length)paras.push(formBits.join('. ')+'.');
+
+  // Pitching matchup
+  const awaySPName=r.awayBullpenGame?'a bullpen game':(r.awayPP?.fullName||'TBD');
+  const homeSPName=r.homeBullpenGame?'a bullpen game':(r.homePP?.fullName||'TBD');
+  const awaySPTag=r.awayBullpenGame?'':(r.awayXera!=null?` (${r.awayXera.toFixed(2)} xERA)`:'');
+  const homeSPTag=r.homeBullpenGame?'':(r.homeXera!=null?` (${r.homeXera.toFixed(2)} xERA)`:'');
+  paras.push(`On the mound: ${awaySPName}${awaySPTag} takes on ${homeSPName}${homeSPTag}.`);
+
+  // Starters' last outings
+  const outingBits=[];
+  if(!r.awayBullpenGame){
+    const line=formatOuting(r.awayLastOuting);
+    if(line)outingBits.push(`${(r.awayPP?.fullName||'').split(' ').pop()} last went ${line}`);
+  }
+  if(!r.homeBullpenGame){
+    const line=formatOuting(r.homeLastOuting);
+    if(line)outingBits.push(`${(r.homePP?.fullName||'').split(' ').pop()} last went ${line}`);
+  }
+  if(outingBits.length)paras.push(outingBits.join('; ')+'.');
+
+  // Injuries
+  const awayIL=pyData?.il_moves?.[r.aa]||[],homeIL=pyData?.il_moves?.[r.ha]||[];
+  const ilBits=[];
+  if(awayIL.length)ilBits.push(`${r.aa} have recently placed ${awayIL.map(m=>m.player).join(', ')} on the IL`);
+  if(homeIL.length)ilBits.push(`${r.ha} have recently placed ${homeIL.map(m=>m.player).join(', ')} on the IL`);
+  if(ilBits.length)paras.push(ilBits.join('; ')+'.');
+
+  // Weather / park factor worth noting
+  const wxBits=[];
+  if(r.windInfo&&(r.windInfo.type==='out'||r.windInfo.type==='in'||r.windInfo.type==='partial-out'||r.windInfo.type==='partial-in')){
+    wxBits.push(`${r.windInfo.lbl.toLowerCase()}`);
+  }
+  if(r.parkFactor&&(r.parkFactor>=1.10||r.parkFactor<=0.90)){
+    wxBits.push(r.parkFactor>=1.10?`${r.parkName} plays as a strong hitter's park`:`${r.parkName} plays as a strong pitcher's park`);
+  }
+  if(wxBits.length)paras.push(`Worth watching: ${wxBits.join(', ')}.`);
+
+  // Model take
+  let modelLine=`The model projects ${r.total} total runs (${r.awayRuns}–${r.homeRuns})`;
+  if(r.vegasOU!=null){
+    const gap=Math.abs(r.edge);
+    if(gap>=0.5)modelLine+=`, ${r.edge>0?'above':'below'} the Vegas line of ${r.vegasOU}`;
+    else modelLine+=`, right in line with the Vegas total of ${r.vegasOU}`;
+  }
+  modelLine+='.';
+  if(r.awayML!=null&&(r.awayEdgePct>=0.09||r.homeEdgePct>=0.09)){
+    const dogTeam=r.awayEdgePct>=0.09?r.aa:r.ha;
+    const dogWP=r.awayEdgePct>=0.09?r.awayModelWP:r.homeModelWP;
+    modelLine+=` ${dogTeam} also stand out as moneyline value at ${Math.round(dogWP*100)}% model win probability.`;
+  }
+  paras.push(`<span class="preview-model">${modelLine}</span>`);
+
+  return paras.map(p=>`<p>${p}</p>`).join('');
 }
 
 async function loadAll(){
@@ -547,12 +737,19 @@ async function loadAll(){
     mlbGames.forEach(g=>{const ha=TEAM_ID_MAP[g.teams?.home?.team?.id];if(ha)gameTimeByHome[ha]=g.gameDate;});
 
     document.getElementById('statusText').textContent='Gathering weather, pitcher stats & form...';
-    const[statsEntries,weatherEntries,formEntries,bullpenEntries,platoonEntries]=await Promise.all([
+    const[statsEntries,weatherEntries,formEntries,bullpenEntries,platoonEntries,lastOutingEntries,seriesEntries]=await Promise.all([
       Promise.all([...pitcherIds].map(async id=>[id,await fetchPitcherStats(id,season)])),
       Promise.all(homeAbbrs.map(async a=>{const p=PARKS[a];try{return[a,p?await fetchWeather(p.lat,p.lng,gameTimeByHome[a]):null]}catch{return[a,null]}})),
       Promise.all(Object.entries(teamIds).map(async([a,id])=>[a,await fetchRecentForm(id,season)])),
       Promise.all(Object.entries(teamIds).map(async([a,id])=>[a,await fetchBullpenFIP(id,season,spIdsByTeam[a]||new Set())])),
-      Promise.all(Object.entries(teamIds).map(async([a,id])=>[a,await fetchPlatoonSplits(id,season)]))
+      Promise.all(Object.entries(teamIds).map(async([a,id])=>[a,await fetchPlatoonSplits(id,season)])),
+      Promise.all([...pitcherIds].map(async id=>[id,await fetchLastOuting(id,season)])),
+      Promise.all(mlbGames.map(async g=>{
+        const awayId=g.teams?.away?.team?.id,homeId=g.teams?.home?.team?.id;
+        const key=`${TEAM_ID_MAP[awayId]}@${TEAM_ID_MAP[homeId]}`;
+        const rec=await fetchSeriesRecord(homeId,awayId,g.seriesGameNumber,g.gameDate);
+        return[key,{gameNumber:g.seriesGameNumber||null,gamesInSeries:g.gamesInSeries||null,rec}];
+      }))
     ]);
 
     const statsMap=Object.fromEntries(statsEntries);
@@ -592,6 +789,8 @@ async function loadAll(){
       const live=rawPlatoon[t];const py=pyData?.platoon?.[t];
       platoonMap[t]=(live?.vsL||live?.vsR)?live:(py||null);
     }
+    const lastOutingMap=Object.fromEntries(lastOutingEntries);
+    const seriesMap=Object.fromEntries(seriesEntries);
 
     // Pitcher hand helper
     function getHand(pp,pyPitcher){
@@ -719,10 +918,13 @@ async function loadAll(){
       };
       const mp=manualPicksToday.find(p=>p.away===aa&&p.home===ha);
       const dp=dogPicksToday.find(p=>p.away===aa&&p.home===ha);
+      const awayLastOuting=awayPP?lastOutingMap[awayPP.id]||null:null;
+      const homeLastOuting=homePP?lastOutingMap[homePP.id]||null:null;
+      const seriesInfo=seriesMap[`${aa}@${ha}`]||null;
       results.push({aa,ha,awayRec,homeRec,awayPP,homePP,awayS,homeS,
         manualPick:mp?.pick||null,
         manualDogPick:dp?.team||null,
-        awayML,homeML,awayImplied,homeImplied,awayModelWP,homeModelWP,awayEdgePct,homeEdgePct,awayRA9:+awayEffRA9.toFixed(2),homeRA9:+homeEffRA9.toFixed(2),awayXera:awayS?.xfip??null,homeXera:homeS?.xfip??null,awayComb:+awayComb.toFixed(2),homeComb:+homeComb.toFixed(2),awayOff,homeOff,awayRbat:awayWrc,homeRbat:homeWrc,awayRuns,homeRuns,total,vegasOU,edge,wx,windInfo,weatherAdj:+weatherAdj.toFixed(1),tempAdj,rainAdj,rainFlag,dayNightAdj,isDayGame,awayBullpenGame,homeBullpenGame,awayBpFip:+awayBpFip.toFixed(2),homeBpFip:+homeBpFip.toFixed(2),awayBpLive:!!bullpenRaw[aa]?.fip,homeBpLive:!!bullpenRaw[ha]?.fip,awayPlatoon,homePlatoon,parkName:park?.name||ha,parkFactor:pf,timeStr,isLive,isCoors:ha==='COL',isDome:park?!park.outdoor:false,breakdown});
+        awayML,homeML,awayImplied,homeImplied,awayModelWP,homeModelWP,awayEdgePct,homeEdgePct,awayRA9:+awayEffRA9.toFixed(2),homeRA9:+homeEffRA9.toFixed(2),awayXera:awayS?.xfip??null,homeXera:homeS?.xfip??null,awayComb:+awayComb.toFixed(2),homeComb:+homeComb.toFixed(2),awayOff,homeOff,awayRbat:awayWrc,homeRbat:homeWrc,awayRuns,homeRuns,total,vegasOU,edge,wx,windInfo,weatherAdj:+weatherAdj.toFixed(1),tempAdj,rainAdj,rainFlag,dayNightAdj,isDayGame,awayBullpenGame,homeBullpenGame,awayBpFip:+awayBpFip.toFixed(2),homeBpFip:+homeBpFip.toFixed(2),awayBpLive:!!bullpenRaw[aa]?.fip,homeBpLive:!!bullpenRaw[ha]?.fip,awayPlatoon,homePlatoon,parkName:park?.name||ha,parkFactor:pf,timeStr,isLive,isCoors:ha==='COL',isDome:park?!park.outdoor:false,breakdown,awayLastOuting,homeLastOuting,seriesInfo});
     }
     results.sort((a,b)=>b.total-a.total);
     // Save today's full-model picks to localStorage
@@ -814,7 +1016,7 @@ async function loadAll(){
         const resultColor=p.result==='WIN'?'#00ff00':p.result==='LOSS'?'#ff4444':p.result==='PUSH'?'#ffff00':'#ffaa00';
         const edgePct=Math.round((p.modelWP-p.impliedWP)*100);
         return`<div class="leader-item" style="position:relative;">
-          <button onclick="deletePick('${p.away}','${p.home}','${p.date}','dog')" style="position:absolute;top:4px;right:4px;background:#330000;color:#ff4444;border:1px solid #660000;font-family:'VT323',monospace;font-size:16px;padding:1px 7px;cursor:pointer;line-height:1.2;">✕</button>
+          <button onclick="deletePick('${p.away}','${p.home}','${p.date}','dog')" style="position:absolute;top:4px;right:4px;background:#330000;color:#ff4444;border:1px solid #660000;font-family:'VT323',monospace;font-size:16px;padding:1px 7px;cursor:pointer;">✕</button>
           <div class="leader-matchup" style="color:#ffaa00">${p.team} +${p.ml} <span style="font-size:10px;color:#888">${p.game}</span></div>
           <div class="leader-reason">${p.time||''} · Model ${Math.round(p.modelWP*100)}% · Impl ${Math.round(p.impliedWP*100)}% · Edge +${edgePct}%</div>
           <div class="leader-values">
@@ -920,7 +1122,8 @@ async function loadAll(){
           ${r.manualDogPick?'✓ DOG: '+r.manualDogPick:'🐶 UNDERDOG'}
         </button>`:''}
       </div>
-      <button class="breakdown-btn" onclick="this.nextElementSibling.classList.toggle('open')">📊 SCORE BREAKDOWN</button>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        <button class="breakdown-btn" onclick="this.nextElementSibling.classList.toggle('open')">📊 SCORE BREAKDOWN</button>
         <div class="breakdown-panel">
           <div class="breakdown-section">── ${r.aa} RUNS (${r.breakdown.away.final}) ──</div>
           <div class="breakdown-row"><span class="breakdown-label">wRC+ baseline</span><span class="breakdown-val">${r.breakdown.away.base} R/G</span></div>
@@ -950,6 +1153,9 @@ async function loadAll(){
           <div class="breakdown-row" style="border-top:1px solid #00aa00"><span class="breakdown-label" style="color:#ffff00">${r.ha} PROJECTED</span><span class="breakdown-val" style="color:#ffff00;font-size:17px">${r.breakdown.home.final}</span></div>
           <div class="breakdown-row" style="border-top:2px solid #ffff00;margin-top:6px"><span class="breakdown-label">COMBINED TOTAL</span><span class="breakdown-val" style="color:#ffff00;font-size:18px">${r.total}</span></div>
         </div>
+        <button class="breakdown-btn preview-btn" onclick="this.nextElementSibling.classList.toggle('open')">📝 GAME PREVIEW</button>
+        <div class="breakdown-panel preview-panel">${buildGamePreview(r,pyData)}</div>
+      </div>
       </div>`;
     }
     html+='</div>';
