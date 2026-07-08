@@ -203,6 +203,8 @@ async function loadGistPicks(){
     // Also sync to localStorage as fallback
     localStorage.setItem('mlb_picks_gist',raw);
     console.log(`Picks loaded from Gist: ${_picksCache.ou?.length||0} OU, ${_picksCache.dog?.length||0} dog`);
+    // Re-render picks tracker now that data is loaded
+    if(typeof renderPicksTracker==='function') renderPicksTracker();
     // Grade any pending picks from previous days (with timeout)
     try{
       const graded = await Promise.race([
@@ -627,6 +629,58 @@ function buildGamePreview(r,pyData){
 
   if(!paras.length)return`<p>No additional storylines beyond what's shown above yet — check back closer to first pitch.</p>`;
   return paras.map(p=>`<p>${p}</p>`).join('');
+}
+
+function renderPicksTracker(){
+const allOUPicks = (_picksCache?.ou||getManualPicks()).sort((a,b)=>b.date.localeCompare(a.date));
+  const allDogPicks = (_picksCache?.dog||getDogPicks()).sort((a,b)=>b.date.localeCompare(a.date));
+  // allPicks combines both for the record tracker
+  const allPicks = [...allOUPicks, ...allDogPicks].sort((a,b)=>b.date.localeCompare(a.date));
+  if(allPicks.length){
+    document.getElementById('picksTrackerTop').style.display='block';
+    const graded = allPicks.filter(p=>p.result!=='PENDING');
+    const wins = graded.filter(p=>p.result==='WIN').length;
+    const losses = graded.filter(p=>p.result==='LOSS').length;
+    const pushes = graded.filter(p=>p.result==='PUSH').length;
+    const pct = graded.length>0?Math.round((wins/graded.length)*100):0;
+    const pending = allPicks.filter(p=>p.result==='PENDING').length;
+    // P&L: $100 flat bet — O/U at -110, dogs at actual ML odds
+    const pnl = graded.reduce((acc,p)=>{
+      if(p.result==='WIN'){
+        // Dog pick: win = ML value (e.g. +150 wins $150)
+        // O/U pick: win at -110 = $90.91
+        const payout = p.ml ? p.ml : 90.91;
+        return acc+payout;
+      }
+      if(p.result==='LOSS') return acc-100;
+      return acc; // push
+    },0);
+    const pnlStr=(pnl>=0?'+':'')+pnl.toFixed(0);
+    const pnlColor=pnl>0?'green':pnl<0?'red':'';
+    const statsHTML=`
+      <div class="tracker-stat"><div class="tracker-stat-label">Record</div><div class="tracker-stat-val">${wins}-${losses}${pushes>0?'-'+pushes:''}</div></div>
+      <div class="tracker-stat"><div class="tracker-stat-label">Win %</div><div class="tracker-stat-val ${pct>=55?'green':pct<45&&graded.length>5?'red':''}"> ${pct}%</div></div>
+      <div class="tracker-stat"><div class="tracker-stat-label">Pending</div><div class="tracker-stat-val">${pending}</div></div>
+      <div class="tracker-stat"><div class="tracker-stat-label">P&amp;L ($100)</div><div class="tracker-stat-val ${pnlColor}">${pnlStr}</div></div>
+    `;
+    const recent = allPicks.slice(0,14);
+    document.getElementById('trackerStatsTop').innerHTML = statsHTML;
+    const recentHTML = recent.map(p=>{
+      const rc = p.result==='WIN'?'win':p.result==='LOSS'?'loss':p.result==='PUSH'?'push':'pending';
+      const ri = p.result==='WIN'?'✓':p.result==='LOSS'?'✗':p.result==='PUSH'?'~':'⏳';
+      const final = p.final_total!=null?` · Final: ${p.final_total}`:'';
+      const betLabel = p.pick?`${p.pick} ${p.line||''}`:p.team?`🐶 ${p.team} +${p.ml}`:'';
+      const ptype = p.pick?'ou':'dog';
+      return`<div class="pick-row" style="position:relative;">
+        <button onclick="deletePick('${p.away}','${p.home}','${p.date}','${ptype}')" style="position:absolute;right:0;top:2px;background:#330000;color:#ff4444;border:1px solid #660000;font-family:'VT323',monospace;font-size:14px;padding:0 5px;cursor:pointer;">✕</button>
+        <span class="pick-game">${p.game}</span>
+        <span class="pick-bet">${betLabel}</span>
+        <span class="pick-date" style="font-family:'VT323',monospace;font-size:16px;color:#00aa00;">${p.date}</span>
+        <span class="pick-result ${rc}">${ri} ${p.result}${final}</span>
+      </div>
+    </div>`;
+    }).join('');
+    document.getElementById('trackerPicksTop').innerHTML = recentHTML;
 }
 
 async function loadAll(){
@@ -1127,56 +1181,9 @@ async function loadAll(){
     document.getElementById('footer').style.display='block';
     document.getElementById('footer').innerHTML='<strong>THE MODEL:</strong> Offense: wRC+ × 70% + L14 R/G × 30% + platoon splits · Home +5% · Pitching: 50% weight · SP blend: 80/20 elite, 70/30 solid, 61/39 avg · Weather: game-time forecast, wind/temp/rain adjustments · Park factors: 3yr FanGraphs · Data: pybaseball + MLB Stats API';
     // ── PICKS TRACKER ────────────────────────────────────────────────────────
-    // Load manual picks from localStorage — OU and dog picks
-    const allOUPicks = (_picksCache?.ou||getManualPicks()).sort((a,b)=>b.date.localeCompare(a.date));
-    const allDogPicks = (_picksCache?.dog||getDogPicks()).sort((a,b)=>b.date.localeCompare(a.date));
-    // allPicks combines both for the record tracker
-    const allPicks = [...allOUPicks, ...allDogPicks].sort((a,b)=>b.date.localeCompare(a.date));
-    if(allPicks.length){
-      document.getElementById('picksTrackerTop').style.display='block';
-      const graded = allPicks.filter(p=>p.result!=='PENDING');
-      const wins = graded.filter(p=>p.result==='WIN').length;
-      const losses = graded.filter(p=>p.result==='LOSS').length;
-      const pushes = graded.filter(p=>p.result==='PUSH').length;
-      const pct = graded.length>0?Math.round((wins/graded.length)*100):0;
-      const pending = allPicks.filter(p=>p.result==='PENDING').length;
-      // P&L: $100 flat bet — O/U at -110, dogs at actual ML odds
-      const pnl = graded.reduce((acc,p)=>{
-        if(p.result==='WIN'){
-          // Dog pick: win = ML value (e.g. +150 wins $150)
-          // O/U pick: win at -110 = $90.91
-          const payout = p.ml ? p.ml : 90.91;
-          return acc+payout;
-        }
-        if(p.result==='LOSS') return acc-100;
-        return acc; // push
-      },0);
-      const pnlStr=(pnl>=0?'+':'')+pnl.toFixed(0);
-      const pnlColor=pnl>0?'green':pnl<0?'red':'';
-      const statsHTML=`
-        <div class="tracker-stat"><div class="tracker-stat-label">Record</div><div class="tracker-stat-val">${wins}-${losses}${pushes>0?'-'+pushes:''}</div></div>
-        <div class="tracker-stat"><div class="tracker-stat-label">Win %</div><div class="tracker-stat-val ${pct>=55?'green':pct<45&&graded.length>5?'red':''}"> ${pct}%</div></div>
-        <div class="tracker-stat"><div class="tracker-stat-label">Pending</div><div class="tracker-stat-val">${pending}</div></div>
-        <div class="tracker-stat"><div class="tracker-stat-label">P&amp;L ($100)</div><div class="tracker-stat-val ${pnlColor}">${pnlStr}</div></div>
-      `;
-      const recent = allPicks.slice(0,14);
-      document.getElementById('trackerStatsTop').innerHTML = statsHTML;
-      const recentHTML = recent.map(p=>{
-        const rc = p.result==='WIN'?'win':p.result==='LOSS'?'loss':p.result==='PUSH'?'push':'pending';
-        const ri = p.result==='WIN'?'✓':p.result==='LOSS'?'✗':p.result==='PUSH'?'~':'⏳';
-        const final = p.final_total!=null?` · Final: ${p.final_total}`:'';
-        const betLabel = p.pick?`${p.pick} ${p.line||''}`:p.team?`🐶 ${p.team} +${p.ml}`:'';
-        const ptype = p.pick?'ou':'dog';
-        return`<div class="pick-row" style="position:relative;">
-          <button onclick="deletePick('${p.away}','${p.home}','${p.date}','${ptype}')" style="position:absolute;right:0;top:2px;background:#330000;color:#ff4444;border:1px solid #660000;font-family:'VT323',monospace;font-size:14px;padding:0 5px;cursor:pointer;">✕</button>
-          <span class="pick-game">${p.game}</span>
-          <span class="pick-bet">${betLabel}</span>
-          <span class="pick-date" style="font-family:'VT323',monospace;font-size:16px;color:#00aa00;">${p.date}</span>
-          <span class="pick-result ${rc}">${ri} ${p.result}${final}</span>
-        </div>
-      </div>`;
-      }).join('');
-      document.getElementById('trackerPicksTop').innerHTML = recentHTML;
+    renderPicksTracker();
+    // Load manual picks from localStorage — OU and dog picks (legacy keep)
+    // Picks tracker rendered by renderPicksTracker()
     }
     // ─────────────────────────────────────────────────────────────────────────
     const dataAge=pyData?.generated_at?` · Data: ${pyData.generated_at}`:''; document.getElementById('statusText').textContent=`Edition ready · ${results.length} games · ${withLines.length} O/U lines${dataAge}`;
