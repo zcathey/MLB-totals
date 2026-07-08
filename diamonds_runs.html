@@ -634,7 +634,19 @@ async function loadAll(){
   const todayFullPicks=[];
   const today_str=todayISO();
   // Load picks from Gist with hard timeout
-  try{await Promise.race([loadGistPicks(),new Promise((_,r)=>setTimeout(()=>r(new Error('timeout')),10000))]);}catch(e){console.warn('Picks load timed out:',e);}
+  try{
+    await Promise.race([loadGistPicks(),new Promise((_,r)=>setTimeout(()=>r(new Error('timeout')),15000))]);
+  }catch(e){
+    console.warn('Picks load timed out:',e);
+    // Ensure _picksCache is populated from localStorage even on timeout
+    if(!_picksCache){
+      try{
+        const raw=localStorage.getItem('mlb_picks_gist');
+        if(raw)_picksCache=JSON.parse(raw);
+        else _picksCache={ou:[],dog:[]};
+      }catch{_picksCache={ou:[],dog:[]};}
+    }
+  }
   const manualPicksToday=getManualPicks().filter(p=>p.date===today_str);
   const dogPicksToday=getDogPicks().filter(p=>p.date===today_str);
   document.getElementById('headerDate').textContent=new Date(isoDate+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});
@@ -1116,8 +1128,8 @@ async function loadAll(){
     document.getElementById('footer').innerHTML='<strong>THE MODEL:</strong> Offense: wRC+ × 70% + L14 R/G × 30% + platoon splits · Home +5% · Pitching: 50% weight · SP blend: 80/20 elite, 70/30 solid, 61/39 avg · Weather: game-time forecast, wind/temp/rain adjustments · Park factors: 3yr FanGraphs · Data: pybaseball + MLB Stats API';
     // ── PICKS TRACKER ────────────────────────────────────────────────────────
     // Load manual picks from localStorage — OU and dog picks
-    const allOUPicks = getManualPicks().sort((a,b)=>b.date.localeCompare(a.date));
-    const allDogPicks = getDogPicks().sort((a,b)=>b.date.localeCompare(a.date));
+    const allOUPicks = (_picksCache?.ou||getManualPicks()).sort((a,b)=>b.date.localeCompare(a.date));
+    const allDogPicks = (_picksCache?.dog||getDogPicks()).sort((a,b)=>b.date.localeCompare(a.date));
     // allPicks combines both for the record tracker
     const allPicks = [...allOUPicks, ...allDogPicks].sort((a,b)=>b.date.localeCompare(a.date));
     if(allPicks.length){
