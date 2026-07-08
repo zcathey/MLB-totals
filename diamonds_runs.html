@@ -631,7 +631,7 @@ function buildGamePreview(r,pyData){
   return paras.map(p=>`<p>${p}</p>`).join('');
 }
 
-function renderPicksTracker(){
+function renderPicksTracker(){try{
 const allOUPicks = (_picksCache?.ou||getManualPicks()).sort((a,b)=>b.date.localeCompare(a.date));
   const allDogPicks = (_picksCache?.dog||getDogPicks()).sort((a,b)=>b.date.localeCompare(a.date));
   // allPicks combines both for the record tracker
@@ -681,6 +681,8 @@ const allOUPicks = (_picksCache?.ou||getManualPicks()).sort((a,b)=>b.date.locale
     </div>`;
     }).join('');
     document.getElementById('trackerPicksTop').innerHTML = recentHTML;
+}
+}catch(e){console.warn('Tracker render error:',e);}
 }
 
 async function loadAll(){
@@ -1181,8 +1183,7 @@ async function loadAll(){
     document.getElementById('footer').style.display='block';
     document.getElementById('footer').innerHTML='<strong>THE MODEL:</strong> Offense: wRC+ × 70% + L14 R/G × 30% + platoon splits · Home +5% · Pitching: 50% weight · SP blend: 80/20 elite, 70/30 solid, 61/39 avg · Weather: game-time forecast, wind/temp/rain adjustments · Park factors: 3yr FanGraphs · Data: pybaseball + MLB Stats API';
     // ── PICKS TRACKER ────────────────────────────────────────────────────────
-    renderPicksTracker();
-    // Load manual picks from localStorage — OU and dog picks (legacy keep)
+    // Picks tracker rendered after Gist loads (see loadGistPicks)
     // Picks tracker rendered by renderPicksTracker()
     }
     // ─────────────────────────────────────────────────────────────────────────
