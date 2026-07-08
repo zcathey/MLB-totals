@@ -205,14 +205,19 @@ async function loadGistPicks(){
     console.log(`Picks loaded from Gist: ${_picksCache.ou?.length||0} OU, ${_picksCache.dog?.length||0} dog`);
     // Re-render picks tracker now that data is loaded
     if(typeof renderPicksTracker==='function') renderPicksTracker();
-    // Grade any pending picks from previous days (with timeout)
-    try{
-      const graded = await Promise.race([
-        gradePicksInBrowser(_picksCache),
-        new Promise((_,r)=>setTimeout(()=>r(new Error('grade timeout')),12000))
-      ]);
-      if(graded) await saveGistPicks(_picksCache);
-    }catch(e){console.warn('Grading skipped:',e);}
+    // Grade pending picks in background (non-blocking)
+    setTimeout(async()=>{
+      try{
+        const graded=await Promise.race([
+          gradePicksInBrowser(_picksCache),
+          new Promise((_,r)=>setTimeout(()=>r(new Error('grade timeout')),15000))
+        ]);
+        if(graded){
+          await saveGistPicks(_picksCache);
+          if(typeof renderPicksTracker==='function') renderPicksTracker();
+        }
+      }catch(e){console.warn('Background grading skipped:',e);}
+    },2000); // 2s delay so page loads first
   }catch(e){
     console.warn('Gist load failed, using localStorage fallback:',e);
     try{
@@ -691,7 +696,7 @@ async function loadAll(){
   const today_str=todayISO();
   // Load picks from Gist with hard timeout
   try{
-    await Promise.race([loadGistPicks(),new Promise((_,r)=>setTimeout(()=>r(new Error('timeout')),15000))]);
+    await Promise.race([loadGistPicks(),new Promise((_,r)=>setTimeout(()=>r(new Error('timeout')),8000))]);
   }catch(e){
     console.warn('Picks load timed out:',e);
     // Ensure _picksCache is populated from localStorage even on timeout
