@@ -194,7 +194,7 @@ async function loadGistPicks(){
   if(_picksCache)return _picksCache;
   try{
     const r=await fetch(`https://api.github.com/gists/${GIST_ID}`,{
-      headers:{'Authorization':`token ${GIST_TOKEN}`,'Accept':'application/vnd.github.v3+json'}
+      headers:{'Accept':'application/vnd.github.v3+json'}
     });
     if(!r.ok)throw new Error(`Gist fetch failed: ${r.status}`);
     const data=await r.json();
@@ -410,13 +410,25 @@ function combPitch(ra9,bpFip,spXera=null){
 }
 function spTag(r){if(r<=3.20)return'<span class="stat-tag good">ELITE</span>';if(r<=3.75)return'<span class="stat-tag good2">GOOD</span>';if(r<=4.20)return'<span class="stat-tag avg">AVG</span>';if(r<=4.90)return'<span class="stat-tag warn">WEAK</span>';return'<span class="stat-tag bad">BAD</span>'}
 function bpTag(f){if(!f)return'';if(f<=3.50)return'<span class="stat-tag good">ELITE PEN</span>';if(f<=4.05)return'<span class="stat-tag good2">GOOD PEN</span>';if(f<=4.50)return'<span class="stat-tag avg">AVG PEN</span>';if(f<=5.20)return'<span class="stat-tag warn">WEAK PEN</span>';return'<span class="stat-tag bad">BAD PEN</span>'}
-function blendedRG(abbr,recentRG,wrcPlus,isHome=false){
+function blendedRG(abbr,recentRG,recentOPS,leagueAvgOPS,wrcPlus,isHome=false){
   const homeMult=isHome?1.015:0.985;
   const rbat=wrcPlus??RBAT[abbr]??100;
   const sRG=LG_AVG_RG*(rbat/100)*homeMult;
-  if(recentRG==null)return{rg:sRG,blended:false,seasonRG:+sRG.toFixed(2),isHome};
-  const adjRecentRG=+(recentRG*homeMult).toFixed(2);
-  return{rg:+(0.70*sRG+0.30*adjRecentRG).toFixed(2),blended:true,seasonRG:+sRG.toFixed(2),recentRG:adjRecentRG,rawRecentRG:recentRG,isHome};
+  // Preferred: blend on index scale (season wRC+ vs recent OPS-based index).
+  // OPS is less noisy than raw R/G over 14 games since it strips out sequencing/luck.
+  if(recentOPS!=null&&leagueAvgOPS){
+    const recentIndex=100*(recentOPS/leagueAvgOPS);
+    const blendedIndex=0.70*rbat+0.30*recentIndex;
+    const rg=+(LG_AVG_RG*(blendedIndex/100)*homeMult).toFixed(2);
+    const recentRGDisplay=+(LG_AVG_RG*(recentIndex/100)*homeMult).toFixed(2);
+    return{rg,blended:true,method:'ops',seasonRG:+sRG.toFixed(2),recentRG:recentRGDisplay,recentOPS:+recentOPS.toFixed(3),recentIndex:+recentIndex.toFixed(1),isHome};
+  }
+  // Legacy fallback: raw R/G blend, used only if OPS data isn't available (e.g. server-side pyData fallback)
+  if(recentRG!=null){
+    const adjRecentRG=+(recentRG*homeMult).toFixed(2);
+    return{rg:+(0.70*sRG+0.30*adjRecentRG).toFixed(2),blended:true,method:'rg',seasonRG:+sRG.toFixed(2),recentRG:adjRecentRG,rawRecentRG:recentRG,isHome};
+  }
+  return{rg:sRG,blended:false,seasonRG:+sRG.toFixed(2),isHome};
 }
 function platoonAdj(teamAbbr,spHand,platoonMap){
   if(!spHand)return{adj:0,teamOPS:null,spHand:null};
@@ -471,7 +483,35 @@ async function fetchPitcherStats(id,season){
   try{const url=`https://statsapi.mlb.com/api/v1/people/${id}/stats?stats=season&season=${season}&group=pitching`;const j=await(await fetchWithFallback(url)).json();const s=j?.stats?.[0]?.splits?.[0]?.stat;if(!s)return null;const bf=parseFloat(s.battersFaced)||0,ip=parseFloat(s.inningsPitched)||0,so=parseFloat(s.strikeOuts)||0,bb=parseFloat(s.baseOnBalls)||0,hr=parseFloat(s.homeRuns)||0;const kp=bf>0?(so/bf)*100:null,bp=bf>0?(bb/bf)*100:null;let fip=null;if(ip>=20)fip=Math.max(0.5,Math.min(9,(13*hr+3*bb-2*so)/ip+3.20));return{fip,kPct:kp,bbPct:bp,ip};}catch{return null}
 }
 async function fetchRecentForm(teamId,season){
-  try{const end=todayISO();const s=new Date();s.setDate(s.getDate()-14);const start=s.toISOString().split('T')[0];const url=`https://statsapi.mlb.com/api/v1/teams/${teamId}/stats?stats=byDateRange&group=hitting&season=${season}&startDate=${start}&endDate=${end}`;const j=await(await fetchWithFallback(url)).json();const sp=j?.stats?.[0]?.splits?.[0]?.stat;if(!sp)return null;const g=parseInt(sp.gamesPlayed)||0,r=parseInt(sp.runs)||0;if(g<5)return null;return{rg:+(r/g).toFixed(2),games:g};}catch{return null}
+  try{const end=todayISO();const s=new Date();s.setDate(s.getDate()-14);const start=s.toISOString().split('T')[0];const url=`https://statsapi.mlb.com/api/v1/teams/${teamId}/stats?stats=byDateRange&group=hitting&season=${season}&startDate=${start}&endDate=${end}`;const j=await(await fetchWithFallback(url)).json();const sp=j?.stats?.[0]?.splits?.[0]?.stat;if(!sp)return null;const g=parseInt(sp.gamesPlayed)||0,r=parseInt(sp.runs)||0;if(g<5)return null;const ops=parseFloat(sp.ops)||null;return{rg:+(r/g).toFixed(2),games:g,ops};}catch{return null}
+}
+// League-wide OPS over the same trailing-14-day window, used as the denominator for each
+// team's recent-form index (recentIndex = 100 * teamOPS / leagueAvgOPS). One call, covers all 30 teams.
+async function fetchLeagueOPS(season){
+  try{
+    const end=todayISO();const s=new Date();s.setDate(s.getDate()-14);const start=s.toISOString().split('T')[0];
+    const url=`https://statsapi.mlb.com/api/v1/teams/stats?stats=byDateRange&group=hitting&season=${season}&startDate=${start}&endDate=${end}&sportIds=1`;
+    const j=await(await fetchWithFallback(url)).json();
+    const splits=j?.stats?.[0]?.splits||[];
+    if(!splits.length)return null;
+    // Prefer a PA-weighted league OPS built from raw counting stats (correct way to aggregate OPS across teams)
+    let totH=0,totBB=0,totHBP=0,totAB=0,totSF=0,totTB=0,haveRaw=true;
+    for(const s of splits){
+      const st=s.stat||{};
+      const h=parseFloat(st.hits),bb=parseFloat(st.baseOnBalls),hbp=parseFloat(st.hitByPitch),ab=parseFloat(st.atBats),sf=parseFloat(st.sacFlies),tb=parseFloat(st.totalBases);
+      if([h,bb,hbp,ab,sf,tb].some(v=>isNaN(v))){haveRaw=false;break;}
+      totH+=h;totBB+=bb;totHBP+=hbp;totAB+=ab;totSF+=sf;totTB+=tb;
+    }
+    if(haveRaw&&totAB>0){
+      const obp=(totH+totBB+totHBP)/(totAB+totBB+totHBP+totSF);
+      const slg=totTB/totAB;
+      return+(obp+slg).toFixed(3);
+    }
+    // Fallback: simple mean of each team's reported OPS
+    const opsVals=splits.map(s=>parseFloat(s.stat?.ops)).filter(v=>!isNaN(v)&&v>0.3&&v<1.2);
+    if(!opsVals.length)return null;
+    return+(opsVals.reduce((a,b)=>a+b,0)/opsVals.length).toFixed(3);
+  }catch{return null}
 }
 async function fetchBullpenFIP(teamId,season,spIds=new Set()){
   try{const url=`https://statsapi.mlb.com/api/v1/teams/${teamId}/roster?rosterType=active&season=${season}&hydrate=person(stats(type=season,group=pitching))`;const _c2=new AbortController();setTimeout(()=>_c2.abort(),8000);const j=await(await fetchWithFallback(url)).json();const roster=j?.roster||[];let totIP=0,totSO=0,totBB=0,totHR=0,count=0;for(const p of roster){if(p.position?.abbreviation!=='P')continue;if(spIds.has(p.person?.id))continue;const s=p.person?.stats?.[0]?.splits?.[0]?.stat;if(!s)continue;const ip=parseFloat(s.inningsPitched)||0;if(ip<3)continue;const so=parseFloat(s.strikeOuts)||0,bb=parseFloat(s.baseOnBalls)||0,hr=parseFloat(s.homeRuns)||0;totIP+=ip;totSO+=so;totBB+=bb;totHR+=hr;count++;}if(totIP<10||count<2)return null;const fip=Math.max(0.5,Math.min(9,(13*totHR+3*totBB-2*totSO)/totIP+3.20));return{fip:+fip.toFixed(2),ip:+totIP.toFixed(1),pitchers:count};}catch{return null}
@@ -767,7 +807,7 @@ async function loadAll(){
     console.log('CP4: gathering weather');
     document.getElementById('statusText').textContent='Gathering weather, pitcher stats & form...';
     console.log('CP5: parallel fetches start');
-    const[statsEntries,weatherEntries,formEntries,bullpenEntries,platoonEntries,lastOutingEntries,seriesEntries]=await Promise.all([
+    const[statsEntries,weatherEntries,formEntries,bullpenEntries,platoonEntries,lastOutingEntries,seriesEntries,leagueOPSResult]=await Promise.all([
       Promise.all([...pitcherIds].map(async id=>[id,await fetchPitcherStats(id,season)])),
       Promise.all(homeAbbrs.map(async a=>{const p=PARKS[a];try{return[a,p?await fetchWeather(p.lat,p.lng,gameTimeByHome[a]):null]}catch{return[a,null]}})),
       Promise.all(Object.entries(teamIds).map(async([a,id])=>[a,await fetchRecentForm(id,season)])),
@@ -779,8 +819,11 @@ async function loadAll(){
         const key=`${TEAM_ID_MAP[awayId]}@${TEAM_ID_MAP[homeId]}`;
         const rec=await fetchSeriesRecord(homeId,awayId,g.seriesGameNumber,g.gameDate);
         return[key,{gameNumber:g.seriesGameNumber||null,gamesInSeries:g.gamesInSeries||null,rec}];
-      }))
+      })),
+      fetchLeagueOPS(season)
     ]);
+    // Fallback constant (~league-average OPS) only used if the live league-wide fetch fails
+    const leagueAvgOPS=leagueOPSResult??0.715;
 
     const statsMap=Object.fromEntries(statsEntries);
     // Enrich with Savant xFIP stats from pyData
@@ -804,7 +847,9 @@ async function loadAll(){
     const rawForm=Object.fromEntries(formEntries);
     const formMap={};
     for(const t of new Set([...Object.keys(rawForm),...Object.keys(pyData?.recent_form||{})])){
-      formMap[t]=rawForm[t]||(pyData?.recent_form?.[t]?{rg:pyData.recent_form[t].rg}:null);
+      const live=rawForm[t];
+      const py=pyData?.recent_form?.[t];
+      formMap[t]=live?{rg:live.rg,ops:live.ops??null}:(py?{rg:py.rg,ops:py.ops??null}:null);
     }
     // Prefer server-side bullpen xERA from data.json; fall back to live FIP fetch
     const bullpenMap=Object.fromEntries(bullpenEntries.map(([a,v])=>{
@@ -854,8 +899,8 @@ async function loadAll(){
       const awayRec=pyData?.team_records?.[aa]?.record||'';
       const homeRec=pyData?.team_records?.[ha]?.record||'';
       const homeWrc=pyData?.team_batting?.[ha]?.wrc_plus??RBAT[ha]??100;
-      const awayOff=blendedRG(aa,formMap[aa]?.rg,awayWrc,false);
-      const homeOff=blendedRG(ha,formMap[ha]?.rg,homeWrc,true);
+      const awayOff=blendedRG(aa,formMap[aa]?.rg,formMap[aa]?.ops,leagueAvgOPS,awayWrc,false);
+      const homeOff=blendedRG(ha,formMap[ha]?.rg,formMap[ha]?.ops,leagueAvgOPS,homeWrc,true);
       // Platoon adjustments
       const awayPlatoon=platoonAdj(aa,homeHand,platoonMap);
       const homePlatoon=platoonAdj(ha,awayHand,platoonMap);
