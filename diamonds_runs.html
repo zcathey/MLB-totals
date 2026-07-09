@@ -1194,9 +1194,6 @@ async function loadAll(){
     document.getElementById('footer').style.display='block';
     document.getElementById('footer').innerHTML='<strong>THE MODEL:</strong> Offense: wRC+ × 70% + L14 R/G × 30% + platoon splits · Home +5% · Pitching: 50% weight · SP blend: 80/20 elite, 70/30 solid, 61/39 avg · Weather: game-time forecast, wind/temp/rain adjustments · Park factors: 3yr FanGraphs · Data: pybaseball + MLB Stats API';
     // ── PICKS TRACKER ────────────────────────────────────────────────────────
-    // Picks tracker rendered after Gist loads (see loadGistPicks)
-    // Picks tracker rendered by renderPicksTracker()
-    }
     // ─────────────────────────────────────────────────────────────────────────
     const dataAge=pyData?.generated_at?` · Data: ${pyData.generated_at}`:''; document.getElementById('statusText').textContent=`Edition ready · ${results.length} games · ${withLines.length} O/U lines${dataAge}`;
   }catch(err){
