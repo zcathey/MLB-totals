@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T14:47:26.394551Z",
+  "generated": "2026-07-11T14:57:06.601101Z",
   "date": "2026-07-11",
   "season": 2026,
   "team_batting": {
@@ -5140,21 +5140,21 @@
     "ATH|CWS": {
       "away": {
         "abbr": "ATH",
-        "ml": -101
+        "ml": -102
       },
       "home": {
         "abbr": "CWS",
-        "ml": -107
+        "ml": -106
       }
     },
     "LAA|MIN": {
       "away": {
         "abbr": "LAA",
-        "ml": 153
+        "ml": 154
       },
       "home": {
         "abbr": "MIN",
-        "ml": -167
+        "ml": -168
       }
     },
     "NYY|WSH": {
@@ -5170,11 +5170,11 @@
     "COL|SFG": {
       "away": {
         "abbr": "COL",
-        "ml": 133
+        "ml": 131
       },
       "home": {
         "abbr": "SFG",
-        "ml": -144
+        "ml": -143
       }
     },
     "BOS|NYM": {
@@ -5220,7 +5220,7 @@
     "BAL|KCR": {
       "away": {
         "abbr": "KCR",
-        "ml": 135
+        "ml": 136
       },
       "home": {
         "abbr": "BAL",
@@ -5240,11 +5240,11 @@
     "CHC|CIN": {
       "away": {
         "abbr": "CHC",
-        "ml": 101
+        "ml": 100
       },
       "home": {
         "abbr": "CIN",
-        "ml": -109
+        "ml": -108
       }
     },
     "ATL|STL": {
@@ -5270,14 +5270,14 @@
     "ARI|LAD": {
       "away": {
         "abbr": "ARI",
-        "ml": 245
+        "ml": 242
       },
       "home": {
         "abbr": "LAD",
-        "ml": -275
+        "ml": -272
       }
     }
   },
   "team_records": {},
-  "generated_at": "2026-07-11 10:47 AM ET"
+  "generated_at": "2026-07-11 10:57 AM ET"
 }
