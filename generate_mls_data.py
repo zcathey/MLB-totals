@@ -210,6 +210,16 @@ def resolve_league_and_season():
     print(f"  [diag] resolved league_id={league_id} ({match['league'].get('name')!r}), "
           f"available seasons={year_list}, API-flagged current season={current_year}", file=sys.stderr)
 
+    # The /leagues response carries a per-season "coverage" object listing
+    # exactly which data types API-Football actually tracks for this
+    # competition (fixtures/events/lineups/statistics/standings/etc). If
+    # this shows fixtures-related flags as false, that's a data-coverage
+    # gap on the provider's side for this competition, not a bug in this
+    # script or a season-timing issue.
+    for s in sorted(seasons, key=lambda s: s["year"], reverse=True)[:2]:
+        cov = s.get("coverage", {})
+        print(f"  [diag] season {s['year']} coverage: {cov}", file=sys.stderr)
+
     season = current_year if current_year is not None else (year_list[-1] if year_list else SEASON)
     if season != SEASON:
         print(f"  [diag] using season={season} instead of the configured SEASON={SEASON}", file=sys.stderr)
