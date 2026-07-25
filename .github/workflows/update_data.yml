@@ -32,11 +32,18 @@ jobs:
           GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
         run: python generate_data.py
 
+    
+      - name: Generate MLS data
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: python generate_mls_data.py
+
+
       - name: Commit and push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout HEAD -- .github/workflows/update_data.yml
-          git add data.json .last_update
+          git add data.json mls_data.json .last_update
           git diff --staged --quiet || git commit -m "Auto-update data.json $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push --force origin main
