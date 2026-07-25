@@ -6,7 +6,7 @@ Sibling script to your existing generate_data.py (MLB). Runs as an
 additional step in the same GitHub Actions workflow:
 
     1. Pull real, current team stats (home/away goals for/against) and
-       today's/upcoming fixtures from API-Football (RapidAPI).
+       today's/upcoming fixtures from API-Football (API-Sports).
     2. Feed them into the same Poisson engine from mls_model.py.
     3. Write mls_data.json at the repo root, next to your existing
        data.json — the MLS tab in diamonds_runs.html fetches it from
@@ -19,13 +19,22 @@ the frontend can display.
 
 SETUP
 -----
-1. Get a free API-Football key: https://rapidapi.com/api-sports/api/api-football
-2. Add it as a GitHub Actions secret named RAPIDAPI_KEY on this repo
+1. Get a free key by signing up directly at api-football.com — this is
+   the api-sports.io key, NOT a RapidAPI subscription (their marketplace
+   listing for this API has been unreliable, so skip it entirely):
+   https://dashboard.api-football.com/register
+   Free plan: 100 requests/day, no credit card, every endpoint included.
+   Your key is under Account → My Access once you're logged in.
+2. Add it as a GitHub Actions secret named APISPORTS_KEY on this repo
    (Settings → Secrets and variables → Actions → New repository secret).
-3. Verify MLS_LEAGUE_ID below against your own dashboard (API-Football →
-   Ids → Leagues → search "MLS") before relying on this for real games —
-   league IDs are stable per API but not something I can verify without
-   your key, so double-check it once.
+   If you already added a secret called RAPIDAPI_KEY for this from an
+   earlier step, either rename it to APISPORTS_KEY or add a second
+   secret with the new name — either works, just make sure the workflow
+   yaml's env: block matches whatever name you used.
+3. Verify MLS_LEAGUE_ID below against your own dashboard (Ids → Leagues →
+   search "MLS") before relying on this for real games — league IDs are
+   stable per API but not something I can verify without your key, so
+   double-check it once.
 """
 import json
 import math
@@ -37,17 +46,16 @@ from itertools import product
 import requests
 
 # ── CONFIG ────────────────────────────────────────────────────────────────
-RAPIDAPI_KEY = os.environ.get("RAPIDAPI_KEY", "")
-RAPIDAPI_HOST = "api-football-v1.p.rapidapi.com"
-API_BASE = f"https://{RAPIDAPI_HOST}/v3"
+# Direct api-sports.io key (from dashboard.api-football.com), NOT RapidAPI.
+APISPORTS_KEY = os.environ.get("APISPORTS_KEY", "")
+API_BASE = "https://v3.football.api-sports.io"
 MLS_LEAGUE_ID = 253          # verify against your own dashboard, see docstring
 SEASON = 2026
 OUTPUT_PATH = "mls_data.json"          # repo root, alongside your existing data.json
 HOME_ADV_MULT = 1.00
 
 HEADERS = {
-    "X-RapidAPI-Key": RAPIDAPI_KEY,
-    "X-RapidAPI-Host": RAPIDAPI_HOST,
+    "x-apisports-key": APISPORTS_KEY,
 }
 
 # ── TEAM NAME BOOK (abbr -> display name, plus fuzzy-match aliases) ────────
@@ -304,8 +312,8 @@ def main():
     data_source = "live"
     fixtures = []
 
-    if not RAPIDAPI_KEY:
-        print("[info] RAPIDAPI_KEY not set — using seed data", file=sys.stderr)
+    if not APISPORTS_KEY:
+        print("[info] APISPORTS_KEY not set — using seed data", file=sys.stderr)
         team_stats, lg_avg_home, lg_avg_away = SEED_TEAM_STATS, SEED_LG_AVG_HOME_GOALS, SEED_LG_AVG_AWAY_GOALS
         data_source = "seed"
     else:
