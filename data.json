@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T15:50:55.473352Z",
+  "generated": "2026-07-25T16:02:02.832500Z",
   "date": "2026-07-25",
   "season": 2026,
   "team_batting": {
@@ -5267,27 +5267,27 @@
     "DET|KCR": {
       "away": {
         "abbr": "KCR",
-        "ml": 139
+        "ml": 141
       },
       "home": {
         "abbr": "DET",
-        "ml": -151
+        "ml": -154
       }
     },
     "ARI|WSH": {
       "away": {
         "abbr": "ARI",
-        "ml": 120
+        "ml": 122
       },
       "home": {
         "abbr": "WSH",
-        "ml": -130
+        "ml": -132
       }
     },
     "LAA|SFG": {
       "away": {
         "abbr": "LAA",
-        "ml": 111
+        "ml": 112
       },
       "home": {
         "abbr": "SFG",
@@ -5297,21 +5297,21 @@
     "BOS|TOR": {
       "away": {
         "abbr": "TOR",
-        "ml": -102
+        "ml": -101
       },
       "home": {
         "abbr": "BOS",
-        "ml": -106
+        "ml": -107
       }
     },
     "MIA|SDP": {
       "away": {
         "abbr": "SDP",
-        "ml": 122
+        "ml": 121
       },
       "home": {
         "abbr": "MIA",
-        "ml": -132
+        "ml": -131
       }
     },
     "NYY|PHI": {
@@ -5321,13 +5321,13 @@
       },
       "home": {
         "abbr": "PHI",
-        "ml": 112
+        "ml": 111
       }
     },
     "CLE|TBR": {
       "away": {
         "abbr": "CLE",
-        "ml": 102
+        "ml": 103
       },
       "home": {
         "abbr": "TBR",
@@ -5357,11 +5357,11 @@
     "ATH|MIN": {
       "away": {
         "abbr": "ATH",
-        "ml": 138
+        "ml": 139
       },
       "home": {
         "abbr": "MIN",
-        "ml": -150
+        "ml": -151
       }
     },
     "CWS|HOU": {
@@ -5381,7 +5381,7 @@
       },
       "home": {
         "abbr": "MIL",
-        "ml": -224
+        "ml": -223
       }
     },
     "CIN|STL": {
@@ -5391,7 +5391,7 @@
       },
       "home": {
         "abbr": "STL",
-        "ml": -108
+        "ml": -107
       }
     },
     "LAD|NYM": {
@@ -5416,5 +5416,5 @@
     }
   },
   "team_records": {},
-  "generated_at": "2026-07-25 11:50 AM ET"
+  "generated_at": "2026-07-25 12:02 PM ET"
 }
