@@ -5,8 +5,14 @@ Pitch & Poisson — MLS Goal Totals — daily data generator
 Sibling script to your existing generate_data.py (MLB). Runs as an
 additional step in the same GitHub Actions workflow:
 
-    1. Pull real, current team stats (home/away goals for/against) and
-       today's/upcoming fixtures from API-Football (API-Sports).
+    1. Pull the full season's fixture list from API-Football (API-Sports) —
+       one call gets every finished match (with scores) and every
+       upcoming one. We aggregate home/away goals-for/against ourselves
+       from the finished matches rather than relying on the /teams and
+       /teams/statistics endpoints, which returned empty even with a
+       confirmed-correct league ID and season during testing — raw
+       fixture data is documented as available on every plan, including
+       free, so this sidesteps whatever that restriction was.
     2. Feed them into the same Poisson engine from mls_model.py.
     3. Write mls_data.json at the repo root, next to your existing
        data.json — the MLS tab in diamonds_runs.html fetches it from
@@ -80,6 +86,7 @@ TEAM_NAMES = {
 ALIASES = {
     "montreal impact": "MTL", "cf montreal": "MTL", "cf montréal": "MTL",
     "la galaxy": "LAG", "los angeles galaxy": "LAG",
+    "lafc": "LAFC", "los angeles fc": "LAFC",
     "dc united": "DCU", "d.c. united": "DCU",
     "ny red bulls": "NYRB", "new york red bulls": "NYRB",
     "nycfc": "NYC", "new york city fc": "NYC",
@@ -211,86 +218,104 @@ def resolve_league_and_season():
     return _resolved_league_season
 
 
-def fetch_live_team_stats():
-    """Returns (team_stats_dict, lg_avg_home, lg_avg_away) or raises on failure."""
-    league_id, season = resolve_league_and_season()
-    teams_resp = api_get("teams", {"league": league_id, "season": season})
-    teams = teams_resp.get("response", [])
-    if not teams:
-        raise RuntimeError(f"No teams returned for league_id={league_id}, season={season} — "
-                            f"likely a plan/season-coverage limit rather than a wrong ID")
+def fetch_season_fixtures(league_id, season):
+    """One call gets the whole season's fixture list — both finished
+    matches (with scores, which we aggregate into home/away GF/GA
+    ourselves) and upcoming ones. This deliberately avoids /teams and
+    /teams/statistics: those returned nothing in testing even with a
+    confirmed-correct league_id/season, which points at those specific
+    aggregate endpoints being free-plan-restricted while raw fixture
+    data (scores, schedules) is documented as included on every plan.
+    Doing the aggregation ourselves also cuts this down to ~2 API calls
+    total per run instead of ~1 + (1 per team)."""
+    resp = api_get("fixtures", {"league": league_id, "season": season})
+    fixtures = resp.get("response", [])
+    print(f"  [diag] /fixtures?league={league_id}&season={season} returned {len(fixtures)} fixture(s)",
+          file=sys.stderr)
+    return fixtures
 
-    team_stats = {}
+
+FINISHED_STATUSES = {"FT", "AET", "PEN"}
+UPCOMING_STATUSES = {"NS", "TBD", "PST"}  # not started / to-be-defined / postponed-but-not-cancelled
+
+
+def build_team_stats_from_fixtures(fixtures):
+    """Aggregate home/away GF/GA per team from raw finished-match scores."""
+    agg = {abbr: {"gp_home": 0, "gp_away": 0, "gf_home": 0, "gf_away": 0, "ga_home": 0, "ga_away": 0}
+           for abbr in TEAM_NAMES}
     total_home_goals = total_home_games = 0
     total_away_goals = total_away_games = 0
+    unmatched = set()
 
-    for entry in teams:
-        api_id = entry["team"]["id"]
-        api_name = entry["team"]["name"]
-        abbr = match_abbr(api_name)
-        if abbr is None:
-            print(f"  [warn] no abbr match for API team '{api_name}', skipping", file=sys.stderr)
+    for f in fixtures:
+        status = f.get("fixture", {}).get("status", {}).get("short")
+        if status not in FINISHED_STATUSES:
             continue
-
-        stats = api_get("teams/statistics",
-                         {"league": league_id, "season": season, "team": api_id})
-        r = stats.get("response", {})
-        try:
-            gp_home = r["fixtures"]["played"]["home"]
-            gp_away = r["fixtures"]["played"]["away"]
-            gf_home = r["goals"]["for"]["total"]["home"]
-            gf_away = r["goals"]["for"]["total"]["away"]
-            ga_home = r["goals"]["against"]["total"]["home"]
-            ga_away = r["goals"]["against"]["total"]["away"]
-        except (KeyError, TypeError):
-            print(f"  [warn] incomplete stats for {abbr}, using seed values", file=sys.stderr)
-            team_stats[abbr] = SEED_TEAM_STATS[abbr]
+        home_goals = f.get("goals", {}).get("home")
+        away_goals = f.get("goals", {}).get("away")
+        if home_goals is None or away_goals is None:
             continue
-
-        if gp_home == 0 or gp_away == 0:
-            # Not enough games yet this season to trust — fall back for this team only
-            team_stats[abbr] = SEED_TEAM_STATS[abbr]
-            continue
-
-        team_stats[abbr] = {
-            "gp_home": gp_home, "gp_away": gp_away,
-            "gf_home": gf_home, "gf_away": gf_away,
-            "ga_home": ga_home, "ga_away": ga_away,
-        }
-        total_home_goals += gf_home
-        total_home_games += gp_home
-        total_away_goals += gf_away
-        total_away_games += gp_away
-
-    # fill in any team we never matched at all
-    for abbr in TEAM_NAMES:
-        team_stats.setdefault(abbr, SEED_TEAM_STATS[abbr])
-
-    if total_home_games == 0 or total_away_games == 0:
-        raise RuntimeError("Could not compute league averages from live data")
-
-    lg_avg_home = total_home_goals / total_home_games
-    lg_avg_away = total_away_goals / total_away_games
-    return team_stats, lg_avg_home, lg_avg_away
-
-
-def fetch_upcoming_fixtures(n=15):
-    """Next N MLS fixtures league-wide, regardless of date."""
-    league_id, season = resolve_league_and_season()
-    resp = api_get("fixtures", {"league": league_id, "season": season, "next": n})
-    fixtures = []
-    for f in resp.get("response", []):
         home_name = f["teams"]["home"]["name"]
         away_name = f["teams"]["away"]["name"]
         home_abbr = match_abbr(home_name)
         away_abbr = match_abbr(away_name)
+        if home_abbr is None:
+            unmatched.add(home_name)
+        if away_abbr is None:
+            unmatched.add(away_name)
         if home_abbr is None or away_abbr is None:
             continue
-        fixtures.append({
+
+        agg[home_abbr]["gp_home"] += 1
+        agg[home_abbr]["gf_home"] += home_goals
+        agg[home_abbr]["ga_home"] += away_goals
+        agg[away_abbr]["gp_away"] += 1
+        agg[away_abbr]["gf_away"] += away_goals
+        agg[away_abbr]["ga_away"] += home_goals
+
+        total_home_goals += home_goals
+        total_home_games += 1
+        total_away_goals += away_goals
+        total_away_games += 1
+
+    if unmatched:
+        print(f"  [warn] no abbr match for API team name(s): {sorted(unmatched)}", file=sys.stderr)
+
+    team_stats = {}
+    for abbr, s in agg.items():
+        if s["gp_home"] == 0 or s["gp_away"] == 0:
+            team_stats[abbr] = SEED_TEAM_STATS[abbr]  # not enough games yet — use seed for this team only
+        else:
+            team_stats[abbr] = s
+
+    if total_home_games == 0 or total_away_games == 0:
+        raise RuntimeError("No finished fixtures with usable scores found — can't compute league averages")
+
+    lg_avg_home = total_home_goals / total_home_games
+    lg_avg_away = total_away_goals / total_away_games
+    print(f"  [diag] built team stats from {total_home_games} finished fixtures, "
+          f"lg_avg_home={lg_avg_home:.3f}, lg_avg_away={lg_avg_away:.3f}", file=sys.stderr)
+    return team_stats, lg_avg_home, lg_avg_away
+
+
+def extract_upcoming_fixtures(fixtures, n=15):
+    """Pull the next N not-yet-played fixtures out of the same season list,
+    sorted by kickoff time."""
+    upcoming = []
+    for f in fixtures:
+        status = f.get("fixture", {}).get("status", {}).get("short")
+        if status not in UPCOMING_STATUSES:
+            continue
+        home_abbr = match_abbr(f["teams"]["home"]["name"])
+        away_abbr = match_abbr(f["teams"]["away"]["name"])
+        if home_abbr is None or away_abbr is None:
+            continue
+        upcoming.append({
             "home": home_abbr, "away": away_abbr,
             "kickoff_utc": f["fixture"]["date"],
         })
-    return fixtures
+    upcoming.sort(key=lambda g: g["kickoff_utc"] or "")
+    return upcoming[:n]
 
 
 # ── POISSON ENGINE (same math as mls_model.py) ──────────────────────────────
@@ -382,8 +407,10 @@ def main():
         data_source = "seed"
     else:
         try:
-            team_stats, lg_avg_home, lg_avg_away = fetch_live_team_stats()
-            fixtures = fetch_upcoming_fixtures()
+            league_id, season = resolve_league_and_season()
+            season_fixtures = fetch_season_fixtures(league_id, season)
+            team_stats, lg_avg_home, lg_avg_away = build_team_stats_from_fixtures(season_fixtures)
+            fixtures = extract_upcoming_fixtures(season_fixtures)
         except Exception as e:
             print(f"[warn] live pull failed ({e}), falling back to seed data", file=sys.stderr)
             team_stats, lg_avg_home, lg_avg_away = SEED_TEAM_STATS, SEED_LG_AVG_HOME_GOALS, SEED_LG_AVG_AWAY_GOALS
