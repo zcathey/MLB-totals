@@ -31,10 +31,14 @@ SETUP
    earlier step, either rename it to APISPORTS_KEY or add a second
    secret with the new name — either works, just make sure the workflow
    yaml's env: block matches whatever name you used.
-3. Verify MLS_LEAGUE_ID below against your own dashboard (Ids → Leagues →
-   search "MLS") before relying on this for real games — league IDs are
-   stable per API but not something I can verify without your key, so
-   double-check it once.
+3. You do NOT need to verify MLS_LEAGUE_ID yourself anymore — the script
+   now looks it up at runtime via /leagues?search=MLS and logs exactly
+   what it finds (candidate leagues, the resolved ID, and which seasons
+   your plan has data for) to the Action log under "[diag]" lines. If
+   the live pull still fails, check those lines first — a common cause
+   on the free plan is the current in-progress season not being covered
+   yet, in which case the log will show it falling back to the latest
+   season your plan does have.
 """
 import json
 import math
@@ -150,12 +154,58 @@ def api_get(endpoint, params):
     return resp.json()
 
 
+_resolved_league_season = None  # cache so we only hit /leagues once per run
+
+def resolve_league_and_season():
+    """Look up MLS's real league ID and a season your plan actually has data
+    for, instead of trusting the hardcoded MLS_LEAGUE_ID/SEASON guesses.
+    Logs everything it finds so a failure here is diagnosable from the
+    Action log, not a mystery."""
+    global _resolved_league_season
+    if _resolved_league_season is not None:
+        return _resolved_league_season
+
+    resp = api_get("leagues", {"search": "MLS"})
+    candidates = resp.get("response", [])
+    print(f"  [diag] /leagues?search=MLS returned {len(candidates)} candidate(s)", file=sys.stderr)
+
+    match = None
+    for entry in candidates:
+        league = entry.get("league", {})
+        country = entry.get("country", {})
+        print(f"  [diag]   candidate: id={league.get('id')} name={league.get('name')!r} "
+              f"country={country.get('name')!r} type={league.get('type')!r}", file=sys.stderr)
+        if country.get("name") == "USA" and league.get("type", "").lower() == "league":
+            match = entry
+            break
+    if match is None and candidates:
+        match = candidates[0]  # best-effort fallback to whatever came back first
+    if match is None:
+        raise RuntimeError("No MLS league found via /leagues?search=MLS — check your plan/key")
+
+    league_id = match["league"]["id"]
+    seasons = match.get("seasons", [])
+    year_list = sorted(s["year"] for s in seasons)
+    current_year = next((s["year"] for s in seasons if s.get("current")), None)
+    print(f"  [diag] resolved league_id={league_id}, available seasons={year_list}, "
+          f"API-flagged current season={current_year}", file=sys.stderr)
+
+    season = current_year if current_year is not None else (year_list[-1] if year_list else SEASON)
+    if season != SEASON:
+        print(f"  [diag] using season={season} instead of the configured SEASON={SEASON}", file=sys.stderr)
+
+    _resolved_league_season = (league_id, season)
+    return _resolved_league_season
+
+
 def fetch_live_team_stats():
     """Returns (team_stats_dict, lg_avg_home, lg_avg_away) or raises on failure."""
-    teams_resp = api_get("teams", {"league": MLS_LEAGUE_ID, "season": SEASON})
+    league_id, season = resolve_league_and_season()
+    teams_resp = api_get("teams", {"league": league_id, "season": season})
     teams = teams_resp.get("response", [])
     if not teams:
-        raise RuntimeError("No teams returned — check MLS_LEAGUE_ID/SEASON")
+        raise RuntimeError(f"No teams returned for league_id={league_id}, season={season} — "
+                            f"likely a plan/season-coverage limit rather than a wrong ID")
 
     team_stats = {}
     total_home_goals = total_home_games = 0
@@ -170,7 +220,7 @@ def fetch_live_team_stats():
             continue
 
         stats = api_get("teams/statistics",
-                         {"league": MLS_LEAGUE_ID, "season": SEASON, "team": api_id})
+                         {"league": league_id, "season": season, "team": api_id})
         r = stats.get("response", {})
         try:
             gp_home = r["fixtures"]["played"]["home"]
@@ -213,7 +263,8 @@ def fetch_live_team_stats():
 
 def fetch_upcoming_fixtures(n=15):
     """Next N MLS fixtures league-wide, regardless of date."""
-    resp = api_get("fixtures", {"league": MLS_LEAGUE_ID, "season": SEASON, "next": n})
+    league_id, season = resolve_league_and_season()
+    resp = api_get("fixtures", {"league": league_id, "season": season, "next": n})
     fixtures = []
     for f in resp.get("response", []):
         home_name = f["teams"]["home"]["name"]
