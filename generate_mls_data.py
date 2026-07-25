@@ -223,7 +223,7 @@ def fetch_season_fixtures(league_id, season):
     matches (with scores, which we aggregate into home/away GF/GA
     ourselves) and upcoming ones. This deliberately avoids /teams and
     /teams/statistics: those returned nothing in testing even with a
-    confirmed-correct league_id/season, which points at those specific
+    confirmed-correct league_id/season, which pointed at those specific
     aggregate endpoints being free-plan-restricted while raw fixture
     data (scores, schedules) is documented as included on every plan.
     Doing the aggregation ourselves also cuts this down to ~2 API calls
@@ -232,6 +232,26 @@ def fetch_season_fixtures(league_id, season):
     fixtures = resp.get("response", [])
     print(f"  [diag] /fixtures?league={league_id}&season={season} returned {len(fixtures)} fixture(s)",
           file=sys.stderr)
+
+    if not fixtures:
+        # /teams AND /fixtures both empty for a confirmed-correct league_id/
+        # season points away from an endpoint-specific restriction and
+        # toward the current season simply not being populated in
+        # API-Football's system yet (their docs note a rollout lag between
+        # a season's calendar and its match data landing in the API) —
+        # OR a free-plan season limit that excludes the current season
+        # entirely. Probe the prior season to tell these apart: if THAT
+        # comes back non-empty, the account/key/league_id are all fine and
+        # it's specifically 2026 that's missing; if it's also empty,
+        # something more fundamental is off (auth, plan, account status).
+        probe_season = season - 1
+        probe_resp = api_get("fixtures", {"league": league_id, "season": probe_season})
+        probe_fixtures = probe_resp.get("response", [])
+        print(f"  [diag] probe: /fixtures?league={league_id}&season={probe_season} "
+              f"returned {len(probe_fixtures)} fixture(s) — "
+              f"{'season ' + str(season) + ' specifically has no data yet' if probe_fixtures else 'even the prior season is empty, so this is likely an account/plan/auth issue, not a season-availability gap'}",
+              file=sys.stderr)
+
     return fixtures
 
 
