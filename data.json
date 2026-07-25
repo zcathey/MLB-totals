@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T15:05:15.859870Z",
+  "generated": "2026-07-25T15:50:55.473352Z",
   "date": "2026-07-25",
   "season": 2026,
   "team_batting": {
@@ -5049,9 +5049,9 @@
       "game_pk": 823841,
       "status": "scheduled",
       "away_pitcher": {
-        "id": 676664,
-        "name": "JP Sears",
-        "hand": "L"
+        "id": 681190,
+        "name": "Randy V\u00e1squez",
+        "hand": "R"
       },
       "home_pitcher": {
         "id": 691587,
@@ -5134,9 +5134,9 @@
       "game_pk": 823679,
       "status": "scheduled",
       "away_pitcher": {
-        "id": 686930,
-        "name": "Mason Barnett",
-        "hand": "R"
+        "id": 669620,
+        "name": "Brady Basso",
+        "hand": "L"
       },
       "home_pitcher": {
         "id": null,
@@ -5277,11 +5277,11 @@
     "ARI|WSH": {
       "away": {
         "abbr": "ARI",
-        "ml": 128
+        "ml": 120
       },
       "home": {
         "abbr": "WSH",
-        "ml": -139
+        "ml": -130
       }
     },
     "LAA|SFG": {
@@ -5297,17 +5297,17 @@
     "BOS|TOR": {
       "away": {
         "abbr": "TOR",
-        "ml": -103
+        "ml": -102
       },
       "home": {
         "abbr": "BOS",
-        "ml": -105
+        "ml": -106
       }
     },
     "MIA|SDP": {
       "away": {
         "abbr": "SDP",
-        "ml": 121
+        "ml": 122
       },
       "home": {
         "abbr": "MIA",
@@ -5317,21 +5317,21 @@
     "NYY|PHI": {
       "away": {
         "abbr": "NYY",
-        "ml": -118
+        "ml": -121
       },
       "home": {
         "abbr": "PHI",
-        "ml": 109
+        "ml": 112
       }
     },
     "CLE|TBR": {
       "away": {
         "abbr": "CLE",
-        "ml": 108
+        "ml": 102
       },
       "home": {
         "abbr": "TBR",
-        "ml": -117
+        "ml": -111
       }
     },
     "CHC|PIT": {
@@ -5341,17 +5341,17 @@
       },
       "home": {
         "abbr": "PIT",
-        "ml": -113
+        "ml": -114
       }
     },
     "ATL|BAL": {
       "away": {
         "abbr": "ATL",
-        "ml": -101
+        "ml": 100
       },
       "home": {
         "abbr": "BAL",
-        "ml": -107
+        "ml": -108
       }
     },
     "ATH|MIN": {
@@ -5367,11 +5367,11 @@
     "CWS|HOU": {
       "away": {
         "abbr": "HOU",
-        "ml": 109
+        "ml": 110
       },
       "home": {
         "abbr": "CWS",
-        "ml": -118
+        "ml": -119
       }
     },
     "COL|MIL": {
@@ -5407,7 +5407,7 @@
     "SEA|TEX": {
       "away": {
         "abbr": "SEA",
-        "ml": -109
+        "ml": -108
       },
       "home": {
         "abbr": "TEX",
@@ -5416,5 +5416,5 @@
     }
   },
   "team_records": {},
-  "generated_at": "2026-07-25 11:05 AM ET"
+  "generated_at": "2026-07-25 11:50 AM ET"
 }

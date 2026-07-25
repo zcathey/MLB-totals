@@ -1,0 +1,282 @@
+{
+  "generated_at": "2026-07-25T15:50:56.066709+00:00",
+  "data_source": "seed",
+  "league_avg_home_goals": 1.92,
+  "league_avg_away_goals": 1.29,
+  "games": [
+    {
+      "home": "NSH",
+      "away": "MIA",
+      "home_name": "Nashville SC",
+      "away_name": "Inter Miami",
+      "kickoff_utc": null,
+      "exp_home_goals": 2.812,
+      "exp_away_goals": 2.093,
+      "exp_total_goals": 4.9,
+      "top_scorelines": [
+        {
+          "home_goals": 2,
+          "away_goals": 2,
+          "prob": 0.0642
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0613
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 2,
+          "prob": 0.0601
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 1,
+          "prob": 0.0575
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0456
+        }
+      ],
+      "markets": {
+        "home_win": 0.5111,
+        "draw": 0.1768,
+        "away_win": 0.2816,
+        "over": 0.8366,
+        "under": 0.1329,
+        "btts_yes": 0.7969,
+        "btts_no": 0.1726
+      }
+    },
+    {
+      "home": "VAN",
+      "away": "SD",
+      "home_name": "Vancouver Whitecaps",
+      "away_name": "San Diego FC",
+      "kickoff_utc": null,
+      "exp_home_goals": 2.734,
+      "exp_away_goals": 0.452,
+      "exp_total_goals": 3.19,
+      "top_scorelines": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1545
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1408
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.113
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "prob": 0.0962
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0698
+        }
+      ],
+      "markets": {
+        "home_win": 0.8276,
+        "draw": 0.1105,
+        "away_win": 0.0401,
+        "over": 0.5953,
+        "under": 0.3828,
+        "btts_yes": 0.3321,
+        "btts_no": 0.6461
+      }
+    }
+  ],
+  "power_rankings": [
+    {
+      "abbr": "SJ",
+      "name": "San Jose Earthquakes",
+      "index": 3.523,
+      "rank": 1
+    },
+    {
+      "abbr": "VAN",
+      "name": "Vancouver Whitecaps",
+      "index": 3.212,
+      "rank": 2
+    },
+    {
+      "abbr": "NSH",
+      "name": "Nashville SC",
+      "index": 2.284,
+      "rank": 3
+    },
+    {
+      "abbr": "SEA",
+      "name": "Seattle Sounders",
+      "index": 2.159,
+      "rank": 4
+    },
+    {
+      "abbr": "LAFC",
+      "name": "Los Angeles FC",
+      "index": 1.514,
+      "rank": 5
+    },
+    {
+      "abbr": "DAL",
+      "name": "FC Dallas",
+      "index": 1.453,
+      "rank": 6
+    },
+    {
+      "abbr": "NE",
+      "name": "New England Revolution",
+      "index": 1.453,
+      "rank": 7
+    },
+    {
+      "abbr": "CHI",
+      "name": "Chicago Fire",
+      "index": 1.322,
+      "rank": 8
+    },
+    {
+      "abbr": "COL",
+      "name": "Colorado Rapids",
+      "index": 1.142,
+      "rank": 9
+    },
+    {
+      "abbr": "RSL",
+      "name": "Real Salt Lake",
+      "index": 1.138,
+      "rank": 10
+    },
+    {
+      "abbr": "MIA",
+      "name": "Inter Miami",
+      "index": 1.103,
+      "rank": 11
+    },
+    {
+      "abbr": "MIN",
+      "name": "Minnesota United",
+      "index": 1.1,
+      "rank": 12
+    },
+    {
+      "abbr": "LAG",
+      "name": "LA Galaxy",
+      "index": 1.046,
+      "rank": 13
+    },
+    {
+      "abbr": "HOU",
+      "name": "Houston Dynamo",
+      "index": 1.013,
+      "rank": 14
+    },
+    {
+      "abbr": "CIN",
+      "name": "FC Cincinnati",
+      "index": 1.005,
+      "rank": 15
+    },
+    {
+      "abbr": "AUS",
+      "name": "Austin FC",
+      "index": 0.997,
+      "rank": 16
+    },
+    {
+      "abbr": "SD",
+      "name": "San Diego FC",
+      "index": 0.98,
+      "rank": 17
+    },
+    {
+      "abbr": "NYC",
+      "name": "New York City FC",
+      "index": 0.952,
+      "rank": 18
+    },
+    {
+      "abbr": "CLT",
+      "name": "Charlotte FC",
+      "index": 0.939,
+      "rank": 19
+    },
+    {
+      "abbr": "MTL",
+      "name": "CF Montreal",
+      "index": 0.931,
+      "rank": 20
+    },
+    {
+      "abbr": "CLB",
+      "name": "Columbus Crew",
+      "index": 0.93,
+      "rank": 21
+    },
+    {
+      "abbr": "POR",
+      "name": "Portland Timbers",
+      "index": 0.899,
+      "rank": 22
+    },
+    {
+      "abbr": "DCU",
+      "name": "D.C. United",
+      "index": 0.758,
+      "rank": 23
+    },
+    {
+      "abbr": "NYRB",
+      "name": "NY Red Bulls",
+      "index": 0.688,
+      "rank": 24
+    },
+    {
+      "abbr": "TOR",
+      "name": "Toronto FC",
+      "index": 0.679,
+      "rank": 25
+    },
+    {
+      "abbr": "PHI",
+      "name": "Philadelphia Union",
+      "index": 0.602,
+      "rank": 26
+    },
+    {
+      "abbr": "STL",
+      "name": "St. Louis City",
+      "index": 0.596,
+      "rank": 27
+    },
+    {
+      "abbr": "ORL",
+      "name": "Orlando City",
+      "index": 0.526,
+      "rank": 28
+    },
+    {
+      "abbr": "ATL",
+      "name": "Atlanta United",
+      "index": 0.516,
+      "rank": 29
+    },
+    {
+      "abbr": "SKC",
+      "name": "Sporting Kansas City",
+      "index": 0.257,
+      "rank": 30
+    }
+  ]
+}
