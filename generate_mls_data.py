@@ -156,6 +156,15 @@ def api_get(endpoint, params):
 
 _resolved_league_season = None  # cache so we only hit /leagues once per run
 
+# Search "MLS" alone matches "MLS All-Star" and "MLS Next Pro" (the
+# developmental third-tier league) but NOT the actual top-flight league,
+# whose registered name is the full "Major League Soccer" — that string
+# doesn't contain "MLS" as a literal substring, so the abbreviation search
+# misses it entirely. Search the full name, and explicitly filter out the
+# known non-top-flight competitions in case of ambiguity.
+LEAGUE_SEARCH_TERM = "Major League Soccer"
+EXCLUDE_NAME_SUBSTRINGS = ["all-star", "next pro", "next", "reserve", "u-", "youth", "women"]
+
 def resolve_league_and_season():
     """Look up MLS's real league ID and a season your plan actually has data
     for, instead of trusting the hardcoded MLS_LEAGUE_ID/SEASON guesses.
@@ -165,30 +174,34 @@ def resolve_league_and_season():
     if _resolved_league_season is not None:
         return _resolved_league_season
 
-    resp = api_get("leagues", {"search": "MLS"})
+    resp = api_get("leagues", {"search": LEAGUE_SEARCH_TERM})
     candidates = resp.get("response", [])
-    print(f"  [diag] /leagues?search=MLS returned {len(candidates)} candidate(s)", file=sys.stderr)
+    print(f"  [diag] /leagues?search={LEAGUE_SEARCH_TERM!r} returned {len(candidates)} candidate(s)", file=sys.stderr)
 
     match = None
     for entry in candidates:
         league = entry.get("league", {})
         country = entry.get("country", {})
-        print(f"  [diag]   candidate: id={league.get('id')} name={league.get('name')!r} "
+        name = league.get("name", "")
+        print(f"  [diag]   candidate: id={league.get('id')} name={name!r} "
               f"country={country.get('name')!r} type={league.get('type')!r}", file=sys.stderr)
+        name_lower = name.lower()
+        if any(bad in name_lower for bad in EXCLUDE_NAME_SUBSTRINGS):
+            continue
         if country.get("name") == "USA" and league.get("type", "").lower() == "league":
             match = entry
             break
     if match is None and candidates:
         match = candidates[0]  # best-effort fallback to whatever came back first
     if match is None:
-        raise RuntimeError("No MLS league found via /leagues?search=MLS — check your plan/key")
+        raise RuntimeError(f"No MLS league found via /leagues?search={LEAGUE_SEARCH_TERM!r} — check your plan/key")
 
     league_id = match["league"]["id"]
     seasons = match.get("seasons", [])
     year_list = sorted(s["year"] for s in seasons)
     current_year = next((s["year"] for s in seasons if s.get("current")), None)
-    print(f"  [diag] resolved league_id={league_id}, available seasons={year_list}, "
-          f"API-flagged current season={current_year}", file=sys.stderr)
+    print(f"  [diag] resolved league_id={league_id} ({match['league'].get('name')!r}), "
+          f"available seasons={year_list}, API-flagged current season={current_year}", file=sys.stderr)
 
     season = current_year if current_year is not None else (year_list[-1] if year_list else SEASON)
     if season != SEASON:
