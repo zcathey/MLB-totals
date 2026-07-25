@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T16:28:26.163402Z",
+  "generated": "2026-07-25T16:33:12.708161Z",
   "date": "2026-07-25",
   "season": 2026,
   "team_batting": {
@@ -5030,7 +5030,7 @@
       "home": "BOS",
       "game_date": "2026-07-25T20:10:00Z",
       "game_pk": 824734,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 656302,
         "name": "Dylan Cease",
@@ -5047,7 +5047,7 @@
       "home": "MIA",
       "game_date": "2026-07-25T20:10:00Z",
       "game_pk": 823841,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 681190,
         "name": "Randy V\u00e1squez",
@@ -5271,13 +5271,13 @@
       },
       "home": {
         "abbr": "DET",
-        "ml": -156
+        "ml": -155
       }
     },
     "ARI|WSH": {
       "away": {
         "abbr": "ARI",
-        "ml": 123
+        "ml": 124
       },
       "home": {
         "abbr": "WSH",
@@ -5297,21 +5297,21 @@
     "BOS|TOR": {
       "away": {
         "abbr": "TOR",
-        "ml": -101
+        "ml": 100
       },
       "home": {
         "abbr": "BOS",
-        "ml": -107
+        "ml": -108
       }
     },
     "MIA|SDP": {
       "away": {
         "abbr": "SDP",
-        "ml": 122
+        "ml": 120
       },
       "home": {
         "abbr": "MIA",
-        "ml": -132
+        "ml": -130
       }
     },
     "NYY|PHI": {
@@ -5327,11 +5327,11 @@
     "CLE|TBR": {
       "away": {
         "abbr": "CLE",
-        "ml": 103
+        "ml": 104
       },
       "home": {
         "abbr": "TBR",
-        "ml": -111
+        "ml": -112
       }
     },
     "CHC|PIT": {
@@ -5416,5 +5416,5 @@
     }
   },
   "team_records": {},
-  "generated_at": "2026-07-25 12:28 PM ET"
+  "generated_at": "2026-07-25 12:33 PM ET"
 }
