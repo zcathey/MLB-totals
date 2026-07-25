@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T16:13:35.700078Z",
+  "generated": "2026-07-25T16:26:22.011574Z",
   "date": "2026-07-25",
   "season": 2026,
   "team_batting": {
@@ -4996,7 +4996,7 @@
       "home": "WSH",
       "game_date": "2026-07-25T20:05:00Z",
       "game_pk": 822704,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 683352,
         "name": "Mitch Bratt",
@@ -5013,7 +5013,7 @@
       "home": "SFG",
       "game_date": "2026-07-25T20:05:00Z",
       "game_pk": 823197,
-      "status": "scheduled",
+      "status": "pre-game",
       "away_pitcher": {
         "id": 696270,
         "name": "Ryan Johnson",
@@ -5267,21 +5267,21 @@
     "DET|KCR": {
       "away": {
         "abbr": "KCR",
-        "ml": 141
+        "ml": 143
       },
       "home": {
         "abbr": "DET",
-        "ml": -154
+        "ml": -156
       }
     },
     "ARI|WSH": {
       "away": {
         "abbr": "ARI",
-        "ml": 122
+        "ml": 123
       },
       "home": {
         "abbr": "WSH",
-        "ml": -132
+        "ml": -134
       }
     },
     "LAA|SFG": {
@@ -5307,11 +5307,11 @@
     "MIA|SDP": {
       "away": {
         "abbr": "SDP",
-        "ml": 121
+        "ml": 122
       },
       "home": {
         "abbr": "MIA",
-        "ml": -131
+        "ml": -132
       }
     },
     "NYY|PHI": {
@@ -5416,5 +5416,5 @@
     }
   },
   "team_records": {},
-  "generated_at": "2026-07-25 12:13 PM ET"
+  "generated_at": "2026-07-25 12:26 PM ET"
 }
