@@ -1,0 +1,64 @@
+name: Update CBB Data
+
+on:
+  schedule:
+    - cron: '0 13 * * *'    # 8:00 AM ET  - opening snapshot + grade yesterday
+    - cron: '45 15 * * *'   # 10:45 AM ET - main run, logs model picks (analysis reads this at 11:30)
+    - cron: '30 23 * * *'   # 6:30 PM ET  - late snapshot for closing lines
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'open, picks, or late'
+        default: 'picks'
+
+concurrency:
+  group: cbb-data
+  cancel-in-progress: false
+
+jobs:
+  update-cbb:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Pick run mode
+        id: mode
+        run: |
+          case "${{ github.event.schedule }}" in
+            '0 13 * * *')  echo "mode=open"  >> "$GITHUB_OUTPUT" ;;
+            '30 23 * * *') echo "mode=late"  >> "$GITHUB_OUTPUT" ;;
+            '45 15 * * *') echo "mode=picks" >> "$GITHUB_OUTPUT" ;;
+            *)             echo "mode=${{ github.event.inputs.mode || 'picks' }}" >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Run CBB generator
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          CBB_MODE: ${{ steps.mode.outputs.mode }}
+        run: python cbb/generate_cbb.py
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cbb/data.json cbb/data/
+          git diff --staged --quiet && exit 0
+          git commit -m "CBB data update (${{ steps.mode.outputs.mode }}) $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            sleep 10
+          done
+          exit 1

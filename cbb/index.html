@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hardwood Edge — College Basketball Model</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#000;--panel:#0a0a0a;--line:#1f3a1f;--green:#33ff66;--dim:#7fbf8f;--yellow:#ffff00;--red:#ff5555;--amber:#ffb000;--white:#f2f2f2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--white);font-family:'VT323',monospace;font-size:22px;line-height:1.2}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 1px,transparent 1px 3px);z-index:9}
+.wrap{max-width:980px;margin:0 auto;padding:12px}
+header{border:2px solid var(--green);padding:14px;margin-bottom:12px;background:linear-gradient(180deg,#0a0a0a,#000)}
+h1{font-family:'Press Start 2P',monospace;font-size:18px;color:var(--yellow);margin:0 0 8px;letter-spacing:1px}
+.status{color:var(--dim);font-size:19px}
+.status b{color:var(--white);font-weight:normal}
+.warn{color:var(--amber)}
+nav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+nav button{font-family:'Press Start 2P',monospace;font-size:11px;background:#001100;color:var(--green);border:2px solid var(--green);padding:10px 12px;cursor:pointer}
+nav button.on{background:var(--green);color:#000}
+.controls{display:flex;gap:16px;flex-wrap:wrap;margin:0 0 10px;color:var(--dim)}
+.controls label{cursor:pointer}
+.day{font-family:'Press Start 2P',monospace;font-size:12px;color:var(--yellow);margin:18px 0 8px;border-bottom:1px dashed var(--yellow);padding-bottom:6px}
+.game{border:1px solid var(--line);background:var(--panel);padding:10px 12px;margin-bottom:8px}
+.game.edge{border-color:var(--amber)}
+.game.agree{border:2px solid var(--green)}
+.game.started{opacity:.55}
+.top{display:flex;justify-content:space-between;gap:8px;align-items:baseline;flex-wrap:wrap}
+.match{font-size:25px;color:var(--white)}
+.rk{color:var(--dim);font-size:18px}
+.time{color:var(--dim);font-size:19px;white-space:nowrap}
+.badge{display:inline-block;font-size:17px;padding:0 6px;margin-left:6px;border:1px solid}
+.b-n{color:var(--yellow);border-color:var(--yellow)}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-top:6px;text-align:center}
+.grid div span{display:block;color:var(--dim);font-size:16px}
+.grid div{font-size:22px}
+.pos{color:var(--green)}.neg{color:var(--red)}.hi{color:var(--yellow)}
+.pick{margin-top:8px;font-size:22px}
+.pick .tag{font-family:'Press Start 2P',monospace;font-size:10px;padding:4px 6px;margin-right:8px;vertical-align:2px}
+.t-agree{background:var(--green);color:#000}.t-against{background:#550000;color:var(--red);border:1px solid var(--red)}.t-flat{background:#332b00;color:var(--amber);border:1px solid var(--amber)}
+.sub{color:var(--dim);font-size:18px;margin-top:4px}
+.flag{color:var(--red);font-size:18px;margin-top:4px}
+table{width:100%;border-collapse:collapse;font-size:20px}
+th{font-family:'Press Start 2P',monospace;font-size:9px;color:var(--yellow);text-align:left;padding:8px 6px;border-bottom:1px solid var(--yellow)}
+td{padding:5px 6px;border-bottom:1px solid #151515}
+tr:hover td{background:#0d1a0d}
+.rec{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;margin-bottom:14px}
+.rec>div{border:1px solid var(--line);padding:10px;background:var(--panel)}
+td:first-child{white-space:nowrap}
+.rec h3{font-family:'Press Start 2P',monospace;font-size:10px;color:var(--yellow);margin:0 0 8px}
+.big{font-size:32px;color:var(--green)}
+input[type=search]{width:100%;font-family:'VT323',monospace;font-size:22px;background:#000;color:var(--green);border:2px solid var(--green);padding:8px;margin-bottom:10px}
+.md{background:var(--panel);border:1px solid var(--line);padding:14px 16px}
+.md h1,.md h2,.md h3{font-family:'Press Start 2P',monospace;color:var(--yellow);line-height:1.5}
+.md h1{font-size:14px}.md h2{font-size:12px;margin-top:22px}.md h3{font-size:10px;margin-top:16px}
+.md strong{color:var(--green);font-weight:normal}
+.md li{margin:4px 0}
+.md table{margin:10px 0}
+.note{color:var(--dim);font-size:18px;margin-top:16px}
+.hidden{display:none}
+@media (max-width:560px){body{font-size:20px}.grid{grid-template-columns:repeat(3,1fr)}.match{font-size:22px}h1{font-size:14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>HARDWOOD EDGE</h1>
+  <div class="status" id="status">Loading…</div>
+</header>
+<nav>
+  <button data-tab="slate" class="on">SLATE</button>
+  <button data-tab="analysis">ANALYSIS</button>
+  <button data-tab="picks">PICKS</button>
+  <button data-tab="ratings">RATINGS</button>
+</nav>
+
+<section id="slate">
+  <div class="controls">
+    <label><input type="checkbox" id="edgesOnly"> Edges only</label>
+    <label><input type="checkbox" id="hideStarted" checked> Hide started</label>
+    <label><input type="checkbox" id="showTotals"> Show totals</label>
+  </div>
+  <div id="games"></div>
+  <div class="note">Spreads are the <b>home</b> team's line (negative = home favored). Market = Pinnacle when it posts the game, otherwise the median across books. Open = first line this page recorded. Edge = model minus market; it shows a pick at 3+ points. <span class="pos">Green</span> = the line has moved toward the model since open (model and market agree). <span class="neg">Against</span> = the market is moving away from the model. Early season: paper trading only.</div>
+</section>
+
+<section id="analysis" class="hidden"><div class="md" id="md">Loading analysis…</div></section>
+
+<section id="picks" class="hidden">
+  <div class="rec" id="rec"></div>
+  <div style="overflow-x:auto"><table id="pickTable"></table></div>
+  <div class="note">CLV = closing line value in points: positive means the pick beat the last line seen before tipoff. Over a small sample it's a better test of the model than wins and losses.</div>
+</section>
+
+<section id="ratings" class="hidden">
+  <input type="search" id="q" placeholder="Search team or conference…">
+  <div style="overflow-x:auto"><table id="rt"></table></div>
+  <div class="note">Source: Bart Torvik T-Rank (barttorvik.com). Adjusted offense and defense are points per 100 possessions.</div>
+</section>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const ETfmt = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit'});
+const ETday = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'long',month:'short',day:'numeric'});
+const ETstamp = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+const pt = x => x==null ? '—' : (x===0 ? 'PK' : (x>0?'+':'')+(+x).toFixed(1).replace('.0',''));
+const sg = x => x==null ? '—' : (x>0?'+':'')+(+x).toFixed(1);
+const px = x => x==null ? '' : (x>0?'+':'')+x;
+const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let D = null;
+
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('on',x===b));
+  ['slate','analysis','picks','ratings'].forEach(t=>$('#'+t).classList.toggle('hidden',t!==b.dataset.tab));
+});
+['edgesOnly','hideStarted','showTotals'].forEach(id=>$('#'+id).onchange=renderGames);
+$('#q').oninput=renderRatings;
+
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;renderStatus();renderGames();renderPicks();renderRatings();})
+  .catch(e=>{$('#status').innerHTML='<span class="warn">Could not load data.json — the first automatic update may not have run yet.</span>';});
+fetch('analysis/latest.md?'+Date.now()).then(r=>r.ok?r.text():Promise.reject()).then(t=>{$('#md').innerHTML=md(t);})
+  .catch(()=>{$('#md').innerHTML='No analysis posted yet. It runs daily at 11:30 AM ET.';});
+
+function renderStatus(){
+  const r=D.ratings,l=D.lines;
+  const rs = r.status==='fresh' ? `<b>${ETstamp.format(new Date(r.updated))}</b>` : `<span class="warn">cached ${ETstamp.format(new Date(r.updated))}</span>`;
+  const ls = l.status==='ok'||l.status==='offline' ? `<b>${ETstamp.format(new Date(D.generated_at))} ET</b> · ${l.events} games` : `<span class="warn">${esc(l.status)}</span>`;
+  let s = `Ratings: ${rs} · Lines: ${ls}`;
+  if(l.credits_remaining!=null) s+=` · API credits left: <b>${esc(l.credits_remaining)}</b>`;
+  if(D.unmatched.length) s+=`<br><span class="warn">Unmatched team names: ${D.unmatched.map(esc).join(', ')}</span>`;
+  $('#status').innerHTML=s;
+}
+
+function renderGames(){
+  const eo=$('#edgesOnly').checked, hs=$('#hideStarted').checked, st=$('#showTotals').checked;
+  let html='',day='';
+  const gs=D.games.filter(g=>(!eo||g.pick)&&(!hs||!g.started));
+  if(!gs.length){$('#games').innerHTML='<div class="sub">No games to show.</div>';return;}
+  for(const g of gs){
+    const t=new Date(g.tip), dl=ETday.format(t);
+    if(dl!==day){day=dl;html+=`<div class="day">${dl.toUpperCase()}</div>`;}
+    const m=g.model||{};
+    const cls=['game',g.pick?'edge':'',g.market==='agrees'?'agree':'',g.started?'started':''].join(' ');
+    const ek = g.edge==null?'':(Math.abs(g.edge)>=D.settings.edge_threshold?'hi':'');
+    html+=`<div class="${cls}">
+      <div class="top"><div class="match">${esc(g.away)} <span class="rk">${g.away_rank?'#'+g.away_rank:''}</span> @ ${esc(g.home)} <span class="rk">${g.home_rank?'#'+g.home_rank:''}</span>${g.neutral?'<span class="badge b-n">NEUTRAL</span>':''}</div>
+      <div class="time">${ETfmt.format(t)} ET${g.started?' · started':''}</div></div>
+      <div class="grid">
+        <div><span>MODEL</span>${pt(m.home_spread)}</div>
+        <div><span>MARKET</span>${pt(g.mkt_spread)}</div>
+        <div><span>OPEN</span>${pt(g.open_spread)}</div>
+        <div><span>MOVE</span>${g.move==null?'—':sg(g.move)}</div>
+        <div><span>EDGE</span><b class="${ek}" style="font-weight:normal">${g.edge==null?'—':sg(g.edge)}</b></div>
+      </div>`;
+    if(g.pick){
+      const tag={agrees:['t-agree','MODEL+MKT'],against:['t-against','MKT AGAINST'],flat:['t-flat','NO MOVE']}[g.market]||['t-flat','—'];
+      const b=g['best_'+g.pick_side];
+      html+=`<div class="pick"><span class="tag ${tag[0]}">${tag[1]}</span>${esc(g.pick)}${b?` <span class="sub">best ${pt(b.pt)} ${px(b.px)} @ ${esc(b.book)}</span>`:''}</div>`;
+    }
+    if(st && m.total!=null) html+=`<div class="sub">Total: model ${m.total} · market ${g.mkt_total??'—'}${g.open_total!=null?' (open '+g.open_total+')':''}${g.total_edge!=null?' · gap '+sg(g.total_edge):''} — tracking only</div>`;
+    if(g.flags.length) html+=`<div class="flag">⚠ ${g.flags.map(esc).join(' · ')}</div>`;
+    html+=`</div>`;
+  }
+  $('#games').innerHTML=html;
+}
+
+function renderPicks(){
+  const R=D.record, box=(t,r)=>`<div><h3>${t}</h3><div class="big">${r.w}-${r.l}${r.p?'-'+r.p:''}</div><div class="sub">${r.picks} logged · CLV ${r.avg_clv==null?'—':sg(r.avg_clv)} · beat close ${r.beat_close==null?'—':Math.round(r.beat_close*100)+'%'}</div></div>`;
+  $('#rec').innerHTML=box('ALL PICKS',R.all)+box('MODEL + MARKET',R.agrees)+box('MARKET AGAINST',R.against)+box('NO MOVE',R.flat);
+  const ps=[...D.picks].reverse();
+  $('#pickTable').innerHTML='<tr><th>DATE</th><th>PICK</th><th>MATCHUP</th><th>EDGE</th><th>MKT</th><th>CLOSE</th><th>CLV</th><th>FINAL</th><th>RES</th></tr>'+
+    (ps.length?ps.map(p=>`<tr><td>${esc(p.date.slice(5))}</td><td>${esc(p.pick)}</td><td>${esc(p.away)} @ ${esc(p.home)}</td><td>${sg(p.edge)}</td><td>${esc(p.market)}</td><td>${pt(p.close)}</td><td class="${p.clv>0?'pos':p.clv<0?'neg':''}">${p.clv==null?'—':sg(p.clv)}</td><td>${p.final?p.final.join('-'):'—'}</td><td class="${p.result==='W'?'pos':p.result==='L'?'neg':''}">${p.result||'—'}</td></tr>`).join(''):'<tr><td colspan="9">No picks logged yet. They are logged at the 10:45 AM update.</td></tr>');
+}
+
+function renderRatings(){
+  const q=$('#q').value.toLowerCase();
+  const ts=D.teams.filter(t=>!q||t.team.toLowerCase().includes(q)||t.conf.toLowerCase()===q||t.conf.toLowerCase().includes(q));
+  $('#rt').innerHTML='<tr><th>RK</th><th>TEAM</th><th>CONF</th><th>REC</th><th>ADJ O</th><th>ADJ D</th><th>TEMPO</th></tr>'+
+    ts.map(t=>`<tr><td>${t.rank}</td><td>${esc(t.team)}</td><td>${esc(t.conf)}</td><td>${esc(t.record)}</td><td>${t.adjoe.toFixed(1)}</td><td>${t.adjde.toFixed(1)}</td><td${Math.abs(t.adjt-D.ratings.avg_tempo)>D.settings.tempo_outlier?' class="neg"':''}>${t.adjt.toFixed(1)}</td></tr>`).join('');
+}
+
+// minimal markdown: headings, bold, italics, lists, tables, paragraphs, links
+function md(src){
+  const inl=s=>esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*(.+?)\*/g,'<em>$1</em>').replace(/\[(.+?)\]\((https?:[^)]+)\)/g,'<a href="$2" style="color:var(--green)">$1</a>');
+  const L=src.replace(/\r/g,'').split('\n');let out='',i=0;
+  while(i<L.length){
+    const l=L[i];
+    if(/^#{1,3} /.test(l)){const n=l.match(/^#+/)[0].length;out+=`<h${n}>${inl(l.slice(n+1))}</h${n}>`;i++;continue;}
+    if(/^\s*\|/.test(l)){const rows=[];while(i<L.length&&/^\s*\|/.test(L[i])){rows.push(L[i]);i++;}
+      const cells=r=>r.trim().replace(/^\||\|$/g,'').split('|').map(c=>c.trim());
+      const body=rows.filter(r=>!/^\s*\|[\s:\-|]+\|\s*$/.test(r));
+      out+='<table>'+body.map((r,k)=>'<tr>'+cells(r).map(c=>k===0?`<th>${inl(c)}</th>`:`<td>${inl(c)}</td>`).join('')+'</tr>').join('')+'</table>';continue;}
+    if(/^\s*[-*] /.test(l)){out+='<ul>';while(i<L.length&&/^\s*[-*] /.test(L[i])){out+=`<li>${inl(L[i].replace(/^\s*[-*] /,''))}</li>`;i++;}out+='</ul>';continue;}
+    if(/^\s*\d+\. /.test(l)){out+='<ol>';while(i<L.length&&/^\s*\d+\. /.test(L[i])){out+=`<li>${inl(L[i].replace(/^\s*\d+\. /,''))}</li>`;i++;}out+='</ol>';continue;}
+    if(!l.trim()){i++;continue;}
+    let p=[];while(i<L.length&&L[i].trim()&&!/^(#{1,3} |\s*[-*] |\s*\d+\. |\s*\|)/.test(L[i])){p.push(L[i]);i++;}
+    out+=`<p>${inl(p.join(' '))}</p>`;
+  }
+  return out;
+}
+</script>
+</body>
+</html>
