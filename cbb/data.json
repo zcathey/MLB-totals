@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-08T17:19:09.931572+00:00",
+ "generated_at": "2026-11-08T17:39:12.968871+00:00",
  "mode": "late",
  "ratings": {
-  "status": "cached",
-  "updated": "2026-11-08T17:19:06.146681+00:00",
+  "status": "fresh",
+  "updated": "2026-11-08T17:30:00+00:00",
   "teams": 365,
   "avg_eff": 105.55,
   "avg_tempo": 71.11
@@ -11,7 +11,7 @@
  "lines": {
   "status": "ok",
   "events": 33,
-  "credits_remaining": "496"
+  "credits_remaining": "494"
  },
  "settings": {
   "hfa": 3.0,
@@ -29,16 +29,16 @@
    "started": true,
    "neutral": false,
    "books": 5,
-   "mkt_spread": -34.5,
-   "mkt_total": 156.5,
+   "mkt_spread": -30.5,
+   "mkt_total": 157.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -31.5,
-    "px": -125,
-    "book": "BetRivers"
+    "pt": -29.5,
+    "px": -118,
+    "book": "FanDuel"
    },
    "best_away": {
-    "pt": 35.5,
+    "pt": 30.5,
     "px": -110,
     "book": "ESPN BET"
    },
@@ -54,9 +54,9 @@
    "away_rank": 210,
    "home_rank": 31,
    "flags": [],
-   "edge": 15.1,
-   "total_edge": -4.9,
-   "pick": "Iona +34.5",
+   "edge": 11.1,
+   "total_edge": -5.9,
+   "pick": "Iona +30.5",
    "pick_side": "away",
    "market": "flat"
   },
@@ -76,12 +76,12 @@
    "best_home": {
     "pt": 1.5,
     "px": -105,
-    "book": "BetOnline"
+    "book": "FanDuel"
    },
    "best_away": {
     "pt": -1.5,
     "px": -108,
-    "book": "DraftKings"
+    "book": "BetOnline"
    },
    "open_spread": 1.5,
    "open_total": 146.5,
@@ -113,9 +113,9 @@
    "mkt_total": 136.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -2.5,
-    "px": -118,
-    "book": "BetRivers"
+    "pt": -2.0,
+    "px": -115,
+    "book": "Bovada"
    },
    "best_away": {
     "pt": 3.5,
@@ -325,7 +325,7 @@
    },
    "best_away": {
     "pt": 4.0,
-    "px": -112,
+    "px": -105,
     "book": "BetOnline"
    },
    "open_spread": -3.5,
@@ -442,7 +442,7 @@
    },
    "best_away": {
     "pt": 8.5,
-    "px": -107,
+    "px": -106,
     "book": "Pinnacle"
    },
    "open_spread": -8.5,
@@ -476,7 +476,7 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -5.0,
-    "px": -107,
+    "px": -110,
     "book": "Pinnacle"
    },
    "best_away": {
@@ -671,8 +671,8 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -13.5,
-    "px": -108,
-    "book": "DraftKings"
+    "px": -110,
+    "book": "FanDuel"
    },
    "best_away": {
     "pt": 13.5,
@@ -908,7 +908,7 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 3.0,
-    "px": -115,
+    "px": -118,
     "book": "Pinnacle"
    },
    "best_away": {
@@ -945,16 +945,16 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -9.5,
+   "mkt_spread": -10.0,
    "mkt_total": 157.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -9.5,
-    "px": -107,
-    "book": "Pinnacle"
+    "px": -114,
+    "book": "BetRivers"
    },
    "best_away": {
-    "pt": 9.5,
+    "pt": 10.5,
     "px": -105,
     "book": "BetOnline"
    },
@@ -970,8 +970,8 @@
    "away_rank": 331,
    "home_rank": 192,
    "flags": [],
-   "edge": -2.0,
-   "move": 0.0,
+   "edge": -1.5,
+   "move": -0.5,
    "total_edge": -6.0
   },
   {
@@ -1109,13 +1109,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -7.5,
-    "px": -117,
-    "book": "BetRivers"
+    "px": -120,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 8.5,
-    "px": -110,
-    "book": "FanDuel"
+    "px": -104,
+    "book": "BetRivers"
    },
    "open_spread": -8.0,
    "open_total": 148.5,
