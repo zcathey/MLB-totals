@@ -64,8 +64,11 @@ def fetch_torvik():
     status = 'cached'
     if requests is not None and not os.environ.get('CBB_OFFLINE'):
         try:
-            r = requests.get(TORVIK_URL.format(season=SEASON), timeout=30,
-                             headers={'User-Agent': 'Mozilla/5.0 (cbb-model; GitHub Actions)'})
+            hdrs = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) '
+                                  'Chrome/130.0.0.0 Safari/537.36',
+                    'Accept': 'text/csv,text/plain,text/html;q=0.9,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.9', 'Referer': 'https://barttorvik.com/trank.php'}
+            r = requests.get(TORVIK_URL.format(season=SEASON), timeout=30, headers=hdrs)
             text = r.text
             if r.ok and text.startswith('rank,team') and text.count('\n') > 300:
                 with open(path, 'w') as f:
@@ -73,6 +76,7 @@ def fetch_torvik():
                 status = 'fresh'
             else:
                 print(f'  Torvik returned {r.status_code}, {len(text)} bytes; using cached ratings')
+                print(f'  Torvik response starts: {text[:300]!r}')
         except Exception as e:  # noqa: BLE001
             print(f'  Torvik error: {e}; using cached ratings')
     rows = list(csv.DictReader(open(path)))
