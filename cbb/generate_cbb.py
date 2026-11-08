@@ -88,7 +88,15 @@ def fetch_torvik(download=True):
             }
         except (KeyError, ValueError):
             continue
-    mtime = datetime.fromtimestamp(os.path.getmtime(path), timezone.utc).isoformat() if status == 'cached' else now_utc().isoformat()
+    if status == 'fresh':
+        save_json(os.path.join(DATA, 'torvik_meta.json'), {'fetched_at': now_utc().isoformat(), 'via': 'actions'})
+    # A daily task on Zach's computer fetches the CSV through the desktop app's browser
+    # (Torvik blocks cloud IPs) and records when in torvik_meta.json.
+    meta = load_json(os.path.join(DATA, 'torvik_meta.json'), {})
+    mtime = meta.get('fetched_at') or datetime.fromtimestamp(os.path.getmtime(path), timezone.utc).isoformat()
+    age_h = (now_utc() - datetime.fromisoformat(mtime)).total_seconds() / 3600
+    if status != 'fresh' and age_h < 30:
+        status = 'fresh'
     return teams, status, mtime
 
 
