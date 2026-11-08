@@ -58,16 +58,14 @@ def save_json(path, obj):
 
 
 # ── 1. Ratings ───────────────────────────────────────────────────────────────
-def fetch_torvik():
-    """Download fresh ratings; fall back to the last saved copy."""
+def fetch_torvik(download=True):
+    """Download fresh ratings (once a day, on the early run); fall back to the last saved copy."""
     path = os.path.join(DATA, 'torvik.csv')
     status = 'cached'
-    if requests is not None and not os.environ.get('CBB_OFFLINE'):
+    if download and requests is not None and not os.environ.get('CBB_OFFLINE'):
         try:
-            hdrs = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) '
-                                  'Chrome/130.0.0.0 Safari/537.36',
-                    'Accept': 'text/csv,text/plain,text/html;q=0.9,*/*;q=0.8',
-                    'Accept-Language': 'en-US,en;q=0.9', 'Referer': 'https://barttorvik.com/trank.php'}
+            # Honest, identifiable client so the site owner can see who this is (one request a day).
+            hdrs = {'User-Agent': 'HardwoodEdge/1.0 (personal CBB model, 1 request/day; https://github.com/zcathey/MLB-totals)'}
             r = requests.get(TORVIK_URL.format(season=SEASON), timeout=30, headers=hdrs)
             text = r.text
             if r.ok and text.startswith('rank,team') and text.count('\n') > 300:
@@ -249,7 +247,7 @@ def main():
     t0 = now_utc()
     print(f'CBB generator, mode={mode}, {t0.isoformat()}')
 
-    teams, rstatus, rtime = fetch_torvik()
+    teams, rstatus, rtime = fetch_torvik(download=(mode == 'open'))
     print(f'  Ratings: {len(teams)} teams ({rstatus})')
     avg_e = statistics.mean(t['adjoe'] for t in teams.values())
     avg_t = statistics.mean(t['adjt'] for t in teams.values())
