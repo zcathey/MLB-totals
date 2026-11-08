@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-08T17:18:16.104070+00:00",
- "mode": "picks",
+ "generated_at": "2026-11-08T17:19:09.931572+00:00",
+ "mode": "late",
  "ratings": {
   "status": "cached",
-  "updated": "2026-11-08T17:18:13.481566+00:00",
+  "updated": "2026-11-08T17:19:06.146681+00:00",
   "teams": 365,
   "avg_eff": 105.55,
   "avg_tempo": 71.11
@@ -11,7 +11,7 @@
  "lines": {
   "status": "ok",
   "events": 33,
-  "credits_remaining": "498"
+  "credits_remaining": "496"
  },
  "settings": {
   "hfa": 3.0,
@@ -28,18 +28,18 @@
    "home_raw": "St. John's Red Storm",
    "started": true,
    "neutral": false,
-   "books": 6,
-   "mkt_spread": -34.0,
-   "mkt_total": 153.5,
+   "books": 5,
+   "mkt_spread": -34.5,
+   "mkt_total": 156.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -27.0,
-    "px": -108,
-    "book": "BetOnline"
+    "pt": -31.5,
+    "px": -125,
+    "book": "BetRivers"
    },
    "best_away": {
     "pt": 35.5,
-    "px": -115,
+    "px": -110,
     "book": "ESPN BET"
    },
    "open_spread": null,
@@ -54,9 +54,9 @@
    "away_rank": 210,
    "home_rank": 31,
    "flags": [],
-   "edge": 14.6,
-   "total_edge": -1.9,
-   "pick": "Iona +34",
+   "edge": 15.1,
+   "total_edge": -4.9,
+   "pick": "Iona +34.5",
    "pick_side": "away",
    "market": "flat"
   },
@@ -559,8 +559,8 @@
    },
    "best_away": {
     "pt": 9.0,
-    "px": -115,
-    "book": "BetOnline"
+    "px": -118,
+    "book": "Pinnacle"
    },
    "open_spread": -9.0,
    "open_total": 139.5,
@@ -677,7 +677,7 @@
    "best_away": {
     "pt": 13.5,
     "px": -105,
-    "book": "Bovada"
+    "book": "BetOnline"
    },
    "open_spread": -13.5,
    "open_total": 151.0,
