@@ -1,1 +1,122 @@
-[]
+[
+ {
+  "event_id": "c60a638033180898ceab69f0baae6a52",
+  "date": "2026-11-08",
+  "tip": "2026-11-08T18:00:00Z",
+  "away": "Marist",
+  "home": "UMass Lowell",
+  "side": "away",
+  "pick": "Marist +2",
+  "line": -2.0,
+  "model_spread": 1.3,
+  "edge": 3.3,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 2.0,
+   "px": -116,
+   "book": "Pinnacle"
+  },
+  "logged": "2026-11-08T17:18:16.104070+00:00"
+ },
+ {
+  "event_id": "5eaa93d78d7adab11764f42c7b500faf",
+  "date": "2026-11-08",
+  "tip": "2026-11-08T18:00:00Z",
+  "away": "Sacred Heart",
+  "home": "New Hampshire",
+  "side": "home",
+  "pick": "New Hampshire -1",
+  "line": -1.0,
+  "model_spread": -4.7,
+  "edge": -3.7,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 0.0,
+   "px": -115,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-08T17:18:16.104070+00:00"
+ },
+ {
+  "event_id": "4a88827c71210aaa950ea6b5995aabda",
+  "date": "2026-11-08",
+  "tip": "2026-11-08T18:00:00Z",
+  "away": "Southeast Missouri St.",
+  "home": "South Carolina",
+  "side": "away",
+  "pick": "Southeast Missouri St. +17",
+  "line": -17.0,
+  "model_spread": -13.9,
+  "edge": 3.1,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 17.5,
+   "px": -110,
+   "book": "BetMGM"
+  },
+  "logged": "2026-11-08T17:18:16.104070+00:00"
+ },
+ {
+  "event_id": "726f85494ad38a3813f944ab1ee48a01",
+  "date": "2026-11-08",
+  "tip": "2026-11-08T22:00:00Z",
+  "away": "Richmond",
+  "home": "Temple",
+  "side": "home",
+  "pick": "Temple +1.5",
+  "line": 1.5,
+  "model_spread": -1.7,
+  "edge": -3.2,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 1.5,
+   "px": -106,
+   "book": "Pinnacle"
+  },
+  "logged": "2026-11-08T17:18:16.104070+00:00"
+ },
+ {
+  "event_id": "baa422a9e95dda81059499feb5d38a44",
+  "date": "2026-11-08",
+  "tip": "2026-11-08T23:00:00Z",
+  "away": "North Dakota St.",
+  "home": "Cal St. Bakersfield",
+  "side": "away",
+  "pick": "North Dakota St. -3",
+  "line": 3.0,
+  "model_spread": 6.3,
+  "edge": 3.3,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": -2.5,
+   "px": -110,
+   "book": "FanDuel"
+  },
+  "logged": "2026-11-08T17:18:16.104070+00:00"
+ },
+ {
+  "event_id": "cd111ab90595f6edda41523f3c541390",
+  "date": "2026-11-08",
+  "tip": "2026-11-09T01:30:00Z",
+  "away": "Houston",
+  "home": "California",
+  "side": "home",
+  "pick": "California +19.5",
+  "line": 19.5,
+  "model_spread": 9.0,
+  "edge": -10.5,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 19.5,
+   "px": -105,
+   "book": "ESPN BET"
+  },
+  "logged": "2026-11-08T17:18:16.104070+00:00"
+ }
+]
