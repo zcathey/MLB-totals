@@ -1,4 +1,19 @@
 {
  "_note": "Neutral-site games, keyed by date (ET). Each entry is [away, home] using Torvik team names. The model removes home-court for these.",
- "2026-11-08": [["Arkansas", "Virginia"]]
+ "2026-11-08": [
+  [
+   "Arkansas",
+   "Virginia"
+  ]
+ ],
+ "2026-11-10": [
+  [
+   "Michigan St.",
+   "Duke"
+  ],
+  [
+   "Kansas",
+   "Kentucky"
+  ]
+ ]
 }
