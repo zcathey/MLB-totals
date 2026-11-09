@@ -332,7 +332,7 @@ def main():
         games.append(g)
 
     # ── grading ──
-    scores = fetch_scores() if mode == 'open' else []
+    scores = fetch_scores() if mode in ('open', 'picks') else []  # grade on both morning runs in case one is late
     final = {}
     for s in scores:
         if s.get('completed') and s.get('scores'):
