@@ -1,11 +1,13 @@
 # CBB analysis — Tue, Nov 10, 2026
 
-**Card (paper trades): La Salle +23.5 · Northern Kentucky +23.5 · Yale +20**
+**Card (paper trades): La Salle +21.5 · Northern Kentucky +23.5 · Yale +20**
+
+*Updated 12:30 PM ET with fresh lines. Villanova has dropped from -23 to -21, so the La Salle price and edge are both lower.*
 
 Every pick is a paper trade until about mid-December, when Torvik's preseason priors wash out.
 
-- **Data is fresh.** Neither of this morning's scheduled runs (8:00 or 10:45) had fired by 11:44 AM ET, so I started the picks run by hand. It finished at 11:44 AM.
-- Lines are OK, with 476 Odds API credits left.
+- **Data is fresh.** Neither of this morning's scheduled runs (8:00 or 10:45) had fired by 11:44 AM ET, so I started the picks run by hand. It finished at 11:44 AM. I ran a line refresh (late mode, no new picks logged) at 12:29 PM.
+- Lines are OK, with 472 Odds API credits left.
 - Ratings were uploaded at 8:13 AM ET today.
 - One name is still unmatched (Prairie View). See Notes.
 
@@ -54,16 +56,19 @@ These three are the only "agrees" games: the model has an edge of 3+ points, and
 
 | Play | Best price | Edge | Line move | Tip (ET) |
 |---|---|---|---|---|
-| La Salle +23.5 @ Villanova | BetMGM -110 | 6.7 | 23.5 → 23 | 7:00 |
+| La Salle +21.5 @ Villanova | ESPN BET -110 | 4.7 | 23.5 → 21 | 7:00 |
 | N. Kentucky +23.5 @ Saint Louis | FanDuel -110 | 6.4 | 23.5 → 23 | 8:00 |
 | Yale +20 @ Baylor | Pinnacle -118 | 4.0 | 21.5 → 20 | 8:00 |
 
-The edges are measured at the best price. Market confirmation is thin for La Salle and NKU, at half a point each.
+The edges are measured at the best price. Market confirmation is now solid for La Salle (2.5 points) and still thin for NKU (half a point).
 
 **La Salle @ Villanova.**
 - Villanova senior forward **Kwame Evans Jr. is questionable** with left hip soreness. He didn't dress against Holy Cross ([Inquirer](https://www.inquirer.com/college-sports/villanova/villanova-holy-cross-luigi-suigo-kevin-willard-20261107.html)), and his status for tonight is unclear ([PHL Sports Now](https://phlsportsnow.com/villanova-preview-bulletin-board-material-as-cats-host-la-salle/)). If he sits, that helps La Salle, and the model doesn't know about it.
 - Villanova is 1-1 and just back from playing Notre Dame in Rome. La Salle is 1-1 and lost by 39 at Houston ([La Salle preview](https://goexplorers.com/news/2026/11/9/mens-basketball-la-salle-heads-to-the-main-line-for-big-5-matchup-with-villanova.aspx)).
-- Shop this one: the 23.5 is at BetMGM, and DraftKings has 22.5.
+- **The line moved 2 more points since late morning, from 23 to 21.** Villanova forward Matt Hodges is also listed questionable (knee) as of 10:12 AM ([97.5 The Fanatic](https://975thefanatic.com/2026/11/10/villanova-wildcats-vs-la-salle-explorers-odds-and-predictions/)). I found no official ruling on Hodges or Evans. The move most likely reflects one or both sitting, which the market has now priced and the model hasn't. Read the 4.7 edge as an upper bound.
+- The logged pick (+23.5) is already 2.5 points ahead of the market.
+- Some screens show an earlier overnight opener of -19. Counted from there, Villanova has moved up overall (19 → 23.5 → 21), so the "agrees" tag depends on which opener you trust. Our feed first saw 23.5.
+- If you can still find 22 or better, take it. At 21 this is a small play.
 
 **Northern Kentucky @ Saint Louis.**
 - **SLU center Robbie Avila is likely out.** A court granted him an injunction, but the College Sports Commission still says SLU has no roster spot for him, and he sat out the 90-84 win over Missouri ([HoopsHQ](https://www.hoopshq.com/mid-majors/inside-the-twists-and-turns-of-robbie-avilas-eligibility-case), [Yahoo](https://ca.sports.yahoo.com/news/robbie-avila-blocked-from-playing-saint-louis-opener-by-college-sports-commission-despite-court-order-225452875.html)). Torvik's preseason prior likely still credits SLU with him, which helps the NKU side.
@@ -93,23 +98,25 @@ The edges are measured at the best price. Market confirmation is thin for La Sal
 | Hofstra +19 @ Arizona St. | 7.7 | -3.25 | No news found. |
 | Maine +20.5 @ Rhode Island | 4.3 | -3.0 | Maine lost at home to 0-2 Manhattan. |
 | UCF -13.5 vs South Alabama | 5.5 | +3.0 | No news found. |
+| SE Louisiana +27 @ Ole Miss | 7.1 | -0.5 | Was flat. SELU is on the third of eight straight road games ([Sports Leader](https://www.thesportsleader.com/2026/11/10/ole-miss-stressing-its-basics-against-southeastern-louisiana/)). |
 | Southern +36 @ Iowa St. | 9.4 | -2.0 | |
 | Queens +29.5 @ BYU | 6.8 | -1.5 | |
-| Montana +13.5 @ San Francisco | 7.3 | -2.0 | |
+| Montana +12 @ San Francisco | 6.3 | -1.0 | Line came back 1 point. |
 | Bryant +31.5 @ Providence | 6.3 | -2.0 | |
-| La.-Monroe +35 @ TCU | 7.5 | -1.5 | |
-| Utah Tech +27.5 @ Utah St. | 5.8 | -1.75 | |
+| Utah Tech +26.5 @ Utah St. | 4.8 | -0.75 | |
 | Arkansas St. -4.5 vs UT Martin | 7.2 | +2.5 | |
 | New Haven +1.5 vs Army | 6.3 | +0.75 | |
 | Michigan St. +8 vs Duke (neutral) | 4.1 | -1.0 | Champions Classic |
-| Little Rock, N. Arizona, San Diego, NJIT, Delaware St., Bucknell | 3.4–6.2 | small | |
+| Little Rock, NJIT, Delaware St., Bucknell | 3.4–4.9 | small | |
 
 For the six biggest moves (the first six rows), I found no injury or availability news on either side. Each looks like the market reacting to early results ([Xavier](https://fieldlevelmedia.com/ncaab/xavier-recovers-from-first-half-deficit-beats-eastern-michigan/), [Murray St.](https://www.dakotanewsnow.com/2026/11/03/ryan-millers-murray-state-men-race-past-tennessee-state-pentagon/), [UCF](https://www.covers.com/sport/basketball/ncaab/matchup/390630)).
 
 **Flat** (no line movement, so no market confirmation; pass):
 
 - **Florida St. +9.5 vs Florida** (edge 3.3; BetRivers -110). Confirmed as a true home game at the Tucker Center ([Saturday Down South](https://www.saturdaydownsouth.com/news/college-basketball/florida-basketball-reveals-schedule-for-2026-27-season)). The page shows this as "against" because it was logged last night at +10.5.
-- **SE Louisiana +27 @ Ole Miss** (edge 6.6; BetOnline -113). SELU is on the third of eight straight road games to open the season ([Sports Leader](https://www.thesportsleader.com/2026/11/10/ole-miss-stressing-its-basics-against-southeastern-louisiana/)). I found no injury news.
+- **La.-Monroe +33.5 @ TCU** (edge 6.0). The line came back to its opener.
+
+**Technically "agrees" but noise:** N. Arizona +36.5 @ Arizona (edge 5.2) and San Diego +12.5 @ Colorado (edge 3.8). Each line moved a quarter point off an averaged opener and flipped from "against" to "agrees." That's not market confirmation, so they stay off the card.
 
 **Flagged, no pick:** these three games have a tempo outlier:
 - MD Eastern Shore @ Boston College (BC's tempo is 61)
