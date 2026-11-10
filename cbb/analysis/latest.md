@@ -1,67 +1,83 @@
-# CBB analysis — Mon, Nov 9, 2026
+# CBB analysis — Tue, Nov 10, 2026
 
-**Card (paper trades): Illinois St. +15.5 · Grambling St. +38 · App St. +23.5 · FGCU +23.5 · Oakland +32.5 (lowest confidence)**
+**Card (paper trades): La Salle +23.5 · Northern Kentucky +23.5 · Yale +20**
 
-Every pick is a paper trade until about mid-December, when Torvik's preseason priors wash out. With that in mind:
+Every pick is a paper trade until about mid-December, when Torvik's preseason priors wash out.
 
-- Data is fresh. The picks run finished at 11:39 AM ET (I started it by hand because the scheduled 10:45 run hadn't happened). Lines are OK, with 490 Odds API credits left. Ratings were uploaded at 8:17 AM ET today.
-- **One logged pick is a data error. Void it:** South Carolina +10.5 at Coastal Carolina is really **USC Upstate**. See Notes.
+- **Data is fresh.** Neither of this morning's scheduled runs (8:00 or 10:45) had fired by 11:44 AM ET, so I started the picks run by hand. It finished at 11:44 AM.
+- Lines are OK, with 476 Odds API credits left.
+- Ratings were uploaded at 8:13 AM ET today.
+- One name is still unmatched (Prairie View). See Notes.
 
 ---
 
-## Yesterday (Nov 8): 2-3-1
+## Yesterday (Nov 9): 8-10
 
-| Pick | Final | Result | CLV |
+This excludes the void South Carolina (USC Upstate) pick, which the page still grades as a win.
+
+**The card (agrees) went 3-2:**
+
+| Play | Final | Result | CLV |
 |---|---|---|---|
-| Marist +2 | 61-63 | P | 0.0 |
-| New Hampshire -1 | 81-76 SHU | L | 0.0 |
-| SE Missouri St. +17 | 68-78 | W | 0.0 |
-| Temple +1.5 | 79-53 Rich | L | 0.0 |
-| North Dakota St. -3 | 80-91 | L | 0.0 |
-| California +19.5 | 86-68 Hou | W | 0.0 |
+| Illinois St. +15 @ Purdue | 59-76 | L | 0.0 |
+| Grambling St. +37 @ Texas | 62-93 | W | -0.5 |
+| App St. +23 @ Auburn | 53-75 | W | 0.0 |
+| FGCU +23 @ Georgia | 72-80 | W | +0.5 |
+| Oakland +32 @ Alabama | 68-109 | L | 0.0 |
 
-All six picks were "flat" (no line movement when logged).
+**By category:**
 
-**Running record:** 2-3-1 overall (6 graded of 24 logged).
+| Category | W-L | Avg CLV | Beat / lost to the close |
+|---|---|---|---|
+| Agrees | 3-2 | 0.00 | 1 / 1 |
+| Against | 4-7 | +0.18 | 4 / 2 |
+| Flat | 1-1 | -0.25 | 0 / 1 |
 
-| Category | W-L-P | Logged | Avg CLV | Beat close |
-|---|---|---|---|---|
-| Agrees | 0-0-0 | 5 | — | — |
-| Against | 0-0-0 | 11 | — | — |
-| Flat | 2-3-1 | 8 | 0.0 | 0% |
+Yesterday's closing lines are real. The 6:51 PM snapshot came in just before the 7:00 tips, so CLV means something this time, unlike Sunday.
 
-**The CLV numbers don't tell us anything yet.** Yesterday no line snapshot was taken between the picks being logged (around 12:20 PM ET) and tip-off. The 6:30 PM run fired at 9:52 PM, after every game had started, so each "close" is simply the line at pick time. CLV will be 0.0 again for tonight's 7:00 PM tips unless the 6:30 PM run is on time.
+**Running record:** 10-13-1, excluding the void (the page shows 11-13-1).
+
+| Category | W-L-P | Avg CLV | Beat close |
+|---|---|---|---|
+| Agrees | 3-2-0 | 0.00 | 20% |
+| Against | 4-7-0 | +0.18 | 36% |
+| Flat | 3-4-1 | -0.06 | 0% |
+| All | 10-13-1 | +0.06 | 21% |
+
+Twenty-four graded picks is noise. The CLV picture is flat: the model isn't beating the close yet, and it isn't getting crushed by it either.
 
 ---
 
 ## Today's card
 
-All five plays are "agrees": the model has an edge of 3+ points and the line has moved toward the model's side since it opened. All five games are at the home team's own arena (no neutral sites).
+These three are the only "agrees" games: the model has an edge of 3+ points, and the line has moved toward the model's side since it opened. All three are true road games.
 
 | Play | Best price | Edge | Line move | Tip (ET) |
 |---|---|---|---|---|
-| Illinois St. +15.5 @ Purdue | BetOnline -110 | 5.2 | 16 → 15 | 8:30 |
-| Grambling St. +38 @ Texas | BetOnline -117 | 8.1 | 37.5 → 37 | 7:00 |
-| App St. +23.5 @ Auburn | DraftKings -108 | 4.5 | 23.5 → 23 | 9:00 |
-| FGCU +23.5 @ Georgia | FanDuel -110 | 3.1 | 24.5 → 23 | 7:00 |
-| Oakland +32.5 @ Alabama | FanDuel -110 | 8.7 | 33 → 32 | 7:30 |
+| La Salle +23.5 @ Villanova | BetMGM -110 | 6.7 | 23.5 → 23 | 7:00 |
+| N. Kentucky +23.5 @ Saint Louis | FanDuel -110 | 6.4 | 23.5 → 23 | 8:00 |
+| Yale +20 @ Baylor | Pinnacle -118 | 4.0 | 21.5 → 20 | 8:00 |
 
-**Illinois St. @ Purdue.** This is the cleanest of the five. Purdue is 0-2: it lost to Gonzaga in Las Vegas, then lost to Valparaiso at home in double overtime after shooting 5-of-28 from three. That is its first 0-2 start since 1976-77 ([107.5 The Fan](https://1075thefan.com/735637/purdue-vs-illinois-state-preview-first-win/)). Illinois St. took Saint Mary's to overtime and gets about 46% of its points from three ([Hammer & Rails via Yahoo](https://sports.yahoo.com/articles/purdue-men-basketball-game-3-121845381.html)). I found no injury news for either team. The model (Purdue -9.8) and the market (16 → 15) are both marking Purdue down. The risk is that Purdue's shooting snaps back to normal at home.
+The edges are measured at the best price. Market confirmation is thin for La Salle and NKU, at half a point each.
 
-**Grambling St. @ Texas.** No injury news for either team. Grambling's opening win over Northern Illinois relied on a 29-point game from Miranda, who averaged 3.7 points at LIU last season ([Burnt Orange Nation via Yahoo](https://sports.yahoo.com/articles/texas-vs-grambling-state-preview-161621045.html)), so treat that as noise. Texas has won its first two by about 50 each. The line has moved only half a point, so the market confirmation is weak. The 38 at BetOnline costs -117; 37 at -110 is about the same value.
+**La Salle @ Villanova.**
+- Villanova senior forward **Kwame Evans Jr. is questionable** with left hip soreness. He didn't dress against Holy Cross ([Inquirer](https://www.inquirer.com/college-sports/villanova/villanova-holy-cross-luigi-suigo-kevin-willard-20261107.html)), and his status for tonight is unclear ([PHL Sports Now](https://phlsportsnow.com/villanova-preview-bulletin-board-material-as-cats-host-la-salle/)). If he sits, that helps La Salle, and the model doesn't know about it.
+- Villanova is 1-1 and just back from playing Notre Dame in Rome. La Salle is 1-1 and lost by 39 at Houston ([La Salle preview](https://goexplorers.com/news/2026/11/9/mens-basketball-la-salle-heads-to-the-main-line-for-big-5-matchup-with-villanova.aspx)).
+- Shop this one: the 23.5 is at BetMGM, and DraftKings has 22.5.
 
-**App St. @ Auburn.** No injury news. App St. held its first two opponents (Merrimack and a non-D1 team) to 49 and 43 points ([Auburn Wire via Yahoo](https://sports.yahoo.com/articles/where-watch-auburn-vs-appalachian-120443842.html)). Auburn has played only one game, which makes its current Torvik rating mostly preseason prior. The move toward App St. is half a point, so confirmation is weak.
+**Northern Kentucky @ Saint Louis.**
+- **SLU center Robbie Avila is likely out.** A court granted him an injunction, but the College Sports Commission still says SLU has no roster spot for him, and he sat out the 90-84 win over Missouri ([HoopsHQ](https://www.hoopshq.com/mid-majors/inside-the-twists-and-turns-of-robbie-avilas-eligibility-case), [Yahoo](https://ca.sports.yahoo.com/news/robbie-avila-blocked-from-playing-saint-louis-opener-by-college-sports-commission-despite-court-order-225452875.html)). Torvik's preseason prior likely still credits SLU with him, which helps the NKU side.
+- SLU won the Missouri game without him and has won 23 straight at Chaifetz ([SLU preview](https://slubillikens.com/news/2026/11/9/mens-basketball-mbb-preview-billikens-norse-meet-tuesday-at-chaifetz-arena.aspx)).
+- NKU is 2-1, all three games away from home, and lost by 37 at Texas A&M.
 
-**FGCU @ Georgia.** Georgia gets Kareem Stagg back from a hip injury; he scored 10 in his debut Friday ([Athens Banner-Herald via Yahoo](https://sports.yahoo.com/articles/channel-georgia-basketball-vs-florida-090406020.html)). FGCU lost 96-95 in overtime to UCF. Georgia plays at North Carolina on Friday, so there's some look-ahead risk ([Field Level Media via Yardbarker](https://www.yardbarker.com/college_basketball/articles/with_unc_game_looming_georgia_gears_up_for_florida_gulf_coast/s1_17048_44536993)). This has the biggest line move of the five (1.5 points) but the smallest edge (3.1). At the best number of 23.5 the edge is a little wider.
+**Yale @ Baylor.**
+- I found no injury news for either team ([Baylor preview](https://baylorbears.com/news/2026/11/9/mens-basketball-mbb-hosts-yale-in-first-meeting-since-2016)).
+- This has the best market confirmation of the three (1.5 points) but the smallest edge.
+- Yale lost 87-75 at UCF on Friday ([Yale](https://yalebulldogs.com/news/2026/11/6/mens-basketball-mens-basketball-falls-to-ucf.aspx)) and is on its second straight road game.
+- Baylor hosts Texas on Sunday, so there's some look-ahead risk.
+- The 20 at -118 is the best number available. 19.5 at -110 is about the same value.
 
-**Oakland @ Alabama (lowest confidence).** The news cuts both ways:
-- Against Oakland: Alabama gets Aden Holloway back from a 5-game suspension. He averaged 16.8 points last season ([The Ticket](https://www.theticket.com/2026/11/08/no-20-alabama-hopes-for-good-news-on-amari-allen-before-facing-oakland/)).
-- For Oakland: Amari Allen (ankle) is uncertain, and so is Jaxon Richardson ([Tuscaloosa News via Yahoo](https://sports.yahoo.com/articles/jaxon-richardson-play-vs-oakland-154753105.html)).
-- Against Oakland: Oakland is 0-3 and on game 4 of a 5-game road trip. It flew a red-eye from Santa Barbara after playing there Saturday, and Greg Kampe said his team was exhausted.
-
-The model sees none of the fatigue. I'm keeping it on the card under the framework, but I would rank it last.
-
-**One caution for the whole card.** 17 of today's 18 logged picks are road underdogs of 15+ points. That looks like a model tendency (preseason ratings bunch teams together, so big favorites come out too small), not 17 separate edges. Treat the card as roughly one correlated bet on "big dogs cover," and size it that way if you track units.
+**Caution for the whole card.** All three are road underdogs of 20 or more, which is the same model tendency I flagged yesterday: preseason ratings bunch teams together, so big favorites come out too small. Treat the card as roughly one correlated bet. There's also an early warning in the data. The 20 picks the model logged last night, right after lines opened, have lost an average of 0.6 points to the market since then (8 moved our way, 11 moved against us). Mostly the market has been pushing big favorites even bigger.
 
 ---
 
@@ -69,49 +85,70 @@ The model sees none of the fatigue. I'm keeping it on the card under the framewo
 
 **Market against** (the line moved away from the model's side):
 
-| Pick | Edge | Move | Note |
+| Pick (now) | Edge | Move | Note |
 |---|---|---|---|
-| ~~South Carolina +10.5~~ | 18.1 | -1.0 | **Void.** This is USC Upstate, not the Gamecocks. |
-| North Florida +37 @ Miami | 6.9 | -3.25 | Big move. Didn't chase the news. |
-| Florida A&M +19.5 @ UAB | 5.1 | -3.0 | Big move. Didn't chase the news. |
-| SIUE +31.5 @ Missouri | 8.5 | -2.0 | |
-| Alabama A&M +24.5 @ DePaul | 4.9 | -1.75 | |
-| Jackson St. +24.5 @ Miss. St. | 3.1 | -1.5 | |
-| North Alabama +28 @ Oklahoma | 4.4 | -1.5 | |
-| ULM +38.5 @ Texas A&M | 8.5 | -1.0 | |
-| Rice +18.5 @ Stanford | 4.6 | -1.0 | |
-| E. Illinois +28.5 @ Notre Dame | 7.0 | -0.5 | |
-| Wagner +39.5 @ UConn | 6.6 | -0.5 | |
+| Detroit Mercy +35.5 @ Xavier | 13.5 | -3.25 | No news. Detroit lost 93-32 at Marquette. |
+| Alcorn St. +30.5 @ Murray St. | 7.2 | -4.5 | No news. Alcorn is 0-2. |
+| Fairfield +26 @ Wisconsin | 7.9 | -3.0 | No news found. |
+| Hofstra +19 @ Arizona St. | 7.7 | -3.25 | No news found. |
+| Maine +20.5 @ Rhode Island | 4.3 | -3.0 | Maine lost at home to 0-2 Manhattan. |
+| UCF -13.5 vs South Alabama | 5.5 | +3.0 | No news found. |
+| Southern +36 @ Iowa St. | 9.4 | -2.0 | |
+| Queens +29.5 @ BYU | 6.8 | -1.5 | |
+| Montana +13.5 @ San Francisco | 7.3 | -2.0 | |
+| Bryant +31.5 @ Providence | 6.3 | -2.0 | |
+| La.-Monroe +35 @ TCU | 7.5 | -1.5 | |
+| Utah Tech +27.5 @ Utah St. | 5.8 | -1.75 | |
+| Arkansas St. -4.5 vs UT Martin | 7.2 | +2.5 | |
+| New Haven +1.5 vs Army | 6.3 | +0.75 | |
+| Michigan St. +8 vs Duke (neutral) | 4.1 | -1.0 | Champions Classic |
+| Little Rock, N. Arizona, San Diego, NJIT, Delaware St., Bucknell | 3.4–6.2 | small | |
+
+For the six biggest moves (the first six rows), I found no injury or availability news on either side. Each looks like the market reacting to early results ([Xavier](https://fieldlevelmedia.com/ncaab/xavier-recovers-from-first-half-deficit-beats-eastern-michigan/), [Murray St.](https://www.dakotanewsnow.com/2026/11/03/ryan-millers-murray-state-men-race-past-tennessee-state-pentagon/), [UCF](https://www.covers.com/sport/basketball/ncaab/matchup/390630)).
 
 **Flat** (no line movement, so no market confirmation; pass):
 
-- Louisiana Tech +30 @ LSU (edge 11.8)
-- E. Washington +17.5 @ Oregon St. (edge 5.1)
+- **Florida St. +9.5 vs Florida** (edge 3.3; BetRivers -110). Confirmed as a true home game at the Tucker Center ([Saturday Down South](https://www.saturdaydownsouth.com/news/college-basketball/florida-basketball-reveals-schedule-for-2026-27-season)). The page shows this as "against" because it was logged last night at +10.5.
+- **SE Louisiana +27 @ Ole Miss** (edge 6.6; BetOnline -113). SELU is on the third of eight straight road games to open the season ([Sports Leader](https://www.thesportsleader.com/2026/11/10/ole-miss-stressing-its-basics-against-southeastern-louisiana/)). I found no injury news.
 
-**Not projected** (team names didn't match): UNC Greensboro @ UIC, and Mississippi Valley St. @ Washington.
+**Flagged, no pick:** these three games have a tempo outlier:
+- MD Eastern Shore @ Boston College (BC's tempo is 61)
+- Siena @ Dayton
+- Weber St. @ Utah
 
-**Other big move, no pick:** SC State @ Chicago St. moved from -5.5 to -2.
+**Not projected:** Prairie View @ SMU (name not matched).
 
 ---
 
 ## Totals (tracking only)
 
-No tempo-outlier flags today. The one unusually large gap: **Wagner @ UConn**, where the model is 151 and the market is 140 (+11). Lopsided games bring garbage time and walk-ons, which the model doesn't capture. Not a play.
+The biggest gap without a tempo flag is **Utah Tech @ Utah St.**: the model has 142 and the market has 156.5. UTRGV (-13), Queens @ BYU (-12) and E. Kentucky @ Georgia Tech (-11) are next.
+
+The market has been running above the model's totals early in the season, so this looks like the same pattern, not one standout game. Not a play.
 
 ---
 
 ## Notes
 
-**Name-match fix needed.** The odds feed's "South Carolina Upstate Spartans" matched "South Carolina" by prefix. That caused the bogus 18-point edge and a logged "against" pick that will be graded and pollute the record. Please remove it from `data/picks.json` by hand (this routine only commits under `analysis/` and `neutral.json`). Suggested `ALIASES` additions to `generate_cbb.py` (I didn't edit the script):
+**Picks are being logged a day early.** Yesterday's 10:45 AM run fired at 6:51 PM, 8 hours late. Because picks mode logs every game within 40 hours, it logged 20 of today's picks off lines that had opened about an hour earlier. Their market tags are frozen from that moment:
+- Fairfield is filed as "agrees" at +22.5, but the line is now +26 (against).
+- La Salle and NKU are filed as "flat."
+- Yale is filed as "against" at +21.75.
+
+So the category record will drift from what the analysis actually plays. Two possible fixes:
+- Log only games tipping on the current ET date.
+- Re-tag the market category at the close.
+
+I didn't edit the script. The upside is that those 20 picks give a real open-to-close CLV test.
+
+**Name match.** Suggested `ALIASES` addition (I didn't edit the script):
 
 ```python
-'south carolina upstate': 'USC Upstate', 'usc upstate': 'USC Upstate',
-'uic': 'Illinois Chicago', 'miss valley st': 'Mississippi Valley St.',
+'prairie view': 'Prairie View A&M',
 ```
 
-**Neutral sites.**
-- All of today's plays are on the home team's own floor.
-- I added tomorrow's **Champions Classic** games at the United Center in Chicago to `neutral.json`: Michigan St. vs Duke, and Kansas vs Kentucky ([Duke release](https://goduke.com/news/2025/11/18/mens-basketball-state-farm-champions-classic-returns-to-chicago-in-2026)). The model will drop the 3-point home edge for both on the next data run. With home court removed, Kentucky goes from +3.8 to about +6.8, close to the market's +5.5, and Duke goes from -6.5 to about -3.5 against the market's -6.5. Neither game should produce a pick.
-- Illinois @ Texas Tech tomorrow is a true road game in Lubbock (home-and-home series), so it stays as is.
+**Void still on the books.** The USC Upstate pick ("South Carolina +10.5", Nov 9) is still in `data/picks.json` and counts as a win in "against." Remove it by hand.
 
-**Freshness.** The scheduled runs were late again: last night's 6:30 PM run fired at 9:52 PM, and the 10:45 AM run hadn't fired by 11:39 AM. A late 6:30 PM run means no closing line for evening games, which is why yesterday's CLV is meaningless. If GitHub's scheduler keeps slipping, an extra scheduled run around 5:30 PM ET would help.
+**Neutral sites.** I made no changes to `neutral.json`. The Champions Classic games (Michigan St.–Duke and Kansas–Kentucky) are already marked neutral and projected that way. Every pick game I checked today is on the home team's floor.
+
+**CLV for tonight** depends on the 6:30 PM run firing before the 7:00 tips. The last two days it ran at 6:51 PM and 9:52 PM.
