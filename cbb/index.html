@@ -13,6 +13,9 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;background:rep
 .wrap{max-width:980px;margin:0 auto;padding:12px}
 header{border:2px solid var(--green);padding:14px;margin-bottom:12px;background:linear-gradient(180deg,#0a0a0a,#000)}
 h1{font-family:'Press Start 2P',monospace;font-size:18px;color:var(--yellow);margin:0 0 8px;letter-spacing:1px}
+.hrow{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.xlink{color:var(--dim);font-size:18px;text-decoration:none;border-bottom:1px dashed var(--dim)}
+.xlink:hover{color:var(--green);border-color:var(--green)}
 .status{color:var(--dim);font-size:19px}
 .status b{color:var(--white);font-weight:normal}
 .warn{color:var(--amber)}
@@ -68,7 +71,7 @@ input[type=search]{width:100%;font-family:'VT323',monospace;font-size:22px;backg
 <body>
 <div class="wrap">
 <header>
-  <h1>HARDWOOD EDGE</h1>
+  <div class="hrow"><h1>HARDWOOD EDGE</h1><a class="xlink" href="../nfl/">NFL: GRIDIRON EDGE →</a></div>
   <div class="status" id="status">Loading…</div>
 </header>
 <nav>
