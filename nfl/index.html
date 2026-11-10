@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gridiron Edge — NFL Model</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#000;--panel:#0a0a0a;--line:#1f3a1f;--green:#33ff66;--dim:#7fbf8f;--yellow:#ffff00;--red:#ff5555;--amber:#ffb000;--white:#f2f2f2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--white);font-family:'VT323',monospace;font-size:22px;line-height:1.2}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 1px,transparent 1px 3px);z-index:9}
+.wrap{max-width:1240px;margin:0 auto;padding:12px}
+header{border:2px solid var(--green);padding:14px;margin-bottom:12px;background:linear-gradient(180deg,#0a0a0a,#000)}
+.hrow{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+h1{font-family:'Press Start 2P',monospace;font-size:18px;color:var(--yellow);margin:0 0 8px;letter-spacing:1px}
+.xlink{color:var(--dim);font-size:18px;text-decoration:none;border-bottom:1px dashed var(--dim)}
+.xlink:hover{color:var(--green);border-color:var(--green)}
+.status{color:var(--dim);font-size:19px}
+.status b{color:var(--white);font-weight:normal}
+.warn{color:var(--amber)}
+nav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+nav button{font-family:'Press Start 2P',monospace;font-size:11px;background:#001100;color:var(--green);border:2px solid var(--green);padding:10px 12px;cursor:pointer}
+nav button.on{background:var(--green);color:#000}
+.controls{display:flex;gap:16px;flex-wrap:wrap;margin:0 0 10px;color:var(--dim)}
+.controls label{cursor:pointer}
+#games{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px;align-items:start}
+.day{grid-column:1/-1;font-family:'Press Start 2P',monospace;font-size:12px;color:var(--yellow);margin:12px 0 2px;border-bottom:1px dashed var(--yellow);padding-bottom:6px}
+.game{border:1px solid var(--line);border-left:4px solid var(--line);background:var(--panel);padding:7px 9px;display:flex;flex-direction:column;gap:4px}
+.game.edge{border-color:var(--amber)}
+.game.agree{border-color:var(--green);box-shadow:0 0 8px rgba(51,255,102,.25)}
+.game.blocked{border-color:#553;border-left-color:var(--red)}
+.game.started{opacity:.55}
+.top{display:flex;justify-content:space-between;gap:6px;align-items:flex-start}
+.match{font-size:20px;line-height:1.05;color:var(--white);min-width:0}
+.match div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rk{color:var(--dim);font-size:16px}
+.time{color:var(--dim);font-size:17px;white-space:nowrap;text-align:right}
+.badge{display:inline-block;font-size:14px;padding:0 4px;margin-top:2px;border:1px solid}
+.b-n{color:var(--yellow);border-color:var(--yellow)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+.grid div{background:#050505;display:flex;justify-content:space-between;align-items:baseline;padding:1px 7px;font-size:20px}
+.grid div span.l{color:var(--dim);font-size:15px}
+.pos{color:var(--green)}.neg{color:var(--red)}.hi{color:var(--yellow)}
+.pick{font-size:19px;line-height:1.1}
+.pick .tag{font-family:'Press Start 2P',monospace;font-size:8px;padding:3px 5px;margin-right:6px;vertical-align:2px}
+.t-agree{background:var(--green);color:#000}.t-against{background:#550000;color:var(--red);border:1px solid var(--red)}.t-flat{background:#332b00;color:var(--amber);border:1px solid var(--amber)}
+.t-total{background:#001a33;color:#66ccff;border:1px solid #66ccff}.t-block{background:#1a1a1a;color:#999;border:1px solid #666}
+.pick.muted{color:#999}
+.sub{color:var(--dim);font-size:16px}
+.flag{color:var(--red);font-size:16px}
+table{width:100%;border-collapse:collapse;font-size:20px}
+th{font-family:'Press Start 2P',monospace;font-size:9px;color:var(--yellow);text-align:left;padding:8px 6px;border-bottom:1px solid var(--yellow);white-space:nowrap}
+th.s{cursor:pointer}th.s:hover{color:var(--green)}
+td{padding:5px 6px;border-bottom:1px solid #151515}
+tr:hover td{background:#0d1a0d}
+td:first-child{white-space:nowrap}
+td.n{white-space:nowrap}
+#rt td,#btGames td,#pickTable td,#btWeeks td{white-space:nowrap}
+.rec{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;margin-bottom:14px}
+.rec>div{border:1px solid var(--line);padding:10px;background:var(--panel)}
+.rec h3{font-family:'Press Start 2P',monospace;font-size:10px;color:var(--yellow);margin:0 0 8px;line-height:1.5}
+.big{font-size:32px;color:var(--green)}
+h2.sec{font-family:'Press Start 2P',monospace;font-size:11px;color:var(--yellow);margin:18px 0 8px}
+input[type=search]{width:100%;font-family:'VT323',monospace;font-size:22px;background:#000;color:var(--green);border:2px solid var(--green);padding:8px;margin-bottom:10px}
+.md{background:var(--panel);border:1px solid var(--line);padding:14px 16px}
+.md h1,.md h2,.md h3{font-family:'Press Start 2P',monospace;color:var(--yellow);line-height:1.5}
+.md h1{font-size:14px}.md h2{font-size:12px;margin-top:22px}.md h3{font-size:10px;margin-top:16px}
+.md strong{color:var(--green);font-weight:normal}
+.md li{margin:4px 0}
+.md table{margin:10px 0}
+.note{color:var(--dim);font-size:18px;margin-top:16px}
+.hidden{display:none}
+@media (max-width:560px){body{font-size:20px}h1{font-size:14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="hrow"><h1>GRIDIRON EDGE</h1><a class="xlink" href="../cbb/">CBB: HARDWOOD EDGE →</a></div>
+  <div class="status" id="status">Loading…</div>
+</header>
+<nav>
+  <button data-tab="slate" class="on">SLATE</button>
+  <button data-tab="analysis">ANALYSIS</button>
+  <button data-tab="picks">PICKS</button>
+  <button data-tab="backtest">BACKTEST</button>
+  <button data-tab="ratings">RATINGS</button>
+  <button data-tab="sos">SCHEDULE</button>
+</nav>
+
+<section id="slate">
+  <div class="controls">
+    <label><input type="checkbox" id="edgesOnly"> Edges only</label>
+    <label><input type="checkbox" id="hideStarted" checked> Hide started</label>
+    <label><input type="checkbox" id="showTotals" checked> Show totals</label>
+  </div>
+  <div id="games"></div>
+  <div class="note">Spreads are the <b>home</b> team's line (negative = home favored). Market = Pinnacle when it posts the game, otherwise the median across books; before live lines load it falls back to nflverse's line. Open = first line this page recorded. Edge = model minus market: a spread pick shows at 3+ points, a total at 4+. <span class="pos">Green</span> = the line has moved toward the model since open. <span class="neg">Against</span> = it's moving away. <span class="neg">⚠ Flags</span> mark games where a team's rating was built mostly with a different quarterback (or on too few games); their edges are shown but never logged as picks.</div>
+</section>
+
+<section id="analysis" class="hidden"><div class="md" id="md">Loading analysis…</div></section>
+
+<section id="picks" class="hidden">
+  <div class="rec" id="rec"></div>
+  <div style="overflow-x:auto"><table id="pickTable"></table></div>
+  <div class="note">Picks are logged automatically on the morning of each game from live lines, skipping flagged games. CLV = closing line value in points: positive means the pick beat the last line seen before kickoff. Over a small sample it's a better test of the model than wins and losses.</div>
+</section>
+
+<section id="backtest" class="hidden">
+  <div class="rec" id="btRec"></div>
+  <h2 class="sec">BY WEEK</h2>
+  <div style="overflow-x:auto"><table id="btWeeks"></table></div>
+  <h2 class="sec">EVERY GAME</h2>
+  <div class="controls"><label><input type="checkbox" id="btEdges" checked> Edges only</label></div>
+  <div style="overflow-x:auto"><table id="btGames"></table></div>
+  <div class="note">Each week is graded with ratings built only from the games before it, against nflverse's closing spread and total. That makes it a fair out-of-sample test, but closing lines are the hardest number to beat, so expect results near 50%.</div>
+</section>
+
+<section id="ratings" class="hidden">
+  <input type="search" id="q" placeholder="Search team…">
+  <div style="overflow-x:auto"><table id="rt"></table></div>
+  <div class="note">Ratings are yards per play above or below average, adjusted for every opponent's strength (offense and defense solved together). OVR = OFF + DEF. Points are projected per game against an average opponent: 23.0 + 6.01 × rating. MARGIN and TO are actual points and turnover margin per game, shown for context; the model doesn't use them. Click a column to sort.</div>
+</section>
+
+<section id="sos" class="hidden">
+  <div style="overflow-x:auto"><table id="st"></table></div>
+  <div class="note">Strength of schedule = average adjusted rating of each team's opponents (higher = tougher). DEF FACED = quality of the defenses its offense has played; OFF FACED = quality of the offenses its defense has played.</div>
+</section>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const ETfmt = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit'});
+const ETday = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'long',month:'short',day:'numeric'});
+const ETstamp = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+const pt = x => x==null ? '—' : (x===0 ? 'PK' : (x>0?'+':'')+(+x).toFixed(1).replace('.0',''));
+const sg = (x,d=1) => x==null ? '—' : (x>0?'+':'')+(+x).toFixed(d);
+const px = x => x==null ? '' : (x>0?'+':'')+x;
+const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const rec = r => r ? `${r.w}-${r.l}${r.p?'-'+r.p:''}` : '—';
+const pctS = r => r&&r.pct!=null ? Math.round(r.pct*1000)/10+'%' : '—';
+let D = null, NM = {}, sortKey='adj', sortDir=-1;
+
+const TABS=['slate','analysis','picks','backtest','ratings','sos'];
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('on',x===b));
+  TABS.forEach(t=>$('#'+t).classList.toggle('hidden',t!==b.dataset.tab));
+});
+['edgesOnly','hideStarted','showTotals'].forEach(id=>$('#'+id).onchange=renderGames);
+$('#btEdges').onchange=renderBacktest;
+$('#q').oninput=renderRatings;
+
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;D.teams.forEach(t=>NM[t.team]=t.name);
+  renderStatus();renderGames();renderPicks();renderBacktest();renderRatings();renderSOS();})
+  .catch(e=>{$('#status').innerHTML='<span class="warn">Could not load data.json — the first automatic update may not have run yet.</span>';});
+fetch('analysis/latest.md?'+Date.now()).then(r=>r.ok?r.text():Promise.reject()).then(t=>{$('#md').innerHTML=md(t);})
+  .catch(()=>{$('#md').innerHTML='No analysis posted yet.';});
+
+function renderStatus(){
+  const l=D.lines, nv=D.nflverse;
+  const stale=Object.values(nv).some(s=>s!=='fresh');
+  let s=`Week <b>${D.week??'—'}</b> · ratings through Week <b>${D.through_week}</b>${stale?' <span class="warn">(nflverse cached)</span>':''} · updated <b>${ETstamp.format(new Date(D.generated_at))} ET</b>`;
+  s+= l.status==='ok' ? ` · live lines: <b>${l.events}</b> games` : ` · <span class="warn">live lines ${esc(l.status)} — showing nflverse lines</span>`;
+  if(l.credits_remaining!=null) s+=` · API credits left: <b>${esc(l.credits_remaining)}</b>`;
+  $('#status').innerHTML=s;
+}
+
+function renderGames(){
+  const eo=$('#edgesOnly').checked, hs=$('#hideStarted').checked, st=$('#showTotals').checked;
+  let html='',day='';
+  const gs=D.games.filter(g=>(!eo||g.pick||g.total_pick)&&(!hs||!g.started));
+  if(!gs.length){$('#games').innerHTML='<div class="sub">No games to show.</div>';return;}
+  for(const g of gs){
+    const t=new Date(g.kickoff), dl=ETday.format(t);
+    if(dl!==day){day=dl;html+=`<div class="day">${dl.toUpperCase()}</div>`;}
+    const m=g.model||{};
+    const cls=['game',(g.pick||g.total_pick)?'edge':'',g.pick&&g.market==='agrees'&&!g.blocked?'agree':'',g.blocked&&(g.pick||g.total_pick)?'blocked':'',g.started?'started':''].join(' ');
+    const ek = g.edge==null?'':(Math.abs(g.edge)>=D.settings.edge_threshold?'hi':'');
+    const mv = (g.move==null||g.move===0)?'':` <span class="rk">(${sg(g.move)})</span>`;
+    html+=`<div class="${cls}">
+      <div class="top"><div class="match"><div>${esc(g.away_name)} <span class="rk">${g.away_rank?'#'+g.away_rank:''}</span></div><div>@ ${esc(g.home_name)} <span class="rk">${g.home_rank?'#'+g.home_rank:''}</span></div></div>
+      <div class="time">${ETfmt.format(t)}${g.started?'<br>started':''}${g.neutral?'<br><span class="badge b-n">NEUTRAL</span>':''}</div></div>
+      <div class="grid">
+        <div><span class="l">MODEL</span>${pt(m.home_spread)}</div>
+        <div><span class="l">MKT</span>${pt(g.mkt_spread)}</div>
+        <div><span class="l">OPEN</span><span>${pt(g.open_spread)}${mv}</span></div>
+        <div><span class="l">EDGE</span><b class="${ek}" style="font-weight:normal">${g.edge==null?'—':sg(g.edge)}</b></div>
+      </div>`;
+    if(m.away_pts!=null) html+=`<div class="sub">Proj: ${esc(g.away)} ${m.away_pts} – ${esc(g.home)} ${m.home_pts}${g.spread_src==='nflverse'?' · line: nflverse':''}</div>`;
+    if(g.pick){
+      const tag=g.blocked?['t-block','FLAGGED']:({agrees:['t-agree','MODEL+MKT'],against:['t-against','MKT AGAINST'],flat:['t-flat','NO MOVE']}[g.market]||['t-flat','—']);
+      const b=g['best_'+g.pick_side];
+      html+=`<div class="pick${g.blocked?' muted':''}"><span class="tag ${tag[0]}">${tag[1]}</span>${esc(g.pick)}${b?`<div class="sub">best ${pt(b.pt)} ${px(b.px)} @ ${esc(b.book)}</div>`:''}</div>`;
+    }
+    if(g.total_pick){
+      const b=g['best_'+g.total_side];
+      html+=`<div class="pick${g.blocked?' muted':''}"><span class="tag ${g.blocked?'t-block':'t-total'}">${g.blocked?'FLAGGED':'TOTAL'}</span>${esc(g.total_pick)} <span class="sub">(model ${m.total})</span>${b?`<div class="sub">best ${b.pt} ${px(b.px)} @ ${esc(b.book)}</div>`:''}</div>`;
+    }
+    if(st && m.total!=null && !g.total_pick) html+=`<div class="sub">O/U model ${m.total} · mkt ${g.mkt_total??'—'}${g.total_edge!=null?' · gap '+sg(g.total_edge):''}</div>`;
+    if(g.away_qb||g.home_qb) html+=`<div class="sub">QB: ${esc(g.away_qb||'?')} vs ${esc(g.home_qb||'?')}</div>`;
+    if(g.flags.length) html+=`<div class="flag">⚠ ${g.flags.map(esc).join(' · ')}</div>`;
+    html+=`</div>`;
+  }
+  $('#games').innerHTML=html;
+}
+
+function renderPicks(){
+  const R=D.record, box=(t,r)=>`<div><h3>${t}</h3><div class="big">${rec(r)}</div><div class="sub">${r.picks} logged · CLV ${r.avg_clv==null?'—':sg(r.avg_clv)} · beat close ${r.beat_close==null?'—':Math.round(r.beat_close*100)+'%'}</div></div>`;
+  $('#rec').innerHTML=box('SPREADS',R.spreads)+box('TOTALS',R.totals)+box('MODEL + MARKET',R.agrees)+box('MARKET AGAINST',R.against);
+  const ps=[...D.picks].reverse();
+  $('#pickTable').innerHTML='<tr><th>WK</th><th>PICK</th><th>MATCHUP</th><th>EDGE</th><th>MKT</th><th>CLOSE</th><th>CLV</th><th>FINAL</th><th>RES</th></tr>'+
+    (ps.length?ps.map(p=>`<tr><td>${p.week}</td><td>${esc(p.pick)}</td><td>${esc(p.away)} @ ${esc(p.home)}</td><td>${sg(p.edge)}</td><td>${esc(p.market||p.type)}</td><td>${p.type==='spread'?pt(p.close):(p.close??'—')}</td><td class="${p.clv>0?'pos':p.clv<0?'neg':''}">${p.clv==null?'—':sg(p.clv)}</td><td>${p.final?p.final.join('-'):'—'}</td><td class="${p.result==='W'?'pos':p.result==='L'?'neg':''}">${p.result||'—'}</td></tr>`).join(''):'<tr><td colspan="9">No picks logged yet. They are logged on the morning of each game.</td></tr>');
+}
+
+function renderBacktest(){
+  const S=D.backtest.summary, th=D.settings;
+  const box=(t,r,sub)=>`<div><h3>${t}</h3><div class="big">${rec(r)}</div><div class="sub">${pctS(r)}${sub?' · '+sub:''}</div></div>`;
+  $('#btRec').innerHTML=box(`SPREAD EDGES ${th.edge_threshold}+ (NO QB FLAG)`,S.edge_ats_clean,'the picks this page would log')+
+    box(`TOTAL EDGES ${th.total_threshold}+ (NO QB FLAG)`,S.edge_ou_clean)+
+    box('ALL GAMES VS SPREAD',S.all_ats,'model side of every game')+
+    box(`SPREAD EDGES, QB FLAGGED`,S.edge_ats_flagged,'skipped')+
+    box('STRAIGHT UP',S.su,'model favorite won');
+  $('#btWeeks').innerHTML='<tr><th>WEEK</th><th>SPREAD PICKS</th><th>TOTAL PICKS</th><th>ALL GAMES ATS</th></tr>'+
+    S.by_week.map(w=>`<tr><td>${w.week}</td><td>${rec(w.ats)}</td><td>${rec(w.ou)}</td><td>${rec(w.all)}</td></tr>`).join('');
+  const eo=$('#btEdges').checked;
+  const gs=D.backtest.games.filter(g=>!eo||Math.abs(g.edge)>=th.edge_threshold||Math.abs(g.total_edge||0)>=th.total_threshold).slice().reverse();
+  const res=r=>`<span class="${r==='W'?'pos':r==='L'?'neg':''}">${r||'—'}</span>`;
+  $('#btGames').innerHTML='<tr><th>WK</th><th>MATCHUP</th><th>MODEL</th><th>CLOSE</th><th>EDGE</th><th>ATS</th><th>MODEL TOT</th><th>CLOSE TOT</th><th>GAP</th><th>O/U</th><th>FINAL</th></tr>'+
+    gs.map(g=>{const se=Math.abs(g.edge)>=th.edge_threshold, te=Math.abs(g.total_edge||0)>=th.total_threshold;
+      return `<tr><td>${g.week}</td><td class="n">${esc(g.away)} @ ${esc(g.home)}${g.qb_flag?' <span class="flag">⚠QB</span>':''}</td><td>${pt(g.model)}</td><td>${pt(g.line)}</td><td class="${se?'hi':''}">${sg(g.edge)}</td><td>${res(g.ats)}</td><td>${g.model_total??'—'}</td><td>${g.total_line??'—'}</td><td class="${te?'hi':''}">${sg(g.total_edge)}</td><td>${res(g.ou)}</td><td>${g.final.join('-')}</td></tr>`;}).join('');
+}
+
+const surname = n => { const p=n.split(' ').filter(w=>!['Jr','Sr','II','III','IV','V'].includes(w.replace(/\.$/,''))); return p.length?p[p.length-1]:n; };
+function arrow(t){ if(t.prev_rank==null) return '—'; const c=t.prev_rank-t.rank; return c===0?'—':(c>0?`<span class="pos">▲${c}</span>`:`<span class="neg">▼${-c}</span>`); }
+const COLS=[['rank','RK'],['name','TEAM'],['record','REC'],['adj','OVR'],['O','OFF'],['D','DEF'],['proj_pf','PTS FOR'],['proj_pa','PTS AGST'],['chg','CHG'],['margin_pg','MARGIN/G'],['to_pg','TO/G'],['qb','QB STARTS']];
+function renderRatings(){
+  const q=$('#q').value.toLowerCase();
+  let ts=D.teams.filter(t=>!q||t.name.toLowerCase().includes(q)||t.team.toLowerCase()===q);
+  ts=ts.slice().sort((a,b)=>(typeof a[sortKey]==='string'?a[sortKey].localeCompare(b[sortKey]):(a[sortKey]-b[sortKey]))*sortDir);
+  $('#rt').innerHTML='<tr>'+COLS.map(([k,l])=>`<th class="s" data-k="${k}">${l}</th>`).join('')+'</tr>'+
+    ts.map(t=>`<tr><td>${t.rank}</td><td class="n">${esc(t.name)}</td><td>${esc(t.record)}</td><td class="${t.adj>0?'pos':'neg'}">${sg(t.adj,2)}</td><td>${sg(t.O,2)} <span class="rk">(${t.off_rank})</span></td><td>${sg(t.D,2)} <span class="rk">(${t.def_rank})</span></td><td>${t.proj_pf.toFixed(1)}</td><td>${t.proj_pa.toFixed(1)}</td><td>${arrow(t)}</td><td>${sg(t.margin_pg)}</td><td>${sg(t.to_pg)}</td><td class="sub n">${t.qb_starts.map(([n,c])=>esc(surname(n))+' '+c).join(', ')}</td></tr>`).join('');
+  // click a column to sort; click again to flip. Lower is better for rank, name and points allowed.
+  document.querySelectorAll('#rt th.s').forEach(th=>th.onclick=()=>{const k=th.dataset.k; if(k==='chg'||k==='qb')return;
+    sortDir = sortKey===k ? -sortDir : (['rank','name','record','proj_pa'].includes(k)?1:-1); sortKey=k; renderRatings();});
+}
+
+function renderSOS(){
+  const ts=D.teams.slice().sort((a,b)=>b.sos-a.sos);
+  $('#st').innerHTML='<tr><th>RK</th><th>TEAM</th><th>GP</th><th>SOS</th><th>DEF FACED</th><th>OFF FACED</th><th>OPPONENTS</th></tr>'+
+    ts.map(t=>`<tr><td>${t.sos_rank}</td><td class="n">${esc(t.name)}</td><td>${t.games}</td><td class="${t.sos>0?'pos':'neg'}">${sg(t.sos,2)}</td><td>${sg(t.sos_off,2)} <span class="rk">(${t.sos_off_rank})</span></td><td>${sg(t.sos_def,2)} <span class="rk">(${t.sos_def_rank})</span></td><td class="sub">${t.opps.join(', ')}</td></tr>`).join('');
+}
+
+// minimal markdown: headings, bold, italics, lists, tables, paragraphs, links
+function md(src){
+  const inl=s=>esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*(.+?)\*/g,'<em>$1</em>').replace(/\[(.+?)\]\((https?:[^)]+)\)/g,'<a href="$2" style="color:var(--green)">$1</a>');
+  const L=src.replace(/\r/g,'').split('\n');let out='',i=0;
+  while(i<L.length){
+    const l=L[i];
+    if(/^#{1,3} /.test(l)){const n=l.match(/^#+/)[0].length;out+=`<h${n}>${inl(l.slice(n+1))}</h${n}>`;i++;continue;}
+    if(/^\s*\|/.test(l)){const rows=[];while(i<L.length&&/^\s*\|/.test(L[i])){rows.push(L[i]);i++;}
+      const cells=r=>r.trim().replace(/^\||\|$/g,'').split('|').map(c=>c.trim());
+      const body=rows.filter(r=>!/^\s*\|[\s:\-|]+\|\s*$/.test(r));
+      out+='<table>'+body.map((r,k)=>'<tr>'+cells(r).map(c=>k===0?`<th>${inl(c)}</th>`:`<td>${inl(c)}</td>`).join('')+'</tr>').join('')+'</table>';continue;}
+    if(/^\s*[-*] /.test(l)){out+='<ul>';while(i<L.length&&/^\s*[-*] /.test(L[i])){out+=`<li>${inl(L[i].replace(/^\s*[-*] /,''))}</li>`;i++;}out+='</ul>';continue;}
+    if(/^\s*\d+\. /.test(l)){out+='<ol>';while(i<L.length&&/^\s*\d+\. /.test(L[i])){out+=`<li>${inl(L[i].replace(/^\s*\d+\. /,''))}</li>`;i++;}out+='</ol>';continue;}
+    if(!l.trim()){i++;continue;}
+    let p=[];while(i<L.length&&L[i].trim()&&!/^(#{1,3} |\s*[-*] |\s*\d+\. |\s*\|)/.test(L[i])){p.push(L[i]);i++;}
+    out+=`<p>${inl(p.join(' '))}</p>`;
+  }
+  return out;
+}
+</script>
+</body>
+</html>

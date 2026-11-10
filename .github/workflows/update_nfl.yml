@@ -1,0 +1,67 @@
+name: Update NFL Data
+
+on:
+  schedule:
+    - cron: '0 13 * * *'    # 8:00 AM ET daily - refresh stats, snapshot lines, log today's picks, grade
+    - cron: '0 0 * * 5'     # Thu 7:00 PM ET   - closing lines for Thursday night
+    - cron: '45 20 * * 6'   # Sat 3:45 PM ET   - closing lines for late-season Saturday games
+    - cron: '30 16 * * 0'   # Sun 11:30 AM ET  - closing lines for 1:00 PM games
+    - cron: '45 19 * * 0'   # Sun 2:45 PM ET   - closing lines for late-afternoon games
+    - cron: '45 23 * * 0'   # Sun 6:45 PM ET   - closing lines for Sunday night
+    - cron: '45 23 * * 1'   # Mon 6:45 PM ET   - closing lines for Monday night
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'picks or late'
+        default: 'picks'
+
+concurrency:
+  group: nfl-data
+  cancel-in-progress: false
+
+jobs:
+  update-nfl:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests numpy
+
+      - name: Pick run mode
+        id: mode
+        run: |
+          case "${{ github.event.schedule }}" in
+            '0 13 * * *') echo "mode=picks" >> "$GITHUB_OUTPUT" ;;
+            '')           echo "mode=${{ github.event.inputs.mode || 'picks' }}" >> "$GITHUB_OUTPUT" ;;
+            *)            echo "mode=late"  >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Run NFL generator
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          NFL_MODE: ${{ steps.mode.outputs.mode }}
+        run: python nfl/generate_nfl.py
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add nfl/data.json nfl/data/
+          git diff --staged --quiet && exit 0
+          git commit -m "NFL data update (${{ steps.mode.outputs.mode }}) $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            sleep 10
+          done
+          exit 1

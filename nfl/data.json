@@ -1,0 +1,3872 @@
+{
+ "generated_at": "2026-11-10T19:08:35.945347+00:00",
+ "mode": "picks",
+ "season": 2026,
+ "week": 10,
+ "through_week": 9,
+ "nflverse": {
+  "schedule": "fresh",
+  "stats": "fresh"
+ },
+ "lines": {
+  "status": "no key",
+  "events": 0,
+  "credits_remaining": null
+ },
+ "settings": {
+  "points_base": 23.0,
+  "pts_per_ypp": 6.01,
+  "hfa": 1.5,
+  "edge_threshold": 3.0,
+  "total_threshold": 4.0,
+  "qb_share_flag": 0.6,
+  "min_games": 3,
+  "backtest_start_week": 4
+ },
+ "games": [
+  {
+   "game_id": "2026_10_WAS_NYG",
+   "kickoff": "2026-11-13T01:15:00+00:00",
+   "away": "WAS",
+   "home": "NYG",
+   "away_name": "Washington",
+   "home_name": "NY Giants",
+   "away_rank": 20,
+   "home_rank": 27,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Jayden Daniels",
+   "home_qb": "J.J. McCarthy",
+   "books": 0,
+   "mkt_spread": -2.5,
+   "mkt_total": 41.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [
+    "NY Giants: McCarthy started 2 of 8"
+   ],
+   "model": {
+    "away_pts": 21.9,
+    "home_pts": 21.8,
+    "home_spread": 0.1,
+    "total": 43.7
+   },
+   "edge": 2.6,
+   "total_edge": 2.2,
+   "blocked": true
+  },
+  {
+   "game_id": "2026_10_NE_DET",
+   "kickoff": "2026-11-15T14:30:00+00:00",
+   "away": "NE",
+   "home": "DET",
+   "away_name": "New England",
+   "home_name": "Detroit",
+   "away_rank": 6,
+   "home_rank": 8,
+   "neutral": true,
+   "started": false,
+   "away_qb": "Drake Maye",
+   "home_qb": "Jared Goff",
+   "books": 0,
+   "mkt_spread": -2.5,
+   "mkt_total": 51.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [],
+   "model": {
+    "away_pts": 29.0,
+    "home_pts": 27.3,
+    "home_spread": 1.8,
+    "total": 56.3
+   },
+   "edge": 4.3,
+   "pick": "New England +2.5",
+   "pick_side": "away",
+   "market": "flat",
+   "total_edge": 4.8,
+   "total_pick": "Over 51.5",
+   "total_side": "over",
+   "blocked": false
+  },
+  {
+   "game_id": "2026_10_KC_ATL",
+   "kickoff": "2026-11-15T18:00:00+00:00",
+   "away": "KC",
+   "home": "ATL",
+   "away_name": "Kansas City",
+   "home_name": "Atlanta",
+   "away_rank": 2,
+   "home_rank": 11,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Patrick Mahomes",
+   "home_qb": "Michael Penix Jr.",
+   "books": 0,
+   "mkt_spread": 3.5,
+   "mkt_total": 45.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [],
+   "model": {
+    "away_pts": 28.7,
+    "home_pts": 23.5,
+    "home_spread": 5.2,
+    "total": 52.3
+   },
+   "edge": 1.7,
+   "total_edge": 6.8,
+   "total_pick": "Over 45.5",
+   "total_side": "over",
+   "blocked": false
+  },
+  {
+   "game_id": "2026_10_HOU_CLE",
+   "kickoff": "2026-11-15T18:00:00+00:00",
+   "away": "HOU",
+   "home": "CLE",
+   "away_name": "Houston",
+   "home_name": "Cleveland",
+   "away_rank": 15,
+   "home_rank": 24,
+   "neutral": false,
+   "started": false,
+   "away_qb": "C.J. Stroud",
+   "home_qb": "Deshaun Watson",
+   "books": 0,
+   "mkt_spread": 4.5,
+   "mkt_total": 39.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [],
+   "model": {
+    "away_pts": 23.0,
+    "home_pts": 21.4,
+    "home_spread": 1.6,
+    "total": 44.5
+   },
+   "edge": -2.9,
+   "total_edge": 5.0,
+   "total_pick": "Over 39.5",
+   "total_side": "over",
+   "blocked": false
+  },
+  {
+   "game_id": "2026_10_MIN_GB",
+   "kickoff": "2026-11-15T18:00:00+00:00",
+   "away": "MIN",
+   "home": "GB",
+   "away_name": "Minnesota",
+   "home_name": "Green Bay",
+   "away_rank": 17,
+   "home_rank": 5,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Kyler Murray",
+   "home_qb": "Jordan Love",
+   "books": 0,
+   "mkt_spread": -5.5,
+   "mkt_total": 40.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [],
+   "model": {
+    "away_pts": 14.1,
+    "home_pts": 20.7,
+    "home_spread": -6.6,
+    "total": 34.8
+   },
+   "edge": -1.1,
+   "total_edge": -5.7,
+   "total_pick": "Under 40.5",
+   "total_side": "under",
+   "blocked": false
+  },
+  {
+   "game_id": "2026_10_MIA_IND",
+   "kickoff": "2026-11-15T18:00:00+00:00",
+   "away": "MIA",
+   "home": "IND",
+   "away_name": "Miami",
+   "home_name": "Indianapolis",
+   "away_rank": 15,
+   "home_rank": 32,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Malik Willis",
+   "home_qb": "Daniel Jones",
+   "books": 0,
+   "mkt_spread": -2.5,
+   "mkt_total": 40.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [],
+   "model": {
+    "away_pts": 25.8,
+    "home_pts": 16.6,
+    "home_spread": 9.2,
+    "total": 42.4
+   },
+   "edge": 11.7,
+   "pick": "Miami +2.5",
+   "pick_side": "away",
+   "market": "flat",
+   "total_edge": 1.9,
+   "blocked": false
+  },
+  {
+   "game_id": "2026_10_CAR_NO",
+   "kickoff": "2026-11-15T18:00:00+00:00",
+   "away": "CAR",
+   "home": "NO",
+   "away_name": "Carolina",
+   "home_name": "New Orleans",
+   "away_rank": 14,
+   "home_rank": 29,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Bryce Young",
+   "home_qb": "Tyler Shough",
+   "books": 0,
+   "mkt_spread": -1.5,
+   "mkt_total": 48.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [],
+   "model": {
+    "away_pts": 26.9,
+    "home_pts": 22.1,
+    "home_spread": 4.7,
+    "total": 49.0
+   },
+   "edge": 6.2,
+   "pick": "Carolina +1.5",
+   "pick_side": "away",
+   "market": "flat",
+   "total_edge": 0.5,
+   "blocked": false
+  },
+  {
+   "game_id": "2026_10_BUF_NYJ",
+   "kickoff": "2026-11-15T18:00:00+00:00",
+   "away": "BUF",
+   "home": "NYJ",
+   "away_name": "Buffalo",
+   "home_name": "NY Jets",
+   "away_rank": 4,
+   "home_rank": 9,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Josh Allen",
+   "home_qb": "Geno Smith",
+   "books": 0,
+   "mkt_spread": 8.5,
+   "mkt_total": 50.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [],
+   "model": {
+    "away_pts": 23.6,
+    "home_pts": 21.3,
+    "home_spread": 2.3,
+    "total": 44.9
+   },
+   "edge": -6.2,
+   "pick": "NY Jets +8.5",
+   "pick_side": "home",
+   "market": "flat",
+   "total_edge": -5.6,
+   "total_pick": "Under 50.5",
+   "total_side": "under",
+   "blocked": false
+  },
+  {
+   "game_id": "2026_10_JAX_TEN",
+   "kickoff": "2026-11-15T18:00:00+00:00",
+   "away": "JAX",
+   "home": "TEN",
+   "away_name": "Jacksonville",
+   "home_name": "Tennessee",
+   "away_rank": 13,
+   "home_rank": 31,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Trevor Lawrence",
+   "home_qb": "Cam Ward",
+   "books": 0,
+   "mkt_spread": 10.5,
+   "mkt_total": 46.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [],
+   "model": {
+    "away_pts": 29.8,
+    "home_pts": 21.9,
+    "home_spread": 7.9,
+    "total": 51.6
+   },
+   "edge": -2.6,
+   "total_edge": 5.1,
+   "total_pick": "Over 46.5",
+   "total_side": "over",
+   "blocked": false
+  },
+  {
+   "game_id": "2026_10_LA_ARI",
+   "kickoff": "2026-11-15T21:05:00+00:00",
+   "away": "LA",
+   "home": "ARI",
+   "away_name": "LA Rams",
+   "home_name": "Arizona",
+   "away_rank": 7,
+   "home_rank": 24,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Matthew Stafford",
+   "home_qb": "Gardner Minshew",
+   "books": 0,
+   "mkt_spread": 9.5,
+   "mkt_total": 40.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [
+    "Arizona: Minshew started 1 of 9"
+   ],
+   "model": {
+    "away_pts": 25.8,
+    "home_pts": 20.7,
+    "home_spread": 5.1,
+    "total": 46.5
+   },
+   "edge": -4.4,
+   "pick": "Arizona +9.5",
+   "pick_side": "home",
+   "market": "flat",
+   "total_edge": 6.0,
+   "total_pick": "Over 40.5",
+   "total_side": "over",
+   "blocked": true
+  },
+  {
+   "game_id": "2026_10_SEA_LV",
+   "kickoff": "2026-11-15T21:05:00+00:00",
+   "away": "SEA",
+   "home": "LV",
+   "away_name": "Seattle",
+   "home_name": "Las Vegas",
+   "away_rank": 3,
+   "home_rank": 21,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Sam Darnold",
+   "home_qb": "Kirk Cousins",
+   "books": 0,
+   "mkt_spread": 4.5,
+   "mkt_total": 42.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [
+    "Seattle: Darnold started 3 of 9"
+   ],
+   "model": {
+    "away_pts": 23.8,
+    "home_pts": 15.8,
+    "home_spread": 8.0,
+    "total": 39.7
+   },
+   "edge": 3.5,
+   "pick": "Seattle -4.5",
+   "pick_side": "away",
+   "market": "flat",
+   "total_edge": -2.8,
+   "blocked": true
+  },
+  {
+   "game_id": "2026_10_SF_DAL",
+   "kickoff": "2026-11-15T21:25:00+00:00",
+   "away": "SF",
+   "home": "DAL",
+   "away_name": "San Francisco",
+   "home_name": "Dallas",
+   "away_rank": 1,
+   "home_rank": 28,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Brock Purdy",
+   "home_qb": "Dak Prescott",
+   "books": 0,
+   "mkt_spread": 4.5,
+   "mkt_total": 55.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [],
+   "model": {
+    "away_pts": 34.7,
+    "home_pts": 21.9,
+    "home_spread": 12.8,
+    "total": 56.5
+   },
+   "edge": 8.3,
+   "pick": "San Francisco -4.5",
+   "pick_side": "away",
+   "market": "flat",
+   "total_edge": 1.0,
+   "blocked": false
+  },
+  {
+   "game_id": "2026_10_PIT_CIN",
+   "kickoff": "2026-11-16T01:20:00+00:00",
+   "away": "PIT",
+   "home": "CIN",
+   "away_name": "Pittsburgh",
+   "home_name": "Cincinnati",
+   "away_rank": 18,
+   "home_rank": 12,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Aaron Rodgers",
+   "home_qb": "Joe Burrow",
+   "books": 0,
+   "mkt_spread": -3.5,
+   "mkt_total": 49.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [],
+   "model": {
+    "away_pts": 23.4,
+    "home_pts": 26.7,
+    "home_spread": -3.3,
+    "total": 50.2
+   },
+   "edge": 0.2,
+   "total_edge": 0.7,
+   "blocked": false
+  },
+  {
+   "game_id": "2026_10_LAC_BAL",
+   "kickoff": "2026-11-17T01:15:00+00:00",
+   "away": "LAC",
+   "home": "BAL",
+   "away_name": "LA Chargers",
+   "home_name": "Baltimore",
+   "away_rank": 26,
+   "home_rank": 22,
+   "neutral": false,
+   "started": false,
+   "away_qb": "Justin Herbert",
+   "home_qb": "Tyler Huntley",
+   "books": 0,
+   "mkt_spread": -5.5,
+   "mkt_total": 38.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
+   "open_spread": null,
+   "open_total": null,
+   "flags": [
+    "Baltimore: Huntley started 3 of 9"
+   ],
+   "model": {
+    "away_pts": 20.2,
+    "home_pts": 22.9,
+    "home_spread": -2.8,
+    "total": 43.1
+   },
+   "edge": 2.7,
+   "total_edge": 4.6,
+   "total_pick": "Over 38.5",
+   "total_side": "over",
+   "blocked": true
+  }
+ ],
+ "teams": [
+  {
+   "team": "SF",
+   "name": "San Francisco",
+   "games": 8,
+   "record": "7-1",
+   "off_ypp": 6.305,
+   "def_ypp": 4.775,
+   "raw": 1.53,
+   "O": 1.201,
+   "D": 0.52,
+   "adj": 1.721,
+   "sos_off": 0.224,
+   "sos_def": -0.035,
+   "to_pg": 0.125,
+   "margin_pg": 9.875,
+   "opps": [
+    "LA",
+    "MIA",
+    "ARI",
+    "DEN",
+    "SEA",
+    "WAS",
+    "ATL",
+    "LV"
+   ],
+   "sos": 0.189,
+   "rank": 1,
+   "off_rank": 1,
+   "def_rank": 5,
+   "sos_rank": 9,
+   "sos_off_rank": 5,
+   "sos_def_rank": 17,
+   "prev_rank": 1,
+   "proj_pf": 30.2,
+   "proj_pa": 19.9,
+   "qb_starts": [
+    [
+     "Brock Purdy",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "KC",
+   "name": "Kansas City",
+   "games": 8,
+   "record": "6-2",
+   "off_ypp": 6.259,
+   "def_ypp": 4.877,
+   "raw": 1.381,
+   "O": 1.188,
+   "D": 0.153,
+   "adj": 1.342,
+   "sos_off": 0.258,
+   "sos_def": -0.301,
+   "to_pg": 0.5,
+   "margin_pg": 7.375,
+   "opps": [
+    "DEN",
+    "IND",
+    "MIA",
+    "LV",
+    "LAC",
+    "SEA",
+    "DEN",
+    "NYJ"
+   ],
+   "sos": -0.042,
+   "rank": 2,
+   "off_rank": 2,
+   "def_rank": 12,
+   "sos_rank": 16,
+   "sos_off_rank": 3,
+   "sos_def_rank": 29,
+   "prev_rank": 3,
+   "proj_pf": 30.1,
+   "proj_pa": 22.1,
+   "qb_starts": [
+    [
+     "Patrick Mahomes",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "SEA",
+   "name": "Seattle",
+   "games": 9,
+   "record": "5-4",
+   "off_ypp": 5.221,
+   "def_ypp": 4.139,
+   "raw": 1.082,
+   "O": -0.143,
+   "D": 1.467,
+   "adj": 1.323,
+   "sos_off": -0.038,
+   "sos_def": 0.276,
+   "to_pg": -0.111,
+   "margin_pg": 4.444,
+   "opps": [
+    "NE",
+    "ARI",
+    "WAS",
+    "LAC",
+    "SF",
+    "DEN",
+    "KC",
+    "CHI",
+    "ARI"
+   ],
+   "sos": 0.238,
+   "rank": 3,
+   "off_rank": 17,
+   "def_rank": 1,
+   "sos_rank": 7,
+   "sos_off_rank": 20,
+   "sos_def_rank": 4,
+   "prev_rank": 2,
+   "proj_pf": 22.1,
+   "proj_pa": 14.2,
+   "qb_starts": [
+    [
+     "Drew Lock",
+     6
+    ],
+    [
+     "Sam Darnold",
+     3
+    ]
+   ]
+  },
+  {
+   "team": "BUF",
+   "name": "Buffalo",
+   "games": 8,
+   "record": "7-1",
+   "off_ypp": 6.014,
+   "def_ypp": 5.223,
+   "raw": 0.79,
+   "O": 0.713,
+   "D": 0.185,
+   "adj": 0.897,
+   "sos_off": 0.027,
+   "sos_def": 0.078,
+   "to_pg": 0.0,
+   "margin_pg": 8.625,
+   "opps": [
+    "HOU",
+    "DET",
+    "LAC",
+    "NE",
+    "LA",
+    "LV",
+    "BAL",
+    "MIN"
+   ],
+   "sos": 0.104,
+   "rank": 4,
+   "off_rank": 5,
+   "def_rank": 11,
+   "sos_rank": 12,
+   "sos_off_rank": 15,
+   "sos_def_rank": 11,
+   "prev_rank": 4,
+   "proj_pf": 27.3,
+   "proj_pa": 21.9,
+   "qb_starts": [
+    [
+     "Josh Allen",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "GB",
+   "name": "Green Bay",
+   "games": 9,
+   "record": "6-3",
+   "off_ypp": 5.591,
+   "def_ypp": 4.884,
+   "raw": 0.707,
+   "O": 0.234,
+   "D": 0.562,
+   "adj": 0.796,
+   "sos_off": -0.03,
+   "sos_def": 0.115,
+   "to_pg": 0.889,
+   "margin_pg": 2.778,
+   "opps": [
+    "MIN",
+    "NYJ",
+    "ATL",
+    "TB",
+    "CHI",
+    "DAL",
+    "DET",
+    "CAR",
+    "NE"
+   ],
+   "sos": 0.085,
+   "rank": 5,
+   "off_rank": 11,
+   "def_rank": 4,
+   "sos_rank": 13,
+   "sos_off_rank": 17,
+   "sos_def_rank": 9,
+   "prev_rank": 7,
+   "proj_pf": 24.4,
+   "proj_pa": 19.6,
+   "qb_starts": [
+    [
+     "Jordan Love",
+     9
+    ]
+   ]
+  },
+  {
+   "team": "NE",
+   "name": "New England",
+   "games": 9,
+   "record": "5-4",
+   "off_ypp": 5.969,
+   "def_ypp": 5.517,
+   "raw": 0.453,
+   "O": 0.832,
+   "D": -0.059,
+   "adj": 0.774,
+   "sos_off": 0.189,
+   "sos_def": 0.128,
+   "to_pg": -1.222,
+   "margin_pg": 0.444,
+   "opps": [
+    "SEA",
+    "PIT",
+    "JAX",
+    "BUF",
+    "LV",
+    "NYJ",
+    "CHI",
+    "MIA",
+    "GB"
+   ],
+   "sos": 0.317,
+   "rank": 6,
+   "off_rank": 3,
+   "def_rank": 18,
+   "sos_rank": 6,
+   "sos_off_rank": 7,
+   "sos_def_rank": 8,
+   "prev_rank": 5,
+   "proj_pf": 28.0,
+   "proj_pa": 23.4,
+   "qb_starts": [
+    [
+     "Drake Maye",
+     9
+    ]
+   ]
+  },
+  {
+   "team": "LA",
+   "name": "LA Rams",
+   "games": 9,
+   "record": "5-4",
+   "off_ypp": 5.659,
+   "def_ypp": 4.993,
+   "raw": 0.666,
+   "O": 0.38,
+   "D": 0.243,
+   "adj": 0.622,
+   "sos_off": 0.047,
+   "sos_def": -0.095,
+   "to_pg": -0.444,
+   "margin_pg": 3.667,
+   "opps": [
+    "SF",
+    "NYG",
+    "DEN",
+    "PHI",
+    "BUF",
+    "ARI",
+    "LV",
+    "LAC",
+    "WAS"
+   ],
+   "sos": -0.048,
+   "rank": 7,
+   "off_rank": 9,
+   "def_rank": 8,
+   "sos_rank": 17,
+   "sos_off_rank": 13,
+   "sos_def_rank": 20,
+   "prev_rank": 6,
+   "proj_pf": 25.3,
+   "proj_pa": 21.5,
+   "qb_starts": [
+    [
+     "Matthew Stafford",
+     9
+    ]
+   ]
+  },
+  {
+   "team": "DET",
+   "name": "Detroit",
+   "games": 8,
+   "record": "6-2",
+   "off_ypp": 5.809,
+   "def_ypp": 5.42,
+   "raw": 0.389,
+   "O": 0.653,
+   "D": -0.172,
+   "adj": 0.482,
+   "sos_off": 0.172,
+   "sos_def": -0.082,
+   "to_pg": 0.375,
+   "margin_pg": 4.125,
+   "opps": [
+    "NO",
+    "BUF",
+    "NYJ",
+    "CAR",
+    "ARI",
+    "GB",
+    "MIN",
+    "MIA"
+   ],
+   "sos": 0.09,
+   "rank": 8,
+   "off_rank": 6,
+   "def_rank": 22,
+   "sos_rank": 13,
+   "sos_off_rank": 8,
+   "sos_def_rank": 19,
+   "prev_rank": 9,
+   "proj_pf": 26.9,
+   "proj_pa": 24.0,
+   "qb_starts": [
+    [
+     "Jared Goff",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "NYJ",
+   "name": "NY Jets",
+   "games": 9,
+   "record": "2-7",
+   "off_ypp": 5.262,
+   "def_ypp": 5.108,
+   "raw": 0.154,
+   "O": -0.217,
+   "D": 0.489,
+   "adj": 0.272,
+   "sos_off": -0.152,
+   "sos_def": 0.266,
+   "to_pg": 0.333,
+   "margin_pg": -4.556,
+   "opps": [
+    "TEN",
+    "GB",
+    "DET",
+    "CHI",
+    "CLE",
+    "NE",
+    "MIA",
+    "LV",
+    "KC"
+   ],
+   "sos": 0.114,
+   "rank": 9,
+   "off_rank": 19,
+   "def_rank": 6,
+   "sos_rank": 11,
+   "sos_off_rank": 27,
+   "sos_def_rank": 5,
+   "prev_rank": 10,
+   "proj_pf": 21.7,
+   "proj_pa": 20.1,
+   "qb_starts": [
+    [
+     "Geno Smith",
+     9
+    ]
+   ]
+  },
+  {
+   "team": "DEN",
+   "name": "Denver",
+   "games": 9,
+   "record": "7-2",
+   "off_ypp": 4.791,
+   "def_ypp": 5.17,
+   "raw": -0.379,
+   "O": -0.33,
+   "D": 0.588,
+   "adj": 0.258,
+   "sos_off": 0.205,
+   "sos_def": 0.428,
+   "to_pg": 0.556,
+   "margin_pg": 1.333,
+   "opps": [
+    "KC",
+    "JAX",
+    "LA",
+    "SF",
+    "LAC",
+    "SEA",
+    "ARI",
+    "KC",
+    "CAR"
+   ],
+   "sos": 0.633,
+   "rank": 10,
+   "off_rank": 22,
+   "def_rank": 3,
+   "sos_rank": 1,
+   "sos_off_rank": 6,
+   "sos_def_rank": 2,
+   "prev_rank": 8,
+   "proj_pf": 21.0,
+   "proj_pa": 19.5,
+   "qb_starts": [
+    [
+     "Bo Nix",
+     9
+    ]
+   ]
+  },
+  {
+   "team": "ATL",
+   "name": "Atlanta",
+   "games": 9,
+   "record": "3-6",
+   "off_ypp": 5.479,
+   "def_ypp": 5.381,
+   "raw": 0.098,
+   "O": 0.119,
+   "D": 0.111,
+   "adj": 0.23,
+   "sos_off": -0.034,
+   "sos_def": 0.162,
+   "to_pg": -0.778,
+   "margin_pg": -3.889,
+   "opps": [
+    "PIT",
+    "CAR",
+    "GB",
+    "NO",
+    "BAL",
+    "CHI",
+    "SF",
+    "TB",
+    "CIN"
+   ],
+   "sos": 0.128,
+   "rank": 11,
+   "off_rank": 14,
+   "def_rank": 13,
+   "sos_rank": 10,
+   "sos_off_rank": 17,
+   "sos_def_rank": 7,
+   "prev_rank": 11,
+   "proj_pf": 23.7,
+   "proj_pa": 22.3,
+   "qb_starts": [
+    [
+     "Michael Penix Jr.",
+     7
+    ],
+    [
+     "Cooper Rush",
+     1
+    ],
+    [
+     "Tua Tagovailoa",
+     1
+    ]
+   ]
+  },
+  {
+   "team": "CIN",
+   "name": "Cincinnati",
+   "games": 8,
+   "record": "6-2",
+   "off_ypp": 6.084,
+   "def_ypp": 5.712,
+   "raw": 0.372,
+   "O": 0.738,
+   "D": -0.541,
+   "adj": 0.197,
+   "sos_off": -0.019,
+   "sos_def": -0.159,
+   "to_pg": 0.25,
+   "margin_pg": 8.125,
+   "opps": [
+    "TB",
+    "HOU",
+    "PIT",
+    "JAX",
+    "MIA",
+    "BAL",
+    "TEN",
+    "ATL"
+   ],
+   "sos": -0.177,
+   "rank": 12,
+   "off_rank": 4,
+   "def_rank": 28,
+   "sos_rank": 22,
+   "sos_off_rank": 16,
+   "sos_def_rank": 23,
+   "prev_rank": 15,
+   "proj_pf": 27.4,
+   "proj_pa": 26.3,
+   "qb_starts": [
+    [
+     "Joe Burrow",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "JAX",
+   "name": "Jacksonville",
+   "games": 8,
+   "record": "6-2",
+   "off_ypp": 5.896,
+   "def_ypp": 5.406,
+   "raw": 0.49,
+   "O": 0.454,
+   "D": -0.281,
+   "adj": 0.173,
+   "sos_off": -0.113,
+   "sos_def": -0.207,
+   "to_pg": 1.125,
+   "margin_pg": 13.5,
+   "opps": [
+    "CLE",
+    "DEN",
+    "NE",
+    "CIN",
+    "PHI",
+    "HOU",
+    "IND",
+    "BAL"
+   ],
+   "sos": -0.32,
+   "rank": 13,
+   "off_rank": 8,
+   "def_rank": 25,
+   "sos_rank": 27,
+   "sos_off_rank": 23,
+   "sos_def_rank": 26,
+   "prev_rank": 13,
+   "proj_pf": 25.7,
+   "proj_pa": 24.7,
+   "qb_starts": [
+    [
+     "Trevor Lawrence",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "CAR",
+   "name": "Carolina",
+   "games": 8,
+   "record": "3-5",
+   "off_ypp": 5.491,
+   "def_ypp": 5.296,
+   "raw": 0.195,
+   "O": 0.236,
+   "D": -0.098,
+   "adj": 0.139,
+   "sos_off": 0.074,
+   "sos_def": -0.133,
+   "to_pg": -0.125,
+   "margin_pg": -2.5,
+   "opps": [
+    "CHI",
+    "ATL",
+    "CLE",
+    "DET",
+    "PHI",
+    "TB",
+    "GB",
+    "DEN"
+   ],
+   "sos": -0.059,
+   "rank": 14,
+   "off_rank": 10,
+   "def_rank": 19,
+   "sos_rank": 18,
+   "sos_off_rank": 12,
+   "sos_def_rank": 22,
+   "prev_rank": 15,
+   "proj_pf": 24.4,
+   "proj_pa": 23.6,
+   "qb_starts": [
+    [
+     "Bryce Young",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "HOU",
+   "name": "Houston",
+   "games": 8,
+   "record": "3-5",
+   "off_ypp": 5.75,
+   "def_ypp": 5.27,
+   "raw": 0.48,
+   "O": 0.031,
+   "D": 0.012,
+   "adj": 0.043,
+   "sos_off": -0.391,
+   "sos_def": -0.048,
+   "to_pg": 0.5,
+   "margin_pg": 2.125,
+   "opps": [
+    "BUF",
+    "CIN",
+    "IND",
+    "DAL",
+    "TEN",
+    "JAX",
+    "NYG",
+    "LAC"
+   ],
+   "sos": -0.439,
+   "rank": 15,
+   "off_rank": 15,
+   "def_rank": 16,
+   "sos_rank": 30,
+   "sos_off_rank": 31,
+   "sos_def_rank": 18,
+   "prev_rank": 23,
+   "proj_pf": 23.2,
+   "proj_pa": 22.9,
+   "qb_starts": [
+    [
+     "C.J. Stroud",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "MIA",
+   "name": "Miami",
+   "games": 8,
+   "record": "1-7",
+   "off_ypp": 5.04,
+   "def_ypp": 5.563,
+   "raw": -0.523,
+   "O": -0.197,
+   "D": 0.236,
+   "adj": 0.039,
+   "sos_off": 0.091,
+   "sos_def": 0.469,
+   "to_pg": -0.375,
+   "margin_pg": -9.25,
+   "opps": [
+    "LV",
+    "SF",
+    "KC",
+    "MIN",
+    "CIN",
+    "NYJ",
+    "NE",
+    "DET"
+   ],
+   "sos": 0.559,
+   "rank": 15,
+   "off_rank": 18,
+   "def_rank": 8,
+   "sos_rank": 2,
+   "sos_off_rank": 10,
+   "sos_def_rank": 1,
+   "prev_rank": 12,
+   "proj_pf": 21.8,
+   "proj_pa": 21.6,
+   "qb_starts": [
+    [
+     "Malik Willis",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "MIN",
+   "name": "Minnesota",
+   "games": 8,
+   "record": "6-2",
+   "off_ypp": 4.649,
+   "def_ypp": 4.6,
+   "raw": 0.05,
+   "O": -0.795,
+   "D": 0.742,
+   "adj": -0.053,
+   "sos_off": -0.116,
+   "sos_def": 0.011,
+   "to_pg": 0.625,
+   "margin_pg": 3.75,
+   "opps": [
+    "GB",
+    "CHI",
+    "TB",
+    "MIA",
+    "NO",
+    "IND",
+    "DET",
+    "BUF"
+   ],
+   "sos": -0.105,
+   "rank": 17,
+   "off_rank": 30,
+   "def_rank": 2,
+   "sos_rank": 19,
+   "sos_off_rank": 25,
+   "sos_def_rank": 14,
+   "prev_rank": 20,
+   "proj_pf": 18.2,
+   "proj_pa": 18.5,
+   "qb_starts": [
+    [
+     "Kyler Murray",
+     6
+    ],
+    [
+     "Carson Wentz",
+     2
+    ]
+   ]
+  },
+  {
+   "team": "PIT",
+   "name": "Pittsburgh",
+   "games": 8,
+   "record": "6-2",
+   "off_ypp": 5.192,
+   "def_ypp": 4.98,
+   "raw": 0.212,
+   "O": -0.342,
+   "D": 0.243,
+   "adj": -0.099,
+   "sos_off": -0.205,
+   "sos_def": -0.108,
+   "to_pg": 0.625,
+   "margin_pg": 4.5,
+   "opps": [
+    "ATL",
+    "NE",
+    "CIN",
+    "CLE",
+    "IND",
+    "TB",
+    "NO",
+    "CLE"
+   ],
+   "sos": -0.314,
+   "rank": 18,
+   "off_rank": 23,
+   "def_rank": 8,
+   "sos_rank": 26,
+   "sos_off_rank": 28,
+   "sos_def_rank": 21,
+   "prev_rank": 17,
+   "proj_pf": 20.9,
+   "proj_pa": 21.5,
+   "qb_starts": [
+    [
+     "Aaron Rodgers",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "TB",
+   "name": "Tampa Bay",
+   "games": 9,
+   "record": "3-6",
+   "off_ypp": 4.906,
+   "def_ypp": 5.021,
+   "raw": -0.115,
+   "O": -0.502,
+   "D": 0.368,
+   "adj": -0.134,
+   "sos_off": -0.081,
+   "sos_def": 0.059,
+   "to_pg": 0.778,
+   "margin_pg": 2.667,
+   "opps": [
+    "CIN",
+    "CLE",
+    "MIN",
+    "GB",
+    "DAL",
+    "PIT",
+    "CAR",
+    "ATL",
+    "CHI"
+   ],
+   "sos": -0.022,
+   "rank": 19,
+   "off_rank": 27,
+   "def_rank": 7,
+   "sos_rank": 15,
+   "sos_off_rank": 22,
+   "sos_def_rank": 13,
+   "prev_rank": 19,
+   "proj_pf": 20.0,
+   "proj_pa": 20.8,
+   "qb_starts": [
+    [
+     "Baker Mayfield",
+     6
+    ],
+    [
+     "Jalon Daniels",
+     3
+    ]
+   ]
+  },
+  {
+   "team": "WAS",
+   "name": "Washington",
+   "games": 8,
+   "record": "2-5-1",
+   "off_ypp": 5.246,
+   "def_ypp": 5.245,
+   "raw": 0.001,
+   "O": 0.004,
+   "D": -0.24,
+   "adj": -0.236,
+   "sos_off": 0.086,
+   "sos_def": -0.326,
+   "to_pg": 0.875,
+   "margin_pg": -3.75,
+   "opps": [
+    "PHI",
+    "DAL",
+    "SEA",
+    "IND",
+    "NYG",
+    "SF",
+    "PHI",
+    "LA"
+   ],
+   "sos": -0.239,
+   "rank": 20,
+   "off_rank": 16,
+   "def_rank": 24,
+   "sos_rank": 23,
+   "sos_off_rank": 10,
+   "sos_def_rank": 30,
+   "prev_rank": 26,
+   "proj_pf": 23.0,
+   "proj_pa": 24.4,
+   "qb_starts": [
+    [
+     "Jayden Daniels",
+     7
+    ],
+    [
+     "Marcus Mariota",
+     1
+    ]
+   ]
+  },
+  {
+   "team": "LV",
+   "name": "Las Vegas",
+   "games": 9,
+   "record": "4-5",
+   "off_ypp": 5.348,
+   "def_ypp": 6.086,
+   "raw": -0.738,
+   "O": 0.148,
+   "D": -0.407,
+   "adj": -0.259,
+   "sos_off": 0.126,
+   "sos_def": 0.35,
+   "to_pg": 0.111,
+   "margin_pg": -3.333,
+   "opps": [
+    "MIA",
+    "LAC",
+    "NO",
+    "KC",
+    "NE",
+    "BUF",
+    "LA",
+    "NYJ",
+    "SF"
+   ],
+   "sos": 0.475,
+   "rank": 21,
+   "off_rank": 13,
+   "def_rank": 26,
+   "sos_rank": 3,
+   "sos_off_rank": 9,
+   "sos_def_rank": 3,
+   "prev_rank": 20,
+   "proj_pf": 23.9,
+   "proj_pa": 25.4,
+   "qb_starts": [
+    [
+     "Kirk Cousins",
+     9
+    ]
+   ]
+  },
+  {
+   "team": "BAL",
+   "name": "Baltimore",
+   "games": 9,
+   "record": "4-5",
+   "off_ypp": 5.488,
+   "def_ypp": 5.365,
+   "raw": 0.123,
+   "O": -0.24,
+   "D": -0.04,
+   "adj": -0.28,
+   "sos_off": -0.401,
+   "sos_def": -0.005,
+   "to_pg": -0.222,
+   "margin_pg": -5.222,
+   "opps": [
+    "IND",
+    "NO",
+    "DAL",
+    "TEN",
+    "ATL",
+    "CLE",
+    "CIN",
+    "BUF",
+    "JAX"
+   ],
+   "sos": -0.406,
+   "rank": 22,
+   "off_rank": 20,
+   "def_rank": 17,
+   "sos_rank": 28,
+   "sos_off_rank": 32,
+   "sos_def_rank": 15,
+   "prev_rank": 18,
+   "proj_pf": 21.6,
+   "proj_pa": 23.2,
+   "qb_starts": [
+    [
+     "Lamar Jackson",
+     5
+    ],
+    [
+     "Tyler Huntley",
+     3
+    ],
+    [
+     "Joe Fagnano",
+     1
+    ]
+   ]
+  },
+  {
+   "team": "CHI",
+   "name": "Chicago",
+   "games": 9,
+   "record": "7-2",
+   "off_ypp": 5.428,
+   "def_ypp": 5.941,
+   "raw": -0.512,
+   "O": 0.502,
+   "D": -0.788,
+   "adj": -0.286,
+   "sos_off": 0.401,
+   "sos_def": -0.178,
+   "to_pg": -0.444,
+   "margin_pg": 6.333,
+   "opps": [
+    "CAR",
+    "MIN",
+    "PHI",
+    "NYJ",
+    "GB",
+    "ATL",
+    "NE",
+    "SEA",
+    "TB"
+   ],
+   "sos": 0.223,
+   "rank": 23,
+   "off_rank": 7,
+   "def_rank": 29,
+   "sos_rank": 8,
+   "sos_off_rank": 1,
+   "sos_def_rank": 25,
+   "prev_rank": 22,
+   "proj_pf": 26.0,
+   "proj_pa": 27.7,
+   "qb_starts": [
+    [
+     "Caleb Williams",
+     6
+    ],
+    [
+     "Case Keenum",
+     2
+    ],
+    [
+     "Tyson Bagent",
+     1
+    ]
+   ]
+  },
+  {
+   "team": "ARI",
+   "name": "Arizona",
+   "games": 9,
+   "record": "3-6",
+   "off_ypp": 4.707,
+   "def_ypp": 5.633,
+   "raw": -0.925,
+   "O": -0.263,
+   "D": -0.205,
+   "adj": -0.469,
+   "sos_off": 0.356,
+   "sos_def": 0.097,
+   "to_pg": 0.0,
+   "margin_pg": -8.556,
+   "opps": [
+    "LAC",
+    "SEA",
+    "SF",
+    "NYG",
+    "DET",
+    "LA",
+    "DEN",
+    "DAL",
+    "SEA"
+   ],
+   "sos": 0.453,
+   "rank": 24,
+   "off_rank": 21,
+   "def_rank": 23,
+   "sos_rank": 5,
+   "sos_off_rank": 2,
+   "sos_def_rank": 10,
+   "prev_rank": 25,
+   "proj_pf": 21.4,
+   "proj_pa": 24.2,
+   "qb_starts": [
+    [
+     "Jacoby Brissett",
+     8
+    ],
+    [
+     "Gardner Minshew",
+     1
+    ]
+   ]
+  },
+  {
+   "team": "CLE",
+   "name": "Cleveland",
+   "games": 9,
+   "record": "5-4",
+   "off_ypp": 5.0,
+   "def_ypp": 5.217,
+   "raw": -0.217,
+   "O": -0.371,
+   "D": -0.1,
+   "adj": -0.471,
+   "sos_off": -0.045,
+   "sos_def": -0.212,
+   "to_pg": 0.111,
+   "margin_pg": -3.889,
+   "opps": [
+    "JAX",
+    "TB",
+    "CAR",
+    "PIT",
+    "NYJ",
+    "BAL",
+    "TEN",
+    "PIT",
+    "NO"
+   ],
+   "sos": -0.258,
+   "rank": 24,
+   "off_rank": 24,
+   "def_rank": 19,
+   "sos_rank": 24,
+   "sos_off_rank": 21,
+   "sos_def_rank": 26,
+   "prev_rank": 24,
+   "proj_pf": 20.8,
+   "proj_pa": 23.6,
+   "qb_starts": [
+    [
+     "Deshaun Watson",
+     8
+    ],
+    [
+     "Shedeur Sanders",
+     1
+    ]
+   ]
+  },
+  {
+   "team": "LAC",
+   "name": "LA Chargers",
+   "games": 8,
+   "record": "0-8",
+   "off_ypp": 4.685,
+   "def_ypp": 5.65,
+   "raw": -0.965,
+   "O": -0.389,
+   "D": -0.104,
+   "adj": -0.493,
+   "sos_off": 0.254,
+   "sos_def": 0.215,
+   "to_pg": -0.875,
+   "margin_pg": -12.25,
+   "opps": [
+    "ARI",
+    "LV",
+    "BUF",
+    "SEA",
+    "DEN",
+    "KC",
+    "LA",
+    "HOU"
+   ],
+   "sos": 0.47,
+   "rank": 26,
+   "off_rank": 26,
+   "def_rank": 19,
+   "sos_rank": 4,
+   "sos_off_rank": 4,
+   "sos_def_rank": 6,
+   "prev_rank": 13,
+   "proj_pf": 20.7,
+   "proj_pa": 23.6,
+   "qb_starts": [
+    [
+     "Justin Herbert",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "NYG",
+   "name": "NY Giants",
+   "games": 8,
+   "record": "5-2-1",
+   "off_ypp": 5.057,
+   "def_ypp": 5.023,
+   "raw": 0.034,
+   "O": -0.566,
+   "D": 0.061,
+   "adj": -0.505,
+   "sos_off": -0.295,
+   "sos_def": -0.246,
+   "to_pg": -0.25,
+   "margin_pg": 1.25,
+   "opps": [
+    "DAL",
+    "LA",
+    "TEN",
+    "ARI",
+    "WAS",
+    "NO",
+    "HOU",
+    "PHI"
+   ],
+   "sos": -0.541,
+   "rank": 27,
+   "off_rank": 28,
+   "def_rank": 14,
+   "sos_rank": 32,
+   "sos_off_rank": 29,
+   "sos_def_rank": 28,
+   "prev_rank": 27,
+   "proj_pf": 19.6,
+   "proj_pa": 22.6,
+   "qb_starts": [
+    [
+     "Jameis Winston",
+     4
+    ],
+    [
+     "Jaxson Dart",
+     2
+    ],
+    [
+     "J.J. McCarthy",
+     2
+    ]
+   ]
+  },
+  {
+   "team": "DAL",
+   "name": "Dallas",
+   "games": 9,
+   "record": "4-5",
+   "off_ypp": 5.564,
+   "def_ypp": 5.793,
+   "raw": -0.228,
+   "O": 0.21,
+   "D": -0.864,
+   "adj": -0.654,
+   "sos_off": -0.027,
+   "sos_def": -0.402,
+   "to_pg": -0.111,
+   "margin_pg": 1.111,
+   "opps": [
+    "NYG",
+    "WAS",
+    "BAL",
+    "HOU",
+    "TB",
+    "GB",
+    "PHI",
+    "ARI",
+    "IND"
+   ],
+   "sos": -0.429,
+   "rank": 28,
+   "off_rank": 12,
+   "def_rank": 32,
+   "sos_rank": 29,
+   "sos_off_rank": 17,
+   "sos_def_rank": 32,
+   "prev_rank": 28,
+   "proj_pf": 24.3,
+   "proj_pa": 28.2,
+   "qb_starts": [
+    [
+     "Dak Prescott",
+     9
+    ]
+   ]
+  },
+  {
+   "team": "NO",
+   "name": "New Orleans",
+   "games": 8,
+   "record": "3-5",
+   "off_ypp": 4.908,
+   "def_ypp": 5.689,
+   "raw": -0.781,
+   "O": -0.365,
+   "D": -0.533,
+   "adj": -0.898,
+   "sos_off": 0.055,
+   "sos_def": -0.174,
+   "to_pg": -0.75,
+   "margin_pg": -3.875,
+   "opps": [
+    "DET",
+    "BAL",
+    "LV",
+    "ATL",
+    "MIN",
+    "NYG",
+    "PIT",
+    "CLE"
+   ],
+   "sos": -0.119,
+   "rank": 29,
+   "off_rank": 24,
+   "def_rank": 27,
+   "sos_rank": 20,
+   "sos_off_rank": 13,
+   "sos_def_rank": 24,
+   "prev_rank": 29,
+   "proj_pf": 20.8,
+   "proj_pa": 26.2,
+   "qb_starts": [
+    [
+     "Tyler Shough",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "PHI",
+   "name": "Philadelphia",
+   "games": 9,
+   "record": "2-7",
+   "off_ypp": 4.289,
+   "def_ypp": 5.373,
+   "raw": -1.084,
+   "O": -1.37,
+   "D": 0.026,
+   "adj": -1.344,
+   "sos_off": -0.334,
+   "sos_def": 0.07,
+   "to_pg": -0.444,
+   "margin_pg": -8.111,
+   "opps": [
+    "WAS",
+    "TEN",
+    "CHI",
+    "LA",
+    "JAX",
+    "CAR",
+    "DAL",
+    "WAS",
+    "NYG"
+   ],
+   "sos": -0.264,
+   "rank": 30,
+   "off_rank": 32,
+   "def_rank": 15,
+   "sos_rank": 24,
+   "sos_off_rank": 30,
+   "sos_def_rank": 12,
+   "prev_rank": 31,
+   "proj_pf": 14.8,
+   "proj_pa": 22.8,
+   "qb_starts": [
+    [
+     "Jalen Hurts",
+     6
+    ],
+    [
+     "Tanner McKee",
+     2
+    ],
+    [
+     "Joe Milton III",
+     1
+    ]
+   ]
+  },
+  {
+   "team": "TEN",
+   "name": "Tennessee",
+   "games": 8,
+   "record": "1-7",
+   "off_ypp": 4.844,
+   "def_ypp": 5.761,
+   "raw": -0.916,
+   "O": -0.594,
+   "D": -0.798,
+   "adj": -1.392,
+   "sos_off": -0.11,
+   "sos_def": -0.368,
+   "to_pg": -0.125,
+   "margin_pg": -6.875,
+   "opps": [
+    "NYJ",
+    "PHI",
+    "NYG",
+    "BAL",
+    "HOU",
+    "IND",
+    "CLE",
+    "CIN"
+   ],
+   "sos": -0.478,
+   "rank": 31,
+   "off_rank": 29,
+   "def_rank": 31,
+   "sos_rank": 31,
+   "sos_off_rank": 23,
+   "sos_def_rank": 31,
+   "prev_rank": 30,
+   "proj_pf": 19.4,
+   "proj_pa": 27.8,
+   "qb_starts": [
+    [
+     "Cam Ward",
+     8
+    ]
+   ]
+  },
+  {
+   "team": "IND",
+   "name": "Indianapolis",
+   "games": 9,
+   "record": "2-7",
+   "off_ypp": 4.498,
+   "def_ypp": 6.109,
+   "raw": -1.611,
+   "O": -0.947,
+   "D": -0.789,
+   "adj": -1.735,
+   "sos_off": -0.119,
+   "sos_def": -0.009,
+   "to_pg": -1.222,
+   "margin_pg": -7.222,
+   "opps": [
+    "BAL",
+    "KC",
+    "HOU",
+    "WAS",
+    "PIT",
+    "TEN",
+    "MIN",
+    "JAX",
+    "DAL"
+   ],
+   "sos": -0.128,
+   "rank": 32,
+   "off_rank": 31,
+   "def_rank": 29,
+   "sos_rank": 21,
+   "sos_off_rank": 25,
+   "sos_def_rank": 16,
+   "prev_rank": 32,
+   "proj_pf": 17.3,
+   "proj_pa": 27.7,
+   "qb_starts": [
+    [
+     "Daniel Jones",
+     9
+    ]
+   ]
+  }
+ ],
+ "picks": [],
+ "record": {
+  "spreads": {
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pct": null,
+   "picks": 0,
+   "avg_clv": null,
+   "beat_close": null
+  },
+  "totals": {
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pct": null,
+   "picks": 0,
+   "avg_clv": null,
+   "beat_close": null
+  },
+  "agrees": {
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pct": null,
+   "picks": 0,
+   "avg_clv": null,
+   "beat_close": null
+  },
+  "against": {
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pct": null,
+   "picks": 0,
+   "avg_clv": null,
+   "beat_close": null
+  }
+ },
+ "backtest": {
+  "summary": {
+   "weeks": [
+    4,
+    9
+   ],
+   "all_ats": {
+    "w": 43,
+    "l": 41,
+    "p": 3,
+    "pct": 0.512
+   },
+   "edge_ats": {
+    "w": 25,
+    "l": 23,
+    "p": 2,
+    "pct": 0.521
+   },
+   "edge_ats_clean": {
+    "w": 17,
+    "l": 14,
+    "p": 2,
+    "pct": 0.548
+   },
+   "edge_ats_flagged": {
+    "w": 8,
+    "l": 9,
+    "p": 0,
+    "pct": 0.471
+   },
+   "su": {
+    "w": 52,
+    "l": 34,
+    "p": 0,
+    "pct": 0.605
+   },
+   "all_ou": {
+    "w": 43,
+    "l": 44,
+    "p": 0,
+    "pct": 0.494
+   },
+   "edge_ou": {
+    "w": 21,
+    "l": 19,
+    "p": 0,
+    "pct": 0.525
+   },
+   "edge_ou_clean": {
+    "w": 17,
+    "l": 13,
+    "p": 0,
+    "pct": 0.567
+   },
+   "by_week": [
+    {
+     "week": 4,
+     "ats": {
+      "w": 5,
+      "l": 1,
+      "p": 1,
+      "pct": 0.833
+     },
+     "ou": {
+      "w": 3,
+      "l": 5,
+      "p": 0,
+      "pct": 0.375
+     },
+     "all": {
+      "w": 8,
+      "l": 6,
+      "p": 2,
+      "pct": 0.571
+     }
+    },
+    {
+     "week": 5,
+     "ats": {
+      "w": 3,
+      "l": 3,
+      "p": 1,
+      "pct": 0.5
+     },
+     "ou": {
+      "w": 4,
+      "l": 3,
+      "p": 0,
+      "pct": 0.571
+     },
+     "all": {
+      "w": 9,
+      "l": 5,
+      "p": 1,
+      "pct": 0.643
+     }
+    },
+    {
+     "week": 6,
+     "ats": {
+      "w": 2,
+      "l": 4,
+      "p": 0,
+      "pct": 0.333
+     },
+     "ou": {
+      "w": 3,
+      "l": 3,
+      "p": 0,
+      "pct": 0.5
+     },
+     "all": {
+      "w": 5,
+      "l": 9,
+      "p": 0,
+      "pct": 0.357
+     }
+    },
+    {
+     "week": 7,
+     "ats": {
+      "w": 2,
+      "l": 2,
+      "p": 0,
+      "pct": 0.5
+     },
+     "ou": {
+      "w": 2,
+      "l": 1,
+      "p": 0,
+      "pct": 0.667
+     },
+     "all": {
+      "w": 7,
+      "l": 7,
+      "p": 0,
+      "pct": 0.5
+     }
+    },
+    {
+     "week": 8,
+     "ats": {
+      "w": 3,
+      "l": 1,
+      "p": 0,
+      "pct": 0.75
+     },
+     "ou": {
+      "w": 5,
+      "l": 1,
+      "p": 0,
+      "pct": 0.833
+     },
+     "all": {
+      "w": 6,
+      "l": 7,
+      "p": 0,
+      "pct": 0.462
+     }
+    },
+    {
+     "week": 9,
+     "ats": {
+      "w": 2,
+      "l": 3,
+      "p": 0,
+      "pct": 0.4
+     },
+     "ou": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "pct": null
+     },
+     "all": {
+      "w": 8,
+      "l": 7,
+      "p": 0,
+      "pct": 0.533
+     }
+    }
+   ]
+  },
+  "games": [
+   {
+    "week": 4,
+    "away": "PIT",
+    "home": "CLE",
+    "model": 0.1,
+    "line": 2.5,
+    "edge": -2.4,
+    "final": [
+     24,
+     27
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "L",
+    "model_total": 37.9,
+    "total_line": 38.5,
+    "total_edge": -0.6,
+    "ou": "L"
+   },
+   {
+    "week": 4,
+    "away": "IND",
+    "home": "WAS",
+    "model": 3.1,
+    "line": 4.5,
+    "edge": -1.4,
+    "final": [
+     30,
+     13
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "W",
+    "model_total": 52.9,
+    "total_line": 46.5,
+    "total_edge": 6.4,
+    "ou": "L"
+   },
+   {
+    "week": 4,
+    "away": "TEN",
+    "home": "BAL",
+    "model": -13.1,
+    "line": -11.5,
+    "edge": -1.6,
+    "final": [
+     18,
+     24
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 56.8,
+    "total_line": 42.5,
+    "total_edge": 14.3,
+    "ou": "L"
+   },
+   {
+    "week": 4,
+    "away": "NE",
+    "home": "BUF",
+    "model": -3.8,
+    "line": -7.0,
+    "edge": 3.2,
+    "final": [
+     29,
+     26
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "L",
+    "model_total": 46.7,
+    "total_line": 49.5,
+    "total_edge": -2.8,
+    "ou": "L"
+   },
+   {
+    "week": 4,
+    "away": "NYJ",
+    "home": "CHI",
+    "model": 5.6,
+    "line": -3.5,
+    "edge": 9.1,
+    "final": [
+     12,
+     23
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "L",
+    "model_total": 48.3,
+    "total_line": 43.5,
+    "total_edge": 4.8,
+    "ou": "L"
+   },
+   {
+    "week": 4,
+    "away": "JAX",
+    "home": "CIN",
+    "model": 6.0,
+    "line": -2.5,
+    "edge": 8.5,
+    "final": [
+     22,
+     17
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 62.0,
+    "total_line": 51.5,
+    "total_edge": 10.5,
+    "ou": "L"
+   },
+   {
+    "week": 4,
+    "away": "DAL",
+    "home": "HOU",
+    "model": -0.3,
+    "line": -3.0,
+    "edge": 2.7,
+    "final": [
+     34,
+     30
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "L",
+    "model_total": 40.6,
+    "total_line": 48.5,
+    "total_edge": -7.9,
+    "ou": "L"
+   },
+   {
+    "week": 4,
+    "away": "ARI",
+    "home": "NYG",
+    "model": 5.2,
+    "line": 2.5,
+    "edge": 2.7,
+    "final": [
+     24,
+     36
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "L",
+    "model_total": 43.2,
+    "total_line": 44.5,
+    "total_edge": -1.3,
+    "ou": "L"
+   },
+   {
+    "week": 4,
+    "away": "LA",
+    "home": "PHI",
+    "model": 23.9,
+    "line": 3.5,
+    "edge": 20.4,
+    "final": [
+     24,
+     20
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 38.4,
+    "total_line": 42.5,
+    "total_edge": -4.1,
+    "ou": "L"
+   },
+   {
+    "week": 4,
+    "away": "GB",
+    "home": "TB",
+    "model": 5.3,
+    "line": 3.0,
+    "edge": 2.3,
+    "final": [
+     17,
+     14
+    ],
+    "qb_flag": true,
+    "ats": "P",
+    "su": "W",
+    "model_total": 60.2,
+    "total_line": 38.5,
+    "total_edge": 21.7,
+    "ou": "L"
+   },
+   {
+    "week": 4,
+    "away": "MIA",
+    "home": "MIN",
+    "model": 15.5,
+    "line": -10.0,
+    "edge": 25.5,
+    "final": [
+     10,
+     15
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "L",
+    "model_total": 23.7,
+    "total_line": 38.5,
+    "total_edge": -14.8,
+    "ou": "W"
+   },
+   {
+    "week": 4,
+    "away": "KC",
+    "home": "LV",
+    "model": 8.6,
+    "line": 4.5,
+    "edge": 4.1,
+    "final": [
+     30,
+     27
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 52.5,
+    "total_line": 47.5,
+    "total_edge": 5.0,
+    "ou": "W"
+   },
+   {
+    "week": 4,
+    "away": "LAC",
+    "home": "SEA",
+    "model": -11.6,
+    "line": -7.0,
+    "edge": -4.6,
+    "final": [
+     23,
+     30
+    ],
+    "qb_flag": false,
+    "ats": "P",
+    "su": "W",
+    "model_total": 37.0,
+    "total_line": 42.5,
+    "total_edge": -5.5,
+    "ou": "L"
+   },
+   {
+    "week": 4,
+    "away": "DEN",
+    "home": "SF",
+    "model": -19.4,
+    "line": -3.0,
+    "edge": -16.4,
+    "final": [
+     14,
+     24
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 46.2,
+    "total_line": 48.5,
+    "total_edge": -2.3,
+    "ou": "W"
+   },
+   {
+    "week": 4,
+    "away": "DET",
+    "home": "CAR",
+    "model": 2.6,
+    "line": 4.5,
+    "edge": -1.9,
+    "final": [
+     26,
+     32
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "L",
+    "model_total": 59.1,
+    "total_line": 52.5,
+    "total_edge": 6.6,
+    "ou": "W"
+   },
+   {
+    "week": 4,
+    "away": "ATL",
+    "home": "NO",
+    "model": -6.2,
+    "line": -1.5,
+    "edge": -4.7,
+    "final": [
+     45,
+     24
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "L",
+    "model_total": 30.4,
+    "total_line": 47.5,
+    "total_edge": -17.1,
+    "ou": "L"
+   },
+   {
+    "week": 5,
+    "away": "TB",
+    "home": "DAL",
+    "model": 1.8,
+    "line": -9.5,
+    "edge": 11.3,
+    "final": [
+     24,
+     16
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "W",
+    "model_total": 50.0,
+    "total_line": 49.5,
+    "total_edge": 0.5,
+    "ou": "L"
+   },
+   {
+    "week": 5,
+    "away": "PHI",
+    "home": "JAX",
+    "model": -1.2,
+    "line": -7.5,
+    "edge": 6.3,
+    "final": [
+     17,
+     19
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 45.6,
+    "total_line": 41.5,
+    "total_edge": 4.1,
+    "ou": "L"
+   },
+   {
+    "week": 5,
+    "away": "CHI",
+    "home": "GB",
+    "model": -4.0,
+    "line": 1.5,
+    "edge": -5.5,
+    "final": [
+     7,
+     31
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "W",
+    "model_total": 61.8,
+    "total_line": 46.5,
+    "total_edge": 15.3,
+    "ou": "L"
+   },
+   {
+    "week": 5,
+    "away": "CIN",
+    "home": "MIA",
+    "model": -7.3,
+    "line": 7.0,
+    "edge": -14.3,
+    "final": [
+     31,
+     24
+    ],
+    "qb_flag": false,
+    "ats": "P",
+    "su": "L",
+    "model_total": 49.4,
+    "total_line": 44.5,
+    "total_edge": 4.9,
+    "ou": "W"
+   },
+   {
+    "week": 5,
+    "away": "LV",
+    "home": "NE",
+    "model": -5.2,
+    "line": -3.5,
+    "edge": -1.7,
+    "final": [
+     17,
+     45
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 38.8,
+    "total_line": 45.5,
+    "total_edge": -6.7,
+    "ou": "L"
+   },
+   {
+    "week": 5,
+    "away": "MIN",
+    "home": "NO",
+    "model": -2.9,
+    "line": 2.5,
+    "edge": -5.4,
+    "final": [
+     23,
+     13
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "L",
+    "model_total": 33.4,
+    "total_line": 41.5,
+    "total_edge": -8.1,
+    "ou": "W"
+   },
+   {
+    "week": 5,
+    "away": "CLE",
+    "home": "NYJ",
+    "model": -4.4,
+    "line": -2.5,
+    "edge": -1.9,
+    "final": [
+     12,
+     17
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 32.9,
+    "total_line": 38.5,
+    "total_edge": -5.6,
+    "ou": "W"
+   },
+   {
+    "week": 5,
+    "away": "IND",
+    "home": "PIT",
+    "model": -7.7,
+    "line": -3.0,
+    "edge": -4.7,
+    "final": [
+     22,
+     34
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 45.4,
+    "total_line": 41.5,
+    "total_edge": 3.9,
+    "ou": "W"
+   },
+   {
+    "week": 5,
+    "away": "HOU",
+    "home": "TEN",
+    "model": -1.5,
+    "line": 6.5,
+    "edge": -8.0,
+    "final": [
+     26,
+     3
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "L",
+    "model_total": 42.5,
+    "total_line": 37.5,
+    "total_edge": 5.0,
+    "ou": "L"
+   },
+   {
+    "week": 5,
+    "away": "NYG",
+    "home": "WAS",
+    "model": 1.7,
+    "line": -3.5,
+    "edge": 5.2,
+    "final": [
+     27,
+     27
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": null,
+    "model_total": 38.5,
+    "total_line": 41.5,
+    "total_edge": -3.0,
+    "ou": "L"
+   },
+   {
+    "week": 5,
+    "away": "DEN",
+    "home": "LAC",
+    "model": 2.7,
+    "line": 3.5,
+    "edge": -0.8,
+    "final": [
+     23,
+     17
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 33.6,
+    "total_line": 42.5,
+    "total_edge": -8.9,
+    "ou": "W"
+   },
+   {
+    "week": 5,
+    "away": "DET",
+    "home": "ARI",
+    "model": 3.4,
+    "line": 5.5,
+    "edge": -2.1,
+    "final": [
+     45,
+     21
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 52.3,
+    "total_line": 55.5,
+    "total_edge": -3.2,
+    "ou": "L"
+   },
+   {
+    "week": 5,
+    "away": "SF",
+    "home": "SEA",
+    "model": 5.9,
+    "line": -3.0,
+    "edge": 8.9,
+    "final": [
+     32,
+     29
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 49.8,
+    "total_line": 46.5,
+    "total_edge": 3.3,
+    "ou": "W"
+   },
+   {
+    "week": 5,
+    "away": "BAL",
+    "home": "ATL",
+    "model": -3.3,
+    "line": -3.5,
+    "edge": 0.2,
+    "final": [
+     30,
+     23
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "L",
+    "model_total": 48.1,
+    "total_line": 44.5,
+    "total_edge": 3.6,
+    "ou": "W"
+   },
+   {
+    "week": 5,
+    "away": "BUF",
+    "home": "LA",
+    "model": -9.9,
+    "line": -3.5,
+    "edge": -6.4,
+    "final": [
+     37,
+     34
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "L",
+    "model_total": 57.0,
+    "total_line": 55.5,
+    "total_edge": 1.5,
+    "ou": "W"
+   },
+   {
+    "week": 6,
+    "away": "SEA",
+    "home": "DEN",
+    "model": 5.5,
+    "line": 2.5,
+    "edge": 3.0,
+    "final": [
+     14,
+     17
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "L",
+    "model_total": 32.1,
+    "total_line": 40.5,
+    "total_edge": -8.4,
+    "ou": "W"
+   },
+   {
+    "week": 6,
+    "away": "HOU",
+    "home": "JAX",
+    "model": -1.4,
+    "line": -2.5,
+    "edge": 1.1,
+    "final": [
+     34,
+     31
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "L",
+    "model_total": 46.9,
+    "total_line": 42.5,
+    "total_edge": 4.4,
+    "ou": "W"
+   },
+   {
+    "week": 6,
+    "away": "CHI",
+    "home": "ATL",
+    "model": -12.5,
+    "line": 1.5,
+    "edge": -14.0,
+    "final": [
+     31,
+     23
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "L",
+    "model_total": 54.5,
+    "total_line": 51.5,
+    "total_edge": 3.0,
+    "ou": "W"
+   },
+   {
+    "week": 6,
+    "away": "BAL",
+    "home": "CLE",
+    "model": 4.4,
+    "line": 3.0,
+    "edge": 1.4,
+    "final": [
+     10,
+     13
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "L",
+    "model_total": 44.1,
+    "total_line": 39.5,
+    "total_edge": 4.6,
+    "ou": "L"
+   },
+   {
+    "week": 6,
+    "away": "TEN",
+    "home": "IND",
+    "model": 1.1,
+    "line": -6.5,
+    "edge": 7.6,
+    "final": [
+     26,
+     20
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 44.4,
+    "total_line": 43.5,
+    "total_edge": 0.9,
+    "ou": "W"
+   },
+   {
+    "week": 6,
+    "away": "NYJ",
+    "home": "NE",
+    "model": -9.9,
+    "line": -7.5,
+    "edge": -2.4,
+    "final": [
+     19,
+     26
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 35.2,
+    "total_line": 43.5,
+    "total_edge": -8.3,
+    "ou": "L"
+   },
+   {
+    "week": 6,
+    "away": "NO",
+    "home": "NYG",
+    "model": 2.7,
+    "line": 1.5,
+    "edge": 1.2,
+    "final": [
+     34,
+     27
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 39.4,
+    "total_line": 46.5,
+    "total_edge": -7.1,
+    "ou": "L"
+   },
+   {
+    "week": 6,
+    "away": "CAR",
+    "home": "PHI",
+    "model": 6.3,
+    "line": 3.0,
+    "edge": 3.3,
+    "final": [
+     25,
+     14
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "W",
+    "model_total": 42.4,
+    "total_line": 39.5,
+    "total_edge": 2.9,
+    "ou": "L"
+   },
+   {
+    "week": 6,
+    "away": "PIT",
+    "home": "TB",
+    "model": 0.3,
+    "line": 2.5,
+    "edge": -2.2,
+    "final": [
+     26,
+     19
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "W",
+    "model_total": 45.7,
+    "total_line": 38.5,
+    "total_edge": 7.2,
+    "ou": "W"
+   },
+   {
+    "week": 6,
+    "away": "ARI",
+    "home": "LA",
+    "model": -17.2,
+    "line": -12.5,
+    "edge": -4.7,
+    "final": [
+     18,
+     16
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "L",
+    "model_total": 49.6,
+    "total_line": 51.5,
+    "total_edge": -1.9,
+    "ou": "W"
+   },
+   {
+    "week": 6,
+    "away": "LAC",
+    "home": "KC",
+    "model": -7.1,
+    "line": -7.5,
+    "edge": 0.4,
+    "final": [
+     6,
+     22
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 46.0,
+    "total_line": 41.5,
+    "total_edge": 4.5,
+    "ou": "L"
+   },
+   {
+    "week": 6,
+    "away": "BUF",
+    "home": "LV",
+    "model": 12.8,
+    "line": 5.5,
+    "edge": 7.3,
+    "final": [
+     33,
+     30
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 61.7,
+    "total_line": 53.5,
+    "total_edge": 8.2,
+    "ou": "W"
+   },
+   {
+    "week": 6,
+    "away": "DAL",
+    "home": "GB",
+    "model": -12.9,
+    "line": 1.5,
+    "edge": -14.4,
+    "final": [
+     13,
+     23
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 56.2,
+    "total_line": 53.5,
+    "total_edge": 2.7,
+    "ou": "L"
+   },
+   {
+    "week": 6,
+    "away": "WAS",
+    "home": "SF",
+    "model": -22.1,
+    "line": -7.5,
+    "edge": -14.6,
+    "final": [
+     17,
+     23
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 52.1,
+    "total_line": 51.5,
+    "total_edge": 0.6,
+    "ou": "L"
+   },
+   {
+    "week": 7,
+    "away": "NE",
+    "home": "CHI",
+    "model": 9.2,
+    "line": -3.0,
+    "edge": 12.2,
+    "final": [
+     24,
+     30
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "L",
+    "model_total": 55.5,
+    "total_line": 50.5,
+    "total_edge": 5.0,
+    "ou": "W"
+   },
+   {
+    "week": 7,
+    "away": "PIT",
+    "home": "NO",
+    "model": 5.7,
+    "line": 3.0,
+    "edge": 2.7,
+    "final": [
+     16,
+     10
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 44.3,
+    "total_line": 43.5,
+    "total_edge": 0.8,
+    "ou": "L"
+   },
+   {
+    "week": 7,
+    "away": "SF",
+    "home": "ATL",
+    "model": 7.5,
+    "line": 2.5,
+    "edge": 5.0,
+    "final": [
+     20,
+     29
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "L",
+    "model_total": 50.8,
+    "total_line": 49.5,
+    "total_edge": 1.3,
+    "ou": "L"
+   },
+   {
+    "week": 7,
+    "away": "CIN",
+    "home": "BAL",
+    "model": -4.2,
+    "line": 3.0,
+    "edge": -7.2,
+    "final": [
+     35,
+     13
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "L",
+    "model_total": 52.8,
+    "total_line": 46.5,
+    "total_edge": 6.3,
+    "ou": "W"
+   },
+   {
+    "week": 7,
+    "away": "TB",
+    "home": "CAR",
+    "model": -6.2,
+    "line": -3.0,
+    "edge": -3.2,
+    "final": [
+     43,
+     13
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "L",
+    "model_total": 47.5,
+    "total_line": 44.5,
+    "total_edge": 3.0,
+    "ou": "W"
+   },
+   {
+    "week": 7,
+    "away": "NYG",
+    "home": "HOU",
+    "model": -7.7,
+    "line": -10.0,
+    "edge": 2.3,
+    "final": [
+     27,
+     21
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "L",
+    "model_total": 41.2,
+    "total_line": 42.5,
+    "total_edge": -1.3,
+    "ou": "L"
+   },
+   {
+    "week": 7,
+    "away": "IND",
+    "home": "MIN",
+    "model": -6.9,
+    "line": -6.5,
+    "edge": -0.4,
+    "final": [
+     10,
+     16
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 37.1,
+    "total_line": 41.5,
+    "total_edge": -4.4,
+    "ou": "W"
+   },
+   {
+    "week": 7,
+    "away": "MIA",
+    "home": "NYJ",
+    "model": -0.0,
+    "line": -3.5,
+    "edge": 3.5,
+    "final": [
+     28,
+     25
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": null,
+    "model_total": 38.5,
+    "total_line": 39.5,
+    "total_edge": -1.0,
+    "ou": "L"
+   },
+   {
+    "week": 7,
+    "away": "CLE",
+    "home": "TEN",
+    "model": 2.7,
+    "line": 1.5,
+    "edge": 1.2,
+    "final": [
+     27,
+     24
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 35.7,
+    "total_line": 36.5,
+    "total_edge": -0.8,
+    "ou": "L"
+   },
+   {
+    "week": 7,
+    "away": "DEN",
+    "home": "ARI",
+    "model": 5.6,
+    "line": 4.5,
+    "edge": 1.1,
+    "final": [
+     30,
+     16
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 36.9,
+    "total_line": 44.5,
+    "total_edge": -7.6,
+    "ou": "L"
+   },
+   {
+    "week": 7,
+    "away": "GB",
+    "home": "DET",
+    "model": 0.1,
+    "line": -3.5,
+    "edge": 3.6,
+    "final": [
+     17,
+     20
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "L",
+    "model_total": 47.3,
+    "total_line": 55.5,
+    "total_edge": -8.2,
+    "ou": "W"
+   },
+   {
+    "week": 7,
+    "away": "LA",
+    "home": "LV",
+    "model": 6.4,
+    "line": 3.5,
+    "edge": 2.9,
+    "final": [
+     35,
+     21
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 49.8,
+    "total_line": 49.5,
+    "total_edge": 0.3,
+    "ou": "W"
+   },
+   {
+    "week": 7,
+    "away": "KC",
+    "home": "SEA",
+    "model": -1.1,
+    "line": -3.0,
+    "edge": 1.9,
+    "final": [
+     3,
+     20
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "W",
+    "model_total": 46.5,
+    "total_line": 43.5,
+    "total_edge": 3.0,
+    "ou": "L"
+   },
+   {
+    "week": 7,
+    "away": "DAL",
+    "home": "PHI",
+    "model": 1.3,
+    "line": 4.5,
+    "edge": -3.2,
+    "final": [
+     38,
+     21
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 43.5,
+    "total_line": 43.5,
+    "total_edge": 0.0,
+    "ou": null
+   },
+   {
+    "week": 8,
+    "away": "CAR",
+    "home": "GB",
+    "model": -3.0,
+    "line": -3.5,
+    "edge": 0.5,
+    "final": [
+     19,
+     27
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 47.2,
+    "total_line": 47.5,
+    "total_edge": -0.3,
+    "ou": "W"
+   },
+   {
+    "week": 8,
+    "away": "BAL",
+    "home": "BUF",
+    "model": -8.5,
+    "line": -3.0,
+    "edge": -5.5,
+    "final": [
+     10,
+     36
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "W",
+    "model_total": 56.8,
+    "total_line": 54.5,
+    "total_edge": 2.3,
+    "ou": "L"
+   },
+   {
+    "week": 8,
+    "away": "TEN",
+    "home": "CIN",
+    "model": -10.2,
+    "line": -13.5,
+    "edge": 3.3,
+    "final": [
+     36,
+     43
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 48.6,
+    "total_line": 45.5,
+    "total_edge": 3.1,
+    "ou": "W"
+   },
+   {
+    "week": 8,
+    "away": "ARI",
+    "home": "DAL",
+    "model": -1.9,
+    "line": -7.0,
+    "edge": 5.1,
+    "final": [
+     33,
+     30
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "L",
+    "model_total": 55.4,
+    "total_line": 54.5,
+    "total_edge": 0.9,
+    "ou": "W"
+   },
+   {
+    "week": 8,
+    "away": "MIN",
+    "home": "DET",
+    "model": -6.4,
+    "line": -3.0,
+    "edge": -3.4,
+    "final": [
+     15,
+     19
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 39.8,
+    "total_line": 46.5,
+    "total_edge": -6.7,
+    "ou": "W"
+   },
+   {
+    "week": 8,
+    "away": "IND",
+    "home": "JAX",
+    "model": -9.5,
+    "line": -10.0,
+    "edge": 0.5,
+    "final": [
+     7,
+     42
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 52.6,
+    "total_line": 45.5,
+    "total_edge": 7.1,
+    "ou": "W"
+   },
+   {
+    "week": 8,
+    "away": "LV",
+    "home": "NYJ",
+    "model": -3.0,
+    "line": -1.5,
+    "edge": -1.5,
+    "final": [
+     38,
+     33
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "L",
+    "model_total": 42.4,
+    "total_line": 46.5,
+    "total_edge": -4.1,
+    "ou": "L"
+   },
+   {
+    "week": 8,
+    "away": "CLE",
+    "home": "PIT",
+    "model": -2.5,
+    "line": -3.5,
+    "edge": 1.0,
+    "final": [
+     6,
+     27
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 38.7,
+    "total_line": 38.5,
+    "total_edge": 0.2,
+    "ou": "L"
+   },
+   {
+    "week": 8,
+    "away": "ATL",
+    "home": "TB",
+    "model": 3.8,
+    "line": -2.5,
+    "edge": 6.3,
+    "final": [
+     0,
+     16
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "L",
+    "model_total": 39.4,
+    "total_line": 42.5,
+    "total_edge": -3.1,
+    "ou": "W"
+   },
+   {
+    "week": 8,
+    "away": "LAC",
+    "home": "LA",
+    "model": -6.5,
+    "line": -6.5,
+    "edge": 0.0,
+    "final": [
+     9,
+     24
+    ],
+    "qb_flag": false,
+    "ats": null,
+    "su": "W",
+    "model_total": 42.4,
+    "total_line": 46.5,
+    "total_edge": -4.1,
+    "ou": "W"
+   },
+   {
+    "week": 8,
+    "away": "KC",
+    "home": "DEN",
+    "model": 4.3,
+    "line": -1.5,
+    "edge": 5.8,
+    "final": [
+     24,
+     28
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "L",
+    "model_total": 46.1,
+    "total_line": 41.5,
+    "total_edge": 4.6,
+    "ou": "W"
+   },
+   {
+    "week": 8,
+    "away": "NE",
+    "home": "MIA",
+    "model": 4.1,
+    "line": 7.0,
+    "edge": -2.9,
+    "final": [
+     24,
+     19
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 49.9,
+    "total_line": 41.5,
+    "total_edge": 8.4,
+    "ou": "W"
+   },
+   {
+    "week": 8,
+    "away": "PHI",
+    "home": "WAS",
+    "model": -6.8,
+    "line": -6.0,
+    "edge": -0.8,
+    "final": [
+     10,
+     27
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "W",
+    "model_total": 39.2,
+    "total_line": 40.5,
+    "total_edge": -1.3,
+    "ou": "W"
+   },
+   {
+    "week": 8,
+    "away": "CHI",
+    "home": "SEA",
+    "model": -17.7,
+    "line": -3.0,
+    "edge": -14.7,
+    "final": [
+     34,
+     17
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "L",
+    "model_total": 45.8,
+    "total_line": 46.5,
+    "total_edge": -0.7,
+    "ou": "L"
+   },
+   {
+    "week": 9,
+    "away": "JAX",
+    "home": "BAL",
+    "model": -0.2,
+    "line": 8.5,
+    "edge": -8.7,
+    "final": [
+     33,
+     10
+    ],
+    "qb_flag": true,
+    "ats": "L",
+    "su": "L",
+    "model_total": 52.6,
+    "total_line": 40.5,
+    "total_edge": 12.1,
+    "ou": "W"
+   },
+   {
+    "week": 9,
+    "away": "CIN",
+    "home": "ATL",
+    "model": -2.2,
+    "line": 3.0,
+    "edge": -5.2,
+    "final": [
+     34,
+     17
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "L",
+    "model_total": 51.8,
+    "total_line": 52.5,
+    "total_edge": -0.7,
+    "ou": "W"
+   },
+   {
+    "week": 9,
+    "away": "DEN",
+    "home": "CAR",
+    "model": 2.0,
+    "line": 3.0,
+    "edge": -1.0,
+    "final": [
+     26,
+     21
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 41.3,
+    "total_line": 44.5,
+    "total_edge": -3.2,
+    "ou": "L"
+   },
+   {
+    "week": 9,
+    "away": "DAL",
+    "home": "IND",
+    "model": 2.4,
+    "line": 4.5,
+    "edge": -2.1,
+    "final": [
+     27,
+     23
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 49.9,
+    "total_line": 51.5,
+    "total_edge": -1.6,
+    "ou": "W"
+   },
+   {
+    "week": 9,
+    "away": "NYJ",
+    "home": "KC",
+    "model": -7.1,
+    "line": -9.5,
+    "edge": 2.4,
+    "final": [
+     12,
+     35
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 50.7,
+    "total_line": 47.5,
+    "total_edge": 3.2,
+    "ou": "L"
+   },
+   {
+    "week": 9,
+    "away": "DET",
+    "home": "MIA",
+    "model": 1.3,
+    "line": 6.5,
+    "edge": -5.2,
+    "final": [
+     19,
+     9
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "W",
+    "model_total": 50.5,
+    "total_line": 49.5,
+    "total_edge": 1.0,
+    "ou": "L"
+   },
+   {
+    "week": 9,
+    "away": "CLE",
+    "home": "NO",
+    "model": 2.5,
+    "line": -4.5,
+    "edge": 7.0,
+    "final": [
+     22,
+     23
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "L",
+    "model_total": 43.2,
+    "total_line": 43.5,
+    "total_edge": -0.3,
+    "ou": "L"
+   },
+   {
+    "week": 9,
+    "away": "NYG",
+    "home": "PHI",
+    "model": 3.8,
+    "line": 3.0,
+    "edge": 0.8,
+    "final": [
+     19,
+     11
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "W",
+    "model_total": 36.1,
+    "total_line": 38.5,
+    "total_edge": -2.4,
+    "ou": "W"
+   },
+   {
+    "week": 9,
+    "away": "LA",
+    "home": "WAS",
+    "model": 7.2,
+    "line": 4.5,
+    "edge": 2.7,
+    "final": [
+     20,
+     13
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 49.1,
+    "total_line": 48.5,
+    "total_edge": 0.6,
+    "ou": "L"
+   },
+   {
+    "week": 9,
+    "away": "HOU",
+    "home": "LAC",
+    "model": -3.8,
+    "line": 5.5,
+    "edge": -9.3,
+    "final": [
+     44,
+     22
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "L",
+    "model_total": 40.3,
+    "total_line": 40.5,
+    "total_edge": -0.2,
+    "ou": "L"
+   },
+   {
+    "week": 9,
+    "away": "LV",
+    "home": "SF",
+    "model": -14.7,
+    "line": -8.5,
+    "edge": -6.2,
+    "final": [
+     17,
+     38
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 54.3,
+    "total_line": 51.5,
+    "total_edge": 2.8,
+    "ou": "W"
+   },
+   {
+    "week": 9,
+    "away": "GB",
+    "home": "NE",
+    "model": -4.1,
+    "line": -3.0,
+    "edge": -1.1,
+    "final": [
+     45,
+     27
+    ],
+    "qb_flag": false,
+    "ats": "L",
+    "su": "L",
+    "model_total": 43.7,
+    "total_line": 44.5,
+    "total_edge": -0.8,
+    "ou": "L"
+   },
+   {
+    "week": 9,
+    "away": "ARI",
+    "home": "SEA",
+    "model": -13.6,
+    "line": -8.5,
+    "edge": -5.1,
+    "final": [
+     3,
+     17
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "W",
+    "model_total": 36.3,
+    "total_line": 39.5,
+    "total_edge": -3.2,
+    "ou": "W"
+   },
+   {
+    "week": 9,
+    "away": "TB",
+    "home": "CHI",
+    "model": -0.6,
+    "line": -6.5,
+    "edge": 5.9,
+    "final": [
+     24,
+     27
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 48.7,
+    "total_line": 47.5,
+    "total_edge": 1.2,
+    "ou": "W"
+   },
+   {
+    "week": 9,
+    "away": "BUF",
+    "home": "MIN",
+    "model": 7.2,
+    "line": 3.0,
+    "edge": 4.2,
+    "final": [
+     23,
+     6
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "W",
+    "model_total": 43.1,
+    "total_line": 45.5,
+    "total_edge": -2.4,
+    "ou": "W"
+   }
+  ]
+ }
+}
