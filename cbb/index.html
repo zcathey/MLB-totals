@@ -32,8 +32,11 @@ nav button.on{background:var(--green);color:#000}
 .game.agree{border-color:var(--green);box-shadow:0 0 8px rgba(51,255,102,.25)}
 .game.started{opacity:.55}
 .top{display:flex;justify-content:space-between;gap:6px;align-items:flex-start}
-.match{font-size:20px;line-height:1.05;color:var(--white);min-width:0}
-.match div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.match{font-size:20px;line-height:1.05;color:var(--white);min-width:0;flex:1}
+.match div{display:flex;justify-content:space-between;gap:8px;white-space:nowrap}
+.match .nm{overflow:hidden;text-overflow:ellipsis}
+.match .ln{color:var(--dim);flex-shrink:0}
+.match .ln.fav{color:var(--yellow)}
 .rk{color:var(--dim);font-size:16px}
 .time{color:var(--dim);font-size:17px;white-space:nowrap;text-align:right}
 .badge{display:inline-block;font-size:14px;padding:0 4px;margin-top:2px;border:1px solid}
@@ -139,6 +142,8 @@ function renderStatus(){
   $('#status').innerHTML=s;
 }
 
+// a team's own market spread, shown beside its name (favorite highlighted)
+const teamLine = x => x==null ? '' : `<span class="ln${x<0?' fav':''}">${pt(x)}</span>`;
 function renderGames(){
   const eo=$('#edgesOnly').checked, hs=$('#hideStarted').checked, st=$('#showTotals').checked;
   let html='',day='';
@@ -152,7 +157,9 @@ function renderGames(){
     const ek = g.edge==null?'':(Math.abs(g.edge)>=D.settings.edge_threshold?'hi':'');
     const mv = (g.move==null||g.move===0)?'':` <span class="rk">(${sg(g.move)})</span>`;
     html+=`<div class="${cls}">
-      <div class="top"><div class="match"><div>${esc(g.away)} <span class="rk">${g.away_rank?'#'+g.away_rank:''}</span></div><div>@ ${esc(g.home)} <span class="rk">${g.home_rank?'#'+g.home_rank:''}</span></div></div>
+      <div class="top"><div class="match">
+        <div><span class="nm">${esc(g.away)} <span class="rk">${g.away_rank?'#'+g.away_rank:''}</span></span>${teamLine(g.mkt_spread==null?null:-g.mkt_spread)}</div>
+        <div><span class="nm">@ ${esc(g.home)} <span class="rk">${g.home_rank?'#'+g.home_rank:''}</span></span>${teamLine(g.mkt_spread)}</div></div>
       <div class="time">${ETfmt.format(t)}${g.started?'<br>started':''}${g.neutral?'<br><span class="badge b-n">NEUTRAL</span>':''}</div></div>
       <div class="grid">
         <div><span class="l">MODEL</span>${pt(m.home_spread)}</div>
