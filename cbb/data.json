@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-10T21:26:01.816589+00:00",
- "mode": "picks",
+ "generated_at": "2026-11-11T02:54:24.002659+00:00",
+ "mode": "late",
  "ratings": {
   "status": "fresh",
   "updated": "2026-11-10T13:13:13+00:00",
@@ -10,8 +10,8 @@
  },
  "lines": {
   "status": "ok",
-  "events": 83,
-  "credits_remaining": "464"
+  "events": 73,
+  "credits_remaining": "460"
  },
  "settings": {
   "hfa": 3.0,
@@ -20,1309 +20,27 @@
  },
  "games": [
   {
-   "event_id": "72eacb4b3afe5e4526420aa503a8ff1f",
-   "tip": "2026-11-10T23:00:00Z",
-   "away": "Florida",
-   "home": "Florida St.",
-   "away_raw": "Florida Gators",
-   "home_raw": "Florida St Seminoles",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": 8.5,
-   "mkt_total": 165.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": 9.5,
-    "px": -113,
-    "book": "BetRivers"
-   },
-   "best_away": {
-    "pt": -8.5,
-    "px": -115,
-    "book": "DraftKings"
-   },
-   "open_spread": 9.5,
-   "open_total": 164.5,
-   "model": {
-    "poss": 74.9,
-    "away_pts": 83.0,
-    "home_pts": 76.8,
-    "home_spread": 6.2,
-    "total": 159.7
-   },
-   "away_rank": 3,
-   "home_rank": 53,
-   "flags": [],
-   "edge": -2.3,
-   "move": -1.0,
-   "total_edge": -5.3
-  },
-  {
-   "event_id": "2b966e38935332c263ecce66667f4b3b",
-   "tip": "2026-11-10T23:30:00Z",
-   "away": "Delaware St.",
-   "home": "Georgetown",
-   "away_raw": "Delaware St Hornets",
-   "home_raw": "Georgetown Hoyas",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -30.0,
-   "mkt_total": 144.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -30.0,
-    "px": -105,
-    "book": "BetOnline"
-   },
-   "best_away": {
-    "pt": 30.5,
-    "px": -110,
-    "book": "FanDuel"
-   },
-   "open_spread": -27.5,
-   "open_total": 145.5,
-   "model": {
-    "poss": 69.9,
-    "away_pts": 60.8,
-    "home_pts": 85.9,
-    "home_spread": -25.1,
-    "total": 146.7
-   },
-   "away_rank": 344,
-   "home_rank": 54,
-   "flags": [],
-   "edge": 4.9,
-   "move": -2.5,
-   "total_edge": 2.7,
-   "pick": "Delaware St. +30",
-   "pick_side": "away",
-   "market": "against"
-  },
-  {
-   "event_id": "ee9da2e11b9dd590539d4c230c90a800",
-   "tip": "2026-11-10T23:30:00Z",
-   "away": "NJIT",
-   "home": "Rutgers",
-   "away_raw": "NJIT Highlanders",
-   "home_raw": "Rutgers Scarlet Knights",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -25.5,
-   "mkt_total": 143.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -24.5,
-    "px": -120,
-    "book": "FanDuel"
-   },
-   "best_away": {
-    "pt": 25.5,
-    "px": -109,
-    "book": "BetRivers"
-   },
-   "open_spread": -23.5,
-   "open_total": 145.5,
-   "model": {
-    "poss": 68.5,
-    "away_pts": 62.4,
-    "home_pts": 82.3,
-    "home_spread": -19.9,
-    "total": 144.7
-   },
-   "away_rank": 320,
-   "home_rank": 78,
-   "flags": [],
-   "edge": 5.6,
-   "move": -2.0,
-   "total_edge": 1.2,
-   "pick": "NJIT +25.5",
-   "pick_side": "away",
-   "market": "against"
-  },
-  {
-   "event_id": "9ab69673b2a59af7135ebb4768c3d851",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Maryland Eastern Shore",
-   "home": "Boston College",
-   "away_raw": "Maryland-Eastern Shore Hawks",
-   "home_raw": "Boston College Eagles",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -27.0,
-   "mkt_total": 128.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -26.5,
-    "px": -105,
-    "book": "Bovada"
-   },
-   "best_away": {
-    "pt": 27.0,
-    "px": -118,
-    "book": "Pinnacle"
-   },
-   "open_spread": -25.5,
-   "open_total": 131.5,
-   "model": {
-    "poss": 60.0,
-    "away_pts": 49.4,
-    "home_pts": 70.8,
-    "home_spread": -21.4,
-    "total": 120.2
-   },
-   "away_rank": 365,
-   "home_rank": 108,
-   "flags": [
-    "home tempo outlier (61)"
-   ],
-   "edge": 5.6,
-   "move": -1.5,
-   "total_edge": -7.8
-  },
-  {
-   "event_id": "604069251e105a4695deda046f92b38b",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Youngstown St.",
-   "home": "Central Michigan",
-   "away_raw": "Youngstown St Penguins",
-   "home_raw": "Central Michigan Chippewas",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -3.5,
-   "mkt_total": 151.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -2.5,
-    "px": -118,
-    "book": "BetRivers"
-   },
-   "best_away": {
-    "pt": 3.5,
-    "px": -110,
-    "book": "BetOnline"
-   },
-   "open_spread": -2.5,
-   "open_total": 152.25,
-   "model": {
-    "poss": 70.2,
-    "away_pts": 71.5,
-    "home_pts": 75.7,
-    "home_spread": -4.2,
-    "total": 147.1
-   },
-   "away_rank": 260,
-   "home_rank": 230,
-   "flags": [],
-   "edge": -0.7,
-   "move": -1.0,
-   "total_edge": -4.4
-  },
-  {
-   "event_id": "59827fe0f02a369e1af3d183360ba896",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Bradley",
-   "home": "Davidson",
-   "away_raw": "Bradley Braves",
-   "home_raw": "Davidson Wildcats",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -10.5,
-   "mkt_total": 138.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -10.5,
-    "px": -105,
-    "book": "ESPN BET"
-   },
-   "best_away": {
-    "pt": 10.5,
-    "px": -109,
-    "book": "BetRivers"
-   },
-   "open_spread": -11.5,
-   "open_total": 140.5,
-   "model": {
-    "poss": 66.4,
-    "away_pts": 65.0,
-    "home_pts": 73.9,
-    "home_spread": -8.9,
-    "total": 138.9
-   },
-   "away_rank": 193,
-   "home_rank": 113,
-   "flags": [],
-   "edge": 1.6,
-   "move": 1.0,
-   "total_edge": 0.4
-  },
-  {
-   "event_id": "0995f116710c1331512cfda71ce00555",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Siena",
-   "home": "Dayton",
-   "away_raw": "Siena Saints",
-   "home_raw": "Dayton Flyers",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -13.0,
-   "mkt_total": 159.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -12.5,
-    "px": -120,
-    "book": "FanDuel"
-   },
-   "best_away": {
-    "pt": 13.5,
-    "px": -110,
-    "book": "Bovada"
-   },
-   "open_spread": -12.75,
-   "open_total": 152.25,
-   "model": {
-    "poss": 80.0,
-    "away_pts": 74.5,
-    "home_pts": 89.2,
-    "home_spread": -14.7,
-    "total": 163.6
-   },
-   "away_rank": 224,
-   "home_rank": 89,
-   "flags": [
-    "away tempo outlier (82)"
-   ],
-   "edge": -1.7,
-   "move": -0.2,
-   "total_edge": 4.6
-  },
-  {
-   "event_id": "8f8f96b87641a3cbc280c8e63aed3ad4",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Michigan St.",
-   "home": "Duke",
-   "away_raw": "Michigan St Spartans",
-   "home_raw": "Duke Blue Devils",
-   "started": false,
-   "neutral": true,
-   "books": 8,
-   "mkt_spread": -7.5,
-   "mkt_total": 147.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -7.5,
-    "px": -105,
-    "book": "Bovada"
-   },
-   "best_away": {
-    "pt": 8.0,
-    "px": -115,
-    "book": "BetOnline"
-   },
-   "open_spread": -6.5,
-   "open_total": 148.5,
-   "model": {
-    "poss": 69.8,
-    "away_pts": 71.2,
-    "home_pts": 74.6,
-    "home_spread": -3.4,
-    "total": 145.8
-   },
-   "away_rank": 10,
-   "home_rank": 1,
-   "flags": [],
-   "edge": 4.1,
-   "move": -1.0,
-   "total_edge": -1.7,
-   "pick": "Michigan St. +7.5",
-   "pick_side": "away",
-   "market": "against"
-  },
-  {
-   "event_id": "cb982523378ba8e6e0aadc0e97748791",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Washington St.",
-   "home": "Duquesne",
-   "away_raw": "Washington St Cougars",
-   "home_raw": "Duquesne Dukes",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -3.5,
-   "mkt_total": 144.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -3.5,
-    "px": -104,
-    "book": "BetRivers"
-   },
-   "best_away": {
-    "pt": 4.0,
-    "px": -110,
-    "book": "BetOnline"
-   },
-   "open_spread": -5.5,
-   "open_total": 147.75,
-   "model": {
-    "poss": 70.1,
-    "away_pts": 72.3,
-    "home_pts": 78.5,
-    "home_spread": -6.3,
-    "total": 150.8
-   },
-   "away_rank": 177,
-   "home_rank": 134,
-   "flags": [],
-   "edge": -2.8,
-   "move": 2.0,
-   "total_edge": 6.3
-  },
-  {
-   "event_id": "59b9d34023c04a38ae8a01e9508650b9",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Iona",
-   "home": "Fordham",
-   "away_raw": "Iona Gaels",
-   "home_raw": "Fordham Rams",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -11.5,
-   "mkt_total": 142.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -11.5,
-    "px": -105,
-    "book": "ESPN BET"
-   },
-   "best_away": {
-    "pt": 11.5,
-    "px": -108,
-    "book": "Pinnacle"
-   },
-   "open_spread": -12.5,
-   "open_total": 142.5,
-   "model": {
-    "poss": 69.4,
-    "away_pts": 68.1,
-    "home_pts": 77.1,
-    "home_spread": -8.9,
-    "total": 145.2
-   },
-   "away_rank": 225,
-   "home_rank": 135,
-   "flags": [],
-   "edge": 2.6,
-   "move": 1.0,
-   "total_edge": 3.2
-  },
-  {
-   "event_id": "56e97d53de1e7bf6c31ad2b111448a6b",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Elon",
-   "home": "George Washington",
-   "away_raw": "Elon Phoenix",
-   "home_raw": "GW Revolutionaries",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -13.5,
-   "mkt_total": 148.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -13.0,
-    "px": -115,
-    "book": "BetOnline"
-   },
-   "best_away": {
-    "pt": 13.5,
-    "px": -110,
-    "book": "FanDuel"
-   },
-   "open_spread": -14.25,
-   "open_total": 148.5,
-   "model": {
-    "poss": 70.0,
-    "away_pts": 67.3,
-    "home_pts": 82.2,
-    "home_spread": -14.9,
-    "total": 149.5
-   },
-   "away_rank": 201,
-   "home_rank": 71,
-   "flags": [],
-   "edge": -1.4,
-   "move": 0.8,
-   "total_edge": 1.5
-  },
-  {
-   "event_id": "8981841a7cc117d41e73220eba7ee8fd",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Mercer",
-   "home": "Georgia Southern",
-   "away_raw": "Mercer Bears",
-   "home_raw": "Georgia Southern Eagles",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -1.0,
-   "mkt_total": 164.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -0.5,
-    "px": -118,
-    "book": "FanDuel"
-   },
-   "best_away": {
-    "pt": 1.5,
-    "px": -112,
-    "book": "BetOnline"
-   },
-   "open_spread": -1.5,
-   "open_total": 160.0,
-   "model": {
-    "poss": 73.8,
-    "away_pts": 77.8,
-    "home_pts": 76.4,
-    "home_spread": 1.4,
-    "total": 154.2
-   },
-   "away_rank": 248,
-   "home_rank": 314,
-   "flags": [],
-   "edge": 2.4,
-   "move": 0.5,
-   "total_edge": -10.3
-  },
-  {
-   "event_id": "9a48ea0e6a4d0c1b7a6a9c38e825eb81",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Eastern Kentucky",
-   "home": "Georgia Tech",
-   "away_raw": "Eastern Kentucky Colonels",
-   "home_raw": "Georgia Tech Yellow Jackets",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -15.5,
-   "mkt_total": 164.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -15.0,
-    "px": -110,
-    "book": "BetOnline"
-   },
-   "best_away": {
-    "pt": 15.5,
-    "px": -110,
-    "book": "FanDuel"
-   },
-   "open_spread": -16.5,
-   "open_total": 159.75,
-   "model": {
-    "poss": 71.4,
-    "away_pts": 69.5,
-    "home_pts": 84.9,
-    "home_spread": -15.4,
-    "total": 154.3
-   },
-   "away_rank": 289,
-   "home_rank": 110,
-   "flags": [],
-   "edge": 0.1,
-   "move": 1.0,
-   "total_edge": -10.2
-  },
-  {
-   "event_id": "b57b809e9212138f9e00ffb2931cf4fd",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Virginia Tech",
-   "home": "Iowa",
-   "away_raw": "Virginia Tech Hokies",
-   "home_raw": "Iowa Hawkeyes",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -4.5,
-   "mkt_total": 140.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -3.5,
-    "px": -117,
-    "book": "BetRivers"
-   },
-   "best_away": {
-    "pt": 4.5,
-    "px": -115,
-    "book": "DraftKings"
-   },
-   "open_spread": -4.5,
-   "open_total": 142.5,
-   "model": {
-    "poss": 66.5,
-    "away_pts": 69.5,
-    "home_pts": 72.1,
-    "home_spread": -2.6,
-    "total": 141.6
-   },
-   "away_rank": 37,
-   "home_rank": 44,
-   "flags": [],
-   "edge": 1.9,
-   "move": 0.0,
-   "total_edge": 1.6
-  },
-  {
-   "event_id": "16aed83105c1683d2a5eb84cdef8c8f4",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Winthrop",
-   "home": "Kennesaw St.",
-   "away_raw": "Winthrop Eagles",
-   "home_raw": "Kennesaw St Owls",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -10.5,
-   "mkt_total": 169.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -10.0,
-    "px": -115,
-    "book": "BetOnline"
-   },
-   "best_away": {
-    "pt": 10.5,
-    "px": -105,
-    "book": "FanDuel"
-   },
-   "open_spread": -9.5,
-   "open_total": 166.5,
-   "model": {
-    "poss": 77.2,
-    "away_pts": 78.3,
-    "home_pts": 87.4,
-    "home_spread": -9.2,
-    "total": 165.7
-   },
-   "away_rank": 253,
-   "home_rank": 147,
-   "flags": [],
-   "edge": 1.3,
-   "move": -1.0,
-   "total_edge": -3.3
-  },
-  {
-   "event_id": "e4c5dde6dc40ba56df0f75056bc28b37",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Presbyterian",
-   "home": "N.C. State",
-   "away_raw": "Presbyterian Blue Hose",
-   "home_raw": "NC State Wolfpack",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -18.5,
-   "mkt_total": 149.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -17.5,
-    "px": -120,
-    "book": "FanDuel"
-   },
-   "best_away": {
-    "pt": 18.5,
-    "px": -105,
-    "book": "BetOnline"
-   },
-   "open_spread": -18.5,
-   "open_total": 148.0,
-   "model": {
-    "poss": 66.5,
-    "away_pts": 64.2,
-    "home_pts": 83.8,
-    "home_spread": -19.6,
-    "total": 147.9
-   },
-   "away_rank": 226,
-   "home_rank": 36,
-   "flags": [],
-   "edge": -1.1,
-   "move": 0.0,
-   "total_edge": -1.6
-  },
-  {
-   "event_id": "27efe29d687eb4b12f0f1cdb4a097482",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Wyoming",
-   "home": "North Carolina",
-   "away_raw": "Wyoming Cowboys",
-   "home_raw": "North Carolina Tar Heels",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -13.0,
-   "mkt_total": 155.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -12.5,
-    "px": -115,
-    "book": "ESPN BET"
-   },
-   "best_away": {
-    "pt": 13.5,
-    "px": -115,
-    "book": "FanDuel"
-   },
-   "open_spread": -15.5,
-   "open_total": 153.5,
-   "model": {
-    "poss": 74.4,
-    "away_pts": 73.8,
-    "home_pts": 85.0,
-    "home_spread": -11.2,
-    "total": 158.8
-   },
-   "away_rank": 114,
-   "home_rank": 46,
-   "flags": [],
-   "edge": 1.8,
-   "move": 2.5,
-   "total_edge": 3.3
-  },
-  {
-   "event_id": "b49dc83f68f292ba15cb12280610891d",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Harvard",
-   "home": "Northeastern",
-   "away_raw": "Harvard Crimson",
-   "home_raw": "Northeastern Huskies",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": 2.0,
-   "mkt_total": 143.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": 2.5,
-    "px": -120,
-    "book": "FanDuel"
-   },
-   "best_away": {
-    "pt": -1.5,
-    "px": -115,
-    "book": "ESPN BET"
-   },
-   "open_spread": 2.75,
-   "open_total": 146.5,
-   "model": {
-    "poss": 69.6,
-    "away_pts": 77.4,
-    "home_pts": 73.1,
-    "home_spread": 4.3,
-    "total": 150.5
-   },
-   "away_rank": 125,
-   "home_rank": 244,
-   "flags": [],
-   "edge": 2.3,
-   "move": -0.8,
-   "total_edge": 7.5
-  },
-  {
-   "event_id": "02420c8c9efd8150390de1e94efe26ff",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Bryant",
-   "home": "Providence",
-   "away_raw": "Bryant Bulldogs",
-   "home_raw": "Providence Friars",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -30.5,
-   "mkt_total": 149.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -30.5,
-    "px": -110,
-    "book": "ESPN BET"
-   },
-   "best_away": {
-    "pt": 31.5,
-    "px": -115,
-    "book": "FanDuel"
-   },
-   "open_spread": -28.5,
-   "open_total": 147.5,
-   "model": {
-    "poss": 71.6,
-    "away_pts": 61.7,
-    "home_pts": 85.9,
-    "home_spread": -24.2,
-    "total": 147.6
-   },
-   "away_rank": 333,
-   "home_rank": 56,
-   "flags": [],
-   "edge": 6.3,
-   "move": -2.0,
-   "total_edge": -1.9,
-   "pick": "Bryant +30.5",
-   "pick_side": "away",
-   "market": "against"
-  },
-  {
-   "event_id": "0001ef1c010fb44d8b93c5aa3e9d2aa1",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Maine",
-   "home": "Rhode Island",
-   "away_raw": "Maine Black Bears",
-   "home_raw": "Rhode Island Rams",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -20.5,
-   "mkt_total": 139.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -20.0,
-    "px": -110,
-    "book": "Bovada"
-   },
-   "best_away": {
-    "pt": 20.5,
-    "px": -110,
-    "book": "FanDuel"
-   },
-   "open_spread": -17.5,
-   "open_total": 140.5,
-   "model": {
-    "poss": 69.6,
-    "away_pts": 62.2,
-    "home_pts": 78.4,
-    "home_spread": -16.2,
-    "total": 140.6
-   },
-   "away_rank": 336,
-   "home_rank": 122,
-   "flags": [],
-   "edge": 4.3,
-   "move": -3.0,
-   "total_edge": 1.1,
-   "pick": "Maine +20.5",
-   "pick_side": "away",
-   "market": "against"
-  },
-  {
-   "event_id": "fdb2feae9b9bb3d0f27936b4bae6e0f8",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Wright St.",
-   "home": "Toledo",
-   "away_raw": "Wright St Raiders",
-   "home_raw": "Toledo Rockets",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": 1.5,
-   "mkt_total": 157.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": 1.5,
-    "px": -110,
-    "book": "FanDuel"
-   },
-   "best_away": {
-    "pt": -1.0,
-    "px": -110,
-    "book": "BetOnline"
-   },
-   "open_spread": 1.5,
-   "open_total": 159.25,
-   "model": {
-    "poss": 71.4,
-    "away_pts": 76.9,
-    "home_pts": 76.0,
-    "home_spread": 0.9,
-    "total": 152.8
-   },
-   "away_rank": 120,
-   "home_rank": 165,
-   "flags": [],
-   "edge": -0.6,
-   "move": 0.0,
-   "total_edge": -4.7
-  },
-  {
-   "event_id": "e61577b9c85f49125bca7a114c23b79b",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Loyola Marymount",
-   "home": "Troy",
-   "away_raw": "Loyola Marymount Lions",
-   "home_raw": "Troy Trojans",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": 1.5,
-   "mkt_total": 144.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": 1.5,
-    "px": -110,
-    "book": "Bovada"
-   },
-   "best_away": {
-    "pt": 0.5,
-    "px": -121,
-    "book": "BetRivers"
-   },
-   "open_spread": 1.5,
-   "open_total": 148.5,
-   "model": {
-    "poss": 68.1,
-    "away_pts": 73.0,
-    "home_pts": 73.8,
-    "home_spread": -0.8,
-    "total": 146.8
-   },
-   "away_rank": 136,
-   "home_rank": 161,
-   "flags": [],
-   "edge": -2.3,
-   "move": 0.0,
-   "total_edge": 2.8
-  },
-  {
-   "event_id": "154c30f8f7ea51bd1ad16deb41fbfd05",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "South Alabama",
-   "home": "UCF",
-   "away_raw": "South Alabama Jaguars",
-   "home_raw": "UCF Knights",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -14.0,
-   "mkt_total": 151.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -13.5,
-    "px": -105,
-    "book": "ESPN BET"
-   },
-   "best_away": {
-    "pt": 14.0,
-    "px": -110,
-    "book": "Bovada"
-   },
-   "open_spread": -16.5,
-   "open_total": 151.25,
-   "model": {
-    "poss": 69.7,
-    "away_pts": 65.9,
-    "home_pts": 85.0,
-    "home_spread": -19.0,
-    "total": 150.9
-   },
-   "away_rank": 272,
-   "home_rank": 65,
-   "flags": [],
-   "edge": -5.0,
-   "move": 2.5,
-   "total_edge": -0.1,
-   "pick": "UCF -14",
-   "pick_side": "home",
-   "market": "against"
-  },
-  {
-   "event_id": "69af0f725cf0220fbce85a364931bee5",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "La Salle",
-   "home": "Villanova",
-   "away_raw": "La Salle Explorers",
-   "home_raw": "Villanova Wildcats",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -21.0,
-   "mkt_total": 158.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -20.5,
-    "px": -115,
-    "book": "ESPN BET"
-   },
-   "best_away": {
-    "pt": 21.5,
-    "px": -117,
-    "book": "BetRivers"
-   },
-   "open_spread": -23.5,
-   "open_total": 156.5,
-   "model": {
-    "poss": 70.0,
-    "away_pts": 68.4,
-    "home_pts": 85.1,
-    "home_spread": -16.8,
-    "total": 153.5
-   },
-   "away_rank": 156,
-   "home_rank": 32,
-   "flags": [],
-   "edge": 4.2,
-   "move": 2.5,
-   "total_edge": -5.0,
-   "pick": "La Salle +21",
-   "pick_side": "away",
-   "market": "agrees"
-  },
-  {
-   "event_id": "df614b1deb38ca8766ece5d20ae04191",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Charleston Southern",
-   "home": "Wake Forest",
-   "away_raw": "Charleston Southern Buccaneers",
-   "home_raw": "Wake Forest Demon Deacons",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -18.5,
-   "mkt_total": 156.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -18.5,
-    "px": -105,
-    "book": "BetOnline"
-   },
-   "best_away": {
-    "pt": 18.5,
-    "px": -106,
-    "book": "FanDuel"
-   },
-   "open_spread": -18.5,
-   "open_total": 154.75,
-   "model": {
-    "poss": 72.7,
-    "away_pts": 65.3,
-    "home_pts": 85.1,
-    "home_spread": -19.8,
-    "total": 150.4
-   },
-   "away_rank": 326,
-   "home_rank": 91,
-   "flags": [],
-   "edge": -1.3,
-   "move": 0.0,
-   "total_edge": -6.1
-  },
-  {
-   "event_id": "11ceba18c68149101dcde26737c1e810",
-   "tip": "2026-11-11T00:00:00Z",
-   "away": "Detroit Mercy",
-   "home": "Xavier",
-   "away_raw": "Detroit Mercy Titans",
-   "home_raw": "Xavier Musketeers",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -36.0,
-   "mkt_total": 158.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -35.5,
-    "px": -108,
-    "book": "DraftKings"
-   },
-   "best_away": {
-    "pt": 36.0,
-    "px": -114,
-    "book": "Pinnacle"
-   },
-   "open_spread": -31.75,
-   "open_total": 157.75,
-   "model": {
-    "poss": 73.2,
-    "away_pts": 69.2,
-    "home_pts": 90.7,
-    "home_spread": -21.5,
-    "total": 159.9
-   },
-   "away_rank": 261,
-   "home_rank": 43,
-   "flags": [],
-   "edge": 14.5,
-   "move": -4.2,
-   "total_edge": 1.9,
-   "pick": "Detroit Mercy +36",
-   "pick_side": "away",
-   "market": "against"
-  },
-  {
-   "event_id": "bf7a605f776bde1cc6778ed8a8cff04a",
-   "tip": "2026-11-11T00:00:46Z",
-   "away": "Army",
-   "home": "New Haven",
-   "away_raw": "Army Knights",
-   "home_raw": "New Haven Chargers",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": 1.5,
-   "mkt_total": 133.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": 1.5,
-    "px": -109,
-    "book": "Pinnacle"
-   },
-   "best_away": {
-    "pt": 0.5,
-    "px": -120,
-    "book": "BetRivers"
-   },
-   "open_spread": 0.75,
-   "open_total": 132.0,
-   "model": {
-    "poss": 65.9,
-    "away_pts": 64.8,
-    "home_pts": 69.6,
-    "home_spread": -4.8,
-    "total": 134.4
-   },
-   "away_rank": 358,
-   "home_rank": 339,
-   "flags": [],
-   "edge": -6.3,
-   "move": 0.8,
-   "total_edge": 0.9,
-   "pick": "New Haven +1.5",
-   "pick_side": "home",
-   "market": "against"
-  },
-  {
-   "event_id": "1b493fb07c04f10198445ee5d1b7f375",
-   "tip": "2026-11-11T00:15:00Z",
-   "away": "Memphis",
-   "home": "Vanderbilt",
-   "away_raw": "Memphis Tigers",
-   "home_raw": "Vanderbilt Commodores",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -14.0,
-   "mkt_total": 161.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -13.5,
-    "px": -115,
-    "book": "ESPN BET"
-   },
-   "best_away": {
-    "pt": 14.5,
-    "px": -112,
-    "book": "FanDuel"
-   },
-   "open_spread": -16.5,
-   "open_total": 158.5,
-   "model": {
-    "poss": 73.1,
-    "away_pts": 72.3,
-    "home_pts": 86.0,
-    "home_spread": -13.7,
-    "total": 158.3
-   },
-   "away_rank": 102,
-   "home_rank": 20,
-   "flags": [],
-   "edge": 0.3,
-   "move": 2.5,
-   "total_edge": -2.7
-  },
-  {
-   "event_id": "6e5f0afa161cb1c7b90a86be779800bf",
-   "tip": "2026-11-11T00:30:00Z",
-   "away": "Evansville",
-   "home": "Middle Tennessee",
-   "away_raw": "Evansville Purple Aces",
-   "home_raw": "Middle Tennessee Blue Raiders",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -9.5,
-   "mkt_total": 143.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -8.5,
-    "px": -115,
-    "book": "BetRivers"
-   },
-   "best_away": {
-    "pt": 9.5,
-    "px": -110,
-    "book": "FanDuel"
-   },
-   "open_spread": -7.5,
-   "open_total": 143.5,
-   "model": {
-    "poss": 68.8,
-    "away_pts": 66.5,
-    "home_pts": 76.6,
-    "home_spread": -10.1,
-    "total": 143.0
-   },
-   "away_rank": 291,
-   "home_rank": 155,
-   "flags": [],
-   "edge": -0.6,
-   "move": -2.0,
-   "total_edge": 0.0
-  },
-  {
-   "event_id": "1bdd1ebc0dbf42b45f00e0e042a95bbc",
-   "tip": "2026-11-11T00:30:00Z",
-   "away": "Nicholls St.",
-   "home": "Tulane",
-   "away_raw": "Nicholls St Colonels",
-   "home_raw": "Tulane Green Wave",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -9.5,
-   "mkt_total": 153.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -9.5,
-    "px": -103,
-    "book": "Pinnacle"
-   },
-   "best_away": {
-    "pt": 10.0,
-    "px": -115,
-    "book": "Bovada"
-   },
-   "open_spread": -8.75,
-   "open_total": 151.5,
-   "model": {
-    "poss": 72.8,
-    "away_pts": 74.2,
-    "home_pts": 82.8,
-    "home_spread": -8.6,
-    "total": 157.0
-   },
-   "away_rank": 282,
-   "home_rank": 186,
-   "flags": [],
-   "edge": 0.9,
-   "move": -0.8,
-   "total_edge": 4.0
-  },
-  {
-   "event_id": "62ff4677a2d36350d135e9ffdcccdf6f",
-   "tip": "2026-11-11T00:30:00Z",
-   "away": "Texas St.",
-   "home": "UT Rio Grande Valley",
-   "away_raw": "Texas State Bobcats",
-   "home_raw": "UT Rio Grande Valley Vaqueros",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": 5.5,
-   "mkt_total": 139.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": 5.5,
-    "px": -110,
-    "book": "ESPN BET"
-   },
-   "best_away": {
-    "pt": -5.0,
-    "px": -115,
-    "book": "Bovada"
-   },
-   "open_spread": 6.5,
-   "open_total": 143.5,
-   "model": {
-    "poss": 61.3,
-    "away_pts": 65.9,
-    "home_pts": 62.3,
-    "home_spread": 3.6,
-    "total": 128.1
-   },
-   "away_rank": 121,
-   "home_rank": 243,
-   "flags": [],
-   "edge": -1.9,
-   "move": -1.0,
-   "total_edge": -10.9
-  },
-  {
-   "event_id": "c01b327672b44187cac6e56917b0784a",
-   "tip": "2026-11-11T01:00:00Z",
-   "away": "Tennessee Martin",
-   "home": "Arkansas St.",
-   "away_raw": "Tenn-Martin Skyhawks",
-   "home_raw": "Arkansas St Red Wolves",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": -5.5,
-   "mkt_total": 154.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": -5.5,
-    "px": -110,
-    "book": "ESPN BET"
-   },
-   "best_away": {
-    "pt": 5.5,
-    "px": -105,
-    "book": "BetOnline"
-   },
-   "open_spread": -7.5,
-   "open_total": 151.5,
-   "model": {
-    "poss": 72.4,
-    "away_pts": 65.8,
-    "home_pts": 78.0,
-    "home_spread": -12.2,
-    "total": 143.8
-   },
-   "away_rank": 324,
-   "home_rank": 157,
-   "flags": [],
-   "edge": -6.7,
-   "move": 2.0,
-   "total_edge": -10.2,
-   "pick": "Arkansas St. -5.5",
-   "pick_side": "home",
-   "market": "against"
-  },
-  {
    "event_id": "f4997c7daa0e22a1989d1c42c627d5b9",
    "tip": "2026-11-11T01:00:00Z",
    "away": "Yale",
    "home": "Baylor",
    "away_raw": "Yale Bulldogs",
    "home_raw": "Baylor Bears",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -19.5,
-   "mkt_total": 157.5,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -23.0,
+   "mkt_total": 148.0,
+   "spread_src": "median",
    "best_home": {
-    "pt": -19.5,
-    "px": -104,
-    "book": "Pinnacle"
+    "pt": -20.5,
+    "px": -108,
+    "book": "FanDuel"
    },
    "best_away": {
-    "pt": 19.5,
-    "px": -105,
-    "book": "BetOnline"
+    "pt": 26.5,
+    "px": -110,
+    "book": "DraftKings"
    },
    "open_spread": -21.5,
    "open_total": 157.5,
@@ -1336,12 +54,12 @@
    "away_rank": 170,
    "home_rank": 38,
    "flags": [],
-   "edge": 3.5,
-   "move": 2.0,
-   "total_edge": -7.1,
-   "pick": "Yale +19.5",
+   "edge": 7.0,
+   "move": -1.5,
+   "total_edge": 2.4,
+   "pick": "Yale +23",
    "pick_side": "away",
-   "market": "agrees"
+   "market": "against"
   },
   {
    "event_id": "67f91b2a08972721009a8de5a505a052",
@@ -1350,21 +68,21 @@
    "home": "Iowa St.",
    "away_raw": "Southern Jaguars",
    "home_raw": "Iowa State Cyclones",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -35.5,
-   "mkt_total": 146.5,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -39.0,
+   "mkt_total": 133.0,
+   "spread_src": "median",
    "best_home": {
-    "pt": -35.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": -37.5,
+    "px": 118,
+    "book": "BetMGM"
    },
    "best_away": {
-    "pt": 36.5,
-    "px": -114,
-    "book": "BetRivers"
+    "pt": 41.5,
+    "px": 105,
+    "book": "Bovada"
    },
    "open_spread": -34.0,
    "open_total": 147.5,
@@ -1378,51 +96,12 @@
    "away_rank": 296,
    "home_rank": 12,
    "flags": [],
-   "edge": 8.9,
-   "move": -1.5,
-   "total_edge": 0.0,
-   "pick": "Southern +35.5",
+   "edge": 12.4,
+   "move": -5.0,
+   "total_edge": 13.5,
+   "pick": "Southern +39",
    "pick_side": "away",
    "market": "against"
-  },
-  {
-   "event_id": "2a4b1da6788e1f02b089f8c4598f55be",
-   "tip": "2026-11-11T01:00:00Z",
-   "away": "Belmont",
-   "home": "Lipscomb",
-   "away_raw": "Belmont Bruins",
-   "home_raw": "Lipscomb Bisons",
-   "started": false,
-   "neutral": false,
-   "books": 8,
-   "mkt_spread": 4.0,
-   "mkt_total": 158.0,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": 4.5,
-    "px": -120,
-    "book": "FanDuel"
-   },
-   "best_away": {
-    "pt": -3.5,
-    "px": -107,
-    "book": "BetRivers"
-   },
-   "open_spread": 4.5,
-   "open_total": 158.0,
-   "model": {
-    "poss": 76.2,
-    "away_pts": 83.0,
-    "home_pts": 77.7,
-    "home_spread": 5.3,
-    "total": 160.8
-   },
-   "away_rank": 117,
-   "home_rank": 233,
-   "flags": [],
-   "edge": 1.3,
-   "move": -0.5,
-   "total_edge": 2.8
   },
   {
    "event_id": "e3532157be1d6b149555fa8c451f13a8",
@@ -1431,21 +110,21 @@
    "home": "Murray St.",
    "away_raw": "Alcorn St Braves",
    "home_raw": "Murray St Racers",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -30.0,
-   "mkt_total": 165.5,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -29.5,
+   "mkt_total": 146.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -30.0,
-    "px": -112,
-    "book": "BetOnline"
+    "pt": -28.5,
+    "px": -115,
+    "book": "BetMGM"
    },
    "best_away": {
-    "pt": 31.5,
-    "px": -120,
-    "book": "BetRivers"
+    "pt": 30.5,
+    "px": 100,
+    "book": "FanDuel"
    },
    "open_spread": -25.5,
    "open_total": 162.5,
@@ -1459,10 +138,10 @@
    "away_rank": 357,
    "home_rank": 103,
    "flags": [],
-   "edge": 7.2,
-   "move": -4.5,
-   "total_edge": -1.4,
-   "pick": "Alcorn St. +30",
+   "edge": 6.7,
+   "move": -4.0,
+   "total_edge": 17.6,
+   "pick": "Alcorn St. +29.5",
    "pick_side": "away",
    "market": "against"
   },
@@ -1473,21 +152,21 @@
    "home": "Northern Iowa",
    "away_raw": "Green Bay Phoenix",
    "home_raw": "Northern Iowa Panthers",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -3.5,
-   "mkt_total": 151.0,
+   "books": 7,
+   "mkt_spread": -9.0,
+   "mkt_total": 163.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -3.5,
+    "pt": -7.5,
     "px": -110,
-    "book": "FanDuel"
+    "book": "BetRivers"
    },
    "best_away": {
-    "pt": 3.5,
-    "px": -104,
-    "book": "Pinnacle"
+    "pt": 13.5,
+    "px": 110,
+    "book": "BetMGM"
    },
    "open_spread": -3.5,
    "open_total": 151.0,
@@ -1501,9 +180,9 @@
    "away_rank": 171,
    "home_rank": 132,
    "flags": [],
-   "edge": -2.7,
-   "move": 0.0,
-   "total_edge": 10.8
+   "edge": 2.8,
+   "move": -5.5,
+   "total_edge": -1.7
   },
   {
    "event_id": "b7639a67e9fd75c03fd01d5e03a7072d",
@@ -1512,21 +191,21 @@
    "home": "SMU",
    "away_raw": "Prairie View Panthers",
    "home_raw": "SMU Mustangs",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 7,
-   "mkt_spread": -26.5,
-   "mkt_total": 160.0,
-   "spread_src": "Pinnacle",
+   "books": 5,
+   "mkt_spread": -38.5,
+   "mkt_total": 164.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -26.5,
-    "px": -105,
-    "book": "ESPN BET"
+    "pt": -37.5,
+    "px": -107,
+    "book": "BetRivers"
    },
    "best_away": {
-    "pt": 26.5,
-    "px": -105,
-    "book": "Bovada"
+    "pt": 38.5,
+    "px": 100,
+    "book": "ESPN BET"
    },
    "open_spread": -24.5,
    "open_total": 160.0,
@@ -1541,21 +220,21 @@
    "home": "Saint Louis",
    "away_raw": "Northern Kentucky Norse",
    "home_raw": "Saint Louis Billikens",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -23.0,
-   "mkt_total": 168.0,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -58.5,
+   "mkt_total": 187.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -23.0,
-    "px": -107,
-    "book": "Pinnacle"
+    "pt": -56.5,
+    "px": -130,
+    "book": "Bovada"
    },
    "best_away": {
-    "pt": 23.5,
-    "px": -110,
-    "book": "FanDuel"
+    "pt": 62.5,
+    "px": -115,
+    "book": "ESPN BET"
    },
    "open_spread": -23.5,
    "open_total": 167.5,
@@ -1569,12 +248,12 @@
    "away_rank": 209,
    "home_rank": 63,
    "flags": [],
-   "edge": 5.9,
-   "move": 0.5,
-   "total_edge": -8.0,
-   "pick": "Northern Kentucky +23",
+   "edge": 41.4,
+   "move": -35.0,
+   "total_edge": -27.5,
+   "pick": "Northern Kentucky +58.5",
    "pick_side": "away",
-   "market": "agrees"
+   "market": "against"
   },
   {
    "event_id": "28852ebe4de79a16cc66b6dbe95b8a35",
@@ -1583,21 +262,21 @@
    "home": "South Dakota",
    "away_raw": "Houston Christian Huskies",
    "home_raw": "South Dakota Coyotes",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -4.0,
-   "mkt_total": 155.5,
-   "spread_src": "Pinnacle",
+   "books": 5,
+   "mkt_spread": 11.5,
+   "mkt_total": 154.0,
+   "spread_src": "median",
    "best_home": {
-    "pt": -3.5,
-    "px": -110,
-    "book": "ESPN BET"
+    "pt": 11.5,
+    "px": -125,
+    "book": "Bovada"
    },
    "best_away": {
-    "pt": 4.0,
-    "px": -113,
-    "book": "BetOnline"
+    "pt": -10.5,
+    "px": -110,
+    "book": "BetMGM"
    },
    "open_spread": -2.5,
    "open_total": 156.5,
@@ -1611,32 +290,35 @@
    "away_rank": 270,
    "home_rank": 293,
    "flags": [],
-   "edge": 2.6,
-   "move": -1.5,
-   "total_edge": 1.6
+   "edge": -12.9,
+   "move": 14.0,
+   "total_edge": 3.1,
+   "pick": "South Dakota +11.5",
+   "pick_side": "home",
+   "market": "against"
   },
   {
    "event_id": "034812d38d48580c8bd4e35dab576b42",
-   "tip": "2026-11-11T01:00:00Z",
+   "tip": "2026-11-11T01:02:48Z",
    "away": "Illinois",
    "home": "Texas Tech",
    "away_raw": "Illinois Fighting Illini",
    "home_raw": "Texas Tech Red Raiders",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": 2.5,
-   "mkt_total": 166.5,
+   "books": 7,
+   "mkt_spread": -5.0,
+   "mkt_total": 160.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 2.5,
-    "px": 100,
-    "book": "Bovada"
+    "pt": -2.5,
+    "px": -125,
+    "book": "DraftKings"
    },
    "best_away": {
-    "pt": -2.0,
-    "px": -115,
-    "book": "BetOnline"
+    "pt": 5.0,
+    "px": -116,
+    "book": "Pinnacle"
    },
    "open_spread": 1.5,
    "open_total": 161.5,
@@ -1650,9 +332,96 @@
    "away_rank": 5,
    "home_rank": 15,
    "flags": [],
-   "edge": -2.1,
-   "move": 1.0,
-   "total_edge": -10.7
+   "edge": 5.4,
+   "move": -6.5,
+   "total_edge": -4.2,
+   "pick": "Illinois +5",
+   "pick_side": "away",
+   "market": "against"
+  },
+  {
+   "event_id": "c01b327672b44187cac6e56917b0784a",
+   "tip": "2026-11-11T01:03:28Z",
+   "away": "Tennessee Martin",
+   "home": "Arkansas St.",
+   "away_raw": "Tenn-Martin Skyhawks",
+   "home_raw": "Arkansas St Red Wolves",
+   "started": true,
+   "neutral": false,
+   "books": 5,
+   "mkt_spread": 16.5,
+   "mkt_total": 152.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 18.5,
+    "px": -110,
+    "book": "Bovada"
+   },
+   "best_away": {
+    "pt": -15.5,
+    "px": -130,
+    "book": "BetMGM"
+   },
+   "open_spread": -7.5,
+   "open_total": 151.5,
+   "model": {
+    "poss": 72.4,
+    "away_pts": 65.8,
+    "home_pts": 78.0,
+    "home_spread": -12.2,
+    "total": 143.8
+   },
+   "away_rank": 324,
+   "home_rank": 157,
+   "flags": [],
+   "edge": -28.7,
+   "move": 24.0,
+   "total_edge": -8.7,
+   "pick": "Arkansas St. +16.5",
+   "pick_side": "home",
+   "market": "against"
+  },
+  {
+   "event_id": "2a4b1da6788e1f02b089f8c4598f55be",
+   "tip": "2026-11-11T01:03:36Z",
+   "away": "Belmont",
+   "home": "Lipscomb",
+   "away_raw": "Belmont Bruins",
+   "home_raw": "Lipscomb Bisons",
+   "started": true,
+   "neutral": false,
+   "books": 5,
+   "mkt_spread": -8.5,
+   "mkt_total": 158.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -6.5,
+    "px": -150,
+    "book": "Bovada"
+   },
+   "best_away": {
+    "pt": 9.5,
+    "px": -140,
+    "book": "DraftKings"
+   },
+   "open_spread": 4.5,
+   "open_total": 158.0,
+   "model": {
+    "poss": 76.2,
+    "away_pts": 83.0,
+    "home_pts": 77.7,
+    "home_spread": 5.3,
+    "total": 160.8
+   },
+   "away_rank": 117,
+   "home_rank": 233,
+   "flags": [],
+   "edge": 13.8,
+   "move": -13.0,
+   "total_edge": 2.3,
+   "pick": "Belmont +8.5",
+   "pick_side": "away",
+   "market": "against"
   },
   {
    "event_id": "e43a6bbda1ba20f8e9dfcbc3466b4cdd",
@@ -1661,21 +430,21 @@
    "home": "Mississippi",
    "away_raw": "SE Louisiana Lions",
    "home_raw": "Ole Miss Rebels",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -26.0,
-   "mkt_total": 148.0,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -39.0,
+   "mkt_total": 136.0,
+   "spread_src": "median",
    "best_home": {
-    "pt": -25.5,
-    "px": -112,
-    "book": "BetRivers"
+    "pt": -38.5,
+    "px": -115,
+    "book": "BetMGM"
    },
    "best_away": {
-    "pt": 26.5,
-    "px": -112,
-    "book": "FanDuel"
+    "pt": 40.5,
+    "px": -120,
+    "book": "ESPN BET"
    },
    "open_spread": -25.5,
    "open_total": 147.5,
@@ -1689,35 +458,35 @@
    "away_rank": 257,
    "home_rank": 52,
    "flags": [],
-   "edge": 7.1,
-   "move": -0.5,
-   "total_edge": -0.4,
-   "pick": "Southeastern Louisiana +26",
+   "edge": 20.1,
+   "move": -13.5,
+   "total_edge": 11.6,
+   "pick": "Southeastern Louisiana +39",
    "pick_side": "away",
    "market": "against"
   },
   {
    "event_id": "5f5e58582b09efcd7a4b09e276546622",
-   "tip": "2026-11-11T01:30:00Z",
+   "tip": "2026-11-11T01:34:50Z",
    "away": "Fairfield",
    "home": "Wisconsin",
    "away_raw": "Fairfield Stags",
    "home_raw": "Wisconsin Badgers",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -26.0,
-   "mkt_total": 150.0,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -38.5,
+   "mkt_total": 146.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -25.5,
-    "px": -108,
-    "book": "DraftKings"
+    "pt": -37.5,
+    "px": -110,
+    "book": "BetMGM"
    },
    "best_away": {
-    "pt": 26.0,
-    "px": -117,
-    "book": "Pinnacle"
+    "pt": 40.5,
+    "px": -125,
+    "book": "Bovada"
    },
    "open_spread": -23.0,
    "open_total": 148.25,
@@ -1731,10 +500,10 @@
    "away_rank": 249,
    "home_rank": 57,
    "flags": [],
-   "edge": 7.9,
-   "move": -3.0,
-   "total_edge": -3.0,
-   "pick": "Fairfield +26",
+   "edge": 20.4,
+   "move": -15.5,
+   "total_edge": 0.5,
+   "pick": "Fairfield +38.5",
    "pick_side": "away",
    "market": "against"
   },
@@ -1745,21 +514,21 @@
    "home": "Arizona",
    "away_raw": "Northern Arizona Lumberjacks",
    "home_raw": "Arizona Wildcats",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -36.0,
-   "mkt_total": 156.0,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -40.5,
+   "mkt_total": 149.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -35.5,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": -38.5,
+    "px": -127,
+    "book": "BetRivers"
    },
    "best_away": {
-    "pt": 36.5,
+    "pt": 40.5,
     "px": -115,
-    "book": "FanDuel"
+    "book": "BetMGM"
    },
    "open_spread": -36.25,
    "open_total": 155.5,
@@ -1773,12 +542,12 @@
    "away_rank": 313,
    "home_rank": 7,
    "flags": [],
-   "edge": 5.2,
-   "move": 0.2,
-   "total_edge": -1.0,
-   "pick": "Northern Arizona +36",
+   "edge": 9.7,
+   "move": -4.2,
+   "total_edge": 5.5,
+   "pick": "Northern Arizona +40.5",
    "pick_side": "away",
-   "market": "agrees"
+   "market": "against"
   },
   {
    "event_id": "973484daa3820f01ed09cc49fdd0eafb",
@@ -1787,21 +556,21 @@
    "home": "Arizona St.",
    "away_raw": "Hofstra Pride",
    "home_raw": "Arizona St Sun Devils",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -19.0,
-   "mkt_total": 133.5,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -17.5,
+   "mkt_total": 143.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -18.5,
-    "px": -105,
-    "book": "ESPN BET"
+    "pt": -17.5,
+    "px": -106,
+    "book": "FanDuel"
    },
    "best_away": {
-    "pt": 19.0,
-    "px": -116,
-    "book": "Pinnacle"
+    "pt": 17.5,
+    "px": 100,
+    "book": "ESPN BET"
    },
    "open_spread": -15.75,
    "open_total": 134.25,
@@ -1815,10 +584,10 @@
    "away_rank": 148,
    "home_rank": 64,
    "flags": [],
-   "edge": 7.7,
-   "move": -3.2,
-   "total_edge": -0.6,
-   "pick": "Hofstra +19",
+   "edge": 6.2,
+   "move": -1.8,
+   "total_edge": -10.6,
+   "pick": "Hofstra +17.5",
    "pick_side": "away",
    "market": "against"
   },
@@ -1829,21 +598,21 @@
    "home": "BYU",
    "away_raw": "Queens University Royals",
    "home_raw": "BYU Cougars",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -29.0,
-   "mkt_total": 182.0,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -25.0,
+   "mkt_total": 190.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -28.5,
-    "px": -105,
-    "book": "ESPN BET"
+    "pt": -24.5,
+    "px": -115,
+    "book": "DraftKings"
    },
    "best_away": {
-    "pt": 29.0,
-    "px": -112,
-    "book": "Pinnacle"
+    "pt": 26.5,
+    "px": -130,
+    "book": "BetRivers"
    },
    "open_spread": -27.5,
    "open_total": 181.5,
@@ -1857,12 +626,9 @@
    "away_rank": 190,
    "home_rank": 24,
    "flags": [],
-   "edge": 6.8,
-   "move": -1.5,
-   "total_edge": -12.0,
-   "pick": "Queens +29",
-   "pick_side": "away",
-   "market": "against"
+   "edge": 2.8,
+   "move": 2.5,
+   "total_edge": -20.5
   },
   {
    "event_id": "9c96831c894928b32d315fa2542cdcdf",
@@ -1871,21 +637,21 @@
    "home": "Colorado",
    "away_raw": "San Diego Toreros",
    "home_raw": "Colorado Buffaloes",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -12.5,
-   "mkt_total": 151.5,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -5.5,
+   "mkt_total": 150.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -12.5,
-    "px": -105,
-    "book": "BetOnline"
+    "pt": -4.5,
+    "px": -125,
+    "book": "BetMGM"
    },
    "best_away": {
-    "pt": 12.5,
-    "px": -104,
-    "book": "BetRivers"
+    "pt": 6.5,
+    "px": -128,
+    "book": "FanDuel"
    },
    "open_spread": -12.75,
    "open_total": 151.25,
@@ -1899,12 +665,12 @@
    "away_rank": 141,
    "home_rank": 93,
    "flags": [],
-   "edge": 3.8,
-   "move": 0.2,
-   "total_edge": 2.3,
-   "pick": "San Diego +12.5",
-   "pick_side": "away",
-   "market": "agrees"
+   "edge": -3.2,
+   "move": 7.2,
+   "total_edge": 3.3,
+   "pick": "Colorado -5.5",
+   "pick_side": "home",
+   "market": "against"
   },
   {
    "event_id": "d59d81aa5d936c398264a0634ed0daf2",
@@ -1913,21 +679,21 @@
    "home": "Fresno St.",
    "away_raw": "Georgia St Panthers",
    "home_raw": "Fresno St Bulldogs",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -6.0,
-   "mkt_total": 146.5,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -3.5,
+   "mkt_total": 155.0,
+   "spread_src": "median",
    "best_home": {
-    "pt": -5.5,
-    "px": -114,
-    "book": "FanDuel"
+    "pt": -3.5,
+    "px": -110,
+    "book": "DraftKings"
    },
    "best_away": {
-    "pt": 6.5,
-    "px": -115,
-    "book": "DraftKings"
+    "pt": 4.5,
+    "px": -118,
+    "book": "FanDuel"
    },
    "open_spread": -6.5,
    "open_total": 148.5,
@@ -1941,9 +707,9 @@
    "away_rank": 204,
    "home_rank": 187,
    "flags": [],
-   "edge": 1.8,
-   "move": 0.5,
-   "total_edge": 5.5
+   "edge": -0.7,
+   "move": 3.0,
+   "total_edge": -3.0
   },
   {
    "event_id": "ebaf79642bc68a407f516bff30aa408b",
@@ -1952,21 +718,21 @@
    "home": "Kansas St.",
    "away_raw": "Creighton Bluejays",
    "home_raw": "Kansas St Wildcats",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": 3.5,
-   "mkt_total": 159.5,
+   "books": 7,
+   "mkt_spread": 2.5,
+   "mkt_total": 168.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 3.5,
-    "px": -110,
-    "book": "ESPN BET"
+    "pt": 6.5,
+    "px": -120,
+    "book": "Bovada"
    },
    "best_away": {
-    "pt": -3.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": -2.5,
+    "px": -115,
+    "book": "Pinnacle"
    },
    "open_spread": 3.5,
    "open_total": 156.5,
@@ -1980,9 +746,9 @@
    "away_rank": 51,
    "home_rank": 90,
    "flags": [],
-   "edge": -1.9,
-   "move": 0.0,
-   "total_edge": -1.8
+   "edge": -0.9,
+   "move": -1.0,
+   "total_edge": -10.3
   },
   {
    "event_id": "d3290a76868f2cb07a216068f5cc4669",
@@ -1991,21 +757,21 @@
    "home": "New Mexico",
    "away_raw": "Arkansas-Little Rock Trojans",
    "home_raw": "New Mexico Lobos",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -23.0,
-   "mkt_total": 158.0,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -25.5,
+   "mkt_total": 167.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -22.5,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": -24.5,
+    "px": -118,
+    "book": "BetMGM"
    },
    "best_away": {
-    "pt": 23.0,
-    "px": -107,
-    "book": "Pinnacle"
+    "pt": 26.5,
+    "px": -115,
+    "book": "ESPN BET"
    },
    "open_spread": -21.25,
    "open_total": 156.5,
@@ -2019,10 +785,10 @@
    "away_rank": 254,
    "home_rank": 68,
    "flags": [],
-   "edge": 4.9,
-   "move": -1.8,
-   "total_edge": -1.9,
-   "pick": "Little Rock +23",
+   "edge": 7.4,
+   "move": -4.2,
+   "total_edge": -11.4,
+   "pick": "Little Rock +25.5",
    "pick_side": "away",
    "market": "against"
   },
@@ -2033,21 +799,21 @@
    "home": "TCU",
    "away_raw": "UL Monroe Warhawks",
    "home_raw": "TCU Horned Frogs",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -33.5,
-   "mkt_total": 160.0,
-   "spread_src": "Pinnacle",
+   "books": 5,
+   "mkt_spread": -23.5,
+   "mkt_total": 154.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -33.5,
-    "px": -105,
-    "book": "ESPN BET"
+    "pt": -22.5,
+    "px": -125,
+    "book": "BetRivers"
    },
    "best_away": {
-    "pt": 33.5,
-    "px": -109,
-    "book": "Pinnacle"
+    "pt": 25.5,
+    "px": -118,
+    "book": "BetMGM"
    },
    "open_spread": -33.5,
    "open_total": 159.5,
@@ -2061,12 +827,12 @@
    "away_rank": 332,
    "home_rank": 45,
    "flags": [],
-   "edge": 6.0,
-   "move": 0.0,
-   "total_edge": 5.4,
-   "pick": "Louisiana Monroe +33.5",
-   "pick_side": "away",
-   "market": "flat"
+   "edge": -4.0,
+   "move": 10.0,
+   "total_edge": 10.9,
+   "pick": "TCU -23.5",
+   "pick_side": "home",
+   "market": "against"
   },
   {
    "event_id": "1697ac30f74318b8094ae3f11442cdea",
@@ -2075,20 +841,20 @@
    "home": "Utah",
    "away_raw": "Weber State Wildcats",
    "home_raw": "Utah Utes",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -16.5,
-   "mkt_total": 154.5,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -4.5,
+   "mkt_total": 148.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -16.5,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": -3.5,
+    "px": -125,
+    "book": "BetMGM"
    },
    "best_away": {
-    "pt": 16.5,
-    "px": -102,
+    "pt": 5.5,
+    "px": -122,
     "book": "FanDuel"
    },
    "open_spread": -18.25,
@@ -2105,9 +871,9 @@
    "flags": [
     "away tempo outlier (79)"
    ],
-   "edge": -0.6,
-   "move": 1.8,
-   "total_edge": 6.2
+   "edge": -12.6,
+   "move": 13.8,
+   "total_edge": 12.2
   },
   {
    "event_id": "d24e603bbb4f28d250f93c3098cf862d",
@@ -2116,21 +882,21 @@
    "home": "Utah St.",
    "away_raw": "Utah Tech Trailblazers",
    "home_raw": "Utah State Aggies",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -26.0,
-   "mkt_total": 156.5,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -28.5,
+   "mkt_total": 171.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -25.0,
-    "px": -112,
-    "book": "BetOnline"
+    "pt": -28.5,
+    "px": -109,
+    "book": "BetRivers"
    },
    "best_away": {
-    "pt": 26.0,
-    "px": -116,
-    "book": "Pinnacle"
+    "pt": 30.5,
+    "px": -110,
+    "book": "Bovada"
    },
    "open_spread": -25.75,
    "open_total": 153.5,
@@ -2144,10 +910,10 @@
    "away_rank": 317,
    "home_rank": 60,
    "flags": [],
-   "edge": 4.3,
-   "move": -0.2,
-   "total_edge": -14.6,
-   "pick": "Utah Tech +26",
+   "edge": 6.8,
+   "move": -2.8,
+   "total_edge": -29.6,
+   "pick": "Utah Tech +28.5",
    "pick_side": "away",
    "market": "against"
   },
@@ -2158,21 +924,21 @@
    "home": "Virginia",
    "away_raw": "Bucknell Bison",
    "home_raw": "Virginia Cavaliers",
-   "started": false,
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": -38.0,
-   "mkt_total": 151.0,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -38.5,
+   "mkt_total": 164.0,
+   "spread_src": "median",
    "best_home": {
-    "pt": -38.0,
-    "px": -109,
-    "book": "Pinnacle"
+    "pt": -36.5,
+    "px": -120,
+    "book": "Bovada"
    },
    "best_away": {
-    "pt": 38.5,
-    "px": -104,
-    "book": "FanDuel"
+    "pt": 40.5,
+    "px": -125,
+    "book": "BetMGM"
    },
    "open_spread": -37.5,
    "open_total": 148.5,
@@ -2186,29 +952,29 @@
    "away_rank": 355,
    "home_rank": 4,
    "flags": [],
-   "edge": 3.4,
-   "move": -0.5,
-   "total_edge": -1.0,
-   "pick": "Bucknell +38",
+   "edge": 3.9,
+   "move": -1.0,
+   "total_edge": -14.0,
+   "pick": "Bucknell +38.5",
    "pick_side": "away",
    "market": "against"
   },
   {
    "event_id": "ac091b3b15d1fcf0312f8c0500329879",
-   "tip": "2026-11-11T02:35:00Z",
+   "tip": "2026-11-11T03:00:00Z",
    "away": "Kansas",
    "home": "Kentucky",
    "away_raw": "Kansas Jayhawks",
    "home_raw": "Kentucky Wildcats",
    "started": false,
    "neutral": true,
-   "books": 8,
-   "mkt_spread": 4.5,
-   "mkt_total": 157.5,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": 4.75,
+   "mkt_total": 158.5,
+   "spread_src": "median",
    "best_home": {
     "pt": 5.5,
-    "px": -120,
+    "px": -110,
     "book": "BetRivers"
    },
    "best_away": {
@@ -2228,9 +994,9 @@
    "away_rank": 2,
    "home_rank": 35,
    "flags": [],
-   "edge": 2.9,
-   "move": -1.0,
-   "total_edge": -3.3
+   "edge": 2.7,
+   "move": -0.8,
+   "total_edge": -4.3
   },
   {
    "event_id": "ec95fa37f8cd117d2b0e8da4db83b192",
@@ -2243,7 +1009,7 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -11.5,
-   "mkt_total": 148.5,
+   "mkt_total": 147.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -11.5,
@@ -2252,8 +1018,8 @@
    },
    "best_away": {
     "pt": 11.5,
-    "px": -106,
-    "book": "FanDuel"
+    "px": -109,
+    "book": "Pinnacle"
    },
    "open_spread": -11.0,
    "open_total": 147.5,
@@ -2269,10 +1035,172 @@
    "flags": [],
    "edge": 5.8,
    "move": -0.5,
-   "total_edge": -3.7,
+   "total_edge": -2.7,
    "pick": "Montana +11.5",
    "pick_side": "away",
    "market": "against"
+  },
+  {
+   "event_id": "759951fe63ce023850658a6be1c38e38",
+   "tip": "2026-11-11T16:30:00Z",
+   "away": "Fairleigh Dickinson",
+   "home": "East Texas A&M",
+   "away_raw": "Fairleigh Dickinson Knights",
+   "home_raw": "East Texas A&M Lions",
+   "started": false,
+   "neutral": false,
+   "books": 2,
+   "mkt_spread": -10.75,
+   "mkt_total": 139.75,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -10.5,
+    "px": -110,
+    "book": "FanDuel"
+   },
+   "best_away": {
+    "pt": 11.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -10.75,
+   "open_total": 139.75,
+   "model": {
+    "poss": 69.3,
+    "away_pts": 64.4,
+    "home_pts": 74.5,
+    "home_spread": -10.1,
+    "total": 138.9
+   },
+   "away_rank": 352,
+   "home_rank": 245,
+   "flags": [],
+   "edge": 0.7,
+   "move": 0.0,
+   "total_edge": -0.8
+  },
+  {
+   "event_id": "eb4ac6c20fe9cf690a2a2409335a3341",
+   "tip": "2026-11-11T17:00:00Z",
+   "away": "UMKC",
+   "home": "Florida A&M",
+   "away_raw": "UMKC Kangaroos",
+   "home_raw": "Florida A&M Rattlers",
+   "started": false,
+   "neutral": false,
+   "books": 2,
+   "mkt_spread": 6.5,
+   "mkt_total": 152.75,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 6.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": -6.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": 6.5,
+   "open_total": 152.75,
+   "model": {
+    "poss": 71.2,
+    "away_pts": 74.9,
+    "home_pts": 76.4,
+    "home_spread": -1.5,
+    "total": 151.4
+   },
+   "away_rank": 294,
+   "home_rank": 315,
+   "flags": [],
+   "edge": -8.0,
+   "move": 0.0,
+   "total_edge": -1.3,
+   "pick": "Florida A&M +6.5",
+   "pick_side": "home",
+   "market": "flat"
+  },
+  {
+   "event_id": "aa97877f068fe75687ae212a2c848bd9",
+   "tip": "2026-11-11T18:00:00Z",
+   "away": "Dartmouth",
+   "home": "Albany",
+   "away_raw": "Dartmouth Big Green",
+   "home_raw": "Albany Great Danes",
+   "started": false,
+   "neutral": false,
+   "books": 5,
+   "mkt_spread": 1.5,
+   "mkt_total": 143.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 2.5,
+    "px": -110,
+    "book": "FanDuel"
+   },
+   "best_away": {
+    "pt": -1.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": 1.5,
+   "open_total": 143.5,
+   "model": {
+    "poss": 68.2,
+    "away_pts": 67.1,
+    "home_pts": 70.2,
+    "home_spread": -3.1,
+    "total": 137.4
+   },
+   "away_rank": 312,
+   "home_rank": 309,
+   "flags": [],
+   "edge": -4.6,
+   "move": 0.0,
+   "total_edge": -6.1,
+   "pick": "Albany +1.5",
+   "pick_side": "home",
+   "market": "flat"
+  },
+  {
+   "event_id": "8a85464bb774b0a913a1c829899c30c2",
+   "tip": "2026-11-11T19:11:00Z",
+   "away": "Incarnate Word",
+   "home": "UC Davis",
+   "away_raw": "Incarnate Word Cardinals",
+   "home_raw": "UC Davis Aggies",
+   "started": false,
+   "neutral": false,
+   "books": 3,
+   "mkt_spread": -11.5,
+   "mkt_total": 146.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -11.5,
+    "px": -115,
+    "book": "ESPN BET"
+   },
+   "best_away": {
+    "pt": 12.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -11.5,
+   "open_total": 146.0,
+   "model": {
+    "poss": 70.7,
+    "away_pts": 65.8,
+    "home_pts": 77.5,
+    "home_spread": -11.8,
+    "total": 143.3
+   },
+   "away_rank": 346,
+   "home_rank": 199,
+   "flags": [],
+   "edge": -0.3,
+   "move": 0.0,
+   "total_edge": -2.7
   },
   {
    "event_id": "b4a1814a6efc7eb096e5ac5e857915b5",
@@ -2283,19 +1211,19 @@
    "home_raw": "Air Force Falcons",
    "started": false,
    "neutral": false,
-   "books": 2,
-   "mkt_spread": 8.5,
-   "mkt_total": 155.5,
+   "books": 6,
+   "mkt_spread": 9.5,
+   "mkt_total": 162.5,
    "spread_src": "median",
    "best_home": {
-    "pt": 8.5,
+    "pt": 9.5,
     "px": -105,
-    "book": "BetOnline"
+    "book": "ESPN BET"
    },
    "best_away": {
-    "pt": -8.5,
-    "px": -115,
-    "book": "BetOnline"
+    "pt": -9.5,
+    "px": -102,
+    "book": "FanDuel"
    },
    "open_spread": 8.5,
    "open_total": 155.5,
@@ -2309,9 +1237,12 @@
    "away_rank": 143,
    "home_rank": 286,
    "flags": [],
-   "edge": -2.6,
-   "move": 0.0,
-   "total_edge": 8.2
+   "edge": -3.6,
+   "move": 1.0,
+   "total_edge": 1.2,
+   "pick": "Air Force +9.5",
+   "pick_side": "home",
+   "market": "against"
   },
   {
    "event_id": "fb4e0baed91adfe2f7de6ca28ed533e8",
@@ -2322,19 +1253,19 @@
    "home_raw": "Saint Joseph's Hawks",
    "started": false,
    "neutral": false,
-   "books": 2,
-   "mkt_spread": 6.75,
-   "mkt_total": 150.75,
+   "books": 6,
+   "mkt_spread": 7.5,
+   "mkt_total": 152.5,
    "spread_src": "median",
    "best_home": {
-    "pt": 7.0,
-    "px": -115,
-    "book": "BetOnline"
+    "pt": 7.5,
+    "px": -105,
+    "book": "DraftKings"
    },
    "best_away": {
-    "pt": -6.5,
-    "px": -110,
-    "book": "ESPN BET"
+    "pt": -7.5,
+    "px": -106,
+    "book": "FanDuel"
    },
    "open_spread": 7.0,
    "open_total": 151.0,
@@ -2348,12 +1279,12 @@
    "away_rank": 96,
    "home_rank": 131,
    "flags": [],
-   "edge": -6.0,
-   "move": -0.2,
-   "total_edge": -3.2,
-   "pick": "Saint Joseph's +6.75",
+   "edge": -6.7,
+   "move": 0.5,
+   "total_edge": -4.9,
+   "pick": "Saint Joseph's +7.5",
    "pick_side": "home",
-   "market": "agrees"
+   "market": "against"
   },
   {
    "event_id": "83af3d625408a5c5f1b726fe740fc2ef",
@@ -2364,7 +1295,7 @@
    "home_raw": "East Carolina Pirates",
    "started": false,
    "neutral": false,
-   "books": 2,
+   "books": 7,
    "mkt_spread": -10.5,
    "mkt_total": 151.5,
    "spread_src": "median",
@@ -2375,8 +1306,8 @@
    },
    "best_away": {
     "pt": 10.5,
-    "px": -110,
-    "book": "BetOnline"
+    "px": -107,
+    "book": "BetRivers"
    },
    "open_spread": -10.5,
    "open_total": 151.5,
@@ -2395,6 +1326,123 @@
    "total_edge": 3.8
   },
   {
+   "event_id": "0c0027ceb34cc2898a318f1453a25a68",
+   "tip": "2026-11-11T22:00:00Z",
+   "away": "Bethune Cookman",
+   "home": "San Diego St.",
+   "away_raw": "Bethune-Cookman Wildcats",
+   "home_raw": "San Diego St Aztecs",
+   "started": false,
+   "neutral": false,
+   "books": 5,
+   "mkt_spread": -18.5,
+   "mkt_total": 152.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -18.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 18.5,
+    "px": -105,
+    "book": "FanDuel"
+   },
+   "open_spread": -18.5,
+   "open_total": 152.5,
+   "model": {
+    "poss": 73.2,
+    "away_pts": 68.5,
+    "home_pts": 84.8,
+    "home_spread": -16.3,
+    "total": 153.2
+   },
+   "away_rank": 189,
+   "home_rank": 50,
+   "flags": [],
+   "edge": 2.2,
+   "move": 0.0,
+   "total_edge": 0.7
+  },
+  {
+   "event_id": "b153a909b36dcd998bab181db782802c",
+   "tip": "2026-11-11T22:30:00Z",
+   "away": "Penn",
+   "home": "Navy",
+   "away_raw": "Pennsylvania Quakers",
+   "home_raw": "Navy Midshipmen",
+   "started": false,
+   "neutral": false,
+   "books": 5,
+   "mkt_spread": 9.5,
+   "mkt_total": 149.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 10.5,
+    "px": -120,
+    "book": "FanDuel"
+   },
+   "best_away": {
+    "pt": -9.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": 9.5,
+   "open_total": 149.0,
+   "model": {
+    "poss": 72.1,
+    "away_pts": 76.4,
+    "home_pts": 67.5,
+    "home_spread": 8.9,
+    "total": 143.9
+   },
+   "away_rank": 124,
+   "home_rank": 322,
+   "flags": [],
+   "edge": -0.6,
+   "move": 0.0,
+   "total_edge": -5.1
+  },
+  {
+   "event_id": "5b6355f8a6a8f6fe34a477c2b8e3a7e7",
+   "tip": "2026-11-11T23:00:00Z",
+   "away": "North Carolina Central",
+   "home": "VMI",
+   "away_raw": "North Carolina Central Eagles",
+   "home_raw": "VMI Keydets",
+   "started": false,
+   "neutral": false,
+   "books": 5,
+   "mkt_spread": -6.5,
+   "mkt_total": 151.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -5.5,
+    "px": -120,
+    "book": "FanDuel"
+   },
+   "best_away": {
+    "pt": 6.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -6.5,
+   "open_total": 151.5,
+   "model": {
+    "poss": 71.1,
+    "away_pts": 71.4,
+    "home_pts": 75.8,
+    "home_spread": -4.3,
+    "total": 147.2
+   },
+   "away_rank": 343,
+   "home_rank": 329,
+   "flags": [],
+   "edge": 2.2,
+   "move": 0.0,
+   "total_edge": -4.3
+  },
+  {
    "event_id": "460ff0fdd5edcbe00e3f8cb6e74d6fbb",
    "tip": "2026-11-11T23:30:00Z",
    "away": "Southern Indiana",
@@ -2403,19 +1451,19 @@
    "home_raw": "IUPUI Jaguars",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -7.0,
-   "mkt_total": 160.0,
+   "books": 6,
+   "mkt_spread": -7.5,
+   "mkt_total": 164.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -7.0,
-    "px": -115,
-    "book": "BetOnline"
+    "pt": -7.5,
+    "px": -105,
+    "book": "FanDuel"
    },
    "best_away": {
-    "pt": 7.0,
-    "px": -105,
-    "book": "BetOnline"
+    "pt": 7.5,
+    "px": -108,
+    "book": "DraftKings"
    },
    "open_spread": -7.0,
    "open_total": 160.0,
@@ -2429,9 +1477,9 @@
    "away_rank": 325,
    "home_rank": 292,
    "flags": [],
-   "edge": 1.3,
-   "move": 0.0,
-   "total_edge": -1.4
+   "edge": 1.8,
+   "move": -0.5,
+   "total_edge": -5.9
   },
   {
    "event_id": "c07a4ccdd6e2560b5829395b56863dc1",
@@ -2442,19 +1490,19 @@
    "home_raw": "Temple Owls",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": 0.0,
-   "mkt_total": 152.5,
+   "books": 6,
+   "mkt_spread": -1.5,
+   "mkt_total": 155.5,
    "spread_src": "median",
    "best_home": {
-    "pt": 0.0,
-    "px": -115,
-    "book": "BetOnline"
+    "pt": 1.5,
+    "px": -122,
+    "book": "FanDuel"
    },
    "best_away": {
-    "pt": 0.0,
-    "px": -105,
-    "book": "BetOnline"
+    "pt": 1.5,
+    "px": -110,
+    "book": "BetMGM"
    },
    "open_spread": 0.0,
    "open_total": 152.5,
@@ -2468,12 +1516,9 @@
    "away_rank": 149,
    "home_rank": 138,
    "flags": [],
-   "edge": -4.4,
-   "move": 0.0,
-   "total_edge": 2.2,
-   "pick": "Temple PK",
-   "pick_side": "home",
-   "market": "flat"
+   "edge": -2.9,
+   "move": -1.5,
+   "total_edge": -0.8
   },
   {
    "event_id": "6f26440351de53a17fb83781075b7698",
@@ -2484,14 +1529,14 @@
    "home_raw": "Delaware Blue Hens",
    "started": false,
    "neutral": false,
-   "books": 1,
+   "books": 6,
    "mkt_spread": 3.5,
-   "mkt_total": 147.5,
+   "mkt_total": 149.5,
    "spread_src": "median",
    "best_home": {
-    "pt": 3.5,
-    "px": -105,
-    "book": "BetOnline"
+    "pt": 4.5,
+    "px": -120,
+    "book": "FanDuel"
    },
    "best_away": {
     "pt": -3.5,
@@ -2512,7 +1557,46 @@
    "flags": [],
    "edge": -0.4,
    "move": 1.0,
-   "total_edge": 2.0
+   "total_edge": 0.0
+  },
+  {
+   "event_id": "8b314bb996afeb1b0f15096a0d385ef0",
+   "tip": "2026-11-12T00:00:00Z",
+   "away": "American",
+   "home": "Drexel",
+   "away_raw": "American Eagles",
+   "home_raw": "Drexel Dragons",
+   "started": false,
+   "neutral": false,
+   "books": 2,
+   "mkt_spread": -1.25,
+   "mkt_total": 140.75,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -1.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 1.5,
+    "px": -120,
+    "book": "ESPN BET"
+   },
+   "open_spread": -1.25,
+   "open_total": 140.75,
+   "model": {
+    "poss": 67.5,
+    "away_pts": 68.6,
+    "home_pts": 68.0,
+    "home_spread": 0.6,
+    "total": 136.6
+   },
+   "away_rank": 184,
+   "home_rank": 262,
+   "flags": [],
+   "edge": 1.9,
+   "move": 0.0,
+   "total_edge": -4.2
   },
   {
    "event_id": "3701dfd3294546a83cc0c666d61f49eb",
@@ -2523,19 +1607,19 @@
    "home_raw": "East Tennessee St Buccaneers",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -5.0,
-   "mkt_total": 146.5,
+   "books": 4,
+   "mkt_spread": -5.25,
+   "mkt_total": 147.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -5.0,
+    "pt": -4.5,
     "px": -110,
-    "book": "BetOnline"
+    "book": "ESPN BET"
    },
    "best_away": {
-    "pt": 5.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": 6.5,
+    "px": -115,
+    "book": "Bovada"
    },
    "open_spread": -5.0,
    "open_total": 146.5,
@@ -2549,9 +1633,9 @@
    "away_rank": 228,
    "home_rank": 166,
    "flags": [],
-   "edge": -1.4,
-   "move": 0.0,
-   "total_edge": -3.2
+   "edge": -1.2,
+   "move": -0.2,
+   "total_edge": -4.2
   },
   {
    "event_id": "a5647dffff37f54bd901019578095560",
@@ -2562,19 +1646,19 @@
    "home_raw": "Florida Atlantic Owls",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -5.0,
-   "mkt_total": 162.5,
+   "books": 6,
+   "mkt_spread": -4.5,
+   "mkt_total": 165.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -5.0,
-    "px": -115,
+    "pt": -4.5,
+    "px": -110,
     "book": "BetOnline"
    },
    "best_away": {
-    "pt": 5.0,
-    "px": -105,
-    "book": "BetOnline"
+    "pt": 4.5,
+    "px": -102,
+    "book": "FanDuel"
    },
    "open_spread": -5.0,
    "open_total": 162.5,
@@ -2588,9 +1672,48 @@
    "away_rank": 183,
    "home_rank": 140,
    "flags": [],
-   "edge": -1.0,
+   "edge": -1.5,
+   "move": 0.5,
+   "total_edge": -7.4
+  },
+  {
+   "event_id": "9e33af22fe8e08e53ec595237d2c8ee9",
+   "tip": "2026-11-12T00:00:00Z",
+   "away": "Furman",
+   "home": "Holy Cross",
+   "away_raw": "Furman Paladins",
+   "home_raw": "Holy Cross Crusaders",
+   "started": false,
+   "neutral": false,
+   "books": 5,
+   "mkt_spread": 12.5,
+   "mkt_total": 149.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 12.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": -12.5,
+    "px": -102,
+    "book": "FanDuel"
+   },
+   "open_spread": 12.5,
+   "open_total": 149.5,
+   "model": {
+    "poss": 68.0,
+    "away_pts": 79.9,
+    "home_pts": 68.4,
+    "home_spread": 11.6,
+    "total": 148.3
+   },
+   "away_rank": 128,
+   "home_rank": 351,
+   "flags": [],
+   "edge": -0.9,
    "move": 0.0,
-   "total_edge": -4.4
+   "total_edge": -1.2
   },
   {
    "event_id": "6712d238dc9bc8354686dde1ee6cd6f2",
@@ -2601,9 +1724,9 @@
    "home_raw": "Indiana St Sycamores",
    "started": false,
    "neutral": false,
-   "books": 1,
+   "books": 5,
    "mkt_spread": -4.5,
-   "mkt_total": 151.5,
+   "mkt_total": 153.5,
    "spread_src": "median",
    "best_home": {
     "pt": -4.5,
@@ -2612,8 +1735,8 @@
    },
    "best_away": {
     "pt": 4.5,
-    "px": -110,
-    "book": "BetOnline"
+    "px": -108,
+    "book": "DraftKings"
    },
    "open_spread": -4.5,
    "open_total": 151.5,
@@ -2629,7 +1752,46 @@
    "flags": [],
    "edge": 0.2,
    "move": 0.0,
-   "total_edge": 1.2
+   "total_edge": -0.8
+  },
+  {
+   "event_id": "231f3efb3503e4f16e17f3d798e3a5b7",
+   "tip": "2026-11-12T00:00:00Z",
+   "away": "UMass Lowell",
+   "home": "Massachusetts",
+   "away_raw": "UMass Lowell River Hawks",
+   "home_raw": "Massachusetts Minutemen",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -11.0,
+   "mkt_total": 145.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -11.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 11.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -11.0,
+   "open_total": 145.5,
+   "model": {
+    "poss": 72.6,
+    "away_pts": 69.5,
+    "home_pts": 79.1,
+    "home_spread": -9.6,
+    "total": 148.6
+   },
+   "away_rank": 297,
+   "home_rank": 182,
+   "flags": [],
+   "edge": 1.4,
+   "move": 0.0,
+   "total_edge": 3.1
   },
   {
    "event_id": "c5a909abd1412b4f70b5e5448a0b3b13",
@@ -2640,19 +1802,19 @@
    "home_raw": "Michigan Wolverines",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -4.5,
-   "mkt_total": 153.5,
+   "books": 7,
+   "mkt_spread": -3.5,
+   "mkt_total": 158.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -4.5,
+    "pt": -3.5,
     "px": -110,
     "book": "BetOnline"
    },
    "best_away": {
     "pt": 4.5,
-    "px": -110,
-    "book": "BetOnline"
+    "px": -115,
+    "book": "FanDuel"
    },
    "open_spread": -4.5,
    "open_total": 153.5,
@@ -2666,9 +1828,90 @@
    "away_rank": 23,
    "home_rank": 21,
    "flags": [],
+   "edge": 0.0,
+   "move": 1.0,
+   "total_edge": -5.9
+  },
+  {
+   "event_id": "be610990e854e57a0d8fc4d4b56f5ec2",
+   "tip": "2026-11-12T00:00:00Z",
+   "away": "Old Dominion",
+   "home": "Norfolk St.",
+   "away_raw": "Old Dominion Monarchs",
+   "home_raw": "Norfolk St Spartans",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": 5.5,
+   "mkt_total": 145.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 5.5,
+    "px": -115,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": -5.5,
+    "px": -105,
+    "book": "BetOnline"
+   },
+   "open_spread": 5.5,
+   "open_total": 145.0,
+   "model": {
+    "poss": 69.0,
+    "away_pts": 76.3,
+    "home_pts": 69.9,
+    "home_spread": 6.5,
+    "total": 146.2
+   },
+   "away_rank": 191,
+   "home_rank": 340,
+   "flags": [],
    "edge": 1.0,
    "move": 0.0,
-   "total_edge": -0.9
+   "total_edge": 1.2
+  },
+  {
+   "event_id": "f775ba08093ec59845cac67fe33e8803",
+   "tip": "2026-11-12T00:00:00Z",
+   "away": "South Carolina St.",
+   "home": "Notre Dame",
+   "away_raw": "South Carolina St Bulldogs",
+   "home_raw": "Notre Dame Fighting Irish",
+   "started": false,
+   "neutral": false,
+   "books": 3,
+   "mkt_spread": -26.0,
+   "mkt_total": 148.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -25.5,
+    "px": -115,
+    "book": "ESPN BET"
+   },
+   "best_away": {
+    "pt": 26.5,
+    "px": -118,
+    "book": "BetMGM"
+   },
+   "open_spread": -26.0,
+   "open_total": 148.0,
+   "model": {
+    "poss": 71.0,
+    "away_pts": 65.3,
+    "home_pts": 86.6,
+    "home_spread": -21.3,
+    "total": 151.9
+   },
+   "away_rank": 316,
+   "home_rank": 72,
+   "flags": [],
+   "edge": 4.7,
+   "move": 0.0,
+   "total_edge": 3.9,
+   "pick": "South Carolina St. +26",
+   "pick_side": "away",
+   "market": "flat"
   },
   {
    "event_id": "4759cdf6363bef48c1455c003b0d4645",
@@ -2679,19 +1922,19 @@
    "home_raw": "Princeton Tigers",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -4.0,
-   "mkt_total": 138.0,
+   "books": 5,
+   "mkt_spread": -4.5,
+   "mkt_total": 137.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -4.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": -4.5,
+    "px": -115,
+    "book": "ESPN BET"
    },
    "best_away": {
-    "pt": 4.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": 5.5,
+    "px": -115,
+    "book": "BetMGM"
    },
    "open_spread": -4.0,
    "open_total": 138.0,
@@ -2705,9 +1948,9 @@
    "away_rank": 219,
    "home_rank": 181,
    "flags": [],
-   "edge": -1.1,
-   "move": 0.0,
-   "total_edge": 2.6
+   "edge": -0.6,
+   "move": -0.5,
+   "total_edge": 3.1
   },
   {
    "event_id": "ab097a031b98bea79556def8937e59c5",
@@ -2718,9 +1961,9 @@
    "home_raw": "South Carolina Gamecocks",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -21.5,
-   "mkt_total": 128.5,
+   "books": 6,
+   "mkt_spread": -22.5,
+   "mkt_total": 127.5,
    "spread_src": "median",
    "best_home": {
     "pt": -21.5,
@@ -2728,9 +1971,9 @@
     "book": "BetOnline"
    },
    "best_away": {
-    "pt": 21.5,
-    "px": -105,
-    "book": "BetOnline"
+    "pt": 22.5,
+    "px": -110,
+    "book": "FanDuel"
    },
    "open_spread": -21.5,
    "open_total": 128.5,
@@ -2744,12 +1987,12 @@
    "away_rank": 304,
    "home_rank": 94,
    "flags": [],
-   "edge": 5.6,
-   "move": 0.0,
-   "total_edge": 1.1,
-   "pick": "Saint Peter's +21.5",
+   "edge": 6.6,
+   "move": -1.0,
+   "total_edge": 2.1,
+   "pick": "Saint Peter's +22.5",
    "pick_side": "away",
-   "market": "flat"
+   "market": "against"
   },
   {
    "event_id": "2ad8e525847167b94b3fe19623b9447a",
@@ -2760,19 +2003,19 @@
    "home_raw": "St. Bonaventure Bonnies",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -8.0,
-   "mkt_total": 154.5,
+   "books": 5,
+   "mkt_spread": -9.5,
+   "mkt_total": 156.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -8.0,
+    "pt": -9.0,
     "px": -110,
     "book": "BetOnline"
    },
    "best_away": {
-    "pt": 8.0,
+    "pt": 9.5,
     "px": -110,
-    "book": "BetOnline"
+    "book": "ESPN BET"
    },
    "open_spread": -8.0,
    "open_total": 154.5,
@@ -2786,11 +2029,50 @@
    "away_rank": 229,
    "home_rank": 115,
    "flags": [],
-   "edge": -3.0,
+   "edge": -1.5,
+   "move": -1.5,
+   "total_edge": -2.9
+  },
+  {
+   "event_id": "d4d1389e55bdbfb24f58904d81877ca3",
+   "tip": "2026-11-12T00:00:00Z",
+   "away": "Colgate",
+   "home": "St. John's",
+   "away_raw": "Colgate Raiders",
+   "home_raw": "St. John's Red Storm",
+   "started": false,
+   "neutral": false,
+   "books": 3,
+   "mkt_spread": -27.5,
+   "mkt_total": 155.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -26.5,
+    "px": -106,
+    "book": "FanDuel"
+   },
+   "best_away": {
+    "pt": 27.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -27.5,
+   "open_total": 155.0,
+   "model": {
+    "poss": 72.6,
+    "away_pts": 66.7,
+    "home_pts": 89.9,
+    "home_spread": -23.2,
+    "total": 156.6
+   },
+   "away_rank": 211,
+   "home_rank": 14,
+   "flags": [],
+   "edge": 4.3,
    "move": 0.0,
-   "total_edge": -0.9,
-   "pick": "St. Bonaventure -8",
-   "pick_side": "home",
+   "total_edge": 1.6,
+   "pick": "Colgate +27.5",
+   "pick_side": "away",
    "market": "flat"
   },
   {
@@ -2802,19 +2084,19 @@
    "home_raw": "UNC Wilmington Seahawks",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -7.0,
-   "mkt_total": 154.5,
+   "books": 6,
+   "mkt_spread": -7.5,
+   "mkt_total": 155.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -7.0,
+    "pt": -6.5,
     "px": -110,
-    "book": "BetOnline"
+    "book": "FanDuel"
    },
    "best_away": {
-    "pt": 7.0,
+    "pt": 7.5,
     "px": -110,
-    "book": "BetOnline"
+    "book": "ESPN BET"
    },
    "open_spread": -7.0,
    "open_total": 154.5,
@@ -2828,9 +2110,90 @@
    "away_rank": 162,
    "home_rank": 112,
    "flags": [],
-   "edge": -0.6,
+   "edge": -0.1,
+   "move": -0.5,
+   "total_edge": -4.0
+  },
+  {
+   "event_id": "9b4db17df2378cbaea3151c4ba09821d",
+   "tip": "2026-11-12T00:00:00Z",
+   "away": "NJIT",
+   "home": "VCU",
+   "away_raw": "NJIT Highlanders",
+   "home_raw": "VCU Rams",
+   "started": false,
+   "neutral": false,
+   "books": 5,
+   "mkt_spread": -30.5,
+   "mkt_total": 147.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -28.5,
+    "px": -118,
+    "book": "FanDuel"
+   },
+   "best_away": {
+    "pt": 30.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -30.5,
+   "open_total": 147.5,
+   "model": {
+    "poss": 70.0,
+    "away_pts": 62.4,
+    "home_pts": 84.7,
+    "home_spread": -22.3,
+    "total": 147.0
+   },
+   "away_rank": 320,
+   "home_rank": 62,
+   "flags": [],
+   "edge": 8.2,
    "move": 0.0,
-   "total_edge": -3.0
+   "total_edge": -0.5,
+   "pick": "NJIT +30.5",
+   "pick_side": "away",
+   "market": "flat"
+  },
+  {
+   "event_id": "054b7912292716f7455b29caa6b9d6cf",
+   "tip": "2026-11-12T00:00:00Z",
+   "away": "UNC Asheville",
+   "home": "West Georgia",
+   "away_raw": "UNC Asheville Bulldogs",
+   "home_raw": "West Georgia Wolves",
+   "started": false,
+   "neutral": false,
+   "books": 2,
+   "mkt_spread": -1.5,
+   "mkt_total": 147.75,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -1.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 1.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -1.5,
+   "open_total": 147.75,
+   "model": {
+    "poss": 71.4,
+    "away_pts": 73.2,
+    "home_pts": 74.8,
+    "home_spread": -1.6,
+    "total": 148.1
+   },
+   "away_rank": 281,
+   "home_rank": 302,
+   "flags": [],
+   "edge": -0.1,
+   "move": 0.0,
+   "total_edge": 0.3
   },
   {
    "event_id": "cec8567863868eee57cefdef4d499a5a",
@@ -2841,19 +2204,19 @@
    "home_raw": "Sam Houston St Bearkats",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": 0.0,
-   "mkt_total": 159.0,
+   "books": 6,
+   "mkt_spread": 1.5,
+   "mkt_total": 160.5,
    "spread_src": "median",
    "best_home": {
-    "pt": 0.0,
-    "px": -115,
+    "pt": 1.5,
+    "px": -105,
     "book": "BetOnline"
    },
    "best_away": {
-    "pt": 0.0,
-    "px": -105,
-    "book": "BetOnline"
+    "pt": 0.5,
+    "px": -136,
+    "book": "BetRivers"
    },
    "open_spread": 0.0,
    "open_total": 159.0,
@@ -2867,12 +2230,51 @@
    "away_rank": 153,
    "home_rank": 154,
    "flags": [],
-   "edge": -3.0,
-   "move": 0.0,
-   "total_edge": -1.8,
-   "pick": "Sam Houston St. PK",
+   "edge": -4.5,
+   "move": 1.5,
+   "total_edge": -3.3,
+   "pick": "Sam Houston St. +1.5",
    "pick_side": "home",
-   "market": "flat"
+   "market": "against"
+  },
+  {
+   "event_id": "5d71d9f77f845ab0748462e4714c0215",
+   "tip": "2026-11-12T01:00:00Z",
+   "away": "Stephen F. Austin",
+   "home": "Abilene Christian",
+   "away_raw": "Stephen F. Austin Lumberjacks",
+   "home_raw": "Abilene Christian Wildcats",
+   "started": false,
+   "neutral": false,
+   "books": 2,
+   "mkt_spread": 4.25,
+   "mkt_total": 143.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 4.5,
+    "px": -115,
+    "book": "ESPN BET"
+   },
+   "best_away": {
+    "pt": -4.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": 4.25,
+   "open_total": 143.5,
+   "model": {
+    "poss": 69.6,
+    "away_pts": 73.8,
+    "home_pts": 68.6,
+    "home_spread": 5.1,
+    "total": 142.4
+   },
+   "away_rank": 129,
+   "home_rank": 271,
+   "flags": [],
+   "edge": 0.8,
+   "move": 0.0,
+   "total_edge": -1.1
   },
   {
    "event_id": "727c66ecc80b721c8a7b0252fe67f115",
@@ -2883,18 +2285,18 @@
    "home_raw": "Arkansas Razorbacks",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -29.5,
-   "mkt_total": 154.5,
+   "books": 6,
+   "mkt_spread": -31.5,
+   "mkt_total": 157.75,
    "spread_src": "median",
    "best_home": {
-    "pt": -29.5,
-    "px": -115,
-    "book": "BetOnline"
+    "pt": -30.5,
+    "px": -105,
+    "book": "FanDuel"
    },
    "best_away": {
-    "pt": 29.5,
-    "px": -105,
+    "pt": 34.0,
+    "px": 100,
     "book": "BetOnline"
    },
    "open_spread": -29.5,
@@ -2909,12 +2311,12 @@
    "away_rank": 197,
    "home_rank": 27,
    "flags": [],
-   "edge": 10.2,
-   "move": 0.0,
-   "total_edge": -6.4,
-   "pick": "Robert Morris +29.5",
+   "edge": 12.2,
+   "move": -2.0,
+   "total_edge": -9.7,
+   "pick": "Robert Morris +31.5",
    "pick_side": "away",
-   "market": "flat"
+   "market": "against"
   },
   {
    "event_id": "8be8e7e6cde374ce6f951b17a29a62c3",
@@ -2925,19 +2327,19 @@
    "home_raw": "Houston Cougars",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -35.0,
-   "mkt_total": 137.5,
+   "books": 6,
+   "mkt_spread": -37.25,
+   "mkt_total": 136.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -35.0,
-    "px": -105,
-    "book": "BetOnline"
+    "pt": -34.5,
+    "px": -110,
+    "book": "Bovada"
    },
    "best_away": {
-    "pt": 35.0,
-    "px": -115,
-    "book": "BetOnline"
+    "pt": 37.5,
+    "px": -110,
+    "book": "BetMGM"
    },
    "open_spread": -35.0,
    "open_total": 137.5,
@@ -2951,12 +2353,12 @@
    "away_rank": 212,
    "home_rank": 6,
    "flags": [],
-   "edge": 11.4,
-   "move": 0.0,
-   "total_edge": -0.7,
-   "pick": "Jacksonville St. +35",
+   "edge": 13.6,
+   "move": -2.2,
+   "total_edge": 0.3,
+   "pick": "Jacksonville St. +37.25",
    "pick_side": "away",
-   "market": "flat"
+   "market": "against"
   },
   {
    "event_id": "797335cb74e596831cb223b996eda670",
@@ -2967,18 +2369,18 @@
    "home_raw": "North Texas Mean Green",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": 1.0,
-   "mkt_total": 150.0,
+   "books": 5,
+   "mkt_spread": 2.5,
+   "mkt_total": 150.5,
    "spread_src": "median",
    "best_home": {
-    "pt": 1.0,
-    "px": -115,
+    "pt": 2.5,
+    "px": -110,
     "book": "BetOnline"
    },
    "best_away": {
-    "pt": -1.0,
-    "px": -105,
+    "pt": -2.5,
+    "px": -110,
     "book": "BetOnline"
    },
    "open_spread": 1.0,
@@ -2993,9 +2395,9 @@
    "away_rank": 79,
    "home_rank": 116,
    "flags": [],
-   "edge": 0.2,
-   "move": 0.0,
-   "total_edge": -1.1
+   "edge": -1.3,
+   "move": 1.5,
+   "total_edge": -1.6
   },
   {
    "event_id": "7a535301a94288a573a2206f13a52cd9",
@@ -3006,19 +2408,19 @@
    "home_raw": "South Dakota St Jackrabbits",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": 2.0,
+   "books": 5,
+   "mkt_spread": 1.5,
    "mkt_total": 142.5,
    "spread_src": "median",
    "best_home": {
-    "pt": 2.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": 1.5,
+    "px": -122,
+    "book": "DraftKings"
    },
    "best_away": {
-    "pt": -2.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": 1.5,
+    "px": -120,
+    "book": "BetMGM"
    },
    "open_spread": 2.0,
    "open_total": 142.5,
@@ -3032,9 +2434,48 @@
    "away_rank": 137,
    "home_rank": 246,
    "flags": [],
-   "edge": 1.3,
-   "move": 0.0,
+   "edge": 1.8,
+   "move": -0.5,
    "total_edge": 0.2
+  },
+  {
+   "event_id": "b6e943b2f08200881262b4621a7871ba",
+   "tip": "2026-11-12T01:00:00Z",
+   "away": "Jackson St.",
+   "home": "Southern Miss",
+   "away_raw": "Jackson St Tigers",
+   "home_raw": "Southern Miss Golden Eagles",
+   "started": false,
+   "neutral": false,
+   "books": 2,
+   "mkt_spread": -7.5,
+   "mkt_total": 150.75,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -7.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 7.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -7.5,
+   "open_total": 150.75,
+   "model": {
+    "poss": 76.4,
+    "away_pts": 77.6,
+    "home_pts": 84.1,
+    "home_spread": -6.5,
+    "total": 161.7
+   },
+   "away_rank": 280,
+   "home_rank": 214,
+   "flags": [],
+   "edge": 1.0,
+   "move": 0.0,
+   "total_edge": 10.9
   },
   {
    "event_id": "b4c3775da0df075aa79f9f881d83ffde",
@@ -3045,19 +2486,19 @@
    "home_raw": "Tulsa Golden Hurricane",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -19.0,
-   "mkt_total": 153.5,
+   "books": 6,
+   "mkt_spread": -17.5,
+   "mkt_total": 154.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -19.0,
+    "pt": -17.0,
     "px": -110,
     "book": "BetOnline"
    },
    "best_away": {
-    "pt": 19.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": 17.5,
+    "px": -102,
+    "book": "FanDuel"
    },
    "open_spread": -19.0,
    "open_total": 153.5,
@@ -3071,9 +2512,51 @@
    "away_rank": 269,
    "home_rank": 87,
    "flags": [],
-   "edge": 2.7,
+   "edge": 1.2,
+   "move": 1.5,
+   "total_edge": -1.1
+  },
+  {
+   "event_id": "88cb10182238db0c3ef64ab9db01064f",
+   "tip": "2026-11-12T02:00:00Z",
+   "away": "Oakland",
+   "home": "Boise St.",
+   "away_raw": "Oakland Golden Grizzlies",
+   "home_raw": "Boise State Broncos",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -18.0,
+   "mkt_total": 162.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -18.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 18.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -18.0,
+   "open_total": 162.5,
+   "model": {
+    "poss": 68.9,
+    "away_pts": 65.5,
+    "home_pts": 79.5,
+    "home_spread": -14.0,
+    "total": 144.9
+   },
+   "away_rank": 227,
+   "home_rank": 82,
+   "flags": [],
+   "edge": 4.0,
    "move": 0.0,
-   "total_edge": -0.1
+   "total_edge": -17.6,
+   "pick": "Oakland +18",
+   "pick_side": "away",
+   "market": "flat"
   },
   {
    "event_id": "afbca1bca5b21e68b1f1a233e9f127b9",
@@ -3084,19 +2567,19 @@
    "home_raw": "Colorado St Rams",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -15.0,
-   "mkt_total": 147.5,
+   "books": 4,
+   "mkt_spread": -14.75,
+   "mkt_total": 148.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -15.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": -14.5,
+    "px": -118,
+    "book": "DraftKings"
    },
    "best_away": {
-    "pt": 15.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": 15.5,
+    "px": -115,
+    "book": "ESPN BET"
    },
    "open_spread": -15.0,
    "open_total": 147.5,
@@ -3110,9 +2593,9 @@
    "away_rank": 220,
    "home_rank": 86,
    "flags": [],
-   "edge": 1.6,
-   "move": 0.0,
-   "total_edge": 1.0
+   "edge": 1.3,
+   "move": 0.2,
+   "total_edge": 0.0
   },
   {
    "event_id": "aa7576381a4cbdf1b32445e296e34a24",
@@ -3123,17 +2606,17 @@
    "home_raw": "Grand Canyon Antelopes",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -18.0,
-   "mkt_total": 172.0,
+   "books": 4,
+   "mkt_spread": -18.5,
+   "mkt_total": 178.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -18.0,
+    "pt": -17.5,
     "px": -110,
-    "book": "BetOnline"
+    "book": "FanDuel"
    },
    "best_away": {
-    "pt": 18.0,
+    "pt": 18.5,
     "px": -110,
     "book": "BetOnline"
    },
@@ -3149,9 +2632,9 @@
    "away_rank": 167,
    "home_rank": 48,
    "flags": [],
-   "edge": 1.5,
-   "move": 0.0,
-   "total_edge": -4.2
+   "edge": 2.0,
+   "move": -0.5,
+   "total_edge": -10.7
   },
   {
    "event_id": "66797ed562dc7033f7796ca495f88219",
@@ -3162,18 +2645,18 @@
    "home_raw": "Nebraska Cornhuskers",
    "started": false,
    "neutral": false,
-   "books": 1,
+   "books": 4,
    "mkt_spread": -34.5,
-   "mkt_total": 151.0,
+   "mkt_total": 151.5,
    "spread_src": "median",
    "best_home": {
     "pt": -34.5,
-    "px": -105,
-    "book": "BetOnline"
+    "px": -110,
+    "book": "ESPN BET"
    },
    "best_away": {
-    "pt": 34.5,
-    "px": -115,
+    "pt": 35.0,
+    "px": -110,
     "book": "BetOnline"
    },
    "open_spread": -34.5,
@@ -3190,7 +2673,7 @@
    "flags": [],
    "edge": 8.0,
    "move": 0.0,
-   "total_edge": 0.3,
+   "total_edge": -0.2,
    "pick": "Lindenwood +34.5",
    "pick_side": "away",
    "market": "flat"
@@ -3204,9 +2687,9 @@
    "home_raw": "UC Santa Barbara Gauchos",
    "started": false,
    "neutral": false,
-   "books": 1,
+   "books": 5,
    "mkt_spread": 1.5,
-   "mkt_total": 145.0,
+   "mkt_total": 144.5,
    "spread_src": "median",
    "best_home": {
     "pt": 1.5,
@@ -3215,8 +2698,8 @@
    },
    "best_away": {
     "pt": -1.5,
-    "px": -110,
-    "book": "BetOnline"
+    "px": -105,
+    "book": "FanDuel"
    },
    "open_spread": 1.5,
    "open_total": 145.0,
@@ -3232,7 +2715,91 @@
    "flags": [],
    "edge": -1.8,
    "move": 0.0,
-   "total_edge": -2.1
+   "total_edge": -1.6
+  },
+  {
+   "event_id": "ee8df98863b999a13a16537c60218354",
+   "tip": "2026-11-12T02:00:00Z",
+   "away": "Arkansas Pine Bluff",
+   "home": "UCLA",
+   "away_raw": "Arkansas-Pine Bluff Golden Lions",
+   "home_raw": "UCLA Bruins",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -43.0,
+   "mkt_total": 156.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -43.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 43.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -43.0,
+   "open_total": 156.0,
+   "model": {
+    "poss": 72.8,
+    "away_pts": 59.1,
+    "home_pts": 94.9,
+    "home_spread": -35.8,
+    "total": 153.9
+   },
+   "away_rank": 363,
+   "home_rank": 17,
+   "flags": [],
+   "edge": 7.2,
+   "move": 0.0,
+   "total_edge": -2.1,
+   "pick": "Arkansas Pine Bluff +43",
+   "pick_side": "away",
+   "market": "flat"
+  },
+  {
+   "event_id": "4ce17fb9ee09bdd8e5cc71178b3afc47",
+   "tip": "2026-11-12T03:00:00Z",
+   "away": "Chicago St.",
+   "home": "Cal Baptist",
+   "away_raw": "Chicago St Cougars",
+   "home_raw": "Cal Baptist Lancers",
+   "started": false,
+   "neutral": false,
+   "books": 3,
+   "mkt_spread": -8.0,
+   "mkt_total": 139.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -7.5,
+    "px": -115,
+    "book": "ESPN BET"
+   },
+   "best_away": {
+    "pt": 10.5,
+    "px": -110,
+    "book": "FanDuel"
+   },
+   "open_spread": -8.0,
+   "open_total": 139.5,
+   "model": {
+    "poss": 69.0,
+    "away_pts": 62.3,
+    "home_pts": 73.9,
+    "home_spread": -11.6,
+    "total": 136.1
+   },
+   "away_rank": 354,
+   "home_rank": 206,
+   "flags": [],
+   "edge": -3.6,
+   "move": 0.0,
+   "total_edge": -3.4,
+   "pick": "Cal Baptist -8",
+   "pick_side": "home",
+   "market": "flat"
   },
   {
    "event_id": "4a67ec53bead3f5556b92ef5ad63885c",
@@ -3243,19 +2810,19 @@
    "home_raw": "Long Beach St 49ers",
    "started": false,
    "neutral": false,
-   "books": 1,
+   "books": 5,
    "mkt_spread": 6.5,
-   "mkt_total": 138.0,
+   "mkt_total": 136.5,
    "spread_src": "median",
    "best_home": {
     "pt": 6.5,
-    "px": -105,
-    "book": "BetOnline"
+    "px": -118,
+    "book": "DraftKings"
    },
    "best_away": {
-    "pt": -6.5,
-    "px": -115,
-    "book": "BetOnline"
+    "pt": -5.5,
+    "px": -120,
+    "book": "ESPN BET"
    },
    "open_spread": 6.5,
    "open_total": 138.0,
@@ -3271,7 +2838,36 @@
    "flags": [],
    "edge": -1.6,
    "move": 0.0,
-   "total_edge": 6.2
+   "total_edge": 7.7
+  },
+  {
+   "event_id": "3387415c1bb29e69af3695a6527e5586",
+   "tip": "2026-11-12T03:00:00Z",
+   "away": "Miss Valley St Delta Devils",
+   "home": "Oregon",
+   "away_raw": "Miss Valley St Delta Devils",
+   "home_raw": "Oregon Ducks",
+   "started": false,
+   "neutral": false,
+   "books": 3,
+   "mkt_spread": -35.5,
+   "mkt_total": 148.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -35.0,
+    "px": -115,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 36.5,
+    "px": -110,
+    "book": "FanDuel"
+   },
+   "open_spread": -35.5,
+   "open_total": 148.0,
+   "flags": [
+    "away not matched"
+   ]
   },
   {
    "event_id": "7519c97618a3f43c4af47a05aeb69e78",
@@ -3282,19 +2878,19 @@
    "home_raw": "Seattle Redhawks",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": -14.0,
-   "mkt_total": 150.0,
+   "books": 5,
+   "mkt_spread": -15.0,
+   "mkt_total": 150.5,
    "spread_src": "median",
    "best_home": {
-    "pt": -14.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": -14.5,
+    "px": -115,
+    "book": "ESPN BET"
    },
    "best_away": {
-    "pt": 14.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": 15.5,
+    "px": -102,
+    "book": "FanDuel"
    },
    "open_spread": -13.0,
    "open_total": 150.0,
@@ -3308,10 +2904,10 @@
    "away_rank": 263,
    "home_rank": 133,
    "flags": [],
-   "edge": 3.5,
-   "move": -1.0,
-   "total_edge": -2.2,
-   "pick": "UTSA +14",
+   "edge": 4.5,
+   "move": -2.0,
+   "total_edge": -2.7,
+   "pick": "UTSA +15",
    "pick_side": "away",
    "market": "against"
   },
@@ -3324,19 +2920,19 @@
    "home_raw": "California Golden Bears",
    "started": false,
    "neutral": false,
-   "books": 1,
-   "mkt_spread": 7.0,
-   "mkt_total": 160.0,
+   "books": 5,
+   "mkt_spread": 8.5,
+   "mkt_total": 162.0,
    "spread_src": "median",
    "best_home": {
-    "pt": 7.0,
+    "pt": 8.5,
     "px": -105,
     "book": "BetOnline"
    },
    "best_away": {
-    "pt": -7.0,
-    "px": -115,
-    "book": "BetOnline"
+    "pt": -7.5,
+    "px": -112,
+    "book": "FanDuel"
    },
    "open_spread": 7.0,
    "open_total": 160.0,
@@ -3350,101 +2946,43 @@
    "away_rank": 34,
    "home_rank": 98,
    "flags": [],
-   "edge": -2.6,
-   "move": 0.0,
-   "total_edge": -5.7
+   "edge": -4.1,
+   "move": 1.5,
+   "total_edge": -7.7,
+   "pick": "California +8.5",
+   "pick_side": "home",
+   "market": "against"
   }
  ],
  "unmatched": [
+  "Miss Valley St Delta Devils",
   "Prairie View Panthers"
  ],
  "name_map": {
-  "Florida Gators": "Florida",
-  "Florida St Seminoles": "Florida St.",
-  "Delaware St Hornets": "Delaware St.",
-  "Georgetown Hoyas": "Georgetown",
-  "NJIT Highlanders": "NJIT",
-  "Rutgers Scarlet Knights": "Rutgers",
-  "Maryland-Eastern Shore Hawks": "Maryland Eastern Shore",
-  "Boston College Eagles": "Boston College",
-  "Bradley Braves": "Bradley",
-  "Davidson Wildcats": "Davidson",
-  "Bryant Bulldogs": "Bryant",
-  "Providence Friars": "Providence",
-  "Youngstown St Penguins": "Youngstown St.",
-  "Central Michigan Chippewas": "Central Michigan",
-  "Charleston Southern Buccaneers": "Charleston Southern",
-  "Wake Forest Demon Deacons": "Wake Forest",
-  "Siena Saints": "Siena",
-  "Dayton Flyers": "Dayton",
-  "Detroit Mercy Titans": "Detroit Mercy",
-  "Xavier Musketeers": "Xavier",
-  "Michigan St Spartans": "Michigan St.",
-  "Duke Blue Devils": "Duke",
-  "Washington St Cougars": "Washington St.",
-  "Duquesne Dukes": "Duquesne",
-  "Eastern Kentucky Colonels": "Eastern Kentucky",
-  "Georgia Tech Yellow Jackets": "Georgia Tech",
-  "Elon Phoenix": "Elon",
-  "GW Revolutionaries": "George Washington",
-  "Iona Gaels": "Iona",
-  "Fordham Rams": "Fordham",
-  "Mercer Bears": "Mercer",
-  "Georgia Southern Eagles": "Georgia Southern",
-  "Harvard Crimson": "Harvard",
-  "Northeastern Huskies": "Northeastern",
-  "Virginia Tech Hokies": "Virginia Tech",
-  "Iowa Hawkeyes": "Iowa",
-  "Winthrop Eagles": "Winthrop",
-  "Kennesaw St Owls": "Kennesaw St.",
-  "La Salle Explorers": "La Salle",
-  "Villanova Wildcats": "Villanova",
-  "Loyola Marymount Lions": "Loyola Marymount",
-  "Troy Trojans": "Troy",
-  "Maine Black Bears": "Maine",
-  "Rhode Island Rams": "Rhode Island",
-  "Presbyterian Blue Hose": "Presbyterian",
-  "NC State Wolfpack": "N.C. State",
-  "Wyoming Cowboys": "Wyoming",
-  "North Carolina Tar Heels": "North Carolina",
-  "South Alabama Jaguars": "South Alabama",
-  "UCF Knights": "UCF",
-  "Wright St Raiders": "Wright St.",
-  "Toledo Rockets": "Toledo",
-  "Army Knights": "Army",
-  "New Haven Chargers": "New Haven",
-  "Memphis Tigers": "Memphis",
-  "Vanderbilt Commodores": "Vanderbilt",
-  "Evansville Purple Aces": "Evansville",
-  "Middle Tennessee Blue Raiders": "Middle Tennessee",
-  "Nicholls St Colonels": "Nicholls St.",
-  "Tulane Green Wave": "Tulane",
-  "Texas State Bobcats": "Texas St.",
-  "UT Rio Grande Valley Vaqueros": "UT Rio Grande Valley",
   "Alcorn St Braves": "Alcorn St.",
   "Murray St Racers": "Murray St.",
-  "Tenn-Martin Skyhawks": "Tennessee Martin",
-  "Arkansas St Red Wolves": "Arkansas St.",
   "Yale Bulldogs": "Yale",
   "Baylor Bears": "Baylor",
-  "Belmont Bruins": "Belmont",
-  "Lipscomb Bisons": "Lipscomb",
   "Green Bay Phoenix": "Green Bay",
   "Northern Iowa Panthers": "Northern Iowa",
   "Houston Christian Huskies": "Houston Christian",
   "South Dakota Coyotes": "South Dakota",
-  "Illinois Fighting Illini": "Illinois",
-  "Texas Tech Red Raiders": "Texas Tech",
   "Southern Jaguars": "Southern",
   "Iowa State Cyclones": "Iowa St.",
   "Northern Kentucky Norse": "Northern Kentucky",
   "Saint Louis Billikens": "Saint Louis",
   "Prairie View Panthers": null,
   "SMU Mustangs": "SMU",
-  "Fairfield Stags": "Fairfield",
-  "Wisconsin Badgers": "Wisconsin",
+  "Illinois Fighting Illini": "Illinois",
+  "Texas Tech Red Raiders": "Texas Tech",
+  "Tenn-Martin Skyhawks": "Tennessee Martin",
+  "Arkansas St Red Wolves": "Arkansas St.",
+  "Belmont Bruins": "Belmont",
+  "Lipscomb Bisons": "Lipscomb",
   "SE Louisiana Lions": "Southeastern Louisiana",
   "Ole Miss Rebels": "Mississippi",
+  "Fairfield Stags": "Fairfield",
+  "Wisconsin Badgers": "Wisconsin",
   "Hofstra Pride": "Hofstra",
   "Arizona St Sun Devils": "Arizona St.",
   "Northern Arizona Lumberjacks": "Northern Arizona",
@@ -3471,46 +3009,84 @@
   "Kentucky Wildcats": "Kentucky",
   "Montana Grizzlies": "Montana",
   "San Francisco Dons": "San Francisco",
+  "Fairleigh Dickinson Knights": "Fairleigh Dickinson",
+  "East Texas A&M Lions": "East Texas A&M",
+  "UMKC Kangaroos": "UMKC",
+  "Florida A&M Rattlers": "Florida A&M",
+  "Dartmouth Big Green": "Dartmouth",
+  "Albany Great Danes": "Albany",
+  "Incarnate Word Cardinals": "Incarnate Word",
+  "UC Davis Aggies": "UC Davis",
   "Loyola (Chi) Ramblers": "Loyola Chicago",
   "Air Force Falcons": "Air Force",
   "South Florida Bulls": "South Florida",
   "Saint Joseph's Hawks": "Saint Joseph's",
   "North Carolina A&T Aggies": "North Carolina A&T",
   "East Carolina Pirates": "East Carolina",
+  "Bethune-Cookman Wildcats": "Bethune Cookman",
+  "San Diego St Aztecs": "San Diego St.",
+  "Pennsylvania Quakers": "Penn",
+  "Navy Midshipmen": "Navy",
+  "North Carolina Central Eagles": "North Carolina Central",
+  "VMI Keydets": "VMI",
   "Charleston Cougars": "Charleston",
   "Temple Owls": "Temple",
   "Southern Indiana Screaming Eagles": "Southern Indiana",
   "IUPUI Jaguars": "IU Indy",
+  "American Eagles": "American",
+  "Drexel Dragons": "Drexel",
   "Campbell Fighting Camels": "Campbell",
   "East Tennessee St Buccaneers": "East Tennessee St.",
+  "Colgate Raiders": "Colgate",
+  "St. John's Red Storm": "St. John's",
   "Cornell Big Red": "Cornell",
   "St. Bonaventure Bonnies": "St. Bonaventure",
   "James Madison Dukes": "James Madison",
   "Delaware Blue Hens": "Delaware",
   "William & Mary Tribe": "William & Mary",
   "Florida Atlantic Owls": "Florida Atlantic",
+  "Furman Paladins": "Furman",
+  "Holy Cross Crusaders": "Holy Cross",
   "Milwaukee Panthers": "Milwaukee",
   "Indiana St Sycamores": "Indiana St.",
   "Kent State Golden Flashes": "Kent St.",
   "UNC Wilmington Seahawks": "UNC Wilmington",
   "Marquette Golden Eagles": "Marquette",
   "Michigan Wolverines": "Michigan",
+  "UMass Lowell River Hawks": "UMass Lowell",
+  "Massachusetts Minutemen": "Massachusetts",
+  "NJIT Highlanders": "NJIT",
+  "VCU Rams": "VCU",
+  "Old Dominion Monarchs": "Old Dominion",
+  "Norfolk St Spartans": "Norfolk St.",
+  "South Carolina St Bulldogs": "South Carolina St.",
+  "Notre Dame Fighting Irish": "Notre Dame",
   "Stony Brook Seawolves": "Stony Brook",
   "Princeton Tigers": "Princeton",
   "Saint Peter's Peacocks": "Saint Peter's",
   "South Carolina Gamecocks": "South Carolina",
+  "UNC Asheville Bulldogs": "UNC Asheville",
+  "West Georgia Wolves": "West Georgia",
   "Pepperdine Waves": "Pepperdine",
   "Sam Houston St Bearkats": "Sam Houston St.",
+  "Stephen F. Austin Lumberjacks": "Stephen F. Austin",
+  "Abilene Christian Wildcats": "Abilene Christian",
   "Robert Morris Colonials": "Robert Morris",
   "Arkansas Razorbacks": "Arkansas",
   "Jacksonville St Gamecocks": "Jacksonville St.",
   "Houston Cougars": "Houston",
+  "Jackson St Tigers": "Jackson St.",
+  "Southern Miss Golden Eagles": "Southern Miss",
   "Santa Clara Broncos": "Santa Clara",
   "North Texas Mean Green": "North Texas",
   "Oral Roberts Golden Eagles": "Oral Roberts",
   "Tulsa Golden Hurricane": "Tulsa",
   "Valparaiso Beacons": "Valparaiso",
   "South Dakota St Jackrabbits": "South Dakota St.",
+  "Arkansas-Pine Bluff Golden Lions": "Arkansas Pine Bluff",
+  "UCLA Bruins": "UCLA",
+  "Oakland Golden Grizzlies": "Oakland",
+  "Boise State Broncos": "Boise St.",
   "Cal Poly Mustangs": "Cal Poly",
   "Grand Canyon Antelopes": "Grand Canyon",
   "Portland St Vikings": "Portland St.",
@@ -3519,8 +3095,12 @@
   "Nebraska Cornhuskers": "Nebraska",
   "Nevada Wolf Pack": "Nevada",
   "UC Santa Barbara Gauchos": "UC Santa Barbara",
+  "Chicago St Cougars": "Chicago St.",
+  "Cal Baptist Lancers": "Cal Baptist",
   "Pacific Tigers": "Pacific",
   "Long Beach St 49ers": "Long Beach St.",
+  "Miss Valley St Delta Devils": null,
+  "Oregon Ducks": "Oregon",
   "UTSA Roadrunners": "UTSA",
   "Seattle Redhawks": "Seattle",
   "USC Trojans": "USC",
@@ -4220,7 +3800,9 @@
     "px": -110,
     "book": "BetOnline"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": 8.5,
+   "clv": 2.0
   },
   {
    "event_id": "ee9da2e11b9dd590539d4c230c90a800",
@@ -4240,7 +3822,9 @@
     "px": -102,
     "book": "FanDuel"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -25.5,
+   "clv": -2.0
   },
   {
    "event_id": "11ceba18c68149101dcde26737c1e810",
@@ -4260,7 +3844,9 @@
     "px": -112,
     "book": "DraftKings"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -36.0,
+   "clv": -4.2
   },
   {
    "event_id": "8f8f96b87641a3cbc280c8e63aed3ad4",
@@ -4280,7 +3866,9 @@
     "px": -110,
     "book": "DraftKings"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -7.5,
+   "clv": -1.0
   },
   {
    "event_id": "59b9d34023c04a38ae8a01e9508650b9",
@@ -4300,7 +3888,9 @@
     "px": -110,
     "book": "BetOnline"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -11.5,
+   "clv": 1.0
   },
   {
    "event_id": "8981841a7cc117d41e73220eba7ee8fd",
@@ -4320,7 +3910,9 @@
     "px": -110,
     "book": "FanDuel"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -1.0,
+   "clv": 0.5
   },
   {
    "event_id": "69af0f725cf0220fbce85a364931bee5",
@@ -4340,7 +3932,9 @@
     "px": -115,
     "book": "BetOnline"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -21.0,
+   "clv": 2.5
   },
   {
    "event_id": "27efe29d687eb4b12f0f1cdb4a097482",
@@ -4360,7 +3954,9 @@
     "px": -105,
     "book": "BetOnline"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -13.0,
+   "clv": 2.5
   },
   {
    "event_id": "c01b327672b44187cac6e56917b0784a",
@@ -4380,7 +3976,9 @@
     "px": -110,
     "book": "FanDuel"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -5.5,
+   "clv": -2.0
   },
   {
    "event_id": "f4997c7daa0e22a1989d1c42c627d5b9",
@@ -4400,7 +3998,9 @@
     "px": -118,
     "book": "DraftKings"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -19.5,
+   "clv": 2.2
   },
   {
    "event_id": "c8cdef4896e31a481ccbbe46fd13c74c",
@@ -4420,7 +4020,9 @@
     "px": -115,
     "book": "BetOnline"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -3.5,
+   "clv": 0.0
   },
   {
    "event_id": "85c5502615ef2d6214eea220aad02fef",
@@ -4440,7 +4042,9 @@
     "px": -102,
     "book": "BetOnline"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -23.0,
+   "clv": 0.5
   },
   {
    "event_id": "5f5e58582b09efcd7a4b09e276546622",
@@ -4460,7 +4064,9 @@
     "px": -110,
     "book": "FanDuel"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -26.0,
+   "clv": -3.5
   },
   {
    "event_id": "973484daa3820f01ed09cc49fdd0eafb",
@@ -4480,7 +4086,9 @@
     "px": -110,
     "book": "ESPN BET"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -19.0,
+   "clv": -2.8
   },
   {
    "event_id": "5ec6bd990d3b9454b395d51b2f6ec8a7",
@@ -4500,7 +4108,9 @@
     "px": -110,
     "book": "FanDuel"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -36.0,
+   "clv": 0.5
   },
   {
    "event_id": "d3290a76868f2cb07a216068f5cc4669",
@@ -4520,7 +4130,9 @@
     "px": -110,
     "book": "ESPN BET"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -23.0,
+   "clv": -1.5
   },
   {
    "event_id": "9c96831c894928b32d315fa2542cdcdf",
@@ -4540,7 +4152,9 @@
     "px": -115,
     "book": "ESPN BET"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -12.5,
+   "clv": 0.8
   },
   {
    "event_id": "4ba8310473fadd71fa101710e1ed8634",
@@ -4560,7 +4174,9 @@
     "px": -110,
     "book": "ESPN BET"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -33.5,
+   "clv": 0.0
   },
   {
    "event_id": "d24e603bbb4f28d250f93c3098cf862d",
@@ -4580,7 +4196,9 @@
     "px": -115,
     "book": "ESPN BET"
    },
-   "logged": "2026-11-09T23:51:43.575214+00:00"
+   "logged": "2026-11-09T23:51:43.575214+00:00",
+   "close": -26.0,
+   "clv": 0.2
   },
   {
    "event_id": "ec95fa37f8cd117d2b0e8da4db83b192",
@@ -4620,7 +4238,9 @@
     "px": -115,
     "book": "BetOnline"
    },
-   "logged": "2026-11-10T16:44:46.128730+00:00"
+   "logged": "2026-11-10T16:44:46.128730+00:00",
+   "close": -30.0,
+   "clv": -0.5
   },
   {
    "event_id": "02420c8c9efd8150390de1e94efe26ff",
@@ -4640,7 +4260,9 @@
     "px": -110,
     "book": "ESPN BET"
    },
-   "logged": "2026-11-10T16:44:46.128730+00:00"
+   "logged": "2026-11-10T16:44:46.128730+00:00",
+   "close": -30.5,
+   "clv": 0.0
   },
   {
    "event_id": "0001ef1c010fb44d8b93c5aa3e9d2aa1",
@@ -4660,7 +4282,9 @@
     "px": -110,
     "book": "FanDuel"
    },
-   "logged": "2026-11-10T16:44:46.128730+00:00"
+   "logged": "2026-11-10T16:44:46.128730+00:00",
+   "close": -20.5,
+   "clv": 0.0
   },
   {
    "event_id": "154c30f8f7ea51bd1ad16deb41fbfd05",
@@ -4680,7 +4304,9 @@
     "px": -105,
     "book": "ESPN BET"
    },
-   "logged": "2026-11-10T16:44:46.128730+00:00"
+   "logged": "2026-11-10T16:44:46.128730+00:00",
+   "close": -14.0,
+   "clv": 0.5
   },
   {
    "event_id": "bf7a605f776bde1cc6778ed8a8cff04a",
@@ -4700,7 +4326,9 @@
     "px": -109,
     "book": "Pinnacle"
    },
-   "logged": "2026-11-10T16:44:46.128730+00:00"
+   "logged": "2026-11-10T16:44:46.128730+00:00",
+   "close": 1.5,
+   "clv": 0.0
   },
   {
    "event_id": "e3532157be1d6b149555fa8c451f13a8",
@@ -4720,7 +4348,9 @@
     "px": -102,
     "book": "FanDuel"
    },
-   "logged": "2026-11-10T16:44:46.128730+00:00"
+   "logged": "2026-11-10T16:44:46.128730+00:00",
+   "close": -30.0,
+   "clv": 0.0
   },
   {
    "event_id": "67f91b2a08972721009a8de5a505a052",
@@ -4740,7 +4370,9 @@
     "px": -116,
     "book": "Pinnacle"
    },
-   "logged": "2026-11-10T16:44:46.128730+00:00"
+   "logged": "2026-11-10T16:44:46.128730+00:00",
+   "close": -35.5,
+   "clv": 0.5
   },
   {
    "event_id": "e43a6bbda1ba20f8e9dfcbc3466b4cdd",
@@ -4760,7 +4392,9 @@
     "px": -113,
     "book": "BetOnline"
    },
-   "logged": "2026-11-10T16:44:46.128730+00:00"
+   "logged": "2026-11-10T16:44:46.128730+00:00",
+   "close": -26.0,
+   "clv": -0.5
   },
   {
    "event_id": "c644683bcb3f78411ad20effbba718eb",
@@ -4780,7 +4414,9 @@
     "px": -109,
     "book": "BetRivers"
    },
-   "logged": "2026-11-10T16:44:46.128730+00:00"
+   "logged": "2026-11-10T16:44:46.128730+00:00",
+   "close": -29.0,
+   "clv": 0.0
   },
   {
    "event_id": "3687093fc999c352c8a97cfa9b188589",
@@ -4800,7 +4436,9 @@
     "px": -104,
     "book": "FanDuel"
    },
-   "logged": "2026-11-10T16:44:46.128730+00:00"
+   "logged": "2026-11-10T16:44:46.128730+00:00",
+   "close": -38.0,
+   "clv": 0.0
   },
   {
    "event_id": "fb4e0baed91adfe2f7de6ca28ed533e8",
@@ -4989,32 +4627,32 @@
    "l": 13,
    "p": 1,
    "picks": 64,
-   "avg_clv": 0.08,
-   "beat_close": 0.24
+   "avg_clv": -0.04,
+   "beat_close": 0.333
   },
   "agrees": {
    "w": 3,
    "l": 2,
    "p": 0,
    "picks": 7,
-   "avg_clv": 0.0,
-   "beat_close": 0.2
+   "avg_clv": -0.58,
+   "beat_close": 0.167
   },
   "against": {
    "w": 5,
    "l": 7,
    "p": 0,
    "picks": 30,
-   "avg_clv": 0.21,
-   "beat_close": 0.417
+   "avg_clv": 0.16,
+   "beat_close": 0.429
   },
   "flat": {
    "w": 3,
    "l": 4,
    "p": 1,
    "picks": 27,
-   "avg_clv": -0.06,
-   "beat_close": 0.0
+   "avg_clv": -0.16,
+   "beat_close": 0.25
   }
  },
  "teams": [
