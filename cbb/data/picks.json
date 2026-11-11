@@ -694,7 +694,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": 8.5,
-  "clv": 2.0
+  "clv": 2.0,
+  "final": [
+   81,
+   72
+  ],
+  "result": "W"
  },
  {
   "event_id": "ee9da2e11b9dd590539d4c230c90a800",
@@ -716,7 +721,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -25.5,
-  "clv": -2.0
+  "clv": -2.0,
+  "final": [
+   64,
+   101
+  ],
+  "result": "L"
  },
  {
   "event_id": "11ceba18c68149101dcde26737c1e810",
@@ -738,7 +748,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -36.0,
-  "clv": -4.2
+  "clv": -4.2,
+  "final": [
+   55,
+   100
+  ],
+  "result": "L"
  },
  {
   "event_id": "8f8f96b87641a3cbc280c8e63aed3ad4",
@@ -760,7 +775,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -7.5,
-  "clv": -1.0
+  "clv": -1.0,
+  "final": [
+   79,
+   73
+  ],
+  "result": "W"
  },
  {
   "event_id": "59b9d34023c04a38ae8a01e9508650b9",
@@ -782,7 +802,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -11.5,
-  "clv": 1.0
+  "clv": 1.0,
+  "final": [
+   72,
+   78
+  ],
+  "result": "W"
  },
  {
   "event_id": "8981841a7cc117d41e73220eba7ee8fd",
@@ -804,7 +829,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -1.0,
-  "clv": 0.5
+  "clv": 0.5,
+  "final": [
+   97,
+   91
+  ],
+  "result": "W"
  },
  {
   "event_id": "69af0f725cf0220fbce85a364931bee5",
@@ -826,7 +856,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -21.0,
-  "clv": 2.5
+  "clv": 2.5,
+  "final": [
+   59,
+   80
+  ],
+  "result": "W"
  },
  {
   "event_id": "27efe29d687eb4b12f0f1cdb4a097482",
@@ -848,7 +883,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -13.0,
-  "clv": 2.5
+  "clv": 2.5,
+  "final": [
+   63,
+   76
+  ],
+  "result": "W"
  },
  {
   "event_id": "c01b327672b44187cac6e56917b0784a",
@@ -870,7 +910,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -5.5,
-  "clv": -2.0
+  "clv": -2.0,
+  "final": [
+   82,
+   65
+  ],
+  "result": "L"
  },
  {
   "event_id": "f4997c7daa0e22a1989d1c42c627d5b9",
@@ -892,7 +937,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -19.5,
-  "clv": 2.2
+  "clv": 2.2,
+  "final": [
+   61,
+   90
+  ],
+  "result": "L"
  },
  {
   "event_id": "c8cdef4896e31a481ccbbe46fd13c74c",
@@ -914,7 +964,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -3.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   76,
+   89
+  ],
+  "result": "W"
  },
  {
   "event_id": "85c5502615ef2d6214eea220aad02fef",
@@ -936,7 +991,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -23.0,
-  "clv": 0.5
+  "clv": 0.5,
+  "final": [
+   63,
+   125
+  ],
+  "result": "L"
  },
  {
   "event_id": "5f5e58582b09efcd7a4b09e276546622",
@@ -958,7 +1018,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -26.0,
-  "clv": -3.5
+  "clv": -3.5,
+  "final": [
+   42,
+   89
+  ],
+  "result": "L"
  },
  {
   "event_id": "973484daa3820f01ed09cc49fdd0eafb",
@@ -980,7 +1045,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -19.0,
-  "clv": -2.8
+  "clv": -2.8,
+  "final": [
+   63,
+   85
+  ],
+  "result": "L"
  },
  {
   "event_id": "5ec6bd990d3b9454b395d51b2f6ec8a7",
@@ -1002,7 +1072,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -36.0,
-  "clv": 0.5
+  "clv": 0.5,
+  "final": [
+   59,
+   90
+  ],
+  "result": "W"
  },
  {
   "event_id": "d3290a76868f2cb07a216068f5cc4669",
@@ -1024,7 +1099,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -23.0,
-  "clv": -1.5
+  "clv": -1.5,
+  "final": [
+   69,
+   94
+  ],
+  "result": "L"
  },
  {
   "event_id": "9c96831c894928b32d315fa2542cdcdf",
@@ -1046,7 +1126,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -12.5,
-  "clv": 0.8
+  "clv": 0.8,
+  "final": [
+   75,
+   83
+  ],
+  "result": "W"
  },
  {
   "event_id": "4ba8310473fadd71fa101710e1ed8634",
@@ -1068,7 +1153,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -33.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   92,
+   100
+  ],
+  "result": "W"
  },
  {
   "event_id": "d24e603bbb4f28d250f93c3098cf862d",
@@ -1090,7 +1180,12 @@
   },
   "logged": "2026-11-09T23:51:43.575214+00:00",
   "close": -26.0,
-  "clv": 0.2
+  "clv": 0.2,
+  "final": [
+   86,
+   118
+  ],
+  "result": "L"
  },
  {
   "event_id": "ec95fa37f8cd117d2b0e8da4db83b192",
@@ -1110,7 +1205,14 @@
    "px": -115,
    "book": "ESPN BET"
   },
-  "logged": "2026-11-09T23:51:43.575214+00:00"
+  "logged": "2026-11-09T23:51:43.575214+00:00",
+  "close": -11.5,
+  "clv": -0.2,
+  "final": [
+   58,
+   63
+  ],
+  "result": "W"
  },
  {
   "event_id": "2b966e38935332c263ecce66667f4b3b",
@@ -1132,7 +1234,12 @@
   },
   "logged": "2026-11-10T16:44:46.128730+00:00",
   "close": -30.0,
-  "clv": -0.5
+  "clv": -0.5,
+  "final": [
+   78,
+   83
+  ],
+  "result": "W"
  },
  {
   "event_id": "02420c8c9efd8150390de1e94efe26ff",
@@ -1154,7 +1261,12 @@
   },
   "logged": "2026-11-10T16:44:46.128730+00:00",
   "close": -30.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   55,
+   78
+  ],
+  "result": "W"
  },
  {
   "event_id": "0001ef1c010fb44d8b93c5aa3e9d2aa1",
@@ -1176,7 +1288,12 @@
   },
   "logged": "2026-11-10T16:44:46.128730+00:00",
   "close": -20.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   65,
+   71
+  ],
+  "result": "W"
  },
  {
   "event_id": "154c30f8f7ea51bd1ad16deb41fbfd05",
@@ -1198,7 +1315,12 @@
   },
   "logged": "2026-11-10T16:44:46.128730+00:00",
   "close": -14.0,
-  "clv": 0.5
+  "clv": 0.5,
+  "final": [
+   69,
+   76
+  ],
+  "result": "L"
  },
  {
   "event_id": "bf7a605f776bde1cc6778ed8a8cff04a",
@@ -1220,7 +1342,12 @@
   },
   "logged": "2026-11-10T16:44:46.128730+00:00",
   "close": 1.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   55,
+   63
+  ],
+  "result": "W"
  },
  {
   "event_id": "e3532157be1d6b149555fa8c451f13a8",
@@ -1242,7 +1369,12 @@
   },
   "logged": "2026-11-10T16:44:46.128730+00:00",
   "close": -30.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   57,
+   94
+  ],
+  "result": "L"
  },
  {
   "event_id": "67f91b2a08972721009a8de5a505a052",
@@ -1264,7 +1396,12 @@
   },
   "logged": "2026-11-10T16:44:46.128730+00:00",
   "close": -35.5,
-  "clv": 0.5
+  "clv": 0.5,
+  "final": [
+   47,
+   84
+  ],
+  "result": "L"
  },
  {
   "event_id": "e43a6bbda1ba20f8e9dfcbc3466b4cdd",
@@ -1286,7 +1423,12 @@
   },
   "logged": "2026-11-10T16:44:46.128730+00:00",
   "close": -26.0,
-  "clv": -0.5
+  "clv": -0.5,
+  "final": [
+   51,
+   91
+  ],
+  "result": "L"
  },
  {
   "event_id": "c644683bcb3f78411ad20effbba718eb",
@@ -1308,7 +1450,12 @@
   },
   "logged": "2026-11-10T16:44:46.128730+00:00",
   "close": -29.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   82,
+   98
+  ],
+  "result": "W"
  },
  {
   "event_id": "3687093fc999c352c8a97cfa9b188589",
@@ -1330,7 +1477,12 @@
   },
   "logged": "2026-11-10T16:44:46.128730+00:00",
   "close": -38.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   61,
+   95
+  ],
+  "result": "W"
  },
  {
   "event_id": "fb4e0baed91adfe2f7de6ca28ed533e8",
@@ -1511,5 +1663,225 @@
    "book": "BetOnline"
   },
   "logged": "2026-11-10T21:26:01.816589+00:00"
+ },
+ {
+  "event_id": "eb4ac6c20fe9cf690a2a2409335a3341",
+  "date": "2026-11-11",
+  "tip": "2026-11-11T17:00:00Z",
+  "away": "UMKC",
+  "home": "Florida A&M",
+  "side": "home",
+  "pick": "Florida A&M +8.5",
+  "line": 8.5,
+  "model_spread": -1.5,
+  "edge": -10.0,
+  "market": "against",
+  "move_at_pick": 2.0,
+  "best": {
+   "pt": 8.5,
+   "px": -110,
+   "book": "FanDuel"
+  },
+  "logged": "2026-11-11T16:44:58.635876+00:00"
+ },
+ {
+  "event_id": "b4a1814a6efc7eb096e5ac5e857915b5",
+  "date": "2026-11-11",
+  "tip": "2026-11-11T20:00:00Z",
+  "away": "Loyola Chicago",
+  "home": "Air Force",
+  "side": "home",
+  "pick": "Air Force +10.5",
+  "line": 10.5,
+  "model_spread": 5.9,
+  "edge": -4.6,
+  "market": "against",
+  "move_at_pick": 2.0,
+  "best": {
+   "pt": 11.5,
+   "px": -114,
+   "book": "BetRivers"
+  },
+  "logged": "2026-11-11T16:44:58.635876+00:00"
+ },
+ {
+  "event_id": "83af3d625408a5c5f1b726fe740fc2ef",
+  "date": "2026-11-11",
+  "tip": "2026-11-11T21:00:00Z",
+  "away": "North Carolina A&T",
+  "home": "East Carolina",
+  "side": "away",
+  "pick": "North Carolina A&T +11.5",
+  "line": -11.5,
+  "model_spread": -8.3,
+  "edge": 3.2,
+  "market": "against",
+  "move_at_pick": -1.0,
+  "best": {
+   "pt": 11.5,
+   "px": -105,
+   "book": "FanDuel"
+  },
+  "logged": "2026-11-11T16:44:58.635876+00:00"
+ },
+ {
+  "event_id": "5b6355f8a6a8f6fe34a477c2b8e3a7e7",
+  "date": "2026-11-11",
+  "tip": "2026-11-11T23:00:00Z",
+  "away": "North Carolina Central",
+  "home": "VMI",
+  "side": "away",
+  "pick": "North Carolina Central +8.5",
+  "line": -8.5,
+  "model_spread": -4.3,
+  "edge": 4.2,
+  "market": "against",
+  "move_at_pick": -2.0,
+  "best": {
+   "pt": 8.5,
+   "px": -110,
+   "book": "FanDuel"
+  },
+  "logged": "2026-11-11T16:44:58.635876+00:00"
+ },
+ {
+  "event_id": "d4d1389e55bdbfb24f58904d81877ca3",
+  "date": "2026-11-11",
+  "tip": "2026-11-12T00:00:00Z",
+  "away": "Colgate",
+  "home": "St. John's",
+  "side": "away",
+  "pick": "Colgate +30",
+  "line": -30.0,
+  "model_spread": -23.2,
+  "edge": 6.8,
+  "market": "against",
+  "move_at_pick": -2.5,
+  "best": {
+   "pt": 30.5,
+   "px": -117,
+   "book": "BetRivers"
+  },
+  "logged": "2026-11-11T16:44:58.635876+00:00"
+ },
+ {
+  "event_id": "9b4db17df2378cbaea3151c4ba09821d",
+  "date": "2026-11-11",
+  "tip": "2026-11-12T00:00:00Z",
+  "away": "NJIT",
+  "home": "VCU",
+  "side": "away",
+  "pick": "NJIT +34",
+  "line": -34.0,
+  "model_spread": -22.8,
+  "edge": 11.2,
+  "market": "against",
+  "move_at_pick": -3.5,
+  "best": {
+   "pt": 34.5,
+   "px": -115,
+   "book": "DraftKings"
+  },
+  "logged": "2026-11-11T16:44:58.635876+00:00"
+ },
+ {
+  "event_id": "f775ba08093ec59845cac67fe33e8803",
+  "date": "2026-11-11",
+  "tip": "2026-11-12T00:00:00Z",
+  "away": "South Carolina St.",
+  "home": "Notre Dame",
+  "side": "away",
+  "pick": "South Carolina St. +27",
+  "line": -27.0,
+  "model_spread": -21.3,
+  "edge": 5.7,
+  "market": "against",
+  "move_at_pick": -1.0,
+  "best": {
+   "pt": 27.5,
+   "px": -115,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-11T16:44:58.635876+00:00"
+ },
+ {
+  "event_id": "b6e943b2f08200881262b4621a7871ba",
+  "date": "2026-11-11",
+  "tip": "2026-11-12T01:00:00Z",
+  "away": "Jackson St.",
+  "home": "Southern Miss",
+  "side": "away",
+  "pick": "Jackson St. +9.5",
+  "line": -9.5,
+  "model_spread": -6.5,
+  "edge": 3.0,
+  "market": "against",
+  "move_at_pick": -2.0,
+  "best": {
+   "pt": 9.5,
+   "px": -114,
+   "book": "BetRivers"
+  },
+  "logged": "2026-11-11T16:44:58.635876+00:00"
+ },
+ {
+  "event_id": "ee8df98863b999a13a16537c60218354",
+  "date": "2026-11-11",
+  "tip": "2026-11-12T02:00:00Z",
+  "away": "Arkansas Pine Bluff",
+  "home": "UCLA",
+  "side": "away",
+  "pick": "Arkansas Pine Bluff +46",
+  "line": -46.0,
+  "model_spread": -35.8,
+  "edge": 10.2,
+  "market": "against",
+  "move_at_pick": -3.0,
+  "best": {
+   "pt": 46.5,
+   "px": -115,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-11T16:44:58.635876+00:00"
+ },
+ {
+  "event_id": "afbca1bca5b21e68b1f1a233e9f127b9",
+  "date": "2026-11-11",
+  "tip": "2026-11-12T02:00:00Z",
+  "away": "Portland St.",
+  "home": "Colorado St.",
+  "side": "away",
+  "pick": "Portland St. +16.5",
+  "line": -16.5,
+  "model_spread": -13.4,
+  "edge": 3.1,
+  "market": "against",
+  "move_at_pick": -1.5,
+  "best": {
+   "pt": 16.5,
+   "px": -109,
+   "book": "Pinnacle"
+  },
+  "logged": "2026-11-11T16:44:58.635876+00:00"
+ },
+ {
+  "event_id": "92cc2f2a169d4efd4f1a0ac9d25672bc",
+  "date": "2026-11-11",
+  "tip": "2026-11-12T04:00:00Z",
+  "away": "USC",
+  "home": "California",
+  "side": "home",
+  "pick": "California +8.5",
+  "line": 8.5,
+  "model_spread": 4.4,
+  "edge": -4.1,
+  "market": "against",
+  "move_at_pick": 1.5,
+  "best": {
+   "pt": 8.5,
+   "px": -105,
+   "book": "ESPN BET"
+  },
+  "logged": "2026-11-11T16:44:58.635876+00:00"
  }
 ]
