@@ -1502,7 +1502,9 @@
    "px": -115,
    "book": "BetOnline"
   },
-  "logged": "2026-11-10T21:26:01.816589+00:00"
+  "logged": "2026-11-10T21:26:01.816589+00:00",
+  "close": 6.5,
+  "clv": 0.2
  },
  {
   "event_id": "c07a4ccdd6e2560b5829395b56863dc1",
@@ -1709,7 +1711,14 @@
    "px": -114,
    "book": "BetRivers"
   },
-  "logged": "2026-11-11T16:44:58.635876+00:00"
+  "logged": "2026-11-11T16:44:58.635876+00:00",
+  "close": 10.5,
+  "clv": 0.0,
+  "final": [
+   93,
+   107
+  ],
+  "result": "W"
  },
  {
   "event_id": "83af3d625408a5c5f1b726fe740fc2ef",
@@ -1729,7 +1738,9 @@
    "px": -105,
    "book": "FanDuel"
   },
-  "logged": "2026-11-11T16:44:58.635876+00:00"
+  "logged": "2026-11-11T16:44:58.635876+00:00",
+  "close": -11.5,
+  "clv": 0.0
  },
  {
   "event_id": "5b6355f8a6a8f6fe34a477c2b8e3a7e7",
@@ -1890,5 +1901,125 @@
    "book": "ESPN BET"
   },
   "logged": "2026-11-11T16:44:58.635876+00:00"
+ },
+ {
+  "event_id": "dce2f501e790814a83c007c4bfeaf299",
+  "date": "2026-11-12",
+  "tip": "2026-11-12T23:30:00Z",
+  "away": "Tennessee Tech",
+  "home": "Indiana",
+  "side": "away",
+  "pick": "Tennessee Tech +26.25",
+  "line": -26.25,
+  "model_spread": -21.0,
+  "edge": 5.2,
+  "market": "against",
+  "move_at_pick": -0.2,
+  "best": {
+   "pt": 26.5,
+   "px": -110,
+   "book": "ESPN BET"
+  },
+  "logged": "2026-11-11T22:17:13.375509+00:00"
+ },
+ {
+  "event_id": "60340e8a19f88be7b0c22c5428810081",
+  "date": "2026-11-12",
+  "tip": "2026-11-13T00:00:00Z",
+  "away": "Canisius",
+  "home": "Brown",
+  "side": "away",
+  "pick": "Canisius +14.5",
+  "line": -14.5,
+  "model_spread": -10.0,
+  "edge": 4.5,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 14.5,
+   "px": -104,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-11T22:17:13.375509+00:00"
+ },
+ {
+  "event_id": "bb076258b9d68ac93facc485d09f8f17",
+  "date": "2026-11-12",
+  "tip": "2026-11-13T00:00:00Z",
+  "away": "Cal St. Bakersfield",
+  "home": "Western Illinois",
+  "side": "home",
+  "pick": "Western Illinois +7.5",
+  "line": 7.5,
+  "model_spread": 2.6,
+  "edge": -4.9,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 7.5,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-11T22:17:13.375509+00:00"
+ },
+ {
+  "event_id": "aedc154c22609923dadd12582547db3a",
+  "date": "2026-11-12",
+  "tip": "2026-11-13T00:00:00Z",
+  "away": "Mercer",
+  "home": "West Virginia",
+  "side": "away",
+  "pick": "Mercer +26",
+  "line": -26.0,
+  "model_spread": -19.7,
+  "edge": 6.3,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 26.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-11T22:17:13.375509+00:00"
+ },
+ {
+  "event_id": "941f2cdc3c144d4d6ec9d98620c4804c",
+  "date": "2026-11-12",
+  "tip": "2026-11-13T01:00:00Z",
+  "away": "Loyola Marymount",
+  "home": "South Alabama",
+  "side": "away",
+  "pick": "Loyola Marymount PK",
+  "line": 0.0,
+  "model_spread": 3.7,
+  "edge": 3.7,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 0.0,
+   "px": -108,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-11T22:17:13.375509+00:00"
+ },
+ {
+  "event_id": "1fbeee2eb0b578203e3e4eb56899c6ea",
+  "date": "2026-11-12",
+  "tip": "2026-11-13T02:00:00Z",
+  "away": "Montana St.",
+  "home": "BYU",
+  "side": "away",
+  "pick": "Montana St. +25.25",
+  "line": -25.25,
+  "model_spread": -15.7,
+  "edge": 9.6,
+  "market": "against",
+  "move_at_pick": -0.2,
+  "best": {
+   "pt": 25.5,
+   "px": -110,
+   "book": "ESPN BET"
+  },
+  "logged": "2026-11-11T22:17:13.375509+00:00"
  }
 ]
