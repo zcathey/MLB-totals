@@ -2263,5 +2263,305 @@
    "book": "BetOnline"
   },
   "logged": "2026-11-12T16:44:34.520396+00:00"
+ },
+ {
+  "event_id": "28ccd5b9ef2cd2f791d5c4d65f258da1",
+  "date": "2026-11-13",
+  "tip": "2026-11-13T22:00:00Z",
+  "away": "North Alabama",
+  "home": "Miami FL",
+  "side": "away",
+  "pick": "North Alabama +33.5",
+  "line": -33.5,
+  "model_spread": -27.4,
+  "edge": 6.1,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 33.5,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "b0e39394110637793b94d8c1f47214b5",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T00:00:00Z",
+  "away": "Merrimack",
+  "home": "Florida",
+  "side": "away",
+  "pick": "Merrimack +37.5",
+  "line": -37.5,
+  "model_spread": -24.8,
+  "edge": 12.7,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 37.5,
+   "px": -105,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "f7bec1958c714efb98e1826c5496fb5c",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T00:00:00Z",
+  "away": "Sam Houston St.",
+  "home": "Illinois",
+  "side": "away",
+  "pick": "Sam Houston St. +35.5",
+  "line": -35.5,
+  "model_spread": -23.3,
+  "edge": 12.2,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 35.5,
+   "px": -105,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "ebdde7697bc17f553199c5ec379ac590",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T00:00:00Z",
+  "away": "Northern Arizona",
+  "home": "Kentucky",
+  "side": "away",
+  "pick": "Northern Arizona +34.5",
+  "line": -34.5,
+  "model_spread": -24.2,
+  "edge": 10.3,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 34.5,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "d4369adb02249ce5a740751f824b5ae3",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T00:00:00Z",
+  "away": "Northern Iowa",
+  "home": "Michigan St.",
+  "side": "away",
+  "pick": "Northern Iowa +29.5",
+  "line": -29.5,
+  "model_spread": -19.8,
+  "edge": 9.7,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 29.5,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "2c5da62f6e0fc26328bb0b70cb1166d7",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T00:00:00Z",
+  "away": "Troy",
+  "home": "N.C. State",
+  "side": "away",
+  "pick": "Troy +22.5",
+  "line": -22.5,
+  "model_spread": -16.3,
+  "edge": 6.2,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 22.5,
+   "px": -105,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "fd82be15da4dd502ed746a9c5f329f08",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T00:00:00Z",
+  "away": "Tennessee St.",
+  "home": "Tennessee",
+  "side": "away",
+  "pick": "Tennessee St. +29.25",
+  "line": -29.25,
+  "model_spread": -20.7,
+  "edge": 8.6,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 29.5,
+   "px": -110,
+   "book": "FanDuel"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "b4516f4076a5366edc25f8a386b15c90",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T01:00:00Z",
+  "away": "Central Arkansas",
+  "home": "Arkansas",
+  "side": "away",
+  "pick": "Central Arkansas +26.5",
+  "line": -26.5,
+  "model_spread": -18.1,
+  "edge": 8.4,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 26.5,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "d92ca99754896c9df89f8734a83693b1",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T01:00:00Z",
+  "away": "SIU Edwardsville",
+  "home": "Duke",
+  "side": "away",
+  "pick": "SIU Edwardsville +44.25",
+  "line": -44.25,
+  "model_spread": -28.6,
+  "edge": 15.6,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 44.5,
+   "px": -110,
+   "book": "FanDuel"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "6939a5b0fa016ba48db4addc3f95fa94",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T01:00:00Z",
+  "away": "Milwaukee",
+  "home": "TCU",
+  "side": "away",
+  "pick": "Milwaukee +24.75",
+  "line": -24.75,
+  "model_spread": -19.5,
+  "edge": 5.2,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 25.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "b4bbd44c8aa7ec31c09e5e719ad5f874",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T02:00:00Z",
+  "away": "Seton Hall",
+  "home": "Alabama",
+  "side": "away",
+  "pick": "Seton Hall +16.5",
+  "line": -16.5,
+  "model_spread": -9.7,
+  "edge": 6.8,
+  "market": "against",
+  "move_at_pick": -2.5,
+  "best": {
+   "pt": 16.5,
+   "px": -110,
+   "book": "ESPN BET"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "64fbb88639d9f62fe8280c2a3d3b3a59",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T02:00:00Z",
+  "away": "Louisiana Monroe",
+  "home": "Arizona St.",
+  "side": "away",
+  "pick": "Louisiana Monroe +31.25",
+  "line": -31.25,
+  "model_spread": -23.6,
+  "edge": 7.6,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 31.5,
+   "px": -110,
+   "book": "FanDuel"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "4aaf9aaa841777a18f681f1721dd5913",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T02:00:00Z",
+  "away": "Arizona",
+  "home": "Auburn",
+  "side": "away",
+  "pick": "Arizona +1.5",
+  "line": -1.5,
+  "model_spread": 2.7,
+  "edge": 4.2,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 1.5,
+   "px": -124,
+   "book": "FanDuel"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "57ab6a3cf14dce84806a46770fa0bc59",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T02:00:00Z",
+  "away": "DePaul",
+  "home": "Northwestern",
+  "side": "home",
+  "pick": "Northwestern +1.5",
+  "line": 1.5,
+  "model_spread": -1.9,
+  "edge": -3.4,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 2.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "f7bfdc59d5dfb059715f3df93db76cf4",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T02:00:00Z",
+  "away": "Xavier",
+  "home": "Mississippi St.",
+  "side": "home",
+  "pick": "Mississippi St. +3.25",
+  "line": 3.25,
+  "model_spread": -0.6,
+  "edge": -3.9,
+  "market": "against",
+  "move_at_pick": 1.8,
+  "best": {
+   "pt": 4.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-12T21:55:28.154298+00:00"
  }
 ]
