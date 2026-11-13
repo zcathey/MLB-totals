@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-13T04:10:50.290292+00:00",
- "mode": "late",
+ "generated_at": "2026-11-13T20:26:18.484369+00:00",
+ "mode": "picks",
  "season": 2026,
  "week": 10,
- "through_week": 9,
+ "through_week": 10,
  "nflverse": {
   "schedule": "fresh",
   "stats": "fresh"
  },
  "lines": {
   "status": "ok",
-  "events": 25,
-  "credits_remaining": "426"
+  "events": 26,
+  "credits_remaining": "416"
  },
  "settings": {
   "points_base": 23.0,
@@ -31,55 +31,36 @@
    "home": "NYG",
    "away_name": "Washington",
    "home_name": "NY Giants",
-   "away_rank": 20,
-   "home_rank": 27,
+   "away_rank": 23,
+   "home_rank": 23,
    "neutral": false,
    "started": true,
    "away_qb": "Jayden Daniels",
    "home_qb": "J.J. McCarthy",
-   "books": 2,
-   "mkt_spread": -3.5,
-   "mkt_total": 38.5,
-   "spread_src": "median",
-   "best_home": {
-    "pt": -3.5,
-    "px": -125,
-    "book": "BetRivers"
-   },
-   "best_away": {
-    "pt": 3.5,
-    "px": 120,
-    "book": "DraftKings"
-   },
-   "best_over": {
-    "pt": 38.5,
-    "px": 109,
-    "book": "DraftKings"
-   },
-   "best_under": {
-    "pt": 38.5,
-    "px": -143,
-    "book": "DraftKings"
-   },
+   "books": 0,
+   "mkt_spread": -1.5,
+   "mkt_total": 40.5,
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
    "open_spread": -2.5,
    "open_total": 42.0,
    "flags": [
-    "NY Giants: McCarthy started 2 of 8"
+    "NY Giants: McCarthy started 3 of 9"
    ],
    "model": {
-    "away_pts": 21.9,
-    "home_pts": 21.8,
-    "home_spread": 0.1,
-    "total": 43.7
+    "away_pts": 21.7,
+    "home_pts": 23.2,
+    "home_spread": -1.5,
+    "total": 44.9
    },
-   "edge": 3.6,
-   "move": -1.0,
-   "pick": "Washington +3.5",
-   "pick_side": "away",
-   "market": "against",
-   "total_edge": 5.2,
-   "total_move": -3.5,
-   "total_pick": "Over 38.5",
+   "edge": 0.0,
+   "move": 1.0,
+   "total_edge": 4.4,
+   "total_move": -1.5,
+   "total_pick": "Over 40.5",
    "total_side": "over",
    "blocked": true
   },
@@ -98,7 +79,7 @@
    "home_qb": "Jared Goff",
    "books": 8,
    "mkt_spread": -2.5,
-   "mkt_total": 50.0,
+   "mkt_total": 49.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -2.5,
@@ -107,17 +88,17 @@
    },
    "best_away": {
     "pt": 3.0,
-    "px": -114,
-    "book": "BetRivers"
+    "px": -118,
+    "book": "DraftKings"
    },
    "best_over": {
-    "pt": 49.5,
-    "px": -110,
-    "book": "BetMGM"
+    "pt": 49.0,
+    "px": -112,
+    "book": "Pinnacle"
    },
    "best_under": {
     "pt": 50.5,
-    "px": -106,
+    "px": -115,
     "book": "BetRivers"
    },
    "open_spread": -2.5,
@@ -126,17 +107,17 @@
    "model": {
     "away_pts": 29.0,
     "home_pts": 27.3,
-    "home_spread": 1.8,
+    "home_spread": 1.7,
     "total": 56.3
    },
-   "edge": 4.3,
+   "edge": 4.2,
    "move": 0.0,
    "pick": "New England +2.5",
    "pick_side": "away",
    "market": "flat",
-   "total_edge": 6.3,
-   "total_move": -1.0,
-   "total_pick": "Over 50",
+   "total_edge": 7.3,
+   "total_move": -2.0,
+   "total_pick": "Over 49",
    "total_side": "over",
    "blocked": false
   },
@@ -155,27 +136,27 @@
    "home_qb": "Michael Penix Jr.",
    "books": 8,
    "mkt_spread": 3.5,
-   "mkt_total": 47.0,
+   "mkt_total": 48.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 3.5,
-    "px": -118,
-    "book": "BetRivers"
+    "px": -120,
+    "book": "FanDuel"
    },
    "best_away": {
     "pt": -3.0,
-    "px": -120,
-    "book": "DraftKings"
+    "px": -115,
+    "book": "BetOnline"
    },
    "best_over": {
-    "pt": 46.5,
-    "px": -110,
-    "book": "DraftKings"
+    "pt": 47.0,
+    "px": -108,
+    "book": "Bovada"
    },
    "best_under": {
-    "pt": 47.5,
-    "px": -115,
-    "book": "FanDuel"
+    "pt": 48.0,
+    "px": -122,
+    "book": "Pinnacle"
    },
    "open_spread": 3.5,
    "open_total": 45.5,
@@ -183,14 +164,14 @@
    "model": {
     "away_pts": 28.7,
     "home_pts": 23.5,
-    "home_spread": 5.2,
-    "total": 52.3
+    "home_spread": 5.1,
+    "total": 52.2
    },
-   "edge": 1.7,
+   "edge": 1.6,
    "move": 0.0,
-   "total_edge": 5.3,
-   "total_move": 1.5,
-   "total_pick": "Over 47",
+   "total_edge": 4.2,
+   "total_move": 2.5,
+   "total_pick": "Over 48",
    "total_side": "over",
    "blocked": false
   },
@@ -202,7 +183,7 @@
    "away_name": "Houston",
    "home_name": "Cleveland",
    "away_rank": 15,
-   "home_rank": 24,
+   "home_rank": 26,
    "neutral": false,
    "started": false,
    "away_qb": "C.J. Stroud",
@@ -213,23 +194,23 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 5.0,
-    "px": -113,
+    "px": -110,
     "book": "BetRivers"
    },
    "best_away": {
     "pt": -4.5,
     "px": -110,
-    "book": "DraftKings"
+    "book": "BetOnline"
    },
    "best_over": {
     "pt": 40.5,
-    "px": 100,
-    "book": "ESPN BET"
+    "px": -105,
+    "book": "FanDuel"
    },
    "best_under": {
     "pt": 40.5,
-    "px": -110,
-    "book": "BetMGM"
+    "px": -111,
+    "book": "Pinnacle"
    },
    "open_spread": 5.0,
    "open_total": 39.5,
@@ -237,18 +218,16 @@
    "model": {
     "away_pts": 23.0,
     "home_pts": 21.4,
-    "home_spread": 1.6,
-    "total": 44.5
+    "home_spread": 1.7,
+    "total": 44.4
    },
-   "edge": -3.4,
+   "edge": -3.3,
    "move": 0.0,
    "pick": "Cleveland +5",
    "pick_side": "home",
    "market": "flat",
-   "total_edge": 4.0,
+   "total_edge": 3.9,
    "total_move": 1.0,
-   "total_pick": "Over 40.5",
-   "total_side": "over",
    "blocked": false
   },
   {
@@ -279,14 +258,14 @@
     "book": "BetRivers"
    },
    "best_over": {
-    "pt": 41.5,
-    "px": -115,
-    "book": "DraftKings"
+    "pt": 42.0,
+    "px": -108,
+    "book": "Pinnacle"
    },
    "best_under": {
     "pt": 42.5,
     "px": -115,
-    "book": "FanDuel"
+    "book": "DraftKings"
    },
    "open_spread": -5.5,
    "open_total": 40.0,
@@ -317,7 +296,7 @@
    "home": "IND",
    "away_name": "Miami",
    "home_name": "Indianapolis",
-   "away_rank": 15,
+   "away_rank": 16,
    "home_rank": 32,
    "neutral": false,
    "started": false,
@@ -329,8 +308,8 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -3.5,
-    "px": -115,
-    "book": "FanDuel"
+    "px": -114,
+    "book": "BetRivers"
    },
    "best_away": {
     "pt": 4.0,
@@ -344,7 +323,7 @@
    },
    "best_under": {
     "pt": 38.5,
-    "px": -114,
+    "px": -113,
     "book": "BetRivers"
    },
    "open_spread": -2.5,
@@ -354,14 +333,14 @@
     "away_pts": 25.8,
     "home_pts": 16.6,
     "home_spread": 9.2,
-    "total": 42.4
+    "total": 42.3
    },
    "edge": 13.2,
    "move": -1.5,
    "pick": "Miami +4",
    "pick_side": "away",
    "market": "against",
-   "total_edge": 4.4,
+   "total_edge": 4.3,
    "total_move": -2.5,
    "total_pick": "Over 38",
    "total_side": "over",
@@ -396,8 +375,8 @@
    },
    "best_over": {
     "pt": 48.5,
-    "px": -112,
-    "book": "DraftKings"
+    "px": -113,
+    "book": "BetRivers"
    },
    "best_under": {
     "pt": 49.5,
@@ -408,17 +387,17 @@
    "open_total": 48.5,
    "flags": [],
    "model": {
-    "away_pts": 26.9,
+    "away_pts": 26.8,
     "home_pts": 22.1,
-    "home_spread": 4.7,
-    "total": 49.0
+    "home_spread": 4.6,
+    "total": 48.9
    },
-   "edge": 7.2,
+   "edge": 7.1,
    "move": -1.5,
    "pick": "Carolina +2.5",
    "pick_side": "away",
    "market": "against",
-   "total_edge": 0.5,
+   "total_edge": 0.4,
    "total_move": 0.0,
    "blocked": false
   },
@@ -447,7 +426,7 @@
    "best_away": {
     "pt": -7.5,
     "px": -110,
-    "book": "ESPN BET"
+    "book": "FanDuel"
    },
    "best_over": {
     "pt": 50.5,
@@ -456,7 +435,7 @@
    },
    "best_under": {
     "pt": 51.5,
-    "px": -115,
+    "px": -120,
     "book": "ESPN BET"
    },
    "open_spread": 7.5,
@@ -497,35 +476,35 @@
    "mkt_total": 46.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 10.5,
-    "px": -102,
-    "book": "Pinnacle"
-   },
-   "best_away": {
-    "pt": -10.0,
-    "px": -113,
+    "pt": 11.0,
+    "px": -112,
     "book": "BetRivers"
    },
-   "best_over": {
-    "pt": 46.0,
+   "best_away": {
+    "pt": -10.5,
     "px": -110,
-    "book": "BetMGM"
+    "book": "FanDuel"
+   },
+   "best_over": {
+    "pt": 45.5,
+    "px": -120,
+    "book": "ESPN BET"
    },
    "best_under": {
     "pt": 46.5,
-    "px": -106,
-    "book": "BetRivers"
+    "px": -110,
+    "book": "DraftKings"
    },
    "open_spread": 10.5,
    "open_total": 46.5,
    "flags": [],
    "model": {
-    "away_pts": 29.8,
+    "away_pts": 29.7,
     "home_pts": 21.9,
-    "home_spread": 7.9,
+    "home_spread": 7.8,
     "total": 51.6
    },
-   "edge": -2.6,
+   "edge": -2.7,
    "move": 0.0,
    "total_edge": 5.1,
    "total_move": 0.0,
@@ -541,7 +520,7 @@
    "away_name": "LA Rams",
    "home_name": "Arizona",
    "away_rank": 7,
-   "home_rank": 24,
+   "home_rank": 25,
    "neutral": false,
    "started": false,
    "away_qb": "Matthew Stafford",
@@ -576,17 +555,17 @@
     "Arizona: Minshew started 1 of 9"
    ],
    "model": {
-    "away_pts": 25.8,
+    "away_pts": 25.6,
     "home_pts": 20.7,
     "home_spread": 5.0,
-    "total": 46.5
+    "total": 46.3
    },
    "edge": -4.5,
    "move": 0.0,
    "pick": "Arizona +9.5",
    "pick_side": "home",
    "market": "flat",
-   "total_edge": 7.0,
+   "total_edge": 6.8,
    "total_move": 0.0,
    "total_pick": "Over 39.5",
    "total_side": "over",
@@ -600,7 +579,7 @@
    "away_name": "Seattle",
    "home_name": "Las Vegas",
    "away_rank": 3,
-   "home_rank": 21,
+   "home_rank": 20,
    "neutral": false,
    "started": false,
    "away_qb": "Sam Darnold",
@@ -616,8 +595,8 @@
    },
    "best_away": {
     "pt": -6.5,
-    "px": -105,
-    "book": "FanDuel"
+    "px": -109,
+    "book": "Pinnacle"
    },
    "best_over": {
     "pt": 40.5,
@@ -626,8 +605,8 @@
    },
    "best_under": {
     "pt": 40.5,
-    "px": -108,
-    "book": "DraftKings"
+    "px": -106,
+    "book": "Pinnacle"
    },
    "open_spread": 4.0,
    "open_total": 42.5,
@@ -636,14 +615,14 @@
     "Las Vegas: Mendoza has no starts; rating is from Cousins (9 of 9)"
    ],
    "model": {
-    "away_pts": 23.8,
+    "away_pts": 23.7,
     "home_pts": 15.8,
-    "home_spread": 8.0,
-    "total": 39.7
+    "home_spread": 7.9,
+    "total": 39.6
    },
-   "edge": 1.5,
+   "edge": 1.4,
    "move": 2.5,
-   "total_edge": -0.8,
+   "total_edge": -0.9,
    "total_move": -2.0,
    "blocked": true
   },
@@ -671,7 +650,7 @@
    },
    "best_away": {
     "pt": -3.5,
-    "px": -115,
+    "px": -118,
     "book": "DraftKings"
    },
    "best_over": {
@@ -681,24 +660,24 @@
    },
    "best_under": {
     "pt": 56.0,
-    "px": -110,
-    "book": "BetMGM"
+    "px": -113,
+    "book": "BetRivers"
    },
    "open_spread": 4.0,
    "open_total": 56.0,
    "flags": [],
    "model": {
-    "away_pts": 34.7,
-    "home_pts": 21.9,
-    "home_spread": 12.8,
-    "total": 56.5
+    "away_pts": 34.5,
+    "home_pts": 21.8,
+    "home_spread": 12.7,
+    "total": 56.3
    },
-   "edge": 8.8,
+   "edge": 8.7,
    "move": 0.0,
    "pick": "San Francisco -4",
    "pick_side": "away",
    "market": "flat",
-   "total_edge": 0.5,
+   "total_edge": 0.3,
    "total_move": 0.0,
    "blocked": false
   },
@@ -731,8 +710,8 @@
    },
    "best_over": {
     "pt": 48.5,
-    "px": -119,
-    "book": "Pinnacle"
+    "px": -115,
+    "book": "FanDuel"
    },
    "best_under": {
     "pt": 49.5,
@@ -746,11 +725,11 @@
     "away_pts": 23.4,
     "home_pts": 26.7,
     "home_spread": -3.3,
-    "total": 50.2
+    "total": 50.1
    },
    "edge": 0.2,
    "move": 0.0,
-   "total_edge": 1.7,
+   "total_edge": 1.6,
    "total_move": 0.0,
    "blocked": false
   },
@@ -761,8 +740,8 @@
    "home": "BAL",
    "away_name": "LA Chargers",
    "home_name": "Baltimore",
-   "away_rank": 26,
-   "home_rank": 22,
+   "away_rank": 27,
+   "home_rank": 21,
    "neutral": false,
    "started": false,
    "away_qb": "Justin Herbert",
@@ -787,9 +766,9 @@
     "book": "DraftKings"
    },
    "best_under": {
-    "pt": 39.0,
-    "px": -108,
-    "book": "Bovada"
+    "pt": 39.5,
+    "px": -115,
+    "book": "ESPN BET"
    },
    "open_spread": -5.0,
    "open_total": 38.5,
@@ -798,7 +777,7 @@
    ],
    "model": {
     "away_pts": 20.1,
-    "home_pts": 22.9,
+    "home_pts": 23.0,
     "home_spread": -2.8,
     "total": 43.1
    },
@@ -820,11 +799,11 @@
    "off_ypp": 6.305,
    "def_ypp": 4.775,
    "raw": 1.53,
-   "O": 1.201,
-   "D": 0.521,
-   "adj": 1.721,
-   "sos_off": 0.224,
-   "sos_def": -0.035,
+   "O": 1.184,
+   "D": 0.518,
+   "adj": 1.702,
+   "sos_off": 0.211,
+   "sos_def": -0.042,
    "to_pg": 0.125,
    "margin_pg": 9.875,
    "opps": [
@@ -837,7 +816,7 @@
     "ATL",
     "LV"
    ],
-   "sos": 0.189,
+   "sos": 0.169,
    "rank": 1,
    "off_rank": 1,
    "def_rank": 5,
@@ -845,7 +824,7 @@
    "sos_off_rank": 5,
    "sos_def_rank": 17,
    "prev_rank": 1,
-   "proj_pf": 30.2,
+   "proj_pf": 30.1,
    "proj_pa": 19.9,
    "qb_starts": [
     [
@@ -862,11 +841,11 @@
    "off_ypp": 6.259,
    "def_ypp": 4.877,
    "raw": 1.381,
-   "O": 1.188,
-   "D": 0.153,
-   "adj": 1.342,
+   "O": 1.185,
+   "D": 0.152,
+   "adj": 1.337,
    "sos_off": 0.258,
-   "sos_def": -0.301,
+   "sos_def": -0.305,
    "to_pg": 0.5,
    "margin_pg": 7.375,
    "opps": [
@@ -879,14 +858,14 @@
     "DEN",
     "NYJ"
    ],
-   "sos": -0.042,
+   "sos": -0.047,
    "rank": 2,
-   "off_rank": 2,
+   "off_rank": 1,
    "def_rank": 12,
    "sos_rank": 16,
    "sos_off_rank": 3,
    "sos_def_rank": 29,
-   "prev_rank": 3,
+   "prev_rank": 2,
    "proj_pf": 30.1,
    "proj_pa": 22.1,
    "qb_starts": [
@@ -904,11 +883,11 @@
    "off_ypp": 5.221,
    "def_ypp": 4.139,
    "raw": 1.082,
-   "O": -0.143,
-   "D": 1.467,
-   "adj": 1.324,
-   "sos_off": -0.038,
-   "sos_def": 0.276,
+   "O": -0.159,
+   "D": 1.465,
+   "adj": 1.306,
+   "sos_off": -0.05,
+   "sos_def": 0.271,
    "to_pg": -0.111,
    "margin_pg": 4.444,
    "opps": [
@@ -922,15 +901,15 @@
     "CHI",
     "ARI"
    ],
-   "sos": 0.238,
+   "sos": 0.221,
    "rank": 3,
    "off_rank": 17,
    "def_rank": 1,
    "sos_rank": 7,
-   "sos_off_rank": 20,
+   "sos_off_rank": 21,
    "sos_def_rank": 4,
-   "prev_rank": 2,
-   "proj_pf": 22.1,
+   "prev_rank": 3,
+   "proj_pf": 22.0,
    "proj_pa": 14.2,
    "qb_starts": [
     [
@@ -951,11 +930,11 @@
    "off_ypp": 6.014,
    "def_ypp": 5.223,
    "raw": 0.79,
-   "O": 0.712,
-   "D": 0.185,
-   "adj": 0.897,
-   "sos_off": 0.027,
-   "sos_def": 0.077,
+   "O": 0.713,
+   "D": 0.187,
+   "adj": 0.9,
+   "sos_off": 0.031,
+   "sos_def": 0.076,
    "to_pg": 0.0,
    "margin_pg": 8.625,
    "opps": [
@@ -968,7 +947,7 @@
     "BAL",
     "MIN"
    ],
-   "sos": 0.104,
+   "sos": 0.107,
    "rank": 4,
    "off_rank": 5,
    "def_rank": 11,
@@ -993,11 +972,11 @@
    "off_ypp": 5.591,
    "def_ypp": 4.884,
    "raw": 0.707,
-   "O": 0.234,
-   "D": 0.562,
+   "O": 0.233,
+   "D": 0.563,
    "adj": 0.796,
-   "sos_off": -0.03,
-   "sos_def": 0.115,
+   "sos_off": -0.028,
+   "sos_def": 0.113,
    "to_pg": 0.889,
    "margin_pg": 2.778,
    "opps": [
@@ -1011,14 +990,14 @@
     "CAR",
     "NE"
    ],
-   "sos": 0.085,
+   "sos": 0.086,
    "rank": 5,
    "off_rank": 11,
    "def_rank": 4,
    "sos_rank": 13,
    "sos_off_rank": 17,
    "sos_def_rank": 9,
-   "prev_rank": 7,
+   "prev_rank": 5,
    "proj_pf": 24.4,
    "proj_pa": 19.6,
    "qb_starts": [
@@ -1036,11 +1015,11 @@
    "off_ypp": 5.969,
    "def_ypp": 5.517,
    "raw": 0.453,
-   "O": 0.832,
-   "D": -0.059,
-   "adj": 0.774,
-   "sos_off": 0.189,
-   "sos_def": 0.128,
+   "O": 0.829,
+   "D": -0.057,
+   "adj": 0.772,
+   "sos_off": 0.19,
+   "sos_def": 0.126,
    "to_pg": -1.222,
    "margin_pg": 0.444,
    "opps": [
@@ -1054,16 +1033,16 @@
     "MIA",
     "GB"
    ],
-   "sos": 0.317,
+   "sos": 0.316,
    "rank": 6,
    "off_rank": 3,
    "def_rank": 18,
    "sos_rank": 6,
    "sos_off_rank": 7,
    "sos_def_rank": 8,
-   "prev_rank": 5,
+   "prev_rank": 6,
    "proj_pf": 28.0,
-   "proj_pa": 23.4,
+   "proj_pa": 23.3,
    "qb_starts": [
     [
      "Drake Maye",
@@ -1079,11 +1058,11 @@
    "off_ypp": 5.659,
    "def_ypp": 4.994,
    "raw": 0.664,
-   "O": 0.38,
-   "D": 0.241,
-   "adj": 0.62,
-   "sos_off": 0.047,
-   "sos_def": -0.095,
+   "O": 0.366,
+   "D": 0.251,
+   "adj": 0.616,
+   "sos_off": 0.037,
+   "sos_def": -0.089,
    "to_pg": -0.444,
    "margin_pg": 3.667,
    "opps": [
@@ -1097,16 +1076,16 @@
     "LAC",
     "WAS"
    ],
-   "sos": -0.048,
+   "sos": -0.052,
    "rank": 7,
    "off_rank": 9,
    "def_rank": 8,
-   "sos_rank": 17,
+   "sos_rank": 16,
    "sos_off_rank": 14,
    "sos_def_rank": 20,
-   "prev_rank": 6,
-   "proj_pf": 25.3,
-   "proj_pa": 21.6,
+   "prev_rank": 7,
+   "proj_pf": 25.2,
+   "proj_pa": 21.5,
    "qb_starts": [
     [
      "Matthew Stafford",
@@ -1122,11 +1101,11 @@
    "off_ypp": 5.809,
    "def_ypp": 5.42,
    "raw": 0.389,
-   "O": 0.653,
-   "D": -0.172,
-   "adj": 0.482,
-   "sos_off": 0.172,
-   "sos_def": -0.082,
+   "O": 0.654,
+   "D": -0.169,
+   "adj": 0.485,
+   "sos_off": 0.177,
+   "sos_def": -0.083,
    "to_pg": 0.375,
    "margin_pg": 4.125,
    "opps": [
@@ -1139,14 +1118,14 @@
     "MIN",
     "MIA"
    ],
-   "sos": 0.09,
+   "sos": 0.094,
    "rank": 8,
    "off_rank": 6,
    "def_rank": 22,
    "sos_rank": 13,
    "sos_off_rank": 8,
    "sos_def_rank": 19,
-   "prev_rank": 9,
+   "prev_rank": 8,
    "proj_pf": 26.9,
    "proj_pa": 24.0,
    "qb_starts": [
@@ -1164,10 +1143,10 @@
    "off_ypp": 5.262,
    "def_ypp": 5.108,
    "raw": 0.154,
-   "O": -0.217,
-   "D": 0.489,
-   "adj": 0.272,
-   "sos_off": -0.152,
+   "O": -0.218,
+   "D": 0.491,
+   "adj": 0.273,
+   "sos_off": -0.15,
    "sos_def": 0.266,
    "to_pg": 0.333,
    "margin_pg": -4.556,
@@ -1182,16 +1161,16 @@
     "LV",
     "KC"
    ],
-   "sos": 0.114,
+   "sos": 0.115,
    "rank": 9,
    "off_rank": 19,
    "def_rank": 6,
    "sos_rank": 11,
    "sos_off_rank": 27,
-   "sos_def_rank": 5,
-   "prev_rank": 10,
+   "sos_def_rank": 4,
+   "prev_rank": 9,
    "proj_pf": 21.7,
-   "proj_pa": 20.1,
+   "proj_pa": 20.0,
    "qb_starts": [
     [
      "Geno Smith",
@@ -1207,11 +1186,11 @@
    "off_ypp": 4.791,
    "def_ypp": 5.17,
    "raw": -0.379,
-   "O": -0.33,
-   "D": 0.588,
-   "adj": 0.258,
-   "sos_off": 0.205,
-   "sos_def": 0.428,
+   "O": -0.332,
+   "D": 0.585,
+   "adj": 0.253,
+   "sos_off": 0.206,
+   "sos_def": 0.422,
    "to_pg": 0.556,
    "margin_pg": 1.333,
    "opps": [
@@ -1225,14 +1204,14 @@
     "KC",
     "CAR"
    ],
-   "sos": 0.633,
+   "sos": 0.628,
    "rank": 10,
    "off_rank": 22,
    "def_rank": 3,
    "sos_rank": 1,
-   "sos_off_rank": 6,
+   "sos_off_rank": 5,
    "sos_def_rank": 2,
-   "prev_rank": 8,
+   "prev_rank": 10,
    "proj_pf": 21.0,
    "proj_pa": 19.5,
    "qb_starts": [
@@ -1250,11 +1229,11 @@
    "off_ypp": 5.479,
    "def_ypp": 5.381,
    "raw": 0.098,
-   "O": 0.119,
-   "D": 0.111,
-   "adj": 0.23,
-   "sos_off": -0.034,
-   "sos_def": 0.162,
+   "O": 0.118,
+   "D": 0.113,
+   "adj": 0.231,
+   "sos_off": -0.031,
+   "sos_def": 0.161,
    "to_pg": -0.778,
    "margin_pg": -3.889,
    "opps": [
@@ -1268,7 +1247,7 @@
     "TB",
     "CIN"
    ],
-   "sos": 0.128,
+   "sos": 0.129,
    "rank": 11,
    "off_rank": 14,
    "def_rank": 13,
@@ -1301,11 +1280,11 @@
    "off_ypp": 6.084,
    "def_ypp": 5.712,
    "raw": 0.372,
-   "O": 0.738,
-   "D": -0.541,
-   "adj": 0.197,
-   "sos_off": -0.019,
-   "sos_def": -0.159,
+   "O": 0.739,
+   "D": -0.537,
+   "adj": 0.202,
+   "sos_off": -0.014,
+   "sos_def": -0.158,
    "to_pg": 0.25,
    "margin_pg": 8.125,
    "opps": [
@@ -1318,16 +1297,16 @@
     "TEN",
     "ATL"
    ],
-   "sos": -0.177,
+   "sos": -0.172,
    "rank": 12,
    "off_rank": 4,
    "def_rank": 28,
    "sos_rank": 22,
    "sos_off_rank": 16,
    "sos_def_rank": 23,
-   "prev_rank": 15,
+   "prev_rank": 12,
    "proj_pf": 27.4,
-   "proj_pa": 26.3,
+   "proj_pa": 26.2,
    "qb_starts": [
     [
      "Joe Burrow",
@@ -1343,11 +1322,11 @@
    "off_ypp": 5.896,
    "def_ypp": 5.406,
    "raw": 0.49,
-   "O": 0.454,
-   "D": -0.281,
+   "O": 0.456,
+   "D": -0.282,
    "adj": 0.173,
-   "sos_off": -0.113,
-   "sos_def": -0.207,
+   "sos_off": -0.108,
+   "sos_def": -0.212,
    "to_pg": 1.125,
    "margin_pg": 13.5,
    "opps": [
@@ -1363,9 +1342,9 @@
    "sos": -0.32,
    "rank": 13,
    "off_rank": 8,
-   "def_rank": 25,
+   "def_rank": 24,
    "sos_rank": 27,
-   "sos_off_rank": 23,
+   "sos_off_rank": 24,
    "sos_def_rank": 26,
    "prev_rank": 13,
    "proj_pf": 25.7,
@@ -1385,11 +1364,11 @@
    "off_ypp": 5.491,
    "def_ypp": 5.296,
    "raw": 0.195,
-   "O": 0.236,
+   "O": 0.235,
    "D": -0.098,
-   "adj": 0.139,
-   "sos_off": 0.075,
-   "sos_def": -0.133,
+   "adj": 0.137,
+   "sos_off": 0.077,
+   "sos_def": -0.137,
    "to_pg": -0.125,
    "margin_pg": -2.5,
    "opps": [
@@ -1402,14 +1381,14 @@
     "GB",
     "DEN"
    ],
-   "sos": -0.059,
+   "sos": -0.06,
    "rank": 14,
    "off_rank": 10,
    "def_rank": 19,
    "sos_rank": 18,
    "sos_off_rank": 12,
    "sos_def_rank": 22,
-   "prev_rank": 15,
+   "prev_rank": 14,
    "proj_pf": 24.4,
    "proj_pa": 23.6,
    "qb_starts": [
@@ -1427,11 +1406,11 @@
    "off_ypp": 5.75,
    "def_ypp": 5.27,
    "raw": 0.48,
-   "O": 0.031,
-   "D": 0.012,
-   "adj": 0.043,
-   "sos_off": -0.391,
-   "sos_def": -0.048,
+   "O": 0.034,
+   "D": 0.028,
+   "adj": 0.061,
+   "sos_off": -0.385,
+   "sos_def": -0.035,
    "to_pg": 0.5,
    "margin_pg": 2.125,
    "opps": [
@@ -1444,16 +1423,16 @@
     "NYG",
     "LAC"
    ],
-   "sos": -0.439,
+   "sos": -0.421,
    "rank": 15,
    "off_rank": 15,
    "def_rank": 16,
-   "sos_rank": 30,
+   "sos_rank": 29,
    "sos_off_rank": 31,
-   "sos_def_rank": 18,
-   "prev_rank": 23,
+   "sos_def_rank": 17,
+   "prev_rank": 15,
    "proj_pf": 23.2,
-   "proj_pa": 22.9,
+   "proj_pa": 22.8,
    "qb_starts": [
     [
      "C.J. Stroud",
@@ -1469,11 +1448,11 @@
    "off_ypp": 5.04,
    "def_ypp": 5.563,
    "raw": -0.523,
-   "O": -0.197,
+   "O": -0.199,
    "D": 0.236,
-   "adj": 0.039,
-   "sos_off": 0.091,
-   "sos_def": 0.469,
+   "adj": 0.037,
+   "sos_off": 0.092,
+   "sos_def": 0.466,
    "to_pg": -0.375,
    "margin_pg": -9.25,
    "opps": [
@@ -1486,14 +1465,14 @@
     "NE",
     "DET"
    ],
-   "sos": 0.559,
-   "rank": 15,
+   "sos": 0.557,
+   "rank": 16,
    "off_rank": 18,
-   "def_rank": 8,
+   "def_rank": 9,
    "sos_rank": 2,
    "sos_off_rank": 10,
    "sos_def_rank": 1,
-   "prev_rank": 12,
+   "prev_rank": 15,
    "proj_pf": 21.8,
    "proj_pa": 21.6,
    "qb_starts": [
@@ -1512,10 +1491,10 @@
    "def_ypp": 4.6,
    "raw": 0.05,
    "O": -0.795,
-   "D": 0.742,
-   "adj": -0.053,
-   "sos_off": -0.116,
-   "sos_def": 0.011,
+   "D": 0.744,
+   "adj": -0.051,
+   "sos_off": -0.113,
+   "sos_def": 0.009,
    "to_pg": 0.625,
    "margin_pg": 3.75,
    "opps": [
@@ -1528,14 +1507,14 @@
     "DET",
     "BUF"
    ],
-   "sos": -0.105,
+   "sos": -0.104,
    "rank": 17,
    "off_rank": 30,
    "def_rank": 2,
    "sos_rank": 19,
-   "sos_off_rank": 25,
+   "sos_off_rank": 24,
    "sos_def_rank": 14,
-   "prev_rank": 20,
+   "prev_rank": 17,
    "proj_pf": 18.2,
    "proj_pa": 18.5,
    "qb_starts": [
@@ -1557,11 +1536,11 @@
    "off_ypp": 5.192,
    "def_ypp": 4.98,
    "raw": 0.212,
-   "O": -0.342,
-   "D": 0.243,
-   "adj": -0.099,
-   "sos_off": -0.205,
-   "sos_def": -0.108,
+   "O": -0.341,
+   "D": 0.245,
+   "adj": -0.096,
+   "sos_off": -0.2,
+   "sos_def": -0.11,
    "to_pg": 0.625,
    "margin_pg": 4.5,
    "opps": [
@@ -1574,15 +1553,15 @@
     "NO",
     "CLE"
    ],
-   "sos": -0.314,
+   "sos": -0.31,
    "rank": 18,
    "off_rank": 23,
-   "def_rank": 8,
+   "def_rank": 9,
    "sos_rank": 26,
    "sos_off_rank": 28,
    "sos_def_rank": 21,
-   "prev_rank": 17,
-   "proj_pf": 20.9,
+   "prev_rank": 18,
+   "proj_pf": 21.0,
    "proj_pa": 21.5,
    "qb_starts": [
     [
@@ -1599,11 +1578,11 @@
    "off_ypp": 4.906,
    "def_ypp": 5.021,
    "raw": -0.115,
-   "O": -0.502,
-   "D": 0.368,
-   "adj": -0.134,
-   "sos_off": -0.081,
-   "sos_def": 0.059,
+   "O": -0.503,
+   "D": 0.371,
+   "adj": -0.133,
+   "sos_off": -0.079,
+   "sos_def": 0.058,
    "to_pg": 0.778,
    "margin_pg": 2.667,
    "opps": [
@@ -1617,9 +1596,9 @@
     "ATL",
     "CHI"
    ],
-   "sos": -0.022,
+   "sos": -0.021,
    "rank": 19,
-   "off_rank": 27,
+   "off_rank": 28,
    "def_rank": 7,
    "sos_rank": 15,
    "sos_off_rank": 22,
@@ -1639,52 +1618,6 @@
    ]
   },
   {
-   "team": "WAS",
-   "name": "Washington",
-   "games": 8,
-   "record": "2-5-1",
-   "off_ypp": 5.248,
-   "def_ypp": 5.245,
-   "raw": 0.003,
-   "O": 0.006,
-   "D": -0.24,
-   "adj": -0.234,
-   "sos_off": 0.086,
-   "sos_def": -0.326,
-   "to_pg": 0.875,
-   "margin_pg": -3.75,
-   "opps": [
-    "PHI",
-    "DAL",
-    "SEA",
-    "IND",
-    "NYG",
-    "SF",
-    "PHI",
-    "LA"
-   ],
-   "sos": -0.239,
-   "rank": 20,
-   "off_rank": 16,
-   "def_rank": 24,
-   "sos_rank": 23,
-   "sos_off_rank": 10,
-   "sos_def_rank": 30,
-   "prev_rank": 26,
-   "proj_pf": 23.0,
-   "proj_pa": 24.4,
-   "qb_starts": [
-    [
-     "Jayden Daniels",
-     7
-    ],
-    [
-     "Marcus Mariota",
-     1
-    ]
-   ]
-  },
-  {
    "team": "LV",
    "name": "Las Vegas",
    "games": 9,
@@ -1693,10 +1626,10 @@
    "def_ypp": 6.086,
    "raw": -0.738,
    "O": 0.147,
-   "D": -0.407,
-   "adj": -0.259,
-   "sos_off": 0.125,
-   "sos_def": 0.349,
+   "D": -0.408,
+   "adj": -0.26,
+   "sos_off": 0.129,
+   "sos_def": 0.345,
    "to_pg": 0.111,
    "margin_pg": -3.333,
    "opps": [
@@ -1710,16 +1643,16 @@
     "NYJ",
     "SF"
    ],
-   "sos": 0.475,
-   "rank": 21,
+   "sos": 0.474,
+   "rank": 20,
    "off_rank": 13,
    "def_rank": 26,
    "sos_rank": 3,
    "sos_off_rank": 9,
    "sos_def_rank": 3,
-   "prev_rank": 20,
+   "prev_rank": 21,
    "proj_pf": 23.9,
-   "proj_pa": 25.4,
+   "proj_pa": 25.5,
    "qb_starts": [
     [
      "Kirk Cousins",
@@ -1735,11 +1668,11 @@
    "off_ypp": 5.488,
    "def_ypp": 5.365,
    "raw": 0.123,
-   "O": -0.24,
-   "D": -0.04,
-   "adj": -0.28,
-   "sos_off": -0.401,
-   "sos_def": -0.005,
+   "O": -0.237,
+   "D": -0.038,
+   "adj": -0.275,
+   "sos_off": -0.395,
+   "sos_def": -0.007,
    "to_pg": -0.222,
    "margin_pg": -5.222,
    "opps": [
@@ -1753,14 +1686,14 @@
     "BUF",
     "JAX"
    ],
-   "sos": -0.406,
-   "rank": 22,
+   "sos": -0.401,
+   "rank": 21,
    "off_rank": 20,
    "def_rank": 17,
    "sos_rank": 28,
-   "sos_off_rank": 32,
+   "sos_off_rank": 31,
    "sos_def_rank": 15,
-   "prev_rank": 18,
+   "prev_rank": 22,
    "proj_pf": 21.6,
    "proj_pa": 23.2,
    "qb_starts": [
@@ -1786,11 +1719,11 @@
    "off_ypp": 5.428,
    "def_ypp": 5.941,
    "raw": -0.512,
-   "O": 0.502,
-   "D": -0.788,
-   "adj": -0.286,
-   "sos_off": 0.401,
-   "sos_def": -0.178,
+   "O": 0.501,
+   "D": -0.79,
+   "adj": -0.289,
+   "sos_off": 0.403,
+   "sos_def": -0.184,
    "to_pg": -0.444,
    "margin_pg": 6.333,
    "opps": [
@@ -1804,16 +1737,16 @@
     "SEA",
     "TB"
    ],
-   "sos": 0.223,
-   "rank": 23,
+   "sos": 0.219,
+   "rank": 22,
    "off_rank": 7,
-   "def_rank": 29,
-   "sos_rank": 8,
+   "def_rank": 30,
+   "sos_rank": 7,
    "sos_off_rank": 1,
    "sos_def_rank": 25,
-   "prev_rank": 22,
+   "prev_rank": 23,
    "proj_pf": 26.0,
-   "proj_pa": 27.7,
+   "proj_pa": 27.8,
    "qb_starts": [
     [
      "Caleb Williams",
@@ -1830,6 +1763,104 @@
    ]
   },
   {
+   "team": "WAS",
+   "name": "Washington",
+   "games": 9,
+   "record": "3-5-1",
+   "off_ypp": 5.227,
+   "def_ypp": 5.353,
+   "raw": -0.126,
+   "O": -0.012,
+   "D": -0.359,
+   "adj": -0.371,
+   "sos_off": 0.091,
+   "sos_def": -0.34,
+   "to_pg": 0.778,
+   "margin_pg": -3.0,
+   "opps": [
+    "PHI",
+    "DAL",
+    "SEA",
+    "IND",
+    "NYG",
+    "SF",
+    "PHI",
+    "LA",
+    "NYG"
+   ],
+   "sos": -0.249,
+   "rank": 23,
+   "off_rank": 16,
+   "def_rank": 25,
+   "sos_rank": 23,
+   "sos_off_rank": 10,
+   "sos_def_rank": 30,
+   "prev_rank": 20,
+   "proj_pf": 22.9,
+   "proj_pa": 25.2,
+   "qb_starts": [
+    [
+     "Jayden Daniels",
+     8
+    ],
+    [
+     "Marcus Mariota",
+     1
+    ]
+   ]
+  },
+  {
+   "team": "NYG",
+   "name": "NY Giants",
+   "games": 9,
+   "record": "5-3-1",
+   "off_ypp": 5.184,
+   "def_ypp": 5.029,
+   "raw": 0.155,
+   "O": -0.451,
+   "D": 0.078,
+   "adj": -0.374,
+   "sos_off": -0.306,
+   "sos_def": -0.227,
+   "to_pg": -0.222,
+   "margin_pg": 0.778,
+   "opps": [
+    "DAL",
+    "LA",
+    "TEN",
+    "ARI",
+    "WAS",
+    "NO",
+    "HOU",
+    "PHI",
+    "WAS"
+   ],
+   "sos": -0.532,
+   "rank": 23,
+   "off_rank": 27,
+   "def_rank": 14,
+   "sos_rank": 32,
+   "sos_off_rank": 29,
+   "sos_def_rank": 28,
+   "prev_rank": 27,
+   "proj_pf": 20.3,
+   "proj_pa": 22.5,
+   "qb_starts": [
+    [
+     "Jameis Winston",
+     4
+    ],
+    [
+     "J.J. McCarthy",
+     3
+    ],
+    [
+     "Jaxson Dart",
+     2
+    ]
+   ]
+  },
+  {
    "team": "ARI",
    "name": "Arizona",
    "games": 9,
@@ -1837,11 +1868,11 @@
    "off_ypp": 4.707,
    "def_ypp": 5.633,
    "raw": -0.925,
-   "O": -0.263,
-   "D": -0.205,
-   "adj": -0.469,
-   "sos_off": 0.356,
-   "sos_def": 0.097,
+   "O": -0.264,
+   "D": -0.197,
+   "adj": -0.461,
+   "sos_off": 0.359,
+   "sos_def": 0.101,
    "to_pg": 0.0,
    "margin_pg": -8.556,
    "opps": [
@@ -1855,14 +1886,14 @@
     "DAL",
     "SEA"
    ],
-   "sos": 0.453,
-   "rank": 24,
+   "sos": 0.461,
+   "rank": 25,
    "off_rank": 21,
    "def_rank": 23,
    "sos_rank": 5,
    "sos_off_rank": 2,
    "sos_def_rank": 10,
-   "prev_rank": 25,
+   "prev_rank": 24,
    "proj_pf": 21.4,
    "proj_pa": 24.2,
    "qb_starts": [
@@ -1884,10 +1915,10 @@
    "off_ypp": 5.0,
    "def_ypp": 5.217,
    "raw": -0.217,
-   "O": -0.371,
-   "D": -0.1,
-   "adj": -0.471,
-   "sos_off": -0.045,
+   "O": -0.37,
+   "D": -0.095,
+   "adj": -0.465,
+   "sos_off": -0.041,
    "sos_def": -0.212,
    "to_pg": 0.111,
    "margin_pg": -3.889,
@@ -1902,12 +1933,12 @@
     "PIT",
     "NO"
    ],
-   "sos": -0.258,
-   "rank": 24,
+   "sos": -0.252,
+   "rank": 26,
    "off_rank": 24,
    "def_rank": 19,
-   "sos_rank": 24,
-   "sos_off_rank": 21,
+   "sos_rank": 23,
+   "sos_off_rank": 20,
    "sos_def_rank": 26,
    "prev_rank": 24,
    "proj_pf": 20.8,
@@ -1932,10 +1963,10 @@
    "def_ypp": 5.65,
    "raw": -0.965,
    "O": -0.389,
-   "D": -0.104,
+   "D": -0.105,
    "adj": -0.494,
-   "sos_off": 0.254,
-   "sos_def": 0.215,
+   "sos_off": 0.258,
+   "sos_def": 0.211,
    "to_pg": -0.875,
    "margin_pg": -12.25,
    "opps": [
@@ -1949,69 +1980,19 @@
     "HOU"
    ],
    "sos": 0.469,
-   "rank": 26,
+   "rank": 27,
    "off_rank": 26,
-   "def_rank": 19,
+   "def_rank": 21,
    "sos_rank": 3,
-   "sos_off_rank": 4,
+   "sos_off_rank": 3,
    "sos_def_rank": 6,
-   "prev_rank": 13,
+   "prev_rank": 26,
    "proj_pf": 20.7,
    "proj_pa": 23.6,
    "qb_starts": [
     [
      "Justin Herbert",
      8
-    ]
-   ]
-  },
-  {
-   "team": "NYG",
-   "name": "NY Giants",
-   "games": 8,
-   "record": "5-2-1",
-   "off_ypp": 5.057,
-   "def_ypp": 5.023,
-   "raw": 0.034,
-   "O": -0.566,
-   "D": 0.062,
-   "adj": -0.504,
-   "sos_off": -0.295,
-   "sos_def": -0.246,
-   "to_pg": -0.25,
-   "margin_pg": 1.25,
-   "opps": [
-    "DAL",
-    "LA",
-    "TEN",
-    "ARI",
-    "WAS",
-    "NO",
-    "HOU",
-    "PHI"
-   ],
-   "sos": -0.541,
-   "rank": 27,
-   "off_rank": 28,
-   "def_rank": 14,
-   "sos_rank": 32,
-   "sos_off_rank": 29,
-   "sos_def_rank": 28,
-   "prev_rank": 27,
-   "proj_pf": 19.6,
-   "proj_pa": 22.6,
-   "qb_starts": [
-    [
-     "Jameis Winston",
-     4
-    ],
-    [
-     "Jaxson Dart",
-     2
-    ],
-    [
-     "J.J. McCarthy",
-     2
     ]
    ]
   },
@@ -2023,11 +2004,11 @@
    "off_ypp": 5.564,
    "def_ypp": 5.793,
    "raw": -0.228,
-   "O": 0.21,
-   "D": -0.864,
+   "O": 0.2,
+   "D": -0.853,
    "adj": -0.654,
-   "sos_off": -0.027,
-   "sos_def": -0.402,
+   "sos_off": -0.034,
+   "sos_def": -0.395,
    "to_pg": -0.111,
    "margin_pg": 1.111,
    "opps": [
@@ -2045,12 +2026,12 @@
    "rank": 28,
    "off_rank": 12,
    "def_rank": 32,
-   "sos_rank": 29,
+   "sos_rank": 30,
    "sos_off_rank": 17,
    "sos_def_rank": 32,
    "prev_rank": 28,
-   "proj_pf": 24.3,
-   "proj_pa": 28.2,
+   "proj_pf": 24.2,
+   "proj_pa": 28.1,
    "qb_starts": [
     [
      "Dak Prescott",
@@ -2067,10 +2048,10 @@
    "def_ypp": 5.689,
    "raw": -0.781,
    "O": -0.365,
-   "D": -0.533,
-   "adj": -0.898,
-   "sos_off": 0.055,
-   "sos_def": -0.174,
+   "D": -0.514,
+   "adj": -0.879,
+   "sos_off": 0.059,
+   "sos_def": -0.159,
    "to_pg": -0.75,
    "margin_pg": -3.875,
    "opps": [
@@ -2083,16 +2064,16 @@
     "PIT",
     "CLE"
    ],
-   "sos": -0.119,
+   "sos": -0.101,
    "rank": 29,
    "off_rank": 24,
    "def_rank": 27,
-   "sos_rank": 20,
+   "sos_rank": 19,
    "sos_off_rank": 13,
-   "sos_def_rank": 24,
+   "sos_def_rank": 23,
    "prev_rank": 29,
    "proj_pf": 20.8,
-   "proj_pa": 26.2,
+   "proj_pa": 26.1,
    "qb_starts": [
     [
      "Tyler Shough",
@@ -2108,11 +2089,11 @@
    "off_ypp": 4.289,
    "def_ypp": 5.373,
    "raw": -1.084,
-   "O": -1.371,
-   "D": 0.027,
-   "adj": -1.344,
-   "sos_off": -0.334,
-   "sos_def": 0.07,
+   "O": -1.396,
+   "D": 0.037,
+   "adj": -1.359,
+   "sos_off": -0.355,
+   "sos_def": 0.077,
    "to_pg": -0.444,
    "margin_pg": -8.111,
    "opps": [
@@ -2126,15 +2107,15 @@
     "WAS",
     "NYG"
    ],
-   "sos": -0.264,
+   "sos": -0.279,
    "rank": 30,
    "off_rank": 32,
    "def_rank": 15,
-   "sos_rank": 24,
+   "sos_rank": 25,
    "sos_off_rank": 30,
-   "sos_def_rank": 12,
-   "prev_rank": 31,
-   "proj_pf": 14.8,
+   "sos_def_rank": 11,
+   "prev_rank": 30,
+   "proj_pf": 14.6,
    "proj_pa": 22.8,
    "qb_starts": [
     [
@@ -2159,11 +2140,11 @@
    "off_ypp": 4.844,
    "def_ypp": 5.761,
    "raw": -0.916,
-   "O": -0.594,
-   "D": -0.798,
-   "adj": -1.392,
-   "sos_off": -0.11,
-   "sos_def": -0.368,
+   "O": -0.59,
+   "D": -0.784,
+   "adj": -1.374,
+   "sos_off": -0.103,
+   "sos_def": -0.357,
    "to_pg": -0.125,
    "margin_pg": -6.875,
    "opps": [
@@ -2176,16 +2157,16 @@
     "CLE",
     "CIN"
    ],
-   "sos": -0.478,
+   "sos": -0.46,
    "rank": 31,
    "off_rank": 29,
-   "def_rank": 31,
+   "def_rank": 29,
    "sos_rank": 31,
    "sos_off_rank": 23,
    "sos_def_rank": 31,
-   "prev_rank": 30,
-   "proj_pf": 19.4,
-   "proj_pa": 27.8,
+   "prev_rank": 31,
+   "proj_pf": 19.5,
+   "proj_pa": 27.7,
    "qb_starts": [
     [
      "Cam Ward",
@@ -2201,11 +2182,11 @@
    "off_ypp": 4.498,
    "def_ypp": 6.109,
    "raw": -1.611,
-   "O": -0.947,
-   "D": -0.788,
-   "adj": -1.735,
-   "sos_off": -0.119,
-   "sos_def": -0.009,
+   "O": -0.959,
+   "D": -0.787,
+   "adj": -1.746,
+   "sos_off": -0.128,
+   "sos_def": -0.011,
    "to_pg": -1.222,
    "margin_pg": -7.222,
    "opps": [
@@ -2219,15 +2200,15 @@
     "JAX",
     "DAL"
    ],
-   "sos": -0.128,
+   "sos": -0.139,
    "rank": 32,
    "off_rank": 31,
-   "def_rank": 29,
+   "def_rank": 30,
    "sos_rank": 21,
-   "sos_off_rank": 25,
-   "sos_def_rank": 16,
+   "sos_off_rank": 26,
+   "sos_def_rank": 15,
    "prev_rank": 32,
-   "proj_pf": 17.3,
+   "proj_pf": 17.2,
    "proj_pa": 27.7,
    "qb_starts": [
     [
@@ -2280,13 +2261,13 @@
   "summary": {
    "weeks": [
     4,
-    9
+    10
    ],
    "all_ats": {
-    "w": 43,
+    "w": 44,
     "l": 41,
     "p": 3,
-    "pct": 0.512
+    "pct": 0.518
    },
    "edge_ats": {
     "w": 25,
@@ -2307,16 +2288,16 @@
     "pct": 0.471
    },
    "su": {
-    "w": 52,
+    "w": 53,
     "l": 34,
     "p": 0,
-    "pct": 0.605
+    "pct": 0.609
    },
    "all_ou": {
-    "w": 43,
+    "w": 44,
     "l": 44,
     "p": 0,
-    "pct": 0.494
+    "pct": 0.5
    },
    "edge_ou": {
     "w": 21,
@@ -2455,6 +2436,27 @@
       "l": 7,
       "p": 0,
       "pct": 0.533
+     }
+    },
+    {
+     "week": 10,
+     "ats": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "pct": null
+     },
+     "ou": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "pct": null
+     },
+     "all": {
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 1.0
      }
     }
    ]
@@ -4130,6 +4132,25 @@
     "model_total": 43.1,
     "total_line": 45.5,
     "total_edge": -2.4,
+    "ou": "W"
+   },
+   {
+    "week": 10,
+    "away": "WAS",
+    "home": "NYG",
+    "model": 0.1,
+    "line": -1.5,
+    "edge": 1.6,
+    "final": [
+     24,
+     21
+    ],
+    "qb_flag": true,
+    "ats": "W",
+    "su": "W",
+    "model_total": 43.7,
+    "total_line": 40.5,
+    "total_edge": 3.2,
     "ou": "W"
    }
   ]
