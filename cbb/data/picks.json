@@ -2044,7 +2044,12 @@
   },
   "logged": "2026-11-11T22:17:13.375509+00:00",
   "close": -25.0,
-  "clv": 1.2
+  "clv": 1.2,
+  "final": [
+   66,
+   90
+  ],
+  "result": "W"
  },
  {
   "event_id": "60340e8a19f88be7b0c22c5428810081",
@@ -2066,7 +2071,12 @@
   },
   "logged": "2026-11-11T22:17:13.375509+00:00",
   "close": -13.0,
-  "clv": 1.5
+  "clv": 1.5,
+  "final": [
+   86,
+   81
+  ],
+  "result": "W"
  },
  {
   "event_id": "bb076258b9d68ac93facc485d09f8f17",
@@ -2088,7 +2098,12 @@
   },
   "logged": "2026-11-11T22:17:13.375509+00:00",
   "close": 9.0,
-  "clv": -1.5
+  "clv": -1.5,
+  "final": [
+   91,
+   83
+  ],
+  "result": "L"
  },
  {
   "event_id": "aedc154c22609923dadd12582547db3a",
@@ -2110,7 +2125,12 @@
   },
   "logged": "2026-11-11T22:17:13.375509+00:00",
   "close": -24.5,
-  "clv": 1.5
+  "clv": 1.5,
+  "final": [
+   61,
+   75
+  ],
+  "result": "W"
  },
  {
   "event_id": "941f2cdc3c144d4d6ec9d98620c4804c",
@@ -2132,7 +2152,12 @@
   },
   "logged": "2026-11-11T22:17:13.375509+00:00",
   "close": -1.0,
-  "clv": -1.0
+  "clv": -1.0,
+  "final": [
+   72,
+   79
+  ],
+  "result": "L"
  },
  {
   "event_id": "1fbeee2eb0b578203e3e4eb56899c6ea",
@@ -2154,7 +2179,12 @@
   },
   "logged": "2026-11-11T22:17:13.375509+00:00",
   "close": -21.5,
-  "clv": 3.8
+  "clv": 3.8,
+  "final": [
+   71,
+   86
+  ],
+  "result": "W"
  },
  {
   "event_id": "c62dc747fca57d00af7e4fe8f1326f58",
@@ -2176,7 +2206,12 @@
   },
   "logged": "2026-11-12T16:44:34.520396+00:00",
   "close": -20.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   57,
+   72
+  ],
+  "result": "W"
  },
  {
   "event_id": "ddcf26810b7aa3e03d38719931c1d035",
@@ -2198,7 +2233,12 @@
   },
   "logged": "2026-11-12T16:44:34.520396+00:00",
   "close": -23.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   59,
+   88
+  ],
+  "result": "L"
  },
  {
   "event_id": "7d106785bb452a99d872a4a1233edf17",
@@ -2220,7 +2260,12 @@
   },
   "logged": "2026-11-12T16:44:34.520396+00:00",
   "close": -5.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   83,
+   85
+  ],
+  "result": "L"
  },
  {
   "event_id": "b1475de379dc7a6760a16fea0af94a6f",
@@ -2242,7 +2287,12 @@
   },
   "logged": "2026-11-12T16:44:34.520396+00:00",
   "close": -26.5,
-  "clv": -1.5
+  "clv": -1.5,
+  "final": [
+   61,
+   91
+  ],
+  "result": "L"
  },
  {
   "event_id": "4dd17035607c57aff8b475d30545a677",
@@ -2264,7 +2314,12 @@
   },
   "logged": "2026-11-12T16:44:34.520396+00:00",
   "close": -8.0,
-  "clv": 0.5
+  "clv": 0.5,
+  "final": [
+   69,
+   88
+  ],
+  "result": "L"
  },
  {
   "event_id": "5003f1022ff5701d7b72662678604d83",
@@ -2286,7 +2341,12 @@
   },
   "logged": "2026-11-12T16:44:34.520396+00:00",
   "close": 2.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   70,
+   80
+  ],
+  "result": "L"
  },
  {
   "event_id": "28ccd5b9ef2cd2f791d5c4d65f258da1",
@@ -2587,5 +2647,165 @@
    "book": "BetOnline"
   },
   "logged": "2026-11-12T21:55:28.154298+00:00"
+ },
+ {
+  "event_id": "2151748c9e4175d788ed587a685e52d7",
+  "date": "2026-11-13",
+  "tip": "2026-11-13T20:00:00Z",
+  "away": "West Florida",
+  "home": "Cleveland St.",
+  "side": "home",
+  "pick": "Cleveland St. -3.5",
+  "line": -3.5,
+  "model_spread": -9.2,
+  "edge": -5.7,
+  "market": "against",
+  "move_at_pick": 0.5,
+  "best": {
+   "pt": -2.5,
+   "px": -120,
+   "book": "ESPN BET"
+  },
+  "logged": "2026-11-13T16:48:22.269874+00:00"
+ },
+ {
+  "event_id": "434e3816a0d976cb0b270d5b09b24286",
+  "date": "2026-11-13",
+  "tip": "2026-11-13T22:00:00Z",
+  "away": "Texas A&M Corpus Chris",
+  "home": "Florida St.",
+  "side": "away",
+  "pick": "Texas A&M Corpus Chris +24",
+  "line": -24.0,
+  "model_spread": -16.0,
+  "edge": 8.0,
+  "market": "against",
+  "move_at_pick": -2.0,
+  "best": {
+   "pt": 24.5,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-13T16:48:22.269874+00:00"
+ },
+ {
+  "event_id": "cf5a095835a9ee434f87cd29f05948c5",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T00:00:00Z",
+  "away": "Appalachian St.",
+  "home": "Charlotte",
+  "side": "home",
+  "pick": "Charlotte -7.5",
+  "line": -7.5,
+  "model_spread": -10.6,
+  "edge": -3.1,
+  "market": "against",
+  "move_at_pick": 1.0,
+  "best": {
+   "pt": -7.0,
+   "px": -115,
+   "book": "Bovada"
+  },
+  "logged": "2026-11-13T16:48:22.269874+00:00"
+ },
+ {
+  "event_id": "f0d6eaf1bbcd999c63015f73ca994d94",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T00:00:00Z",
+  "away": "Chattanooga",
+  "home": "Elon",
+  "side": "home",
+  "pick": "Elon -2.5",
+  "line": -2.5,
+  "model_spread": -5.8,
+  "edge": -3.3,
+  "market": "against",
+  "move_at_pick": 1.2,
+  "best": {
+   "pt": -1.5,
+   "px": -110,
+   "book": "FanDuel"
+  },
+  "logged": "2026-11-13T16:48:22.269874+00:00"
+ },
+ {
+  "event_id": "82d63fe987183f4f973a6edc91edce1d",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T00:30:00Z",
+  "away": "Ohio St.",
+  "home": "Connecticut",
+  "side": "away",
+  "pick": "Ohio St. +12",
+  "line": -12.0,
+  "model_spread": -7.0,
+  "edge": 5.0,
+  "market": "against",
+  "move_at_pick": -3.0,
+  "best": {
+   "pt": 12.5,
+   "px": -120,
+   "book": "DraftKings"
+  },
+  "logged": "2026-11-13T16:48:22.269874+00:00"
+ },
+ {
+  "event_id": "70562f10018e40b9221cf498847b0031",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T01:00:00Z",
+  "away": "Fairleigh Dickinson",
+  "home": "Oklahoma",
+  "side": "away",
+  "pick": "Fairleigh Dickinson +32",
+  "line": -32.0,
+  "model_spread": -25.3,
+  "edge": 6.7,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 32.0,
+   "px": -115,
+   "book": "Pinnacle"
+  },
+  "logged": "2026-11-13T16:48:22.269874+00:00"
+ },
+ {
+  "event_id": "d098ee44a8ccae008fb103de2f781632",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T01:00:00Z",
+  "away": "Texas Southern",
+  "home": "Murray St.",
+  "side": "away",
+  "pick": "Texas Southern +29",
+  "line": -29.0,
+  "model_spread": -22.0,
+  "edge": 7.0,
+  "market": "against",
+  "move_at_pick": -2.5,
+  "best": {
+   "pt": 29.5,
+   "px": -110,
+   "book": "BetMGM"
+  },
+  "logged": "2026-11-13T16:48:22.269874+00:00"
+ },
+ {
+  "event_id": "2320c172615410b0a773eb086dcef8ea",
+  "date": "2026-11-13",
+  "tip": "2026-11-14T01:00:00Z",
+  "away": "Wright St.",
+  "home": "Samford",
+  "side": "away",
+  "pick": "Wright St. -1",
+  "line": 1.0,
+  "model_spread": 4.6,
+  "edge": 3.6,
+  "market": "against",
+  "move_at_pick": -1.2,
+  "best": {
+   "pt": -1.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "logged": "2026-11-13T16:48:22.269874+00:00"
  }
 ]
