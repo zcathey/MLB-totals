@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-13T16:48:22.269874+00:00",
- "mode": "picks",
+ "generated_at": "2026-11-13T20:11:37.571759+00:00",
+ "mode": "open",
  "ratings": {
   "status": "fresh",
   "updated": "2026-11-13T13:08:54+00:00",
@@ -11,7 +11,7 @@
  "lines": {
   "status": "ok",
   "events": 55,
-  "credits_remaining": "424"
+  "credits_remaining": "420"
  },
  "settings": {
   "hfa": 3.0,
@@ -26,21 +26,21 @@
    "home": "Cleveland St.",
    "away_raw": "West Florida Argonauts",
    "home_raw": "Cleveland St Vikings",
-   "started": false,
+   "started": true,
    "neutral": false,
    "books": 7,
-   "mkt_spread": -3.5,
+   "mkt_spread": 1.0,
    "mkt_total": 150.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -2.5,
-    "px": -120,
-    "book": "ESPN BET"
+    "pt": 1.5,
+    "px": -118,
+    "book": "BetMGM"
    },
    "best_away": {
-    "pt": 3.5,
-    "px": -113,
-    "book": "Pinnacle"
+    "pt": 1.5,
+    "px": -130,
+    "book": "ESPN BET"
    },
    "open_spread": -4.0,
    "open_total": 154.0,
@@ -54,10 +54,10 @@
    "away_rank": 360,
    "home_rank": 298,
    "flags": [],
-   "edge": -5.7,
-   "move": 0.5,
+   "edge": -10.2,
+   "move": 5.0,
    "total_edge": -5.7,
-   "pick": "Cleveland St. -3.5",
+   "pick": "Cleveland St. +1",
    "pick_side": "home",
    "market": "against"
   },
@@ -113,18 +113,18 @@
    "started": false,
    "neutral": false,
    "books": 7,
-   "mkt_spread": -33.5,
+   "mkt_spread": -33.0,
    "mkt_total": 151.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -32.5,
-    "px": -115,
-    "book": "ESPN BET"
+    "px": -110,
+    "book": "BetOnline"
    },
    "best_away": {
     "pt": 33.5,
-    "px": -110,
-    "book": "FanDuel"
+    "px": -118,
+    "book": "BetRivers"
    },
    "open_spread": -33.5,
    "open_total": 148.25,
@@ -138,12 +138,12 @@
    "away_rank": 301,
    "home_rank": 18,
    "flags": [],
-   "edge": 6.2,
-   "move": 0.0,
+   "edge": 5.7,
+   "move": 0.5,
    "total_edge": -0.2,
-   "pick": "North Alabama +33.5",
+   "pick": "North Alabama +33",
    "pick_side": "away",
-   "market": "flat"
+   "market": "agrees"
   },
   {
    "event_id": "83b4c6a6cad10ef31246d4526bfcf3cf",
@@ -160,13 +160,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -4.5,
-    "px": -109,
-    "book": "Pinnacle"
+    "px": -105,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 4.5,
-    "px": -105,
-    "book": "ESPN BET"
+    "px": -108,
+    "book": "DraftKings"
    },
    "open_spread": -4.5,
    "open_total": 148.5,
@@ -199,8 +199,8 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -21.5,
-    "px": -104,
-    "book": "Pinnacle"
+    "px": -105,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 21.5,
@@ -234,7 +234,7 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -3.0,
-   "mkt_total": 161.0,
+   "mkt_total": 158.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -2.5,
@@ -244,7 +244,7 @@
    "best_away": {
     "pt": 3.5,
     "px": -110,
-    "book": "BetOnline"
+    "book": "DraftKings"
    },
    "open_spread": -3.0,
    "open_total": 155.5,
@@ -260,7 +260,7 @@
    "flags": [],
    "edge": 0.8,
    "move": 0.0,
-   "total_edge": 3.2
+   "total_edge": 5.7
   },
   {
    "event_id": "fb185c92b4800a8c22db26c4fc95a853",
@@ -272,13 +272,13 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": 6.0,
+   "mkt_spread": 5.5,
    "mkt_total": 147.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 6.0,
-    "px": -106,
-    "book": "Pinnacle"
+    "px": -112,
+    "book": "BetOnline"
    },
    "best_away": {
     "pt": -5.5,
@@ -297,8 +297,8 @@
    "away_rank": 211,
    "home_rank": 350,
    "flags": [],
-   "edge": -0.2,
-   "move": 2.5,
+   "edge": 0.3,
+   "move": 2.0,
    "total_edge": -2.3
   },
   {
@@ -315,13 +315,13 @@
    "mkt_total": 131.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -7.0,
-    "px": -115,
-    "book": "Bovada"
+    "pt": -7.5,
+    "px": -118,
+    "book": "Pinnacle"
    },
    "best_away": {
-    "pt": 7.5,
-    "px": -105,
+    "pt": 8.5,
+    "px": -110,
     "book": "FanDuel"
    },
    "open_spread": -8.5,
@@ -354,7 +354,7 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -2.5,
-   "mkt_total": 150.0,
+   "mkt_total": 151.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -1.5,
@@ -363,7 +363,7 @@
    },
    "best_away": {
     "pt": 2.5,
-    "px": -114,
+    "px": -115,
     "book": "Pinnacle"
    },
    "open_spread": -3.75,
@@ -380,7 +380,7 @@
    "flags": [],
    "edge": -3.3,
    "move": 1.2,
-   "total_edge": 1.0,
+   "total_edge": 0.0,
    "pick": "Elon -2.5",
    "pick_side": "home",
    "market": "against"
@@ -396,7 +396,7 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -36.0,
-   "mkt_total": 141.0,
+   "mkt_total": 140.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -35.5,
@@ -405,7 +405,7 @@
    },
    "best_away": {
     "pt": 36.5,
-    "px": -104,
+    "px": -109,
     "book": "BetRivers"
    },
    "open_spread": -37.5,
@@ -422,7 +422,7 @@
    "flags": [],
    "edge": 11.1,
    "move": 1.5,
-   "total_edge": 1.0,
+   "total_edge": 2.0,
    "pick": "Merrimack +36",
    "pick_side": "away",
    "market": "agrees"
@@ -442,13 +442,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -1.5,
-    "px": -110,
+    "px": -120,
     "book": "ESPN BET"
    },
    "best_away": {
     "pt": 2.5,
-    "px": -118,
-    "book": "BetMGM"
+    "px": -115,
+    "book": "DraftKings"
    },
    "open_spread": -4.0,
    "open_total": 153.5,
@@ -479,12 +479,12 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -12.5,
-   "mkt_total": 144.0,
+   "mkt_total": 145.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -12.5,
-    "px": -113,
-    "book": "BetRivers"
+    "px": -110,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 13.5,
@@ -505,7 +505,7 @@
    "flags": [],
    "edge": 2.3,
    "move": 0.5,
-   "total_edge": 0.8
+   "total_edge": -0.7
   },
   {
    "event_id": "800cf2e12ab8e83a5f1c8d234a963dfe",
@@ -522,8 +522,8 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -10.5,
-    "px": -111,
-    "book": "BetOnline"
+    "px": -118,
+    "book": "DraftKings"
    },
    "best_away": {
     "pt": 11.5,
@@ -561,13 +561,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -6.5,
-    "px": -107,
-    "book": "BetRivers"
+    "px": -112,
+    "book": "DraftKings"
    },
    "best_away": {
     "pt": 7.5,
-    "px": -110,
-    "book": "FanDuel"
+    "px": -118,
+    "book": "BetRivers"
    },
    "open_spread": -7.5,
    "open_total": 138.5,
@@ -595,18 +595,18 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -36.5,
-   "mkt_total": 173.0,
+   "mkt_spread": -35.5,
+   "mkt_total": 171.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -36.5,
-    "px": -104,
-    "book": "Pinnacle"
+    "pt": -34.5,
+    "px": -120,
+    "book": "ESPN BET"
    },
    "best_away": {
-    "pt": 36.5,
-    "px": -105,
-    "book": "BetRivers"
+    "pt": 35.5,
+    "px": -110,
+    "book": "FanDuel"
    },
    "open_spread": -35.5,
    "open_total": 170.0,
@@ -620,12 +620,12 @@
    "away_rank": 148,
    "home_rank": 7,
    "flags": [],
-   "edge": 13.6,
-   "move": -1.0,
-   "total_edge": -10.0,
-   "pick": "Sam Houston St. +36.5",
+   "edge": 12.6,
+   "move": 0.0,
+   "total_edge": -8.5,
+   "pick": "Sam Houston St. +35.5",
    "pick_side": "away",
-   "market": "against"
+   "market": "flat"
   },
   {
    "event_id": "ebdde7697bc17f553199c5ec379ac590",
@@ -637,18 +637,18 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -30.0,
-   "mkt_total": 153.5,
+   "mkt_spread": -30.5,
+   "mkt_total": 152.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -30.0,
-    "px": -112,
-    "book": "BetOnline"
+    "pt": -30.5,
+    "px": -105,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 30.5,
-    "px": -110,
-    "book": "FanDuel"
+    "px": -103,
+    "book": "BetRivers"
    },
    "open_spread": -34.5,
    "open_total": 155.5,
@@ -662,10 +662,10 @@
    "away_rank": 312,
    "home_rank": 39,
    "flags": [],
-   "edge": 5.8,
-   "move": 4.5,
-   "total_edge": -2.3,
-   "pick": "Northern Arizona +30",
+   "edge": 6.3,
+   "move": 4.0,
+   "total_edge": -1.3,
+   "pick": "Northern Arizona +30.5",
    "pick_side": "away",
    "market": "agrees"
   },
@@ -683,14 +683,14 @@
    "mkt_total": 133.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -1.0,
+    "pt": -1.5,
     "px": -115,
-    "book": "BetOnline"
+    "book": "DraftKings"
    },
    "best_away": {
-    "pt": 2.0,
-    "px": -119,
-    "book": "Pinnacle"
+    "pt": 2.5,
+    "px": -110,
+    "book": "BetMGM"
    },
    "open_spread": -4.0,
    "open_total": 133.0,
@@ -723,8 +723,8 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -27.5,
-    "px": -110,
-    "book": "FanDuel"
+    "px": -115,
+    "book": "BetOnline"
    },
    "best_away": {
     "pt": 28.5,
@@ -764,14 +764,14 @@
    "mkt_total": 148.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -22.5,
-    "px": -110,
-    "book": "FanDuel"
+    "pt": -22.0,
+    "px": -113,
+    "book": "BetOnline"
    },
    "best_away": {
-    "pt": 23.5,
-    "px": -115,
-    "book": "ESPN BET"
+    "pt": 23.0,
+    "px": -119,
+    "book": "Pinnacle"
    },
    "open_spread": -22.5,
    "open_total": 147.5,
@@ -806,9 +806,9 @@
    "mkt_total": 164.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -4.0,
-    "px": -110,
-    "book": "Bovada"
+    "pt": -3.5,
+    "px": -114,
+    "book": "FanDuel"
    },
    "best_away": {
     "pt": 4.5,
@@ -841,18 +841,18 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": 2.5,
+   "mkt_spread": 1.5,
    "mkt_total": 154.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 2.5,
-    "px": -118,
+    "pt": 1.5,
+    "px": -103,
     "book": "Pinnacle"
    },
    "best_away": {
-    "pt": -1.5,
-    "px": -114,
-    "book": "FanDuel"
+    "pt": -1.0,
+    "px": -115,
+    "book": "BetOnline"
    },
    "open_spread": 1.5,
    "open_total": 154.5,
@@ -866,8 +866,8 @@
    "away_rank": 173,
    "home_rank": 227,
    "flags": [],
-   "edge": -2.4,
-   "move": 1.0,
+   "edge": -1.4,
+   "move": 0.0,
    "total_edge": -1.9
   },
   {
@@ -881,17 +881,17 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -19.0,
-   "mkt_total": 153.0,
+   "mkt_total": 150.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -18.5,
-    "px": -110,
+    "px": -108,
     "book": "BetRivers"
    },
    "best_away": {
     "pt": 19.0,
-    "px": -110,
-    "book": "BetOnline"
+    "px": -115,
+    "book": "Pinnacle"
    },
    "open_spread": -19.25,
    "open_total": 153.0,
@@ -907,7 +907,7 @@
    "flags": [],
    "edge": 0.5,
    "move": 0.2,
-   "total_edge": -3.7
+   "total_edge": -1.2
   },
   {
    "event_id": "fd82be15da4dd502ed746a9c5f329f08",
@@ -919,18 +919,18 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -28.5,
-   "mkt_total": 159.0,
+   "mkt_spread": -27.5,
+   "mkt_total": 157.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -28.5,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": -26.5,
+    "px": -120,
+    "book": "ESPN BET"
    },
    "best_away": {
-    "pt": 29.5,
-    "px": -121,
-    "book": "BetRivers"
+    "pt": 28.0,
+    "px": -114,
+    "book": "BetOnline"
    },
    "open_spread": -29.25,
    "open_total": 154.25,
@@ -944,10 +944,10 @@
    "away_rank": 188,
    "home_rank": 21,
    "flags": [],
-   "edge": 7.9,
-   "move": 0.8,
-   "total_edge": -6.6,
-   "pick": "Tennessee St. +28.5",
+   "edge": 6.9,
+   "move": 1.8,
+   "total_edge": -4.6,
+   "pick": "Tennessee St. +27.5",
    "pick_side": "away",
    "market": "agrees"
   },
@@ -966,13 +966,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -40.5,
-    "px": -110,
-    "book": "BetOnline"
+    "px": -105,
+    "book": "BetRivers"
    },
    "best_away": {
-    "pt": 41.0,
-    "px": -106,
-    "book": "Pinnacle"
+    "pt": 41.5,
+    "px": -110,
+    "book": "ESPN BET"
    },
    "open_spread": -39.5,
    "open_total": 152.5,
@@ -990,17 +990,17 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -28.0,
-   "mkt_total": 149.5,
+   "mkt_spread": -27.0,
+   "mkt_total": 147.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -27.5,
-    "px": -110,
+    "pt": -27.0,
+    "px": -112,
     "book": "BetOnline"
    },
    "best_away": {
-    "pt": 28.5,
-    "px": -110,
+    "pt": 27.5,
+    "px": -102,
     "book": "FanDuel"
    },
    "open_spread": -28.25,
@@ -1024,13 +1024,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -11.5,
-    "px": -109,
-    "book": "BetRivers"
+    "px": -120,
+    "book": "FanDuel"
    },
    "best_away": {
     "pt": 12.5,
-    "px": -120,
-    "book": "DraftKings"
+    "px": -105,
+    "book": "Bovada"
    },
    "open_spread": -9.0,
    "open_total": 145.5,
@@ -1100,17 +1100,17 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -17.0,
+   "mkt_spread": -16.0,
    "mkt_total": 138.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -16.5,
-    "px": -110,
-    "book": "DraftKings"
+    "pt": -15.5,
+    "px": -115,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 17.5,
-    "px": -121,
+    "px": -143,
     "book": "BetRivers"
    },
    "open_spread": -21.5,
@@ -1125,8 +1125,8 @@
    "away_rank": 353,
    "home_rank": 143,
    "flags": [],
-   "edge": 1.9,
-   "move": 4.5,
+   "edge": 0.9,
+   "move": 5.5,
    "total_edge": -2.6
   },
   {
@@ -1148,9 +1148,9 @@
     "book": "FanDuel"
    },
    "best_away": {
-    "pt": 6.5,
-    "px": -118,
-    "book": "DraftKings"
+    "pt": 6.0,
+    "px": -110,
+    "book": "BetOnline"
    },
    "open_spread": -5.5,
    "open_total": 145.5,
@@ -1179,17 +1179,17 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -24.0,
-   "mkt_total": 161.0,
+   "mkt_total": 162.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -23.5,
-    "px": -120,
-    "book": "ESPN BET"
+    "px": -106,
+    "book": "BetRivers"
    },
    "best_away": {
     "pt": 24.5,
-    "px": -110,
-    "book": "FanDuel"
+    "px": -115,
+    "book": "BetMGM"
    },
    "open_spread": -26.5,
    "open_total": 159.25,
@@ -1205,7 +1205,7 @@
    "flags": [],
    "edge": 6.2,
    "move": 2.5,
-   "total_edge": -8.5,
+   "total_edge": -9.5,
    "pick": "Central Arkansas +24",
    "pick_side": "away",
    "market": "agrees"
@@ -1220,18 +1220,18 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -44.5,
+   "mkt_spread": -43.5,
    "mkt_total": 148.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -44.5,
-    "px": -105,
-    "book": "ESPN BET"
+    "pt": -42.5,
+    "px": -112,
+    "book": "DraftKings"
    },
    "best_away": {
-    "pt": 45.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": 43.5,
+    "px": -104,
+    "book": "FanDuel"
    },
    "open_spread": -44.25,
    "open_total": 147.5,
@@ -1245,12 +1245,12 @@
    "away_rank": 276,
    "home_rank": 1,
    "flags": [],
-   "edge": 15.9,
-   "move": -0.2,
+   "edge": 14.9,
+   "move": 0.8,
    "total_edge": -5.9,
-   "pick": "SIU Edwardsville +44.5",
+   "pick": "SIU Edwardsville +43.5",
    "pick_side": "away",
-   "market": "against"
+   "market": "agrees"
   },
   {
    "event_id": "cc4fc7b11a58f2ff7e9aa162f38a824b",
@@ -1267,13 +1267,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 6.5,
-    "px": -105,
+    "px": -110,
     "book": "ESPN BET"
    },
    "best_away": {
     "pt": -5.5,
-    "px": -113,
-    "book": "BetRivers"
+    "px": -115,
+    "book": "FanDuel"
    },
    "open_spread": 5.0,
    "open_total": 152.5,
@@ -1305,9 +1305,9 @@
    "mkt_total": 163.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -27.5,
-    "px": -129,
-    "book": "BetRivers"
+    "pt": -28.5,
+    "px": -118,
+    "book": "FanDuel"
    },
    "best_away": {
     "pt": 29.5,
@@ -1352,9 +1352,9 @@
     "book": "FanDuel"
    },
    "best_away": {
-    "pt": -2.5,
-    "px": -120,
-    "book": "BetRivers"
+    "pt": -3.0,
+    "px": -114,
+    "book": "BetOnline"
    },
    "open_spread": 4.25,
    "open_total": 148.75,
@@ -1388,11 +1388,11 @@
    "best_home": {
     "pt": -31.5,
     "px": -110,
-    "book": "DraftKings"
+    "book": "BetMGM"
    },
    "best_away": {
     "pt": 32.0,
-    "px": -115,
+    "px": -118,
     "book": "Pinnacle"
    },
    "open_spread": -32.0,
@@ -1434,8 +1434,8 @@
    },
    "best_away": {
     "pt": -1.0,
-    "px": -110,
-    "book": "BetOnline"
+    "px": -108,
+    "book": "Pinnacle"
    },
    "open_spread": 2.25,
    "open_total": 156.25,
@@ -1467,7 +1467,7 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -22.5,
-   "mkt_total": 158.0,
+   "mkt_total": 155.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -22.0,
@@ -1475,9 +1475,9 @@
     "book": "BetOnline"
    },
    "best_away": {
-    "pt": 23.5,
-    "px": -113,
-    "book": "BetRivers"
+    "pt": 22.5,
+    "px": -107,
+    "book": "Pinnacle"
    },
    "open_spread": -24.75,
    "open_total": 157.25,
@@ -1493,7 +1493,7 @@
    "flags": [],
    "edge": 3.8,
    "move": 2.2,
-   "total_edge": -4.5,
+   "total_edge": -1.5,
    "pick": "Milwaukee +22.5",
    "pick_side": "away",
    "market": "agrees"
@@ -1517,9 +1517,9 @@
     "book": "BetRivers"
    },
    "best_away": {
-    "pt": 16.0,
-    "px": -105,
-    "book": "BetOnline"
+    "pt": 16.5,
+    "px": -118,
+    "book": "DraftKings"
    },
    "open_spread": -12.5,
    "open_total": 151.0,
@@ -1547,17 +1547,17 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -10.5,
-   "mkt_total": 143.0,
+   "mkt_spread": -11.0,
+   "mkt_total": 139.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -9.5,
-    "px": -115,
-    "book": "ESPN BET"
+    "pt": -10.5,
+    "px": -110,
+    "book": "BetOnline"
    },
    "best_away": {
-    "pt": 10.5,
-    "px": -113,
+    "pt": 11.5,
+    "px": -112,
     "book": "BetRivers"
    },
    "open_spread": -12.5,
@@ -1572,9 +1572,9 @@
    "away_rank": 225,
    "home_rank": 118,
    "flags": [],
-   "edge": 0.2,
-   "move": 2.0,
-   "total_edge": 7.6
+   "edge": 0.7,
+   "move": 1.5,
+   "total_edge": 11.1
   },
   {
    "event_id": "86f30fdb256a08b2d2226f9bad22af76",
@@ -1586,13 +1586,13 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -23.0,
+   "mkt_spread": -22.5,
    "mkt_total": 164.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -22.5,
-    "px": -110,
-    "book": "FanDuel"
+    "px": -106,
+    "book": "Pinnacle"
    },
    "best_away": {
     "pt": 23.0,
@@ -1611,8 +1611,8 @@
    "away_rank": 309,
    "home_rank": 72,
    "flags": [],
-   "edge": 1.5,
-   "move": -0.8,
+   "edge": 1.0,
+   "move": -0.2,
    "total_edge": -5.8
   },
   {
@@ -1626,11 +1626,11 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -4.0,
-   "mkt_total": 152.5,
+   "mkt_total": 153.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -4.0,
-    "px": -118,
+    "px": -117,
     "book": "Pinnacle"
    },
    "best_away": {
@@ -1652,7 +1652,7 @@
    "flags": [],
    "edge": 2.0,
    "move": -0.2,
-   "total_edge": -2.2
+   "total_edge": -3.2
   },
   {
    "event_id": "b4bbd44c8aa7ec31c09e5e719ad5f874",
@@ -1669,8 +1669,8 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -17.5,
-    "px": -110,
-    "book": "FanDuel"
+    "px": -107,
+    "book": "BetRivers"
    },
    "best_away": {
     "pt": 18.0,
@@ -1706,18 +1706,18 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -31.0,
-   "mkt_total": 147.0,
+   "mkt_spread": -30.0,
+   "mkt_total": 148.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -29.5,
-    "px": -105,
-    "book": "ESPN BET"
+    "px": -118,
+    "book": "FanDuel"
    },
    "best_away": {
-    "pt": 31.0,
-    "px": -106,
-    "book": "Pinnacle"
+    "pt": 30.5,
+    "px": -110,
+    "book": "BetMGM"
    },
    "open_spread": -31.25,
    "open_total": 152.0,
@@ -1731,10 +1731,10 @@
    "away_rank": 318,
    "home_rank": 61,
    "flags": [],
-   "edge": 7.5,
-   "move": 0.2,
-   "total_edge": 9.4,
-   "pick": "Louisiana Monroe +31",
+   "edge": 6.5,
+   "move": 1.2,
+   "total_edge": 7.9,
+   "pick": "Louisiana Monroe +30",
    "pick_side": "away",
    "market": "agrees"
   },
@@ -1748,18 +1748,18 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": 3.0,
+   "mkt_spread": 2.5,
    "mkt_total": 158.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 3.0,
-    "px": -110,
-    "book": "Pinnacle"
+    "pt": 2.5,
+    "px": -105,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": -2.5,
     "px": -108,
-    "book": "BetOnline"
+    "book": "Pinnacle"
    },
    "open_spread": -1.5,
    "open_total": 157.5,
@@ -1773,8 +1773,8 @@
    "away_rank": 9,
    "home_rank": 35,
    "flags": [],
-   "edge": -0.4,
-   "move": 4.5,
+   "edge": 0.1,
+   "move": 4.0,
    "total_edge": -2.0
   },
   {
@@ -1788,11 +1788,11 @@
    "neutral": false,
    "books": 7,
    "mkt_spread": -1.0,
-   "mkt_total": 169.0,
+   "mkt_total": 168.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -1.0,
-    "px": -117,
+    "px": -115,
     "book": "Pinnacle"
    },
    "best_away": {
@@ -1814,7 +1814,7 @@
    "flags": [],
    "edge": 0.2,
    "move": -0.2,
-   "total_edge": -10.8
+   "total_edge": -9.8
   },
   {
    "event_id": "f7bfdc59d5dfb059715f3df93db76cf4",
@@ -1831,7 +1831,7 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 4.0,
-    "px": -115,
+    "px": -112,
     "book": "BetOnline"
    },
    "best_away": {
@@ -1872,14 +1872,14 @@
    "mkt_total": 138.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 1.5,
-    "px": -118,
-    "book": "FanDuel"
+    "pt": -0.5,
+    "px": -112,
+    "book": "BetRivers"
    },
    "best_away": {
     "pt": 1.5,
     "px": -115,
-    "book": "BetMGM"
+    "book": "FanDuel"
    },
    "open_spread": 1.5,
    "open_total": 140.5,
@@ -1912,13 +1912,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -22.5,
-    "px": -115,
+    "px": -105,
     "book": "ESPN BET"
    },
    "best_away": {
-    "pt": 23.5,
-    "px": -112,
-    "book": "DraftKings"
+    "pt": 23.0,
+    "px": -116,
+    "book": "Pinnacle"
    },
    "open_spread": -22.5,
    "open_total": 150.5,
@@ -1947,12 +1947,12 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": 1.0,
-   "mkt_total": 154.0,
+   "mkt_total": 152.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 1.5,
-    "px": -115,
-    "book": "ESPN BET"
+    "px": -118,
+    "book": "DraftKings"
    },
    "best_away": {
     "pt": 0.5,
@@ -1973,7 +1973,7 @@
    "flags": [],
    "edge": -2.2,
    "move": 0.2,
-   "total_edge": -0.9
+   "total_edge": 0.6
   },
   {
    "event_id": "e0d3985e726cb1f2053dc6095c89b08a",
@@ -2015,17 +2015,17 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -16.0,
-   "mkt_total": 144.5,
+   "mkt_total": 142.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -15.5,
-    "px": -114,
+    "px": -112,
     "book": "BetRivers"
    },
    "best_away": {
     "pt": 16.5,
     "px": -115,
-    "book": "BetMGM"
+    "book": "DraftKings"
    },
    "open_spread": -13.5,
    "open_total": 148.0,
@@ -2041,7 +2041,7 @@
    "flags": [],
    "edge": 1.1,
    "move": -2.5,
-   "total_edge": 6.3
+   "total_edge": 8.8
   },
   {
    "event_id": "1409008f5ea7fd435902852f280c6fec",
@@ -2052,14 +2052,14 @@
    "home_raw": "Portland Pilots",
    "started": false,
    "neutral": false,
-   "books": 6,
+   "books": 7,
    "mkt_spread": -7.0,
-   "mkt_total": 150.0,
+   "mkt_total": 151.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -7.0,
-    "px": -115,
-    "book": "BetOnline"
+    "px": -110,
+    "book": "Bovada"
    },
    "best_away": {
     "pt": 7.5,
@@ -2080,7 +2080,7 @@
    "flags": [],
    "edge": -1.0,
    "move": 0.0,
-   "total_edge": -4.6
+   "total_edge": -5.6
   },
   {
    "event_id": "85a997dbe516f43742ed9726057606b1",
@@ -2097,13 +2097,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -5.5,
-    "px": -120,
-    "book": "FanDuel"
+    "px": -118,
+    "book": "DraftKings"
    },
    "best_away": {
     "pt": 6.5,
     "px": -115,
-    "book": "DraftKings"
+    "book": "ESPN BET"
    },
    "open_spread": -5.5,
    "open_total": 152.0,
@@ -2125,14 +2125,14 @@
    "mkt_total": 158.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -12.0,
-    "px": -115,
-    "book": "BetOnline"
-   },
-   "best_away": {
-    "pt": 13.0,
+    "pt": -12.5,
     "px": -110,
     "book": "Bovada"
+   },
+   "best_away": {
+    "pt": 12.5,
+    "px": -102,
+    "book": "BetOnline"
    },
    "open_spread": -12.0,
    "open_total": 155.0,
@@ -2160,17 +2160,17 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -16.0,
-   "mkt_total": 144.5,
+   "mkt_spread": -15.0,
+   "mkt_total": 145.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -15.5,
-    "px": -105,
+    "pt": -14.5,
+    "px": -114,
     "book": "FanDuel"
    },
    "best_away": {
     "pt": 16.5,
-    "px": -112,
+    "px": -132,
     "book": "BetRivers"
    },
    "open_spread": -15.0,
@@ -2185,9 +2185,9 @@
    "away_rank": 364,
    "home_rank": 258,
    "flags": [],
-   "edge": 1.9,
-   "move": -1.0,
-   "total_edge": -4.9
+   "edge": 0.9,
+   "move": 0.0,
+   "total_edge": -5.9
   }
  ],
  "unmatched": [
@@ -4976,7 +4976,9 @@
     "px": -120,
     "book": "ESPN BET"
    },
-   "logged": "2026-11-13T16:48:22.269874+00:00"
+   "logged": "2026-11-13T16:48:22.269874+00:00",
+   "close": -3.5,
+   "clv": 0.0
   },
   {
    "event_id": "434e3816a0d976cb0b270d5b09b24286",
@@ -5125,8 +5127,8 @@
    "l": 42,
    "p": 1,
    "picks": 110,
-   "avg_clv": -0.06,
-   "beat_close": 0.322
+   "avg_clv": -0.05,
+   "beat_close": 0.318
   },
   "agrees": {
    "w": 4,
@@ -5142,7 +5144,7 @@
    "p": 0,
    "picks": 57,
    "avg_clv": 0.13,
-   "beat_close": 0.354
+   "beat_close": 0.347
   },
   "flat": {
    "w": 17,
