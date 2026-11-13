@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-12T20:43:56.675717+00:00",
- "mode": "picks",
+ "generated_at": "2026-11-13T04:10:50.290292+00:00",
+ "mode": "late",
  "season": 2026,
  "week": 10,
  "through_week": 9,
@@ -10,8 +10,8 @@
  },
  "lines": {
   "status": "ok",
-  "events": 27,
-  "credits_remaining": "434"
+  "events": 25,
+  "credits_remaining": "426"
  },
  "settings": {
   "points_base": 23.0,
@@ -34,32 +34,32 @@
    "away_rank": 20,
    "home_rank": 27,
    "neutral": false,
-   "started": false,
+   "started": true,
    "away_qb": "Jayden Daniels",
    "home_qb": "J.J. McCarthy",
-   "books": 8,
-   "mkt_spread": -2.5,
-   "mkt_total": 40.5,
-   "spread_src": "Pinnacle",
+   "books": 2,
+   "mkt_spread": -3.5,
+   "mkt_total": 38.5,
+   "spread_src": "median",
    "best_home": {
-    "pt": -1.0,
-    "px": -115,
-    "book": "BetOnline"
+    "pt": -3.5,
+    "px": -125,
+    "book": "BetRivers"
    },
    "best_away": {
-    "pt": 2.5,
-    "px": -110,
+    "pt": 3.5,
+    "px": 120,
     "book": "DraftKings"
    },
    "best_over": {
-    "pt": 40.5,
-    "px": -115,
+    "pt": 38.5,
+    "px": 109,
     "book": "DraftKings"
    },
    "best_under": {
-    "pt": 41.0,
-    "px": -107,
-    "book": "BetRivers"
+    "pt": 38.5,
+    "px": -143,
+    "book": "DraftKings"
    },
    "open_spread": -2.5,
    "open_total": 42.0,
@@ -72,10 +72,15 @@
     "home_spread": 0.1,
     "total": 43.7
    },
-   "edge": 2.6,
-   "move": 0.0,
-   "total_edge": 3.2,
-   "total_move": -1.5,
+   "edge": 3.6,
+   "move": -1.0,
+   "pick": "Washington +3.5",
+   "pick_side": "away",
+   "market": "against",
+   "total_edge": 5.2,
+   "total_move": -3.5,
+   "total_pick": "Over 38.5",
+   "total_side": "over",
    "blocked": true
   },
   {
@@ -93,27 +98,27 @@
    "home_qb": "Jared Goff",
    "books": 8,
    "mkt_spread": -2.5,
-   "mkt_total": 51.0,
+   "mkt_total": 50.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -2.5,
-    "px": -117,
+    "px": -115,
     "book": "Pinnacle"
    },
    "best_away": {
     "pt": 3.0,
-    "px": -115,
-    "book": "ESPN BET"
+    "px": -114,
+    "book": "BetRivers"
    },
    "best_over": {
-    "pt": 50.5,
-    "px": -115,
-    "book": "FanDuel"
+    "pt": 49.5,
+    "px": -110,
+    "book": "BetMGM"
    },
    "best_under": {
-    "pt": 51.5,
-    "px": -120,
-    "book": "DraftKings"
+    "pt": 50.5,
+    "px": -106,
+    "book": "BetRivers"
    },
    "open_spread": -2.5,
    "open_total": 51.0,
@@ -129,9 +134,9 @@
    "pick": "New England +2.5",
    "pick_side": "away",
    "market": "flat",
-   "total_edge": 5.3,
-   "total_move": 0.0,
-   "total_pick": "Over 51",
+   "total_edge": 6.3,
+   "total_move": -1.0,
+   "total_pick": "Over 50",
    "total_side": "over",
    "blocked": false
   },
@@ -154,7 +159,7 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 3.5,
-    "px": -115,
+    "px": -118,
     "book": "BetRivers"
    },
    "best_away": {
@@ -207,9 +212,9 @@
    "mkt_total": 40.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 5.5,
-    "px": -115,
-    "book": "ESPN BET"
+    "pt": 5.0,
+    "px": -113,
+    "book": "BetRivers"
    },
    "best_away": {
     "pt": -4.5,
@@ -271,7 +276,7 @@
    "best_away": {
     "pt": 3.0,
     "px": -108,
-    "book": "DraftKings"
+    "book": "BetRivers"
    },
    "best_over": {
     "pt": 41.5,
@@ -328,9 +333,9 @@
     "book": "FanDuel"
    },
    "best_away": {
-    "pt": 4.5,
-    "px": -114,
-    "book": "BetRivers"
+    "pt": 4.0,
+    "px": -104,
+    "book": "Pinnacle"
    },
    "best_over": {
     "pt": 37.5,
@@ -339,7 +344,7 @@
    },
    "best_under": {
     "pt": 38.5,
-    "px": -112,
+    "px": -114,
     "book": "BetRivers"
    },
    "open_spread": -2.5,
@@ -451,7 +456,7 @@
    },
    "best_under": {
     "pt": 51.5,
-    "px": -120,
+    "px": -115,
     "book": "ESPN BET"
    },
    "open_spread": 7.5,
@@ -498,7 +503,7 @@
    },
    "best_away": {
     "pt": -10.0,
-    "px": -114,
+    "px": -113,
     "book": "BetRivers"
    },
    "best_over": {
@@ -552,7 +557,7 @@
    },
    "best_away": {
     "pt": -9.5,
-    "px": -106,
+    "px": -105,
     "book": "Pinnacle"
    },
    "best_over": {
@@ -561,9 +566,9 @@
     "book": "BetOnline"
    },
    "best_under": {
-    "pt": 39.5,
-    "px": -110,
-    "book": "FanDuel"
+    "pt": 40.0,
+    "px": -115,
+    "book": "Bovada"
    },
    "open_spread": 9.5,
    "open_total": 39.5,
@@ -782,9 +787,9 @@
     "book": "DraftKings"
    },
    "best_under": {
-    "pt": 38.5,
-    "px": -105,
-    "book": "FanDuel"
+    "pt": 39.0,
+    "px": -108,
+    "book": "Bovada"
    },
    "open_spread": -5.0,
    "open_total": 38.5,
