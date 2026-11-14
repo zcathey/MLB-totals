@@ -1,177 +1,94 @@
-# CBB analysis — Fri, Nov 13, 2026
+# CBB — Saturday, Nov 14, 2026
 
-**Card (paper trade): seven big road dogs.** The four with real line movement are Northern Arizona +30.5 @ Kentucky, Central Arkansas +24.5 @ Arkansas, Milwaukee +23.5 @ TCU and Merrimack +36.5 @ Florida. Three more only just qualify: Northern Iowa +28.5, Tennessee St. +28.5 and Louisiana Monroe +31. All seven fit the +20 road-dog profile, which is 19-26 so far with CLV about zero.
+**Card (paper trades): Stonehill +39.5 · Coppin St. +26 · Delaware St. +16 · Northwestern St. +10.5 (weakest)**
 
-Every pick is a paper trade until about mid-December, when Torvik's preseason priors wash out.
+All picks are paper trades until about mid-December, when Torvik's preseason priors wash out. Every play today is a big underdog against a power-conference or mid-major home team.
 
-- **I ran the data myself.** Neither morning run (8:00 or 10:45) had fired by 11:47 AM ET, the third day in a row. I started the picks run and it finished at 11:48 AM.
-- Lines are OK, with 424 Odds API credits left.
-- Ratings are fresh. Zach uploaded them at 8:08 AM ET today.
-- Four names are unmatched. See Notes.
-- No neutral-site changes today.
+Data: picks run started manually at 11:44 AM ET (the 8:00 and 10:45 scheduled runs never fired). Lines OK (408 Odds API credits left). Ratings from Nov 13, 8:08 AM ET (about 28 hours old).
 
 ---
 
-## Yesterday (Nov 12)
+## Yesterday (Nov 13)
 
-**The card went 4-0.** All four also beat or matched the closing line:
-
-| Play | Result | Close | CLV |
+| Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Montana St. +23 @ BYU | Lost by 15, W | 21.5 | +1.5 |
-| Mercer +24.5 @ West Virginia | Lost by 14, W | 24.5 | 0 |
-| Tennessee Tech +25.5 @ Indiana | Lost by 24, W | 25 | +0.5 |
-| Canisius +13.5 @ Brown | Won 86-81, W | 13 | +0.5 |
+| Flat | 11-3-0 | +1.75 | 11/14 |
+| Against | 3-5-1 | −0.30 | 0/9 |
+| Agrees | none | — | — |
+| **All** | **14-8-1** | **+0.95** | **11/23** |
 
-**All 12 logged picks went 5-7.** They averaged **+0.38** CLV (5 beat the close, 3 lost to it, 4 even).
+The flat big-dog picks did well against the close, not just on results: Northern Arizona +4.0, Arizona +4.0, Central Arkansas +3.5, Milwaukee +3.2. The market-against picks didn't beat a single close, which is why they're passes.
 
-| Category | W-L | Avg CLV |
-|---|---|---|
-| Agrees | 0-0 | — |
-| Against | 2-5 | +0.57 |
-| Flat | 3-2 | +0.10 |
+### Season to date
 
-The four card plays won in the log too, filed as "against" or "flat" because they were logged early at their openers. The seven losses came from the other picks.
-
-**Running record** (from the page):
-
-| Category | W-L-P | Avg CLV | Beat close |
+| Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Agrees | 4-3-0 | -0.47 | 29% |
-| Against | 23-25-0 | +0.13 | 35% |
-| Flat | 17-14-1 | -0.24 | 28% |
-| **All** | **44-42-1** | **-0.06** | **32%** |
+| Agrees | 4-3-0 | −0.47 | 29% |
+| Against | 26-30-1 | +0.06 | 30% |
+| Flat | 28-17-1 | +0.37 | 44% |
+| **All** | **58-50-2** | **+0.15** | **36%** |
 
-The void USC Upstate pick still counts as an "against" win. Without it, the record is 43-42-1.
-
-At 87 graded picks, average CLV is about zero. That's the honest read: so far there's no evidence of an edge. Big road dogs (+20 or more) are **19-26** with +0.02 CLV. Everything else is 25-16 with -0.13 CLV.
+One honest caveat: the "agrees" bucket has the worst CLV so far. That's only 7 graded picks, but it's no proof yet that market confirmation adds value. The flat bucket is carrying the model.
 
 ---
 
 ## Today's card
 
-All seven are "agrees": the model has an edge of 3+ points and the line has moved toward the model's side since it opened. All seven are at the favorite's campus arena. I found no tournament or neutral-site listing for any of them.
-
-**Stronger move (1.5+ points)**
-
-| Play | Best price | Model | Move | Tip (ET) |
+| Play | Best price | Tip (ET) | Edge | Move |
 |---|---|---|---|---|
-| N. Arizona +30.5 @ Kentucky | FanDuel -110 | UK -24.2 | 34.5 → 30 | 7:00 PM |
-| Central Ark. +24.5 @ Arkansas | FanDuel -110 | ARK -17.8 | 26.5 → 24 | 8:00 PM |
-| Milwaukee +23.5 @ TCU | BetRivers -113 | TCU -18.7 | 24.75 → 22.5 | 8:00 PM |
-| Merrimack +36.5 @ Florida | BetRivers -104 | UF -24.9 | 37.5 → 36 | 7:00 PM |
+| Stonehill +39.5 @ Texas Tech | BetRivers −112 | 2:00 | 8.6 | 40.25 → 39 |
+| Coppin St. +26 @ South Florida | Pinnacle −115 | 2:00 | 3.5 | 27.5 → 26 |
+| Delaware St. +16 @ East Carolina | Bovada −110 | 4:00 | 5.2 | 16.5 → 16 |
+| Northwestern St. +10.5 @ Little Rock | ESPN BET −110 | 8:00 | 4.1 | 9.75 → 9.5 |
 
-**Small move (1 point or less), so treat these as close to flat**
+**Stonehill +39.5.** The model has Texas Tech −30.4, and the market is at −39. The line has come down 1.25 from the open. Texas Tech (3-0) is still without JT Toppin (ACL, [Covers](https://www.covers.com/sport/basketball/ncaab/injuries)). Dra Gibbs-Lawhorn was helped off with a lower-body injury in the Illinois win on Nov 10 ([ESPN](https://www.espn.com/mens-college-basketball/recap/_/gameId/401913527)), and his status today isn't listed anywhere I found. If he sits, that helps the dog. Jamichael Stillwell just became eligible, which helps Tech. It's a home game in Lubbock. A 40-point spread is noisy, and the 9-point gap is partly the model's priors being too generous to low-major teams.
 
-| Play | Best price | Model | Move | Tip (ET) |
-|---|---|---|---|---|
-| N. Iowa +28.5 @ Michigan St. | BetRivers -113 | MSU -19.6 | 29.5 → 28.5 | 7:00 PM |
-| Tennessee St. +28.5 @ Tennessee | BetOnline -110 | TENN -20.6 | 29.25 → 28.5 | 7:00 PM |
-| UL Monroe +31 @ Arizona St. | Pinnacle -106 | ASU -23.5 | 31.25 → 31 | 9:00 PM |
+**Coppin St. +26.** The model has USF −22.5. The market opened at 27.5 and has come down. It's a home game at the Yuengling Center ([USF](https://gousfbulls.com/news/2026/11/14/mens-basketball-usf-basketball-returns-to-yuengling-center-saturday-to-face-coppin-state)). USF lists J. Lewis as questionable (knee) and A. Dancler as out for the season ([Covers](https://www.covers.com/sport/basketball/ncaab/injuries)). Coppin lists no injuries. Note: USF beat Coppin 100-50 last November, but this is a new USF team under first-year coach Chris Mack. This is the thinnest edge on the card, and the best number costs −115.
 
-Tennessee St. is also +29.5 at BetRivers, but at -121. That's about the same value as +28.5 at -110.
+**Delaware St. +16.** The model has ECU −10.8. The line moved only half a point, toward the dog. It's a home game in Greenville ([ECU](https://ecupirates.com/news/2026/11/13/mens-basketball-pirates-set-to-host-delaware-state-on-saturday)). Neither team lists injuries. Delaware St. lost by 5 at Georgetown on Nov 10, which fits the model's view that they're not a 16-point dog to a 176th-ranked team.
 
-**Northern Arizona @ Kentucky.** This has the biggest move on the card, at 4.5 points.
-- **Venue:** at Rupp Arena. NAU's [schedule announcement](https://nauathletics.com/news/2026/6/15/mens-basketball-mens-basketball-announces-non-conference-game-at-kentucky-in-november.aspx) calls it a game "at Kentucky."
-- **Injuries:** [Covers](https://www.covers.com/sport/basketball/ncaab/injuries) lists Trent Noah as questionable (hamstring) and Jerone Morton as out (knee). Both have been listed since October, so neither is new.
-- **I found no news that explains the 4.5-point move.** The likeliest reading is that the -34.5 opener was too high. Even so, an unexplained 4.5-point move deserves caution.
-- NAU is 0-3. It's 312th in Torvik, and its ratings still lean heavily on preseason priors.
+**Northwestern St. +10.5 (weakest).** The model has Little Rock −5.4. Confirmation is minimal: only a 0.25-point move. Northwestern St. "has yet to play with a full roster" and was missing three rotation players last game ([BVM Sports](https://bvmsports.com/2026/11/13/northwestern-state-demons-head-to-little-rock-for-saturday-game/)). Their ratings may overstate the roster that actually plays. Shop for the +10.5; at +9.5 I'd pass.
 
-**Central Arkansas @ Arkansas.**
-- **Venue:** Fayetteville ([preview](https://www.1075thegame.com/2026/11/12/no-19-arkansas-seeks-another-balanced-effort-vs-central-arkansas/)).
-- **Line:** opened at 26.5 and moved 2.5 toward UCA.
-- **Injuries:** the preview mentions none, and Covers lists none for either team.
-- Arkansas lost 91-72 to Virginia, then beat Robert Morris 76-53.
-
-**Milwaukee @ TCU.** This has the smallest edge of the four, at 3.8 points against the median line and 4.8 at +23.5.
-- **Injuries:** [Covers](https://www.covers.com/sport/basketball/ncaab/injuries) lists TCU's L. Bamgboye as out (undisclosed, since Nov 10). That might explain part of the 2.2-point move.
-- I read that entry from a summary of the page, not the raw text. Check it before relying on it.
-
-**Merrimack @ Florida.** This has the biggest edge on the card, at 11.6 points against +36.5.
-- **Injuries:** none listed for either team.
-- **Line:** moved only 1.5 points. Florida is No. 4 in Torvik.
-- Huge spreads like this are where the model is least trustworthy. See the caveat below.
-
-**The small-move three.**
-- **Arizona St.** lists J. Griman as out (back), with E. Innocenti and M. Vaughns questionable ([Covers](https://www.covers.com/sport/basketball/ncaab/injuries)). If any of them sit, that helps UL Monroe a little.
-- **Tennessee** lists J. Washington as questionable (eligibility).
-- **Michigan St.** and **Northern Iowa** list no injuries.
-
-**The caveat on all seven.** On big mismatches, the model's spread is consistently far smaller than the market's.
-- For example, it has Duke -28.6 against SIUE, and the market has -44.5.
-- That's mostly the model's structure plus thin early data, not a real edge. That's why the +20 dog profile is 19-26 with zero CLV.
-- I'd treat the four "stronger move" plays as the real card and the other three as filler.
+No neutral sites among these. All four are true home games.
 
 ---
 
 ## Logged but passing
 
-**Against (the line moved away from the model's side):**
+**Market against (line moved away from the model):**
 
-| Pick | Edge | Move | Note |
-|---|---|---|---|
-| Seton Hall +18 @ Alabama | 8.3 | 14 → 18 | See below |
-| Ohio St. +12 @ UConn | 5.0 | 9 → 12 | See below |
-| Texas Southern +29 @ Murray St. | 7.0 | 26.5 → 29 | No news found |
-| TAMU-CC +24 @ Florida St. | 8.0 | 22 → 24 | FSU's A. Swinton is suspended (old news) |
-| SIUE +44.5 @ Duke | 15.9 | 44.25 → 44.5 | The biggest gap on the board, and the least believable |
-| Sam Houston +36.5 @ Illinois | 13.6 | 35.5 → 36.5 | Illinois is missing J. Davis (shoulder) |
-| Troy +23 @ N.C. State | 6.4 | 22.5 → 23 | |
-| Cleveland St. -3.5 vs West Florida | 5.7 | 4 → 3.5 | 3:00 PM tip |
-| Mississippi St. +3.5 vs Xavier | 4.1 | 1.5 → 3.5 | Xavier's B. Appelhans is out |
-| Wright St. -1 @ Samford | 3.6 | -2.25 → -1 | |
-| Charlotte -7.5 vs App St. | 3.1 | 8.5 → 7.5 | |
-| Elon -2.5 vs Chattanooga | 3.3 | 3.75 → 2.5 | |
+| Pick | Edge | Move |
+|---|---|---|
+| Colorado +12.5 @ Providence | 5.0 | −2.5 |
+| Gardner-Webb +27.5 @ South Carolina | 5.0 | −2.0 |
+| NJIT +12 @ Fairfield | 4.9 | −0.5 |
+| St. Thomas −6 @ Army | 4.6 | −1.5 |
+| Jackson St. +9 @ Winthrop | 4.3 | −1.5 |
+| West Georgia +5 @ Charleston So. | 3.3 | −1.5 |
+| UNC Asheville +17.5 @ Georgia Tech | 3.2 | −1.0 |
+| Morehead St. +2.5 vs IU Indy | 3.4 | +0.5 |
 
-**Seton Hall @ Alabama.** The line moved 4 points toward Alabama.
-- Alabama's Jamarion Davis-Fleming is expected to miss the game with a lower-leg injury ([Tuscaloosa News via Yahoo](https://sports.yahoo.com/articles/nate-oats-gives-injury-jamarion-191500605.html), [Bama Hammer](https://bamahammer.com/alabama-basketball-vs-seton-hall-how-to-watch-odds-injuries-more-for-tide-s-first-test)). That should hurt Alabama, so the injury doesn't explain the move.
-- The market is clearly against Seton Hall. Pass.
+**Bad data — ignore:** *South Carolina +9 @ Campbell* is really **USC Upstate** at Campbell. The name matcher mapped "South Carolina Upstate Spartans" to South Carolina, which produced a fake 16.5-point edge. This pick will pollute the "against" record, so delete it from picks.json.
 
-**Ohio St. @ UConn.** The line moved 3 points toward UConn.
-- The game is a UConn home game in Hartford ([UConn](https://uconnhuskies.com/news/2026/11/11/mens-basketball-no-4-huskies-host-ohio-state-friday-night-in-hartford)).
-- UConn is missing N. Khamenia (foot) and S. Ball (out for the season), per [Covers](https://www.covers.com/sport/basketball/ncaab/injuries). Neither explains a move toward UConn. Pass.
+**Logged earlier as flat (Nov 13 run), lines since moved:**
 
-**Flat (no move):** North Alabama +33.5 @ Miami FL and Fairleigh Dickinson +32 @ Oklahoma. Both are the big-dog profile with no market support. Pass.
+- Utah Valley +11.5: now 9.5. Two points of CLV banked; no edge left at the current number.
+- Portland St. +10.5: now 9.5. Moved toward the model, so it agrees at the current number, but the edge is exactly at the 3.0 threshold, and the only +10.5 left is BetRivers −122. Don't chase.
+- Montana +0.75: Montana is now −1.5. CLV banked; current edge 1.1.
+- Northern Iowa +1 (edge 5.4), Southern Utah +18.5, Rider +35.5, Louisiana Monroe +31.5: lines haven't moved, still flat.
+- Detroit Mercy +10, Dayton +6.5, Santa Clara +2: lines moved slightly against.
 
-**Logged early and now stale:** Arizona +1.5 @ Auburn and Northwestern +1.5 vs DePaul.
-- Both were logged yesterday at the opener.
-- The lines have since moved past the model. It's now Auburn +3 and Northwestern -1, so neither game is a pick anymore.
-- They'll still be graded as "flat." Auburn is an [Auburn home game](https://sports.yahoo.com/articles/arizona-men-basketball-auburn-game-090000223.html).
-
-**Not projected (names not matched):** Prairie View @ Vanderbilt, Mount St. Mary's @ Virginia Tech, Mississippi Valley St. @ Oregon St., and UIC @ Saint Mary's.
-
----
-
-## Totals (tracking only)
-
-Three games have the market about 10 points above the model, and none is tempo-flagged:
-
-- Cal Poly @ Idaho: 169 vs 158.2
-- UC San Diego @ Utah St.: 158.5 vs 147.8
-- Sam Houston @ Illinois: 173 vs 163
-
-The market is above the model on most big gaps again. That points to a pattern in the model, not three separate opportunities. Not plays.
+**Flagged, not logged:** Brown +11 @ Siena (edge 4.0) has a home tempo outlier (81), and the line moved 3 points against Brown. I found no news to explain the move. Siena's Y. Steger has been out for the season since October.
 
 ---
 
 ## Notes
 
-**Picks are still being logged a day early.** A run at 4:55 PM ET yesterday logged 15 of today's picks at their opening lines, almost all tagged "flat."
-- Today's seven "agrees" plays are filed as "flat" in `picks.json` at better numbers than today's: Merrimack +37.5, NAU +34.5, UCA +26.5, Milwaukee +24.75, UNI +29.5, TSU +29.25 and ULM +31.25.
-- As a result, the "agrees" record isn't capturing the card.
-- The same two fixes would help: set the market category from the last snapshot before tip, and limit picks mode to games tipping on the current ET date.
-
-**Missed scheduled runs.** For the third day in a row, neither morning run fired by noon. CLV for the 7:00 PM tips depends on the 6:30 PM run firing on time.
-
-**Name matching.** Suggested `ALIASES` additions (I didn't edit the script). The keys are post-`norm()` forms of the Odds API names.
-
-```python
-'miss valley st': 'Mississippi Valley St.',
-'mt st marys': "Mount St. Mary's",
-'prairie view': 'Prairie View A&M',
-'uic': 'Illinois Chicago',
-```
-
-**Void still on the books.** The USC Upstate pick ("South Carolina +10.5", Nov 9) is still counted as a win in `data/picks.json`.
-
-**Injury sources.** Covers' NCAAB injury page (titled Nov 13) was read through a fetch agent. A few teams, including TCU, came from a summary rather than the raw text. Kentucky and Ohio St. team-site articles blocked automated reads.
+- **Workflow:** The 8:00 AM and 10:45 AM scheduled runs never ran today. The last automatic run was at 10:27 PM ET last night. I started the picks run manually at 11:44 AM ET.
+- **Alias fixes for `ALIASES` in generate_cbb.py:**
+  - `'south carolina upstate': 'USC Upstate'`: this one is urgent. The longest-prefix matcher falls back to "South Carolina", so any "X Y Z" name whose first words match another team can mis-map silently. It may be worth logging a warning whenever a match uses fewer than all the words.
+  - `'n colorado': 'Northern Colorado'`: currently unmatched.
+- **South Dakota St. @ Northern Colorado:** recorded open was UNC −4, now +3.5, a 7.5-point flip. No projection because of the unmatched name. I found no news. It could be a bad opener snapshot.
+- **Possible duplicate:** Idaho St. @ Seattle is logged twice: "+16" with a Sat 10 PM ET tip, and "+16.5" with a Sun 4 PM ET tip, under different event IDs. Only one game appears to exist ([schedule listing](https://www.sportbusy.com/games/ncaam/14463456-idaho-state-bengals-at-seattle-redhawks-2026-11-14/)). Check before grading.
+- **Neutral sites:** LSU @ Gonzaga is at Spokane Arena (Bad Boy Mowers Spokane Series, [Gonzaga](https://gozags.com/news/2026/6/15/mens-basketball-gonzaga-and-lsu-to-meet-in-bad-boy-mowers-spokane-series-nov-14.aspx)). It's off campus but in Gonzaga's city with a home crowd, so I left it as a home game. There's no pick either way. No changes to neutral.json.
+- **Totals (tracking only):** Two large gaps aren't explained by tempo flags: Utah Tech @ California (model 147.5 vs 159) and Longwood @ Old Dominion (147.4 vs 136.5). UTRGV @ UT Arlington (−13) is explained by a tempo outlier.
