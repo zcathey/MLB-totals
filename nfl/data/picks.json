@@ -20,7 +20,12 @@
    "book": "BetRivers"
   },
   "close": 47.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   35,
+   13
+  ],
+  "result": "W"
  },
  {
   "game_id": "2026_10_MIA_IND",
@@ -44,7 +49,12 @@
    "book": "Pinnacle"
   },
   "close": -4.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   22,
+   24
+  ],
+  "result": "W"
  },
  {
   "game_id": "2026_10_MIA_IND",
@@ -67,7 +77,12 @@
    "book": "ESPN BET"
   },
   "close": 38.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   22,
+   24
+  ],
+  "result": "W"
  },
  {
   "game_id": "2026_10_CAR_NO",
@@ -91,7 +106,12 @@
    "book": "DraftKings"
   },
   "close": -1.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   20,
+   17
+  ],
+  "result": "W"
  },
  {
   "game_id": "2026_10_BUF_NYJ",
@@ -115,7 +135,12 @@
    "book": "Pinnacle"
   },
   "close": 8.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   31,
+   12
+  ],
+  "result": "L"
  },
  {
   "game_id": "2026_10_BUF_NYJ",
@@ -138,7 +163,12 @@
    "book": "Pinnacle"
   },
   "close": 51.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   31,
+   12
+  ],
+  "result": "W"
  },
  {
   "game_id": "2026_10_JAX_TEN",
@@ -161,7 +191,12 @@
    "book": "Pinnacle"
   },
   "close": 45.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   40,
+   23
+  ],
+  "result": "W"
  },
  {
   "game_id": "2026_10_SF_DAL",
@@ -183,6 +218,8 @@
    "pt": -3.5,
    "px": -115,
    "book": "Bovada"
-  }
+  },
+  "close": 4.0,
+  "clv": 0.0
  }
 ]
