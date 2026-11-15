@@ -3706,7 +3706,12 @@
   },
   "logged": "2026-11-14T20:05:59.586775+00:00",
   "close": -9.5,
-  "clv": 1.0
+  "clv": 1.0,
+  "final": [
+   75,
+   102
+  ],
+  "result": "W"
  },
  {
   "event_id": "6e7b60ce8a7b43c70fd1d56fe26c9a28",
@@ -3728,7 +3733,12 @@
   },
   "logged": "2026-11-14T20:05:59.586775+00:00",
   "close": -39.5,
-  "clv": 0.5
+  "clv": 0.5,
+  "final": [
+   45,
+   66
+  ],
+  "result": "W"
  },
  {
   "event_id": "0e83fd8486adc74733660c5f90419737",
@@ -3958,7 +3968,9 @@
    "px": -120,
    "book": "FanDuel"
   },
-  "logged": "2026-11-15T14:32:48.367840+00:00"
+  "logged": "2026-11-15T14:32:48.367840+00:00",
+  "close": 3.5,
+  "clv": 1.0
  },
  {
   "event_id": "fdb915f5dada025468c3a1250fbc09bb",
@@ -3999,5 +4011,120 @@
    "book": "DraftKings"
   },
   "logged": "2026-11-15T14:32:48.367840+00:00"
+ },
+ {
+  "event_id": "9c9906480af93da224cd3dc2f4351b9d",
+  "date": "2026-11-16",
+  "tip": "2026-11-17T00:30:00Z",
+  "away": "Tarleton St.",
+  "home": "Drake",
+  "side": "away",
+  "pick": "Tarleton St. +11.25",
+  "line": -11.25,
+  "model_spread": -3.4,
+  "edge": 7.8,
+  "market": "against",
+  "move_at_pick": -1.8,
+  "best": {
+   "pt": 11.5,
+   "px": -115,
+   "book": "ESPN BET"
+  },
+  "hardwood_spread": -2.7,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-15T20:35:58.093980+00:00"
+ },
+ {
+  "event_id": "34ef63b5d05083472f9c48c62ad3b7cf",
+  "date": "2026-11-16",
+  "tip": "2026-11-17T01:00:00Z",
+  "away": "Abilene Christian",
+  "home": "Missouri St.",
+  "side": "away",
+  "pick": "Abilene Christian +7.5",
+  "line": -7.5,
+  "model_spread": -2.7,
+  "edge": 4.8,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 7.5,
+   "px": -103,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": null,
+  "both_models": false,
+  "neutral": false,
+  "logged": "2026-11-15T20:35:58.093980+00:00"
+ },
+ {
+  "event_id": "4e13edb27d0b02e773edd81d7d05c6ee",
+  "date": "2026-11-16",
+  "tip": "2026-11-17T01:00:00Z",
+  "away": "Central Arkansas",
+  "home": "Oklahoma St.",
+  "side": "away",
+  "pick": "Central Arkansas +21.25",
+  "line": -21.25,
+  "model_spread": -15.8,
+  "edge": 5.4,
+  "market": "against",
+  "move_at_pick": -2.2,
+  "best": {
+   "pt": 21.5,
+   "px": -110,
+   "book": "ESPN BET"
+  },
+  "hardwood_spread": -13.8,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-15T20:35:58.093980+00:00"
+ },
+ {
+  "event_id": "d7b58d2eb9be75440fd207564bb76381",
+  "date": "2026-11-16",
+  "tip": "2026-11-17T01:00:00Z",
+  "away": "Western Illinois",
+  "home": "Minnesota",
+  "side": "away",
+  "pick": "Western Illinois +36.25",
+  "line": -36.25,
+  "model_spread": -24.8,
+  "edge": 11.4,
+  "market": "against",
+  "move_at_pick": -3.2,
+  "best": {
+   "pt": 36.5,
+   "px": -110,
+   "book": "ESPN BET"
+  },
+  "hardwood_spread": -19.4,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-15T20:35:58.093980+00:00"
+ },
+ {
+  "event_id": "3180dabd245219f81ad4e9e46f08c970",
+  "date": "2026-11-16",
+  "tip": "2026-11-17T03:00:00Z",
+  "away": "Long Beach St.",
+  "home": "UCLA",
+  "side": "away",
+  "pick": "Long Beach St. +33.5",
+  "line": -33.5,
+  "model_spread": -23.8,
+  "edge": 9.7,
+  "market": "against",
+  "move_at_pick": -2.0,
+  "best": {
+   "pt": 33.5,
+   "px": -105,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -22.7,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-15T20:35:58.093980+00:00"
  }
 ]

@@ -77,7 +77,7 @@
   "close": -21.5,
   "total": 132.0,
   "torvik": -14.5,
-  "hardwood_live": -14.7
+  "hardwood_live": -13.8
  },
  "d6c14f3934e52f439aa1020e487e61e9": {
   "date": "2026-11-15",
@@ -87,7 +87,7 @@
   "close": 3.5,
   "total": 144.5,
   "torvik": -0.6,
-  "hardwood_live": 1.9
+  "hardwood_live": 1.5
  },
  "0e83fd8486adc74733660c5f90419737": {
   "date": "2026-11-15",
@@ -127,7 +127,7 @@
   "close": -26.5,
   "total": 166.5,
   "torvik": -21.7,
-  "hardwood_live": -5.8
+  "hardwood_live": -6.8
  },
  "53f1d7d718a5681b4061402ea95b2cec": {
   "date": "2026-11-15",
@@ -137,6 +137,66 @@
   "close": -7.5,
   "total": 137.5,
   "torvik": -5.8,
-  "hardwood_live": -13.8
+  "hardwood_live": -13.7
+ },
+ "3a6ab42e6e00f60dad67f3ff4cfed815": {
+  "date": "2026-11-15",
+  "away": "Missouri",
+  "home": "Marquette",
+  "neutral": true,
+  "close": -2.5,
+  "total": 154.0,
+  "torvik": -0.2,
+  "hardwood_live": 4.9
+ },
+ "3ab5a8599cd00fad06d1d7f8c1fd0fb2": {
+  "date": "2026-11-15",
+  "away": "Creighton",
+  "home": "Iowa",
+  "neutral": true,
+  "close": -4.5,
+  "total": 146.5,
+  "torvik": -1.0,
+  "hardwood_live": -6.4
+ },
+ "f138d9873bcef09a2d07cf69d485949d": {
+  "date": "2026-11-15",
+  "away": "Cleveland St.",
+  "home": "Alabama A&M",
+  "neutral": false,
+  "close": -2.5,
+  "total": 143.5,
+  "torvik": -3.7,
+  "hardwood_live": -7.0
+ },
+ "9c21bbabccdd9d32f5b61b32dbdc8bbf": {
+  "date": "2026-11-15",
+  "away": "Texas",
+  "home": "Baylor",
+  "neutral": true,
+  "close": 3.5,
+  "total": 159.0,
+  "torvik": 3.6,
+  "hardwood_live": 9.4
+ },
+ "d7a912b4db90df3d2c89b5a01a257e63": {
+  "date": "2026-11-15",
+  "away": "Purdue Fort Wayne",
+  "home": "Eastern Illinois",
+  "neutral": false,
+  "close": 3.0,
+  "total": 144.5,
+  "torvik": 1.4,
+  "hardwood_live": 2.6
+ },
+ "28059682f0c9cbb4179d66fd772d537f": {
+  "date": "2026-11-15",
+  "away": "High Point",
+  "home": "Saint Louis",
+  "neutral": false,
+  "close": -7.5,
+  "total": 165.5,
+  "torvik": -5.7,
+  "hardwood_live": -17.1
  }
 }
