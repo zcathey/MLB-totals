@@ -1,0 +1,142 @@
+{
+ "4907c399e1707ee794cd6acb25c791cc": {
+  "date": "2026-11-15",
+  "away": "Boise St.",
+  "home": "Nebraska",
+  "neutral": false,
+  "close": -9.5,
+  "total": 159.5,
+  "torvik": -11.6,
+  "hardwood_live": -7.3
+ },
+ "460c23d41c84519f5edf6c04d47cb25a": {
+  "date": "2026-11-15",
+  "away": "Louisville",
+  "home": "Memphis",
+  "neutral": false,
+  "close": 9.0,
+  "total": 163.5,
+  "torvik": 9.7,
+  "hardwood_live": 7.9
+ },
+ "b86b1b8191df58c5dd3bbec4dde733e5": {
+  "date": "2026-11-15",
+  "away": "Harvard",
+  "home": "American",
+  "neutral": false,
+  "close": -1.5,
+  "total": 130.0,
+  "torvik": -0.5,
+  "hardwood_live": -3.1
+ },
+ "e49472d7e5932731d706ab032eb40f96": {
+  "date": "2026-11-15",
+  "away": "Dartmouth",
+  "home": "Boston University",
+  "neutral": false,
+  "close": -4.0,
+  "total": 143.0,
+  "torvik": -3.8,
+  "hardwood_live": -3.2
+ },
+ "a1b8e614479a42dfc7fc085e7cfc5434": {
+  "date": "2026-11-15",
+  "away": "Colgate",
+  "home": "Delaware",
+  "neutral": false,
+  "close": -1.0,
+  "total": 147.5,
+  "torvik": -1.1,
+  "hardwood_live": -5.4
+ },
+ "29c07e686c26cabf4f2032b342d49bee": {
+  "date": "2026-11-15",
+  "away": "Norfolk St.",
+  "home": "Georgia St.",
+  "neutral": false,
+  "close": -12.0,
+  "total": 144.5,
+  "torvik": -12.1,
+  "hardwood_live": -8.4
+ },
+ "6e7b60ce8a7b43c70fd1d56fe26c9a28": {
+  "date": "2026-11-15",
+  "away": "Niagara",
+  "home": "Iowa St.",
+  "neutral": false,
+  "close": -39.5,
+  "total": 143.5,
+  "torvik": -28.5,
+  "hardwood_live": -20.7
+ },
+ "7bd8e4044302f52d0233d1a4f9b0cc19": {
+  "date": "2026-11-15",
+  "away": "New Hampshire",
+  "home": "Boston College",
+  "neutral": false,
+  "close": -21.5,
+  "total": 132.0,
+  "torvik": -14.5,
+  "hardwood_live": -14.7
+ },
+ "d6c14f3934e52f439aa1020e487e61e9": {
+  "date": "2026-11-15",
+  "away": "Albany",
+  "home": "Holy Cross",
+  "neutral": false,
+  "close": 3.5,
+  "total": 144.5,
+  "torvik": -0.6,
+  "hardwood_live": 1.9
+ },
+ "0e83fd8486adc74733660c5f90419737": {
+  "date": "2026-11-15",
+  "away": "Cal St. Bakersfield",
+  "home": "North Dakota St.",
+  "neutral": false,
+  "close": -4.0,
+  "total": 151.0,
+  "torvik": -9.5,
+  "hardwood_live": 8.3
+ },
+ "66df731c5f17068a2aa084c7d1683254": {
+  "date": "2026-11-15",
+  "away": "South Carolina St.",
+  "home": "Charleston",
+  "neutral": false,
+  "close": -18.0,
+  "total": 160.0,
+  "torvik": -14.5,
+  "hardwood_live": -8.1
+ },
+ "35b185fdcbab65a367699da415b5d32b": {
+  "date": "2026-11-15",
+  "away": "Temple",
+  "home": "La Salle",
+  "neutral": false,
+  "close": -1.5,
+  "total": 154.0,
+  "torvik": -2.2,
+  "hardwood_live": -2.6
+ },
+ "f8912bd0c3c303a795510b502cc81dfa": {
+  "date": "2026-11-15",
+  "away": "William & Mary",
+  "home": "Michigan",
+  "neutral": false,
+  "close": -26.5,
+  "total": 166.5,
+  "torvik": -21.7,
+  "hardwood_live": -5.8
+ },
+ "53f1d7d718a5681b4061402ea95b2cec": {
+  "date": "2026-11-15",
+  "away": "Princeton",
+  "home": "Rhode Island",
+  "neutral": false,
+  "close": -7.5,
+  "total": 137.5,
+  "torvik": -5.8,
+  "hardwood_live": -13.8
+ }
+}
