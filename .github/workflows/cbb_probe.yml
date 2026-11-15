@@ -1,0 +1,31 @@
+name: CBB probe (temporary)
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe ESPN
+        run: |
+          B=https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball
+          curl -sS -m 30 "$B/scoreboard?dates=20261114&groups=50&limit=400" -o sb.json -w "scoreboard %{http_code} %{size_download}\n"
+          python3 - << 'PY'
+          import json
+          d=json.load(open('sb.json')); ev=d.get('events',[])
+          print('events', len(ev))
+          e=ev[0]; c=e['competitions'][0]
+          print('event keys', list(e.keys())); print('comp keys', list(c.keys()))
+          print('neutral', c.get('neutralSite'), 'status', c['status']['type'].get('completed'), c['status']['type'].get('name'))
+          for t in c['competitors']:
+              print(t['homeAway'], t['score'], {k:t['team'].get(k) for k in ('id','displayName','shortDisplayName','location','name','abbreviation')})
+          done=[x for x in ev if x['competitions'][0]['status']['type'].get('completed')]
+          print('completed', len(done))
+          open('eid','w').write(done[0]['id'])
+          PY
+          curl -sS -m 30 "$B/summary?event=$(cat eid)" -o sm.json -w "summary %{http_code} %{size_download}\n"
+          python3 - << 'PY'
+          import json
+          d=json.load(open('sm.json'))
+          for t in d['boxscore']['teams']:
+              print(t['team']['displayName'], t.get('homeAway'), [(s.get('name'), s.get('label'), s.get('displayValue')) for s in t['statistics']])
+          print('header neutral', d.get('header',{}).get('competitions',[{}])[0].get('neutralSite'))
+          PY
