@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T14:32:48.367840+00:00",
+ "generated_at": "2026-11-15T14:34:14.295712+00:00",
  "mode": "picks",
  "ratings": {
   "status": "fresh",
@@ -11,7 +11,7 @@
  "lines": {
   "status": "ok",
   "events": 38,
-  "credits_remaining": "390"
+  "credits_remaining": "384"
  },
  "settings": {
   "hfa": 3.0,
@@ -783,7 +783,7 @@
   {
    "event_id": "d7a912b4db90df3d2c89b5a01a257e63",
    "tip": "2026-11-15T20:00:00Z",
-   "away": "Fort Wayne Mastodons",
+   "away": "Purdue Fort Wayne",
    "home": "Eastern Illinois",
    "away_raw": "Fort Wayne Mastodons",
    "home_raw": "Eastern Illinois Panthers",
@@ -805,9 +805,19 @@
    },
    "open_spread": 4.0,
    "open_total": 146.5,
-   "flags": [
-    "away not matched"
-   ]
+   "model": {
+    "poss": 70.5,
+    "away_pts": 73.6,
+    "home_pts": 72.2,
+    "home_spread": 1.4,
+    "total": 145.8
+   },
+   "away_rank": 283,
+   "home_rank": 343,
+   "flags": [],
+   "edge": -1.6,
+   "move": -1.0,
+   "total_edge": -0.2
   },
   {
    "event_id": "3ab5a8599cd00fad06d1d7f8c1fd0fb2",
@@ -1473,8 +1483,8 @@
    },
    "best_away": {
     "pt": 28.5,
-    "px": -112,
-    "book": "DraftKings"
+    "px": -110,
+    "book": "Bovada"
    },
    "open_spread": -29.75,
    "open_total": 147.5,
@@ -1499,7 +1509,7 @@
    "event_id": "6ccd40d6fad2dad7fb0124037b3e4023",
    "tip": "2026-11-16T02:00:00Z",
    "away": "Alabama St.",
-   "home": "San Jos\u00e9 St Spartans",
+   "home": "San Jose St.",
    "away_raw": "Alabama St Hornets",
    "home_raw": "San Jos\u00e9 St Spartans",
    "started": false,
@@ -1520,15 +1530,24 @@
    },
    "open_spread": -11.5,
    "open_total": 157.0,
+   "model": {
+    "poss": 78.9,
+    "away_pts": 83.5,
+    "home_pts": 90.9,
+    "home_spread": -7.4,
+    "total": 174.4
+   },
+   "away_rank": 253,
+   "home_rank": 183,
    "flags": [
-    "home not matched"
-   ]
+    "away tempo outlier (80)"
+   ],
+   "edge": 6.1,
+   "move": -2.0,
+   "total_edge": 19.9
   }
  ],
- "unmatched": [
-  "Fort Wayne Mastodons",
-  "San Jos\u00e9 St Spartans"
- ],
+ "unmatched": [],
  "name_map": {
   "Harvard Crimson": "Harvard",
   "American Eagles": "American",
@@ -1570,7 +1589,7 @@
   "Baylor Bears": "Baylor",
   "Creighton Bluejays": "Creighton",
   "Iowa Hawkeyes": "Iowa",
-  "Fort Wayne Mastodons": null,
+  "Fort Wayne Mastodons": "Purdue Fort Wayne",
   "Eastern Illinois Panthers": "Eastern Illinois",
   "High Point Panthers": "High Point",
   "Saint Louis Billikens": "Saint Louis",
@@ -1605,7 +1624,7 @@
   "Texas State Bobcats": "Texas St.",
   "UTSA Roadrunners": "UTSA",
   "Alabama St Hornets": "Alabama St.",
-  "San Jos\u00e9 St Spartans": null
+  "San Jos\u00e9 St Spartans": "San Jose St."
  },
  "picks": [
   {
