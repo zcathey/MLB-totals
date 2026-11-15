@@ -20,6 +20,8 @@ except ImportError:  # offline testing
     requests = None
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+import espn, hardwood  # noqa: E402  (our box-score cache and own ratings)
 DATA = os.path.join(HERE, 'data')
 OUT = os.path.join(HERE, 'data.json')
 TORVIK_URL = 'https://barttorvik.com/{season}_team_results.csv'
@@ -126,7 +128,9 @@ ALIASES = {
     'se missouri st': 'Southeast Missouri St.', 'southeast missouri st': 'Southeast Missouri St.',
     'mcneese': 'McNeese St.', 'nicholls': 'Nicholls St.', 'queens university': 'Queens',
     'albany ny': 'Albany', 'ualbany': 'Albany', 'st thomas mn': 'St. Thomas', 'saint marys ca': "Saint Mary's",
-    'east texas a&m': 'East Texas A&M', 'fort wayne': 'Purdue Fort Wayne', 'pfw': 'Purdue Fort Wayne', 'american': 'American', 'army knights': 'Army',
+    'east texas a&m': 'East Texas A&M', 'pitt': 'Pittsburgh', 'uic': 'Illinois Chicago',
+    'st thomas minnesota': 'St. Thomas', 'california baptist': 'Cal Baptist', 'south carolina upstate': 'USC Upstate',
+    'umkc': 'UMKC', 'miami fl': 'Miami FL', 'ut martin': 'Tennessee Martin', 'fort wayne': 'Purdue Fort Wayne', 'pfw': 'Purdue Fort Wayne', 'american': 'American', 'army knights': 'Army',
 }
 
 
@@ -161,6 +165,12 @@ class Matcher:
                 hit = self.by_norm[key]; break
         self.cache[name] = hit
         return hit
+
+    def exact(self, name):
+        """Whole-name match only (no dropping trailing words), so a non-D1 school like
+        'Texas A&M-Texarkana' can't be mistaken for 'Texas A&M'."""
+        key = norm(name)
+        return self.alias.get(key) or self.by_norm.get(key)
 
 
 # ── 3. Odds ──────────────────────────────────────────────────────────────────
@@ -262,6 +272,10 @@ def main():
     avg_t = statistics.mean(t['adjt'] for t in teams.values())
     match = Matcher(teams)
 
+    espn_games, espn_stats = espn.update(os.path.join(DATA, 'games.json'), match.exact)
+    R = hardwood.rate(espn_games, set(teams), SETTINGS['hfa'])
+    print(f'  Hardwood ratings: {R["games"] if R else 0} games, {len(R["teams"]) if R else 0} teams')
+
     events, credits, ostatus = fetch_odds()
     print(f'  Odds: {len(events)} events ({ostatus}), credits remaining {credits}')
 
@@ -308,7 +322,18 @@ def main():
             for side, T in (('away', A), ('home', H)):
                 if abs(T['adjt'] - avg_t) > SETTINGS['tempo_outlier']:
                     flags.append(f'{side} tempo outlier ({T["adjt"]:.0f})')
+            hw = hardwood.project(R, an, hn, g['neutral'])
+            if hw:
+                g['hardwood'] = hw
+                g['hw_away_rank'] = R['teams'][an]['rank']
+                g['hw_home_rank'] = R['teams'][hn]['rank']
+                if g['mkt_spread'] is not None:
+                    g['hw_edge'] = round(hw['home_spread'] - g['mkt_spread'], 1)
         g['flags'] = flags
+        if eid in closers and an and hn:  # remember who played, for the closing-line history
+            closers[eid].update({'tip': ev['commence_time'], 'away': an, 'home': hn, 'neutral': g['neutral'],
+                                 'torvik': (g.get('model') or {}).get('home_spread'),
+                                 'hardwood': (g.get('hardwood') or {}).get('home_spread')})
         if g.get('model') and g['mkt_spread'] is not None:
             edge = round(g['model']['home_spread'] - g['mkt_spread'], 1)
             g['edge'] = edge
@@ -323,11 +348,15 @@ def main():
                 g['pick_side'] = side
                 mv = g.get('move')
                 g['market'] = 'flat' if not mv else ('agrees' if (edge > 0) == (mv > 0) else 'against')
+                he = g.get('hw_edge')
+                g['both_models'] = he is not None and abs(he) >= SETTINGS['edge_threshold'] and (he > 0) == (edge > 0)
                 if mode == 'picks' and not started and eid not in logged:
                     picks.append({'event_id': eid, 'date': tip.astimezone(ET).strftime('%Y-%m-%d'), 'tip': ev['commence_time'],
                                   'away': g['away'], 'home': g['home'], 'side': side, 'pick': g['pick'],
                                   'line': g['mkt_spread'], 'model_spread': g['model']['home_spread'], 'edge': edge,
                                   'market': g['market'], 'move_at_pick': mv, 'best': g[f'best_{side}'],
+                                  'hardwood_spread': (g.get('hardwood') or {}).get('home_spread'),
+                                  'both_models': g['both_models'], 'neutral': g['neutral'],
                                   'logged': t0.isoformat()})
                     logged.add(eid)
         games.append(g)
@@ -360,6 +389,34 @@ def main():
                 'avg_clv': round(statistics.mean(clvs), 2) if clvs else None,
                 'beat_close': round(sum(c > 0 for c in clvs) / len(clvs), 3) if clvs else None}
 
+    # ── closing-line history (every game we saw a pre-tip line for) and the Hardwood backtest ──
+    history = load_json(os.path.join(DATA, 'lines_history.json'), {})
+    for eid, c in closers.items():
+        if 'tip' in c and datetime.fromisoformat(c['tip'].replace('Z', '+00:00')) <= t0:
+            history[eid] = {'date': datetime.fromisoformat(c['tip'].replace('Z', '+00:00')).astimezone(ET).strftime('%Y-%m-%d'),
+                            'away': c['away'], 'home': c['home'], 'neutral': c['neutral'], 'close': c['home_spread'],
+                            'total': c.get('total'), 'torvik': c.get('torvik'), 'hardwood_live': c.get('hardwood')}
+    save_json(os.path.join(DATA, 'lines_history.json'), history)
+    by_pair = {}
+    for eg in espn_games:
+        by_pair[(eg['date'], frozenset((eg['home'], eg['away'])))] = eg
+    bt_rows, seen = [], set()
+    for eid, hrow in history.items():
+        eg = by_pair.get((hrow['date'], frozenset((hrow['home'], hrow['away']))))
+        if eg:
+            fin = [eg['away_pts'], eg['home_pts']] if eg['home'] == hrow['home'] else [eg['home_pts'], eg['away_pts']]
+            bt_rows.append(dict(hrow, final=fin)); seen.add(eid)
+    for p in picks:
+        if p['event_id'] in seen or not p.get('final') or p.get('close') is None:
+            continue
+        bt_rows.append({'date': p['date'], 'away': p['away'], 'home': p['home'],
+                        'neutral': p.get('neutral', (p['away'], p['home']) in neutral_pairs),
+                        'close': p['close'], 'torvik': p['model_spread'], 'final': p['final']})
+    bt_rows.sort(key=lambda r: r['date'])
+    bt_summary, bt_games = hardwood.backtest(bt_rows, espn_games, set(teams), SETTINGS['hfa'], SETTINGS['edge_threshold']) \
+        if R else ({}, [])
+    print(f'  Backtest: {len(bt_games)} games with closing lines; {bt_summary}')
+
     # keep state files small
     cutoff = (t0 - timedelta(days=4)).isoformat()
     live_ids = {g['event_id'] for g in games}
@@ -384,6 +441,12 @@ def main():
                    'against': record([p for p in picks if p.get('market') == 'against']),
                    'flat': record([p for p in picks if p.get('market') == 'flat'])},
         'teams': sorted(teams.values(), key=lambda t: t['rank']),
+        'hardwood': {'status': espn_stats.get('status'), 'games': R['games'] if R else 0, 'new_games': espn_stats.get('new'),
+                     'avg_eff': round(R['mu'], 2) if R else None, 'avg_tempo': round(R['tmu'], 2) if R else None,
+                     'prior_games': hardwood.PRIOR_GAMES},
+        'hardwood_teams': sorted(({**v, 'conf': teams[k]['conf'], 'record': teams[k]['record'], 'torvik_rank': teams[k]['rank']}
+                                  for k, v in R['teams'].items()), key=lambda t: t['rank']) if R else [],
+        'backtest': {'summary': bt_summary, 'games': bt_games[-300:]},
     }
     save_json(OUT, out)
     print(f'  Wrote {OUT}: {len(games)} games, {sum("pick" in g for g in games)} model edges, {len(unmatched)} unmatched names')

@@ -57,6 +57,15 @@ td{padding:5px 6px;border-bottom:1px solid #151515}
 tr:hover td{background:#0d1a0d}
 .rec{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;margin-bottom:14px}
 .rec>div{border:1px solid var(--line);padding:10px;background:var(--panel)}
+.hwline{font-size:16px;color:var(--dim);display:flex;justify-content:space-between}
+.hwline b{font-weight:normal;color:var(--white)}
+.hwline b.hi{color:var(--yellow)}
+.t-both{background:var(--yellow);color:#000}
+.toggle{display:flex;gap:6px;margin-bottom:10px}
+.toggle button{font-family:'Press Start 2P',monospace;font-size:10px;background:#001100;color:var(--green);border:2px solid var(--green);padding:8px 10px;cursor:pointer}
+.toggle button.on{background:var(--green);color:#000}
+.bt{margin:0 0 14px}
+.bt h3{font-family:'Press Start 2P',monospace;font-size:10px;color:var(--yellow);margin:0 0 8px}
 td:first-child{white-space:nowrap}
 .rec h3{font-family:'Press Start 2P',monospace;font-size:10px;color:var(--yellow);margin:0 0 8px}
 .big{font-size:32px;color:var(--green)}
@@ -99,14 +108,16 @@ input[type=search]{width:100%;font-family:'VT323',monospace;font-size:22px;backg
 
 <section id="picks" class="hidden">
   <div class="rec" id="rec"></div>
+  <div class="bt" id="bt"></div>
   <div style="overflow-x:auto"><table id="pickTable"></table></div>
   <div class="note">CLV = closing line value in points: positive means the pick beat the last line seen before tipoff. Over a small sample it's a better test of the model than wins and losses.</div>
 </section>
 
 <section id="ratings" class="hidden">
+  <div class="toggle"><button data-src="hardwood" class="on">HARDWOOD</button><button data-src="torvik">TORVIK</button></div>
   <input type="search" id="q" placeholder="Search team or conference…">
   <div style="overflow-x:auto"><table id="rt"></table></div>
-  <div class="note">Source: Bart Torvik T-Rank (barttorvik.com). Adjusted offense and defense are points per 100 possessions.</div>
+  <div class="note" id="rtnote"></div>
 </section>
 </div>
 
@@ -127,8 +138,10 @@ document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
 });
 ['edgesOnly','hideStarted','showTotals'].forEach(id=>$('#'+id).onchange=renderGames);
 $('#q').oninput=renderRatings;
+let RSRC='hardwood';
+document.querySelectorAll('.toggle button').forEach(b=>b.onclick=()=>{RSRC=b.dataset.src;document.querySelectorAll('.toggle button').forEach(x=>x.classList.toggle('on',x===b));renderRatings();});
 
-fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;renderStatus();renderGames();renderPicks();renderRatings();})
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;renderStatus();renderGames();renderPicks();renderBacktest();renderRatings();})
   .catch(e=>{$('#status').innerHTML='<span class="warn">Could not load data.json — the first automatic update may not have run yet.</span>';});
 fetch('analysis/latest.md?'+Date.now()).then(r=>r.ok?r.text():Promise.reject()).then(t=>{$('#md').innerHTML=md(t);})
   .catch(()=>{$('#md').innerHTML='No analysis posted yet. It runs daily at 11:30 AM ET.';});
@@ -168,16 +181,26 @@ function renderGames(){
         <div><span class="l">OPEN</span><span>${pt(g.open_spread)}${mv}</span></div>
         <div><span class="l">EDGE</span><b class="${ek}" style="font-weight:normal">${g.edge==null?'—':sg(g.edge)}</b></div>
       </div>`;
+    if(g.hardwood) html+=`<div class="hwline"><span>HARDWOOD <b>${pt(g.hardwood.home_spread)}</b></span><span>edge <b class="${g.hw_edge!=null&&Math.abs(g.hw_edge)>=D.settings.edge_threshold?'hi':''}" style="font-weight:normal">${g.hw_edge==null?'—':sg(g.hw_edge)}</b></span></div>`;
     if(g.pick){
       const tag={agrees:['t-agree','MODEL+MKT'],against:['t-against','MKT AGAINST'],flat:['t-flat','NO MOVE']}[g.market]||['t-flat','—'];
       const b=g['best_'+g.pick_side];
-      html+=`<div class="pick"><span class="tag ${tag[0]}">${tag[1]}</span>${esc(g.pick)}${b?`<div class="sub">best ${pt(b.pt)} ${px(b.px)} @ ${esc(b.book)}</div>`:''}</div>`;
+      html+=`<div class="pick">${g.both_models?'<span class="tag t-both">BOTH MODELS</span>':''}<span class="tag ${tag[0]}">${tag[1]}</span>${esc(g.pick)}${b?`<div class="sub">best ${pt(b.pt)} ${px(b.px)} @ ${esc(b.book)}</div>`:''}</div>`;
     }
     if(st && m.total!=null) html+=`<div class="sub">O/U model ${m.total} · mkt ${g.mkt_total??'—'}${g.total_edge!=null?' · gap '+sg(g.total_edge):''}</div>`;
     if(g.flags.length) html+=`<div class="flag">⚠ ${g.flags.map(esc).join(' · ')}</div>`;
     html+=`</div>`;
   }
   $('#games').innerHTML=html;
+}
+
+function renderBacktest(){
+  const B=(D.backtest||{}).summary||{};
+  if(!B.hardwood){$('#bt').innerHTML='';return;}
+  const row=(n,r)=>`<tr><td>${n}</td><td>${r.games}</td><td>${r.mae??'—'}</td><td>${r.close_mae_same_games??'—'}</td><td>${r.w}-${r.l}${r.p?'-'+r.p:''}</td><td>${r.w+r.l?Math.round(100*r.w/(r.w+r.l))+'%':'—'}</td></tr>`;
+  const A=B.both_agree||{};
+  $('#bt').innerHTML=`<h3>HARDWOOD VS TORVIK</h3><div style="overflow-x:auto"><table><tr><th>MODEL</th><th>GAMES</th><th>AVG MISS</th><th>CLOSE MISS</th><th>3+ EDGE ATS</th><th>WIN %</th></tr>${row('Hardwood',B.hardwood)}${row('Torvik',B.torvik)}</table></div>
+  <div class="sub">Every graded game with a closing line, each model as it stood before the game (Hardwood uses only games played before that date). AVG MISS = average points between the model's margin and the real margin; CLOSE MISS = the same for the closing line. Both models agreeing on a 3+ edge: ${A.w??0}-${A.l??0}. Games so far are mostly ones the Torvik model picked; from Nov 15 on, every game with a closing line is added.</div>`;
 }
 
 function renderPicks(){
@@ -190,9 +213,18 @@ function renderPicks(){
 
 function renderRatings(){
   const q=$('#q').value.toLowerCase();
-  const ts=D.teams.filter(t=>!q||t.team.toLowerCase().includes(q)||t.conf.toLowerCase()===q||t.conf.toLowerCase().includes(q));
+  const hit=t=>!q||t.team.toLowerCase().includes(q)||(t.conf||'').toLowerCase().includes(q);
+  if(RSRC==='hardwood' && D.hardwood_teams && D.hardwood_teams.length){
+    const H=D.hardwood;
+    $('#rt').innerHTML='<tr><th>RK</th><th>TEAM</th><th>CONF</th><th>G</th><th>NET</th><th>OFF</th><th>DEF</th><th>TEMPO</th><th>SOS</th><th>TORVIK</th></tr>'+
+      D.hardwood_teams.filter(hit).map(t=>`<tr><td>${t.rank}</td><td>${esc(t.team)}</td><td>${esc(t.conf)}</td><td>${t.games}</td><td class="${t.net>0?'pos':'neg'}">${sg(t.net)}</td><td>${sg(t.O)} <span class="rk">(${t.off_rank})</span></td><td>${sg(t.D)} <span class="rk">(${t.def_rank})</span></td><td>${t.tempo.toFixed(1)}</td><td>${sg(t.sos)} <span class="rk">(${t.sos_rank})</span></td><td class="rk">#${t.torvik_rank}</td></tr>`).join('');
+    $('#rtnote').innerHTML=`Hardwood ratings are built only from this season's games (${H.games} Division I games from ESPN box scores), with no preseason projection. OFF = points per 100 possessions scored above an average defense; DEF = points per 100 held below an average offense; NET = OFF + DEF. Everything is adjusted for the opponents each team has played, solved together, with a light pull toward average worth about ${H.prior_games} games so teams with few games don't get extreme ratings. SOS = average NET of opponents faced. TORVIK = the team's Torvik rank, for comparison. League average ${H.avg_eff} points per 100, tempo ${H.avg_tempo}.`;
+    return;
+  }
+  const ts=D.teams.filter(hit);
   $('#rt').innerHTML='<tr><th>RK</th><th>TEAM</th><th>CONF</th><th>REC</th><th>ADJ O</th><th>ADJ D</th><th>TEMPO</th></tr>'+
     ts.map(t=>`<tr><td>${t.rank}</td><td>${esc(t.team)}</td><td>${esc(t.conf)}</td><td>${esc(t.record)}</td><td>${t.adjoe.toFixed(1)}</td><td>${t.adjde.toFixed(1)}</td><td${Math.abs(t.adjt-D.ratings.avg_tempo)>D.settings.tempo_outlier?' class="neg"':''}>${t.adjt.toFixed(1)}</td></tr>`).join('');
+  $('#rtnote').innerHTML='Source: Bart Torvik T-Rank (barttorvik.com). Adjusted offense and defense are points per 100 possessions. Early in the season these blend in Torvik\'s preseason projections. The page\'s picks use these ratings.';
 }
 
 // minimal markdown: headings, bold, italics, lists, tables, paragraphs, links
