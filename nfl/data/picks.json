@@ -1,1 +1,174 @@
-[]
+[
+ {
+  "game_id": "2026_10_KC_ATL",
+  "week": 10,
+  "date": "2026-11-15",
+  "kickoff": "2026-11-15T18:00:00+00:00",
+  "away": "KC",
+  "home": "ATL",
+  "model_spread": 5.1,
+  "model_total": 52.2,
+  "logged": "2026-11-15T14:32:50.585693+00:00",
+  "type": "total",
+  "side": "over",
+  "pick": "Over 47.5",
+  "line": 47.5,
+  "edge": 4.7,
+  "best": {
+   "pt": 47.0,
+   "px": -114,
+   "book": "BetRivers"
+  }
+ },
+ {
+  "game_id": "2026_10_MIA_IND",
+  "week": 10,
+  "date": "2026-11-15",
+  "kickoff": "2026-11-15T18:00:00+00:00",
+  "away": "MIA",
+  "home": "IND",
+  "model_spread": 9.2,
+  "model_total": 42.3,
+  "logged": "2026-11-15T14:32:50.585693+00:00",
+  "type": "spread",
+  "side": "away",
+  "pick": "Miami +4.5",
+  "line": -4.5,
+  "edge": 13.7,
+  "market": "against",
+  "best": {
+   "pt": 4.5,
+   "px": -104,
+   "book": "Pinnacle"
+  }
+ },
+ {
+  "game_id": "2026_10_MIA_IND",
+  "week": 10,
+  "date": "2026-11-15",
+  "kickoff": "2026-11-15T18:00:00+00:00",
+  "away": "MIA",
+  "home": "IND",
+  "model_spread": 9.2,
+  "model_total": 42.3,
+  "logged": "2026-11-15T14:32:50.585693+00:00",
+  "type": "total",
+  "side": "over",
+  "pick": "Over 38",
+  "line": 38.0,
+  "edge": 4.3,
+  "best": {
+   "pt": 37.5,
+   "px": -105,
+   "book": "ESPN BET"
+  }
+ },
+ {
+  "game_id": "2026_10_CAR_NO",
+  "week": 10,
+  "date": "2026-11-15",
+  "kickoff": "2026-11-15T18:00:00+00:00",
+  "away": "CAR",
+  "home": "NO",
+  "model_spread": 4.6,
+  "model_total": 48.9,
+  "logged": "2026-11-15T14:32:50.585693+00:00",
+  "type": "spread",
+  "side": "away",
+  "pick": "Carolina +1",
+  "line": -1.0,
+  "edge": 5.6,
+  "market": "flat",
+  "best": {
+   "pt": 1.5,
+   "px": -115,
+   "book": "DraftKings"
+  }
+ },
+ {
+  "game_id": "2026_10_BUF_NYJ",
+  "week": 10,
+  "date": "2026-11-15",
+  "kickoff": "2026-11-15T18:00:00+00:00",
+  "away": "BUF",
+  "home": "NYJ",
+  "model_spread": 2.3,
+  "model_total": 44.9,
+  "logged": "2026-11-15T14:32:50.585693+00:00",
+  "type": "spread",
+  "side": "home",
+  "pick": "NY Jets +8.5",
+  "line": 8.5,
+  "edge": -6.2,
+  "market": "against",
+  "best": {
+   "pt": 8.5,
+   "px": -116,
+   "book": "Pinnacle"
+  }
+ },
+ {
+  "game_id": "2026_10_BUF_NYJ",
+  "week": 10,
+  "date": "2026-11-15",
+  "kickoff": "2026-11-15T18:00:00+00:00",
+  "away": "BUF",
+  "home": "NYJ",
+  "model_spread": 2.3,
+  "model_total": 44.9,
+  "logged": "2026-11-15T14:32:50.585693+00:00",
+  "type": "total",
+  "side": "under",
+  "pick": "Under 51",
+  "line": 51.0,
+  "edge": -6.1,
+  "best": {
+   "pt": 51.0,
+   "px": -107,
+   "book": "Pinnacle"
+  }
+ },
+ {
+  "game_id": "2026_10_JAX_TEN",
+  "week": 10,
+  "date": "2026-11-15",
+  "kickoff": "2026-11-15T18:00:00+00:00",
+  "away": "JAX",
+  "home": "TEN",
+  "model_spread": 7.8,
+  "model_total": 51.6,
+  "logged": "2026-11-15T14:32:50.585693+00:00",
+  "type": "total",
+  "side": "over",
+  "pick": "Over 45",
+  "line": 45.0,
+  "edge": 6.6,
+  "best": {
+   "pt": 45.0,
+   "px": -110,
+   "book": "Pinnacle"
+  }
+ },
+ {
+  "game_id": "2026_10_SF_DAL",
+  "week": 10,
+  "date": "2026-11-15",
+  "kickoff": "2026-11-15T21:25:00+00:00",
+  "away": "SF",
+  "home": "DAL",
+  "model_spread": 12.7,
+  "model_total": 56.3,
+  "logged": "2026-11-15T14:32:50.585693+00:00",
+  "type": "spread",
+  "side": "away",
+  "pick": "San Francisco -4",
+  "line": 4.0,
+  "edge": 8.7,
+  "market": "flat",
+  "best": {
+   "pt": -3.5,
+   "px": -115,
+   "book": "Bovada"
+  }
+ }
+]
