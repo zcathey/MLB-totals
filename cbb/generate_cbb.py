@@ -11,7 +11,7 @@ Env:
                  "late"  - evening run: snapshot lines (closing-line tracking)
   CBB_OFFLINE    path to a saved odds JSON file (testing only)
 """
-import csv, io, json, os, re, statistics, sys
+import csv, io, json, os, re, statistics, sys, unicodedata
 from datetime import datetime, timedelta, timezone
 
 try:
@@ -126,11 +126,12 @@ ALIASES = {
     'se missouri st': 'Southeast Missouri St.', 'southeast missouri st': 'Southeast Missouri St.',
     'mcneese': 'McNeese St.', 'nicholls': 'Nicholls St.', 'queens university': 'Queens',
     'albany ny': 'Albany', 'ualbany': 'Albany', 'st thomas mn': 'St. Thomas', 'saint marys ca': "Saint Mary's",
-    'east texas a&m': 'East Texas A&M', 'american': 'American', 'army knights': 'Army',
+    'east texas a&m': 'East Texas A&M', 'fort wayne': 'Purdue Fort Wayne', 'pfw': 'Purdue Fort Wayne', 'american': 'American', 'army knights': 'Army',
 }
 
 
 def norm(s):
+    s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode()  # San José -> San Jose
     s = s.lower().replace('’', "'").replace("'", '').replace('.', '')
     s = re.sub(r'[()\-/,]', ' ', s)
     s = re.sub(r'\bsaint\b', 'st', s)
