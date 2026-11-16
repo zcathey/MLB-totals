@@ -358,5 +358,35 @@
   "total": 142.5,
   "torvik": -13.1,
   "hardwood_live": -15.1
+ },
+ "310f03765b18b61b06efddde81161621": {
+  "date": "2026-11-16",
+  "away": "Alcorn St.",
+  "home": "Maryland",
+  "neutral": false,
+  "close": -35.0,
+  "total": 154.5,
+  "torvik": -27.7,
+  "hardwood_live": -16.1
+ },
+ "e0d6bcc95d3255db6ac0b3c48284edc6": {
+  "date": "2026-11-16",
+  "away": "Iona",
+  "home": "UMBC",
+  "neutral": false,
+  "close": 2.5,
+  "total": 144.0,
+  "torvik": 1.5,
+  "hardwood_live": 0.1
+ },
+ "8ebaad54ff349cdb9448bc3d6587f13a": {
+  "date": "2026-11-16",
+  "away": "Prairie View A&M",
+  "home": "Ohio St.",
+  "neutral": false,
+  "close": -33.0,
+  "total": 154.5,
+  "torvik": -24.1,
+  "hardwood_live": -14.6
  }
 }
