@@ -130,7 +130,7 @@ ALIASES = {
     'albany ny': 'Albany', 'ualbany': 'Albany', 'st thomas mn': 'St. Thomas', 'saint marys ca': "Saint Mary's",
     'east texas a&m': 'East Texas A&M', 'pitt': 'Pittsburgh', 'uic': 'Illinois Chicago',
     'st thomas minnesota': 'St. Thomas', 'california baptist': 'Cal Baptist', 'south carolina upstate': 'USC Upstate',
-    'umkc': 'UMKC', 'miami fl': 'Miami FL', 'ut martin': 'Tennessee Martin', 'fort wayne': 'Purdue Fort Wayne', 'pfw': 'Purdue Fort Wayne', 'american': 'American', 'army knights': 'Army',
+    'umkc': 'UMKC', 'miami fl': 'Miami FL', 'ut martin': 'Tennessee Martin', 'prairie view': 'Prairie View A&M', 'fort wayne': 'Purdue Fort Wayne', 'pfw': 'Purdue Fort Wayne', 'american': 'American', 'army knights': 'Army',
 }
 
 
