@@ -198,5 +198,155 @@
   "total": 165.5,
   "torvik": -5.7,
   "hardwood_live": -17.1
+ },
+ "57c1c361f582c6043b1f59baa3de3b08": {
+  "date": "2026-11-15",
+  "away": "Idaho St.",
+  "home": "Seattle",
+  "neutral": false,
+  "close": -15.5,
+  "total": 144.0,
+  "torvik": -12.6,
+  "hardwood_live": -8.0
+ },
+ "fdb915f5dada025468c3a1250fbc09bb": {
+  "date": "2026-11-15",
+  "away": "Chicago St.",
+  "home": "Loyola Marymount",
+  "neutral": false,
+  "close": -18.0,
+  "total": 139.5,
+  "torvik": -14.2,
+  "hardwood_live": -4.4
+ },
+ "61df1ff1fd7a41bbe9786885b88d3250": {
+  "date": "2026-11-15",
+  "away": "Mercyhurst",
+  "home": "James Madison",
+  "neutral": false,
+  "close": -11.5,
+  "total": 138.0,
+  "torvik": -12.0,
+  "hardwood_live": -10.7
+ },
+ "7ea8f401ad5b219d542a164aa94c023c": {
+  "date": "2026-11-15",
+  "away": "New Mexico St.",
+  "home": "San Diego St.",
+  "neutral": false,
+  "close": -12.5,
+  "total": 144.0,
+  "torvik": -13.8,
+  "hardwood_live": -18.6
+ },
+ "f154a8a07a9fdf4cee296812d8a6b9cd": {
+  "date": "2026-11-15",
+  "away": "New Haven",
+  "home": "Penn St.",
+  "neutral": false,
+  "close": -24.0,
+  "total": 142.5,
+  "torvik": -19.4,
+  "hardwood_live": -12.0
+ },
+ "12dd3befa793d2e2ca193838dfac645e": {
+  "date": "2026-11-15",
+  "away": "Western Michigan",
+  "home": "Southern Indiana",
+  "neutral": false,
+  "close": 7.0,
+  "total": 139.5,
+  "torvik": 7.2,
+  "hardwood_live": -6.7
+ },
+ "5813be1c92a2dee46230a272c9e5859c": {
+  "date": "2026-11-15",
+  "away": "Pepperdine",
+  "home": "Oregon",
+  "neutral": false,
+  "close": -13.5,
+  "total": 154.5,
+  "torvik": -16.4,
+  "hardwood_live": -16.7
+ },
+ "f8f468a5a4e424ca97009c8effa99395": {
+  "date": "2026-11-15",
+  "away": "Canisius",
+  "home": "Buffalo",
+  "neutral": false,
+  "close": -14.0,
+  "total": 151.5,
+  "torvik": -11.2,
+  "hardwood_live": -8.6
+ },
+ "d8e48d0d9cf53ab989bf5685d4ba102d": {
+  "date": "2026-11-15",
+  "away": "Cal Poly",
+  "home": "Montana St.",
+  "neutral": false,
+  "close": -6.5,
+  "total": 165.0,
+  "torvik": -5.9,
+  "hardwood_live": -5.2
+ },
+ "6686ea0341f1ed3c65adcf204f26af47": {
+  "date": "2026-11-15",
+  "away": "Arkansas Pine Bluff",
+  "home": "USC",
+  "neutral": false,
+  "close": -46.5,
+  "total": 159.5,
+  "torvik": -34.8,
+  "hardwood_live": -38.6
+ },
+ "582afe6b3fd7ef51b57ac7c6fc777820": {
+  "date": "2026-11-15",
+  "away": "Syracuse",
+  "home": "St. John's",
+  "neutral": false,
+  "close": -12.5,
+  "total": 149.5,
+  "torvik": -10.2,
+  "hardwood_live": -3.0
+ },
+ "104aa8b138345b3429bfc8046bb917cf": {
+  "date": "2026-11-15",
+  "away": "Coastal Carolina",
+  "home": "Wisconsin",
+  "neutral": false,
+  "close": -27.5,
+  "total": 147.5,
+  "torvik": -18.7,
+  "hardwood_live": -19.7
+ },
+ "f4c65b06069e702dd02ef61b171d055e": {
+  "date": "2026-11-15",
+  "away": "Texas St.",
+  "home": "UTSA",
+  "neutral": false,
+  "close": 3.5,
+  "total": 147.5,
+  "torvik": 4.1,
+  "hardwood_live": 0.2
+ },
+ "6ccd40d6fad2dad7fb0124037b3e4023": {
+  "date": "2026-11-15",
+  "away": "Alabama St.",
+  "home": "San Jose St.",
+  "neutral": false,
+  "close": -13.5,
+  "total": 151.0,
+  "torvik": -7.4,
+  "hardwood_live": -7.4
+ },
+ "c3c58341c48b659af034931964de5495": {
+  "date": "2026-11-15",
+  "away": "Air Force",
+  "home": "Pacific",
+  "neutral": false,
+  "close": -11.0,
+  "total": 164.5,
+  "torvik": -12.4,
+  "hardwood_live": -6.0
  }
 }
