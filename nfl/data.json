@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T22:18:00.331768+00:00",
+ "generated_at": "2026-11-16T22:50:01.774817+00:00",
  "mode": "picks",
  "season": 2026,
  "week": 10,
@@ -11,7 +11,7 @@
  "lines": {
   "status": "ok",
   "events": 14,
-  "credits_remaining": "344"
+  "credits_remaining": "338"
  },
  "settings": {
   "points_base": 23.0,
