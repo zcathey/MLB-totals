@@ -348,5 +348,15 @@
   "total": 164.5,
   "torvik": -12.4,
   "hardwood_live": -6.0
+ },
+ "59707f15a9e28eda5e24ec2ed98664c7": {
+  "date": "2026-11-16",
+  "away": "Florida A&M",
+  "home": "UTEP",
+  "neutral": false,
+  "close": -20.5,
+  "total": 142.5,
+  "torvik": -13.1,
+  "hardwood_live": -15.1
  }
 }
