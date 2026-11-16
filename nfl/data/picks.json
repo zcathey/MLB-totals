@@ -220,6 +220,11 @@
    "book": "Bovada"
   },
   "close": 4.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   46,
+   40
+  ],
+  "result": "W"
  }
 ]
