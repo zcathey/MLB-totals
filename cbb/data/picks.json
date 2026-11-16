@@ -4368,5 +4368,28 @@
   "both_models": true,
   "neutral": false,
   "logged": "2026-11-16T16:44:57.086748+00:00"
+ },
+ {
+  "event_id": "8ebaad54ff349cdb9448bc3d6587f13a",
+  "date": "2026-11-16",
+  "tip": "2026-11-16T23:30:00Z",
+  "away": "Prairie View A&M",
+  "home": "Ohio St.",
+  "side": "away",
+  "pick": "Prairie View A&M +33",
+  "line": -33.0,
+  "model_spread": -24.1,
+  "edge": 8.9,
+  "market": "agrees",
+  "move_at_pick": 0.5,
+  "best": {
+   "pt": 33.5,
+   "px": -112,
+   "book": "BetRivers"
+  },
+  "hardwood_spread": -14.6,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-16T17:20:55.722550+00:00"
  }
 ]
