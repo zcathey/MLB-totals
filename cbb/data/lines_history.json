@@ -578,5 +578,25 @@
   "total": 157.0,
   "torvik": -16.7,
   "hardwood_live": -8.6
+ },
+ "7baca68d6b97b29d21efc5ccd35ee124": {
+  "date": "2026-11-17",
+  "away": "Hofstra",
+  "home": "Murray St.",
+  "neutral": false,
+  "close": -11.0,
+  "total": 147.5,
+  "torvik": -8.8,
+  "hardwood_live": -16.6
+ },
+ "7f148211ccbd4dd6890aae95ab35cb92": {
+  "date": "2026-11-17",
+  "away": "Rutgers",
+  "home": "Houston",
+  "neutral": false,
+  "close": 18.0,
+  "total": 142.0,
+  "torvik": -14.2,
+  "hardwood_live": -11.6
  }
 }
