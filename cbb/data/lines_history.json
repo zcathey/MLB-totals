@@ -598,5 +598,45 @@
   "total": 142.0,
   "torvik": -14.2,
   "hardwood_live": -11.6
+ },
+ "150dfe147806ddeef1e5e91d62bbc6a4": {
+  "date": "2026-11-17",
+  "away": "Notre Dame",
+  "home": "Florida",
+  "neutral": true,
+  "close": -14.5,
+  "total": 149.5,
+  "torvik": -10.5,
+  "hardwood_live": -3.8
+ },
+ "ffb5a6ab57400f7a34aa9891b5c1ca9f": {
+  "date": "2026-11-17",
+  "away": "Liberty",
+  "home": "Southern Illinois",
+  "neutral": false,
+  "close": -2.0,
+  "total": 145.0,
+  "torvik": -1.1,
+  "hardwood_live": -3.4
+ },
+ "350bca9508ce4bee01779286b2a119c4": {
+  "date": "2026-11-17",
+  "away": "Marist",
+  "home": "Army",
+  "neutral": false,
+  "close": -1.5,
+  "total": 132.5,
+  "torvik": 4.4,
+  "hardwood_live": -1.1
+ },
+ "cc8bda41e5ca0051fa27efd930cd1ba2": {
+  "date": "2026-11-17",
+  "away": "Saint Peter's",
+  "home": "UMass Lowell",
+  "neutral": false,
+  "close": -5.0,
+  "total": 129.5,
+  "torvik": -4.8,
+  "hardwood_live": -14.8
  }
 }
