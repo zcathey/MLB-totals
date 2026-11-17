@@ -1,81 +1,100 @@
-# CBB — Monday, Nov 16, 2026
+# CBB — Tuesday, Nov 17, 2026
 
-**Card (paper trades): Tarleton St. +9 · Grambling St. +29.5 · Jacksonville +22.5 · East Texas A&M +15.5 (weakest)**
+**Card (paper trades): Montana St. +22.5 · Nicholls St. +28.5 · Maryland Eastern Shore +31.5 · Rider +41.5 · Cleveland St. +33 · Oral Roberts +25.5 · Eastern Illinois +43 (weakest)**
 
-All picks are paper trades until about mid-December, when Torvik's preseason priors wash out. It's the same pattern as the weekend: three of the four are big road underdogs against power-conference teams. Tarleton–Drake is the only close-to-even matchup.
+All picks are paper trades until about mid-December, when Torvik's preseason priors wash out. All seven are big road underdogs in buy games. That's the model's main lean right now, and so far the "agrees" filter hasn't helped on these games (see the season table). The first three have real line moves behind them. The last four "agree" by a point or less.
 
-Data: picks run at 11:44 AM ET (I started it because the newest data was from 9:55 PM last night). Ratings are from yesterday's upload at 2:12 PM ET, about 22 hours old (365 teams). Lines OK, 356 Odds API credits left. One unmatched name: **Prairie View Panthers** (see Notes).
+Data: picks run at 11:44 AM ET. I started it because the newest data was from last night's 12:10 AM ET run. Ratings are from yesterday's upload at 11:56 AM ET, about 24 hours old (365 teams). Lines OK, 328 Odds API credits left. One unmatched name: **Mt. St. Mary's Mountaineers** (see Notes). Three of today's games are at a neutral site in Las Vegas but weren't marked; now fixed (see Notes).
 
 ---
 
-## Yesterday (Nov 15)
+## Yesterday (Nov 16)
 
-The card went **2-2**. Coastal Carolina +28.5 (lost by 8) and Niagara +39.5 (lost by 21) covered. William & Mary +26.5 (lost 123-79) and S. Carolina St. +18.5 (lost by 24) didn't. The card's CLV was small but positive: Coastal +1, S.C. State +0.5, the other two even.
+The card went **1-3 at the logged numbers**. At the best prices it went 2-2, because Grambling St. lost by exactly 29 and +29.5 was available at BetRivers.
 
-All picks logged for Nov 15, by the bucket they had when logged:
+- Tarleton St. +9: won outright, 83-79. W
+- Grambling St.: lost 88-59. L at +28.5, W at +29.5
+- Jacksonville +21.5: lost 107-62. L
+- East Texas A&M +15.5: lost 109-71. L
+
+All picks logged for Nov 16, by the bucket they had when logged:
 
 | Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Agrees | 1-0-0 | +1.0 | 1/1 |
-| Against | 3-1-0 | +1.25 | 3/4 |
-| Flat | 4-6-0 | +0.77 | 7/10 |
-| **All** | **8-7-0** | **+0.91** | **11/15** |
+| Agrees | 1-3-0 | −0.25 | 0/4 |
+| Against | 4-4-0 | +1.76 | 6/8 |
+| Flat | 0-1-0 | +2.5 | 1/1 |
+| **All** | **5-8-0** | **+1.20** | **7/13** |
 
-Most of the card was logged early, before the line moved, so it counts under "flat". Florida A&M +17 is still ungraded because that game tips today at 2 PM ET. The Baylor +4.5 pick won, but it was passed yesterday after the neutral-site fix.
+The agrees picks were logged after the move had already happened, so they closed at the logged number (CLV 0 or −1). The against picks mostly got a better number back by the close.
 
 ### Season to date
 
 | Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Agrees | 7-5-0 | −0.19 | 25% |
-| Against | 34-36-1 | +0.15 | 31% |
-| Flat | 36-30-1 | +0.42 | 48% |
-| **All** | **77-71-2** | **+0.24** | **38%** |
+| Agrees | 8-8-0 | −0.21 | 19% |
+| Against | 38-40-1 | +0.31 | 35% |
+| Flat | 36-31-1 | +0.45 | 49% |
+| **All** | **82-79-2** | **+0.32** | **39%** |
 
-Yesterday was the best CLV day so far: 11 of 15 picks beat the close. The picture hasn't changed, though. Flat picks, logged before the market moves, keep doing best. "Agrees" picks are logged after the move has already happened, so they start with less CLV available. That's partly how the bucket is built, not proof the filter is wrong. Twelve picks is still far too few to judge.
+On spreads of 20 or more, agrees picks are 5-5 with −0.35 average CLV, and only 1 in 10 beat the close. Today's card is entirely in that group. Flat picks, logged before the market moves, are still the best bucket. The small sample is still the main caveat.
 
 ---
 
 ## Today's card
 
-| Tip (ET) | Pick | Model | Mkt (open) | Edge | Best price |
-|---|---|---|---|---|---|
-| 7:30 PM | Tarleton St. +9 at Drake | DRKE −3.4 | −9 (−9.5) | 5.6 | +9 −107 Pinnacle |
-| 7:00 PM | Grambling St. +28.5 at Kentucky | UK −24.4 | −28.5 (−30.5) | 4.1 | +29.5 −115 BetRivers |
-| 7:00 PM | Jacksonville +21.5 at Georgia | UGA −17.7 | −21.5 (−23.5) | 3.8 | +22.5 −117 BetRivers |
-| 9:30 PM | East Texas A&M +15.5 at Oregon St. | OSU −12.5 | −15.5 (−17.5) | 3.0 | +15.5 −102 FanDuel |
+| Tip (ET) | Pick | Model | Mkt (open) | Edge | Best price | Logged at |
+|---|---|---|---|---|---|---|
+| 11:00 PM | Montana St. +22.5 at Gonzaga | GONZ −17.7 | −22.5 (−24.5) | 4.8 | +22.5 −105 Pinnacle | +24.5 |
+| 8:30 PM | Nicholls St. +28.5 at Ole Miss | MISS −21.9 | −28.5 (−30) | 6.6 | +28.5 −105 Pinnacle | +30.5 |
+| 8:00 PM | UMES +31.5 at DePaul | DEP −26.8 | −31.5 (−33.75) | 4.7 | +32.5 −120 BetRivers | +34.5 |
+| 7:00 PM | Rider +41.5 at Miami | MIA −35.9 | −41.5 (−42.5) | 5.6 | +41.5 −108 BetRivers | +42.5 |
+| 7:00 PM | Cleveland St. +33 at Xavier | XAV −26.3 | −33 (−33.5) | 6.7 | +33 −109 Pinnacle | +33.5 |
+| 8:00 PM | Oral Roberts +25.5 at SMU | SMU −20.2 | −25.5 (−26) | 5.3 | +25.5 −107 Pinnacle | +26 |
+| 8:00 PM | E. Illinois +43 at Vanderbilt | VAN −30.9 | −43 (−43.25) | 12.1 | +43.5 −121 BetRivers | +44 |
 
-Our own Hardwood ratings also side with all four underdogs, by more than Torvik in three games (UGA −8.4, UK −7.6, OSU −11.2; Drake −3.0). Hardwood had a worse error than Torvik in the backtest, though (13.4 vs 11.1 points), so treat that as weak support.
+All seven were logged at last night's run, at better numbers than today's. The paper record grades from the "Logged at" column.
 
-- **Tarleton St.:** largest edge on the card, and the only game between similar teams. Torvik has them 158th and 150th. Tarleton is 3-1 and opens a four-game road trip here; Drake is 3-0 ([Tarleton Athletics](https://tarletonsports.com/news/2026/11/15/tarleton-state-mens-basketball-begins-four-game-road-trip-at-drake.aspx)). Drake hosts at the Knapp Center, so it's not a neutral site. Two caveats. First, the market signal is mixed: the line opened −9.5, went out to −11.25 (that's when the pick was logged, as "against"), and has come back to −9. Second, both teams have only two D1 games in our data, and Drake's three wins came against a very weak schedule. I found no injury news.
-- **Grambling St.:** the line has dropped 2 points, from 30.5 to 28.5. Kentucky needed a buzzer-beater to beat Northern Arizona last time out, with "just 1 offensive rebound" ([A Sea of Blue via Yahoo](https://sports.yahoo.com/articles/kentucky-basketball-vs-grambling-state-031923502.html)). Grambling is being outscored by 14.5 a game and gives up about 90 a game (same source). I found no current Kentucky injury report. Like Niagara and Stonehill this weekend, this is a 4-point edge on a 30-point spread, so a lot of noise for a small edge.
-- **Jacksonville:** the line is down 2. Georgia is 4-0 and coming off a 78-70 win at North Carolina. Georgia is 12-0 all-time against Jacksonville and won the 2024 meeting 102-56 ([DawgNation](https://www.dawgnation.com/basketball/mens-basketball/georgia-basketball-locked-jacksonville-after-marquee-unc-win/UAH4JONQPFAGVJIDNO7WUPJ3PQ/)). The game is at Stegeman Coliseum. I found no injury news for either team. Only BetRivers has +22.5, at −117; +21.5 −110 is everywhere else.
-- **East Texas A&M:** listed last on purpose, because the edge is exactly 3.0, the minimum. ETAMU is 3-1 and 3-0 on the road, with wins at Oklahoma and Rice. Oregon St. is 4-0, all at home against weak opponents ([Bang The Book](https://bangthebook.com/east-texas-a-m-lions-vs-oregon-state-beavers-prediction-2026-11-16/)). The line has moved 2 toward ETAMU (17.5 to 15.5). That source had 16.5 at 10 AM ET, so the move may still be going. If it falls below 15.5, the edge drops under 3 and this is a pass.
+- **Montana St.: best of the card.** It has the smallest spread, a 2-point move, and our Hardwood ratings agree even more (GONZ −10.4). Montana St. was picked to win the Big Sky and returns six of its top eight scorers. Gonzaga is 2-1 after a close loss to LSU on Saturday that dropped it eight spots to No. 22 ([Spokesman-Review](https://www.spokesman.com/stories/2026/nov/16/gonzaga-team-looking-to-turn-page-from-lsu-loss-ho/)). The game is at the Kennel, so it's a true home game. No injuries were reported; Izan Almansa is listed as a starter, after missing the New Mexico St. game with a lower-leg injury ([Spokesman](https://www.spokesman.com/stories/2026/nov/07/gonzagas-izan-almansa-sidelined-for-new-mexico-sta/)). Part of the move may be the market fading Gonzaga after the loss, not news.
+- **Nicholls St.:** the line is down 1.5, and Hardwood also likes Nicholls (MISS −23.0). The caution: Ole Miss is 3-0 at home with wins by 41, 32 and 40 against "outmanned opponents" ([92.1 The Ticket](https://www.921theticket.com/2026/11/17/ole-miss-holdovers-patton-pinkins-ilias-kamardine-take-aim-at-nicholls/)). The game is in Oxford. I found no injury news.
+- **Maryland Eastern Shore:** the line has dropped 2.25 since open, and Hardwood agrees strongly (DEP −18.7). DePaul is 4-0, allows 58 a game, and Noah Meeusen is back from an ankle injury. UMES is 1-4 and 0-4 on the road ([DePaul Athletics](https://depaulbluedemons.com/news/2026/11/16/mens-basketball-unbeaten-depaul-returns-home-to-host-maryland-eastern-shore)). The game is at Wintrust Arena. A 31.5 spread with a 125.5 total is a lot of margin in a slow game, which supports the dog. +32.5 costs −120 at BetRivers; +31.5 is −105 at BetOnline.
+- **Rider, Cleveland St., Oral Roberts:** each line has moved 0.5 to 1 point. That's "agrees" on paper but barely a signal. Hardwood backs Rider (MIA −29.2) and Oral Roberts (SMU −21.1), but not Cleveland St. (XAV −31.7, only 1.3 off the market). I found no injury or venue news for these games; all three are on the favorite's home floor.
+- **Eastern Illinois:** a 12-point edge on a 43-point spread looks like model noise, not insight, and the line has moved only 0.25. Rank it last. If you skip one, skip this one.
 
-I found no injury news for any of the eight teams. That means nothing turned up, not that everyone is healthy. Check lineups before tip. All four are true home games.
+I found no injury news for any of the 14 teams. That means nothing turned up, not that everyone is healthy. Check lineups before tip.
 
 ## Logged but passing
 
-**Market against:**
+**Market against** (the line moved away from the model):
 
-| Pick | Edge | Move since open |
-|---|---|---|
-| Florida A&M +20.5 | 7.3 | 1 toward UTEP |
-| Alcorn St. +35 | 7.3 | 0.5 toward Maryland |
-| St. Thomas +1 | 3.0 | **3.5 toward LIU** |
-| Central Arkansas +20 | 4.2 | 1 toward Okla. St. |
-| Long Beach St. +33 | 9.2 | 1.5 toward UCLA |
-| W. Illinois +34.5 | 9.7 | 1.5 toward Minnesota |
-| SE Louisiana +34.5 | 10.5 | 0.5 toward Texas A&M |
+| Pick | Edge | Move | Note |
+|---|---|---|---|
+| Rutgers +18 vs Houston | 6.8* | 15.5 → 18 | Neutral (Las Vegas) |
+| Notre Dame +16 vs Florida | 5.5* | 12.5 → 16 | Neutral; new pick once HFA is removed |
+| Lipscomb +23 at Purdue | 4.5 | 19.5 → 23 | 3.5-pt move, no news found |
+| Sam Houston +12.5 at Wyoming | 5.8 | 9.5 → 12.5 | 3-pt move, no news found |
+| Marist +1.5 at Army | 5.9 | +1 → −1.5 | |
+| Ball St. +26.5 at Florida St. | 4.3 | 24.5 → 26.5 | |
+| Sacred Heart +30 at Providence | 6.2 | 29.5 → 30 | |
+| Alabama St. +12 at UC Davis | 5.2 | 10.5 → 12 | |
+| Cal Baptist +8 vs Seattle | 6.3 | 7.5 → 8 | |
+| E. Washington +12.5 at Utah | 3.6 | 12.25 → 12.5 | |
+| Troy −1.5 vs CSUN | 3.6 | −2.5 → −1.5 | |
 
-- **St. Thomas at LIU** has the biggest move on the slate. The line went from St. Thomas −2.5 to +1, toward an LIU team that is 0-5 and lost two of those games by 46 and 58. A move like that in a small game usually means news, maybe a St. Thomas player out, but I couldn't find any. That's another reason to pass.
-- The four 30-plus-point dogs (Alcorn, Long Beach, W. Illinois, SE Louisiana) all have edges of 7 to 10 points. Torvik's preseason priors seem to underrate how lopsided these games get. Saturday's Stonehill and Sunday's Arkansas-Pine Bluff (lost by 76) fit the same pattern.
+*Edge recalculated by hand with home court removed.
 
-**Fell under 3:** Abilene Christian was logged as a flat pick at +7.5. It's now +5.5 with an edge of 2.8. No play, but that pick should grade out with about 2 points of CLV.
+The Florida line moved 3.5 points toward the Gators. Their preview expects PG Boogie Fland back from a sore shoulder ([Florida Gators](https://floridagators.com/news/2026/11/16/mens-basketball-players-era-stuff-florida-vs-notre-dame-nov-17-2026)), which may explain it. I found no news for the Rutgers, Lipscomb or Sam Houston moves.
+
+**Flat (no move, not plays):** Kennesaw St. +25.5 at Alabama (5.4), Middle Tennessee −2 at Georgia Southern (3.2).
+
+**Fell off since logging:** Villanova +1 at Pitt (logged as agrees) is now Villanova −1.5. That's good CLV, but the edge is down to 1.2, so it's not a play.
 
 ## Notes
 
-- **Unmatched name:** "Prairie View Panthers" (at Ohio St., 6:30 PM) has no projection. Torvik's name is "Prairie View A&M". Suggested addition to `ALIASES` in `generate_cbb.py`: `'prairie view panthers': 'Prairie View A&M', 'prairie view': 'Prairie View A&M'`.
-- **Neutral sites:** I checked all of today's picks, and all are true home games. No changes to `neutral.json`.
-- **Totals (tracking only):** no unusual gaps today. The largest is E. Kentucky at Kent St.: market 160.5, model 154.0. That's 6.5 points, not enough to flag.
-- Illinois at Duke shows up for tomorrow, with only one book posting a line so far.
+- **Neutral-site fix.** Today's three Players Era 8 games are at Michelob Ultra Arena in Las Vegas ([Yahoo/Sporting News](https://sports.yahoo.com/articles/players-era-8-tv-schedule-060002934.html)). I added them to `neutral.json`: Houston–Rutgers, Notre Dame–Florida and UNLV–Kansas. I also added tonight's 12 AM ET West Virginia–Auburn game (under Nov 18). The model will re-project them on the next data run. Without home court:
+  - UNLV–Kansas: edge drops to 1.6, no pick.
+  - WVU–Auburn: edge drops to about 0.3. The Auburn +0.5 pick logged last night was made with a home edge that doesn't exist, so treat it as a pass.
+  - Duke–Illinois is at Cameron, so it stays a home game.
+- **Unmatched name.** The Odds API now sends "Mt. St. Mary's Mountaineers", so Lehigh at Mount St. Mary's has no projection. Suggested alias for `ALIASES` in `generate_cbb.py`: `"Mt. St. Mary's Mountaineers": "Mount St. Mary's"`.
+- **Totals (tracking only).** The largest gaps are about 7 points: Green Bay–West Florida, Middle Tennessee–Georgia Southern, Nicholls–Ole Miss and Illinois–Duke. None is unusual enough to flag. The FIU–UAB game has a tempo-outlier flag (FIU 78).
+- **Ratings** are about 24 hours old, which is fine. Torvik priors still dominate this early, and that's the main reason everything stays a paper trade.
