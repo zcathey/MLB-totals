@@ -638,5 +638,475 @@
   "total": 129.5,
   "torvik": -4.8,
   "hardwood_live": -14.8
+ },
+ "e53746f0d6118f523272cb956b7d0133": {
+  "date": "2026-11-17",
+  "away": "Illinois",
+  "home": "Duke",
+  "neutral": false,
+  "close": -8.0,
+  "total": 167.0,
+  "torvik": -6.3,
+  "hardwood_live": -3.9
+ },
+ "7cf2cadb51955c4f64f21b41af66e583": {
+  "date": "2026-11-17",
+  "away": "Indiana",
+  "home": "Arkansas",
+  "neutral": false,
+  "close": 1.5,
+  "total": 153.5,
+  "torvik": -3.0,
+  "hardwood_live": 3.9
+ },
+ "dd2fa1ecb90b4902086fa19865091651": {
+  "date": "2026-11-17",
+  "away": "Michigan St.",
+  "home": "Tennessee",
+  "neutral": false,
+  "close": 2.5,
+  "total": 149.5,
+  "torvik": 1.6,
+  "hardwood_live": 10.2
+ },
+ "7a85a1ae1355a8d9ca51c417db95f5ff": {
+  "date": "2026-11-17",
+  "away": "Ball St.",
+  "home": "Florida St.",
+  "neutral": false,
+  "close": -25.5,
+  "total": 150.5,
+  "torvik": -22.2,
+  "hardwood_live": -20.5
+ },
+ "ce6dd46cd4c337c1959bb8995b009209": {
+  "date": "2026-11-17",
+  "away": "Bowling Green",
+  "home": "William & Mary",
+  "neutral": false,
+  "close": -3.0,
+  "total": 168.5,
+  "torvik": -1.3,
+  "hardwood_live": 1.4
+ },
+ "f2f76ded2b49c859cfcdb18510fc4461": {
+  "date": "2026-11-17",
+  "away": "Western Carolina",
+  "home": "Butler",
+  "neutral": false,
+  "close": -11.5,
+  "total": 159.0,
+  "torvik": -10.5,
+  "hardwood_live": -7.4
+ },
+ "988091cc2c64949c28e2aa6a677ef63f": {
+  "date": "2026-11-17",
+  "away": "Cal St. Northridge",
+  "home": "Troy",
+  "neutral": false,
+  "close": -2.0,
+  "total": 151.5,
+  "torvik": -5.1,
+  "hardwood_live": 0.5
+ },
+ "51812abb23ba8ac9eeb6568fe25132a9": {
+  "date": "2026-11-17",
+  "away": "Central Michigan",
+  "home": "Dayton",
+  "neutral": false,
+  "close": -13.5,
+  "total": 145.5,
+  "torvik": -10.0,
+  "hardwood_live": 5.0
+ },
+ "5819a23622486bd00ba1853a161f898a": {
+  "date": "2026-11-17",
+  "away": "Charlotte",
+  "home": "Davidson",
+  "neutral": false,
+  "close": -4.0,
+  "total": 133.0,
+  "torvik": -3.1,
+  "hardwood_live": -6.4
+ },
+ "c05c24a9aaf1a719055cd45cebb655c6": {
+  "date": "2026-11-17",
+  "away": "Cleveland St.",
+  "home": "Xavier",
+  "neutral": false,
+  "close": -33.0,
+  "total": 157.5,
+  "torvik": -26.3,
+  "hardwood_live": -31.7
+ },
+ "b84cb1c5cde0ceb1ba7bba70f8db0a81": {
+  "date": "2026-11-17",
+  "away": "East Tennessee St.",
+  "home": "Marshall",
+  "neutral": false,
+  "close": -1.5,
+  "total": 147.0,
+  "torvik": 0.7,
+  "hardwood_live": -2.8
+ },
+ "adedd94d034d2092e66251afaae53807": {
+  "date": "2026-11-17",
+  "away": "Fordham",
+  "home": "Manhattan",
+  "neutral": false,
+  "close": 12.0,
+  "total": 145.0,
+  "torvik": 12.1,
+  "hardwood_live": 6.2
+ },
+ "0b3ad953b639616096e56f8bc779d1cf": {
+  "date": "2026-11-17",
+  "away": "Norfolk St.",
+  "home": "Georgia Tech",
+  "neutral": false,
+  "close": -20.5,
+  "total": 150.5,
+  "torvik": -19.5,
+  "hardwood_live": -19.8
+ },
+ "bb8c42e426203795cd7101dc04c32184": {
+  "date": "2026-11-17",
+  "away": "Rider",
+  "home": "Miami FL",
+  "neutral": false,
+  "close": -41.5,
+  "total": 148.0,
+  "torvik": -35.9,
+  "hardwood_live": -29.2
+ },
+ "74bf07fd39674f9e5603de85bf3bb8ff": {
+  "date": "2026-11-17",
+  "away": "Mississippi St.",
+  "home": "UCF",
+  "neutral": false,
+  "close": -1.5,
+  "total": 155.0,
+  "torvik": -1.5,
+  "hardwood_live": 7.0
+ },
+ "33f00f4f6cbb6af0870e39e68ad3c430": {
+  "date": "2026-11-17",
+  "away": "Monmouth",
+  "home": "Wake Forest",
+  "neutral": false,
+  "close": -14.5,
+  "total": 144.0,
+  "torvik": -12.6,
+  "hardwood_live": -11.0
+ },
+ "39bce9119f7631dfd8656e4e8d388192": {
+  "date": "2026-11-17",
+  "away": "Villanova",
+  "home": "Pittsburgh",
+  "neutral": false,
+  "close": 2.0,
+  "total": 149.5,
+  "torvik": 2.7,
+  "hardwood_live": -5.9
+ },
+ "c7d62536b790073cd6d3119dc561e3a0": {
+  "date": "2026-11-17",
+  "away": "Sacred Heart",
+  "home": "Providence",
+  "neutral": false,
+  "close": -30.5,
+  "total": 154.0,
+  "torvik": -23.8,
+  "hardwood_live": -15.3
+ },
+ "b7ec520482df7b2c5286ab241222384d": {
+  "date": "2026-11-17",
+  "away": "Tennessee St.",
+  "home": "South Florida",
+  "neutral": false,
+  "close": -11.5,
+  "total": 165.0,
+  "torvik": -9.5,
+  "hardwood_live": -12.1
+ },
+ "af7d4f2070d23339d85022a5cf26f93c": {
+  "date": "2026-11-17",
+  "away": "Kennesaw St.",
+  "home": "Alabama",
+  "neutral": false,
+  "close": -25.5,
+  "total": 178.5,
+  "torvik": -20.1,
+  "hardwood_live": -15.3
+ },
+ "b047fe0349f684bcc45735751c6b1a81": {
+  "date": "2026-11-17",
+  "away": "FIU",
+  "home": "UAB",
+  "neutral": false,
+  "close": -4.0,
+  "total": 169.0,
+  "torvik": -4.8,
+  "hardwood_live": 4.0
+ },
+ "8a2eee51a0ee3244eb3467808fac1778": {
+  "date": "2026-11-17",
+  "away": "Jacksonville St.",
+  "home": "Louisiana Tech",
+  "neutral": false,
+  "close": -1.5,
+  "total": 131.0,
+  "torvik": -0.6,
+  "hardwood_live": -4.2
+ },
+ "919bc2e81b79f536852f7e3aa2ec7754": {
+  "date": "2026-11-17",
+  "away": "Maryland Eastern Shore",
+  "home": "DePaul",
+  "neutral": false,
+  "close": -30.0,
+  "total": 125.5,
+  "torvik": -26.8,
+  "hardwood_live": -18.7
+ },
+ "c5ae6b5a2626835722e8c6cd84904f01": {
+  "date": "2026-11-17",
+  "away": "Eastern Illinois",
+  "home": "Vanderbilt",
+  "neutral": false,
+  "close": -41.0,
+  "total": 148.0,
+  "torvik": -30.9,
+  "hardwood_live": -33.9
+ },
+ "53e1f9b0793855a7036d7c480c5c5aa3": {
+  "date": "2026-11-17",
+  "away": "Middle Tennessee",
+  "home": "Georgia Southern",
+  "neutral": false,
+  "close": 2.0,
+  "total": 155.0,
+  "torvik": 5.2,
+  "hardwood_live": -2.4
+ },
+ "f1b87f5055c345501b45a893f6866c00": {
+  "date": "2026-11-17",
+  "away": "Lindenwood",
+  "home": "Northern Iowa",
+  "neutral": false,
+  "close": -13.0,
+  "total": 154.0,
+  "torvik": -13.0,
+  "hardwood_live": -10.2
+ },
+ "6f09da9790643161b42ae87d69133782": {
+  "date": "2026-11-17",
+  "away": "SIU Edwardsville",
+  "home": "North Dakota",
+  "neutral": false,
+  "close": -2.0,
+  "total": 145.5,
+  "torvik": -1.2,
+  "hardwood_live": -2.4
+ },
+ "27053ab77b65c239990d626417fbeaea": {
+  "date": "2026-11-17",
+  "away": "Oral Roberts",
+  "home": "SMU",
+  "neutral": false,
+  "close": -22.5,
+  "total": 155.5,
+  "torvik": -20.2,
+  "hardwood_live": -21.1
+ },
+ "a80c8cd90f57a1445908c3a17489fd4a": {
+  "date": "2026-11-17",
+  "away": "UT Arlington",
+  "home": "Southern Miss",
+  "neutral": false,
+  "close": -2.0,
+  "total": 148.5,
+  "torvik": -1.8,
+  "hardwood_live": 1.5
+ },
+ "ea9b9bf9131650d8502e7f35600230f1": {
+  "date": "2026-11-17",
+  "away": "Eastern Washington",
+  "home": "Utah",
+  "neutral": false,
+  "close": -12.5,
+  "total": 145.5,
+  "torvik": -8.9,
+  "hardwood_live": -9.0
+ },
+ "ddb1e091501449395eb13e294efdc595": {
+  "date": "2026-11-17",
+  "away": "Nicholls St.",
+  "home": "Mississippi",
+  "neutral": false,
+  "close": -27.5,
+  "total": 142.5,
+  "torvik": -21.9,
+  "hardwood_live": -23.0
+ },
+ "44a2054c3d6bc226d39ae83a89cd4356": {
+  "date": "2026-11-17",
+  "away": "Sam Houston St.",
+  "home": "Wyoming",
+  "neutral": false,
+  "close": -12.5,
+  "total": 149.5,
+  "torvik": -6.7,
+  "hardwood_live": -11.6
+ },
+ "41c79876d3c7f7f356c4b1a19332478f": {
+  "date": "2026-11-17",
+  "away": "Alabama St.",
+  "home": "UC Davis",
+  "neutral": false,
+  "close": -12.5,
+  "total": 143.0,
+  "torvik": -6.8,
+  "hardwood_live": -8.0
+ },
+ "b041e7809fd4d00f42cea09d7973ff0f": {
+  "date": "2026-11-17",
+  "away": "Old Dominion",
+  "home": "Virginia",
+  "neutral": false,
+  "close": -25.5,
+  "total": 144.5,
+  "torvik": -23.8,
+  "hardwood_live": -10.9
+ },
+ "2ddc8451d53d2f18e2fd39e81a0f93c4": {
+  "date": "2026-11-17",
+  "away": "UNLV",
+  "home": "Kansas",
+  "neutral": true,
+  "close": -16.0,
+  "total": 158.0,
+  "torvik": -15.9,
+  "hardwood_live": -16.8
+ },
+ "0cd770ea3dc3281082424e2a0e950f0b": {
+  "date": "2026-11-17",
+  "away": "Seattle",
+  "home": "Cal Baptist",
+  "neutral": false,
+  "close": 8.0,
+  "total": 134.0,
+  "torvik": 1.7,
+  "hardwood_live": 6.6
+ },
+ "e6fc3d1d4dfbd6b227ae2a4d1cbf6351": {
+  "date": "2026-11-17",
+  "away": "UC Irvine",
+  "home": "Stanford",
+  "neutral": false,
+  "close": -6.5,
+  "total": 142.5,
+  "torvik": -4.1,
+  "hardwood_live": -3.2
+ },
+ "107600e44a78d55aaf007aa1f18e20c7": {
+  "date": "2026-11-17",
+  "away": "Montana St.",
+  "home": "Gonzaga",
+  "neutral": false,
+  "close": -22.5,
+  "total": 153.5,
+  "torvik": -17.7,
+  "hardwood_live": -10.9
+ },
+ "60b029abf5f77ce43eeef93342df5ccc": {
+  "date": "2026-11-17",
+  "away": "Lipscomb",
+  "home": "Purdue",
+  "neutral": false,
+  "close": -22.5,
+  "total": 148.0,
+  "torvik": -18.5,
+  "hardwood_live": -8.1
+ },
+ "34cc1630b26debe487cc005f53751fe3": {
+  "date": "2026-11-17",
+  "away": "Akron",
+  "home": "Bucknell",
+  "neutral": false,
+  "close": 15.5,
+  "total": 146.5,
+  "torvik": 16.0,
+  "hardwood_live": 10.4
+ },
+ "bbe54785b59f4fe1e6949ea309e9a554": {
+  "date": "2026-11-17",
+  "away": "Green Bay",
+  "home": "West Florida",
+  "neutral": false,
+  "close": 5.5,
+  "total": 144.5,
+  "torvik": 7.6,
+  "hardwood_live": 0.0
+ },
+ "081780ac2ad6014e346d974168a14e8d": {
+  "date": "2026-11-17",
+  "away": "Wagner",
+  "home": "Saint Joseph's",
+  "neutral": false,
+  "close": -16.0,
+  "total": 137.5,
+  "torvik": -16.7,
+  "hardwood_live": -15.1
+ },
+ "4739482816cbaec0b724e890a4609efb": {
+  "date": "2026-11-17",
+  "away": "Bryant",
+  "home": "Massachusetts",
+  "neutral": false,
+  "close": -10.0,
+  "total": 141.5,
+  "torvik": -11.5,
+  "hardwood_live": -12.5
+ },
+ "dfdac74c91ebae110f1291f05093ead7": {
+  "date": "2026-11-17",
+  "away": "Bellarmine",
+  "home": "Illinois St.",
+  "neutral": false,
+  "close": -18.0,
+  "total": 142.0,
+  "torvik": -15.3,
+  "hardwood_live": -6.9
+ },
+ "21b5086e60cae515922e9a8de32ffd84": {
+  "date": "2026-11-17",
+  "away": "Le Moyne",
+  "home": "Evansville",
+  "neutral": false,
+  "close": -8.0,
+  "total": 146.5,
+  "torvik": -5.6,
+  "hardwood_live": -8.9
+ },
+ "f4e891141ac704877ac85d87e2055eb7": {
+  "date": "2026-11-17",
+  "away": "Texas A&M Corpus Chris",
+  "home": "Rice",
+  "neutral": false,
+  "close": -2.5,
+  "total": 141.5,
+  "torvik": -1.9,
+  "hardwood_live": -1.9
+ },
+ "436fbef33dd351b0ea0e838c6bfe2b96": {
+  "date": "2026-11-17",
+  "away": "Lamar",
+  "home": "Nebraska Omaha",
+  "neutral": false,
+  "close": -1.0,
+  "total": 158.5,
+  "torvik": 2.0,
+  "hardwood_live": 3.2
  }
 }
