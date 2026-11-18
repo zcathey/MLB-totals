@@ -2,6 +2,8 @@
 
 **Card (paper trades): NC Central +23.5 · Northern Illinois +28 · Portland +14.5 · Idaho +18.5 · Campbell +20.5 · Cal St. Fullerton +33**, plus Jackson St. +33.5, which tips at noon.
 
+**Best bet: Portland +14.5 at Colorado** (BetRivers −108, 9:00 PM ET). Both models agree on it, it's the smallest spread on the card, and the line has moved toward it. Best-bet record: 2-0 ([ledger](best_bets.md)).
+
 *Updated 11:55 AM ET with Zach's fresh Torvik upload. The card didn't change. Projections moved less than a point in every game today.*
 
 All picks are paper trades until about mid-December, when Torvik's preseason priors wash out. Every play today is a road underdog again. Season to date, "agrees" picks on spreads of 20 or more are 5-5 with negative CLV. Three of the six plays are in that group. Last night all four 28+ point dogs on the card lost by 35 or more.
