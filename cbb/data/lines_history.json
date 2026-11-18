@@ -1118,5 +1118,25 @@
   "total": 144.0,
   "torvik": -0.7,
   "hardwood_live": 5.5
+ },
+ "b9ceae88b150b85cac57b2c1a4f3d29c": {
+  "date": "2026-11-18",
+  "away": "Jackson St.",
+  "home": "Baylor",
+  "neutral": false,
+  "close": -33.5,
+  "total": 156.5,
+  "torvik": -22.5,
+  "hardwood_live": -21.2
+ },
+ "5a908ead2499ff9ff006def5827a69bb": {
+  "date": "2026-11-18",
+  "away": "Rutgers",
+  "home": "Notre Dame",
+  "neutral": true,
+  "close": -3.0,
+  "total": 150.5,
+  "torvik": -1.4,
+  "hardwood_live": -1.1
  }
 }
