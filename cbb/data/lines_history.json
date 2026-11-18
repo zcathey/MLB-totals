@@ -1108,5 +1108,15 @@
   "total": 158.5,
   "torvik": 2.0,
   "hardwood_live": 3.2
+ },
+ "e8f832a92172e3b4111a673d4ed242d5": {
+  "date": "2026-11-18",
+  "away": "West Virginia",
+  "home": "Auburn",
+  "neutral": true,
+  "close": -1.0,
+  "total": 144.0,
+  "torvik": -0.7,
+  "hardwood_live": 5.5
  }
 }
