@@ -1,104 +1,96 @@
-# CBB — Wednesday, Nov 18, 2026
+# CBB — Thursday, Nov 19, 2026
 
-**Card (paper trades): NC Central +23.5 · Northern Illinois +28 · Portland +14.5 · Idaho +18.5 · Campbell +20.5 · Cal St. Fullerton +33**, plus Jackson St. +33.5, which tips at noon.
+**Card (paper trades): Seton Hall +5.5 vs Wisconsin · UMBC +29.5 at Ohio St. · Southern Utah +36.5 at Texas**
 
-**Best bet: Portland +14.5 at Colorado** (BetRivers −108, 9:00 PM ET). Both models agree on it, it's the smallest spread on the card, and the line has moved toward it. Best-bet record: 2-0 ([ledger](best_bets.md)).
+**Best bet: Seton Hall +5.5 vs Wisconsin** (ESPN BET −110, 8:30 PM ET, neutral site in Nassau). Both models agree, it's by far the smallest spread on the card, and the line has ticked toward Seton Hall. The edge is thin (about 3 points) once home court is removed. Best-bet record: 3-0 ([ledger](best_bets.md)).
 
-*Updated 11:55 AM ET with Zach's fresh Torvik upload. The card didn't change. Projections moved less than a point in every game today.*
+All picks are paper trades until about mid-December, when Torvik's preseason priors wash out. Two of the three plays are 29+ point road dogs, the group that has been the model's weak spot (agrees picks at 20+ are 7-8 with −0.15 CLV this season).
 
-All picks are paper trades until about mid-December, when Torvik's preseason priors wash out. Every play today is a road underdog again. Season to date, "agrees" picks on spreads of 20 or more are 5-5 with negative CLV. Three of the six plays are in that group. Last night all four 28+ point dogs on the card lost by 35 or more.
-
-Data: picks rerun at 11:54 AM ET with fresh ratings (uploaded today at 11:54 AM ET, 365 teams). This morning's scheduled runs hadn't happened, so I started both runs by hand. Lines OK, 308 Odds API credits left. One unmatched name: **N Colorado Bears** (see Notes). Five of tonight's games are at neutral sites but weren't marked. They're now fixed and re-projected (see Notes).
+Data: picks run at 11:44 AM ET. I started it by hand because the last run was this morning's 8:40 open. Lines OK, 288 Odds API credits left. Ratings are fresh (Zach's upload, 8:39 AM ET today, 365 teams). No unmatched names. **Six of today's games are at neutral sites but weren't marked.** That changes the card a lot. Four "picks" disappear (see Notes).
 
 ---
 
-## Yesterday (Nov 17)
+## Yesterday (Nov 18)
 
-**The posted card went 3-4.** The three smaller dogs covered and the four huge dogs got blown out:
+**The posted card went 6-0**, with Jackson St. (noon tip, posted for the record) losing:
 
-- Montana St. +22.5: lost 74-62. W
-- Cleveland St. +33: lost 75-67. W
-- Oral Roberts +25.5: lost 76-72. W
-- Nicholls St. +28.5: lost 76-41. L
-- Maryland Eastern Shore +31.5: lost 83-39. L
-- Rider +41.5: lost 95-48. L
-- Eastern Illinois +43: lost 96-50. L
+- NC Central +23.5: lost 83-60. W
+- N. Illinois +28: lost 79-65. W
+- Portland +14.5: won 77-74. W (best bet)
+- Idaho +18.5: lost 91-74. W
+- Campbell +20.5: lost 87-78. W
+- CS Fullerton +33: lost 75-71. W
+- Jackson St. +33.5: lost 104-55. L
 
-All 26 picks logged for Nov 17, by the bucket they had when logged:
+All 32 graded picks for Nov 18, by the bucket they had when logged:
 
 | Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Agrees | 1-1-0 | +1.40 | 1/2 |
-| Against | 8-6-0 | +1.16 | 9/14 |
-| Flat | 9-1-0 | +0.43 | 5/10 |
-| **All** | **18-8-0** | **+0.90** | **15/26** |
+| Agrees | 3-3-0 | +0.23 | 2/6 |
+| Against | 5-6-0 | +0.36 | 4/11 |
+| Flat | 13-2-0 | +1.43 | 13/15 |
+| **All** | **21-11-0** | **+0.84** | **19/32** |
 
-Most of the card was logged the night before at better numbers, as flat or against picks. That's why CLV looks good even though the card itself went 3-4.
+The bad "LSU at Texas Tech" listing has no result and isn't graded.
 
 ### Season to date
 
 | Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Agrees | 9-9-0 | −0.03 | 22% |
-| Against | 46-47-1 | +0.45 | 40% |
-| Flat | 45-32-1 | +0.44 | 49% |
-| **All** | **100-88-2** | **+0.40** | **42%** |
+| Agrees | 12-12-0 | +0.04 | 25% |
+| Against | 51-52-1 | +0.43 | 39% |
+| Flat | 58-34-1 | +0.60 | 55% |
+| **All** | **121-98-2** | **+0.46** | **44%** |
 
-The agrees picks are still the weakest group by CLV. That's mostly timing: by the time a line has moved toward the model, there's less left to gain. Flat picks, logged before the market moves, are still the best bucket.
+Flat picks (logged before the market moves) are still the best bucket by every measure. Agrees picks are break-even with almost no CLV. Within agrees, spreads under 20 are 5-4 (+0.36 CLV) and 20+ are 7-8 (−0.15).
+
+**Best bet:** Portland +14.5 won outright, 77-74. Ledger is 3-0.
 
 ---
 
 ## Today's card
 
-| Tip (ET) | Pick | Model (HW) | Mkt (open) | Edge | Best price | Logged at |
-|---|---|---|---|---|---|---|
-| 7:00 PM | NC Central +23.5 at George Mason | GMU −19.8 (−10.8) | −23.5 (−26.5) | 3.7 | +23.5 −105 BetRivers | +23.5 |
-| 7:30 PM | N. Illinois +28 at Marquette | MU −22.0 (−17.9) | −28 (−29.5) | 6.0 | +28.5 −115 DraftKings | +30 |
-| 9:00 PM | Portland +14.5 at Colorado | CU −9.5 (−10.0) | −14.5 (−15.5) | 5.0 | +14.5 −108 BetRivers | +14.75 |
-| 10:00 PM | Idaho +18.5 at Nevada | NEV −12.5 (−11.2) | −18.5 (−19.25) | 6.0 | +18.5 −104 Pinnacle | +19.25 |
-| 8:00 PM | Campbell +20.5 at Oklahoma | OU −17.0 (−7.0) | −20.5 (−24) | 3.5 | +21.5 −117 BetRivers | +24 |
-| 10:30 PM | CS Fullerton +33 at UCLA | UCLA −24.6 (−29.4) | −33 (−34.5) | 8.4 | +33 −110 BetOnline | +34.5 |
+Numbers below have home court removed for the neutral-site game.
 
-HW = our Hardwood ratings. All six games are on campus. The paper record grades from the "Logged at" column.
+| Tip (ET) | Pick | Torvik (HW) | Mkt (open) | Edge | Best price |
+|---|---|---|---|---|---|
+| 8:30 PM | Seton Hall +5 vs Wisconsin (N) | WIS −1.9 (−1.5) | −5 (−5.5) | 3.1 | +5.5 −110 ESPN BET |
+| 7:00 PM | UMBC +29.5 at Ohio St. | OSU −24.4 (−15.9) | −29.5 (−32.5) | 5.1 | +29.5 −108 DraftKings |
+| 8:00 PM | Southern Utah +36.5 at Texas | TEX −25.1 (−32.9) | −36.5 (−38.5) | 11.4 | +37.5 −115 BetMGM |
 
-- **NC Central:** the line has dropped 3 points and Hardwood agrees strongly. I found no injury news to explain the move. GMU is 3-1, with a 61-60 loss to Bradley. NCCU is 1-4, but its only win was 117-71 on Monday ([BVM Sports](https://bvmsports.com/2026/11/17/george-mason-hosts-nc-central-wednesday-in-fairfax-matchup/)). Covers lists two GMU players questionable, but the listings date to October and may be stale ([Covers](https://www.covers.com/sport/basketball/ncaab/matchup/392545)). The game is in Fairfax ([NCCU](https://nccueaglepride.com/news/2026/11/15/mens-basketball-eagles-prepare-for-home-opener-midweek-matchup-at-george-mason.aspx)). The 131.5 total is low, which helps a big dog.
-- **Northern Illinois:** both models agree, and the line is down 1.5. Marquette has lost two straight, to Michigan and Missouri, and NIU has won three straight, including 81-76 in overtime at Dayton ([Field Level Media](https://fieldlevelmedia.com/ncaab/marquette-northern-illinois-going-in-opposite-directions/)). Marquette's C. Hamilton has been out since October with a calf injury ([Covers](https://www.covers.com/sport/basketball/ncaab/injuries)). The game is at Fiserv Forum, Marquette's home floor.
-- **Portland:** this is the smallest spread on the card, and both models agree. Colorado is 2-2 and lost both its road games ([CBS](https://www.cbssports.com/college-basketball/teams/COLO/colorado-buffaloes/schedule/)). Portland has two players back who missed last season with injuries ([Portland](https://portlandpilots.com/news/2026/11/17/mens-basketball-pilots-visit-colorado-wednesday-night.aspx)). Neither team lists injuries. The game is in Boulder, so altitude helps the home team.
-- **Idaho:** both models agree, but the line has moved only 0.75. Nevada has lost two straight, to UCSB and Utah Valley ([KOLO](https://www.kolotv.com/2026/11/17/nevada-looks-snap-two-game-losing-streak-it-takes-idaho/)). Neither team lists injuries.
-- **Campbell: the move is news, not confirmation.** Oklahoma's starting center Duke Brennan is out about three months after ankle surgery, reported yesterday ([Yahoo/Roundtable](https://sports.yahoo.com/articles/sooners-center-duke-brennan-three-175420322.html)). That probably explains most of the 3.5-point drop. The Torvik number still includes Brennan, so the true edge may be larger than 3.5. But the move is the market pricing in the injury, not a vote for the model. The best of this one was the +24 logged last night.
-- **Cal St. Fullerton:** the largest edge on the card, but also the riskiest. UCLA is missing two big men, Xavier Booker (concussion) and Filip Jović (ankle) ([Daily Bruin](https://dailybruin.com/2026/11/16/ucla-mens-basketball-cruises-past-long-beach-state-105-66-remains-undefeated)), which likely explains the 1.5-point drop. Even without them, UCLA has scored 100+ in three straight games. Fullerton is 2-1, including an 87-85 win at South Dakota. The 33-point spread is right in the range that got blown out last night.
-- **Jackson St. +33.5** (logged at 11:44 AM): it tips at noon in Waco, so it's probably too late to act on. It's here for the record. Both models agree, but Baylor is coming off a 3-point loss to Texas ([Baylor](https://baylorbears.com/news/2026/11/17/mens-basketball-mbb-returns-home-for-annual-scream-game-vs-jackson-state)).
+HW = our Hardwood ratings. N = neutral site.
+
+- **Seton Hall:** first round of the Baha Mar Championship in Nassau ([Seton Hall](https://shupirates.com/news/2026/11/18/mens-basketball-pirates-open-baha-mar-championship-against-wisconsin-thursday-night), [College Hoops Today](https://collegehoopstoday.net/rothstein-files/murray-state-will-play-nc-state-wisconsin-to-face-seton-hall-in-baha-mar-hoops-baha-mar-championship/), [SI](https://www.si.com/college/wisconsin/basketball/badgers-in-the-bahamas-what-to-know-about-wisconsin-s-2026-in-season-tournament)). It was logged with a 3-point Seton Hall home edge (edge 6.1). With that removed, the edge drops to 3.1 (Torvik) and 3.5 (Hardwood): still a pick, but just over the line. Seton Hall is 3-1, with the loss at Alabama by 6. Wisconsin is 4-0 ([SI](https://www.si.com/college/wisconsin/basketball/breaking-down-wisconsin-badgers-opponents-in-the-baha-mar-championship)). I found no injury news for either team. The 0.5-point move is small, so "agrees" here is weak confirmation. The +5.5 at ESPN BET is worth the half point.
+- **UMBC:** both models agree, Hardwood strongly (OSU −15.9). The line has dropped 3 points, and I found no injury news to explain it. The Mobley injury results that come up are from last February. Ohio St. is 3-2. UMBC is 3-3. The game is in Columbus. A 3-point drop with no news is the kind of move worth respecting, but it's still a 29.5-point road dog.
+- **Southern Utah:** the largest Torvik edge on the card (11.4), but Hardwood (TEX −32.9) is much closer to the market. Texas is 4-0, with its first three wins by 30+ and a 75-72 escape against Baylor in San Antonio. The game is at Moody Center in Austin ([Texas](https://texaslonghorns.com/news/2026/11/17/no-6-6-mens-basketball-preview-southern-utah)). Southern Utah is 3-2. I found no injury news to explain the 2-point drop. This was logged last night as a flat pick at +38.5, which is the number that grades. At 36.5 it is the riskiest play on the card.
 
 ---
 
 ## Logged but passing
 
-**Agrees, but too thin to back:**
+**Removed by the neutral-site fix** (Players Era 8, Las Vegas, and Baha Mar). Logged this morning with a home edge that doesn't exist. They're still in `picks.json` and will grade, so treat them as noise:
 
-| Pick | Edge | Move | Why pass |
+| Logged pick | Neutral-adjusted Torvik | Mkt | Edge now |
 |---|---|---|---|
-| Alcorn St. +43 at Missouri | 12.3 | 2.25 | 0-5, lost 117-57 at Maryland on Monday. Spreads over 40 went 0-2 last night. The move is probably Mark Mitchell (concussion, questionable) ([News Tribune](https://www.newstribune.com/news/2026/nov/16/missouri-mens-basketball-rallies-in-second-half-takes-down-marquette-69-64/)) |
-| Weber St. +28.5 at Utah St. | 3.7 | 3.75 | Hardwood disagrees (USU −30.4). USU has won every game by 32+. The move fits USU's thin frontcourt, with Connor Turnbull likely out ([Herald Journal](https://www.hjnews.com/sports/usu/usu-mens-hoops-hopes-to-keep-perfect-homestand-streak-alive/article_32b8dba9-7413-45f0-bd57-5e5c60f0ff62.html)) |
-| Morehead St. +16.5 at Ohio | 6.0 | 1.0 | Hardwood ≈ market (−16.1). Logged at +17.5 last night |
-| Oakland +23.5 at Arizona St. | 6.2 | 1.25 | Hardwood ≈ market (−22.3). Oakland is 1-5 |
-| Chicago St. +22.5 at UIC | 3.9 | 0.25 | Move is noise. Lost by 37 and 50 in its last two road games |
-| Wichita St. −1 at Loyola Chicago | 3.3 | 0.25 | Move is noise, and Hardwood has Loyola by 3 |
+| West Virginia +8 vs Florida | FLA −6.1 | FLA −8 | 1.9 |
+| Notre Dame +3.5 vs Auburn | AUB −2.8 | AUB −3.5 | 0.7 |
+| Kansas +2.5 vs Houston | KU −0.2 | HOU −2.5 | 2.7 |
+| Rutgers −2.5 vs UNLV | RUT −3.5 | RUT −2.5 | 1.0 |
 
-**Market against:** Vermont +7 at Yale, UAPB +29 at Arkansas St., Louisiana-Monroe +37.5 at LSU, New Orleans +36 at Texas Tech, Florida A&M +17.5 at UTSA, Louisiana +11 at San Francisco, Fresno St. +6.5, Winthrop +4, UNC Asheville +3.5, Florida Atlantic −5.
+Kansas is close: Hardwood has KU −0.7 (edge 3.2), but Torvik is under the threshold. Florida–WVU has the biggest model split (Hardwood FLA −0.9).
 
-- **Vermont: the 3.5-point move is almost certainly injury news.** Leading scorer Gus Yalden (14.8 PPG) left Friday's game with a lower-body injury and "will be evaluated" ([WCAX](https://www.wcax.com/2026/11/15/uvm-defeats-plattsburgh-state-104-59/)). Clear pass.
-- **UAPB** is 0-5 on a six-game road trip and has allowed 106+ to every Power 4 opponent, including a 122-46 loss at USC ([CBS](https://www.cbssports.com/college-basketball/gametracker/NCAAB_20261115_ARKPB@USC/)).
+**New pick after the fix, passing:** NC State −3.5 vs Murray St. (Baha Mar). Neutral-adjusted Torvik has NC State −7.6 (edge 4.1). But the line has ticked 0.25 toward Murray St., and Hardwood has only NC State −1.5. Both teams are 4-0.
 
-**Removed by the neutral-site fix** (see Notes): West Virginia +8.5 and Auburn −7.5 were logged at 11:44 AM with a home edge that doesn't exist. On the rerun, neither one is a pick. They're still in `picks.json` and will grade, so treat them as noise in the record.
+**Market against:** Montana St. +13 at High Point, Tulane +2 at Louisiana Tech, Stetson +36 at Louisville, Sacramento St. +17.5 at Stanford, Tarleton St. +28 at USC, Oregon −1.5 vs Oregon St.
 
-**Flat, logged last night:** Youngstown St., Cornell, South Dakota, Bethune-Cookman, Elon, Detroit Mercy, Louisiana. They're in the record; no action today.
+- **Tulane:** the line has flipped 4 points, from Tulane −2 to Louisiana Tech −2. I didn't find the reason. Clear pass.
+- **Sacramento St., Tarleton St. and Oregon** were logged last night as agrees picks (at +16, +26.75 and −2.75). The market has since moved away from all three. Hardwood disagrees on Oregon (OREG −4.0 vs Torvik −8.4).
 
 ---
 
 ## Notes
 
-- **Neutral-site fix.** Day 2 of the Players Era 8 is at Michelob ULTRA Arena in Las Vegas ([ESPN PR](https://espnpressroom.com/press-release/players-era-mgm-resorts-international-and-espn-announce-brackets-and-tournament-arena-locations-for-2026-players-era-mens-championships/), [ESPN](https://www.espn.com/mens-college-basketball/story/_/id/50505898/players-era-8-matchups-analysis)). Hawaii vs Washington St. is in Everett, WA, which WSU calls a neutral-site game ([WSU](https://wsucougars.com/news/2026/10/22/wsu-mens-basketball-to-play-neutral-site-game-in-everett-in-november)). I added all five to `neutral.json` under Nov 18, and the rerun has re-projected them. None of the five has a pick now. Kansas–WVU and UNLV–Auburn have essentially no edge. Houston–Florida and Rutgers–Notre Dame are under the 3-point threshold. Florida's Boogie Fland (shoulder) is uncertain. Hawaii–WSU's edge is about 0.6, and Hawaii is missing about a third of its roster ([Star-Advertiser](https://www.staradvertiser.com/2026/11/18/sports/bows-hit-the-road-so-does-their-foe-washington-state/)).
-- **Bad line listing.** The data has an "LSU at Texas Tech" game from one book (BetOnline, −35.5) at the same tip as New Orleans at Texas Tech. LSU plays Louisiana-Monroe tonight, so this is almost certainly a mislabeled New Orleans line. It got logged as "LSU +35.5 (against)". **Suggest deleting that entry from `data/picks.json`** so it doesn't pollute the record. I didn't touch it.
-- **Unmatched name.** The Odds API sends "N Colorado Bears", so Northern Colorado at BYU has no projection. Suggested alias for `ALIASES` in `generate_cbb.py`: `'n colorado bears': 'Northern Colorado'` (and `'n colorado': 'Northern Colorado'`). Last night's suggestion for Mt. St. Mary's still stands if it hasn't been added.
-- **Ratings refreshed today** from Zach's upload. They barely moved this morning's projections, which shows how much the priors still dominate.
-- **Totals (tracking only).** The largest gaps are CS Fullerton–UCLA (market 166 vs model 157.2), Hawaii–WSU (138.5 vs 147.0) and Weber St.–Utah St. (172 vs 163.9). None has a tempo flag, but each has an explanation. UCLA and USU have been scoring 100+, which the priors haven't caught up to. Hawaii is missing about a third of its roster. I'm not treating any of them as signals. Siena (79) and Boston College (62) carry tempo-outlier flags.
+- **Neutral-site fix.** Added six games to `neutral.json` under Nov 19: day 3 of the Players Era 8 at Michelob ULTRA Arena in Las Vegas, Nov 17-19 ([ESPN PR](https://espnpressroom.com/us/press-releases/2026/05/players-era-mgm-resorts-international-and-espn-announce-brackets-and-tournament-arena-locations-for-2026-players-era-mens-championships/)): Florida–WVU, Auburn–Notre Dame, Houston–Kansas, UNLV–Rutgers. Also the first round of the Baha Mar Championship in Nassau: Wisconsin–Seton Hall, NC State–Murray St. The model will re-project them on the next data run (6:30 PM ET). The picks already logged will stay in the record.
+- **Players Era next time.** Two days in a row, the Players Era games came in unmarked. For multi-day events, adding all the dates to `neutral.json` up front would prevent this.
+- **Bad line listing still in `picks.json`.** "LSU +35.5 at Texas Tech" (Nov 18) is a mislabeled New Orleans line and has no result. I still suggest deleting it. I didn't touch it.
+- **Totals (tracking only).** Oregon St.–Oregon is the outlier: market 159.5 vs model 170.8 (+11.3), with no tempo flag. I don't have an explanation, and it's a rivalry game where early-season priors may be stale. Not a signal. UTEP–New Mexico St. (131 vs 138.9) is next.

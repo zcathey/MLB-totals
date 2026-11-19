@@ -9,3 +9,4 @@ The one play the daily write-up rates highest. Paper trades until about mid-Dece
 | 2026-11-12 | Montana St. at BYU | +23 | 71-86 | BYU −21.5 | W |
 | 2026-11-17 | Montana St. at Gonzaga | +22.5 (Pinnacle −105) | 62-74 | GONZ −22.5 | W |
 | 2026-11-18 | Portland at Colorado | +14.5 (BetRivers −108) | 77-74 | CU −14.5 | W |
+| 2026-11-19 | Wisconsin at Seton Hall | +5.5 (ESPN BET −110) |  |  | pending |
