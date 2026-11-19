@@ -1738,5 +1738,15 @@
   "total": 147.5,
   "torvik": -9.1,
   "hardwood_live": -3.7
+ },
+ "57ce51731aa0e3325c489d30a2b2e7ed": {
+  "date": "2026-11-19",
+  "away": "Auburn",
+  "home": "Notre Dame",
+  "neutral": true,
+  "close": 3.5,
+  "total": 151.5,
+  "torvik": 2.8,
+  "hardwood_live": -2.4
  }
 }
