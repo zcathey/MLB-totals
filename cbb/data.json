@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-19T16:44:37.693806+00:00",
- "mode": "picks",
+ "generated_at": "2026-11-19T21:06:12.535570+00:00",
+ "mode": "open",
  "ratings": {
   "status": "fresh",
-  "updated": "2026-11-19T13:39:00+00:00",
+  "updated": "2026-11-19T21:06:12.690583+00:00",
   "teams": 365,
   "avg_eff": 106.86,
   "avg_tempo": 69.58
  },
  "lines": {
   "status": "ok",
-  "events": 29,
-  "credits_remaining": "288"
+  "events": 64,
+  "credits_remaining": "284"
  },
  "settings": {
   "hfa": 3.0,
@@ -21,56 +21,52 @@
  "games": [
   {
    "event_id": "5246df4438e82883d2aa2437d1f9857c",
-   "tip": "2026-11-19T19:30:00Z",
-   "away": "Florida",
-   "home": "West Virginia",
-   "away_raw": "Florida Gators",
-   "home_raw": "West Virginia Mountaineers",
-   "started": false,
+   "tip": "2026-11-19T19:32:00Z",
+   "away": "West Virginia",
+   "home": "Florida",
+   "away_raw": "West Virginia Mountaineers",
+   "home_raw": "Florida Gators",
+   "started": true,
    "neutral": false,
-   "books": 8,
-   "mkt_spread": 8.0,
-   "mkt_total": 147.5,
+   "books": 7,
+   "mkt_spread": -6.5,
+   "mkt_total": 160.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 8.5,
-    "px": -110,
+    "pt": -4.5,
+    "px": -105,
     "book": "Bovada"
    },
    "best_away": {
-    "pt": -7.5,
+    "pt": 11.5,
     "px": -110,
-    "book": "ESPN BET"
+    "book": "BetMGM"
    },
    "open_spread": 9.5,
    "open_total": 149.5,
    "model": {
     "poss": 67.3,
-    "away_pts": 74.3,
-    "home_pts": 71.2,
-    "home_spread": 3.1,
+    "away_pts": 68.2,
+    "home_pts": 77.3,
+    "home_spread": -9.1,
     "total": 145.5
    },
-   "away_rank": 5,
-   "home_rank": 36,
+   "away_rank": 36,
+   "home_rank": 5,
    "hardwood": {
     "poss": 66.6,
-    "away_pts": 72.4,
-    "home_pts": 74.5,
-    "home_spread": -2.1,
+    "away_pts": 71.6,
+    "home_pts": 75.3,
+    "home_spread": -3.7,
     "total": 146.9
    },
-   "hw_away_rank": 20,
-   "hw_home_rank": 23,
-   "hw_edge": -10.1,
+   "hw_away_rank": 23,
+   "hw_home_rank": 20,
+   "hw_edge": 2.8,
    "flags": [],
-   "edge": -4.9,
-   "move": -1.5,
-   "total_edge": -2.0,
-   "pick": "West Virginia +8",
-   "pick_side": "home",
-   "market": "agrees",
-   "both_models": true
+   "edge": -2.6,
+   "move": -16.0,
+   "total_edge": -15.0
   },
   {
    "event_id": "57ce51731aa0e3325c489d30a2b2e7ed",
@@ -80,50 +76,46 @@
    "away_raw": "Auburn Tigers",
    "home_raw": "Notre Dame Fighting Irish",
    "started": false,
-   "neutral": false,
+   "neutral": true,
    "books": 8,
    "mkt_spread": 3.5,
-   "mkt_total": 152.5,
+   "mkt_total": 151.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 3.5,
-    "px": -110,
-    "book": "DraftKings"
-   },
-   "best_away": {
-    "pt": -3.5,
     "px": -102,
     "book": "Pinnacle"
+   },
+   "best_away": {
+    "pt": -3.0,
+    "px": -118,
+    "book": "BetOnline"
    },
    "open_spread": 3.5,
    "open_total": 152.5,
    "model": {
     "poss": 69.2,
-    "away_pts": 76.7,
-    "home_pts": 76.8,
-    "home_spread": -0.2,
+    "away_pts": 78.2,
+    "home_pts": 75.3,
+    "home_spread": 2.8,
     "total": 153.5
    },
    "away_rank": 39,
    "home_rank": 67,
    "hardwood": {
     "poss": 72.1,
-    "away_pts": 77.1,
-    "home_pts": 82.2,
-    "home_spread": -5.1,
+    "away_pts": 78.6,
+    "home_pts": 80.6,
+    "home_spread": -1.9,
     "total": 159.2
    },
    "hw_away_rank": 58,
    "hw_home_rank": 41,
-   "hw_edge": -8.6,
+   "hw_edge": -5.4,
    "flags": [],
-   "edge": -3.7,
+   "edge": -0.7,
    "move": 0.0,
-   "total_edge": 1.0,
-   "pick": "Notre Dame +3.5",
-   "pick_side": "home",
-   "market": "flat",
-   "both_models": true
+   "total_edge": 2.0
   },
   {
    "event_id": "58f585d704a7d4680f9dd7e877eddaaf",
@@ -133,46 +125,50 @@
    "away_raw": "NC State Wolfpack",
    "home_raw": "Murray St Racers",
    "started": false,
-   "neutral": false,
+   "neutral": true,
    "books": 8,
    "mkt_spread": 3.5,
    "mkt_total": 165.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 3.5,
-    "px": -114,
-    "book": "FanDuel"
+    "px": -110,
+    "book": "BetOnline"
    },
    "best_away": {
     "pt": -2.5,
-    "px": -118,
-    "book": "DraftKings"
+    "px": -120,
+    "book": "BetRivers"
    },
    "open_spread": 3.75,
    "open_total": 160.25,
    "model": {
     "poss": 73.8,
-    "away_pts": 84.9,
-    "home_pts": 80.3,
-    "home_spread": 4.6,
+    "away_pts": 86.4,
+    "home_pts": 78.8,
+    "home_spread": 7.6,
     "total": 165.2
    },
    "away_rank": 32,
    "home_rank": 91,
    "hardwood": {
     "poss": 73.3,
-    "away_pts": 75.8,
-    "home_pts": 77.3,
-    "home_spread": -1.5,
+    "away_pts": 77.4,
+    "home_pts": 75.7,
+    "home_spread": 1.7,
     "total": 153.1
    },
    "hw_away_rank": 44,
    "hw_home_rank": 60,
-   "hw_edge": -5.0,
+   "hw_edge": -1.8,
    "flags": [],
-   "edge": 1.1,
+   "edge": 4.1,
    "move": -0.2,
-   "total_edge": 0.2
+   "total_edge": 0.2,
+   "pick": "N.C. State -3.5",
+   "pick_side": "away",
+   "market": "against",
+   "both_models": false
   },
   {
    "event_id": "daeb1516248941803c043ccbd01dd18c",
@@ -234,12 +230,12 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -13.0,
-   "mkt_total": 145.0,
+   "mkt_total": 144.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -12.5,
     "px": -115,
-    "book": "BetOnline"
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 13.5,
@@ -270,7 +266,7 @@
    "flags": [],
    "edge": 3.7,
    "move": -0.5,
-   "total_edge": -1.6,
+   "total_edge": -0.6,
    "pick": "Montana St. +13",
    "pick_side": "away",
    "market": "against",
@@ -286,7 +282,7 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -2.5,
+   "mkt_spread": -2.0,
    "mkt_total": 144.5,
    "spread_src": "Pinnacle",
    "best_home": {
@@ -296,8 +292,8 @@
    },
    "best_away": {
     "pt": 2.5,
-    "px": -108,
-    "book": "Pinnacle"
+    "px": -115,
+    "book": "BetMGM"
    },
    "open_spread": -2.5,
    "open_total": 144.5,
@@ -319,11 +315,15 @@
    },
    "hw_away_rank": 277,
    "hw_home_rank": 291,
-   "hw_edge": 0.6,
+   "hw_edge": 0.1,
    "flags": [],
-   "edge": -2.9,
-   "move": 0.0,
-   "total_edge": 6.4
+   "edge": -3.4,
+   "move": 0.5,
+   "total_edge": 6.4,
+   "pick": "Jacksonville -2",
+   "pick_side": "home",
+   "market": "against",
+   "both_models": false
   },
   {
    "event_id": "d6ff4d964a24be574d7438aa33061cd7",
@@ -340,13 +340,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -29.5,
-    "px": -105,
-    "book": "BetOnline"
+    "px": 100,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 29.5,
-    "px": -108,
-    "book": "DraftKings"
+    "px": -106,
+    "book": "Pinnacle"
    },
    "open_spread": -32.5,
    "open_total": 159.0,
@@ -388,18 +388,18 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -10.5,
+   "mkt_spread": -9.0,
    "mkt_total": 134.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -9.5,
-    "px": -115,
+    "pt": -8.5,
+    "px": -104,
     "book": "BetOnline"
    },
    "best_away": {
-    "pt": 10.5,
-    "px": -112,
-    "book": "FanDuel"
+    "pt": 9.5,
+    "px": -121,
+    "book": "BetRivers"
    },
    "open_spread": -10.5,
    "open_total": 137.0,
@@ -421,10 +421,10 @@
    },
    "hw_away_rank": 264,
    "hw_home_rank": 253,
-   "hw_edge": 6.8,
+   "hw_edge": 5.3,
    "flags": [],
-   "edge": 2.2,
-   "move": 0.0,
+   "edge": 0.7,
+   "move": 1.5,
    "total_edge": 5.2
   },
   {
@@ -486,18 +486,18 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -6.5,
-   "mkt_total": 144.0,
+   "mkt_spread": -7.5,
+   "mkt_total": 145.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -6.5,
-    "px": -112,
-    "book": "DraftKings"
+    "px": -115,
+    "book": "FanDuel"
    },
    "best_away": {
-    "pt": 7.0,
-    "px": -110,
-    "book": "Bovada"
+    "pt": 7.5,
+    "px": -108,
+    "book": "BetRivers"
    },
    "open_spread": -7.5,
    "open_total": 143.5,
@@ -519,11 +519,11 @@
    },
    "hw_away_rank": 356,
    "hw_home_rank": 170,
-   "hw_edge": -10.7,
+   "hw_edge": -9.7,
    "flags": [],
-   "edge": 1.1,
-   "move": 1.0,
-   "total_edge": 0.3
+   "edge": 2.1,
+   "move": 0.0,
+   "total_edge": -0.7
   },
   {
    "event_id": "9fd39939b846d3cbd50dc78087ec35f1",
@@ -535,7 +535,7 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -1.0,
+   "mkt_spread": -2.0,
    "mkt_total": 159.0,
    "spread_src": "Pinnacle",
    "best_home": {
@@ -544,9 +544,9 @@
     "book": "BetRivers"
    },
    "best_away": {
-    "pt": 1.5,
-    "px": -110,
-    "book": "DraftKings"
+    "pt": 2.0,
+    "px": -115,
+    "book": "Pinnacle"
    },
    "open_spread": 1.0,
    "open_total": 159.0,
@@ -568,10 +568,10 @@
    },
    "hw_away_rank": 85,
    "hw_home_rank": 249,
-   "hw_edge": 8.6,
+   "hw_edge": 9.6,
    "flags": [],
-   "edge": 0.0,
-   "move": -2.0,
+   "edge": 1.0,
+   "move": -3.0,
    "total_edge": -1.2
   },
   {
@@ -594,8 +594,8 @@
    },
    "best_away": {
     "pt": 2.5,
-    "px": -110,
-    "book": "ESPN BET"
+    "px": -115,
+    "book": "DraftKings"
    },
    "open_spread": 2.0,
    "open_total": 144.5,
@@ -641,14 +641,14 @@
    "mkt_total": 153.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -2.5,
-    "px": -120,
+    "pt": -3.5,
+    "px": -102,
     "book": "FanDuel"
    },
    "best_away": {
     "pt": 3.5,
-    "px": -105,
-    "book": "BetOnline"
+    "px": -109,
+    "book": "Pinnacle"
    },
    "open_spread": -3.5,
    "open_total": 148.5,
@@ -691,13 +691,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -35.5,
-    "px": -118,
-    "book": "FanDuel"
+    "px": -120,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 36.5,
-    "px": -110,
-    "book": "BetOnline"
+    "px": -109,
+    "book": "BetRivers"
    },
    "open_spread": -35.5,
    "open_total": 153.5,
@@ -749,8 +749,8 @@
    },
    "best_away": {
     "pt": 7.5,
-    "px": -115,
-    "book": "DraftKings"
+    "px": -118,
+    "book": "FanDuel"
    },
    "open_spread": -7.0,
    "open_total": 154.0,
@@ -789,7 +789,7 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -1.0,
-   "mkt_total": 163.5,
+   "mkt_total": 162.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 1.5,
@@ -825,7 +825,7 @@
    "flags": [],
    "edge": 2.6,
    "move": -1.8,
-   "total_edge": -3.1
+   "total_edge": -1.6
   },
   {
    "event_id": "a25d06bbc2209ccc30f89edcbb8efb8e",
@@ -837,18 +837,18 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -36.5,
+   "mkt_spread": -35.5,
    "mkt_total": 155.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -35.5,
-    "px": -120,
-    "book": "ESPN BET"
+    "px": -110,
+    "book": "FanDuel"
    },
    "best_away": {
-    "pt": 37.5,
+    "pt": 36.5,
     "px": -115,
-    "book": "BetMGM"
+    "book": "BetRivers"
    },
    "open_spread": -38.5,
    "open_total": 157.5,
@@ -870,15 +870,15 @@
    },
    "hw_away_rank": 343,
    "hw_home_rank": 7,
-   "hw_edge": 3.6,
+   "hw_edge": 2.6,
    "flags": [],
-   "edge": 11.4,
-   "move": 2.0,
+   "edge": 10.4,
+   "move": 3.0,
    "total_edge": 2.3,
-   "pick": "Southern Utah +36.5",
+   "pick": "Southern Utah +35.5",
    "pick_side": "away",
    "market": "agrees",
-   "both_models": true
+   "both_models": false
   },
   {
    "event_id": "769a46ab3c2f46e9ca8771af3d857cea",
@@ -888,10 +888,10 @@
    "away_raw": "UNLV Rebels",
    "home_raw": "Rutgers Scarlet Knights",
    "started": false,
-   "neutral": false,
+   "neutral": true,
    "books": 8,
    "mkt_spread": -2.5,
-   "mkt_total": 156.5,
+   "mkt_total": 157.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -2.5,
@@ -900,38 +900,34 @@
    },
    "best_away": {
     "pt": 2.5,
-    "px": -102,
-    "book": "FanDuel"
+    "px": 100,
+    "book": "BetOnline"
    },
    "open_spread": -2.5,
    "open_total": 156.5,
    "model": {
     "poss": 72.7,
-    "away_pts": 77.9,
-    "home_pts": 84.5,
-    "home_spread": -6.5,
+    "away_pts": 79.4,
+    "home_pts": 83.0,
+    "home_spread": -3.5,
     "total": 162.4
    },
    "away_rank": 110,
    "home_rank": 79,
    "hardwood": {
     "poss": 73.1,
-    "away_pts": 78.9,
-    "home_pts": 89.4,
-    "home_spread": -10.5,
+    "away_pts": 80.5,
+    "home_pts": 87.8,
+    "home_spread": -7.3,
     "total": 168.3
    },
    "hw_away_rank": 152,
    "hw_home_rank": 73,
-   "hw_edge": -8.0,
+   "hw_edge": -4.8,
    "flags": [],
-   "edge": -4.0,
+   "edge": -1.0,
    "move": 0.0,
-   "total_edge": 5.9,
-   "pick": "Rutgers -2.5",
-   "pick_side": "home",
-   "market": "flat",
-   "both_models": true
+   "total_edge": 4.9
   },
   {
    "event_id": "7f7fd17bc583d3d43cdde63affb31764",
@@ -941,44 +937,44 @@
    "away_raw": "Wisconsin Badgers",
    "home_raw": "Seton Hall Pirates",
    "started": false,
-   "neutral": false,
+   "neutral": true,
    "books": 8,
    "mkt_spread": 5.0,
    "mkt_total": 139.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 5.5,
-    "px": -110,
+    "px": -105,
     "book": "ESPN BET"
    },
    "best_away": {
     "pt": -4.5,
-    "px": -114,
+    "px": -113,
     "book": "BetRivers"
    },
    "open_spread": 5.5,
    "open_total": 139.5,
    "model": {
     "poss": 68.4,
-    "away_pts": 70.1,
-    "home_pts": 71.2,
-    "home_spread": -1.1,
+    "away_pts": 71.6,
+    "home_pts": 69.7,
+    "home_spread": 1.9,
     "total": 141.4
    },
    "away_rank": 57,
    "home_rank": 74,
    "hardwood": {
     "poss": 70.4,
-    "away_pts": 69.2,
-    "home_pts": 70.7,
-    "home_spread": -1.5,
+    "away_pts": 70.7,
+    "home_pts": 69.2,
+    "home_spread": 1.5,
     "total": 139.9
    },
    "hw_away_rank": 94,
    "hw_home_rank": 103,
-   "hw_edge": -6.5,
+   "hw_edge": -3.5,
    "flags": [],
-   "edge": -6.1,
+   "edge": -3.1,
    "move": -0.5,
    "total_edge": 1.9,
    "pick": "Seton Hall +5",
@@ -1046,12 +1042,12 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": -1.5,
-   "mkt_total": 131.0,
+   "mkt_total": 133.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -1.0,
-    "px": -115,
-    "book": "Bovada"
+    "pt": -1.5,
+    "px": -105,
+    "book": "DraftKings"
    },
    "best_away": {
     "pt": 1.5,
@@ -1082,7 +1078,7 @@
    "flags": [],
    "edge": -1.0,
    "move": 0.5,
-   "total_edge": 7.9
+   "total_edge": 5.9
   },
   {
    "event_id": "112a3e561a6b673b4ca74bb0e0605c2c",
@@ -1099,8 +1095,8 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -1.5,
-    "px": -107,
-    "book": "Pinnacle"
+    "px": -108,
+    "book": "DraftKings"
    },
    "best_away": {
     "pt": 1.5,
@@ -1148,17 +1144,17 @@
    "neutral": false,
    "books": 8,
    "mkt_spread": 2.0,
-   "mkt_total": 150.5,
+   "mkt_total": 149.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 2.5,
-    "px": -113,
-    "book": "BetRivers"
+    "px": -120,
+    "book": "BetOnline"
    },
    "best_away": {
     "pt": -1.5,
-    "px": -115,
-    "book": "BetMGM"
+    "px": -109,
+    "book": "BetRivers"
    },
    "open_spread": 4.0,
    "open_total": 150.0,
@@ -1184,7 +1180,7 @@
    "flags": [],
    "edge": 2.0,
    "move": -2.0,
-   "total_edge": 1.8
+   "total_edge": 3.3
   },
   {
    "event_id": "028a30dac6c59487da6c8a7d657875e0",
@@ -1200,9 +1196,9 @@
    "mkt_total": 155.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -17.0,
-    "px": -108,
-    "book": "Pinnacle"
+    "pt": -16.5,
+    "px": -111,
+    "book": "BetOnline"
    },
    "best_away": {
     "pt": 17.5,
@@ -1245,18 +1241,18 @@
    "started": false,
    "neutral": false,
    "books": 8,
-   "mkt_spread": -13.5,
+   "mkt_spread": -14.0,
    "mkt_total": 145.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -13.5,
-    "px": -105,
-    "book": "ESPN BET"
+    "px": -109,
+    "book": "BetRivers"
    },
    "best_away": {
-    "pt": 13.5,
-    "px": -102,
-    "book": "BetOnline"
+    "pt": 14.5,
+    "px": -115,
+    "book": "DraftKings"
    },
    "open_spread": -13.25,
    "open_total": 145.5,
@@ -1278,11 +1274,15 @@
    },
    "hw_away_rank": 240,
    "hw_home_rank": 158,
-   "hw_edge": 7.0,
+   "hw_edge": 7.5,
    "flags": [],
-   "edge": 2.6,
-   "move": -0.2,
-   "total_edge": -2.4
+   "edge": 3.1,
+   "move": -0.8,
+   "total_edge": -2.4,
+   "pick": "East Texas A&M +14",
+   "pick_side": "away",
+   "market": "against",
+   "both_models": true
   },
   {
    "event_id": "df2f770cd36480fbf467976988b1bd8b",
@@ -1298,14 +1298,14 @@
    "mkt_total": 154.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -17.0,
+    "pt": -16.5,
     "px": -115,
-    "book": "Bovada"
+    "book": "DraftKings"
    },
    "best_away": {
     "pt": 17.5,
-    "px": -112,
-    "book": "DraftKings"
+    "px": -114,
+    "book": "Pinnacle"
    },
    "open_spread": -16.5,
    "open_total": 150.0,
@@ -1351,14 +1351,14 @@
    "mkt_total": 163.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -2.0,
-    "px": -109,
-    "book": "Pinnacle"
+    "pt": -1.5,
+    "px": -104,
+    "book": "BetRivers"
    },
    "best_away": {
     "pt": 2.5,
-    "px": -112,
-    "book": "DraftKings"
+    "px": -115,
+    "book": "BetMGM"
    },
    "open_spread": -1.5,
    "open_total": 163.5,
@@ -1394,49 +1394,49 @@
    "away_raw": "Houston Cougars",
    "home_raw": "Kansas Jayhawks",
    "started": false,
-   "neutral": false,
+   "neutral": true,
    "books": 8,
-   "mkt_spread": 2.5,
+   "mkt_spread": 3.5,
    "mkt_total": 150.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 2.5,
-    "px": -105,
-    "book": "DraftKings"
+    "pt": 4.5,
+    "px": -115,
+    "book": "ESPN BET"
    },
    "best_away": {
-    "pt": -1.5,
-    "px": -115,
+    "pt": -3.5,
+    "px": -105,
     "book": "BetRivers"
    },
    "open_spread": 2.5,
    "open_total": 150.5,
    "model": {
     "poss": 70.1,
-    "away_pts": 73.0,
-    "home_pts": 76.2,
-    "home_spread": -3.2,
+    "away_pts": 74.5,
+    "home_pts": 74.7,
+    "home_spread": -0.2,
     "total": 149.2
    },
    "away_rank": 2,
    "home_rank": 1,
    "hardwood": {
     "poss": 73.6,
-    "away_pts": 76.8,
-    "home_pts": 80.5,
-    "home_spread": -3.7,
+    "away_pts": 78.4,
+    "home_pts": 78.9,
+    "home_spread": -0.5,
     "total": 157.2
    },
    "hw_away_rank": 5,
    "hw_home_rank": 3,
-   "hw_edge": -6.2,
+   "hw_edge": -4.0,
    "flags": [],
-   "edge": -5.7,
-   "move": 0.0,
+   "edge": -3.7,
+   "move": 1.0,
    "total_edge": -1.3,
-   "pick": "Kansas +2.5",
+   "pick": "Kansas +3.5",
    "pick_side": "home",
-   "market": "flat",
+   "market": "against",
    "both_models": true
   },
   {
@@ -1460,7 +1460,7 @@
    "best_away": {
     "pt": 28.5,
     "px": -110,
-    "book": "ESPN BET"
+    "book": "BetMGM"
    },
    "open_spread": -27.0,
    "open_total": 157.5,
@@ -1491,12 +1491,1769 @@
    "pick_side": "away",
    "market": "against",
    "both_models": true
+  },
+  {
+   "event_id": "d6615873be75fcb42a72a8f14c93dd53",
+   "tip": "2026-11-20T17:00:00Z",
+   "away": "Green Bay",
+   "home": "Florida St.",
+   "away_raw": "Green Bay Phoenix",
+   "home_raw": "Florida St Seminoles",
+   "started": false,
+   "neutral": false,
+   "books": 2,
+   "mkt_spread": -23.25,
+   "mkt_total": 153.75,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -23.0,
+    "px": -108,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 23.5,
+    "px": -110,
+    "book": "FanDuel"
+   },
+   "open_spread": -23.25,
+   "open_total": 153.75,
+   "model": {
+    "poss": 70.7,
+    "away_pts": 70.0,
+    "home_pts": 86.6,
+    "home_spread": -16.6,
+    "total": 156.6
+   },
+   "away_rank": 201,
+   "home_rank": 55,
+   "hardwood": {
+    "poss": 70.9,
+    "away_pts": 71.4,
+    "home_pts": 87.2,
+    "home_spread": -15.8,
+    "total": 158.7
+   },
+   "hw_away_rank": 244,
+   "hw_home_rank": 61,
+   "hw_edge": 7.4,
+   "flags": [],
+   "edge": 6.6,
+   "move": 0.0,
+   "total_edge": 2.8,
+   "pick": "Green Bay +23.25",
+   "pick_side": "away",
+   "market": "flat",
+   "both_models": true
+  },
+  {
+   "event_id": "79e05f83b74f5df0385955f0d3f3cdcb",
+   "tip": "2026-11-20T17:30:00Z",
+   "away": "Temple",
+   "home": "Middle Tennessee",
+   "away_raw": "Temple Owls",
+   "home_raw": "Middle Tennessee Blue Raiders",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": 3.0,
+   "mkt_total": 146.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 3.0,
+    "px": 105,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": -3.0,
+    "px": -125,
+    "book": "BetOnline"
+   },
+   "open_spread": 3.0,
+   "open_total": 146.0,
+   "model": {
+    "poss": 67.6,
+    "away_pts": 72.0,
+    "home_pts": 73.9,
+    "home_spread": -1.9,
+    "total": 145.9
+   },
+   "away_rank": 138,
+   "home_rank": 156,
+   "hardwood": {
+    "poss": 68.0,
+    "away_pts": 69.7,
+    "home_pts": 73.8,
+    "home_spread": -4.1,
+    "total": 143.5
+   },
+   "hw_away_rank": 215,
+   "hw_home_rank": 183,
+   "hw_edge": -7.1,
+   "flags": [],
+   "edge": -4.9,
+   "move": 0.0,
+   "total_edge": -0.1,
+   "pick": "Middle Tennessee +3",
+   "pick_side": "home",
+   "market": "flat",
+   "both_models": true
+  },
+  {
+   "event_id": "2c61b23dd09630b92c98ca00c4e8dad1",
+   "tip": "2026-11-20T17:30:00Z",
+   "away": "Oklahoma St.",
+   "home": "Minnesota",
+   "away_raw": "Oklahoma St Cowboys",
+   "home_raw": "Minnesota Golden Gophers",
+   "started": false,
+   "neutral": false,
+   "books": 2,
+   "mkt_spread": -0.25,
+   "mkt_total": 146.25,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 1.0,
+    "px": -107,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 1.5,
+    "px": -118,
+    "book": "FanDuel"
+   },
+   "open_spread": -0.25,
+   "open_total": 146.25,
+   "model": {
+    "poss": 68.9,
+    "away_pts": 73.2,
+    "home_pts": 74.6,
+    "home_spread": -1.3,
+    "total": 147.8
+   },
+   "away_rank": 47,
+   "home_rank": 66,
+   "hardwood": {
+    "poss": 69.7,
+    "away_pts": 72.8,
+    "home_pts": 76.0,
+    "home_spread": -3.2,
+    "total": 148.8
+   },
+   "hw_away_rank": 28,
+   "hw_home_rank": 26,
+   "hw_edge": -3.0,
+   "flags": [],
+   "edge": -1.1,
+   "move": 0.0,
+   "total_edge": 1.6
+  },
+  {
+   "event_id": "d6250787bbbfa6483fa5032b6f00a3ac",
+   "tip": "2026-11-20T19:00:00Z",
+   "away": "UAB",
+   "home": "George Washington",
+   "away_raw": "UAB Blazers",
+   "home_raw": "GW Revolutionaries",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -10.5,
+   "mkt_total": 151.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -10.5,
+    "px": -118,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 10.5,
+    "px": -102,
+    "book": "BetOnline"
+   },
+   "open_spread": -10.5,
+   "open_total": 151.0,
+   "model": {
+    "poss": 70.9,
+    "away_pts": 69.3,
+    "home_pts": 80.5,
+    "home_spread": -11.2,
+    "total": 149.8
+   },
+   "away_rank": 131,
+   "home_rank": 64,
+   "hardwood": {
+    "poss": 69.9,
+    "away_pts": 63.7,
+    "home_pts": 83.6,
+    "home_spread": -19.9,
+    "total": 147.3
+   },
+   "hw_away_rank": 194,
+   "hw_home_rank": 16,
+   "hw_edge": -9.4,
+   "flags": [],
+   "edge": -0.7,
+   "move": 0.0,
+   "total_edge": -1.2
+  },
+  {
+   "event_id": "c42a6f010c505da91cae91ba184692fa",
+   "tip": "2026-11-20T20:00:00Z",
+   "away": "Indiana St.",
+   "home": "Stephen F. Austin",
+   "away_raw": "Indiana St Sycamores",
+   "home_raw": "Stephen F. Austin Lumberjacks",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -3.0,
+   "mkt_total": 144.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -3.0,
+    "px": -105,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 3.0,
+    "px": -115,
+    "book": "BetOnline"
+   },
+   "open_spread": -3.0,
+   "open_total": 144.5,
+   "model": {
+    "poss": 68.5,
+    "away_pts": 67.9,
+    "home_pts": 77.2,
+    "home_spread": -9.3,
+    "total": 145.1
+   },
+   "away_rank": 251,
+   "home_rank": 137,
+   "hardwood": {
+    "poss": 70.1,
+    "away_pts": 72.3,
+    "home_pts": 78.5,
+    "home_spread": -6.2,
+    "total": 150.8
+   },
+   "hw_away_rank": 262,
+   "hw_home_rank": 204,
+   "hw_edge": -3.2,
+   "flags": [],
+   "edge": -6.3,
+   "move": 0.0,
+   "total_edge": 0.6,
+   "pick": "Stephen F. Austin -3",
+   "pick_side": "home",
+   "market": "flat",
+   "both_models": true
+  },
+  {
+   "event_id": "8f88d57c43c67df9c1beb816e0c11d5c",
+   "tip": "2026-11-20T20:00:00Z",
+   "away": "Northwestern",
+   "home": "Virginia Tech",
+   "away_raw": "Northwestern Wildcats",
+   "home_raw": "Virginia Tech Hokies",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -11.5,
+   "mkt_total": 143.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -11.5,
+    "px": -118,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 11.5,
+    "px": -102,
+    "book": "BetOnline"
+   },
+   "open_spread": -11.5,
+   "open_total": 143.5,
+   "model": {
+    "poss": 66.3,
+    "away_pts": 66.6,
+    "home_pts": 76.2,
+    "home_spread": -9.6,
+    "total": 142.8
+   },
+   "away_rank": 94,
+   "home_rank": 37,
+   "hardwood": {
+    "poss": 68.7,
+    "away_pts": 66.0,
+    "home_pts": 79.6,
+    "home_spread": -13.6,
+    "total": 145.7
+   },
+   "hw_away_rank": 150,
+   "hw_home_rank": 39,
+   "hw_edge": -2.1,
+   "flags": [],
+   "edge": 1.9,
+   "move": 0.0,
+   "total_edge": -0.7
+  },
+  {
+   "event_id": "58fd00286fe702703270602ff058da8b",
+   "tip": "2026-11-20T21:00:00Z",
+   "away": "South Dakota St.",
+   "home": "Idaho St.",
+   "away_raw": "South Dakota St Jackrabbits",
+   "home_raw": "Idaho State Bengals",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": 6.0,
+   "mkt_total": 146.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 6.0,
+    "px": -115,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": -6.0,
+    "px": -105,
+    "book": "BetOnline"
+   },
+   "open_spread": 6.0,
+   "open_total": 146.0,
+   "model": {
+    "poss": 66.8,
+    "away_pts": 72.4,
+    "home_pts": 68.0,
+    "home_spread": 4.4,
+    "total": 140.4
+   },
+   "away_rank": 193,
+   "home_rank": 323,
+   "hardwood": {
+    "poss": 67.4,
+    "away_pts": 76.6,
+    "home_pts": 63.2,
+    "home_spread": 13.4,
+    "total": 139.8
+   },
+   "hw_away_rank": 65,
+   "hw_home_rank": 312,
+   "hw_edge": 7.4,
+   "flags": [],
+   "edge": -1.6,
+   "move": 0.0,
+   "total_edge": -5.6
+  },
+  {
+   "event_id": "9d327abf7311461d1cfaeb835057b5db",
+   "tip": "2026-11-20T21:30:00Z",
+   "away": "Rhode Island",
+   "home": "Liberty",
+   "away_raw": "Rhode Island Rams",
+   "home_raw": "Liberty Flames",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": 3.0,
+   "mkt_total": 142.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 3.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": -3.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": 3.0,
+   "open_total": 142.5,
+   "model": {
+    "poss": 66.0,
+    "away_pts": 70.4,
+    "home_pts": 72.0,
+    "home_spread": -1.6,
+    "total": 142.5
+   },
+   "away_rank": 127,
+   "home_rank": 145,
+   "hardwood": {
+    "poss": 66.3,
+    "away_pts": 75.7,
+    "home_pts": 73.4,
+    "home_spread": 2.3,
+    "total": 149.1
+   },
+   "hw_away_rank": 70,
+   "hw_home_rank": 121,
+   "hw_edge": -0.7,
+   "flags": [],
+   "edge": -4.6,
+   "move": 0.0,
+   "total_edge": 0.0,
+   "pick": "Liberty +3",
+   "pick_side": "home",
+   "market": "flat",
+   "both_models": false
+  },
+  {
+   "event_id": "86aad9e9d1093833464eac0c88635a2c",
+   "tip": "2026-11-20T22:00:00Z",
+   "away": "Manhattan",
+   "home": "Miami FL",
+   "away_raw": "Manhattan Jaspers",
+   "home_raw": "Miami Hurricanes",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -39.0,
+   "mkt_total": 147.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -39.0,
+    "px": -117,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 39.0,
+    "px": -103,
+    "book": "BetOnline"
+   },
+   "open_spread": -39.0,
+   "open_total": 147.5,
+   "model": {
+    "poss": 70.9,
+    "away_pts": 60.2,
+    "home_pts": 92.3,
+    "home_spread": -32.1,
+    "total": 152.4
+   },
+   "away_rank": 354,
+   "home_rank": 15,
+   "hardwood": {
+    "poss": 71.5,
+    "away_pts": 55.4,
+    "home_pts": 82.8,
+    "home_spread": -27.4,
+    "total": 138.2
+   },
+   "hw_away_rank": 327,
+   "hw_home_rank": 25,
+   "hw_edge": 11.6,
+   "flags": [],
+   "edge": 6.9,
+   "move": 0.0,
+   "total_edge": 4.9,
+   "pick": "Manhattan +39",
+   "pick_side": "away",
+   "market": "flat",
+   "both_models": true
+  },
+  {
+   "event_id": "18bce8d38273bd5b44a6768f1d5aa1d6",
+   "tip": "2026-11-20T22:30:00Z",
+   "away": "Tennessee Martin",
+   "home": "Southern Illinois",
+   "away_raw": "Tenn-Martin Skyhawks",
+   "home_raw": "Southern Illinois Salukis",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -1.5,
+   "mkt_total": 150.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -1.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 1.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -1.5,
+   "open_total": 150.5,
+   "model": {
+    "poss": 69.5,
+    "away_pts": 65.6,
+    "home_pts": 73.0,
+    "home_spread": -7.4,
+    "total": 138.6
+   },
+   "away_rank": 287,
+   "home_rank": 202,
+   "hardwood": {
+    "poss": 74.8,
+    "away_pts": 84.7,
+    "home_pts": 83.5,
+    "home_spread": 1.1,
+    "total": 168.2
+   },
+   "hw_away_rank": 107,
+   "hw_home_rank": 169,
+   "hw_edge": 2.6,
+   "flags": [],
+   "edge": -5.9,
+   "move": 0.0,
+   "total_edge": -11.9,
+   "pick": "Southern Illinois -1.5",
+   "pick_side": "home",
+   "market": "flat",
+   "both_models": false
+  },
+  {
+   "event_id": "e1804fe8283327513088eada01a00c7e",
+   "tip": "2026-11-20T22:30:00Z",
+   "away": "Dayton",
+   "home": "Utah",
+   "away_raw": "Dayton Flyers",
+   "home_raw": "Utah Utes",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -1.0,
+   "mkt_total": 141.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -1.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 1.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -1.0,
+   "open_total": 141.5,
+   "model": {
+    "poss": 67.1,
+    "away_pts": 69.8,
+    "home_pts": 72.1,
+    "home_spread": -2.3,
+    "total": 141.8
+   },
+   "away_rank": 107,
+   "home_rank": 115,
+   "hardwood": {
+    "poss": 69.7,
+    "away_pts": 71.8,
+    "home_pts": 76.8,
+    "home_spread": -5.0,
+    "total": 148.6
+   },
+   "hw_away_rank": 175,
+   "hw_home_rank": 140,
+   "hw_edge": -4.0,
+   "flags": [],
+   "edge": -1.3,
+   "move": 0.0,
+   "total_edge": 0.3
+  },
+  {
+   "event_id": "eaa7e563508f83b89da51b138fda7d0b",
+   "tip": "2026-11-20T23:00:00Z",
+   "away": "Delaware",
+   "home": "Cal St. Northridge",
+   "away_raw": "Delaware Blue Hens",
+   "home_raw": "CSU Northridge Matadors",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -6.0,
+   "mkt_total": 147.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -6.0,
+    "px": -120,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 6.0,
+    "px": 100,
+    "book": "BetOnline"
+   },
+   "open_spread": -6.0,
+   "open_total": 147.5,
+   "model": {
+    "poss": 72.0,
+    "away_pts": 74.1,
+    "home_pts": 78.8,
+    "home_spread": -4.7,
+    "total": 152.9
+   },
+   "away_rank": 250,
+   "home_rank": 222,
+   "hardwood": {
+    "poss": 69.4,
+    "away_pts": 69.8,
+    "home_pts": 72.2,
+    "home_spread": -2.4,
+    "total": 142.1
+   },
+   "hw_away_rank": 212,
+   "hw_home_rank": 224,
+   "hw_edge": 3.6,
+   "flags": [],
+   "edge": 1.3,
+   "move": 0.0,
+   "total_edge": 5.4
+  },
+  {
+   "event_id": "90a6a382f23f5dc02ca9a06d1a019861",
+   "tip": "2026-11-20T23:30:00Z",
+   "away": "North Texas",
+   "home": "Appalachian St.",
+   "away_raw": "North Texas Mean Green",
+   "home_raw": "Appalachian St Mountaineers",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": 1.5,
+   "mkt_total": 128.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 1.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": -1.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": 1.5,
+   "open_total": 128.0,
+   "model": {
+    "poss": 62.4,
+    "away_pts": 64.4,
+    "home_pts": 62.6,
+    "home_spread": 1.8,
+    "total": 127.0
+   },
+   "away_rank": 120,
+   "home_rank": 199,
+   "hardwood": {
+    "poss": 62.4,
+    "away_pts": 62.4,
+    "home_pts": 65.5,
+    "home_spread": -3.1,
+    "total": 127.9
+   },
+   "hw_away_rank": 139,
+   "hw_home_rank": 131,
+   "hw_edge": -4.6,
+   "flags": [],
+   "edge": 0.3,
+   "move": 0.0,
+   "total_edge": -1.0
+  },
+  {
+   "event_id": "3290d93b2078b71d318a773cb4252d89",
+   "tip": "2026-11-21T00:00:00Z",
+   "away": "Saint Joseph's",
+   "home": "Drexel",
+   "away_raw": "Saint Joseph's Hawks",
+   "home_raw": "Drexel Dragons",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": 4.0,
+   "mkt_total": 137.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 4.0,
+    "px": -115,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": -4.0,
+    "px": -105,
+    "book": "BetOnline"
+   },
+   "open_spread": 4.0,
+   "open_total": 137.5,
+   "model": {
+    "poss": 69.0,
+    "away_pts": 69.5,
+    "home_pts": 65.1,
+    "home_spread": 4.4,
+    "total": 134.6
+   },
+   "away_rank": 121,
+   "home_rank": 256,
+   "hardwood": {
+    "poss": 72.5,
+    "away_pts": 73.0,
+    "home_pts": 70.2,
+    "home_spread": 2.9,
+    "total": 143.2
+   },
+   "hw_away_rank": 120,
+   "hw_home_rank": 231,
+   "hw_edge": -1.1,
+   "flags": [],
+   "edge": 0.4,
+   "move": 0.0,
+   "total_edge": -2.9
+  },
+  {
+   "event_id": "f23f37ea3ecae62d09994228b460a5bb",
+   "tip": "2026-11-21T00:00:00Z",
+   "away": "UMKC",
+   "home": "Iona",
+   "away_raw": "UMKC Kangaroos",
+   "home_raw": "Iona Gaels",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -4.0,
+   "mkt_total": 142.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -4.0,
+    "px": -125,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 4.0,
+    "px": 105,
+    "book": "BetOnline"
+   },
+   "open_spread": -4.0,
+   "open_total": 142.5,
+   "model": {
+    "poss": 68.1,
+    "away_pts": 69.6,
+    "home_pts": 74.3,
+    "home_spread": -4.7,
+    "total": 143.9
+   },
+   "away_rank": 269,
+   "home_rank": 234,
+   "hardwood": {
+    "poss": 68.3,
+    "away_pts": 70.4,
+    "home_pts": 72.3,
+    "home_spread": -2.0,
+    "total": 142.7
+   },
+   "hw_away_rank": 227,
+   "hw_home_rank": 247,
+   "hw_edge": 2.0,
+   "flags": [],
+   "edge": -0.7,
+   "move": 0.0,
+   "total_edge": 1.4
+  },
+  {
+   "event_id": "70ee5e0a821c9547549edc4e946098e2",
+   "tip": "2026-11-21T00:00:00Z",
+   "away": "Georgia St.",
+   "home": "Jacksonville St.",
+   "away_raw": "Georgia St Panthers",
+   "home_raw": "Jacksonville St Gamecocks",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -3.0,
+   "mkt_total": 136.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -3.0,
+    "px": -115,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 3.0,
+    "px": -105,
+    "book": "BetOnline"
+   },
+   "open_spread": -3.0,
+   "open_total": 136.0,
+   "model": {
+    "poss": 63.8,
+    "away_pts": 68.6,
+    "home_pts": 70.3,
+    "home_spread": -1.6,
+    "total": 138.9
+   },
+   "away_rank": 191,
+   "home_rank": 219,
+   "hardwood": {
+    "poss": 68.8,
+    "away_pts": 73.5,
+    "home_pts": 70.3,
+    "home_spread": 3.2,
+    "total": 143.8
+   },
+   "hw_away_rank": 155,
+   "hw_home_rank": 281,
+   "hw_edge": 6.2,
+   "flags": [],
+   "edge": 1.4,
+   "move": 0.0,
+   "total_edge": 2.9
+  },
+  {
+   "event_id": "e0a864edd8896bd3eb30a0eb1cd518fb",
+   "tip": "2026-11-21T00:00:00Z",
+   "away": "Western Michigan",
+   "home": "Mt. St. Mary's Mountaineers",
+   "away_raw": "Western Michigan Broncos",
+   "home_raw": "Mt. St. Mary's Mountaineers",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": 7.5,
+   "mkt_total": 143.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 7.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": -7.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": 7.5,
+   "open_total": 143.0,
+   "flags": [
+    "home not matched"
+   ]
+  },
+  {
+   "event_id": "0744ae65a239d93ad6981bcca04ec1d1",
+   "tip": "2026-11-21T00:00:00Z",
+   "away": "Central Michigan",
+   "home": "Pittsburgh",
+   "away_raw": "Central Michigan Chippewas",
+   "home_raw": "Pittsburgh Panthers",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -23.0,
+   "mkt_total": 145.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -23.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 23.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -23.0,
+   "open_total": 145.0,
+   "model": {
+    "poss": 67.5,
+    "away_pts": 64.7,
+    "home_pts": 79.4,
+    "home_spread": -14.7,
+    "total": 144.1
+   },
+   "away_rank": 229,
+   "home_rank": 77,
+   "hardwood": {
+    "poss": 68.3,
+    "away_pts": 62.9,
+    "home_pts": 80.0,
+    "home_spread": -17.1,
+    "total": 142.8
+   },
+   "hw_away_rank": 193,
+   "hw_home_rank": 31,
+   "hw_edge": 5.9,
+   "flags": [],
+   "edge": 8.3,
+   "move": 0.0,
+   "total_edge": -0.9,
+   "pick": "Central Michigan +23",
+   "pick_side": "away",
+   "market": "flat",
+   "both_models": true
+  },
+  {
+   "event_id": "d6bf1938b3e709f64957d9e071899659",
+   "tip": "2026-11-21T00:00:00Z",
+   "away": "Monmouth",
+   "home": "Princeton",
+   "away_raw": "Monmouth Hawks",
+   "home_raw": "Princeton Tigers",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -4.0,
+   "mkt_total": 138.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -4.0,
+    "px": -105,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 4.0,
+    "px": -115,
+    "book": "BetOnline"
+   },
+   "open_spread": -4.0,
+   "open_total": 138.5,
+   "model": {
+    "poss": 66.5,
+    "away_pts": 68.2,
+    "home_pts": 72.2,
+    "home_spread": -4.0,
+    "total": 140.5
+   },
+   "away_rank": 195,
+   "home_rank": 171,
+   "hardwood": {
+    "poss": 68.9,
+    "away_pts": 69.6,
+    "home_pts": 70.0,
+    "home_spread": -0.4,
+    "total": 139.7
+   },
+   "hw_away_rank": 149,
+   "hw_home_rank": 205,
+   "hw_edge": 3.6,
+   "flags": [],
+   "edge": 0.0,
+   "move": 0.0,
+   "total_edge": 2.0
+  },
+  {
+   "event_id": "eba8e4a8e30f46858748483483f488ea",
+   "tip": "2026-11-21T00:00:00Z",
+   "away": "Oakland",
+   "home": "Purdue",
+   "away_raw": "Oakland Golden Grizzlies",
+   "home_raw": "Purdue Boilermakers",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -25.0,
+   "mkt_total": 149.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -25.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 25.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -25.0,
+   "open_total": 149.0,
+   "model": {
+    "poss": 64.2,
+    "away_pts": 62.3,
+    "home_pts": 80.9,
+    "home_spread": -18.6,
+    "total": 143.3
+   },
+   "away_rank": 217,
+   "home_rank": 33,
+   "hardwood": {
+    "poss": 65.8,
+    "away_pts": 66.7,
+    "home_pts": 83.5,
+    "home_spread": -16.8,
+    "total": 150.2
+   },
+   "hw_away_rank": 311,
+   "hw_home_rank": 82,
+   "hw_edge": 8.2,
+   "flags": [],
+   "edge": 6.4,
+   "move": 0.0,
+   "total_edge": -5.7,
+   "pick": "Oakland +25",
+   "pick_side": "away",
+   "market": "flat",
+   "both_models": true
+  },
+  {
+   "event_id": "a873493a7ad136458cf98553f9c8a216",
+   "tip": "2026-11-21T00:00:00Z",
+   "away": "Western Kentucky",
+   "home": "Richmond",
+   "away_raw": "Western Kentucky Hilltoppers",
+   "home_raw": "Richmond Spiders",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": 0.0,
+   "mkt_total": 152.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 0.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 0.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": 0.0,
+   "open_total": 152.0,
+   "model": {
+    "poss": 71.9,
+    "away_pts": 75.1,
+    "home_pts": 78.5,
+    "home_spread": -3.4,
+    "total": 153.5
+   },
+   "away_rank": 114,
+   "home_rank": 112,
+   "hardwood": {
+    "poss": 73.4,
+    "away_pts": 71.3,
+    "home_pts": 75.4,
+    "home_spread": -4.1,
+    "total": 146.7
+   },
+   "hw_away_rank": 113,
+   "hw_home_rank": 101,
+   "hw_edge": -4.1,
+   "flags": [],
+   "edge": -3.4,
+   "move": 0.0,
+   "total_edge": 1.5,
+   "pick": "Richmond PK",
+   "pick_side": "home",
+   "market": "flat",
+   "both_models": true
+  },
+  {
+   "event_id": "cdf9ed66e5ad6a4af973a7c08740af15",
+   "tip": "2026-11-21T00:00:00Z",
+   "away": "Coastal Carolina",
+   "home": "Tennessee",
+   "away_raw": "Coastal Carolina Chanticleers",
+   "home_raw": "Tennessee Volunteers",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -29.0,
+   "mkt_total": 143.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -29.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 29.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -29.0,
+   "open_total": 143.0,
+   "model": {
+    "poss": 68.1,
+    "away_pts": 62.2,
+    "home_pts": 83.5,
+    "home_spread": -21.3,
+    "total": 145.7
+   },
+   "away_rank": 224,
+   "home_rank": 21,
+   "hardwood": {
+    "poss": 70.3,
+    "away_pts": 58.9,
+    "home_pts": 78.1,
+    "home_spread": -19.2,
+    "total": 137.0
+   },
+   "hw_away_rank": 300,
+   "hw_home_rank": 62,
+   "hw_edge": 9.8,
+   "flags": [],
+   "edge": 7.7,
+   "move": 0.0,
+   "total_edge": 2.7,
+   "pick": "Coastal Carolina +29",
+   "pick_side": "away",
+   "market": "flat",
+   "both_models": true
+  },
+  {
+   "event_id": "8c80c405ee0dd1df68d714b6d8e13ec9",
+   "tip": "2026-11-21T00:30:00Z",
+   "away": "Tulsa",
+   "home": "Mississippi St.",
+   "away_raw": "Tulsa Golden Hurricane",
+   "home_raw": "Mississippi St Bulldogs",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -6.0,
+   "mkt_total": 154.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -6.0,
+    "px": -105,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 6.0,
+    "px": -115,
+    "book": "BetOnline"
+   },
+   "open_spread": -6.0,
+   "open_total": 154.0,
+   "model": {
+    "poss": 70.7,
+    "away_pts": 73.6,
+    "home_pts": 80.7,
+    "home_spread": -7.1,
+    "total": 154.3
+   },
+   "away_rank": 92,
+   "home_rank": 63,
+   "hardwood": {
+    "poss": 70.3,
+    "away_pts": 71.6,
+    "home_pts": 81.6,
+    "home_spread": -10.0,
+    "total": 153.1
+   },
+   "hw_away_rank": 104,
+   "hw_home_rank": 43,
+   "hw_edge": -4.0,
+   "flags": [],
+   "edge": -1.1,
+   "move": 0.0,
+   "total_edge": 0.3
+  },
+  {
+   "event_id": "100d3d166816eec2b3b05481324cd009",
+   "tip": "2026-11-21T00:30:00Z",
+   "away": "Iowa",
+   "home": "Xavier",
+   "away_raw": "Iowa Hawkeyes",
+   "home_raw": "Xavier Musketeers",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -3.5,
+   "mkt_total": 146.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -3.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 3.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -3.5,
+   "open_total": 146.0,
+   "model": {
+    "poss": 69.5,
+    "away_pts": 71.7,
+    "home_pts": 75.9,
+    "home_spread": -4.2,
+    "total": 147.6
+   },
+   "away_rank": 48,
+   "home_rank": 38,
+   "hardwood": {
+    "poss": 73.1,
+    "away_pts": 68.2,
+    "home_pts": 74.3,
+    "home_spread": -6.0,
+    "total": 142.5
+   },
+   "hw_away_rank": 49,
+   "hw_home_rank": 33,
+   "hw_edge": -2.5,
+   "flags": [],
+   "edge": -0.7,
+   "move": 0.0,
+   "total_edge": 1.6
+  },
+  {
+   "event_id": "9953076d1a99f171f14ffe7ea369f012",
+   "tip": "2026-11-21T01:00:00Z",
+   "away": "Georgia",
+   "home": "Georgia Tech",
+   "away_raw": "Georgia Bulldogs",
+   "home_raw": "Georgia Tech Yellow Jackets",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": 9.0,
+   "mkt_total": 165.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 9.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": -9.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": 9.0,
+   "open_total": 165.5,
+   "model": {
+    "poss": 73.4,
+    "away_pts": 85.2,
+    "home_pts": 77.8,
+    "home_spread": 7.4,
+    "total": 163.0
+   },
+   "away_rank": 42,
+   "home_rank": 125,
+   "hardwood": {
+    "poss": 73.3,
+    "away_pts": 82.1,
+    "home_pts": 77.1,
+    "home_spread": 5.0,
+    "total": 159.2
+   },
+   "hw_away_rank": 51,
+   "hw_home_rank": 124,
+   "hw_edge": -4.0,
+   "flags": [],
+   "edge": -1.6,
+   "move": 0.0,
+   "total_edge": -2.5
+  },
+  {
+   "event_id": "cd962be2d33dbd38b2b7d21dcd5fe124",
+   "tip": "2026-11-21T01:00:00Z",
+   "away": "Kentucky",
+   "home": "Indiana",
+   "away_raw": "Kentucky Wildcats",
+   "home_raw": "Indiana Hoosiers",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -3.5,
+   "mkt_total": 155.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -3.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 3.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -3.5,
+   "open_total": 155.0,
+   "model": {
+    "poss": 68.9,
+    "away_pts": 74.5,
+    "home_pts": 80.5,
+    "home_spread": -6.0,
+    "total": 154.9
+   },
+   "away_rank": 54,
+   "home_rank": 28,
+   "hardwood": {
+    "poss": 69.3,
+    "away_pts": 74.0,
+    "home_pts": 81.3,
+    "home_spread": -7.2,
+    "total": 155.3
+   },
+   "hw_away_rank": 92,
+   "hw_home_rank": 52,
+   "hw_edge": -3.7,
+   "flags": [],
+   "edge": -2.5,
+   "move": 0.0,
+   "total_edge": -0.1
+  },
+  {
+   "event_id": "7dca3ce414b200c5bf9e73a01896e0a0",
+   "tip": "2026-11-21T01:00:00Z",
+   "away": "Campbell",
+   "home": "Kansas St.",
+   "away_raw": "Campbell Fighting Camels",
+   "home_raw": "Kansas St Wildcats",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -15.5,
+   "mkt_total": 156.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -15.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 15.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -15.5,
+   "open_total": 156.5,
+   "model": {
+    "poss": 68.1,
+    "away_pts": 68.6,
+    "home_pts": 83.4,
+    "home_spread": -14.8,
+    "total": 152.0
+   },
+   "away_rank": 213,
+   "home_rank": 75,
+   "hardwood": {
+    "poss": 70.2,
+    "away_pts": 72.4,
+    "home_pts": 88.6,
+    "home_spread": -16.2,
+    "total": 161.1
+   },
+   "hw_away_rank": 242,
+   "hw_home_rank": 53,
+   "hw_edge": -0.7,
+   "flags": [],
+   "edge": 0.7,
+   "move": 0.0,
+   "total_edge": -4.5
+  },
+  {
+   "event_id": "fcabf1a2b0755f9cb7af39534aae66a2",
+   "tip": "2026-11-21T01:00:00Z",
+   "away": "South Alabama",
+   "home": "SMU",
+   "away_raw": "South Alabama Jaguars",
+   "home_raw": "SMU Mustangs",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -16.5,
+   "mkt_total": 149.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -16.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 16.5,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -16.5,
+   "open_total": 149.5,
+   "model": {
+    "poss": 67.4,
+    "away_pts": 66.6,
+    "home_pts": 82.2,
+    "home_spread": -15.6,
+    "total": 148.8
+   },
+   "away_rank": 204,
+   "home_rank": 61,
+   "hardwood": {
+    "poss": 71.5,
+    "away_pts": 74.5,
+    "home_pts": 86.0,
+    "home_spread": -11.5,
+    "total": 160.5
+   },
+   "hw_away_rank": 198,
+   "hw_home_rank": 83,
+   "hw_edge": 5.0,
+   "flags": [],
+   "edge": 0.9,
+   "move": 0.0,
+   "total_edge": -0.7
+  },
+  {
+   "event_id": "7a7ea19f66aa175473014416c6d00417",
+   "tip": "2026-11-21T01:00:00Z",
+   "away": "East Carolina",
+   "home": "Utah Valley",
+   "away_raw": "East Carolina Pirates",
+   "home_raw": "Utah Valley Wolverines",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -3.5,
+   "mkt_total": 149.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -3.5,
+    "px": 105,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 3.5,
+    "px": -125,
+    "book": "BetOnline"
+   },
+   "open_spread": -3.5,
+   "open_total": 149.5,
+   "model": {
+    "poss": 71.6,
+    "away_pts": 72.1,
+    "home_pts": 78.7,
+    "home_spread": -6.6,
+    "total": 150.9
+   },
+   "away_rank": 158,
+   "home_rank": 118,
+   "hardwood": {
+    "poss": 73.0,
+    "away_pts": 72.6,
+    "home_pts": 75.7,
+    "home_spread": -3.1,
+    "total": 148.3
+   },
+   "hw_away_rank": 126,
+   "hw_home_rank": 130,
+   "hw_edge": 0.4,
+   "flags": [],
+   "edge": -3.1,
+   "move": 0.0,
+   "total_edge": 1.4,
+   "pick": "Utah Valley -3.5",
+   "pick_side": "home",
+   "market": "flat",
+   "both_models": false
+  },
+  {
+   "event_id": "d44e3c27019bbb61def8acdb1f51c22d",
+   "tip": "2026-11-21T01:00:00Z",
+   "away": "UCF",
+   "home": "Vanderbilt",
+   "away_raw": "UCF Knights",
+   "home_raw": "Vanderbilt Commodores",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -16.5,
+   "mkt_total": 156.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -16.5,
+    "px": -115,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 16.5,
+    "px": -105,
+    "book": "BetOnline"
+   },
+   "open_spread": -16.5,
+   "open_total": 156.0,
+   "model": {
+    "poss": 70.4,
+    "away_pts": 71.7,
+    "home_pts": 83.1,
+    "home_spread": -11.3,
+    "total": 154.8
+   },
+   "away_rank": 78,
+   "home_rank": 16,
+   "hardwood": {
+    "poss": 70.3,
+    "away_pts": 68.3,
+    "home_pts": 88.4,
+    "home_spread": -20.2,
+    "total": 156.7
+   },
+   "hw_away_rank": 128,
+   "hw_home_rank": 4,
+   "hw_edge": -3.7,
+   "flags": [],
+   "edge": 5.2,
+   "move": 0.0,
+   "total_edge": -1.2,
+   "pick": "UCF +16.5",
+   "pick_side": "away",
+   "market": "flat",
+   "both_models": false
+  },
+  {
+   "event_id": "0bc84da1a3e9aff13e6946b3b29cf21a",
+   "tip": "2026-11-21T02:00:00Z",
+   "away": "Sam Houston St.",
+   "home": "Boise St.",
+   "away_raw": "Sam Houston St Bearkats",
+   "home_raw": "Boise State Broncos",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -9.5,
+   "mkt_total": 167.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -9.5,
+    "px": -105,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 9.5,
+    "px": -115,
+    "book": "BetOnline"
+   },
+   "open_spread": -9.5,
+   "open_total": 167.5,
+   "model": {
+    "poss": 73.1,
+    "away_pts": 74.3,
+    "home_pts": 83.8,
+    "home_spread": -9.5,
+    "total": 158.1
+   },
+   "away_rank": 141,
+   "home_rank": 81,
+   "hardwood": {
+    "poss": 78.1,
+    "away_pts": 83.9,
+    "home_pts": 92.8,
+    "home_spread": -8.8,
+    "total": 176.7
+   },
+   "hw_away_rank": 132,
+   "hw_home_rank": 78,
+   "hw_edge": 0.7,
+   "flags": [],
+   "edge": 0.0,
+   "move": 0.0,
+   "total_edge": -9.4
+  },
+  {
+   "event_id": "73becee99238228e81a7770cea1108c8",
+   "tip": "2026-11-21T02:00:00Z",
+   "away": "Cal St. Bakersfield",
+   "home": "Idaho",
+   "away_raw": "CSU Bakersfield Roadrunners",
+   "home_raw": "Idaho Vandals",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": 0.0,
+   "mkt_total": 154.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": 0.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 0.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": 0.0,
+   "open_total": 154.5,
+   "model": {
+    "poss": 69.5,
+    "away_pts": 72.2,
+    "home_pts": 79.6,
+    "home_spread": -7.5,
+    "total": 151.8
+   },
+   "away_rank": 300,
+   "home_rank": 221,
+   "hardwood": {
+    "poss": 70.0,
+    "away_pts": 81.6,
+    "home_pts": 77.5,
+    "home_spread": 4.2,
+    "total": 159.1
+   },
+   "hw_away_rank": 162,
+   "hw_home_rank": 298,
+   "hw_edge": 4.2,
+   "flags": [],
+   "edge": -7.5,
+   "move": 0.0,
+   "total_edge": -2.7,
+   "pick": "Idaho PK",
+   "pick_side": "home",
+   "market": "flat",
+   "both_models": false
+  },
+  {
+   "event_id": "ccd4397771cec2458b64efaca3c2c783",
+   "tip": "2026-11-21T02:00:00Z",
+   "away": "Eastern Illinois",
+   "home": "Illinois",
+   "away_raw": "Eastern Illinois Panthers",
+   "home_raw": "Illinois Fighting Illini",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -51.0,
+   "mkt_total": 162.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -51.0,
+    "px": -115,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 51.0,
+    "px": -105,
+    "book": "BetOnline"
+   },
+   "open_spread": -51.0,
+   "open_total": 162.5,
+   "model": {
+    "poss": 73.0,
+    "away_pts": 62.7,
+    "home_pts": 99.8,
+    "home_spread": -37.0,
+    "total": 162.5
+   },
+   "away_rank": 348,
+   "home_rank": 4,
+   "hardwood": {
+    "poss": 74.7,
+    "away_pts": 61.9,
+    "home_pts": 105.2,
+    "home_spread": -43.3,
+    "total": 167.1
+   },
+   "hw_away_rank": 357,
+   "hw_home_rank": 1,
+   "hw_edge": 7.7,
+   "flags": [],
+   "edge": 14.0,
+   "move": 0.0,
+   "total_edge": 0.0,
+   "pick": "Eastern Illinois +51",
+   "pick_side": "away",
+   "market": "flat",
+   "both_models": true
+  },
+  {
+   "event_id": "6b10d0e25f551c8d3eb324fc144777a8",
+   "tip": "2026-11-21T02:00:00Z",
+   "away": "Marshall",
+   "home": "North Carolina",
+   "away_raw": "Marshall Thundering Herd",
+   "home_raw": "North Carolina Tar Heels",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -21.0,
+   "mkt_total": 154.0,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -21.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 21.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -21.0,
+   "open_total": 154.0,
+   "model": {
+    "poss": 75.0,
+    "away_pts": 69.2,
+    "home_pts": 86.7,
+    "home_spread": -17.5,
+    "total": 155.9
+   },
+   "away_rank": 209,
+   "home_rank": 51,
+   "hardwood": {
+    "poss": 75.7,
+    "away_pts": 71.2,
+    "home_pts": 79.5,
+    "home_spread": -8.3,
+    "total": 150.8
+   },
+   "hw_away_rank": 122,
+   "hw_home_rank": 77,
+   "hw_edge": 12.7,
+   "flags": [],
+   "edge": 3.5,
+   "move": 0.0,
+   "total_edge": 1.9,
+   "pick": "Marshall +21",
+   "pick_side": "away",
+   "market": "flat",
+   "both_models": true
+  },
+  {
+   "event_id": "facfbe499809f5b11e275d41d8d5b49d",
+   "tip": "2026-11-21T04:00:00Z",
+   "away": "Saint Louis",
+   "home": "Saint Mary's",
+   "away_raw": "Saint Louis Billikens",
+   "home_raw": "Saint Mary's Gaels",
+   "started": false,
+   "neutral": false,
+   "books": 1,
+   "mkt_spread": -2.0,
+   "mkt_total": 158.5,
+   "spread_src": "median",
+   "best_home": {
+    "pt": -2.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_away": {
+    "pt": 2.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "open_spread": -2.0,
+   "open_total": 158.5,
+   "model": {
+    "poss": 73.2,
+    "away_pts": 78.5,
+    "home_pts": 81.2,
+    "home_spread": -2.7,
+    "total": 159.7
+   },
+   "away_rank": 58,
+   "home_rank": 62,
+   "hardwood": {
+    "poss": 75.9,
+    "away_pts": 93.3,
+    "home_pts": 79.6,
+    "home_spread": 13.7,
+    "total": 172.9
+   },
+   "hw_away_rank": 17,
+   "hw_home_rank": 168,
+   "hw_edge": 15.7,
+   "flags": [],
+   "edge": -0.7,
+   "move": 0.0,
+   "total_edge": 1.2
   }
  ],
- "unmatched": [],
+ "unmatched": [
+  "Mt. St. Mary's Mountaineers"
+ ],
  "name_map": {
-  "Florida Gators": "Florida",
   "West Virginia Mountaineers": "West Virginia",
+  "Florida Gators": "Florida",
   "Auburn Tigers": "Auburn",
   "Notre Dame Fighting Irish": "Notre Dame",
   "NC State Wolfpack": "N.C. State",
@@ -1552,7 +3309,77 @@
   "Houston Cougars": "Houston",
   "Kansas Jayhawks": "Kansas",
   "Tarleton State Texans": "Tarleton St.",
-  "USC Trojans": "USC"
+  "USC Trojans": "USC",
+  "Green Bay Phoenix": "Green Bay",
+  "Florida St Seminoles": "Florida St.",
+  "Temple Owls": "Temple",
+  "Middle Tennessee Blue Raiders": "Middle Tennessee",
+  "Oklahoma St Cowboys": "Oklahoma St.",
+  "Minnesota Golden Gophers": "Minnesota",
+  "UAB Blazers": "UAB",
+  "GW Revolutionaries": "George Washington",
+  "Indiana St Sycamores": "Indiana St.",
+  "Stephen F. Austin Lumberjacks": "Stephen F. Austin",
+  "Northwestern Wildcats": "Northwestern",
+  "Virginia Tech Hokies": "Virginia Tech",
+  "South Dakota St Jackrabbits": "South Dakota St.",
+  "Idaho State Bengals": "Idaho St.",
+  "Rhode Island Rams": "Rhode Island",
+  "Liberty Flames": "Liberty",
+  "Manhattan Jaspers": "Manhattan",
+  "Miami Hurricanes": "Miami FL",
+  "Dayton Flyers": "Dayton",
+  "Utah Utes": "Utah",
+  "Tenn-Martin Skyhawks": "Tennessee Martin",
+  "Southern Illinois Salukis": "Southern Illinois",
+  "Delaware Blue Hens": "Delaware",
+  "CSU Northridge Matadors": "Cal St. Northridge",
+  "North Texas Mean Green": "North Texas",
+  "Appalachian St Mountaineers": "Appalachian St.",
+  "Central Michigan Chippewas": "Central Michigan",
+  "Pittsburgh Panthers": "Pittsburgh",
+  "Coastal Carolina Chanticleers": "Coastal Carolina",
+  "Tennessee Volunteers": "Tennessee",
+  "Saint Joseph's Hawks": "Saint Joseph's",
+  "Drexel Dragons": "Drexel",
+  "Georgia St Panthers": "Georgia St.",
+  "Jacksonville St Gamecocks": "Jacksonville St.",
+  "UMKC Kangaroos": "UMKC",
+  "Iona Gaels": "Iona",
+  "Monmouth Hawks": "Monmouth",
+  "Princeton Tigers": "Princeton",
+  "Western Michigan Broncos": "Western Michigan",
+  "Mt. St. Mary's Mountaineers": null,
+  "Oakland Golden Grizzlies": "Oakland",
+  "Purdue Boilermakers": "Purdue",
+  "Western Kentucky Hilltoppers": "Western Kentucky",
+  "Richmond Spiders": "Richmond",
+  "Iowa Hawkeyes": "Iowa",
+  "Xavier Musketeers": "Xavier",
+  "Tulsa Golden Hurricane": "Tulsa",
+  "Mississippi St Bulldogs": "Mississippi St.",
+  "Campbell Fighting Camels": "Campbell",
+  "Kansas St Wildcats": "Kansas St.",
+  "East Carolina Pirates": "East Carolina",
+  "Utah Valley Wolverines": "Utah Valley",
+  "Georgia Bulldogs": "Georgia",
+  "Georgia Tech Yellow Jackets": "Georgia Tech",
+  "Kentucky Wildcats": "Kentucky",
+  "Indiana Hoosiers": "Indiana",
+  "South Alabama Jaguars": "South Alabama",
+  "SMU Mustangs": "SMU",
+  "UCF Knights": "UCF",
+  "Vanderbilt Commodores": "Vanderbilt",
+  "Sam Houston St Bearkats": "Sam Houston St.",
+  "Boise State Broncos": "Boise St.",
+  "CSU Bakersfield Roadrunners": "Cal St. Bakersfield",
+  "Idaho Vandals": "Idaho",
+  "Eastern Illinois Panthers": "Eastern Illinois",
+  "Illinois Fighting Illini": "Illinois",
+  "Marshall Thundering Herd": "Marshall",
+  "North Carolina Tar Heels": "North Carolina",
+  "Saint Louis Billikens": "Saint Louis",
+  "Saint Mary's Gaels": "Saint Mary's"
  },
  "picks": [
   {
@@ -5591,7 +7418,9 @@
    "hardwood_spread": -2.1,
    "both_models": true,
    "neutral": false,
-   "logged": "2026-11-19T16:44:37.693806+00:00"
+   "logged": "2026-11-19T16:44:37.693806+00:00",
+   "close": 8.0,
+   "clv": 0.0
   },
   {
    "event_id": "57ce51731aa0e3325c489d30a2b2e7ed",
@@ -5762,7 +7591,7 @@
    "p": 2,
    "picks": 237,
    "avg_clv": 0.46,
-   "beat_close": 0.442
+   "beat_close": 0.44
   },
   "agrees": {
    "w": 12,
@@ -5770,7 +7599,7 @@
    "p": 0,
    "picks": 30,
    "avg_clv": 0.04,
-   "beat_close": 0.25
+   "beat_close": 0.24
   },
   "against": {
    "w": 51,
@@ -5795,279 +7624,279 @@
    "team": "Kansas",
    "conf": "B12",
    "record": "5-0",
-   "adjoe": 122.19942563667513,
-   "adjde": 92.79284056191122,
-   "adjt": 72.51285381836234,
-   "barthag": 0.9595258546273034
+   "adjoe": 122.19942563667524,
+   "adjde": 92.79284056191099,
+   "adjt": 72.51285381836236,
+   "barthag": 0.959525854627305
   },
   {
    "rank": 2,
    "team": "Houston",
    "conf": "B12",
    "record": "5-0",
-   "adjoe": 122.42507408279909,
-   "adjde": 93.27188810518129,
-   "adjt": 67.22564421276172,
-   "barthag": 0.9580240134367057
+   "adjoe": 122.42507408279933,
+   "adjde": 93.27188810518119,
+   "adjt": 67.22564421276174,
+   "barthag": 0.9580240134367071
   },
   {
    "rank": 3,
    "team": "Duke",
    "conf": "ACC",
    "record": "3-2",
-   "adjoe": 119.86684885418614,
-   "adjde": 92.05527262131201,
-   "adjt": 71.7829301098096,
-   "barthag": 0.9541703955767452
+   "adjoe": 119.8668488541862,
+   "adjde": 92.05527262131199,
+   "adjt": 71.78293010980963,
+   "barthag": 0.9541703955767455
   },
   {
    "rank": 4,
    "team": "Illinois",
    "conf": "B10",
    "record": "4-1",
-   "adjoe": 124.77696220631385,
-   "adjde": 96.39933619330372,
-   "adjt": 74.2225229275108,
-   "barthag": 0.9510760996826426
+   "adjoe": 124.77696220631384,
+   "adjde": 96.39933619330364,
+   "adjt": 74.22252292751081,
+   "barthag": 0.951076099682643
   },
   {
    "rank": 5,
    "team": "Florida",
    "conf": "SEC",
    "record": "5-1",
-   "adjoe": 123.13605872210542,
-   "adjde": 95.40201030817525,
+   "adjoe": 123.13605872210556,
+   "adjde": 95.40201030817512,
    "adjt": 69.51374546089785,
-   "barthag": 0.9495347914038468
+   "barthag": 0.949534791403848
   },
   {
    "rank": 6,
    "team": "Arizona",
    "conf": "B12",
    "record": "4-1",
-   "adjoe": 120.93438129275603,
-   "adjde": 94.11550713180961,
+   "adjoe": 120.93438129275629,
+   "adjde": 94.11550713180952,
    "adjt": 72.22172999400887,
-   "barthag": 0.9470167312715033
+   "barthag": 0.9470167312715051
   },
   {
    "rank": 7,
    "team": "Virginia",
    "conf": "ACC",
    "record": "6-0",
-   "adjoe": 122.85434675076762,
+   "adjoe": 122.85434675076766,
    "adjde": 95.96025713716477,
-   "adjt": 70.49488281175935,
-   "barthag": 0.9448647052124433
+   "adjt": 70.49488281175938,
+   "barthag": 0.9448647052124435
   },
   {
    "rank": 8,
    "team": "Michigan St.",
    "conf": "B10",
    "record": "4-1",
-   "adjoe": 119.81003394967499,
-   "adjde": 93.67881721019353,
-   "adjt": 68.94084239091214,
-   "barthag": 0.9442443624276786
+   "adjoe": 119.81003394967512,
+   "adjde": 93.67881721019359,
+   "adjt": 68.94084239091217,
+   "barthag": 0.9442443624276788
   },
   {
    "rank": 9,
    "team": "Connecticut",
    "conf": "BE",
    "record": "4-1",
-   "adjoe": 119.18003326718042,
-   "adjde": 93.91858925017357,
-   "adjt": 67.16687961267924,
-   "barthag": 0.9393107250080245
+   "adjoe": 119.18003326718052,
+   "adjde": 93.91858925017348,
+   "adjt": 67.16687961267927,
+   "barthag": 0.9393107250080255
   },
   {
    "rank": 10,
    "team": "Texas Tech",
    "conf": "B12",
    "record": "5-0",
-   "adjoe": 119.99920543931688,
-   "adjde": 94.83988664850057,
-   "adjt": 68.66449335979466,
-   "barthag": 0.9373734901984891
+   "adjoe": 119.99920543931698,
+   "adjde": 94.83988664850062,
+   "adjt": 68.66449335979468,
+   "barthag": 0.9373734901984893
   },
   {
    "rank": 11,
    "team": "Nebraska",
    "conf": "B10",
    "record": "5-0",
-   "adjoe": 118.27756351145851,
-   "adjde": 94.07697082373383,
+   "adjoe": 118.2775635114586,
+   "adjde": 94.07697082373377,
    "adjt": 69.65279320196574,
-   "barthag": 0.9329297491059568
+   "barthag": 0.9329297491059578
   },
   {
    "rank": 12,
    "team": "Gonzaga",
    "conf": "P12",
    "record": "3-1",
-   "adjoe": 122.75815121154733,
-   "adjde": 97.6457607693591,
-   "adjt": 70.58208072610981,
-   "barthag": 0.9328931248356249
+   "adjoe": 122.75815121154741,
+   "adjde": 97.64576076935904,
+   "adjt": 70.58208072610984,
+   "barthag": 0.9328931248356258
   },
   {
    "rank": 13,
    "team": "St. John's",
    "conf": "BE",
    "record": "5-0",
-   "adjoe": 118.86107957640864,
-   "adjde": 94.92393918449687,
-   "adjt": 72.37116450660609,
-   "barthag": 0.9299625385572481
+   "adjoe": 118.86107957640877,
+   "adjde": 94.92393918449682,
+   "adjt": 72.3711645066061,
+   "barthag": 0.9299625385572493
   },
   {
    "rank": 14,
    "team": "Iowa St.",
    "conf": "B12",
    "record": "3-1",
-   "adjoe": 114.7521552217456,
-   "adjde": 92.53841390462898,
-   "adjt": 69.45484913166429,
-   "barthag": 0.9223156752229964
+   "adjoe": 114.75215522174571,
+   "adjde": 92.53841390462895,
+   "adjt": 69.4548491316643,
+   "barthag": 0.9223156752229974
   },
   {
    "rank": 15,
    "team": "Miami FL",
    "conf": "ACC",
    "record": "4-1",
-   "adjoe": 118.88414802494349,
-   "adjde": 96.10859583283624,
-   "adjt": 71.39970247249357,
-   "barthag": 0.9202474006639436
+   "adjoe": 118.88414802494358,
+   "adjde": 96.10859583283619,
+   "adjt": 71.3997024724936,
+   "barthag": 0.9202474006639448
   },
   {
    "rank": 16,
    "team": "Vanderbilt",
    "conf": "SEC",
    "record": "5-0",
-   "adjoe": 118.69901935573856,
-   "adjde": 95.98246087676597,
-   "adjt": 69.41703405734394,
-   "barthag": 0.9200402467177494
+   "adjoe": 118.69901935573867,
+   "adjde": 95.98246087676588,
+   "adjt": 69.41703405734397,
+   "barthag": 0.920040246717751
   },
   {
    "rank": 17,
    "team": "Louisville",
    "conf": "ACC",
    "record": "2-1",
-   "adjoe": 120.10784906991219,
-   "adjde": 97.22656318273087,
-   "adjt": 70.49995366463372,
-   "barthag": 0.9191222527541995
+   "adjoe": 120.10784906991225,
+   "adjde": 97.22656318273084,
+   "adjt": 70.49995366463374,
+   "barthag": 0.9191222527542001
   },
   {
    "rank": 18,
    "team": "Michigan",
    "conf": "B10",
    "record": "3-1",
-   "adjoe": 118.81158548303065,
-   "adjde": 96.20633340362906,
-   "adjt": 73.35905169507699,
-   "barthag": 0.9188633700242659
+   "adjoe": 118.81158548303068,
+   "adjde": 96.206333403629,
+   "adjt": 73.359051695077,
+   "barthag": 0.9188633700242667
   },
   {
    "rank": 19,
    "team": "Texas",
    "conf": "SEC",
    "record": "4-0",
-   "adjoe": 120.81473970370035,
-   "adjde": 98.11809544681688,
-   "adjt": 69.54362079246603,
-   "barthag": 0.9162915442778092
+   "adjoe": 120.81473970370031,
+   "adjde": 98.11809544681691,
+   "adjt": 69.54362079246606,
+   "barthag": 0.9162915442778087
   },
   {
    "rank": 20,
    "team": "UCLA",
    "conf": "B10",
    "record": "5-0",
-   "adjoe": 119.99528116065213,
-   "adjde": 97.81033476458941,
-   "adjt": 68.79990961236717,
-   "barthag": 0.9130021640126522
+   "adjoe": 119.99528116065223,
+   "adjde": 97.81033476458937,
+   "adjt": 68.7999096123672,
+   "barthag": 0.9130021640126534
   },
   {
    "rank": 21,
    "team": "Tennessee",
    "conf": "SEC",
    "record": "4-0",
-   "adjoe": 117.56780687542391,
-   "adjde": 95.88360105704609,
-   "adjt": 67.95622511019097,
-   "barthag": 0.9125059026016701
+   "adjoe": 117.5678068754238,
+   "adjde": 95.88360105704596,
+   "adjt": 67.95622511019099,
+   "barthag": 0.9125059026016704
   },
   {
    "rank": 22,
    "team": "BYU",
    "conf": "B12",
    "record": "5-0",
-   "adjoe": 121.15466734852576,
-   "adjde": 99.10171468295371,
-   "adjt": 71.52056021190656,
-   "barthag": 0.9097506473510372
+   "adjoe": 121.15466734852583,
+   "adjde": 99.10171468295367,
+   "adjt": 71.52056021190658,
+   "barthag": 0.9097506473510382
   },
   {
    "rank": 23,
    "team": "Alabama",
    "conf": "SEC",
    "record": "5-0",
-   "adjoe": 121.19235118226833,
-   "adjde": 99.18167996626785,
-   "adjt": 75.95169533261266,
-   "barthag": 0.909281621589343
+   "adjoe": 121.19235118226831,
+   "adjde": 99.18167996626772,
+   "adjt": 75.95169533261269,
+   "barthag": 0.9092816215893441
   },
   {
    "rank": 24,
    "team": "Missouri",
    "conf": "SEC",
    "record": "4-1",
-   "adjoe": 119.0805562285449,
-   "adjde": 98.15026560322255,
+   "adjoe": 119.08055622854485,
+   "adjde": 98.15026560322262,
    "adjt": 70.09341009471446,
-   "barthag": 0.9022921693188005
+   "barthag": 0.9022921693187993
   },
   {
    "rank": 25,
    "team": "Texas A&M",
    "conf": "SEC",
    "record": "5-0",
-   "adjoe": 118.03956777311618,
-   "adjde": 97.71657494205564,
-   "adjt": 74.5461158789707,
-   "barthag": 0.8977903022605394
+   "adjoe": 118.03956777311629,
+   "adjde": 97.71657494205556,
+   "adjt": 74.54611587897071,
+   "barthag": 0.8977903022605414
   },
   {
    "rank": 26,
    "team": "Marquette",
    "conf": "BE",
    "record": "3-2",
-   "adjoe": 114.78237361143536,
-   "adjde": 95.48135887006868,
-   "adjt": 69.85827873534788,
-   "barthag": 0.8925665351622071
+   "adjoe": 114.78237361143539,
+   "adjde": 95.48135887006865,
+   "adjt": 69.85827873534791,
+   "barthag": 0.8925665351622077
   },
   {
    "rank": 27,
    "team": "Cincinnati",
    "conf": "B12",
    "record": "4-1",
-   "adjoe": 115.44547988803211,
-   "adjde": 96.37238333677314,
-   "adjt": 70.14018894212423,
-   "barthag": 0.8886133840263098
+   "adjoe": 115.44547988803222,
+   "adjde": 96.3723833367731,
+   "adjt": 70.14018894212425,
+   "barthag": 0.8886133840263115
   },
   {
    "rank": 28,
    "team": "Indiana",
    "conf": "B10",
    "record": "5-0",
-   "adjoe": 119.74751700329466,
-   "adjde": 100.06154781001285,
-   "adjt": 69.1712385050889,
+   "adjoe": 119.74751700329475,
+   "adjde": 100.06154781001293,
+   "adjt": 69.17123850508891,
    "barthag": 0.8874945089574854
   },
   {
@@ -6075,650 +7904,650 @@
    "team": "USC",
    "conf": "B10",
    "record": "4-0",
-   "adjoe": 116.6144052105714,
-   "adjde": 97.70640330977193,
-   "adjt": 71.55816911227305,
-   "barthag": 0.8843634150184341
+   "adjoe": 116.61440521057162,
+   "adjde": 97.70640330977184,
+   "adjt": 71.55816911227306,
+   "barthag": 0.8843634150184372
   },
   {
    "rank": 30,
    "team": "Baylor",
    "conf": "B12",
    "record": "4-1",
-   "adjoe": 118.76735068885878,
-   "adjde": 99.56354459922419,
-   "adjt": 70.58745457293935,
-   "barthag": 0.8837324475354694
+   "adjoe": 118.7673506888586,
+   "adjde": 99.56354459922434,
+   "adjt": 70.58745457293938,
+   "barthag": 0.8837324475354659
   },
   {
    "rank": 31,
    "team": "Ohio St.",
    "conf": "B10",
    "record": "3-2",
-   "adjoe": 119.16293463804368,
-   "adjde": 100.050472481139,
-   "adjt": 68.99911316838448,
-   "barthag": 0.8818841916490977
+   "adjoe": 119.16293463804382,
+   "adjde": 100.05047248113894,
+   "adjt": 68.9991131683845,
+   "barthag": 0.8818841916490998
   },
   {
    "rank": 32,
    "team": "N.C. State",
    "conf": "ACC",
    "record": "4-0",
-   "adjoe": 121.05219184775248,
-   "adjde": 101.64005958326773,
+   "adjoe": 121.05219184775251,
+   "adjde": 101.64005958326767,
    "adjt": 69.23115143678096,
-   "barthag": 0.881844743848869
+   "barthag": 0.88184474384887
   },
   {
    "rank": 33,
    "team": "Purdue",
    "conf": "B10",
    "record": "3-2",
-   "adjoe": 118.29174660163513,
-   "adjde": 99.35582388938644,
-   "adjt": 65.67888114638585,
-   "barthag": 0.8814395816181311
+   "adjoe": 118.29174660163517,
+   "adjde": 99.35582388938641,
+   "adjt": 65.67888114638586,
+   "barthag": 0.8814395816181319
   },
   {
    "rank": 34,
    "team": "Arkansas",
    "conf": "SEC",
    "record": "3-2",
-   "adjoe": 117.33811169174726,
-   "adjde": 98.66442121950435,
-   "adjt": 69.47663811538057,
-   "barthag": 0.8800976111422539
+   "adjoe": 117.33811169174723,
+   "adjde": 98.66442121950432,
+   "adjt": 69.47663811538058,
+   "barthag": 0.880097611142254
   },
   {
    "rank": 35,
    "team": "LSU",
    "conf": "SEC",
    "record": "5-0",
-   "adjoe": 116.4173778620092,
-   "adjde": 97.97228618382124,
+   "adjoe": 116.41737786200929,
+   "adjde": 97.97228618382118,
    "adjt": 71.08155940699783,
-   "barthag": 0.8790768921550636
+   "barthag": 0.8790768921550651
   },
   {
    "rank": 36,
    "team": "West Virginia",
    "conf": "B12",
    "record": "4-1",
-   "adjoe": 115.96769789041034,
-   "adjde": 97.77742925249106,
+   "adjoe": 115.96769789041059,
+   "adjde": 97.77742925249103,
    "adjt": 67.35105589707518,
-   "barthag": 0.8767606981541044
+   "barthag": 0.8767606981541075
   },
   {
    "rank": 37,
    "team": "Virginia Tech",
    "conf": "ACC",
    "record": "5-0",
-   "adjoe": 118.20116609428288,
-   "adjde": 99.93666019028085,
-   "adjt": 69.57737957850057,
-   "barthag": 0.8732816152966656
+   "adjoe": 118.20116609428291,
+   "adjde": 99.93666019028083,
+   "adjt": 69.57737957850058,
+   "barthag": 0.873281615296666
   },
   {
    "rank": 38,
    "team": "Xavier",
    "conf": "BE",
    "record": "5-0",
-   "adjoe": 114.53100848667957,
-   "adjde": 97.01278413637388,
-   "adjt": 74.00470654914074,
-   "barthag": 0.8709104303478548
+   "adjoe": 114.53100848667947,
+   "adjde": 97.01278413637394,
+   "adjt": 74.00470654914075,
+   "barthag": 0.870910430347853
   },
   {
    "rank": 39,
    "team": "Auburn",
    "conf": "SEC",
    "record": "3-2",
-   "adjoe": 117.33356564439853,
-   "adjde": 99.55955445194543,
-   "adjt": 69.58778192678584,
-   "barthag": 0.8686467112200618
+   "adjoe": 117.33356564439865,
+   "adjde": 99.5595544519451,
+   "adjt": 69.58778192678587,
+   "barthag": 0.8686467112200674
   },
   {
    "rank": 40,
    "team": "Mississippi",
    "conf": "SEC",
    "record": "4-0",
-   "adjoe": 114.52832503586477,
-   "adjde": 97.49036650104993,
-   "adjt": 69.86670963587196,
-   "barthag": 0.8643956283809813
+   "adjoe": 114.52832503586481,
+   "adjde": 97.49036650104985,
+   "adjt": 69.86670963587198,
+   "barthag": 0.8643956283809829
   },
   {
    "rank": 41,
    "team": "Utah St.",
    "conf": "P12",
    "record": "5-0",
-   "adjoe": 119.04634229970263,
-   "adjde": 101.39607495807407,
-   "adjt": 70.6179834336782,
-   "barthag": 0.8635981637238036
+   "adjoe": 119.04634229970287,
+   "adjde": 101.39607495807402,
+   "adjt": 70.61798343367823,
+   "barthag": 0.8635981637238068
   },
   {
    "rank": 42,
    "team": "Georgia",
    "conf": "SEC",
    "record": "5-0",
-   "adjoe": 119.1510276509696,
-   "adjde": 101.48928953658536,
-   "adjt": 71.05497303564566,
-   "barthag": 0.8635440913258104
+   "adjoe": 119.15102765096955,
+   "adjde": 101.48928953658547,
+   "adjt": 71.05497303564569,
+   "barthag": 0.8635440913258083
   },
   {
    "rank": 43,
    "team": "Villanova",
    "conf": "BE",
    "record": "3-2",
-   "adjoe": 116.70867477746899,
-   "adjde": 99.43571898162006,
-   "adjt": 69.62521094666724,
-   "barthag": 0.8631790454828617
+   "adjoe": 116.7086747774691,
+   "adjde": 99.43571898162,
+   "adjt": 69.62521094666725,
+   "barthag": 0.8631790454828638
   },
   {
    "rank": 44,
    "team": "Oregon",
    "conf": "B10",
    "record": "3-0",
-   "adjoe": 119.63743495315674,
-   "adjde": 102.15396663610636,
-   "adjt": 69.59845969630487,
-   "barthag": 0.8601845211953407
+   "adjoe": 119.63743495315681,
+   "adjde": 102.15396663610628,
+   "adjt": 69.59845969630489,
+   "barthag": 0.8601845211953427
   },
   {
    "rank": 45,
    "team": "Grand Canyon",
    "conf": "MWC",
    "record": "4-0",
-   "adjoe": 115.25673484181203,
-   "adjde": 98.55647570067376,
-   "adjt": 72.06256941605304,
-   "barthag": 0.8581638244973823
+   "adjoe": 115.25673484181209,
+   "adjde": 98.55647570067367,
+   "adjt": 72.06256941605305,
+   "barthag": 0.8581638244973843
   },
   {
    "rank": 46,
    "team": "Maryland",
    "conf": "B10",
    "record": "2-2",
-   "adjoe": 118.81466115109042,
-   "adjde": 101.79771434934105,
-   "adjt": 70.1423028420372,
-   "barthag": 0.8554048774277877
+   "adjoe": 118.81466115109043,
+   "adjde": 101.79771434934104,
+   "adjt": 70.14230284203722,
+   "barthag": 0.855404877427788
   },
   {
    "rank": 47,
    "team": "Oklahoma St.",
    "conf": "B12",
    "record": "3-1",
-   "adjoe": 117.90523918210178,
-   "adjde": 101.06150329283517,
-   "adjt": 72.24112503881108,
-   "barthag": 0.854799034755742
+   "adjoe": 117.90523918210184,
+   "adjde": 101.06150329283514,
+   "adjt": 72.24112503881109,
+   "barthag": 0.8547990347557431
   },
   {
    "rank": 48,
    "team": "Iowa",
    "conf": "B10",
    "record": "2-2",
-   "adjoe": 116.03341172331395,
-   "adjde": 99.86320546610435,
-   "adjt": 65.35139098214064,
-   "barthag": 0.8488851930322946
+   "adjoe": 116.033411723314,
+   "adjde": 99.86320546610432,
+   "adjt": 65.35139098214067,
+   "barthag": 0.8488851930322958
   },
   {
    "rank": 49,
    "team": "San Diego St.",
    "conf": "P12",
    "record": "5-0",
-   "adjoe": 115.13055355673875,
-   "adjde": 99.14624437874261,
-   "adjt": 69.52761307216853,
-   "barthag": 0.8479888613948267
+   "adjoe": 115.13055355673882,
+   "adjde": 99.14624437874258,
+   "adjt": 69.52761307216856,
+   "barthag": 0.847988861394828
   },
   {
    "rank": 50,
    "team": "Creighton",
    "conf": "BE",
    "record": "4-1",
-   "adjoe": 115.86911197736114,
-   "adjde": 99.82502093893177,
-   "adjt": 70.23924519564463,
-   "barthag": 0.84735269939411
+   "adjoe": 115.86911197736123,
+   "adjde": 99.82502093893173,
+   "adjt": 70.23924519564466,
+   "barthag": 0.8473526993941116
   },
   {
    "rank": 51,
    "team": "North Carolina",
    "conf": "ACC",
    "record": "3-1",
-   "adjoe": 114.0740184364161,
+   "adjoe": 114.07401843641611,
    "adjde": 98.29390156581998,
-   "adjt": 72.30065222273646,
-   "barthag": 0.8471193010309775
+   "adjt": 72.30065222273647,
+   "barthag": 0.8471193010309778
   },
   {
    "rank": 52,
    "team": "DePaul",
    "conf": "BE",
    "record": "5-0",
-   "adjoe": 111.38642451894759,
-   "adjde": 96.70797641385023,
-   "adjt": 68.60361687185647,
-   "barthag": 0.8354917952439321
+   "adjoe": 111.38642451894762,
+   "adjde": 96.7079764138503,
+   "adjt": 68.6036168718565,
+   "barthag": 0.8354917952439312
   },
   {
    "rank": 53,
    "team": "Providence",
    "conf": "BE",
    "record": "4-1",
-   "adjoe": 111.94013293396418,
-   "adjde": 97.21664155177862,
+   "adjoe": 111.94013293396425,
+   "adjde": 97.21664155177854,
    "adjt": 71.39366318606797,
-   "barthag": 0.8350372150938532
+   "barthag": 0.8350372150938556
   },
   {
    "rank": 54,
    "team": "Kentucky",
    "conf": "SEC",
    "record": "4-1",
-   "adjoe": 117.8001842059725,
-   "adjde": 102.31912823946774,
-   "adjt": 69.28389114438376,
-   "barthag": 0.834832607201954
+   "adjoe": 117.80018420597278,
+   "adjde": 102.3191282394676,
+   "adjt": 69.28389114438377,
+   "barthag": 0.8348326072019601
   },
   {
    "rank": 55,
    "team": "Florida St.",
    "conf": "ACC",
    "record": "4-1",
-   "adjoe": 115.75894238552792,
-   "adjde": 100.57157856492015,
-   "adjt": 72.32315201709882,
-   "barthag": 0.8344311128943234
+   "adjoe": 115.758942385528,
+   "adjde": 100.57157856492006,
+   "adjt": 72.32315201709885,
+   "barthag": 0.8344311128943259
   },
   {
    "rank": 56,
    "team": "Georgetown",
    "conf": "BE",
    "record": "5-0",
-   "adjoe": 116.87417133783879,
-   "adjde": 101.60661456575525,
-   "adjt": 68.47950372490165,
-   "barthag": 0.8333942386297696
+   "adjoe": 116.87417133783883,
+   "adjde": 101.60661456575522,
+   "adjt": 68.47950372490168,
+   "barthag": 0.8333942386297707
   },
   {
    "rank": 57,
    "team": "Wisconsin",
    "conf": "B10",
    "record": "4-0",
-   "adjoe": 114.23527160219889,
-   "adjde": 99.38445833513457,
-   "adjt": 70.6637967804785,
-   "barthag": 0.832233532547755
+   "adjoe": 114.23527160219899,
+   "adjde": 99.38445833513455,
+   "adjt": 70.66379678047853,
+   "barthag": 0.8322335325477567
   },
   {
    "rank": 58,
    "team": "Saint Louis",
    "conf": "A10",
    "record": "3-1",
-   "adjoe": 116.08085160782827,
-   "adjde": 101.28876455441483,
-   "adjt": 71.51456822147735,
-   "barthag": 0.8274385875711071
+   "adjoe": 116.08085160782831,
+   "adjde": 101.2887645544148,
+   "adjt": 71.51456822147736,
+   "barthag": 0.8274385875711083
   },
   {
    "rank": 59,
    "team": "VCU",
    "conf": "A10",
    "record": "2-1",
-   "adjoe": 115.26948547745478,
-   "adjde": 100.58366309312976,
-   "adjt": 70.2834344680243,
-   "barthag": 0.8273916812568302
+   "adjoe": 115.26948547745496,
+   "adjde": 100.58366309312967,
+   "adjt": 70.28343446802432,
+   "barthag": 0.8273916812568342
   },
   {
    "rank": 60,
    "team": "High Point",
    "conf": "BSth",
    "record": "5-0",
-   "adjoe": 113.65121771779312,
-   "adjde": 99.37717304085324,
-   "adjt": 69.66257558449271,
-   "barthag": 0.8239636617664291
+   "adjoe": 113.65121771779317,
+   "adjde": 99.37717304085321,
+   "adjt": 69.66257558449273,
+   "barthag": 0.8239636617664304
   },
   {
    "rank": 61,
    "team": "SMU",
    "conf": "ACC",
    "record": "5-0",
-   "adjoe": 114.87687954267028,
-   "adjde": 100.52235044009731,
-   "adjt": 72.24495393100662,
-   "barthag": 0.8227410337035835
+   "adjoe": 114.87687954267037,
+   "adjde": 100.52235044009727,
+   "adjt": 72.24495393100663,
+   "barthag": 0.8227410337035855
   },
   {
    "rank": 62,
    "team": "Saint Mary's",
    "conf": "WCC",
    "record": "4-1",
-   "adjoe": 114.91695929209129,
-   "adjde": 100.66280565969522,
-   "adjt": 71.18894478766333,
-   "barthag": 0.8209774856272433
+   "adjoe": 114.91695929209143,
+   "adjde": 100.66280565969512,
+   "adjt": 71.18894478766332,
+   "barthag": 0.820977485627247
   },
   {
    "rank": 63,
    "team": "Mississippi St.",
    "conf": "SEC",
    "record": "4-1",
-   "adjoe": 116.13512604832992,
-   "adjde": 101.784750270473,
+   "adjoe": 116.13512604832951,
+   "adjde": 101.78475027047304,
    "adjt": 70.40778348399427,
-   "barthag": 0.8200641484651444
+   "barthag": 0.8200641484651378
   },
   {
    "rank": 64,
    "team": "George Washington",
    "conf": "A10",
    "record": "5-0",
-   "adjoe": 111.91176284654709,
-   "adjde": 98.08336414134612,
-   "adjt": 69.87012360808662,
-   "barthag": 0.8200622082254052
+   "adjoe": 111.91176284654713,
+   "adjde": 98.08336414134615,
+   "adjt": 69.87012360808664,
+   "barthag": 0.8200622082254054
   },
   {
    "rank": 65,
    "team": "TCU",
    "conf": "B12",
    "record": "4-0",
-   "adjoe": 113.2771043807856,
-   "adjde": 99.29553074845563,
+   "adjoe": 113.2771043807857,
+   "adjde": 99.29553074845555,
    "adjt": 70.21968062926335,
-   "barthag": 0.8197965654172255
+   "barthag": 0.8197965654172285
   },
   {
    "rank": 66,
    "team": "Minnesota",
    "conf": "B10",
    "record": "5-0",
-   "adjoe": 112.12350411820816,
-   "adjde": 98.30839494653577,
-   "adjt": 66.35770533733002,
-   "barthag": 0.8193800435912635
+   "adjoe": 112.12350411820822,
+   "adjde": 98.30839494653574,
+   "adjt": 66.35770533733005,
+   "barthag": 0.8193800435912648
   },
   {
    "rank": 67,
    "team": "Notre Dame",
    "conf": "ACC",
    "record": "5-1",
-   "adjoe": 116.78997955021646,
-   "adjde": 102.83792311953272,
-   "adjt": 69.21143560039839,
-   "barthag": 0.8120010895991083
+   "adjoe": 116.78997955021663,
+   "adjde": 102.83792311953266,
+   "adjt": 69.21143560039842,
+   "barthag": 0.8120010895991119
   },
   {
    "rank": 68,
    "team": "Arizona St.",
    "conf": "B12",
    "record": "5-0",
-   "adjoe": 115.2987033537332,
-   "adjde": 101.60765459670145,
-   "adjt": 66.669309654274,
-   "barthag": 0.8105647651602707
+   "adjoe": 115.29870335373315,
+   "adjde": 101.60765459670131,
+   "adjt": 66.66930965427402,
+   "barthag": 0.8105647651602723
   },
   {
    "rank": 69,
    "team": "Clemson",
    "conf": "ACC",
    "record": "4-1",
-   "adjoe": 117.69997534268306,
-   "adjde": 103.86960129303043,
-   "adjt": 67.21722370026315,
-   "barthag": 0.8080717189621593
+   "adjoe": 117.6999753426831,
+   "adjde": 103.8696012930304,
+   "adjt": 67.21722370026316,
+   "barthag": 0.8080717189621606
   },
   {
    "rank": 70,
    "team": "New Mexico",
    "conf": "MWC",
    "record": "3-1",
-   "adjoe": 114.3685645388038,
-   "adjde": 101.15881274586977,
-   "adjt": 70.93746871176657,
-   "barthag": 0.8039941613041588
+   "adjoe": 114.36856453880407,
+   "adjde": 101.15881274586953,
+   "adjt": 70.93746871176658,
+   "barthag": 0.8039941613041675
   },
   {
    "rank": 71,
    "team": "Oklahoma",
    "conf": "SEC",
    "record": "4-1",
-   "adjoe": 117.11551202408936,
-   "adjde": 103.60333847213215,
-   "adjt": 67.99837804726668,
-   "barthag": 0.8037341637651335
+   "adjoe": 117.11551202408944,
+   "adjde": 103.60333847213198,
+   "adjt": 67.99837804726671,
+   "barthag": 0.8037341637651377
   },
   {
    "rank": 72,
    "team": "Syracuse",
    "conf": "ACC",
    "record": "3-2",
-   "adjoe": 113.54307396312552,
-   "adjde": 100.97305625429867,
-   "adjt": 69.48483302703559,
-   "barthag": 0.7940116364023236
+   "adjoe": 113.54307396312554,
+   "adjde": 100.97305625429857,
+   "adjt": 69.48483302703562,
+   "barthag": 0.7940116364023256
   },
   {
    "rank": 73,
    "team": "Wichita St.",
    "conf": "Amer",
    "record": "4-1",
-   "adjoe": 112.58370376192377,
-   "adjde": 100.3716714947304,
+   "adjoe": 112.58370376192386,
+   "adjde": 100.37167149473032,
    "adjt": 70.53591588364573,
-   "barthag": 0.7892474375519523
+   "barthag": 0.7892474375519553
   },
   {
    "rank": 74,
    "team": "Seton Hall",
    "conf": "BE",
    "record": "3-1",
-   "adjoe": 109.70088595287544,
-   "adjde": 97.99895808341509,
-   "adjt": 67.31478681889641,
-   "barthag": 0.7853645269703987
+   "adjoe": 109.7008859528756,
+   "adjde": 97.99895808341503,
+   "adjt": 67.31478681889642,
+   "barthag": 0.7853645269704026
   },
   {
    "rank": 75,
    "team": "Kansas St.",
    "conf": "B12",
    "record": "3-1",
-   "adjoe": 113.69164220087565,
-   "adjde": 101.6603696179496,
-   "adjt": 71.75498710231521,
-   "barthag": 0.7835205967250483
+   "adjoe": 113.69164220087572,
+   "adjde": 101.66036961794956,
+   "adjt": 71.75498710231523,
+   "barthag": 0.7835205967250503
   },
   {
    "rank": 76,
    "team": "Santa Clara",
    "conf": "WCC",
    "record": "5-0",
-   "adjoe": 113.38205576965026,
-   "adjde": 101.42020375343233,
-   "adjt": 73.5616288262808,
-   "barthag": 0.7828145867805391
+   "adjoe": 113.38205576965052,
+   "adjde": 101.4202037534321,
+   "adjt": 73.56162882628082,
+   "barthag": 0.7828145867805478
   },
   {
    "rank": 77,
    "team": "Pittsburgh",
    "conf": "ACC",
    "record": "5-0",
-   "adjoe": 111.87339743413757,
-   "adjde": 100.2652981434581,
-   "adjt": 68.38016883643215,
-   "barthag": 0.778992412131578
+   "adjoe": 111.87339743413766,
+   "adjde": 100.26529814345804,
+   "adjt": 68.38016883643216,
+   "barthag": 0.7789924121315807
   },
   {
    "rank": 78,
    "team": "UCF",
    "conf": "B12",
    "record": "4-1",
-   "adjoe": 115.87002373479177,
-   "adjde": 104.35799874383758,
+   "adjoe": 115.8700237347915,
+   "adjde": 104.35799874383818,
    "adjt": 70.53102818430632,
-   "barthag": 0.769125633419794
+   "barthag": 0.7691256334197776
   },
   {
    "rank": 79,
    "team": "Rutgers",
    "conf": "B10",
    "record": "3-2",
-   "adjoe": 115.2480526070479,
-   "adjde": 104.22101286734332,
+   "adjoe": 115.248052607048,
+   "adjde": 104.22101286734316,
    "adjt": 70.50314473615688,
-   "barthag": 0.7607124918111599
+   "barthag": 0.7607124918111648
   },
   {
    "rank": 80,
    "team": "McNeese St.",
    "conf": "Slnd",
    "record": "2-1",
-   "adjoe": 112.5246201262511,
+   "adjoe": 112.52462012625112,
    "adjde": 102.0388203164849,
-   "adjt": 68.48171801072314,
-   "barthag": 0.7548992927351924
+   "adjt": 68.48171801072316,
+   "barthag": 0.754899292735193
   },
   {
    "rank": 81,
    "team": "Boise St.",
    "conf": "P12",
    "record": "3-1",
-   "adjoe": 112.43724648701405,
-   "adjde": 102.25781430446331,
-   "adjt": 70.98155759064579,
-   "barthag": 0.7486316117732738
+   "adjoe": 112.4372464870141,
+   "adjde": 102.25781430446321,
+   "adjt": 70.9815575906458,
+   "barthag": 0.7486316117732768
   },
   {
    "rank": 82,
    "team": "Oregon St.",
    "conf": "P12",
    "record": "5-0",
-   "adjoe": 116.1613083600171,
-   "adjde": 105.70710503849725,
-   "adjt": 74.4580866467601,
-   "barthag": 0.7473519112239823
+   "adjoe": 116.16130836001716,
+   "adjde": 105.70710503849703,
+   "adjt": 74.45808664676011,
+   "barthag": 0.7473519112239876
   },
   {
    "rank": 83,
    "team": "South Carolina",
    "conf": "SEC",
    "record": "5-0",
-   "adjoe": 111.62703984271518,
-   "adjde": 101.73482050869072,
-   "adjt": 66.99753566567595,
-   "barthag": 0.7440502367341857
+   "adjoe": 111.62703984271528,
+   "adjde": 101.7348205086907,
+   "adjt": 66.99753566567597,
+   "barthag": 0.7440502367341879
   },
   {
    "rank": 84,
    "team": "Wake Forest",
    "conf": "ACC",
    "record": "4-1",
-   "adjoe": 110.33908579973335,
-   "adjde": 100.77026772299392,
-   "adjt": 68.7620130311872,
-   "barthag": 0.739471030498382
+   "adjoe": 110.33908579973343,
+   "adjde": 100.77026772299388,
+   "adjt": 68.76201303118721,
+   "barthag": 0.7394710304983845
   },
   {
    "rank": 85,
    "team": "Washington",
    "conf": "B10",
    "record": "3-0",
-   "adjoe": 113.66952331843083,
-   "adjde": 103.9417358846715,
-   "adjt": 69.30611985448006,
-   "barthag": 0.736691974514327
+   "adjoe": 113.66952331843089,
+   "adjde": 103.94173588467143,
+   "adjt": 69.30611985448009,
+   "barthag": 0.7366919745143297
   },
   {
    "rank": 86,
    "team": "George Mason",
    "conf": "A10",
    "record": "4-1",
-   "adjoe": 111.06446628210372,
-   "adjde": 101.62529099319931,
-   "adjt": 66.59636902359804,
-   "barthag": 0.7352474233084153
+   "adjoe": 111.0644662821038,
+   "adjde": 101.62529099319926,
+   "adjt": 66.59636902359807,
+   "barthag": 0.735247423308418
   },
   {
    "rank": 87,
    "team": "Butler",
    "conf": "BE",
    "record": "3-2",
-   "adjoe": 111.546522213406,
-   "adjde": 102.31874153080153,
-   "adjt": 74.56547682347964,
-   "barthag": 0.7296824744770227
+   "adjoe": 111.54652221340613,
+   "adjde": 102.31874153080152,
+   "adjt": 74.56547682347967,
+   "barthag": 0.7296824744770256
   },
   {
    "rank": 88,
    "team": "Nevada",
    "conf": "MWC",
    "record": "3-2",
-   "adjoe": 111.0525832349966,
-   "adjde": 101.92999755051437,
-   "adjt": 68.49484368902553,
-   "barthag": 0.7282479730247629
+   "adjoe": 111.05258323499672,
+   "adjde": 101.9299975505143,
+   "adjt": 68.49484368902554,
+   "barthag": 0.7282479730247667
   },
   {
    "rank": 89,
    "team": "UC Santa Barbara",
    "conf": "BW",
    "record": "4-0",
-   "adjoe": 113.99014810117139,
-   "adjde": 104.73011578201213,
-   "adjt": 67.19509597639946,
-   "barthag": 0.7259839161346464
+   "adjoe": 113.99014810117143,
+   "adjde": 104.73011578201204,
+   "adjt": 67.19509597639949,
+   "barthag": 0.7259839161346494
   },
   {
    "rank": 90,
    "team": "Memphis",
    "conf": "Amer",
    "record": "3-1",
-   "adjoe": 117.26310044997867,
-   "adjde": 107.85560413095054,
-   "adjt": 71.8624546962285,
-   "barthag": 0.7234636807998437
+   "adjoe": 117.2631004499788,
+   "adjde": 107.8556041309504,
+   "adjt": 71.86245469622853,
+   "barthag": 0.7234636807998492
   },
   {
    "rank": 91,
    "team": "Murray St.",
    "conf": "MVC",
    "record": "5-0",
-   "adjoe": 112.24484836234986,
-   "adjde": 103.34276692628747,
+   "adjoe": 112.24484836234954,
+   "adjde": 103.34276692628731,
    "adjt": 74.19980739003124,
-   "barthag": 0.7211675311503516
+   "barthag": 0.7211675311503486
   },
   {
    "rank": 92,
    "team": "Tulsa",
    "conf": "Amer",
    "record": "4-0",
-   "adjoe": 111.53239499103739,
-   "adjde": 103.02922179111202,
-   "adjt": 69.8730857509312,
-   "barthag": 0.7134047456840391
+   "adjoe": 111.53239499103745,
+   "adjde": 103.02922179111198,
+   "adjt": 69.87308575093122,
+   "barthag": 0.7134047456840412
   },
   {
    "rank": 93,
    "team": "Stanford",
    "conf": "ACC",
    "record": "4-1",
-   "adjoe": 108.9326793969541,
-   "adjde": 100.87468219531394,
-   "adjt": 68.67978219555859,
-   "barthag": 0.7076064882709197
+   "adjoe": 108.93267939695423,
+   "adjde": 100.87468219531368,
+   "adjt": 68.67978219555862,
+   "barthag": 0.7076064882709284
   },
   {
    "rank": 94,
@@ -6726,188 +8555,188 @@
    "conf": "B10",
    "record": "3-2",
    "adjoe": 109.81028022654513,
-   "adjde": 101.81454634951133,
-   "adjt": 66.30389567051851,
-   "barthag": 0.7046236263638788
+   "adjde": 101.81454634951126,
+   "adjt": 66.30389567051854,
+   "barthag": 0.7046236263638804
   },
   {
    "rank": 95,
    "team": "Penn St.",
    "conf": "B10",
    "record": "5-1",
-   "adjoe": 113.1895180700642,
-   "adjde": 105.1838644494354,
-   "adjt": 71.19475437355126,
-   "barthag": 0.6992159447878696
+   "adjoe": 113.18951807006422,
+   "adjde": 105.18386444943532,
+   "adjt": 71.19475437355129,
+   "barthag": 0.6992159447878723
   },
   {
    "rank": 96,
    "team": "South Florida",
    "conf": "Amer",
    "record": "3-2",
-   "adjoe": 113.00525186290085,
-   "adjde": 105.11445663535875,
-   "adjt": 71.35359987012289,
-   "barthag": 0.6968666908649451
+   "adjoe": 113.00525186290072,
+   "adjde": 105.11445663535869,
+   "adjt": 71.3535998701229,
+   "barthag": 0.6968666908649437
   },
   {
    "rank": 97,
    "team": "Miami OH",
    "conf": "MAC",
    "record": "4-0",
-   "adjoe": 113.08794640077174,
-   "adjde": 105.51400924272922,
-   "adjt": 71.3448993026936,
-   "barthag": 0.6893760294222964
+   "adjoe": 113.08794640077187,
+   "adjde": 105.51400924272913,
+   "adjt": 71.34489930269363,
+   "barthag": 0.6893760294223011
   },
   {
    "rank": 98,
    "team": "Colorado St.",
    "conf": "P12",
    "record": "4-1",
-   "adjoe": 110.42532199898898,
-   "adjde": 103.06114240133635,
-   "adjt": 69.08449523036795,
-   "barthag": 0.6886243877660769
+   "adjoe": 110.42532199898906,
+   "adjde": 103.06114240133621,
+   "adjt": 69.08449523036798,
+   "barthag": 0.6886243877660821
   },
   {
    "rank": 99,
    "team": "UC Irvine",
    "conf": "BW",
    "record": "3-1",
-   "adjoe": 106.1909595719847,
-   "adjde": 99.12558349762139,
-   "adjt": 70.44547318260626,
-   "barthag": 0.6882158154499447
+   "adjoe": 106.19095957198482,
+   "adjde": 99.12558349762132,
+   "adjt": 70.44547318260629,
+   "barthag": 0.688215815449949
   },
   {
    "rank": 100,
    "team": "Boston College",
    "conf": "ACC",
    "record": "5-0",
-   "adjoe": 112.24801683323622,
-   "adjde": 105.00772674436942,
-   "adjt": 62.6428356901936,
-   "barthag": 0.682824932607941
+   "adjoe": 112.2480168332363,
+   "adjde": 105.0077267443694,
+   "adjt": 62.64283569019361,
+   "barthag": 0.6828249326079431
   },
   {
    "rank": 101,
    "team": "Akron",
    "conf": "MAC",
    "record": "3-1",
-   "adjoe": 108.04104054136118,
+   "adjoe": 108.04104054136124,
    "adjde": 101.08046141580328,
-   "adjt": 66.85505423403441,
-   "barthag": 0.6826191449026034
+   "adjt": 66.85505423403443,
+   "barthag": 0.6826191449026048
   },
   {
    "rank": 102,
    "team": "Texas St.",
    "conf": "P12",
    "record": "6-0",
-   "adjoe": 111.6446019938526,
-   "adjde": 104.76110741270165,
-   "adjt": 67.10564675541441,
-   "barthag": 0.675208358461177
+   "adjoe": 111.64460199385262,
+   "adjde": 104.76110741270162,
+   "adjt": 67.10564675541444,
+   "barthag": 0.675208358461178
   },
   {
    "rank": 103,
    "team": "St. Bonaventure",
    "conf": "A10",
    "record": "3-1",
-   "adjoe": 109.62688726442586,
-   "adjde": 102.99673238279395,
-   "adjt": 68.69636763612134,
-   "barthag": 0.6720413048828018
+   "adjoe": 109.62688726442595,
+   "adjde": 102.99673238279388,
+   "adjt": 68.69636763612137,
+   "barthag": 0.6720413048828056
   },
   {
    "rank": 104,
    "team": "Colorado",
    "conf": "B12",
    "record": "2-3",
-   "adjoe": 108.2245338470713,
-   "adjde": 101.89432424446919,
-   "adjt": 70.6685243544201,
-   "barthag": 0.6666620124174372
+   "adjoe": 108.22453384707137,
+   "adjde": 101.89432424446916,
+   "adjt": 70.66852435442013,
+   "barthag": 0.6666620124174396
   },
   {
    "rank": 105,
    "team": "Wright St.",
    "conf": "Horz",
    "record": "5-0",
-   "adjoe": 111.50670940725813,
-   "adjde": 105.03464077487166,
-   "adjt": 69.1305215955401,
-   "barthag": 0.6654411454567182
+   "adjoe": 111.50670940725823,
+   "adjde": 105.03464077487165,
+   "adjt": 69.13052159554013,
+   "barthag": 0.6654411454567208
   },
   {
    "rank": 106,
    "team": "Charlotte",
    "conf": "Amer",
    "record": "3-2",
-   "adjoe": 111.1438899638016,
-   "adjde": 104.72713428982786,
-   "adjt": 67.83367252373107,
-   "barthag": 0.6646030845226298
+   "adjoe": 111.14388996380167,
+   "adjde": 104.72713428982775,
+   "adjt": 67.8336725237311,
+   "barthag": 0.6646030845226343
   },
   {
    "rank": 107,
    "team": "Dayton",
    "conf": "A10",
    "record": "2-3",
-   "adjoe": 110.5003080808754,
-   "adjde": 104.16568334420671,
-   "adjt": 68.88470655921617,
-   "barthag": 0.6634951623208822
+   "adjoe": 110.5003080808755,
+   "adjde": 104.16568334420651,
+   "adjt": 68.88470655921618,
+   "barthag": 0.6634951623208896
   },
   {
    "rank": 108,
    "team": "Wyoming",
    "conf": "MWC",
    "record": "4-1",
-   "adjoe": 110.56458304140617,
-   "adjde": 104.27791386616985,
-   "adjt": 68.01951037891222,
-   "barthag": 0.6622221463637881
+   "adjoe": 110.56458304140622,
+   "adjde": 104.27791386616981,
+   "adjt": 68.01951037891223,
+   "barthag": 0.6622221463637904
   },
   {
    "rank": 109,
    "team": "Illinois St.",
    "conf": "MVC",
    "record": "2-3",
-   "adjoe": 111.47662658818301,
-   "adjde": 105.23826844327337,
-   "adjt": 66.42762344989255,
-   "barthag": 0.6597681754409945
+   "adjoe": 111.47662658818314,
+   "adjde": 105.2382684432733,
+   "adjt": 66.42762344989258,
+   "barthag": 0.6597681754409993
   },
   {
    "rank": 110,
    "team": "UNLV",
    "conf": "MWC",
    "record": "3-2",
-   "adjoe": 111.959485851903,
-   "adjde": 105.74001647327428,
-   "adjt": 71.79841960761532,
-   "barthag": 0.658646226166926
+   "adjoe": 111.95948585190342,
+   "adjde": 105.74001647327415,
+   "adjt": 71.79841960761533,
+   "barthag": 0.658646226166939
   },
   {
    "rank": 111,
    "team": "UNC Wilmington",
    "conf": "CAA",
    "record": "4-1",
-   "adjoe": 113.80482857202585,
-   "adjde": 107.6393162135779,
-   "adjt": 68.74716212866005,
-   "barthag": 0.6548751214677948
+   "adjoe": 113.80482857202594,
+   "adjde": 107.63931621357781,
+   "adjt": 68.74716212866007,
+   "barthag": 0.6548751214677989
   },
   {
    "rank": 112,
    "team": "Richmond",
    "conf": "A10",
    "record": "3-2",
-   "adjoe": 110.45624890062174,
-   "adjde": 104.6600440642871,
-   "adjt": 69.55126252928143,
+   "adjoe": 110.45624890062177,
+   "adjde": 104.66004406428713,
+   "adjt": 69.55126252928144,
    "barthag": 0.6501898810434361
   },
   {
@@ -6915,120 +8744,120 @@
    "team": "California",
    "conf": "ACC",
    "record": "3-2",
-   "adjoe": 109.69298556135247,
-   "adjde": 104.2316125725886,
-   "adjt": 69.44085296844958,
-   "barthag": 0.6427464335320109
+   "adjoe": 109.69298556135266,
+   "adjde": 104.23161257258819,
+   "adjt": 69.4408529684496,
+   "barthag": 0.6427464335320258
   },
   {
    "rank": 114,
    "team": "Western Kentucky",
    "conf": "CUSA",
    "record": "3-2",
-   "adjoe": 108.79686004863979,
-   "adjde": 103.57484486009801,
-   "adjt": 71.90771195533281,
-   "barthag": 0.6377615605739394
+   "adjoe": 108.79686004863976,
+   "adjde": 103.574844860098,
+   "adjt": 71.90771195533283,
+   "barthag": 0.6377615605739391
   },
   {
    "rank": 115,
    "team": "Utah",
    "conf": "B12",
    "record": "3-1",
-   "adjoe": 107.78407191982578,
-   "adjde": 102.65500298233921,
+   "adjoe": 107.78407191982592,
+   "adjde": 102.65500298233907,
    "adjt": 67.82900045945287,
-   "barthag": 0.6366131330095218
+   "barthag": 0.636613133009529
   },
   {
    "rank": 116,
    "team": "Montana St.",
    "conf": "BSky",
    "record": "2-3",
-   "adjoe": 108.46981627525503,
-   "adjde": 103.54691362976939,
-   "adjt": 67.87174015601101,
-   "barthag": 0.6304487316519485
+   "adjoe": 108.46981627525517,
+   "adjde": 103.5469136297693,
+   "adjt": 67.87174015601104,
+   "barthag": 0.6304487316519543
   },
   {
    "rank": 117,
    "team": "Pacific",
    "conf": "WCC",
    "record": "4-1",
-   "adjoe": 107.09627661015544,
-   "adjde": 102.42358589603515,
+   "adjoe": 107.09627661015553,
+   "adjde": 102.4235858960351,
    "adjt": 67.46556372735331,
-   "barthag": 0.6255162114438358
+   "barthag": 0.6255162114438392
   },
   {
    "rank": 118,
    "team": "Utah Valley",
    "conf": "BW",
    "record": "3-0",
-   "adjoe": 109.3302706948756,
-   "adjde": 104.57486212257665,
-   "adjt": 70.79990715276419,
-   "barthag": 0.6251360739044775
+   "adjoe": 109.33027069487568,
+   "adjde": 104.57486212257659,
+   "adjt": 70.7999071527642,
+   "barthag": 0.625136073904481
   },
   {
    "rank": 119,
    "team": "Illinois Chicago",
    "conf": "MVC",
    "record": "4-1",
-   "adjoe": 109.54301047510543,
-   "adjde": 104.83009084377605,
-   "adjt": 67.5208878684074,
-   "barthag": 0.6238046390334145
+   "adjoe": 109.54301047510549,
+   "adjde": 104.83009084377603,
+   "adjt": 67.52088786840743,
+   "barthag": 0.6238046390334164
   },
   {
    "rank": 120,
    "team": "North Texas",
    "conf": "Amer",
    "record": "3-1",
-   "adjoe": 107.12584327371071,
-   "adjde": 102.5333219157652,
-   "adjt": 67.13567567456934,
-   "barthag": 0.6233727606204036
+   "adjoe": 107.12584327371076,
+   "adjde": 102.53332191576521,
+   "adjt": 67.13567567456937,
+   "barthag": 0.6233727606204044
   },
   {
    "rank": 121,
    "team": "Saint Joseph's",
    "conf": "A10",
    "record": "5-0",
-   "adjoe": 102.27216596273357,
-   "adjde": 98.64489445025141,
-   "adjt": 71.72552040527138,
-   "barthag": 0.602352617893851
+   "adjoe": 102.2721659627336,
+   "adjde": 98.64489445025143,
+   "adjt": 71.72552040527141,
+   "barthag": 0.6023526178938514
   },
   {
    "rank": 122,
    "team": "Davidson",
    "conf": "A10",
    "record": "3-2",
-   "adjoe": 107.21739856974176,
-   "adjde": 103.44979842144846,
-   "adjt": 66.75674117802814,
-   "barthag": 0.6014184716663611
+   "adjoe": 107.2173985697417,
+   "adjde": 103.4497984214485,
+   "adjt": 66.75674117802815,
+   "barthag": 0.6014184716663585
   },
   {
    "rank": 123,
    "team": "Belmont",
    "conf": "MVC",
    "record": "4-1",
-   "adjoe": 108.7397149159465,
-   "adjde": 105.0136438652611,
+   "adjoe": 108.73971491594656,
+   "adjde": 105.01364386526106,
    "adjt": 70.734806244943,
-   "barthag": 0.5989202768900782
+   "barthag": 0.5989202768900812
   },
   {
    "rank": 124,
    "team": "Fordham",
    "conf": "A10",
    "record": "4-1",
-   "adjoe": 108.53703088700038,
-   "adjde": 104.95468740764093,
-   "adjt": 68.64169108556055,
-   "barthag": 0.5953124496523089
+   "adjoe": 108.53703088700064,
+   "adjde": 104.9546874076409,
+   "adjt": 68.64169108556057,
+   "barthag": 0.5953124496523162
   },
   {
    "rank": 125,
@@ -7036,169 +8865,169 @@
    "conf": "ACC",
    "record": "5-0",
    "adjoe": 109.47536335296022,
-   "adjde": 105.93869849826945,
+   "adjde": 105.93869849826959,
    "adjt": 71.88480288678072,
-   "barthag": 0.5933056054472499
+   "barthag": 0.5933056054472461
   },
   {
    "rank": 126,
    "team": "James Madison",
    "conf": "SB",
    "record": "3-2",
-   "adjoe": 109.73837781416006,
-   "adjde": 106.44254869921355,
-   "adjt": 69.07630945170128,
-   "barthag": 0.586782036993939
+   "adjoe": 109.73837781416026,
+   "adjde": 106.44254869921332,
+   "adjt": 69.07630945170129,
+   "barthag": 0.5867820369939502
   },
   {
    "rank": 127,
    "team": "Rhode Island",
    "conf": "A10",
    "record": "5-0",
-   "adjoe": 108.28955793136907,
-   "adjde": 105.09722485381009,
-   "adjt": 69.21228466784645,
-   "barthag": 0.5851892420819562
+   "adjoe": 108.28955793136919,
+   "adjde": 105.09722485381008,
+   "adjt": 69.21228466784646,
+   "barthag": 0.5851892420819595
   },
   {
    "rank": 128,
    "team": "Duquesne",
    "conf": "A10",
    "record": "5-0",
-   "adjoe": 109.13267179877927,
+   "adjoe": 109.13267179877916,
    "adjde": 106.25562049555413,
-   "adjt": 68.16590056586469,
-   "barthag": 0.5762116799197622
+   "adjt": 68.1659005658647,
+   "barthag": 0.5762116799197593
   },
   {
    "rank": 129,
    "team": "Furman",
    "conf": "SC",
    "record": "5-1",
-   "adjoe": 108.1411294043101,
-   "adjde": 105.42036465335755,
-   "adjt": 68.86596631575011,
-   "barthag": 0.5727389685540039
+   "adjoe": 108.14112940431028,
+   "adjde": 105.4203646533575,
+   "adjt": 68.86596631575013,
+   "barthag": 0.5727389685540097
   },
   {
    "rank": 130,
    "team": "Loyola Marymount",
    "conf": "WCC",
    "record": "2-3",
-   "adjoe": 110.75412034897937,
-   "adjde": 108.1654970020696,
-   "adjt": 68.22540597484772,
-   "barthag": 0.5675782037475026
+   "adjoe": 110.75412034897934,
+   "adjde": 108.16549700206971,
+   "adjt": 68.22540597484775,
+   "barthag": 0.5675782037474989
   },
   {
    "rank": 131,
    "team": "UAB",
    "conf": "Amer",
    "record": "3-2",
-   "adjoe": 108.69930612360764,
-   "adjde": 106.30784582458111,
-   "adjt": 70.64612626877455,
-   "barthag": 0.5636115970159913
+   "adjoe": 108.69930612360754,
+   "adjde": 106.3078458245811,
+   "adjt": 70.64612626877457,
+   "barthag": 0.5636115970159891
   },
   {
    "rank": 132,
    "team": "Penn",
    "conf": "Ivy",
    "record": "2-3",
-   "adjoe": 107.94225669362815,
-   "adjde": 105.60615200737585,
-   "adjt": 72.77970072717699,
-   "barthag": 0.5625746224566526
+   "adjoe": 107.94225669362811,
+   "adjde": 105.6061520073759,
+   "adjt": 72.779700727177,
+   "barthag": 0.5625746224566502
   },
   {
    "rank": 133,
    "team": "Loyola Chicago",
    "conf": "A10",
    "record": "3-2",
-   "adjoe": 107.4173222478025,
-   "adjde": 105.09281149064185,
-   "adjt": 68.93940173692312,
-   "barthag": 0.5625683425312624
+   "adjoe": 107.41732224780262,
+   "adjde": 105.09281149064182,
+   "adjt": 68.93940173692313,
+   "barthag": 0.5625683425312663
   },
   {
    "rank": 134,
    "team": "Charleston",
    "conf": "CAA",
    "record": "4-0",
-   "adjoe": 111.27166356860292,
-   "adjde": 109.04973390783243,
-   "adjt": 71.04971272658285,
-   "barthag": 0.5577317836023921
+   "adjoe": 111.27166356860297,
+   "adjde": 109.04973390783238,
+   "adjt": 71.04971272658288,
+   "barthag": 0.5577317836023948
   },
   {
    "rank": 135,
    "team": "San Diego",
    "conf": "WCC",
    "record": "4-1",
-   "adjoe": 110.52912004546805,
-   "adjde": 108.34075061780311,
-   "adjt": 66.84996273067352,
-   "barthag": 0.5572412081991182
+   "adjoe": 110.52912004546809,
+   "adjde": 108.34075061780317,
+   "adjt": 66.84996273067354,
+   "barthag": 0.5572412081991177
   },
   {
    "rank": 136,
    "team": "Florida Atlantic",
    "conf": "Amer",
    "record": "4-1",
-   "adjoe": 109.77737312745317,
-   "adjde": 107.66203091019221,
-   "adjt": 70.45210063021645,
-   "barthag": 0.555707947138965
+   "adjoe": 109.77737312745316,
+   "adjde": 107.66203091019229,
+   "adjt": 70.45210063021648,
+   "barthag": 0.5557079471389628
   },
   {
    "rank": 137,
    "team": "Stephen F. Austin",
    "conf": "Slnd",
    "record": "3-1",
-   "adjoe": 107.25336141034336,
-   "adjde": 105.4187609879682,
-   "adjt": 67.7279464789411,
-   "barthag": 0.5494410907226563
+   "adjoe": 107.25336141034344,
+   "adjde": 105.41876098796811,
+   "adjt": 67.72794647894113,
+   "barthag": 0.5494410907226609
   },
   {
    "rank": 138,
    "team": "Temple",
    "conf": "Amer",
    "record": "2-2",
-   "adjoe": 108.60706199337811,
-   "adjde": 107.08681636900184,
-   "adjt": 68.79421577296235,
-   "barthag": 0.5404390865219337
+   "adjoe": 108.60706199337818,
+   "adjde": 107.0868163690018,
+   "adjt": 68.79421577296237,
+   "barthag": 0.5404390865219367
   },
   {
    "rank": 139,
    "team": "UC San Diego",
    "conf": "BW",
    "record": "3-1",
-   "adjoe": 108.89233775329156,
-   "adjde": 107.44340949827958,
-   "adjt": 69.85203164628264,
-   "barthag": 0.5384357434243574
+   "adjoe": 108.89233775329157,
+   "adjde": 107.44340949827942,
+   "adjt": 69.85203164628267,
+   "barthag": 0.538435743424362
   },
   {
    "rank": 140,
    "team": "Western Michigan",
    "conf": "MAC",
    "record": "4-1",
-   "adjoe": 109.97858525737428,
-   "adjde": 108.57400746421851,
-   "adjt": 68.48106533749672,
-   "barthag": 0.5368870474894344
+   "adjoe": 109.97858525737435,
+   "adjde": 108.57400746421845,
+   "adjt": 68.48106533749674,
+   "barthag": 0.5368870474894377
   },
   {
    "rank": 141,
    "team": "Sam Houston St.",
    "conf": "CUSA",
    "record": "2-3",
-   "adjoe": 108.27537349902573,
-   "adjde": 106.91444760137477,
-   "adjt": 71.69902094430513,
-   "barthag": 0.5363012489415543
+   "adjoe": 108.27537349902586,
+   "adjde": 106.9144476013748,
+   "adjt": 71.69902094430516,
+   "barthag": 0.5363012489415568
   },
   {
    "rank": 142,
@@ -7206,129 +9035,129 @@
    "conf": "MVC",
    "record": "3-3",
    "adjoe": 109.94458186611641,
-   "adjde": 108.56926775737247,
-   "adjt": 70.91125663550714,
-   "barthag": 0.5361275910570331
+   "adjde": 108.56926775737234,
+   "adjt": 70.91125663550713,
+   "barthag": 0.5361275910570364
   },
   {
    "rank": 143,
    "team": "Seattle",
    "conf": "WCC",
    "record": "3-2",
-   "adjoe": 103.77336507167867,
-   "adjde": 102.55077108854331,
-   "adjt": 69.8679706295213,
-   "barthag": 0.5340199460104708
+   "adjoe": 103.77336507167868,
+   "adjde": 102.55077108854321,
+   "adjt": 69.86797062952131,
+   "barthag": 0.534019946010474
   },
   {
    "rank": 144,
    "team": "Valparaiso",
    "conf": "MVC",
    "record": "3-1",
-   "adjoe": 107.11891192028087,
-   "adjde": 106.02633860111885,
-   "adjt": 68.22417049585944,
-   "barthag": 0.5294404152350921
+   "adjoe": 107.11891192028094,
+   "adjde": 106.0263386011188,
+   "adjt": 68.22417049585947,
+   "barthag": 0.5294404152350956
   },
   {
    "rank": 145,
    "team": "Liberty",
    "conf": "CUSA",
    "record": "3-1",
-   "adjoe": 108.59494273555065,
-   "adjde": 107.53168076472357,
-   "adjt": 66.37657081788493,
-   "barthag": 0.5282579293215164
+   "adjoe": 108.5949427355507,
+   "adjde": 107.53168076472355,
+   "adjt": 66.37657081788495,
+   "barthag": 0.5282579293215187
   },
   {
    "rank": 146,
    "team": "Eastern Michigan",
    "conf": "MAC",
    "record": "3-1",
-   "adjoe": 106.33941051385713,
-   "adjde": 105.47412559457221,
-   "adjt": 67.23059336595215,
-   "barthag": 0.5234723377887459
+   "adjoe": 106.33941051385716,
+   "adjde": 105.47412559457223,
+   "adjt": 67.23059336595217,
+   "barthag": 0.5234723377887461
   },
   {
    "rank": 147,
    "team": "Harvard",
    "conf": "Ivy",
    "record": "2-4",
-   "adjoe": 106.03422553573877,
-   "adjde": 105.4742667793358,
+   "adjoe": 106.03422553573876,
+   "adjde": 105.47426677933578,
    "adjt": 66.4377628259653,
-   "barthag": 0.5152181874817768
+   "barthag": 0.5152181874817772
   },
   {
    "rank": 148,
    "team": "Hawaii",
    "conf": "MWC",
    "record": "3-2",
-   "adjoe": 105.0570202122031,
+   "adjoe": 105.05702021220318,
    "adjde": 104.59083573407531,
-   "adjt": 69.5621932032392,
-   "barthag": 0.5127832503060546
+   "adjt": 69.56219320323923,
+   "barthag": 0.512783250306057
   },
   {
    "rank": 149,
    "team": "Washington St.",
    "conf": "P12",
    "record": "2-3",
-   "adjoe": 108.62284403270647,
-   "adjde": 108.36597346207655,
-   "adjt": 68.3022978018959,
-   "barthag": 0.5068064117286416
+   "adjoe": 108.6228440327065,
+   "adjde": 108.36597346207657,
+   "adjt": 68.30229780189593,
+   "barthag": 0.506806411728642
   },
   {
    "rank": 150,
    "team": "UTEP",
    "conf": "MWC",
    "record": "3-1",
-   "adjoe": 105.69055710635317,
-   "adjde": 105.61178040955453,
-   "adjt": 67.72676875585552,
-   "barthag": 0.5021436736456139
+   "adjoe": 105.69055710635321,
+   "adjde": 105.61178040955448,
+   "adjt": 67.72676875585553,
+   "barthag": 0.5021436736456161
   },
   {
    "rank": 151,
    "team": "Portland",
    "conf": "WCC",
    "record": "4-2",
-   "adjoe": 107.94678719588242,
-   "adjde": 107.88705618505209,
-   "adjt": 70.3668244953821,
-   "barthag": 0.5015912803853263
+   "adjoe": 107.94678719588245,
+   "adjde": 107.88705618505193,
+   "adjt": 70.36682449538212,
+   "barthag": 0.5015912803853312
   },
   {
    "rank": 152,
    "team": "Kennesaw St.",
    "conf": "CUSA",
    "record": "4-1",
-   "adjoe": 105.90046758361024,
+   "adjoe": 105.90046758361032,
    "adjde": 105.87024601603119,
-   "adjt": 73.62745657016832,
-   "barthag": 0.5008205754978692
+   "adjt": 73.62745657016835,
+   "barthag": 0.5008205754978715
   },
   {
    "rank": 153,
    "team": "Howard",
    "conf": "MEAC",
    "record": "3-3",
-   "adjoe": 104.48512948082912,
-   "adjde": 104.51437611646796,
-   "adjt": 69.62497411095877,
-   "barthag": 0.4991953664657259
+   "adjoe": 104.48512948082893,
+   "adjde": 104.51437611646823,
+   "adjt": 69.6249741109588,
+   "barthag": 0.49919536646571333
   },
   {
    "rank": 154,
    "team": "Tarleton St.",
    "conf": "UAC",
    "record": "4-1",
-   "adjoe": 106.8170127893175,
-   "adjde": 106.84707330907469,
-   "adjt": 73.02030229347363,
-   "barthag": 0.49919102998507
+   "adjoe": 106.81701278931746,
+   "adjde": 106.84707330907467,
+   "adjt": 73.02030229347365,
+   "barthag": 0.49919102998506915
   },
   {
    "rank": 155,
@@ -7345,90 +9174,90 @@
    "team": "Middle Tennessee",
    "conf": "CUSA",
    "record": "4-1",
-   "adjoe": 106.86699768131362,
-   "adjde": 107.00247486344526,
-   "adjt": 68.37710612736062,
-   "barthag": 0.49635768437326233
+   "adjoe": 106.8669976813137,
+   "adjde": 107.00247486344531,
+   "adjt": 68.37710612736065,
+   "barthag": 0.496357684373263
   },
   {
    "rank": 157,
    "team": "FIU",
    "conf": "CUSA",
    "record": "3-1",
-   "adjoe": 107.52034013300391,
-   "adjde": 107.8282689163546,
+   "adjoe": 107.52034013300373,
+   "adjde": 107.82826891635496,
    "adjt": 76.03030457250016,
-   "barthag": 0.4917787621450697
+   "barthag": 0.4917787621450554
   },
   {
    "rank": 158,
    "team": "East Carolina",
    "conf": "Amer",
    "record": "3-1",
-   "adjoe": 105.02030088869756,
-   "adjde": 105.41896035229126,
-   "adjt": 70.38993459230953,
-   "barthag": 0.48910881906823866
+   "adjoe": 105.02030088869763,
+   "adjde": 105.41896035229121,
+   "adjt": 70.38993459230956,
+   "barthag": 0.4891088190682421
   },
   {
    "rank": 159,
    "team": "Towson",
    "conf": "CAA",
    "record": "3-3",
-   "adjoe": 100.89485077972697,
-   "adjde": 101.35079393244975,
-   "adjt": 66.23058702622271,
-   "barthag": 0.48704006530053084
+   "adjoe": 100.89485077972722,
+   "adjde": 101.35079393244953,
+   "adjt": 66.23058702622272,
+   "barthag": 0.48704006530054417
   },
   {
    "rank": 160,
    "team": "La Salle",
    "conf": "A10",
    "record": "2-3",
-   "adjoe": 107.63608188880507,
-   "adjde": 108.17159548909467,
-   "adjt": 69.89407447876238,
-   "barthag": 0.4857355679265969
+   "adjoe": 107.63608188880515,
+   "adjde": 108.17159548909453,
+   "adjt": 69.89407447876239,
+   "barthag": 0.48573556792660294
   },
   {
    "rank": 161,
    "team": "Drake",
    "conf": "MVC",
    "record": "3-1",
-   "adjoe": 107.98988616207257,
-   "adjde": 108.59391740753895,
-   "adjt": 69.199390542572,
-   "barthag": 0.48396926174484717
+   "adjoe": 107.98988616207261,
+   "adjde": 108.59391740753892,
+   "adjt": 69.19939054257203,
+   "barthag": 0.48396926174484906
   },
   {
    "rank": 162,
    "team": "New Mexico St.",
    "conf": "CUSA",
    "record": "1-3",
-   "adjoe": 106.7677837910033,
-   "adjde": 107.395312501715,
-   "adjt": 67.37659473350016,
-   "barthag": 0.48315799785895575
+   "adjoe": 106.76778379100335,
+   "adjde": 107.39531250171495,
+   "adjt": 67.37659473350018,
+   "barthag": 0.4831579978589584
   },
   {
    "rank": 163,
    "team": "Pepperdine",
    "conf": "WCC",
    "record": "2-2",
-   "adjoe": 109.66276082254781,
-   "adjde": 110.46867569037988,
-   "adjt": 69.99370466854666,
-   "barthag": 0.47896122837415683
+   "adjoe": 109.66276082254785,
+   "adjde": 110.4686756903798,
+   "adjt": 69.99370466854668,
+   "barthag": 0.47896122837416016
   },
   {
    "rank": 164,
    "team": "Troy",
    "conf": "SB",
    "record": "2-3",
-   "adjoe": 106.1344600060597,
-   "adjde": 106.95821173313846,
-   "adjt": 64.9380538278805,
-   "barthag": 0.47778676235428036
+   "adjoe": 106.13446000605975,
+   "adjde": 106.95821173313844,
+   "adjt": 64.93805382788052,
+   "barthag": 0.47778676235428214
   },
   {
    "rank": 165,
@@ -7436,229 +9265,229 @@
    "conf": "MAC",
    "record": "2-3",
    "adjoe": 105.52710867247708,
-   "adjde": 106.49564228289253,
-   "adjt": 71.03857671835333,
-   "barthag": 0.4737575823872688
+   "adjde": 106.49564228289245,
+   "adjt": 71.03857671835335,
+   "barthag": 0.47375758238727106
   },
   {
    "rank": 166,
    "team": "Sacramento St.",
    "conf": "BW",
    "record": "1-2",
-   "adjoe": 106.76970124165729,
-   "adjde": 107.93369530460512,
-   "adjt": 73.33455374950849,
-   "barthag": 0.46886694481088714
+   "adjoe": 106.7697012416574,
+   "adjde": 107.93369530460501,
+   "adjt": 73.33455374950852,
+   "barthag": 0.4688669448108933
   },
   {
    "rank": 167,
    "team": "San Francisco",
    "conf": "WCC",
    "record": "4-1",
-   "adjoe": 102.98943454412873,
-   "adjde": 104.36544623343838,
-   "adjt": 68.57537517851767,
-   "barthag": 0.4619162146401631
+   "adjoe": 102.98943454412884,
+   "adjde": 104.36544623343823,
+   "adjt": 68.57537517851769,
+   "barthag": 0.4619162146401702
   },
   {
    "rank": 168,
    "team": "Columbia",
    "conf": "Ivy",
    "record": "4-1",
-   "adjoe": 106.15871718553018,
+   "adjoe": 106.15871718553025,
    "adjde": 107.60775710044805,
-   "adjt": 68.2463281536762,
-   "barthag": 0.4611011503777444
+   "adjt": 68.24632815367623,
+   "barthag": 0.46110115037774635
   },
   {
    "rank": 169,
    "team": "William & Mary",
    "conf": "CAA",
    "record": "3-2",
-   "adjoe": 108.0093534354547,
-   "adjde": 109.50448169414727,
-   "adjt": 73.49118102890358,
-   "barthag": 0.460557633194461
+   "adjoe": 108.00935343545473,
+   "adjde": 109.5044816941473,
+   "adjt": 73.4911810289036,
+   "barthag": 0.4605576331944611
   },
   {
    "rank": 170,
    "team": "Hofstra",
    "conf": "CAA",
    "record": "2-3",
-   "adjoe": 101.32429815259937,
-   "adjde": 102.74688516194493,
-   "adjt": 66.3145173521468,
-   "barthag": 0.4600015618202032
+   "adjoe": 101.32429815259955,
+   "adjde": 102.74688516194512,
+   "adjt": 66.31451735214682,
+   "barthag": 0.46000156182020324
   },
   {
    "rank": 171,
    "team": "Princeton",
    "conf": "Ivy",
    "record": "3-2",
-   "adjoe": 105.84110251265469,
-   "adjde": 107.32771511714216,
-   "adjt": 66.48913324434629,
-   "barthag": 0.4599853279612821
+   "adjoe": 105.84110251265466,
+   "adjde": 107.32771511714205,
+   "adjt": 66.48913324434632,
+   "barthag": 0.4599853279612844
   },
   {
    "rank": 172,
    "team": "East Tennessee St.",
    "conf": "SC",
    "record": "1-3",
-   "adjoe": 104.90158728276637,
+   "adjoe": 104.90158728276646,
    "adjde": 106.39787593443111,
-   "adjt": 66.14579037977848,
-   "barthag": 0.45937124672429963
+   "adjt": 66.14579037977849,
+   "barthag": 0.4593712467243019
   },
   {
    "rank": 173,
    "team": "San Jose St.",
    "conf": "MWC",
    "record": "3-2",
-   "adjoe": 111.48352495369659,
-   "adjde": 113.13682570338489,
+   "adjoe": 111.48352495369669,
+   "adjde": 113.13682570338477,
    "adjt": 68.57502976847896,
-   "barthag": 0.4577775978034254
+   "barthag": 0.45777759780343086
   },
   {
    "rank": 174,
    "team": "Eastern Washington",
    "conf": "BSky",
    "record": "2-3",
-   "adjoe": 108.11073980235783,
-   "adjde": 109.74908629761492,
-   "adjt": 69.66877396192736,
-   "barthag": 0.4568656000379773
+   "adjoe": 108.11073980235801,
+   "adjde": 109.74908629761484,
+   "adjt": 69.66877396192739,
+   "barthag": 0.4568656000379844
   },
   {
    "rank": 175,
    "team": "Central Arkansas",
    "conf": "UAC",
    "record": "2-3",
-   "adjoe": 105.95637856644325,
-   "adjde": 107.58162820729382,
-   "adjt": 69.92279152137021,
-   "barthag": 0.4563470078618912
+   "adjoe": 105.95637856644333,
+   "adjde": 107.58162820729379,
+   "adjt": 69.92279152137023,
+   "barthag": 0.45634700786189425
   },
   {
    "rank": 176,
    "team": "St. Thomas",
    "conf": "Sum",
    "record": "3-3",
-   "adjoe": 108.8759486582078,
-   "adjde": 110.60086032039877,
-   "adjt": 68.00004168228334,
-   "barthag": 0.4549313374825861
+   "adjoe": 108.87594865820788,
+   "adjde": 110.6008603203987,
+   "adjt": 68.00004168228337,
+   "barthag": 0.4549313374825897
   },
   {
    "rank": 177,
    "team": "Vermont",
    "conf": "AE",
    "record": "2-3",
-   "adjoe": 107.55697492354517,
-   "adjde": 109.26531731427596,
-   "adjt": 64.94970809647522,
-   "barthag": 0.45481840730103007
+   "adjoe": 107.5569749235452,
+   "adjde": 109.26531731427616,
+   "adjt": 64.94970809647525,
+   "barthag": 0.45481840730102563
   },
   {
    "rank": 178,
    "team": "Fresno St.",
    "conf": "P12",
    "record": "3-2",
-   "adjoe": 105.88279075966948,
-   "adjde": 107.71075592825613,
-   "adjt": 71.56577994485504,
-   "barthag": 0.45094773088582313
+   "adjoe": 105.8827907596696,
+   "adjde": 107.71075592825608,
+   "adjt": 71.56577994485507,
+   "barthag": 0.4509477308858281
   },
   {
    "rank": 179,
    "team": "Old Dominion",
    "conf": "SB",
    "record": "5-1",
-   "adjoe": 106.74760055213288,
-   "adjde": 108.64672085410848,
-   "adjt": 67.16228716380783,
-   "barthag": 0.44947428209744134
+   "adjoe": 106.74760055213292,
+   "adjde": 108.64672085410845,
+   "adjt": 67.16228716380786,
+   "barthag": 0.4494742820974432
   },
   {
    "rank": 180,
    "team": "Tulane",
    "conf": "Amer",
    "record": "2-2",
-   "adjoe": 108.59691979527213,
-   "adjde": 110.59587919294316,
-   "adjt": 69.68239363006546,
-   "barthag": 0.4477520444956102
+   "adjoe": 108.59691979527204,
+   "adjde": 110.59587919294313,
+   "adjt": 69.68239363006548,
+   "barthag": 0.4477520444956086
   },
   {
    "rank": 181,
    "team": "American",
    "conf": "Pat",
    "record": "2-2",
-   "adjoe": 106.23709035477447,
-   "adjde": 108.19595366133296,
-   "adjt": 67.21386062702358,
-   "barthag": 0.44766421990314903
+   "adjoe": 106.23709035477452,
+   "adjde": 108.19595366133292,
+   "adjt": 67.2138606270236,
+   "barthag": 0.44766421990315175
   },
   {
    "rank": 182,
    "team": "Austin Peay",
    "conf": "UAC",
    "record": "3-2",
-   "adjoe": 105.29705933367848,
-   "adjde": 107.24704186959447,
-   "adjt": 69.54532611593912,
-   "barthag": 0.44744012680557904
+   "adjoe": 105.29705933367853,
+   "adjde": 107.24704186959443,
+   "adjt": 69.54532611593913,
+   "barthag": 0.4474401268055818
   },
   {
    "rank": 183,
    "team": "Cal Poly",
    "conf": "BW",
    "record": "2-3",
-   "adjoe": 107.65574057281938,
-   "adjde": 109.75148502496201,
-   "adjt": 73.34405753882102,
-   "barthag": 0.4447958692515356
+   "adjoe": 107.65574057281947,
+   "adjde": 109.75148502496187,
+   "adjt": 73.34405753882105,
+   "barthag": 0.44479586925154146
   },
   {
    "rank": 184,
    "team": "Bethune Cookman",
    "conf": "SWAC",
    "record": "1-5",
-   "adjoe": 105.48810841020777,
-   "adjde": 107.57663204763314,
-   "adjt": 71.21517726376442,
-   "barthag": 0.44387254884618615
+   "adjoe": 105.4881084102078,
+   "adjde": 107.57663204763301,
+   "adjt": 71.21517726376445,
+   "barthag": 0.44387254884619026
   },
   {
    "rank": 185,
    "team": "Tennessee Tech",
    "conf": "SC",
    "record": "4-2",
-   "adjoe": 108.81113915262605,
-   "adjde": 111.05110855962948,
-   "adjt": 72.75928139416915,
-   "barthag": 0.44168325189192054
+   "adjoe": 108.81113915262603,
+   "adjde": 111.05110855962971,
+   "adjt": 72.75928139416918,
+   "barthag": 0.44168325189191393
   },
   {
    "rank": 186,
    "team": "Chattanooga",
    "conf": "SC",
    "record": "3-2",
-   "adjoe": 108.74804035779087,
-   "adjde": 111.17515741322867,
-   "adjt": 69.42320717941143,
-   "barthag": 0.4368778390568367
+   "adjoe": 108.74804035779096,
+   "adjde": 111.17515741322873,
+   "adjt": 69.42320717941145,
+   "barthag": 0.43687783905683747
   },
   {
    "rank": 187,
    "team": "Yale",
    "conf": "Ivy",
    "record": "3-3",
-   "adjoe": 106.97505136970192,
-   "adjde": 109.38331617210123,
-   "adjt": 66.74065720131011,
-   "barthag": 0.43634197964159105
+   "adjoe": 106.97505136970143,
+   "adjde": 109.38331617210156,
+   "adjt": 66.74065720131013,
+   "barthag": 0.4363419796415698
   },
   {
    "rank": 188,
@@ -7666,379 +9495,379 @@
    "conf": "SC",
    "record": "2-3",
    "adjoe": 107.49590109264771,
-   "adjde": 110.09226329359123,
-   "adjt": 68.83149762757311,
-   "barthag": 0.4318125939453315
+   "adjde": 110.0922632935912,
+   "adjt": 68.83149762757313,
+   "barthag": 0.4318125939453322
   },
   {
    "rank": 189,
    "team": "Tennessee St.",
    "conf": "OVC",
    "record": "2-3",
-   "adjoe": 104.64234651197818,
-   "adjde": 107.26217118074254,
-   "adjt": 73.0961676966668,
-   "barthag": 0.4293830286138192
+   "adjoe": 104.6423465119783,
+   "adjde": 107.26217118074274,
+   "adjt": 73.09616769666683,
+   "barthag": 0.4293830286138175
   },
   {
    "rank": 190,
    "team": "Ohio",
    "conf": "MAC",
    "record": "3-1",
-   "adjoe": 107.45789537187605,
-   "adjde": 110.25268206236956,
+   "adjoe": 107.457895371876,
+   "adjde": 110.25268206236967,
    "adjt": 71.32277044123748,
-   "barthag": 0.426713925563171
+   "barthag": 0.426713925563167
   },
   {
    "rank": 191,
    "team": "Georgia St.",
    "conf": "SB",
    "record": "2-3",
-   "adjoe": 108.05514970663671,
-   "adjde": 110.93795207150194,
-   "adjt": 66.74047980862025,
-   "barthag": 0.42487629686538014
+   "adjoe": 108.05514970663677,
+   "adjde": 110.93795207150191,
+   "adjt": 66.74047980862026,
+   "barthag": 0.4248762968653823
   },
   {
    "rank": 192,
    "team": "Portland St.",
    "conf": "BSky",
    "record": "2-3",
-   "adjoe": 106.4561096463614,
-   "adjde": 109.31940181852951,
-   "adjt": 70.34833190201509,
-   "barthag": 0.4242812480323485
+   "adjoe": 106.45610964636154,
+   "adjde": 109.31940181852944,
+   "adjt": 70.3483319020151,
+   "barthag": 0.42428124803235406
   },
   {
    "rank": 193,
    "team": "South Dakota St.",
    "conf": "Sum",
    "record": "5-0",
-   "adjoe": 104.22644929441738,
-   "adjde": 107.0976709692952,
-   "adjt": 68.10393825279928,
-   "barthag": 0.42250073808666855
+   "adjoe": 104.22644929441742,
+   "adjde": 107.09767096929514,
+   "adjt": 68.10393825279931,
+   "barthag": 0.42250073808667116
   },
   {
    "rank": 194,
    "team": "Arkansas St.",
    "conf": "SB",
    "record": "3-2",
-   "adjoe": 104.5499425965066,
-   "adjde": 107.46380696957627,
+   "adjoe": 104.54994259650668,
+   "adjde": 107.46380696957638,
    "adjt": 73.0198882912653,
-   "barthag": 0.4216201118250853
+   "barthag": 0.4216201118250847
   },
   {
    "rank": 195,
    "team": "Monmouth",
    "conf": "CAA",
    "record": "1-3",
-   "adjoe": 104.45086942999106,
-   "adjde": 107.3854951924571,
+   "adjoe": 104.45086942999114,
+   "adjde": 107.38549519245704,
    "adjt": 69.57664395640624,
-   "barthag": 0.421005877796223
+   "barthag": 0.4210058777962267
   },
   {
    "rank": 196,
    "team": "UT Arlington",
    "conf": "UAC",
    "record": "5-1",
-   "adjoe": 103.14263207640377,
-   "adjde": 106.19623642363554,
-   "adjt": 71.19720269398569,
-   "barthag": 0.4168975452306246
+   "adjoe": 103.14263207640383,
+   "adjde": 106.19623642363553,
+   "adjt": 71.19720269398572,
+   "barthag": 0.4168975452306265
   },
   {
    "rank": 197,
    "team": "Queens",
    "conf": "ASun",
    "record": "3-2",
-   "adjoe": 111.9220944206103,
-   "adjde": 115.32263763520213,
-   "adjt": 72.93548425355449,
-   "barthag": 0.41478886557983907
+   "adjoe": 111.92209442061034,
+   "adjde": 115.32263763520216,
+   "adjt": 72.93548425355452,
+   "barthag": 0.414788865579839
   },
   {
    "rank": 198,
    "team": "Massachusetts",
    "conf": "MAC",
    "record": "2-2",
-   "adjoe": 102.48093655835925,
-   "adjde": 105.73063975768444,
-   "adjt": 71.10856065060811,
-   "barthag": 0.4112001618726714
+   "adjoe": 102.48093655835928,
+   "adjde": 105.73063975768433,
+   "adjt": 71.10856065060813,
+   "barthag": 0.41120016187267516
   },
   {
    "rank": 199,
    "team": "Appalachian St.",
    "conf": "SB",
    "record": "3-1",
-   "adjoe": 101.95732581366998,
-   "adjde": 105.20973141365874,
-   "adjt": 64.72600650564716,
-   "barthag": 0.41068928123438125
+   "adjoe": 101.95732581367018,
+   "adjde": 105.20973141365869,
+   "adjt": 64.72600650564718,
+   "barthag": 0.41068928123438814
   },
   {
    "rank": 200,
    "team": "Lamar",
    "conf": "Slnd",
    "record": "3-1",
-   "adjoe": 105.54955421517906,
-   "adjde": 109.09222391185772,
-   "adjt": 76.99846281975498,
-   "barthag": 0.40621125701676886
+   "adjoe": 105.54955421517913,
+   "adjde": 109.09222391185766,
+   "adjt": 76.998462819755,
+   "barthag": 0.40621125701677213
   },
   {
    "rank": 201,
    "team": "Green Bay",
    "conf": "Horz",
    "record": "3-3",
-   "adjoe": 107.3944610263905,
-   "adjde": 111.09636411596136,
-   "adjt": 68.04163365918878,
-   "barthag": 0.40378286077184616
+   "adjoe": 107.39446102639049,
+   "adjde": 111.0963641159615,
+   "adjt": 68.04163365918879,
+   "barthag": 0.4037828607718423
   },
   {
    "rank": 202,
    "team": "Southern Illinois",
    "conf": "MVC",
    "record": "2-2",
-   "adjoe": 102.41199535620697,
-   "adjde": 106.04935771552302,
-   "adjt": 70.97058739472781,
-   "barthag": 0.40098588578362554
+   "adjoe": 102.411995356207,
+   "adjde": 106.04935771552299,
+   "adjt": 70.97058739472784,
+   "barthag": 0.400985885783627
   },
   {
    "rank": 203,
    "team": "Kent St.",
    "conf": "MAC",
    "record": "1-3",
-   "adjoe": 105.19028337020744,
-   "adjde": 109.03482472179624,
-   "adjt": 69.57980582307422,
-   "barthag": 0.3982388867792175
+   "adjoe": 105.19028337020751,
+   "adjde": 109.0348247217962,
+   "adjt": 69.57980582307425,
+   "barthag": 0.39823888677922037
   },
   {
    "rank": 204,
    "team": "South Alabama",
    "conf": "SB",
    "record": "3-3",
-   "adjoe": 107.40214526403798,
-   "adjde": 111.36599557236188,
-   "adjt": 64.92628176660519,
-   "barthag": 0.3972871408309522
+   "adjoe": 107.40214526403761,
+   "adjde": 111.36599557236205,
+   "adjt": 64.92628176660521,
+   "barthag": 0.3972871408309385
   },
   {
    "rank": 205,
    "team": "UC Davis",
    "conf": "MWC",
    "record": "3-2",
-   "adjoe": 101.50882692764881,
-   "adjde": 105.3191880307377,
-   "adjt": 71.27317473339478,
-   "barthag": 0.395614149308251
+   "adjoe": 101.5088269276489,
+   "adjde": 105.31918803073762,
+   "adjt": 71.2731747333948,
+   "barthag": 0.39561414930825556
   },
   {
    "rank": 206,
    "team": "Lipscomb",
    "conf": "ASun",
    "record": "3-3",
-   "adjoe": 105.01009366286658,
-   "adjde": 108.99893446899301,
-   "adjt": 71.45364016340302,
-   "barthag": 0.39442754503089583
+   "adjoe": 105.01009366286662,
+   "adjde": 108.998934468993,
+   "adjt": 71.45364016340305,
+   "barthag": 0.3944275450308973
   },
   {
    "rank": 207,
    "team": "Buffalo",
    "conf": "MAC",
    "record": "2-2",
-   "adjoe": 105.49935190751964,
-   "adjde": 109.51034166971505,
-   "adjt": 70.24991358814786,
-   "barthag": 0.3943381437074961
+   "adjoe": 105.49935190751971,
+   "adjde": 109.51034166971499,
+   "adjt": 70.24991358814789,
+   "barthag": 0.3943381437074994
   },
   {
    "rank": 208,
    "team": "Cal St. Fullerton",
    "conf": "BW",
    "record": "2-2",
-   "adjoe": 103.62607832623874,
-   "adjde": 107.58290726043226,
-   "adjt": 73.00749058703657,
-   "barthag": 0.3939026655891676
+   "adjoe": 103.62607832623883,
+   "adjde": 107.5829072604322,
+   "adjt": 73.0074905870366,
+   "barthag": 0.3939026655891717
   },
   {
    "rank": 209,
    "team": "Marshall",
    "conf": "SB",
    "record": "2-3",
-   "adjoe": 102.41449258081383,
-   "adjde": 106.38703045442895,
-   "adjt": 72.21720217917233,
-   "barthag": 0.3923040254220501
+   "adjoe": 102.41449258081391,
+   "adjde": 106.38703045442888,
+   "adjt": 72.21720217917235,
+   "barthag": 0.3923040254220543
   },
   {
    "rank": 210,
    "team": "North Dakota St.",
    "conf": "Sum",
    "record": "2-5",
-   "adjoe": 105.58409591055951,
-   "adjde": 110.17504381352828,
-   "adjt": 67.96944302776804,
-   "barthag": 0.38001830357485356
+   "adjoe": 105.58409591055968,
+   "adjde": 110.17504381352818,
+   "adjt": 67.96944302776807,
+   "barthag": 0.38001830357486044
   },
   {
    "rank": 211,
    "team": "Robert Morris",
    "conf": "Horz",
    "record": "1-3",
-   "adjoe": 102.30251913767216,
-   "adjde": 106.78941691768578,
-   "adjt": 68.161364592727,
-   "barthag": 0.3790383090603075
+   "adjoe": 102.30251913767222,
+   "adjde": 106.78941691768574,
+   "adjt": 68.16136459272701,
+   "barthag": 0.3790383090603102
   },
   {
    "rank": 212,
    "team": "Siena",
    "conf": "Metro",
    "record": "3-2",
-   "adjoe": 104.43477025870239,
-   "adjde": 109.03451585992157,
+   "adjoe": 104.43477025870254,
+   "adjde": 109.0345158599215,
    "adjt": 78.42228387665762,
-   "barthag": 0.3785585464639953
+   "barthag": 0.37855854646400117
   },
   {
    "rank": 213,
    "team": "Campbell",
    "conf": "CAA",
    "record": "1-4",
-   "adjoe": 108.15454290895119,
-   "adjde": 112.94018938569765,
+   "adjoe": 108.15454290895129,
+   "adjde": 112.94018938569755,
    "adjt": 66.07206330117926,
-   "barthag": 0.3780300533514137
+   "barthag": 0.37803005335141854
   },
   {
    "rank": 214,
    "team": "Northeastern",
    "conf": "CAA",
    "record": "2-2",
-   "adjoe": 107.86767603639852,
-   "adjde": 112.6533100618312,
-   "adjt": 70.65858954315274,
-   "barthag": 0.37772571586527715
+   "adjoe": 107.86767603639841,
+   "adjde": 112.65331006183138,
+   "adjt": 70.65858954315276,
+   "barthag": 0.3777257158652702
   },
   {
    "rank": 215,
    "team": "Lehigh",
    "conf": "Pat",
    "record": "3-2",
-   "adjoe": 102.64818766165556,
-   "adjde": 107.22522333210969,
+   "adjoe": 102.64818766165561,
+   "adjde": 107.22522333210964,
    "adjt": 68.51469932247717,
-   "barthag": 0.37714681476481743
+   "barthag": 0.3771468147648204
   },
   {
    "rank": 216,
    "team": "Jacksonville",
    "conf": "ASun",
    "record": "2-2",
-   "adjoe": 106.90841205856707,
-   "adjde": 111.72002602919795,
-   "adjt": 67.31334885267192,
-   "barthag": 0.3760683579435047
+   "adjoe": 106.90841205856708,
+   "adjde": 111.72002602919792,
+   "adjt": 67.31334885267195,
+   "barthag": 0.3760683579435057
   },
   {
    "rank": 217,
    "team": "Oakland",
    "conf": "Horz",
    "record": "1-6",
-   "adjoe": 106.88368680840806,
-   "adjde": 111.69872190793134,
-   "adjt": 68.06278181749498,
-   "barthag": 0.3759588331517605
+   "adjoe": 106.88368680840829,
+   "adjde": 111.6987219079314,
+   "adjt": 68.06278181749501,
+   "barthag": 0.37595883315176487
   },
   {
    "rank": 218,
    "team": "UTSA",
    "conf": "Amer",
    "record": "3-2",
-   "adjoe": 105.7141155071534,
-   "adjde": 110.61208892946274,
-   "adjt": 71.46555512292147,
-   "barthag": 0.3726544246783978
+   "adjoe": 105.71411550715348,
+   "adjde": 110.61208892946271,
+   "adjt": 71.46555512292149,
+   "barthag": 0.3726544246784007
   },
   {
    "rank": 219,
    "team": "Jacksonville St.",
    "conf": "CUSA",
    "record": "2-3",
-   "adjoe": 103.83141292349478,
-   "adjde": 108.73828762575263,
-   "adjt": 66.5012522790347,
-   "barthag": 0.3702796703001297
+   "adjoe": 103.83141292349481,
+   "adjde": 108.73828762575269,
+   "adjt": 66.50125227903472,
+   "barthag": 0.370279670300129
   },
   {
    "rank": 220,
    "team": "Elon",
    "conf": "CAA",
    "record": "2-3",
-   "adjoe": 105.10125623570866,
-   "adjde": 110.12872527402004,
-   "adjt": 68.21250697362827,
-   "barthag": 0.368805342170299
+   "adjoe": 105.10125623570869,
+   "adjde": 110.12872527401998,
+   "adjt": 68.21250697362828,
+   "barthag": 0.3688053421703011
   },
   {
    "rank": 221,
    "team": "Idaho",
    "conf": "BSky",
    "record": "2-3",
-   "adjoe": 104.11315524569437,
-   "adjde": 109.16153731481943,
-   "adjt": 68.73623088206895,
-   "barthag": 0.36713440552131127
+   "adjoe": 104.11315524569449,
+   "adjde": 109.16153731481936,
+   "adjt": 68.73623088206898,
+   "barthag": 0.36713440552131593
   },
   {
    "rank": 222,
    "team": "Cal St. Northridge",
    "conf": "BW",
    "record": "1-3",
-   "adjoe": 103.58235899538282,
-   "adjde": 108.63617938267696,
-   "adjt": 74.69083958414612,
-   "barthag": 0.3663678281755557
+   "adjoe": 103.58235899538289,
+   "adjde": 108.63617938267691,
+   "adjt": 74.69083958414615,
+   "barthag": 0.3663678281755586
   },
   {
    "rank": 223,
    "team": "Texas A&M Corpus Chris",
    "conf": "Slnd",
    "record": "2-3",
-   "adjoe": 99.74237707709466,
-   "adjde": 104.64458130350562,
-   "adjt": 68.49941674971475,
-   "barthag": 0.36545642452469723
+   "adjoe": 99.74237707709476,
+   "adjde": 104.64458130350555,
+   "adjt": 68.49941674971478,
+   "barthag": 0.36545642452470173
   },
   {
    "rank": 224,
    "team": "Coastal Carolina",
    "conf": "SB",
    "record": "2-3",
-   "adjoe": 104.17696197517272,
-   "adjde": 109.39128120934268,
-   "adjt": 69.75909505830647,
-   "barthag": 0.36316297665094044
+   "adjoe": 104.17696197517273,
+   "adjde": 109.39128120934262,
+   "adjt": 69.75909505830649,
+   "barthag": 0.3631629766509421
   },
   {
    "rank": 225,
    "team": "Colgate",
    "conf": "Pat",
    "record": "1-4",
-   "adjoe": 104.75730129876777,
-   "adjde": 110.0382290093882,
-   "adjt": 68.9820158563533,
-   "barthag": 0.362255444636915
+   "adjoe": 104.75730129876784,
+   "adjde": 110.03822900938809,
+   "adjt": 68.98201585635331,
+   "barthag": 0.3622554446369195
   },
   {
    "rank": 226,
@@ -8047,7 +9876,7 @@
    "record": "1-3",
    "adjoe": 103.57108236162054,
    "adjde": 108.79699236476065,
-   "adjt": 67.8918992052149,
+   "adjt": 67.89189920521491,
    "barthag": 0.3621387024354373
   },
   {
@@ -8055,69 +9884,69 @@
    "team": "Rice",
    "conf": "Amer",
    "record": "3-2",
-   "adjoe": 105.04631864407321,
-   "adjde": 110.62007498265234,
-   "adjt": 69.54878397585686,
-   "barthag": 0.35559102946760857
+   "adjoe": 105.04631864407332,
+   "adjde": 110.62007498265214,
+   "adjt": 69.54878397585689,
+   "barthag": 0.35559102946761617
   },
   {
    "rank": 228,
    "team": "Bradley",
    "conf": "MVC",
    "record": "3-3",
-   "adjoe": 99.95762583728538,
-   "adjde": 105.29456512322886,
-   "adjt": 66.63822780324314,
-   "barthag": 0.3547607236297894
+   "adjoe": 99.9576258372854,
+   "adjde": 105.29456512322882,
+   "adjt": 66.63822780324315,
+   "barthag": 0.3547607236297912
   },
   {
    "rank": 229,
    "team": "Central Michigan",
    "conf": "MAC",
    "record": "4-1",
-   "adjoe": 104.58797099779918,
-   "adjde": 110.23123180717587,
-   "adjt": 68.67296861003972,
-   "barthag": 0.35335030208122375
+   "adjoe": 104.58797099779932,
+   "adjde": 110.2312318071758,
+   "adjt": 68.67296861003975,
+   "barthag": 0.35335030208122903
   },
   {
    "rank": 230,
    "team": "Samford",
    "conf": "SC",
    "record": "2-2",
-   "adjoe": 105.6344925724913,
-   "adjde": 111.47271219515028,
-   "adjt": 69.46058663996389,
-   "barthag": 0.35009058327731785
+   "adjoe": 105.63449257249138,
+   "adjde": 111.47271219515011,
+   "adjt": 69.46058663996392,
+   "barthag": 0.350090583277324
   },
   {
    "rank": 231,
    "team": "Oral Roberts",
    "conf": "Sum",
    "record": "2-3",
-   "adjoe": 105.14281197295466,
-   "adjde": 111.09604489977208,
-   "adjt": 69.2042682129403,
-   "barthag": 0.3467470430113893
+   "adjoe": 105.14281197295472,
+   "adjde": 111.09604489977201,
+   "adjt": 69.20426821294033,
+   "barthag": 0.3467470430113924
   },
   {
    "rank": 232,
    "team": "Longwood",
    "conf": "BSth",
    "record": "4-2",
-   "adjoe": 104.08323212386425,
-   "adjde": 110.00628857997432,
-   "adjt": 70.69651138682924,
-   "barthag": 0.34604122049120384
+   "adjoe": 104.08323212386428,
+   "adjde": 110.0062885799743,
+   "adjt": 70.69651138682927,
+   "barthag": 0.3460412204912052
   },
   {
    "rank": 233,
    "team": "Presbyterian",
    "conf": "BSth",
    "record": "1-3",
-   "adjoe": 105.02660024766521,
-   "adjde": 111.08357101923062,
-   "adjt": 68.03548310511692,
+   "adjoe": 105.02660024766524,
+   "adjde": 111.08357101923065,
+   "adjt": 68.03548310511694,
    "barthag": 0.34416336166212946
   },
   {
@@ -8125,150 +9954,150 @@
    "team": "Iona",
    "conf": "Metro",
    "record": "2-4",
-   "adjoe": 101.22706856789212,
-   "adjde": 107.08779621888947,
-   "adjt": 68.35729564174089,
-   "barthag": 0.3436089462539779
+   "adjoe": 101.22706856789205,
+   "adjde": 107.08779621888924,
+   "adjt": 68.3572956417409,
+   "barthag": 0.34360894625398164
   },
   {
    "rank": 235,
    "team": "Stony Brook",
    "conf": "CAA",
    "record": "2-2",
-   "adjoe": 105.2821044848373,
+   "adjoe": 105.28210448483738,
    "adjde": 111.60418813246761,
-   "adjt": 67.23852863551225,
-   "barthag": 0.33835715635012753
+   "adjt": 67.23852863551227,
+   "barthag": 0.33835715635012925
   },
   {
    "rank": 236,
    "team": "Milwaukee",
    "conf": "Horz",
    "record": "2-3",
-   "adjoe": 102.94543422795896,
-   "adjde": 109.19686717475591,
-   "adjt": 71.6082161092335,
-   "barthag": 0.3367161258429194
+   "adjoe": 102.94543422795911,
+   "adjde": 109.19686717475574,
+   "adjt": 71.60821610923351,
+   "barthag": 0.33671612584292726
   },
   {
    "rank": 237,
    "team": "Cornell",
    "conf": "Ivy",
    "record": "2-3",
-   "adjoe": 105.30294705459733,
-   "adjde": 111.73516885643555,
-   "adjt": 71.8115910366691,
-   "barthag": 0.33585161226072796
+   "adjoe": 105.30294705459744,
+   "adjde": 111.73516885643551,
+   "adjt": 71.81159103666913,
+   "barthag": 0.33585161226073174
   },
   {
    "rank": 238,
    "team": "Montana",
    "conf": "BSky",
    "record": "2-3",
-   "adjoe": 101.64786752860351,
-   "adjde": 107.8576491989565,
-   "adjt": 69.10916651168046,
-   "barthag": 0.3358320356562968
+   "adjoe": 101.6478675286036,
+   "adjde": 107.85764919895644,
+   "adjt": 69.10916651168047,
+   "barthag": 0.3358320356563004
   },
   {
    "rank": 239,
    "team": "Alabama St.",
    "conf": "SWAC",
    "record": "2-3",
-   "adjoe": 104.81098529597553,
-   "adjde": 111.2608181570868,
-   "adjt": 67.97826526666641,
-   "barthag": 0.3347534221891862
+   "adjoe": 104.81098529597563,
+   "adjde": 111.2608181570867,
+   "adjt": 67.97826526666643,
+   "barthag": 0.334753422189191
   },
   {
    "rank": 240,
    "team": "East Texas A&M",
    "conf": "Slnd",
    "record": "3-2",
-   "adjoe": 101.45632570021488,
-   "adjde": 107.709749140757,
+   "adjoe": 101.45632570021533,
+   "adjde": 107.70974914075703,
    "adjt": 68.4509120123414,
-   "barthag": 0.33451500203052115
+   "barthag": 0.33451500203053197
   },
   {
    "rank": 241,
    "team": "Quinnipiac",
    "conf": "Metro",
    "record": "2-3",
-   "adjoe": 102.26852228510575,
-   "adjde": 108.7843017499416,
-   "adjt": 70.50688201764525,
-   "barthag": 0.3295328196217221
+   "adjoe": 102.26852228510569,
+   "adjde": 108.7843017499415,
+   "adjt": 70.50688201764528,
+   "barthag": 0.3295328196217229
   },
   {
    "rank": 242,
    "team": "Florida Gulf Coast",
    "conf": "ASun",
    "record": "2-4",
-   "adjoe": 104.76059394384598,
-   "adjde": 111.58704442574046,
-   "adjt": 67.7613997045353,
-   "barthag": 0.326081124268929
+   "adjoe": 104.76059394384555,
+   "adjde": 111.58704442574069,
+   "adjt": 67.76139970453532,
+   "barthag": 0.3260811242689135
   },
   {
    "rank": 243,
    "team": "Merrimack",
    "conf": "Metro",
    "record": "1-4",
-   "adjoe": 101.26694676969038,
-   "adjde": 107.9620904726286,
-   "adjt": 64.7500928973409,
-   "barthag": 0.323828877237275
+   "adjoe": 101.26694676969046,
+   "adjde": 107.96209047262842,
+   "adjt": 64.75009289734093,
+   "barthag": 0.32382887723728143
   },
   {
    "rank": 244,
    "team": "Marist",
    "conf": "Metro",
    "record": "2-3",
-   "adjoe": 99.15294618614274,
-   "adjde": 105.7876288831251,
-   "adjt": 67.76413086051646,
-   "barthag": 0.32194336648485683
+   "adjoe": 99.15294618614284,
+   "adjde": 105.78762888312497,
+   "adjt": 67.76413086051649,
+   "barthag": 0.3219433664848624
   },
   {
    "rank": 245,
    "team": "Northern Illinois",
    "conf": "Horz",
    "record": "3-3",
-   "adjoe": 108.52700756700814,
-   "adjde": 115.83885130686392,
-   "adjt": 66.03763031692674,
-   "barthag": 0.32086249392567157
+   "adjoe": 108.5270075670083,
+   "adjde": 115.83885130686386,
+   "adjt": 66.03763031692675,
+   "barthag": 0.32086249392567645
   },
   {
    "rank": 246,
    "team": "Southeast Missouri St.",
    "conf": "OVC",
    "record": "3-2",
-   "adjoe": 102.11138184931643,
-   "adjde": 108.99148831682707,
-   "adjt": 71.45476995828264,
-   "barthag": 0.32085086334016627
+   "adjoe": 102.11138184931646,
+   "adjde": 108.991488316827,
+   "adjt": 71.45476995828265,
+   "barthag": 0.3208508633401686
   },
   {
    "rank": 247,
    "team": "UC Riverside",
    "conf": "BW",
    "record": "3-2",
-   "adjoe": 101.92486157788258,
-   "adjde": 108.86049974403531,
-   "adjt": 70.99003336785142,
-   "barthag": 0.31928479029847195
+   "adjoe": 101.92486157788265,
+   "adjde": 108.86049974403525,
+   "adjt": 70.99003336785145,
+   "barthag": 0.31928479029847495
   },
   {
    "rank": 248,
    "team": "Northern Kentucky",
    "conf": "Horz",
    "record": "2-3",
-   "adjoe": 102.99190763115831,
-   "adjde": 110.03460536326446,
-   "adjt": 72.15925015026897,
-   "barthag": 0.3185026301533793
+   "adjoe": 102.99190763115837,
+   "adjde": 110.03460536326436,
+   "adjt": 72.15925015026899,
+   "barthag": 0.3185026301533829
   },
   {
    "rank": 249,
@@ -8276,99 +10105,99 @@
    "conf": "SC",
    "record": "2-4",
    "adjoe": 104.85910623702426,
-   "adjde": 112.16591274911346,
-   "adjt": 71.42527609024332,
-   "barthag": 0.31547242412150994
+   "adjde": 112.16591274911352,
+   "adjt": 71.42527609024333,
+   "barthag": 0.31547242412150867
   },
   {
    "rank": 250,
    "team": "Delaware",
    "conf": "CUSA",
    "record": "3-2",
-   "adjoe": 103.2552886738477,
-   "adjde": 110.68607585938788,
-   "adjt": 67.10315077006078,
-   "barthag": 0.31020173084926833
+   "adjoe": 103.2552886738478,
+   "adjde": 110.68607585938778,
+   "adjt": 67.1031507700608,
+   "barthag": 0.3102017308492729
   },
   {
    "rank": 251,
    "team": "Indiana St.",
    "conf": "MVC",
    "record": "2-2",
-   "adjoe": 102.69080454095976,
-   "adjde": 110.15422498836432,
-   "adjt": 70.34041848156578,
-   "barthag": 0.3085670943717311
+   "adjoe": 102.69080454095987,
+   "adjde": 110.15422498836423,
+   "adjt": 70.3404184815658,
+   "barthag": 0.3085670943717357
   },
   {
    "rank": 252,
    "team": "Long Beach St.",
    "conf": "BW",
    "record": "1-3",
-   "adjoe": 103.985345018836,
-   "adjde": 111.56799266588129,
-   "adjt": 69.2371286779243,
-   "barthag": 0.3080143956750187
+   "adjoe": 103.98534501883609,
+   "adjde": 111.5679926658812,
+   "adjt": 69.23712867792433,
+   "barthag": 0.30801439567502253
   },
   {
    "rank": 253,
    "team": "Northern Colorado",
    "conf": "BSky",
    "record": "2-3",
-   "adjoe": 100.90621329148303,
+   "adjoe": 100.90621329148311,
    "adjde": 108.26707196730595,
-   "adjt": 70.9651779079512,
-   "barthag": 0.3079523116633658
+   "adjt": 70.96517790795122,
+   "barthag": 0.30795231166336784
   },
   {
    "rank": 254,
    "team": "Southern Miss",
    "conf": "SB",
    "record": "2-3",
-   "adjoe": 102.73753027778699,
-   "adjde": 110.32425533148552,
-   "adjt": 71.33339144836067,
-   "barthag": 0.30590533377391704
+   "adjoe": 102.73753027778693,
+   "adjde": 110.32425533148549,
+   "adjt": 71.33339144836069,
+   "barthag": 0.3059053337739163
   },
   {
    "rank": 255,
    "team": "UT Rio Grande Valley",
    "conf": "Slnd",
    "record": "3-2",
-   "adjoe": 101.47532387900162,
-   "adjde": 109.17851994781779,
+   "adjoe": 101.47532387900168,
+   "adjde": 109.17851994781778,
    "adjt": 65.31445482684362,
-   "barthag": 0.3012316140126807
+   "barthag": 0.3012316140126824
   },
   {
    "rank": 256,
    "team": "Drexel",
    "conf": "CAA",
    "record": "2-2",
-   "adjoe": 99.86190148118453,
-   "adjde": 107.46842991397446,
-   "adjt": 66.92518865872843,
-   "barthag": 0.3006505008147337
+   "adjoe": 99.8619014811846,
+   "adjde": 107.4684299139744,
+   "adjt": 66.92518865872844,
+   "barthag": 0.30065050081473677
   },
   {
    "rank": 257,
    "team": "Southern Utah",
    "conf": "BSky",
    "record": "3-2",
-   "adjoe": 103.73086585913848,
-   "adjde": 111.68028950500877,
-   "adjt": 71.29010382983151,
-   "barthag": 0.299607854461723
+   "adjoe": 103.7308658591385,
+   "adjde": 111.68028950500872,
+   "adjt": 71.29010382983154,
+   "barthag": 0.29960785446172494
   },
   {
    "rank": 258,
    "team": "Houston Christian",
    "conf": "Slnd",
    "record": "4-0",
-   "adjoe": 102.78430795925489,
-   "adjde": 110.67439304769195,
-   "adjt": 68.66226611561372,
-   "barthag": 0.29932007617555484
+   "adjoe": 102.78430795925493,
+   "adjde": 110.6743930476919,
+   "adjt": 68.66226611561373,
+   "barthag": 0.29932007617555717
   },
   {
    "rank": 259,
@@ -8376,569 +10205,569 @@
    "conf": "Slnd",
    "record": "2-2",
    "adjoe": 102.73765958015701,
-   "adjde": 110.67354304100306,
-   "adjt": 71.25416633666703,
-   "barthag": 0.2982448419614499
+   "adjde": 110.67354304100297,
+   "adjt": 71.25416633666705,
+   "barthag": 0.29824484196145173
   },
   {
    "rank": 260,
    "team": "Boston University",
    "conf": "Pat",
    "record": "5-1",
-   "adjoe": 104.2846004733691,
-   "adjde": 112.36758948813423,
-   "adjt": 66.93804429267527,
-   "barthag": 0.2976536330715934
+   "adjoe": 104.28460047336914,
+   "adjde": 112.36758948813421,
+   "adjt": 66.9380442926753,
+   "barthag": 0.2976536330715947
   },
   {
    "rank": 261,
    "team": "Little Rock",
    "conf": "UAC",
    "record": "1-3",
-   "adjoe": 105.74086155180403,
-   "adjde": 114.0227149174414,
+   "adjoe": 105.7408615518041,
+   "adjde": 114.02271491744114,
    "adjt": 69.44062342046861,
-   "barthag": 0.2958430360475165
+   "barthag": 0.29584303604752377
   },
   {
    "rank": 262,
    "team": "Purdue Fort Wayne",
    "conf": "Horz",
    "record": "3-2",
-   "adjoe": 104.01648187081126,
+   "adjoe": 104.01648187081133,
    "adjde": 112.3737762433889,
-   "adjt": 69.77570087126044,
-   "barthag": 0.2913711086563427
+   "adjt": 69.77570087126047,
+   "barthag": 0.2913711086563443
   },
   {
    "rank": 263,
    "team": "Southeastern Louisiana",
    "conf": "Slnd",
    "record": "1-3",
-   "adjoe": 103.6952718838659,
-   "adjde": 112.03177375709578,
-   "adjt": 68.08127308182631,
-   "barthag": 0.2912648191931707
+   "adjoe": 103.69527188386608,
+   "adjde": 112.03177375709572,
+   "adjt": 68.08127308182634,
+   "barthag": 0.29126481919317615
   },
   {
    "rank": 264,
    "team": "Brown",
    "conf": "Ivy",
    "record": "2-4",
-   "adjoe": 97.11440124202109,
-   "adjde": 104.92411085097456,
-   "adjt": 68.53844327073496,
-   "barthag": 0.291213421465439
+   "adjoe": 97.11440124202116,
+   "adjde": 104.92411085097444,
+   "adjt": 68.53844327073499,
+   "barthag": 0.2912134214654433
   },
   {
    "rank": 265,
    "team": "Denver",
    "conf": "WCC",
    "record": "1-3",
-   "adjoe": 103.52866295175434,
-   "adjde": 111.94059969868141,
-   "adjt": 69.08052265926813,
-   "barthag": 0.28938385345993567
+   "adjoe": 103.5286629517544,
+   "adjde": 111.94059969868138,
+   "adjt": 69.08052265926815,
+   "barthag": 0.28938385345993756
   },
   {
    "rank": 266,
    "team": "LIU",
    "conf": "NEC",
    "record": "1-6",
-   "adjoe": 99.96588714319729,
-   "adjde": 108.14129286209533,
-   "adjt": 70.81318538224704,
-   "barthag": 0.28822696204673437
+   "adjoe": 99.96588714319742,
+   "adjde": 108.14129286209516,
+   "adjt": 70.81318538224706,
+   "barthag": 0.28822696204674114
   },
   {
    "rank": 267,
    "team": "Youngstown St.",
    "conf": "Horz",
    "record": "2-3",
-   "adjoe": 101.5328061829765,
-   "adjde": 109.84544424193192,
-   "adjt": 70.83568866441514,
-   "barthag": 0.2880318313682144
+   "adjoe": 101.53280618297657,
+   "adjde": 109.8454442419318,
+   "adjt": 70.83568866441516,
+   "barthag": 0.28803183136821847
   },
   {
    "rank": 268,
    "team": "Louisiana Tech",
    "conf": "SB",
    "record": "3-2",
-   "adjoe": 98.87798766150598,
-   "adjde": 107.01697601994101,
+   "adjoe": 98.87798766150601,
+   "adjde": 107.01697601994096,
    "adjt": 67.61817157327057,
-   "barthag": 0.28706950030376976
+   "barthag": 0.2870695003037717
   },
   {
    "rank": 269,
    "team": "UMKC",
    "conf": "Sum",
    "record": "3-3",
-   "adjoe": 104.20090959217224,
-   "adjde": 112.88681066100587,
-   "adjt": 69.29791014981373,
-   "barthag": 0.2848061198475597
+   "adjoe": 104.20090959217231,
+   "adjde": 112.88681066100582,
+   "adjt": 69.29791014981375,
+   "barthag": 0.2848061198475622
   },
   {
    "rank": 270,
    "team": "Missouri St.",
    "conf": "CUSA",
    "record": "4-0",
-   "adjoe": 101.06075447806555,
-   "adjde": 109.50357366305977,
-   "adjt": 68.10760417616555,
-   "barthag": 0.2844068138261538
+   "adjoe": 101.0607544780656,
+   "adjde": 109.50357366305971,
+   "adjt": 68.10760417616558,
+   "barthag": 0.2844068138261563
   },
   {
    "rank": 271,
    "team": "Eastern Kentucky",
    "conf": "UAC",
    "record": "4-1",
-   "adjoe": 102.23487094377394,
+   "adjoe": 102.23487094377396,
    "adjde": 110.82763838674154,
-   "adjt": 69.32665879150868,
-   "barthag": 0.2833126381457834
+   "adjt": 69.3266587915087,
+   "barthag": 0.28331263814578367
   },
   {
    "rank": 272,
    "team": "Wofford",
    "conf": "SC",
    "record": "3-3",
-   "adjoe": 105.14668805424307,
+   "adjoe": 105.14668805424311,
    "adjde": 114.07465010223197,
-   "adjt": 69.87958489809887,
-   "barthag": 0.28146394343555153
+   "adjt": 69.8795848980989,
+   "barthag": 0.2814639434355525
   },
   {
    "rank": 273,
    "team": "North Carolina A&T",
    "conf": "CAA",
    "record": "3-2",
-   "adjoe": 102.5309608256086,
-   "adjde": 111.30279045422604,
-   "adjt": 70.2422300342671,
-   "barthag": 0.2800871263136433
+   "adjoe": 102.53096082560862,
+   "adjde": 111.30279045422603,
+   "adjt": 70.24223003426711,
+   "barthag": 0.2800871263136439
   },
   {
    "rank": 274,
    "team": "Winthrop",
    "conf": "BSth",
    "record": "0-5",
-   "adjoe": 104.12586392024505,
-   "adjde": 113.61893557612163,
-   "adjt": 73.4534437323371,
-   "barthag": 0.2682788672754045
+   "adjoe": 104.12586392024494,
+   "adjde": 113.61893557612161,
+   "adjt": 73.45344373233713,
+   "barthag": 0.26827886727540234
   },
   {
    "rank": 275,
    "team": "Evansville",
    "conf": "MVC",
    "record": "3-2",
-   "adjoe": 101.63515180397582,
-   "adjde": 110.91037872398903,
-   "adjt": 68.64735772677138,
-   "barthag": 0.26809099987769347
+   "adjoe": 101.63515180397587,
+   "adjde": 110.91037872398891,
+   "adjt": 68.6473577267714,
+   "barthag": 0.268090999877697
   },
   {
    "rank": 276,
    "team": "Fairfield",
    "conf": "Metro",
    "record": "3-2",
-   "adjoe": 99.0751710437124,
-   "adjde": 108.20948790724363,
-   "adjt": 69.54243606989503,
-   "barthag": 0.26616122152956034
+   "adjoe": 99.07517104371237,
+   "adjde": 108.20948790724348,
+   "adjt": 69.54243606989506,
+   "barthag": 0.2661612215295626
   },
   {
    "rank": 277,
    "team": "Air Force",
    "conf": "MWC",
    "record": "3-2",
-   "adjoe": 104.43505912964076,
-   "adjde": 114.26633462621177,
-   "adjt": 77.94672966297627,
-   "barthag": 0.26219028887832296
+   "adjoe": 104.43505912964082,
+   "adjde": 114.26633462621167,
+   "adjt": 77.94672966297628,
+   "barthag": 0.2621902888783262
   },
   {
    "rank": 278,
    "team": "Stetson",
    "conf": "ASun",
    "record": "1-4",
-   "adjoe": 103.85964075024951,
-   "adjde": 113.85559062153851,
-   "adjt": 67.8051958474938,
-   "barthag": 0.2579327566317128
+   "adjoe": 103.8596407502495,
+   "adjde": 113.85559062153847,
+   "adjt": 67.80519584749383,
+   "barthag": 0.2579327566317133
   },
   {
    "rank": 279,
    "team": "Louisiana",
    "conf": "SB",
    "record": "1-3",
-   "adjoe": 100.68415060630156,
-   "adjde": 110.40017710496747,
-   "adjt": 67.0795047883034,
-   "barthag": 0.2574206065958894
+   "adjoe": 100.68415060630164,
+   "adjde": 110.40017710496738,
+   "adjt": 67.07950478830342,
+   "barthag": 0.2574206065958929
   },
   {
    "rank": 280,
    "team": "Prairie View A&M",
    "conf": "SWAC",
    "record": "2-4",
-   "adjoe": 101.69604264109805,
-   "adjde": 111.53608162484667,
-   "adjt": 70.97222580924966,
-   "barthag": 0.2569012584237421
+   "adjoe": 101.6960426410981,
+   "adjde": 111.53608162484662,
+   "adjt": 70.97222580924968,
+   "barthag": 0.25690125842374445
   },
   {
    "rank": 281,
    "team": "Radford",
    "conf": "BSth",
    "record": "1-4",
-   "adjoe": 100.87413324219406,
-   "adjde": 110.66034468605875,
-   "adjt": 70.97557317443625,
-   "barthag": 0.2563916725474449
+   "adjoe": 100.87413324219423,
+   "adjde": 110.66034468605858,
+   "adjt": 70.97557317443626,
+   "barthag": 0.256391672547452
   },
   {
    "rank": 282,
    "team": "Abilene Christian",
    "conf": "UAC",
    "record": "2-3",
-   "adjoe": 100.73994454085162,
-   "adjde": 110.57699037285224,
-   "adjt": 69.01352612970261,
-   "barthag": 0.25512728176123517
+   "adjoe": 100.73994454085168,
+   "adjde": 110.5769903728522,
+   "adjt": 69.01352612970264,
+   "barthag": 0.2551272817612372
   },
   {
    "rank": 283,
    "team": "IU Indy",
    "conf": "Horz",
    "record": "3-2",
-   "adjoe": 105.25772777497612,
+   "adjoe": 105.25772777497615,
    "adjde": 115.6647677289098,
-   "adjt": 71.40108253666263,
-   "barthag": 0.2526991721347294
+   "adjt": 71.40108253666266,
+   "barthag": 0.25269917213473003
   },
   {
    "rank": 284,
    "team": "UMass Lowell",
    "conf": "AE",
    "record": "4-1",
-   "adjoe": 99.11541035797099,
-   "adjde": 109.03167836725683,
-   "adjt": 70.35802359639251,
-   "barthag": 0.2503839408672093
+   "adjoe": 99.11541035797117,
+   "adjde": 109.03167836725677,
+   "adjt": 70.35802359639253,
+   "barthag": 0.25038394086721444
   },
   {
    "rank": 285,
    "team": "Jackson St.",
    "conf": "SWAC",
    "record": "2-4",
-   "adjoe": 100.03257111030449,
-   "adjde": 110.12762294445196,
-   "adjt": 72.01540012934834,
-   "barthag": 0.24868150694151903
+   "adjoe": 100.03257111030454,
+   "adjde": 110.12762294445227,
+   "adjt": 72.01540012934835,
+   "barthag": 0.24868150694151414
   },
   {
    "rank": 286,
    "team": "Georgia Southern",
    "conf": "SB",
    "record": "1-4",
-   "adjoe": 99.81400854996798,
-   "adjde": 110.0334625183487,
-   "adjt": 72.29215610572693,
-   "barthag": 0.24583069420165987
+   "adjoe": 99.8140085499677,
+   "adjde": 110.03346251834876,
+   "adjt": 72.29215610572696,
+   "barthag": 0.24583069420165268
   },
   {
    "rank": 287,
    "team": "Tennessee Martin",
    "conf": "OVC",
    "record": "3-2",
-   "adjoe": 97.30889509901553,
-   "adjde": 107.30996285847421,
-   "adjt": 68.15209164257017,
-   "barthag": 0.24507436506705998
+   "adjoe": 97.30889509901549,
+   "adjde": 107.30996285847422,
+   "adjt": 68.1520916425702,
+   "barthag": 0.24507436506705876
   },
   {
    "rank": 288,
    "team": "SIU Edwardsville",
    "conf": "OVC",
    "record": "2-4",
-   "adjoe": 98.99862203476907,
-   "adjde": 109.19418314121647,
-   "adjt": 67.55852329761764,
-   "barthag": 0.24466869791149432
+   "adjoe": 98.99862203476908,
+   "adjde": 109.19418314121646,
+   "adjt": 67.55852329761767,
+   "barthag": 0.24466869791149493
   },
   {
    "rank": 289,
    "team": "Northern Arizona",
    "conf": "BSky",
    "record": "1-4",
-   "adjoe": 105.27329398103868,
-   "adjde": 116.13881191881957,
-   "adjt": 65.84085698500326,
-   "barthag": 0.2442343440540813
+   "adjoe": 105.27329398103888,
+   "adjde": 116.13881191881927,
+   "adjt": 65.84085698500327,
+   "barthag": 0.24423434405409078
   },
   {
    "rank": 290,
    "team": "Cleveland St.",
    "conf": "Horz",
    "record": "3-3",
-   "adjoe": 103.86762112147731,
-   "adjde": 114.6393132006718,
-   "adjt": 67.96306043527355,
-   "barthag": 0.24328628004912067
+   "adjoe": 103.86762112147723,
+   "adjde": 114.63931320067202,
+   "adjt": 67.96306043527358,
+   "barthag": 0.2432862800491147
   },
   {
    "rank": 291,
    "team": "Northwestern St.",
    "conf": "Slnd",
    "record": "1-4",
-   "adjoe": 101.47032606351434,
-   "adjde": 112.0839601567012,
-   "adjt": 67.31817732548122,
-   "barthag": 0.24157918668090067
+   "adjoe": 101.47032606351439,
+   "adjde": 112.08396015670138,
+   "adjt": 67.31817732548124,
+   "barthag": 0.24157918668089837
   },
   {
    "rank": 292,
    "team": "West Florida",
    "conf": "ASun",
    "record": "3-3",
-   "adjoe": 99.6668534623673,
-   "adjde": 110.1330264036115,
+   "adjoe": 99.66685346236667,
+   "adjde": 110.1330264036119,
    "adjt": 68.68411282772709,
-   "barthag": 0.24079209360762294
+   "barthag": 0.24079209360760212
   },
   {
    "rank": 293,
    "team": "New Hampshire",
    "conf": "AE",
    "record": "4-2",
-   "adjoe": 97.56397869438405,
-   "adjde": 107.82767173801608,
-   "adjt": 69.85892728029656,
-   "barthag": 0.2404345448075559
+   "adjoe": 97.56397869438413,
+   "adjde": 107.82767173801601,
+   "adjt": 69.85892728029658,
+   "barthag": 0.24043454480755913
   },
   {
    "rank": 294,
    "team": "Alabama A&M",
    "conf": "SWAC",
    "record": "3-2",
-   "adjoe": 102.11281205792262,
-   "adjde": 112.9512009100477,
-   "adjt": 67.68452972485603,
-   "barthag": 0.23865034471953422
+   "adjoe": 102.11281205792255,
+   "adjde": 112.9512009100479,
+   "adjt": 67.68452972485605,
+   "barthag": 0.23865034471952906
   },
   {
    "rank": 295,
    "team": "Utah Tech",
    "conf": "BSky",
    "record": "1-3",
-   "adjoe": 99.39854758772591,
-   "adjde": 109.95019774095346,
-   "adjt": 70.5199031923873,
-   "barthag": 0.23862455843178393
+   "adjoe": 99.39854758772638,
+   "adjde": 109.95019774095331,
+   "adjt": 70.51990319238733,
+   "barthag": 0.23862455843179647
   },
   {
    "rank": 296,
    "team": "Ball St.",
    "conf": "MAC",
    "record": "1-4",
-   "adjoe": 100.49400620829913,
-   "adjde": 111.54429071837858,
-   "adjt": 66.06055782152063,
-   "barthag": 0.23152467479722952
+   "adjoe": 100.49400620829917,
+   "adjde": 111.54429071837859,
+   "adjt": 66.06055782152065,
+   "barthag": 0.2315246747972301
   },
   {
    "rank": 297,
    "team": "UNC Asheville",
    "conf": "BSth",
    "record": "2-4",
-   "adjoe": 100.75045126928569,
-   "adjde": 111.84320845071886,
-   "adjt": 70.15590787977847,
-   "barthag": 0.23126362723307345
+   "adjoe": 100.7504512692856,
+   "adjde": 111.84320845071892,
+   "adjt": 70.1559078797785,
+   "barthag": 0.2312636272330707
   },
   {
    "rank": 298,
    "team": "UMBC",
    "conf": "AE",
    "record": "3-3",
-   "adjoe": 98.24353284217962,
-   "adjde": 109.18627358582255,
-   "adjt": 72.61220269894339,
-   "barthag": 0.2289114092089814
+   "adjoe": 98.24353284217975,
+   "adjde": 109.18627358582242,
+   "adjt": 72.6122026989434,
+   "barthag": 0.22891140920898637
   },
   {
    "rank": 299,
    "team": "Lindenwood",
    "conf": "OVC",
    "record": "2-4",
-   "adjoe": 98.27780163183144,
-   "adjde": 109.22617328065016,
-   "adjt": 72.07397584039414,
-   "barthag": 0.22887770057287218
+   "adjoe": 98.27780163183152,
+   "adjde": 109.22617328065012,
+   "adjt": 72.07397584039416,
+   "barthag": 0.22887770057287474
   },
   {
    "rank": 300,
    "team": "Cal St. Bakersfield",
    "conf": "BW",
    "record": "4-0",
-   "adjoe": 103.78674333935248,
-   "adjde": 115.41066703275538,
-   "adjt": 70.3522106883084,
-   "barthag": 0.22779162141698944
+   "adjoe": 103.78674333935258,
+   "adjde": 115.41066703275524,
+   "adjt": 70.35221068830842,
+   "barthag": 0.22779162141699388
   },
   {
    "rank": 301,
    "team": "Mercyhurst",
    "conf": "NEC",
    "record": "1-4",
-   "adjoe": 99.62236171035585,
-   "adjde": 110.85851478210968,
-   "adjt": 65.89138491847389,
-   "barthag": 0.2263594637081576
+   "adjoe": 99.62236171035595,
+   "adjde": 110.85851478210954,
+   "adjt": 65.89138491847392,
+   "barthag": 0.22635946370816218
   },
   {
    "rank": 302,
    "team": "Detroit Mercy",
    "conf": "Horz",
    "record": "0-4",
-   "adjoe": 103.55246431957079,
+   "adjoe": 103.55246431957082,
    "adjde": 115.24417391395417,
-   "adjt": 70.05398563567103,
-   "barthag": 0.22614475271955978
+   "adjt": 70.05398563567105,
+   "barthag": 0.22614475271956036
   },
   {
    "rank": 303,
    "team": "Cal Baptist",
    "conf": "BW",
    "record": "1-4",
-   "adjoe": 98.98180238604728,
-   "adjde": 110.16016172565246,
+   "adjoe": 98.9818023860474,
+   "adjde": 110.16016172565253,
    "adjt": 64.92739126092147,
-   "barthag": 0.22609532740816843
+   "barthag": 0.22609532740816968
   },
   {
    "rank": 304,
    "team": "Nicholls St.",
    "conf": "Slnd",
    "record": "2-3",
-   "adjoe": 98.40940974529917,
-   "adjde": 109.64025383324093,
-   "adjt": 70.35117065553031,
-   "barthag": 0.2239517906277799
+   "adjoe": 98.40940974529926,
+   "adjde": 109.64025383324096,
+   "adjt": 70.35117065553032,
+   "barthag": 0.2239517906277811
   },
   {
    "rank": 305,
    "team": "South Dakota",
    "conf": "Sum",
    "record": "2-5",
-   "adjoe": 102.93003370167236,
-   "adjde": 114.79115135315877,
-   "adjt": 72.16935829744776,
-   "barthag": 0.22196588305516565
+   "adjoe": 102.93003370167244,
+   "adjde": 114.79115135315871,
+   "adjt": 72.16935829744777,
+   "barthag": 0.2219658830551683
   },
   {
    "rank": 306,
    "team": "North Dakota",
    "conf": "Sum",
    "record": "2-3",
-   "adjoe": 102.50353211031427,
-   "adjde": 114.33725661871021,
-   "adjt": 69.78087121835844,
-   "barthag": 0.22158820275113697
+   "adjoe": 102.50353211031431,
+   "adjde": 114.33725661871023,
+   "adjt": 69.78087121835846,
+   "barthag": 0.2215882027511375
   },
   {
    "rank": 307,
    "team": "Weber St.",
    "conf": "BSky",
    "record": "1-4",
-   "adjoe": 100.9805778733365,
-   "adjde": 113.07808956159286,
+   "adjoe": 100.98057787333661,
+   "adjde": 113.07808956159276,
    "adjt": 72.926332661437,
-   "barthag": 0.21395807644502352
+   "barthag": 0.2139580764450274
   },
   {
    "rank": 308,
    "team": "Sacred Heart",
    "conf": "Metro",
    "record": "2-3",
-   "adjoe": 102.32002904860929,
-   "adjde": 114.74253871060557,
-   "adjt": 70.18478255830509,
-   "barthag": 0.21119589195730254
+   "adjoe": 102.32002904860934,
+   "adjde": 114.74253871060549,
+   "adjt": 70.1847825583051,
+   "barthag": 0.21119589195730507
   },
   {
    "rank": 309,
    "team": "North Alabama",
    "conf": "UAC",
    "record": "3-2",
-   "adjoe": 101.15670126909939,
-   "adjde": 113.49874789157002,
-   "adjt": 68.98554862844317,
-   "barthag": 0.21017159154981002
+   "adjoe": 101.15670126909949,
+   "adjde": 113.49874789156993,
+   "adjt": 68.9855486284432,
+   "barthag": 0.21017159154981332
   },
   {
    "rank": 310,
    "team": "Louisiana Monroe",
    "conf": "SB",
    "record": "2-6",
-   "adjoe": 100.43307553543818,
-   "adjde": 112.71222856754935,
+   "adjoe": 100.43307553543828,
+   "adjde": 112.71222856754925,
    "adjt": 71.32084430071146,
-   "barthag": 0.2097417472476413
+   "barthag": 0.20974174724764488
   },
   {
    "rank": 311,
    "team": "Navy",
    "conf": "Pat",
    "record": "4-2",
-   "adjoe": 95.62422053814575,
-   "adjde": 107.33331753373866,
-   "adjt": 67.98603612798377,
-   "barthag": 0.20942428932590423
+   "adjoe": 95.62422053814579,
+   "adjde": 107.3333175337387,
+   "adjt": 67.9860361279838,
+   "barthag": 0.20942428932590457
   },
   {
    "rank": 312,
    "team": "Southern",
    "conf": "SWAC",
    "record": "1-5",
-   "adjoe": 98.08900421467416,
-   "adjde": 110.22852117511334,
-   "adjt": 71.89554027003085,
-   "barthag": 0.2072101576514062
+   "adjoe": 98.08900421467422,
+   "adjde": 110.22852117511326,
+   "adjt": 71.89554027003088,
+   "barthag": 0.2072101576514088
   },
   {
    "rank": 313,
    "team": "Dartmouth",
    "conf": "Ivy",
    "record": "4-2",
-   "adjoe": 99.33935589446816,
-   "adjde": 111.71857644777513,
-   "adjt": 69.59497355159522,
-   "barthag": 0.20577662901999139
+   "adjoe": 99.33935589446824,
+   "adjde": 111.71857644777504,
+   "adjt": 69.59497355159523,
+   "barthag": 0.20577662901999466
   },
   {
    "rank": 314,
    "team": "Bellarmine",
    "conf": "ASun",
    "record": "1-5",
-   "adjoe": 104.35898047169971,
-   "adjde": 117.59641701003,
-   "adjt": 66.25651977158851,
-   "barthag": 0.20207888794393444
+   "adjoe": 104.35898047169978,
+   "adjde": 117.59641701002985,
+   "adjt": 66.25651977158853,
+   "barthag": 0.20207888794393794
   },
   {
    "rank": 315,
    "team": "VMI",
    "conf": "SC",
    "record": "3-3",
-   "adjoe": 98.58367230233027,
-   "adjde": 111.21400075878299,
-   "adjt": 71.20262255858121,
-   "barthag": 0.19999394341353208
+   "adjoe": 98.58367230233031,
+   "adjde": 111.21400075878292,
+   "adjt": 71.20262255858124,
+   "barthag": 0.19999394341353405
   },
   {
    "rank": 316,
@@ -8947,7 +10776,7 @@
    "record": "3-3",
    "adjoe": 102.38868591176862,
    "adjde": 115.76928161456897,
-   "adjt": 67.80567596315286,
+   "adjt": 67.8056759631529,
    "barthag": 0.1958455557342632
   },
   {
@@ -8955,40 +10784,40 @@
    "team": "Charleston Southern",
    "conf": "BSth",
    "record": "2-3",
-   "adjoe": 99.22412766635543,
-   "adjde": 112.56668555324822,
-   "adjt": 72.11028974882154,
-   "barthag": 0.1898641870333992
+   "adjoe": 99.22412766635549,
+   "adjde": 112.56668555324823,
+   "adjt": 72.11028974882156,
+   "barthag": 0.1898641870334
   },
   {
    "rank": 318,
    "team": "Nebraska Omaha",
    "conf": "Sum",
    "record": "3-3",
-   "adjoe": 98.54472387522782,
-   "adjde": 111.82225769585227,
-   "adjt": 69.14682100062188,
-   "barthag": 0.1894479090164052
+   "adjoe": 98.5447238752279,
+   "adjde": 111.8222576958522,
+   "adjt": 69.14682100062191,
+   "barthag": 0.18944790901640787
   },
   {
    "rank": 319,
    "team": "South Carolina St.",
    "conf": "MEAC",
    "record": "3-2",
-   "adjoe": 99.11107948236676,
-   "adjde": 112.47529795313102,
-   "adjt": 71.96575818283925,
-   "barthag": 0.18928504610287086
+   "adjoe": 99.11107948236682,
+   "adjde": 112.47529795313099,
+   "adjt": 71.96575818283928,
+   "barthag": 0.18928504610287233
   },
   {
    "rank": 320,
    "team": "UNC Greensboro",
    "conf": "SC",
    "record": "3-2",
-   "adjoe": 101.0892767888561,
-   "adjde": 114.74572087046988,
-   "adjt": 68.92907740313849,
-   "barthag": 0.1888933810586495
+   "adjoe": 101.08927678885615,
+   "adjde": 114.74572087046984,
+   "adjt": 68.92907740313852,
+   "barthag": 0.1888933810586511
   },
   {
    "rank": 321,
@@ -8997,7 +10826,7 @@
    "record": "1-4",
    "adjoe": 97.88897516539545,
    "adjde": 111.2893356608661,
-   "adjt": 71.55379384449645,
+   "adjt": 71.55379384449648,
    "barthag": 0.18611651162732762
   },
   {
@@ -9005,70 +10834,70 @@
    "team": "Niagara",
    "conf": "Metro",
    "record": "0-4",
-   "adjoe": 99.50968300851525,
-   "adjde": 113.29575784667544,
-   "adjt": 68.07671589989829,
-   "barthag": 0.18360855952994076
+   "adjoe": 99.50968300851532,
+   "adjde": 113.29575784667537,
+   "adjt": 68.07671589989832,
+   "barthag": 0.18360855952994304
   },
   {
    "rank": 323,
    "team": "Idaho St.",
    "conf": "BSky",
    "record": "0-4",
-   "adjoe": 99.31876807906977,
-   "adjde": 113.35100551935642,
-   "adjt": 68.28245354398878,
-   "barthag": 0.1794940732536443
+   "adjoe": 99.31876807906986,
+   "adjde": 113.35100551935636,
+   "adjt": 68.2824535439888,
+   "barthag": 0.17949407325364664
   },
   {
    "rank": 324,
    "team": "North Florida",
    "conf": "ASun",
    "record": "2-3",
-   "adjoe": 99.42301215765886,
-   "adjde": 113.5657635148921,
-   "adjt": 74.27062586238054,
-   "barthag": 0.17806940206356056
+   "adjoe": 99.42301215765889,
+   "adjde": 113.56576351489204,
+   "adjt": 74.27062586238056,
+   "barthag": 0.1780694020635619
   },
   {
    "rank": 325,
    "team": "Bryant",
    "conf": "AE",
    "record": "2-4",
-   "adjoe": 96.03765621423547,
-   "adjde": 109.75605979753126,
-   "adjt": 67.59356949587371,
-   "barthag": 0.17719348141641147
+   "adjoe": 96.03765621423561,
+   "adjde": 109.75605979753125,
+   "adjt": 67.59356949587372,
+   "barthag": 0.1771934814164142
   },
   {
    "rank": 326,
    "team": "Lafayette",
    "conf": "Pat",
    "record": "3-3",
-   "adjoe": 96.7209760205364,
-   "adjde": 110.92941380752313,
-   "adjt": 68.65835379114603,
-   "barthag": 0.17132955991476986
+   "adjoe": 96.72097602053645,
+   "adjde": 110.92941380752306,
+   "adjt": 68.65835379114604,
+   "barthag": 0.1713295599147719
   },
   {
    "rank": 327,
    "team": "Maine",
    "conf": "AE",
    "record": "1-4",
-   "adjoe": 94.84764519401782,
-   "adjde": 108.83783552480482,
-   "adjt": 68.46427759266142,
-   "barthag": 0.1704767362793037
+   "adjoe": 94.8476451940179,
+   "adjde": 108.83783552480475,
+   "adjt": 68.46427759266145,
+   "barthag": 0.1704767362793062
   },
   {
    "rank": 328,
    "team": "Albany",
    "conf": "AE",
    "record": "3-2",
-   "adjoe": 97.49296644154,
-   "adjde": 111.88503847194156,
+   "adjoe": 97.49296644154019,
+   "adjde": 111.88503847194144,
    "adjt": 69.28664100758333,
-   "barthag": 0.17030684567500826
+   "barthag": 0.170306845675013
   },
   {
    "rank": 329,
@@ -9076,199 +10905,199 @@
    "conf": "Metro",
    "record": "0-5",
    "adjoe": 93.95176550728397,
-   "adjde": 107.84494025683051,
-   "adjt": 64.9133886993811,
-   "barthag": 0.16994758217414604
+   "adjde": 107.84494025683033,
+   "adjt": 64.91338869938113,
+   "barthag": 0.16994758217414882
   },
   {
    "rank": 330,
    "team": "Mount St. Mary's",
    "conf": "Metro",
    "record": "1-3",
-   "adjoe": 97.93368651102435,
-   "adjde": 112.46948090130235,
-   "adjt": 70.19703591600896,
-   "barthag": 0.16917293260435168
+   "adjoe": 97.93368651102439,
+   "adjde": 112.46948090130229,
+   "adjt": 70.19703591600899,
+   "barthag": 0.1691729326043532
   },
   {
    "rank": 331,
    "team": "Delaware St.",
    "conf": "MEAC",
    "record": "2-3",
-   "adjoe": 97.72494070164642,
-   "adjde": 112.23202873284491,
-   "adjt": 69.07807964821852,
-   "barthag": 0.16914014564632024
+   "adjoe": 97.72494070164646,
+   "adjde": 112.23202873284488,
+   "adjt": 69.07807964821853,
+   "barthag": 0.16914014564632135
   },
   {
    "rank": 332,
    "team": "Southern Indiana",
    "conf": "OVC",
    "record": "2-4",
-   "adjoe": 97.24258740023832,
-   "adjde": 111.69016250924511,
-   "adjt": 69.44556245665595,
-   "barthag": 0.16896524815041264
+   "adjoe": 97.24258740023838,
+   "adjde": 111.69016250924508,
+   "adjt": 69.44556245665596,
+   "barthag": 0.168965248150414
   },
   {
    "rank": 333,
    "team": "Grambling St.",
    "conf": "SWAC",
    "record": "1-2",
-   "adjoe": 97.41632885763406,
-   "adjde": 112.01102435395916,
-   "adjt": 70.27131340797973,
-   "barthag": 0.16722271106669645
+   "adjoe": 97.41632885763413,
+   "adjde": 112.01102435395907,
+   "adjt": 70.27131340797975,
+   "barthag": 0.16722271106669884
   },
   {
    "rank": 334,
    "team": "Le Moyne",
    "conf": "NEC",
    "record": "2-3",
-   "adjoe": 98.98679637860218,
-   "adjde": 113.83400589091775,
-   "adjt": 70.73055327794859,
-   "barthag": 0.1669804302545161
+   "adjoe": 98.98679637860229,
+   "adjde": 113.83400589091768,
+   "adjt": 70.73055327794862,
+   "barthag": 0.16698043025451892
   },
   {
    "rank": 335,
    "team": "Texas Southern",
    "conf": "SWAC",
    "record": "1-5",
-   "adjoe": 97.87038544694383,
-   "adjde": 113.13548977002421,
-   "adjt": 74.96684499813809,
-   "barthag": 0.15884669593303688
+   "adjoe": 97.870385446944,
+   "adjde": 113.1354897700243,
+   "adjt": 74.9668449981381,
+   "barthag": 0.15884669593303838
   },
   {
    "rank": 336,
    "team": "Fairleigh Dickinson",
    "conf": "NEC",
    "record": "3-3",
-   "adjoe": 98.51967064544907,
-   "adjde": 113.99653725684414,
-   "adjt": 67.92101258292516,
-   "barthag": 0.1573623144569285
+   "adjoe": 98.51967064544911,
+   "adjde": 113.99653725684395,
+   "adjt": 67.92101258292519,
+   "barthag": 0.1573623144569316
   },
   {
    "rank": 337,
    "team": "Central Connecticut",
    "conf": "NEC",
    "record": "4-2",
-   "adjoe": 97.53353968201507,
+   "adjoe": 97.53353968201519,
    "adjde": 113.29736291524503,
-   "adjt": 65.82643189524785,
-   "barthag": 0.15149477139315762
+   "adjt": 65.82643189524788,
+   "barthag": 0.15149477139315934
   },
   {
    "rank": 338,
    "team": "Bucknell",
    "conf": "Pat",
    "record": "1-4",
-   "adjoe": 96.12992885124264,
-   "adjde": 111.86011365643753,
+   "adjoe": 96.12992885124268,
+   "adjde": 111.86011365643749,
    "adjt": 68.16077025050072,
-   "barthag": 0.14895678982740282
+   "barthag": 0.14895678982740404
   },
   {
    "rank": 339,
    "team": "Binghamton",
    "conf": "AE",
    "record": "3-3",
-   "adjoe": 100.4936253265162,
-   "adjde": 117.21964837454028,
+   "adjoe": 100.49362532651625,
+   "adjde": 117.21964837454033,
    "adjt": 66.02431156380423,
-   "barthag": 0.14548202761441512
+   "barthag": 0.1454820276144154
   },
   {
    "rank": 340,
    "team": "New Haven",
    "conf": "NEC",
    "record": "2-3",
-   "adjoe": 96.2244505946955,
-   "adjde": 112.27962999954096,
-   "adjt": 65.36588834131605,
-   "barthag": 0.14497701788137266
+   "adjoe": 96.22445059469561,
+   "adjde": 112.27962999954093,
+   "adjt": 65.36588834131608,
+   "barthag": 0.1449770178813747
   },
   {
    "rank": 341,
    "team": "NJIT",
    "conf": "AE",
    "record": "1-6",
-   "adjoe": 95.33893943260198,
+   "adjoe": 95.33893943260225,
    "adjde": 111.36135819376227,
-   "adjt": 68.67286626095556,
-   "barthag": 0.14351051002608645
+   "adjt": 68.67286626095559,
+   "barthag": 0.14351051002609044
   },
   {
    "rank": 342,
    "team": "Chicago St.",
    "conf": "NEC",
    "record": "2-5",
-   "adjoe": 96.67785126436328,
-   "adjde": 112.97499303721337,
-   "adjt": 66.93442014875609,
-   "barthag": 0.14288954483399197
+   "adjoe": 96.67785126436317,
+   "adjde": 112.97499303721335,
+   "adjt": 66.9344201487561,
+   "barthag": 0.14288954483399052
   },
   {
    "rank": 343,
    "team": "Morgan St.",
    "conf": "MEAC",
    "record": "4-2",
-   "adjoe": 97.28175990728259,
-   "adjde": 114.16097992501739,
-   "adjt": 71.7675122237064,
-   "barthag": 0.1370539478749351
+   "adjoe": 97.28175990728268,
+   "adjde": 114.16097992501732,
+   "adjt": 71.76751222370642,
+   "barthag": 0.13705394787493716
   },
   {
    "rank": 344,
    "team": "Canisius",
    "conf": "Metro",
    "record": "2-3",
-   "adjoe": 101.41131342594103,
-   "adjde": 119.32009508819657,
-   "adjt": 68.38438360684343,
-   "barthag": 0.13351989648725016
+   "adjoe": 101.41131342594113,
+   "adjde": 119.32009508819651,
+   "adjt": 68.38438360684346,
+   "barthag": 0.13351989648725207
   },
   {
    "rank": 345,
    "team": "The Citadel",
    "conf": "SC",
    "record": "3-2",
-   "adjoe": 98.77786193960443,
-   "adjde": 116.30407460216296,
-   "adjt": 66.95942851841922,
-   "barthag": 0.13257877362182402
+   "adjoe": 98.7778619396045,
+   "adjde": 116.30407460216291,
+   "adjt": 66.95942851841924,
+   "barthag": 0.1325787736218255
   },
   {
    "rank": 346,
    "team": "North Carolina Central",
    "conf": "MEAC",
    "record": "1-5",
-   "adjoe": 96.11204007426363,
-   "adjde": 113.29982768687978,
-   "adjt": 67.57108270173366,
-   "barthag": 0.13101487978822896
+   "adjoe": 96.11204007426365,
+   "adjde": 113.2998276868797,
+   "adjt": 67.57108270173367,
+   "barthag": 0.13101487978823012
   },
   {
    "rank": 347,
    "team": "Wagner",
    "conf": "NEC",
    "record": "1-4",
-   "adjoe": 95.40942788195639,
-   "adjde": 112.65503888155746,
-   "adjt": 70.27110488546998,
-   "barthag": 0.12889555294467406
+   "adjoe": 95.40942788195642,
+   "adjde": 112.6550388815574,
+   "adjt": 70.27110488546997,
+   "barthag": 0.12889555294467508
   },
   {
    "rank": 348,
    "team": "Eastern Illinois",
    "conf": "OVC",
    "record": "1-5",
-   "adjoe": 97.49798738411748,
-   "adjde": 115.1906684120255,
+   "adjoe": 97.4979873841175,
+   "adjde": 115.19066841202542,
    "adjt": 68.47885052042928,
-   "barthag": 0.1281176436629649
+   "barthag": 0.12811764366296605
   },
   {
    "rank": 349,
@@ -9276,169 +11105,169 @@
    "conf": "MEAC",
    "record": "2-4",
    "adjoe": 98.01536336153632,
-   "adjde": 115.90835624395407,
-   "adjt": 68.11454269102452,
-   "barthag": 0.12694224096583023
+   "adjde": 115.90835624395406,
+   "adjt": 68.11454269102455,
+   "barthag": 0.12694224096583037
   },
   {
    "rank": 350,
    "team": "Stonehill",
    "conf": "NEC",
    "record": "1-4",
-   "adjoe": 96.50945811920897,
-   "adjde": 114.26203005726884,
-   "adjt": 69.0620521461026,
-   "barthag": 0.12544881380365605
+   "adjoe": 96.509458119209,
+   "adjde": 114.26203005726873,
+   "adjt": 69.06205214610263,
+   "barthag": 0.12544881380365766
   },
   {
    "rank": 351,
    "team": "Gardner Webb",
    "conf": "BSth",
    "record": "1-4",
-   "adjoe": 98.19319711690079,
-   "adjde": 116.36558791352081,
-   "adjt": 70.21080700806375,
-   "barthag": 0.1242593516846382
+   "adjoe": 98.19319711690085,
+   "adjde": 116.36558791352078,
+   "adjt": 70.21080700806378,
+   "barthag": 0.12425935168463922
   },
   {
    "rank": 352,
    "team": "USC Upstate",
    "conf": "BSth",
    "record": "1-5",
-   "adjoe": 95.39200471942304,
-   "adjde": 113.17525926881828,
-   "adjt": 69.8511611862543,
-   "barthag": 0.12283615576861055
+   "adjoe": 95.39200471942314,
+   "adjde": 113.17525926881821,
+   "adjt": 69.85116118625433,
+   "barthag": 0.1228361557686126
   },
   {
    "rank": 353,
    "team": "Army",
    "conf": "Pat",
    "record": "2-3",
-   "adjoe": 97.77595693487164,
-   "adjde": 116.17737579923093,
-   "adjt": 67.33808449338484,
-   "barthag": 0.12099373069326128
+   "adjoe": 97.77595693487174,
+   "adjde": 116.17737579923083,
+   "adjt": 67.33808449338487,
+   "barthag": 0.12099373069326358
   },
   {
    "rank": 354,
    "team": "Manhattan",
    "conf": "Metro",
    "record": "1-4",
-   "adjoe": 96.72264974419409,
-   "adjde": 115.08523902745029,
-   "adjt": 69.0774596995495,
-   "barthag": 0.11930871224143641
+   "adjoe": 96.72264974419417,
+   "adjde": 115.08523902745013,
+   "adjt": 69.07745969954952,
+   "barthag": 0.1193087122414391
   },
   {
    "rank": 355,
    "team": "Loyola MD",
    "conf": "Pat",
    "record": "1-4",
-   "adjoe": 95.29546840936318,
-   "adjde": 113.72309264844262,
-   "adjt": 68.89650032976098,
-   "barthag": 0.11577953907523456
+   "adjoe": 95.29546840936331,
+   "adjde": 113.72309264844246,
+   "adjt": 68.896500329761,
+   "barthag": 0.11577953907523773
   },
   {
    "rank": 356,
    "team": "Alcorn St.",
    "conf": "SWAC",
    "record": "0-6",
-   "adjoe": 97.40335423443963,
-   "adjde": 116.38015627820462,
-   "adjt": 71.49978683381887,
-   "barthag": 0.11435424184015723
+   "adjoe": 97.4033542344396,
+   "adjde": 116.38015627820482,
+   "adjt": 71.49978683381889,
+   "barthag": 0.11435424184015489
   },
   {
    "rank": 357,
    "team": "Holy Cross",
    "conf": "Pat",
    "record": "0-5",
-   "adjoe": 95.99763148022498,
-   "adjde": 114.79594375080643,
-   "adjt": 70.42865441500079,
-   "barthag": 0.11338967234767985
+   "adjoe": 95.99763148022507,
+   "adjde": 114.79594375080627,
+   "adjt": 70.42865441500082,
+   "barthag": 0.11338967234768245
   },
   {
    "rank": 358,
    "team": "Florida A&M",
    "conf": "SWAC",
    "record": "0-6",
-   "adjoe": 95.38475279141835,
-   "adjde": 114.29251000400413,
-   "adjt": 71.50494047394466,
-   "barthag": 0.11108692756404427
+   "adjoe": 95.38475279141836,
+   "adjde": 114.29251000400409,
+   "adjt": 71.50494047394469,
+   "barthag": 0.11108692756404487
   },
   {
    "rank": 359,
    "team": "Coppin St.",
    "conf": "MEAC",
    "record": "1-5",
-   "adjoe": 94.55016797349731,
-   "adjde": 113.37604886057755,
+   "adjoe": 94.55016797349738,
+   "adjde": 113.37604886057758,
    "adjt": 68.9829900457433,
-   "barthag": 0.11025242770206105
+   "barthag": 0.11025242770206162
   },
   {
    "rank": 360,
    "team": "Incarnate Word",
    "conf": "Slnd",
    "record": "0-5",
-   "adjoe": 94.16777789120405,
-   "adjde": 113.29453889579206,
-   "adjt": 69.39284770432027,
-   "barthag": 0.10654786937101984
+   "adjoe": 94.16777789120412,
+   "adjde": 113.29453889579204,
+   "adjt": 69.39284770432029,
+   "barthag": 0.1065478693710208
   },
   {
    "rank": 361,
    "team": "Mississippi Valley St.",
    "conf": "SWAC",
    "record": "0-4",
-   "adjoe": 92.45238358451184,
+   "adjoe": 92.45238358451206,
    "adjde": 111.9136726690347,
-   "adjt": 68.74850219510836,
-   "barthag": 0.10002996961374
+   "adjt": 68.74850219510837,
+   "barthag": 0.10002996961374253
   },
   {
    "rank": 362,
    "team": "Western Illinois",
    "conf": "OVC",
    "record": "1-4",
-   "adjoe": 94.95200357022006,
-   "adjde": 115.41935172845444,
-   "adjt": 69.02493263339122,
-   "barthag": 0.09579845862206623
+   "adjoe": 94.95200357022014,
+   "adjde": 115.41935172845434,
+   "adjt": 69.02493263339124,
+   "barthag": 0.09579845862206798
   },
   {
    "rank": 363,
    "team": "Rider",
    "conf": "Metro",
    "record": "1-5",
-   "adjoe": 94.03205210842789,
-   "adjde": 117.72561781959098,
-   "adjt": 69.33778801069563,
-   "barthag": 0.07015630564445535
+   "adjoe": 94.03205210842795,
+   "adjde": 117.7256178195909,
+   "adjt": 69.33778801069566,
+   "barthag": 0.07015630564445635
   },
   {
    "rank": 364,
    "team": "Maryland Eastern Shore",
    "conf": "MEAC",
    "record": "1-5",
-   "adjoe": 87.15134422694504,
-   "adjde": 110.44597445155804,
-   "adjt": 67.14420693503426,
-   "barthag": 0.061564813666635396
+   "adjoe": 87.15134422694503,
+   "adjde": 110.44597445155797,
+   "adjt": 67.14420693503428,
+   "barthag": 0.061564813666635715
   },
   {
    "rank": 365,
    "team": "Arkansas Pine Bluff",
    "conf": "SWAC",
    "record": "0-6",
-   "adjoe": 91.10066042189065,
-   "adjde": 118.2101809813341,
-   "adjt": 73.96755563813551,
-   "barthag": 0.04761867078034103
+   "adjoe": 91.10066042189052,
+   "adjde": 118.21018098133396,
+   "adjt": 73.96755563813552,
+   "barthag": 0.047618670780340926
   }
  ],
  "hardwood": {

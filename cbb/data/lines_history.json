@@ -1728,5 +1728,15 @@
   "total": 158.0,
   "torvik": -7.9,
   "hardwood_live": -6.4
+ },
+ "5246df4438e82883d2aa2437d1f9857c": {
+  "date": "2026-11-19",
+  "away": "West Virginia",
+  "home": "Florida",
+  "neutral": false,
+  "close": 8.0,
+  "total": 147.5,
+  "torvik": -9.1,
+  "hardwood_live": -3.7
  }
 }

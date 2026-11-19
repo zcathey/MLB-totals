@@ -6384,7 +6384,9 @@
   "hardwood_spread": -2.1,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-19T16:44:37.693806+00:00"
+  "logged": "2026-11-19T16:44:37.693806+00:00",
+  "close": 8.0,
+  "clv": 0.0
  },
  {
   "event_id": "57ce51731aa0e3325c489d30a2b2e7ed",
