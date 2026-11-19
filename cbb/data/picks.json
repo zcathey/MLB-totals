@@ -5316,7 +5316,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -11.0,
-  "clv": 1.2
+  "clv": 1.2,
+  "final": [
+   62,
+   99
+  ],
+  "result": "L"
  },
  {
   "event_id": "959b0c06d319a076c7268c6093c09d08",
@@ -5341,7 +5346,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -15.5,
-  "clv": 0.5
+  "clv": 0.5,
+  "final": [
+   72,
+   80
+  ],
+  "result": "W"
  },
  {
   "event_id": "94bd619fd5f01d6fce01976be60e88e6",
@@ -5366,7 +5376,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -16.0,
-  "clv": 1.5
+  "clv": 1.5,
+  "final": [
+   77,
+   91
+  ],
+  "result": "W"
  },
  {
   "event_id": "86586898f0efe3edb5f5e176c8b12f3b",
@@ -5391,7 +5406,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -28.5,
-  "clv": -0.8
+  "clv": -0.8,
+  "final": [
+   54,
+   91
+  ],
+  "result": "L"
  },
  {
   "event_id": "bb462c58ead82c144a662b10306d1d22",
@@ -5416,7 +5436,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -27.0,
-  "clv": 3.0
+  "clv": 3.0,
+  "final": [
+   65,
+   79
+  ],
+  "result": "W"
  },
  {
   "event_id": "370fc3a3a15f89b2ab0ece7ff89965bc",
@@ -5441,7 +5466,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -20.5,
-  "clv": 3.5
+  "clv": 3.5,
+  "final": [
+   78,
+   87
+  ],
+  "result": "W"
  },
  {
   "event_id": "775c3580dd1c3bee5cf5d488c6b7d09f",
@@ -5466,7 +5496,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -19.0,
-  "clv": 3.2
+  "clv": 3.2,
+  "final": [
+   82,
+   91
+  ],
+  "result": "W"
  },
  {
   "event_id": "03c1c51ea60287cbe17ce32bef17cc5f",
@@ -5491,7 +5526,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -37.5,
-  "clv": -1.5
+  "clv": -1.5,
+  "final": [
+   67,
+   79
+  ],
+  "result": "W"
  },
  {
   "event_id": "6144d8ef7328faadb4d152a96f8740ba",
@@ -5516,7 +5556,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": 1.0,
-  "clv": 0.2
+  "clv": 0.2,
+  "final": [
+   79,
+   75
+  ],
+  "result": "W"
  },
  {
   "event_id": "595c3aaf127c4ed504fbb48487c27b85",
@@ -5541,7 +5586,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -32.5,
-  "clv": 1.8
+  "clv": 1.8,
+  "final": [
+   47,
+   73
+  ],
+  "result": "W"
  },
  {
   "event_id": "851abdc6f9c2754e2ede34a214ee6398",
@@ -5566,7 +5616,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -23.0,
-  "clv": 1.8
+  "clv": 1.8,
+  "final": [
+   65,
+   68
+  ],
+  "result": "W"
  },
  {
   "event_id": "2d82f6779bd0ff45a95caa0215ae9be7",
@@ -5591,7 +5646,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -14.5,
-  "clv": 0.2
+  "clv": 0.2,
+  "final": [
+   77,
+   74
+  ],
+  "result": "W"
  },
  {
   "event_id": "ae80c6358b3f2b6e9d3338adccd0b177",
@@ -5616,7 +5676,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -28.5,
-  "clv": 3.8
+  "clv": 3.8,
+  "final": [
+   71,
+   101
+  ],
+  "result": "W"
  },
  {
   "event_id": "da0659a81b6c52abe99dc5e07b1434a8",
@@ -5641,7 +5706,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -18.5,
-  "clv": 0.8
+  "clv": 0.8,
+  "final": [
+   74,
+   91
+  ],
+  "result": "W"
  },
  {
   "event_id": "dbefa3975d810f789b5ad29c9c9e140a",
@@ -5666,7 +5736,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -10.5,
-  "clv": -1.8
+  "clv": -1.8,
+  "final": [
+   56,
+   77
+  ],
+  "result": "L"
  },
  {
   "event_id": "50f9c229b6b49a7512f7511e6d825cd4",
@@ -5691,7 +5766,12 @@
   "neutral": false,
   "logged": "2026-11-17T23:10:29.797617+00:00",
   "close": -31.5,
-  "clv": 3.0
+  "clv": 3.0,
+  "final": [
+   71,
+   75
+  ],
+  "result": "W"
  },
  {
   "event_id": "b9ceae88b150b85cac57b2c1a4f3d29c",
@@ -5746,7 +5826,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": 4.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   90,
+   79
+  ],
+  "result": "L"
  },
  {
   "event_id": "1955d8fa175573a689d24209bcb4b6c0",
@@ -5771,7 +5856,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": 3.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   98,
+   77
+  ],
+  "result": "L"
  },
  {
   "event_id": "f01d24c5ed66f5adf7bb2e2a7760e9c8",
@@ -5796,7 +5886,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": -23.0,
-  "clv": -0.5
+  "clv": -0.5,
+  "final": [
+   52,
+   60
+  ],
+  "result": "W"
  },
  {
   "event_id": "4464e03ee9677e6c8c25743754e3848c",
@@ -5821,7 +5916,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": -6.0,
-  "clv": 1.0
+  "clv": 1.0,
+  "final": [
+   76,
+   86
+  ],
+  "result": "W"
  },
  {
   "event_id": "6152e11ee0f51c9e31b75aeecad708c3",
@@ -5846,7 +5946,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": -23.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   60,
+   83
+  ],
+  "result": "W"
  },
  {
   "event_id": "d5b20b33c88b112012af9cf6db1b73b8",
@@ -5871,7 +5976,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": -7.5,
-  "clv": -0.5
+  "clv": -0.5,
+  "final": [
+   74,
+   76
+  ],
+  "result": "W"
  },
  {
   "event_id": "c36425b5ec4189fc1acd91902c721bf2",
@@ -5896,7 +6006,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": 7.5,
-  "clv": 1.0
+  "clv": 1.0,
+  "final": [
+   86,
+   82
+  ],
+  "result": "W"
  },
  {
   "event_id": "34b65a433cc264d16842e211d746d310",
@@ -5946,7 +6061,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": -36.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   41,
+   86
+  ],
+  "result": "L"
  },
  {
   "event_id": "458aa313a32c840ac6c8496378003502",
@@ -5971,7 +6091,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": -28.5,
-  "clv": 0.5
+  "clv": 0.5,
+  "final": [
+   69,
+   100
+  ],
+  "result": "L"
  },
  {
   "event_id": "c9d6c86cc70b0ff1c34ab46d27686e4c",
@@ -5996,7 +6121,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": -17.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   78,
+   98
+  ],
+  "result": "L"
  },
  {
   "event_id": "49eba9f976604d9b6da10df45921b2cc",
@@ -6021,7 +6151,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": -40.5,
-  "clv": 2.5
+  "clv": 2.5,
+  "final": [
+   41,
+   102
+  ],
+  "result": "L"
  },
  {
   "event_id": "a5a44801fd94ef0aebd452621ac7d5fa",
@@ -6046,7 +6181,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": -24.0,
-  "clv": -0.5
+  "clv": -0.5,
+  "final": [
+   65,
+   88
+  ],
+  "result": "W"
  },
  {
   "event_id": "34adecee185d2196638cd55c5f1e9c27",
@@ -6071,7 +6211,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": -6.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   86,
+   92
+  ],
+  "result": "W"
  },
  {
   "event_id": "b86b3fdea018ce4da96e2f720e3a5842",
@@ -6096,7 +6241,12 @@
   "neutral": false,
   "logged": "2026-11-18T16:44:39.870222+00:00",
   "close": -9.0,
-  "clv": 1.5
+  "clv": 1.5,
+  "final": [
+   71,
+   86
+  ],
+  "result": "W"
  },
  {
   "event_id": "a25d06bbc2209ccc30f89edcbb8efb8e",
