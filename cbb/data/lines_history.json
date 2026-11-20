@@ -2088,5 +2088,35 @@
   "total": 138.0,
   "torvik": -7.1,
   "hardwood_live": -3.9
+ },
+ "58fd00286fe702703270602ff058da8b": {
+  "date": "2026-11-20",
+  "away": "South Dakota St.",
+  "home": "Idaho St.",
+  "neutral": false,
+  "close": 5.5,
+  "total": 142.0,
+  "torvik": 4.4,
+  "hardwood_live": 13.4
+ },
+ "9d327abf7311461d1cfaeb835057b5db": {
+  "date": "2026-11-20",
+  "away": "Rhode Island",
+  "home": "Liberty",
+  "neutral": false,
+  "close": 1.5,
+  "total": 141.5,
+  "torvik": -1.5,
+  "hardwood_live": 2.4
+ },
+ "86aad9e9d1093833464eac0c88635a2c": {
+  "date": "2026-11-20",
+  "away": "Manhattan",
+  "home": "Miami FL",
+  "neutral": false,
+  "close": -36.5,
+  "total": 150.0,
+  "torvik": -32.1,
+  "hardwood_live": -27.6
  }
 }
