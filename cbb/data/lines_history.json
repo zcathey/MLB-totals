@@ -1748,5 +1748,265 @@
   "total": 151.5,
   "torvik": 2.8,
   "hardwood_live": -2.4
+ },
+ "58f585d704a7d4680f9dd7e877eddaaf": {
+  "date": "2026-11-19",
+  "away": "N.C. State",
+  "home": "Murray St.",
+  "neutral": true,
+  "close": 3.5,
+  "total": 165.0,
+  "torvik": 7.6,
+  "hardwood_live": 1.7
+ },
+ "7c168df70997b32224c52c8ab031d704": {
+  "date": "2026-11-19",
+  "away": "Buffalo",
+  "home": "St. Bonaventure",
+  "neutral": false,
+  "close": -12.0,
+  "total": 147.0,
+  "torvik": -10.4,
+  "hardwood_live": -13.7
+ },
+ "daeb1516248941803c043ccbd01dd18c": {
+  "date": "2026-11-19",
+  "away": "Northeastern",
+  "home": "Butler",
+  "neutral": false,
+  "close": -16.0,
+  "total": 164.0,
+  "torvik": -13.8,
+  "hardwood_live": -12.1
+ },
+ "1a7893819f5bab2287cbc72dc8226d7e": {
+  "date": "2026-11-19",
+  "away": "Robert Morris",
+  "home": "Toledo",
+  "neutral": false,
+  "close": -7.5,
+  "total": 145.0,
+  "torvik": -5.4,
+  "hardwood_live": -17.2
+ },
+ "9fd39939b846d3cbd50dc78087ec35f1": {
+  "date": "2026-11-19",
+  "away": "Charleston",
+  "home": "Drake",
+  "neutral": false,
+  "close": -2.0,
+  "total": 159.0,
+  "torvik": -1.0,
+  "hardwood_live": 7.6
+ },
+ "8bc6641f480ada7dae2744e3336dbcfa": {
+  "date": "2026-11-19",
+  "away": "Tulane",
+  "home": "Louisiana Tech",
+  "neutral": false,
+  "close": -2.0,
+  "total": 142.5,
+  "torvik": 1.3,
+  "hardwood_live": 1.8
+ },
+ "b5ff26a1800958caa39a89f0235999dc": {
+  "date": "2026-11-19",
+  "away": "Southeast Missouri St.",
+  "home": "St. Thomas",
+  "neutral": false,
+  "close": -7.0,
+  "total": 149.5,
+  "torvik": -6.7,
+  "hardwood_live": -3.3
+ },
+ "a25d06bbc2209ccc30f89edcbb8efb8e": {
+  "date": "2026-11-19",
+  "away": "Southern Utah",
+  "home": "Texas",
+  "neutral": false,
+  "close": -35.5,
+  "total": 155.5,
+  "torvik": -25.1,
+  "hardwood_live": -32.9
+ },
+ "a21492045a6fa8b2a6e9d8b136534ac4": {
+  "date": "2026-11-19",
+  "away": "Texas A&M",
+  "home": "TCU",
+  "neutral": false,
+  "close": -1.0,
+  "total": 162.0,
+  "torvik": 1.6,
+  "hardwood_live": 5.1
+ },
+ "7f7fd17bc583d3d43cdde63affb31764": {
+  "date": "2026-11-19",
+  "away": "Wisconsin",
+  "home": "Seton Hall",
+  "neutral": true,
+  "close": 5.0,
+  "total": 139.5,
+  "torvik": 1.9,
+  "hardwood_live": -0.3
+ },
+ "32098b4b5ed4967c39128b31e6d16b6c": {
+  "date": "2026-11-19",
+  "away": "UTEP",
+  "home": "New Mexico St.",
+  "neutral": false,
+  "close": -1.5,
+  "total": 133.0,
+  "torvik": -2.5,
+  "hardwood_live": 1.7
+ },
+ "112a3e561a6b673b4ca74bb0e0605c2c": {
+  "date": "2026-11-19",
+  "away": "Oregon St.",
+  "home": "Oregon",
+  "neutral": false,
+  "close": -1.5,
+  "total": 159.5,
+  "torvik": -8.4,
+  "hardwood_live": -4.0
+ },
+ "06c795c1626c246ad89e38eb1a35dbfb": {
+  "date": "2026-11-19",
+  "away": "UC Santa Barbara",
+  "home": "Pepperdine",
+  "neutral": false,
+  "close": 2.0,
+  "total": 149.0,
+  "torvik": 4.0,
+  "hardwood_live": 4.4
+ },
+ "028a30dac6c59487da6c8a7d657875e0": {
+  "date": "2026-11-19",
+  "away": "Utah Tech",
+  "home": "Washington",
+  "neutral": false,
+  "close": -17.0,
+  "total": 155.5,
+  "torvik": -17.2,
+  "hardwood_live": -12.9
+ },
+ "df2f770cd36480fbf467976988b1bd8b": {
+  "date": "2026-11-19",
+  "away": "Sacramento St.",
+  "home": "Stanford",
+  "neutral": false,
+  "close": -17.5,
+  "total": 154.5,
+  "torvik": -9.7,
+  "hardwood_live": -11.1
+ },
+ "42a35684e7ff6f13af5834f9a5004df6": {
+  "date": "2026-11-19",
+  "away": "VCU",
+  "home": "Santa Clara",
+  "neutral": false,
+  "close": -2.0,
+  "total": 163.5,
+  "torvik": -1.0,
+  "hardwood_live": -5.0
+ },
+ "9b9dda4d07eb93b5e16e9fc62ff01ca3": {
+  "date": "2026-11-19",
+  "away": "Tarleton St.",
+  "home": "USC",
+  "neutral": false,
+  "close": -28.0,
+  "total": 159.0,
+  "torvik": -17.2,
+  "hardwood_live": -22.2
+ },
+ "94d6da045bf64876ebfa87d69df70fb9": {
+  "date": "2026-11-19",
+  "away": "Little Rock",
+  "home": "Jacksonville",
+  "neutral": false,
+  "close": -1.5,
+  "total": 144.5,
+  "torvik": -5.4,
+  "hardwood_live": -2.2
+ },
+ "44061430be1aeb7eff6e79c0e48ecbb9": {
+  "date": "2026-11-19",
+  "away": "Southern Miss",
+  "home": "Grambling St.",
+  "neutral": false,
+  "close": 1.5,
+  "total": 146.0,
+  "torvik": 2.1,
+  "hardwood_live": -4.8
+ },
+ "bd1799e8815981f90f74e705e6660de8": {
+  "date": "2026-11-19",
+  "away": "Montana St.",
+  "home": "High Point",
+  "neutral": false,
+  "close": -12.0,
+  "total": 144.0,
+  "torvik": -9.3,
+  "hardwood_live": -8.5
+ },
+ "12dc8b35d66981d6ff559ed3761c6fed": {
+  "date": "2026-11-19",
+  "away": "Maine",
+  "home": "Quinnipiac",
+  "neutral": false,
+  "close": -8.5,
+  "total": 134.0,
+  "torvik": -8.3,
+  "hardwood_live": -3.7
+ },
+ "d6ff4d964a24be574d7438aa33061cd7": {
+  "date": "2026-11-19",
+  "away": "UMBC",
+  "home": "Ohio St.",
+  "neutral": false,
+  "close": -28.5,
+  "total": 155.5,
+  "torvik": -24.4,
+  "hardwood_live": -15.9
+ },
+ "dbb1b55e5ce880c36dd40da9019cfc56": {
+  "date": "2026-11-19",
+  "away": "Georgia Southern",
+  "home": "Houston Christian",
+  "neutral": false,
+  "close": -3.5,
+  "total": 153.0,
+  "torvik": -4.8,
+  "hardwood_live": -9.9
+ },
+ "1a136a0253a5b66b6057918946a432df": {
+  "date": "2026-11-19",
+  "away": "Stetson",
+  "home": "Louisville",
+  "neutral": false,
+  "close": -36.0,
+  "total": 154.5,
+  "torvik": -26.0,
+  "hardwood_live": -21.0
+ },
+ "cd5851d9377b5aa32b67f9c534385a0c": {
+  "date": "2026-11-19",
+  "away": "East Texas A&M",
+  "home": "California",
+  "neutral": false,
+  "close": -14.0,
+  "total": 145.5,
+  "torvik": -10.9,
+  "hardwood_live": -6.6
+ },
+ "769a46ab3c2f46e9ca8771af3d857cea": {
+  "date": "2026-11-19",
+  "away": "UNLV",
+  "home": "Rutgers",
+  "neutral": true,
+  "close": -2.5,
+  "total": 157.5,
+  "torvik": -3.5,
+  "hardwood_live": -7.5
  }
 }
