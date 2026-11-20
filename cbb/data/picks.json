@@ -6749,7 +6749,14 @@
   "hardwood_spread": -16.0,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-19T22:46:34.770849+00:00"
+  "logged": "2026-11-19T22:46:34.770849+00:00",
+  "close": -22.5,
+  "clv": 0.8,
+  "final": [
+   63,
+   87
+  ],
+  "result": "L"
  },
  {
   "event_id": "79e05f83b74f5df0385955f0d3f3cdcb",
@@ -6772,7 +6779,14 @@
   "hardwood_spread": -4.1,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-19T22:46:34.770849+00:00"
+  "logged": "2026-11-19T22:46:34.770849+00:00",
+  "close": 3.0,
+  "clv": 0.2,
+  "final": [
+   85,
+   76
+  ],
+  "result": "L"
  },
  {
   "event_id": "c42a6f010c505da91cae91ba184692fa",
@@ -6795,7 +6809,9 @@
   "hardwood_spread": -6.2,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-19T22:46:34.770849+00:00"
+  "logged": "2026-11-19T22:46:34.770849+00:00",
+  "close": -4.0,
+  "clv": 1.0
  },
  {
   "event_id": "9d327abf7311461d1cfaeb835057b5db",
