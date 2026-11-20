@@ -2008,5 +2008,15 @@
   "total": 157.5,
   "torvik": -3.5,
   "hardwood_live": -7.5
+ },
+ "6d51497e3276256e5dd07220b624c37f": {
+  "date": "2026-11-19",
+  "away": "Houston",
+  "home": "Kansas",
+  "neutral": true,
+  "close": 3.5,
+  "total": 151.5,
+  "torvik": -0.2,
+  "hardwood_live": 0.5
  }
 }

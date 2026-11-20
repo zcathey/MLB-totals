@@ -6271,7 +6271,12 @@
   "neutral": false,
   "logged": "2026-11-18T22:42:09.765194+00:00",
   "close": -35.5,
-  "clv": 3.0
+  "clv": 3.0,
+  "final": [
+   68,
+   92
+  ],
+  "result": "W"
  },
  {
   "event_id": "7f7fd17bc583d3d43cdde63affb31764",
@@ -6296,7 +6301,12 @@
   "neutral": false,
   "logged": "2026-11-18T22:42:09.765194+00:00",
   "close": 5.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   69,
+   74
+  ],
+  "result": "W"
  },
  {
   "event_id": "112a3e561a6b673b4ca74bb0e0605c2c",
@@ -6321,7 +6331,12 @@
   "neutral": false,
   "logged": "2026-11-18T22:42:09.765194+00:00",
   "close": -1.5,
-  "clv": -1.2
+  "clv": -1.2,
+  "final": [
+   82,
+   71
+  ],
+  "result": "L"
  },
  {
   "event_id": "df2f770cd36480fbf467976988b1bd8b",
@@ -6346,7 +6361,12 @@
   "neutral": false,
   "logged": "2026-11-18T22:42:09.765194+00:00",
   "close": -17.5,
-  "clv": -1.5
+  "clv": -1.5,
+  "final": [
+   65,
+   78
+  ],
+  "result": "W"
  },
  {
   "event_id": "9b9dda4d07eb93b5e16e9fc62ff01ca3",
@@ -6371,7 +6391,12 @@
   "neutral": false,
   "logged": "2026-11-18T22:42:09.765194+00:00",
   "close": -28.0,
-  "clv": -1.2
+  "clv": -1.2,
+  "final": [
+   51,
+   96
+  ],
+  "result": "L"
  },
  {
   "event_id": "5246df4438e82883d2aa2437d1f9857c",
@@ -6426,7 +6451,12 @@
   "neutral": false,
   "logged": "2026-11-19T16:44:37.693806+00:00",
   "close": 3.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   73,
+   78
+  ],
+  "result": "W"
  },
  {
   "event_id": "bd1799e8815981f90f74e705e6660de8",
@@ -6451,7 +6481,12 @@
   "neutral": false,
   "logged": "2026-11-19T16:44:37.693806+00:00",
   "close": -12.0,
-  "clv": 1.0
+  "clv": 1.0,
+  "final": [
+   74,
+   85
+  ],
+  "result": "W"
  },
  {
   "event_id": "d6ff4d964a24be574d7438aa33061cd7",
@@ -6476,7 +6511,12 @@
   "neutral": false,
   "logged": "2026-11-19T16:44:37.693806+00:00",
   "close": -28.5,
-  "clv": 1.0
+  "clv": 1.0,
+  "final": [
+   62,
+   101
+  ],
+  "result": "L"
  },
  {
   "event_id": "8bc6641f480ada7dae2744e3336dbcfa",
@@ -6501,7 +6541,12 @@
   "neutral": false,
   "logged": "2026-11-19T16:44:37.693806+00:00",
   "close": -2.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   67,
+   74
+  ],
+  "result": "L"
  },
  {
   "event_id": "1a136a0253a5b66b6057918946a432df",
@@ -6526,7 +6571,12 @@
   "neutral": false,
   "logged": "2026-11-19T16:44:37.693806+00:00",
   "close": -36.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   69,
+   83
+  ],
+  "result": "W"
  },
  {
   "event_id": "769a46ab3c2f46e9ca8771af3d857cea",
@@ -6551,7 +6601,12 @@
   "neutral": false,
   "logged": "2026-11-19T16:44:37.693806+00:00",
   "close": -2.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   70,
+   89
+  ],
+  "result": "W"
  },
  {
   "event_id": "6d51497e3276256e5dd07220b624c37f",
@@ -6576,7 +6631,12 @@
   "neutral": false,
   "logged": "2026-11-19T16:44:37.693806+00:00",
   "close": 3.5,
-  "clv": -1.0
+  "clv": -1.0,
+  "final": [
+   83,
+   92
+  ],
+  "result": "W"
  },
  {
   "event_id": "58f585d704a7d4680f9dd7e877eddaaf",
@@ -6601,7 +6661,12 @@
   "neutral": true,
   "logged": "2026-11-19T22:46:34.770849+00:00",
   "close": 3.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   83,
+   93
+  ],
+  "result": "L"
  },
  {
   "event_id": "94d6da045bf64876ebfa87d69df70fb9",
@@ -6626,7 +6691,12 @@
   "neutral": false,
   "logged": "2026-11-19T22:46:34.770849+00:00",
   "close": -1.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   78,
+   72
+  ],
+  "result": "L"
  },
  {
   "event_id": "cd5851d9377b5aa32b67f9c534385a0c",
@@ -6651,7 +6721,12 @@
   "neutral": false,
   "logged": "2026-11-19T22:46:34.770849+00:00",
   "close": -14.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   54,
+   86
+  ],
+  "result": "L"
  },
  {
   "event_id": "d6615873be75fcb42a72a8f14c93dd53",
@@ -6951,5 +7026,143 @@
   "both_models": true,
   "neutral": false,
   "logged": "2026-11-19T22:46:34.770849+00:00"
+ },
+ {
+  "event_id": "eaa7e563508f83b89da51b138fda7d0b",
+  "date": "2026-11-20",
+  "tip": "2026-11-20T23:00:00Z",
+  "away": "Delaware",
+  "home": "Cal St. Northridge",
+  "side": "away",
+  "pick": "Delaware +8",
+  "line": -8.0,
+  "model_spread": -4.7,
+  "edge": 3.3,
+  "market": "against",
+  "move_at_pick": -2.0,
+  "best": {
+   "pt": 8.0,
+   "px": -112,
+   "book": "Pinnacle"
+  },
+  "hardwood_spread": -2.8,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-20T16:44:17.023251+00:00"
+ },
+ {
+  "event_id": "6490128d2a737c7c4b91289a0b40a5d0",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00:00Z",
+  "away": "Loyola MD",
+  "home": "Virginia",
+  "side": "away",
+  "pick": "Loyola MD +41.5",
+  "line": -41.5,
+  "model_spread": -34.5,
+  "edge": 7.0,
+  "market": "agrees",
+  "move_at_pick": 2.0,
+  "best": {
+   "pt": 42.5,
+   "px": -117,
+   "book": "BetRivers"
+  },
+  "hardwood_spread": -30.7,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-20T16:44:17.023251+00:00"
+ },
+ {
+  "event_id": "660bc79d92165bc04fe6db1c51bfa80d",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00:00Z",
+  "away": "Wagner",
+  "home": "Maryland",
+  "side": "away",
+  "pick": "Wagner +34",
+  "line": -34.0,
+  "model_spread": -27.3,
+  "edge": 6.7,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 34.5,
+   "px": -110,
+   "book": "FanDuel"
+  },
+  "hardwood_spread": -24.1,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-20T16:44:17.023251+00:00"
+ },
+ {
+  "event_id": "f74a59473918b8b98feab33b4bf8b836",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00:00Z",
+  "away": "Murray St.",
+  "home": "Wisconsin",
+  "side": "home",
+  "pick": "Wisconsin -3.5",
+  "line": -3.5,
+  "model_spread": -7.0,
+  "edge": -3.5,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": -3.5,
+   "px": -108,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": 0.6,
+  "both_models": false,
+  "neutral": false,
+  "logged": "2026-11-20T16:44:17.023251+00:00"
+ },
+ {
+  "event_id": "cd962be2d33dbd38b2b7d21dcd5fe124",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T01:00:00Z",
+  "away": "Kentucky",
+  "home": "Indiana",
+  "side": "home",
+  "pick": "Indiana -3",
+  "line": -3.0,
+  "model_spread": -6.1,
+  "edge": -3.1,
+  "market": "against",
+  "move_at_pick": 0.5,
+  "best": {
+   "pt": -3.0,
+   "px": -115,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -7.8,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-20T16:44:17.023251+00:00"
+ },
+ {
+  "event_id": "5510f024997e32ccb84f6d5ad2b58e8d",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T01:00:00Z",
+  "away": "Le Moyne",
+  "home": "Missouri",
+  "side": "away",
+  "pick": "Le Moyne +36",
+  "line": -36.0,
+  "model_spread": -28.6,
+  "edge": 7.4,
+  "market": "agrees",
+  "move_at_pick": 0.5,
+  "best": {
+   "pt": 36.5,
+   "px": -110,
+   "book": "BetRivers"
+  },
+  "hardwood_spread": -32.4,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-20T16:44:17.023251+00:00"
  }
 ]
