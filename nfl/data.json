@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T20:59:19.046814+00:00",
+ "generated_at": "2026-11-21T20:00:13.259498+00:00",
  "mode": "picks",
  "season": 2026,
  "week": 11,
@@ -11,7 +11,7 @@
  "lines": {
   "status": "ok",
   "events": 28,
-  "credits_remaining": "262"
+  "credits_remaining": "246"
  },
  "settings": {
   "points_base": 23.0,
@@ -78,14 +78,14 @@
    "mkt_total": 44.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -16.0,
-    "px": -108,
-    "book": "Bovada"
+    "pt": -15.5,
+    "px": -115,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 17.0,
-    "px": -120,
-    "book": "Pinnacle"
+    "px": -115,
+    "book": "BetRivers"
    },
    "best_over": {
     "pt": 44.5,
@@ -93,9 +93,9 @@
     "book": "Pinnacle"
    },
    "best_under": {
-    "pt": 44.5,
-    "px": -105,
-    "book": "DraftKings"
+    "pt": 45.5,
+    "px": -117,
+    "book": "BetRivers"
    },
    "open_spread": -17.0,
    "open_total": 45.5,
@@ -136,7 +136,7 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -2.5,
-    "px": -115,
+    "px": -113,
     "book": "Pinnacle"
    },
    "best_away": {
@@ -152,7 +152,7 @@
    "best_under": {
     "pt": 43.5,
     "px": -108,
-    "book": "Pinnacle"
+    "book": "BetMGM"
    },
    "open_spread": -2.5,
    "open_total": 44.5,
@@ -200,12 +200,12 @@
    },
    "best_over": {
     "pt": 48.5,
-    "px": -108,
+    "px": -107,
     "book": "DraftKings"
    },
    "best_under": {
     "pt": 48.5,
-    "px": -104,
+    "px": -107,
     "book": "Pinnacle"
    },
    "open_spread": -11.5,
@@ -247,8 +247,8 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -7.5,
-    "px": -115,
-    "book": "FanDuel"
+    "px": -106,
+    "book": "DraftKings"
    },
    "best_away": {
     "pt": 9.0,
@@ -296,29 +296,29 @@
    "started": false,
    "away_qb": "Baker Mayfield",
    "home_qb": "Jared Goff",
-   "books": 8,
-   "mkt_spread": -5.5,
-   "mkt_total": 45.0,
+   "books": 7,
+   "mkt_spread": -4.5,
+   "mkt_total": 46.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -4.5,
-    "px": -115,
-    "book": "FanDuel"
+    "pt": -4.0,
+    "px": -112,
+    "book": "Bovada"
    },
    "best_away": {
-    "pt": 5.5,
-    "px": -108,
-    "book": "BetRivers"
+    "pt": 4.5,
+    "px": -109,
+    "book": "DraftKings"
    },
    "best_over": {
-    "pt": 45.0,
-    "px": -120,
-    "book": "Pinnacle"
+    "pt": 46.0,
+    "px": -110,
+    "book": "BetMGM"
    },
    "best_under": {
     "pt": 46.5,
-    "px": -116,
-    "book": "FanDuel"
+    "px": -112,
+    "book": "DraftKings"
    },
    "open_spread": -6.5,
    "open_total": 46.5,
@@ -329,10 +329,13 @@
     "home_spread": -7.9,
     "total": 44.5
    },
-   "edge": -2.4,
-   "move": 1.0,
-   "total_edge": -0.5,
-   "total_move": -1.5,
+   "edge": -3.4,
+   "move": 2.0,
+   "pick": "Detroit -4.5",
+   "pick_side": "home",
+   "market": "against",
+   "total_edge": -1.5,
+   "total_move": -0.5,
    "blocked": false
   },
   {
@@ -348,19 +351,19 @@
    "started": false,
    "away_qb": "Gardner Minshew",
    "home_qb": "Patrick Mahomes",
-   "books": 8,
+   "books": 7,
    "mkt_spread": -16.5,
    "mkt_total": 41.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -16.0,
-    "px": -110,
+    "pt": -15.0,
+    "px": -108,
     "book": "BetRivers"
    },
    "best_away": {
     "pt": 16.5,
-    "px": -103,
-    "book": "Pinnacle"
+    "px": -115,
+    "book": "FanDuel"
    },
    "best_over": {
     "pt": 40.5,
@@ -368,9 +371,9 @@
     "book": "FanDuel"
    },
    "best_under": {
-    "pt": 41.5,
-    "px": -115,
-    "book": "ESPN BET"
+    "pt": 41.0,
+    "px": -112,
+    "book": "Pinnacle"
    },
    "open_spread": -16.0,
    "open_total": 41.0,
@@ -422,14 +425,14 @@
     "book": "Bovada"
    },
    "best_over": {
-    "pt": 46.5,
-    "px": -104,
-    "book": "FanDuel"
+    "pt": 46.0,
+    "px": -108,
+    "book": "BetMGM"
    },
    "best_under": {
-    "pt": 47.0,
-    "px": -115,
-    "book": "Bovada"
+    "pt": 46.5,
+    "px": -112,
+    "book": "DraftKings"
    },
    "open_spread": 6.0,
    "open_total": 46.5,
@@ -470,22 +473,22 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -3.0,
-    "px": -105,
-    "book": "FanDuel"
+    "px": -108,
+    "book": "BetRivers"
    },
    "best_away": {
-    "pt": 3.0,
-    "px": 103,
-    "book": "Pinnacle"
+    "pt": 3.5,
+    "px": -120,
+    "book": "ESPN BET"
    },
    "best_over": {
     "pt": 41.5,
-    "px": -113,
-    "book": "DraftKings"
+    "px": -115,
+    "book": "BetRivers"
    },
    "best_under": {
     "pt": 42.5,
-    "px": -115,
+    "px": -110,
     "book": "ESPN BET"
    },
    "open_spread": -3.0,
@@ -535,12 +538,12 @@
    },
    "best_over": {
     "pt": 40.5,
-    "px": -107,
-    "book": "DraftKings"
+    "px": -110,
+    "book": "FanDuel"
    },
    "best_under": {
     "pt": 41.0,
-    "px": -113,
+    "px": -107,
     "book": "Pinnacle"
    },
    "open_spread": -10.0,
@@ -582,13 +585,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 4.5,
-    "px": -115,
-    "book": "FanDuel"
+    "px": -125,
+    "book": "Pinnacle"
    },
    "best_away": {
     "pt": -3.5,
-    "px": -115,
-    "book": "DraftKings"
+    "px": -105,
+    "book": "FanDuel"
    },
    "best_over": {
     "pt": 37.5,
@@ -597,7 +600,7 @@
    },
    "best_under": {
     "pt": 38.0,
-    "px": -110,
+    "px": -112,
     "book": "BetRivers"
    },
    "open_spread": 4.5,
@@ -636,8 +639,8 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -3.0,
-    "px": -117,
-    "book": "Pinnacle"
+    "px": -118,
+    "book": "DraftKings"
    },
    "best_away": {
     "pt": 3.5,
@@ -646,7 +649,7 @@
    },
    "best_over": {
     "pt": 46.0,
-    "px": -114,
+    "px": -115,
     "book": "Pinnacle"
    },
    "best_under": {
@@ -703,13 +706,13 @@
    },
    "best_over": {
     "pt": 53.5,
-    "px": -109,
-    "book": "BetRivers"
+    "px": -115,
+    "book": "FanDuel"
    },
    "best_under": {
     "pt": 54.5,
-    "px": -115,
-    "book": "ESPN BET"
+    "px": -112,
+    "book": "Bovada"
    },
    "open_spread": 6.5,
    "open_total": 53.0,
