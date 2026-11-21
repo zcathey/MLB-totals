@@ -7379,7 +7379,14 @@
   "hardwood_spread": -37.4,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": -40.0,
+  "clv": 1.5,
+  "final": [
+   70,
+   91
+  ],
+  "result": "W"
  },
  {
   "event_id": "fd01d6bd019da1ef030bd2214291558c",
@@ -7402,7 +7409,9 @@
   "hardwood_spread": -0.7,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": 5.5,
+  "clv": 1.0
  },
  {
   "event_id": "fb773220f5132a61b708f5d7ed605b9f",
@@ -7425,7 +7434,9 @@
   "hardwood_spread": 3.7,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": 5.0,
+  "clv": 0.5
  },
  {
   "event_id": "bbccadc262abe84faa9467469b89be97",
@@ -7448,7 +7459,9 @@
   "hardwood_spread": 0.5,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": 4.0,
+  "clv": 2.2
  },
  {
   "event_id": "6a6c3d772fb995d1205aae1324672ea7",
@@ -7471,7 +7484,9 @@
   "hardwood_spread": -19.4,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": -25.0,
+  "clv": -0.5
  },
  {
   "event_id": "e9245afd02b038b953f892119fe558d6",
@@ -7494,7 +7509,9 @@
   "hardwood_spread": 1.9,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": 2.0,
+  "clv": -0.5
  },
  {
   "event_id": "2da6119e4539c4666b49cb8015a6c289",
@@ -7517,7 +7534,9 @@
   "hardwood_spread": -12.6,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": -14.5,
+  "clv": 1.0
  },
  {
   "event_id": "089763b58d06f84ae9546c2037e7d941",
@@ -7632,7 +7651,9 @@
   "hardwood_spread": -21.8,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-21T16:44:38.580430+00:00"
+  "logged": "2026-11-21T16:44:38.580430+00:00",
+  "close": -25.5,
+  "clv": 0.0
  },
  {
   "event_id": "ce18dbed2bcc407de6487a10df8f1771",
@@ -7655,7 +7676,9 @@
   "hardwood_spread": 4.5,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-21T16:44:38.580430+00:00"
+  "logged": "2026-11-21T16:44:38.580430+00:00",
+  "close": 5.5,
+  "clv": 0.0
  },
  {
   "event_id": "83bb160a038344276c3b40967726065c",
