@@ -1,46 +1,51 @@
-# CBB — Friday, Nov 20, 2026
+# CBB — Saturday, Nov 21, 2026
 
-**Card (paper trades): Central Michigan +22 · Coastal Carolina +27.5 · Green Bay +22.5 · SFA −4 · Manhattan +36.5 · Le Moyne +36 · Loyola MD +41.5 · E. Illinois +49**
+**Card (paper trades): Queens +26.5 · Binghamton +1.5 · New Orleans +1.5 · W. Carolina +14.5 · Coppin St. +32.5 · Detroit Mercy +40.5**
 
-**Best bet: Central Michigan +22 at Pittsburgh** (BetOnline −115, or +21.5 at −110 elsewhere; 7:00 PM ET). Both models agree (Torvik edge 6.9, Hardwood 4.5), the line has moved 1.5 toward CMU since the open, and it's the smallest spread among the both-model plays that hadn't tipped. The real risk is the CMU coaching situation (below). Best-bet record: 4-0 ([ledger](best_bets.md)).
+**Best bet: Queens +26.5 at LSU** (BetRivers −109; +25.5 at most books; 1:00 PM ET). Both models are on Queens (Torvik edge 5.2, Hardwood 3.7), the line has moved 2 points toward Queens since the open, and I found no injury news. It's a 20+ road dog, the model's weakest group, so it's the best of a thin card, not a strong conviction. Best-bet record: 4-0-1 ([ledger](best_bets.md)).
 
-Every pick is a paper trade until about mid-December, when Torvik's preseason priors wash out. Seven of the eight plays are 20+ point road dogs, the model's weakest group: agrees picks at 20+ are 7-10 with −0.15 CLV this season.
+Every pick is a paper trade until about mid-December, when Torvik's preseason priors wash out.
 
-Data: I started the picks run by hand at 11:44 AM ET because the last run was 11:09 PM ET last night. Lines OK (270 Odds API credits left). Ratings are fresh (Zach's upload, 8:04 AM ET today). Two unmatched names (see Notes). **Grading bug:** four neutral-site results in `picks.json` have the two teams' scores swapped. The records below are corrected by hand.
+Data: the last run was 11:08 PM ET last night, so I started the picks run by hand at 11:44 AM ET. Lines OK (254 Odds API credits left). Ratings are fresh (Zach's upload, 9:46 AM ET today). No unmatched names. **Neutral-site fixes:** two of this morning's plays (Western Illinois, Troy) are at neutral sites the model didn't know about. Western Illinois drops off the card, and Troy becomes a model split (see Notes). **Grading bug, again:** one more neutral-site result is swapped in `picks.json` (Wisconsin–Murray St.). The records below are corrected.
 
 ---
 
-## Yesterday (Nov 19)
+## Yesterday (Nov 20)
 
-**Card: 2-1.**
+**Card: 3-4-1** at write-up lines.
 
-- Seton Hall +5.5 (N): won 74-69. W (best bet)
-- UMBC +29.5: lost 101-62. L
-- Southern Utah +36.5 (graded at +38.5): lost 92-68. W, +3.0 CLV
+- Central Michigan +22 (best bet): Pitt won 104-82. **Push** (the logged +22.5 is a W)
+- Coastal Carolina +27.5: lost 78-51. W
+- SFA −4: won 86-76. W
+- Le Moyne +36: lost 91-64. W
+- Green Bay +22.5: lost 87-63. L
+- Manhattan +36.5: lost 106-54. L
+- Loyola MD +41.5: lost 103-61. L
+- E. Illinois +49: lost 114-52. L
 
-All 16 graded picks for Nov 19, by the bucket they had when logged (corrected for the swapped scores):
+All 21 graded picks for Nov 20, by the bucket they had when logged (Wisconsin corrected to L):
 
 | Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Agrees | 2-4-0 | −0.48 | 1/6 |
-| Against | 3-3-0 | +0.17 | 1/6 |
-| Flat | 3-1-0 | +0.50 | 1/4 |
-| **All** | **8-8-0** | **+0.01** | **3/16** |
+| Agrees | 7-3-0 | +1.28 | 7/10 |
+| Against | 2-3-0 | +1.14 | 3/5 |
+| Flat | 3-3-0 | +0.55 | 4/6 |
+| **All** | **12-9-0** | **+1.04** | **14/21** |
 
-A weak CLV day. Most lines didn't move after the picks were logged.
+A strong CLV day. Many picks logged Thursday night got 1 to 3.5 points of steam by tip (Oakland +3.5, Manhattan +3, Coastal +2.5).
 
 ### Season to date (corrected)
 
 | Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Agrees | 14-16-0 | −0.07 | 23% |
-| Against | 53-56-1 | +0.42 | 38% |
-| Flat | 61-35-1 | +0.64 | 55% |
-| **All** | **128-107-2** | **+0.45** | **43%** |
+| Agrees | 21-19-0 | +0.27 | 35% |
+| Against | 55-59-1 | +0.44 | 39% |
+| Flat | 64-38-1 | +0.59 | 54% |
+| **All** | **140-116-2** | **+0.48** | **44%** |
 
-The page shows 130-105-2 until the four swapped games are fixed. The picture hasn't changed: flat picks are the best bucket, and agrees picks are below break-even with no CLV. Within agrees, spreads under 20 are 7-6 (+0.04) and 20+ are 7-10 (−0.15).
+The page shows 143-113-2 until the five swapped games are fixed. Flat picks are still the best bucket by CLV and W-L. Agrees picks are 10-7 (+0.19 CLV) under 20 points and 11-12 (+0.33) at 20+.
 
-**Best bet:** Seton Hall +5.5 won outright, 74-69 (closed +5). Ledger is 4-0.
+**Best bet:** Central Michigan +22 pushed (Pitt by exactly 22; closed −21.5). Ledger is 4-0-1.
 
 ---
 
@@ -48,58 +53,52 @@ The page shows 130-105-2 until the four swapped games are fixed. The picture has
 
 | Tip (ET) | Pick | Torvik (HW) | Mkt (open) | Edge | Best price |
 |---|---|---|---|---|---|
-| 12:00 PM | Green Bay +22.5 at Florida St. | FSU −16.6 (−15.5) | −22.5 (−23.25) | 5.9 | +23 −110 BetOnline |
-| 3:00 PM | SFA −4 vs Indiana St. | SFA −9.3 (−5.8) | −4 (−3) | 5.3 | −3.5 −120 FanDuel |
-| 5:00 PM | Manhattan +36.5 at Miami | MIA −32.1 (−27.7) | −36.5 (−39) | 4.4 | +37.5 −115 BetRivers |
-| 7:00 PM | **Central Michigan +21.5 at Pitt** | PITT −14.6 (−17.0) | −21.5 (−23) | 6.9 | +22 −115 BetOnline |
-| 7:00 PM | Coastal Carolina +27.5 at Tennessee | TENN −21.4 (−19.6) | −27.5 (−29) | 6.1 | +27.5 −102 FanDuel |
-| 7:00 PM | Loyola MD +41.5 at Virginia | UVA −34.5 (−30.7) | −41.5 (−43.5) | 7.0 | +42.5 −117 BetRivers |
-| 8:00 PM | Le Moyne +36 at Missouri | MIZ −28.6 (−32.4) | −36 (−36.5) | 7.4 | +36.5 −110 BetRivers |
-| 9:00 PM | E. Illinois +49 at Illinois | ILL −37.0 (−43.1) | −49 (−51) | 12.0 | +49.5 −110 BetRivers |
+| 12:00 PM | Detroit Mercy +40 at Michigan St. | MSU −29.7 (−38.3) | −40 (−41.5) | 10.3 | +40.5 −110 BetOnline |
+| 1:00 PM | **Queens +25.5 at LSU** | LSU −20.3 (−21.8) | −25.5 (−27.5) | 5.2 | +26.5 −109 BetRivers |
+| 2:00 PM | W. Carolina +14.5 at Wake Forest | WAKE −11.5 (−12.2) | −14.5 (−15.5) | 3.0 | +14.5 −106 FanDuel |
+| 3:30 PM | Binghamton +1 vs Army | BING −4.1 (−0.1) | +1 (+1.5) | 5.1 | +1.5 −117 BetRivers |
+| 6:00 PM | Coppin St. +31.5 at Georgetown | GTWN −26.1 (−19.1) | −31.5 (−32.5) | 5.4 | +32.5 −121 BetRivers |
+| 8:30 PM | New Orleans +1 at Texas Southern | UNO −2.6 (n/a) | TXSO −1 (−1.5) | 3.6 | +1.5 −110 BetMGM |
 
-HW = Hardwood. All are campus games. Every team has played at least four games, and there are no tempo flags. I found no injury news for any of these teams. Several were logged last night at better numbers, and those are the numbers that grade: CMU +22.5, Coastal +28.5, Manhattan +39.5, E. Illinois +51.5, Green Bay +23.25.
+HW = Hardwood. All campus games as far as I can tell. Every team has played at least four games, and none has a tempo flag. I found no injury or availability news for any of these teams. That's partly because coverage of these games is thin, so "no news found" isn't the same as "no news". Several were logged last night at better numbers, and those grade: Detroit Mercy +41.5, Western Carolina +15.5.
 
-- **Central Michigan (best bet):** Pitt is 5-0 with three straight wins over power-conference teams, including Villanova 81-61. CMU is 4-1 but lost 88-63 at Dayton on Tuesday. More importantly, head coach Andy Bronkema was placed on leave after the opener. Interim Raymoan McAfee will miss this game for personal reasons, which makes this CMU's third coach this month ([Field Level Media via Yardbarker](https://www.yardbarker.com/college_basketball/articles/pitt_riding_hot_streak_while_central_michigan_deals_with_coaching_upheaval/s1_17048_44589361)). That news was public yesterday, and the line still moved toward CMU. The model can't see coaching chaos, though, and Pitt's hot start is exactly what preseason priors are slow to catch. Hardwood (this season only) is closer to the market than Torvik. Smallest spread among the both-model plays, but not a strong conviction.
-- **Coastal Carolina:** bigger edges than CMU in both models (6.1 / 7.9) and no news found. Tennessee is 4-0, Coastal 2-3 ([SportBusy](https://www.sportbusy.com/games/ncaam/14463690-coastal-carolina-chanticleers-at-tennessee-volunteers-2026-11-20/)). It's the runner-up for best bet; it lost only on spread size.
-- **Green Bay:** tips at noon, so it was likely underway by the time this posted. Both models agree.
-- **SFA −4:** smallest spread on the card, but only Torvik clears 3 (Hardwood edge 1.8). The 1-point move toward SFA is small. −4 −110 is better value than −3.5 −120.
-- **Manhattan, Loyola MD, Le Moyne, E. Illinois:** 36- to 49-point road dogs, all moving toward the model (Manhattan 2.5, Loyola and EIU 2). Virginia is 6-0 and Loyola MD 1-4 ([Field Level Media](https://fieldlevelmedia.com/ncaab/no-4-virginia-reliable-elijah-gertrude-shoot-for-7-0-start-vs-loyola-md/)). Margins this size depend on garbage-time minutes, which is noise the model doesn't model. Low confidence.
+- **Queens (best bet):** LSU is 5-0, Queens 3-2 ([SportBusy](https://www.sportbusy.com/games/ncaam/14478284-queens-royals-at-lsu-tigers-2026-11-21/)). The 2-point move toward Queens is the biggest of the both-model plays, and BetRivers is a full point better than the market. The only both-model play under 30 points.
+- **Binghamton +1:** smallest spread on the card, but only Torvik clears 3 (Hardwood has a pick'em). Our feed shows only a half-point move, though [SportBusy](https://www.sportbusy.com/games/ncaam/14463736-army-black-knights-at-binghamton-bearcats-2026-11-21/) has Army opening −2.5. Runner-up for best bet; it lost on Hardwood not agreeing.
+- **New Orleans +1:** Torvik only. Hardwood has no rating for New Orleans (see Notes), so there's no second opinion. Half-point move.
+- **Western Carolina +14.5:** edge is exactly 3.0 and Hardwood is 2.3. Marginal. The +15.5 logged last night is the better number.
+- **Coppin St. +31.5:** both models agree, and Hardwood loudly (edge 12.4). But Coppin is 1-5 and this is a 30+ road dog. The game is at McDonough Arena, Georgetown's small on-campus gym ([Destination DC](https://washington.org/event/coppin-state-eagles-georgetown-hoyas-mens-basketball)). Low confidence.
+- **Detroit Mercy +40.5:** tips at noon. Torvik edge is large (10.3), but Hardwood has MSU −38 (edge 1.7). Detroit is 0-4. A 40-point spread depends on garbage time. Low confidence.
 
 ---
 
 ## Logged but passing
 
-**Removed by the neutral-site fix:**
+**Removed or split by today's neutral-site fix:**
 
-| Game | Logged | Neutral-adjusted Torvik | Mkt | Edge now |
+| Game | Logged | Neutral-adjusted Torvik (HW) | Mkt | Edge now |
 |---|---|---|---|---|
-| Kentucky vs Indiana (Lucas Oil Stadium) | Indiana −3 (against) | IU −3.1 | IU −3 | 0.1 |
-| Murray St. vs Wisconsin (Baha Mar 3rd place) | Wisconsin −3.5 (flat) | WIS −4.0 | WIS −3.5 | 0.5 |
-| NC State vs Seton Hall (Baha Mar final) | — | NCSU −4.1 | NCSU −2.5 | 1.6 |
+| Mercyhurst vs W. Illinois (Buffalo) | WIU +6.5 (flat) | WIU +4.8 (+1.0) | WIU +5.5 | 0.7 (HW 4.5) |
+| Valparaiso vs Troy (Pensacola) | Troy +4.75 (agrees) | Troy +1.2 (+8.1) | Troy +4.5 | 3.3 Troy (HW 3.6 Valpo) |
 
-**Market against:** Delaware +8 at CSUN. The edge is 3.3 and the line moved 2 points away (−6 to −8).
+Western Illinois would have been today's best bet before the fix: both models agreed and the line moved a point toward WIU. Without the 3 points of home court, Torvik's edge is gone. Troy still clears 3 on Torvik, but Hardwood flips to Valpo. Pass on both.
 
-**Flat (no move, not plays):** Wagner +34 at Maryland (both models, edge 6.7), Middle Tennessee +3 vs Temple, Southern Illinois −1.5 vs UT Martin (Hardwood has UTM), and UCF +16.5 at Vanderbilt (Hardwood has VU −20, the opposite side).
+**Market against:** Portland +6.25 (line moved 2 toward Fordham), East Carolina +1.5 (moved 2.5 toward Southern Illinois; ECU opened a 1-point favorite and is now a dog), Wichita St. +1.5, Saint Peter's +5.5, Canisius +2, Villanova +4 vs Michigan, Winthrop +6.5.
 
-**Model split:** Idaho −2 vs Cal St. Bakersfield is "agrees" on Torvik (edge 5.5), but Hardwood has CSUB by 4. Pass.
+**Model split:** Morehead St. +12 at Elon (Torvik 3.0 on Morehead, Hardwood 4.3 on Elon).
 
-**Fell under 3 since logging last night:** Oakland (logged +24.5, now +21: a 4-point move I found no news for), Marshall (logged +20.5, now +19.5; Hardwood edge 11.8), and Liberty (logged +2.5, now −1). All three should grade with good CLV.
+**Flat (no move, not plays):** Lafayette +25 at Syracuse (both models, but the line has drifted half a point away), Jacksonville +3.5, San Diego +4.5 (Hardwood agrees, edge 5.5).
+
+**Fell under 3:** Washington St. +25 at Duke (logged +26 last night; Torvik edge now 2.3, Hardwood 5.2) and North Florida +5 (logged +5.5).
+
+**Already tipped:** USC Upstate at UNC Greensboro moved 8.5 points toward UNCG (−7.5 to −16) before its 11 AM tip. Torvik had USC Upstate by 9.8. No pick was logged, and a move that size usually means news.
 
 ---
 
 ## Notes
 
-- **Grading bug (please check).** Four neutral-site picks were graded with the two teams' scores swapped compared with ESPN's box scores (`data/games.json`):
-  - NC State −3.5 vs Murray St. (Nov 19): graded L, should be **W**. NC State won 93-83 and plays Seton Hall in the final ([AP via ABC News](https://abcnews.com/Sports/wireStory/seton-hall-tops-wisconsin-74-69-baha-mar-138311920)).
-  - West Virginia +8 vs Florida (Nov 19): ESPN has Florida 85-72. Graded W, should be **L**.
-  - Kansas +2.5 vs Houston (Nov 19): ESPN has Houston 92-83. Graded W, should be **L**.
-  - Florida A&M +8.5 (Nov 11): ESPN has FAMU losing 87-65. Graded W, should be **L**.
-
-  The Odds API scores feed seems to mix up which score belongs to which team at some neutral sites. A cross-check against `games.json` in the grader would catch this. I didn't edit `picks.json`.
-- **Neutral-site fix.** Added three games to `neutral.json` under Nov 20:
-  - Kentucky–Indiana, at Lucas Oil Stadium in Indianapolis ([Inside the Hall](https://www.insidethehall.com/?p=127004)). Indiana will have the crowd, so it isn't a true neutral.
-  - Baha Mar day 2 in Nassau ([Baha Mar Hoops](https://bahamarhoops.com/?p=2117), [Yardbarker](https://www.yardbarker.com/college_basketball/articles/murray_state_wisconsin_vie_for_consolation_prize_in_bahamas/s1_17048_44591196)): Murray St.–Wisconsin and NC State–Seton Hall.
-
-  The model will re-project them on the 6:30 PM run.
-- **Unmatched names.** Suggested `ALIASES` entries: `"Miss Valley St Delta Devils": "Mississippi Valley St."` and `"Mt. St. Mary's Mountaineers": "Mount St. Mary's"`. The MVSU at Arkansas line has dropped 5 points (−43.5 to −38.5), but the model can't project that game until the alias is added.
-- **Totals (tracking only).** Torvik is 11-13 points under the market on UT Martin–Southern Illinois and Sam Houston–Boise St., but Hardwood is well over on both. With the two models that far apart, neither gap is a signal.
+- **Neutral-site fixes.** Added two games to `neutral.json` under Nov 21. The model will re-project them on the 6:30 PM run.
+  - Mercyhurst vs Western Illinois, Queen City Classic at Canisius's Koessler Athletic Center in Buffalo. Albany beat WIU there on Friday ([UAlbany](https://ualbanysports.com/news/2026/11/20/mens-basketball-great-danes-emerge-victorious-in-first-queen-city-classic-matchup.aspx)). Albany at Canisius is the host's home game, so I left it alone.
+  - Valparaiso vs Troy, at the Pensacola Bay Center ([Fox Sports](https://www.foxsports.com/college-basketball/valparaiso-beacons-vs-troy-trojans-nov-21-2026-game-boxscore-265811), [SportBusy](https://www.sportbusy.com/games/ncaam/14605123-troy-trojans-at-valparaiso-beacons-2026-11-21/)). Pensacola hosts the Sun Belt tournament, which Troy has won the last two years, so Troy may have the crowd.
+- **Grading bug (please check).** One more neutral-site pick has the two teams' scores swapped against ESPN (`data/games.json`): Wisconsin −3.5 vs Murray St. (Nov 20) is graded W, but Murray St. won 70-53 ([Archyde](https://www.archyde.com/murray-state-beats-wisconsin-70-53-in-baha-mar-consolation-game/), [Yahoo Sports](https://sports.yahoo.com/articles/3-quick-takeaways-wisconsin-loss-051041274.html)). It should be **L**. The four from yesterday's note are still unfixed. A full cross-check found three more swapped finals that don't change the grade (Saint Joseph's–South Florida Nov 11, Houston–Rutgers Nov 17). I didn't edit `picks.json`.
+- **New Orleans has no Hardwood rating.** Torvik has UNO 2-2, but `games.json` has no New Orleans games. ESPN's unmatched list has "LSU New Orleans" (5 games), which may be how ESPN is labeling UNO. If so, a suggested `ALIASES` entry is `'lsu new orleans': 'New Orleans'`. Worth checking an ESPN box score first, since it could be a non-D1 school.
+- **Totals (tracking only).** UC Irvine–San Diego is 133 at the market against Torvik 143 and Hardwood 156, with no tempo flag. That's the one large gap where both models agree. No pick.
