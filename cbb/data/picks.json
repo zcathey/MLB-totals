@@ -6884,7 +6884,9 @@
   "hardwood_spread": 1.1,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-19T22:46:34.770849+00:00"
+  "logged": "2026-11-19T22:46:34.770849+00:00",
+  "close": -2.5,
+  "clv": 1.0
  },
  {
   "event_id": "0744ae65a239d93ad6981bcca04ec1d1",
@@ -6907,7 +6909,9 @@
   "hardwood_spread": -17.1,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-19T22:46:34.770849+00:00"
+  "logged": "2026-11-19T22:46:34.770849+00:00",
+  "close": -21.5,
+  "clv": 1.0
  },
  {
   "event_id": "cdf9ed66e5ad6a4af973a7c08740af15",
@@ -6930,7 +6934,9 @@
   "hardwood_spread": -19.2,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-19T22:46:34.770849+00:00"
+  "logged": "2026-11-19T22:46:34.770849+00:00",
+  "close": -26.0,
+  "clv": 2.5
  },
  {
   "event_id": "eba8e4a8e30f46858748483483f488ea",
@@ -6953,7 +6959,9 @@
   "hardwood_spread": -16.8,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-19T22:46:34.770849+00:00"
+  "logged": "2026-11-19T22:46:34.770849+00:00",
+  "close": -21.0,
+  "clv": 3.5
  },
  {
   "event_id": "d44e3c27019bbb61def8acdb1f51c22d",
@@ -6976,7 +6984,9 @@
   "hardwood_spread": -20.2,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-19T22:46:34.770849+00:00"
+  "logged": "2026-11-19T22:46:34.770849+00:00",
+  "close": -16.5,
+  "clv": 0.0
  },
  {
   "event_id": "73becee99238228e81a7770cea1108c8",
@@ -6999,7 +7009,9 @@
   "hardwood_spread": 4.2,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-19T22:46:34.770849+00:00"
+  "logged": "2026-11-19T22:46:34.770849+00:00",
+  "close": -2.0,
+  "clv": 1.8
  },
  {
   "event_id": "ccd4397771cec2458b64efaca3c2c783",
@@ -7022,7 +7034,9 @@
   "hardwood_spread": -43.3,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-19T22:46:34.770849+00:00"
+  "logged": "2026-11-19T22:46:34.770849+00:00",
+  "close": -49.0,
+  "clv": 2.5
  },
  {
   "event_id": "6b10d0e25f551c8d3eb324fc144777a8",
@@ -7045,7 +7059,9 @@
   "hardwood_spread": -8.3,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-19T22:46:34.770849+00:00"
+  "logged": "2026-11-19T22:46:34.770849+00:00",
+  "close": -18.5,
+  "clv": 2.0
  },
  {
   "event_id": "eaa7e563508f83b89da51b138fda7d0b",
@@ -7068,7 +7084,9 @@
   "hardwood_spread": -2.8,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T16:44:17.023251+00:00"
+  "logged": "2026-11-20T16:44:17.023251+00:00",
+  "close": -8.0,
+  "clv": 0.0
  },
  {
   "event_id": "6490128d2a737c7c4b91289a0b40a5d0",
@@ -7091,7 +7109,9 @@
   "hardwood_spread": -30.7,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T16:44:17.023251+00:00"
+  "logged": "2026-11-20T16:44:17.023251+00:00",
+  "close": -41.5,
+  "clv": 0.0
  },
  {
   "event_id": "660bc79d92165bc04fe6db1c51bfa80d",
@@ -7114,7 +7134,9 @@
   "hardwood_spread": -24.1,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T16:44:17.023251+00:00"
+  "logged": "2026-11-20T16:44:17.023251+00:00",
+  "close": -33.5,
+  "clv": 0.5
  },
  {
   "event_id": "f74a59473918b8b98feab33b4bf8b836",
@@ -7137,7 +7159,9 @@
   "hardwood_spread": 0.6,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-20T16:44:17.023251+00:00"
+  "logged": "2026-11-20T16:44:17.023251+00:00",
+  "close": -3.5,
+  "clv": 0.0
  },
  {
   "event_id": "cd962be2d33dbd38b2b7d21dcd5fe124",
@@ -7160,7 +7184,9 @@
   "hardwood_spread": -7.8,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T16:44:17.023251+00:00"
+  "logged": "2026-11-20T16:44:17.023251+00:00",
+  "close": -3.0,
+  "clv": 0.0
  },
  {
   "event_id": "5510f024997e32ccb84f6d5ad2b58e8d",
@@ -7183,7 +7209,9 @@
   "hardwood_spread": -32.4,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T16:44:17.023251+00:00"
+  "logged": "2026-11-20T16:44:17.023251+00:00",
+  "close": -35.0,
+  "clv": 1.0
  },
  {
   "event_id": "66a5eceb22c3b172e759e7b78d5c5b44",
@@ -7206,7 +7234,9 @@
   "hardwood_spread": 1.5,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": 5.0,
+  "clv": 0.0
  },
  {
   "event_id": "4cdc62eabb761684bea423f40e8aa358",
@@ -7229,7 +7259,9 @@
   "hardwood_spread": -2.4,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": -10.0,
+  "clv": 0.0
  },
  {
   "event_id": "2c2ac18a26394f55d2739cdbd06ae05c",
