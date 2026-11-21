@@ -2567,7 +2567,7 @@
   "close": -5.5,
   "total": 148.0,
   "torvik": -7.8,
-  "hardwood_live": -5.3
+  "hardwood_live": 0.8
  },
  "bbccadc262abe84faa9467469b89be97": {
   "date": "2026-11-21",
@@ -2577,7 +2577,7 @@
   "close": 4.0,
   "total": 151.5,
   "torvik": -0.5,
-  "hardwood_live": -0.1
+  "hardwood_live": 3.8
  },
  "e9245afd02b038b953f892119fe558d6": {
   "date": "2026-11-21",
@@ -2607,7 +2607,7 @@
   "close": -14.5,
   "total": 147.0,
   "torvik": -11.5,
-  "hardwood_live": -12.2
+  "hardwood_live": -15.9
  },
  "78595a04d81f88f96e1045a0c36edf26": {
   "date": "2026-11-21",
@@ -2647,7 +2647,7 @@
   "close": 5.0,
   "total": 158.5,
   "torvik": 2.2,
-  "hardwood_live": 2.0
+  "hardwood_live": 1.3
  },
  "6f123d463b01dadf8743c5323d3b2200": {
   "date": "2026-11-21",
@@ -2667,7 +2667,7 @@
   "close": -25.0,
   "total": 142.5,
   "torvik": -21.2,
-  "hardwood_live": -20.1
+  "hardwood_live": -20.6
  },
  "9de7cd2ef79bce15e4a473b9241c1e82": {
   "date": "2026-11-21",
@@ -2688,5 +2688,105 @@
   "total": 173.5,
   "torvik": -20.3,
   "hardwood_live": -21.8
+ },
+ "2b15ead6a4087a68d986d3ec08373d14": {
+  "date": "2026-11-21",
+  "away": "Drake",
+  "home": "Missouri St.",
+  "neutral": false,
+  "close": 3.5,
+  "total": 140.5,
+  "torvik": 2.8,
+  "hardwood_live": -4.0
+ },
+ "800f544706a95dd11ec63acbf95fc7ca": {
+  "date": "2026-11-21",
+  "away": "St. Thomas",
+  "home": "Milwaukee",
+  "neutral": false,
+  "close": 1.5,
+  "total": 152.5,
+  "torvik": 1.4,
+  "hardwood_live": 1.3
+ },
+ "306af7e6892625ac626354ebcdefe1ba": {
+  "date": "2026-11-21",
+  "away": "South Florida",
+  "home": "George Mason",
+  "neutral": false,
+  "close": -3.5,
+  "total": 148.0,
+  "torvik": -4.3,
+  "hardwood_live": -1.8
+ },
+ "b21de9c914b929255529918fffaa1efb": {
+  "date": "2026-11-21",
+  "away": "Penn",
+  "home": "La Salle",
+  "neutral": false,
+  "close": -2.5,
+  "total": 160.0,
+  "torvik": -1.1,
+  "hardwood_live": -0.9
+ },
+ "264c7486fa86ec1cf972df7956696ac5": {
+  "date": "2026-11-21",
+  "away": "UT Rio Grande Valley",
+  "home": "Austin Peay",
+  "neutral": false,
+  "close": -5.5,
+  "total": 144.0,
+  "torvik": -6.8,
+  "hardwood_live": -5.5
+ },
+ "e8da92986a48fdfe244d61eee9036ced": {
+  "date": "2026-11-21",
+  "away": "Middle Tennessee",
+  "home": "Indiana St.",
+  "neutral": false,
+  "close": 2.5,
+  "total": 146.5,
+  "torvik": 1.5,
+  "hardwood_live": -0.8
+ },
+ "83bb160a038344276c3b40967726065c": {
+  "date": "2026-11-21",
+  "away": "Binghamton",
+  "home": "Army",
+  "neutral": false,
+  "close": 1.0,
+  "total": 138.0,
+  "torvik": -1.9,
+  "hardwood_live": -5.4
+ },
+ "343eb2e0f080f6c844094408141efe87": {
+  "date": "2026-11-21",
+  "away": "Albany",
+  "home": "Canisius",
+  "neutral": false,
+  "close": 2.5,
+  "total": 139.5,
+  "torvik": -1.6,
+  "hardwood_live": 1.1
+ },
+ "0355b02b6389cbbb3326e2ed70b031c9": {
+  "date": "2026-11-21",
+  "away": "Central Arkansas",
+  "home": "Jacksonville",
+  "neutral": false,
+  "close": 3.5,
+  "total": 146.0,
+  "torvik": -0.3,
+  "hardwood_live": 3.3
+ },
+ "0547585c4affb18dcbcc337074462c31": {
+  "date": "2026-11-21",
+  "away": "Longwood",
+  "home": "East Tennessee St.",
+  "neutral": false,
+  "close": -5.5,
+  "total": 142.0,
+  "torvik": -6.1,
+  "hardwood_live": -3.7
  }
 }

@@ -2162,7 +2162,7 @@
   "home": "Bowling Green",
   "neutral": false,
   "torvik": -7.8,
-  "hardwood": -5.3
+  "hardwood": 0.8
  },
  "bbccadc262abe84faa9467469b89be97": {
   "home_spread": 4.0,
@@ -2173,7 +2173,7 @@
   "home": "Portland",
   "neutral": false,
   "torvik": -0.5,
-  "hardwood": -0.1
+  "hardwood": 3.8
  },
  "e9245afd02b038b953f892119fe558d6": {
   "home_spread": 2.0,
@@ -2206,7 +2206,7 @@
   "home": "Wake Forest",
   "neutral": false,
   "torvik": -11.5,
-  "hardwood": -12.2
+  "hardwood": -15.9
  },
  "2b15ead6a4087a68d986d3ec08373d14": {
   "home_spread": 3.5,
@@ -2217,13 +2217,13 @@
   "home": "Missouri St.",
   "neutral": false,
   "torvik": 2.8,
-  "hardwood": -4.1
+  "hardwood": -4.0
  },
  "800f544706a95dd11ec63acbf95fc7ca": {
   "home_spread": 1.5,
   "total": 152.5,
   "seen": "2026-11-21T19:53:58.992596+00:00",
-  "tip": "2026-11-21T20:00:00Z",
+  "tip": "2026-11-21T20:02:51Z",
   "away": "St. Thomas",
   "home": "Milwaukee",
   "neutral": false,
@@ -2239,7 +2239,7 @@
   "home": "George Mason",
   "neutral": false,
   "torvik": -4.3,
-  "hardwood": -1.9
+  "hardwood": -1.8
  },
  "b21de9c914b929255529918fffaa1efb": {
   "home_spread": -2.5,
@@ -2250,12 +2250,12 @@
   "home": "La Salle",
   "neutral": false,
   "torvik": -1.1,
-  "hardwood": -0.7
+  "hardwood": -0.9
  },
  "089763b58d06f84ae9546c2037e7d941": {
   "home_spread": 4.5,
   "total": 134.0,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-21T21:30:00Z",
   "away": "UC Irvine",
   "home": "San Diego",
@@ -2266,40 +2266,40 @@
  "a25c47368079760e1df98f700e9cda49": {
   "home_spread": -5.0,
   "total": 173.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-21T22:00:00Z",
   "away": "Air Force",
   "home": "UTSA",
   "neutral": false,
   "torvik": -6.9,
-  "hardwood": -5.1
+  "hardwood": -5.0
  },
  "8c116bae5bbaa0e4fe66308c754c8637": {
   "home_spread": -13.5,
   "total": 135.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T00:00:00Z",
   "away": "Cal Baptist",
   "home": "Loyola Marymount",
   "neutral": false,
   "torvik": -11.9,
-  "hardwood": -18.2
+  "hardwood": -18.0
  },
  "ab342b5218a6e8b0cc7efa7c92bf8c01": {
   "home_spread": -8.0,
   "total": 154.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T00:00:00Z",
   "away": "Northern Arizona",
   "home": "Cal Poly",
   "neutral": false,
   "torvik": -9.3,
-  "hardwood": -5.1
+  "hardwood": -5.7
  },
  "b2203e33d7aedad7f3ac39e1282c44d4": {
   "home_spread": -11.5,
   "total": 144.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T00:00:00Z",
   "away": "Morehead St.",
   "home": "Elon",
@@ -2308,31 +2308,31 @@
   "hardwood": -16.2
  },
  "029de1352f9ba49f22486bda5427cc7a": {
-  "home_spread": 4.0,
+  "home_spread": 3.5,
   "total": 160.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T00:00:00Z",
   "away": "Michigan",
   "home": "Villanova",
   "neutral": false,
   "torvik": 0.9,
-  "hardwood": 2.0
+  "hardwood": 1.8
  },
  "abe6046c0e5100a1e721207ddedccc18": {
   "home_spread": 4.5,
   "total": 137.0,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T01:00:00Z",
   "away": "Valparaiso",
   "home": "Troy",
   "neutral": true,
   "torvik": 1.2,
-  "hardwood": 8.1
+  "hardwood": 8.0
  },
  "a771a9f91712c2747321ed9cadf62f36": {
   "home_spread": -8.5,
   "total": 130.0,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T03:00:00Z",
   "away": "Bradley",
   "home": "Pacific",
@@ -2343,7 +2343,7 @@
  "9f7f8d885eb724ca669f64bacad9321c": {
   "home_spread": -25.0,
   "total": 149.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T04:00:00Z",
   "away": "Washington St.",
   "home": "Duke",
@@ -2415,7 +2415,7 @@
   "home": "North Florida",
   "neutral": false,
   "torvik": 2.2,
-  "hardwood": 2.0
+  "hardwood": 1.3
  },
  "6f123d463b01dadf8743c5323d3b2200": {
   "home_spread": 6.0,
@@ -2437,7 +2437,7 @@
   "home": "Syracuse",
   "neutral": false,
   "torvik": -21.2,
-  "hardwood": -20.1
+  "hardwood": -20.6
  },
  "9de7cd2ef79bce15e4a473b9241c1e82": {
   "home_spread": 4.5,
@@ -2465,34 +2465,34 @@
   "home_spread": -5.5,
   "total": 144.0,
   "seen": "2026-11-21T19:53:58.992596+00:00",
-  "tip": "2026-11-21T20:00:00Z",
+  "tip": "2026-11-21T20:03:32Z",
   "away": "UT Rio Grande Valley",
   "home": "Austin Peay",
   "neutral": false,
   "torvik": -6.8,
-  "hardwood": -4.5
+  "hardwood": -5.5
  },
  "e8da92986a48fdfe244d61eee9036ced": {
   "home_spread": 2.5,
   "total": 146.5,
   "seen": "2026-11-21T19:53:58.992596+00:00",
-  "tip": "2026-11-21T20:00:00Z",
+  "tip": "2026-11-21T20:03:38Z",
   "away": "Middle Tennessee",
   "home": "Indiana St.",
   "neutral": false,
   "torvik": 1.5,
-  "hardwood": -0.9
+  "hardwood": -0.8
  },
  "83bb160a038344276c3b40967726065c": {
   "home_spread": 1.0,
   "total": 138.0,
   "seen": "2026-11-21T19:53:58.992596+00:00",
   "tip": "2026-11-21T20:30:00Z",
-  "away": "Army",
-  "home": "Binghamton",
+  "away": "Binghamton",
+  "home": "Army",
   "neutral": false,
-  "torvik": -4.1,
-  "hardwood": 0.0
+  "torvik": -1.9,
+  "hardwood": -5.4
  },
  "343eb2e0f080f6c844094408141efe87": {
   "home_spread": 2.5,
@@ -2503,7 +2503,7 @@
   "home": "Canisius",
   "neutral": false,
   "torvik": -1.6,
-  "hardwood": 1.2
+  "hardwood": 1.1
  },
  "0355b02b6389cbbb3326e2ed70b031c9": {
   "home_spread": 3.5,
@@ -2514,7 +2514,7 @@
   "home": "Jacksonville",
   "neutral": false,
   "torvik": -0.3,
-  "hardwood": 3.2
+  "hardwood": 3.3
  },
  "0547585c4affb18dcbcc337074462c31": {
   "home_spread": -5.5,
@@ -2528,64 +2528,64 @@
   "hardwood": -3.7
  },
  "6ed855b5052c6914a70d4c336653271e": {
-  "home_spread": -3.0,
-  "total": 141.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "home_spread": -2.5,
+  "total": 142.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-21T22:00:00Z",
   "away": "Nicholls St.",
   "home": "Southern Miss",
   "neutral": false,
   "torvik": -5.3,
-  "hardwood": -3.3
+  "hardwood": -3.2
  },
  "e7d59ea4f2c81294a88a46cc63628713": {
   "home_spread": 9.0,
-  "total": 147.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "total": 146.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-21T22:00:00Z",
   "away": "Northeastern",
   "home": "Stonehill",
   "neutral": false,
   "torvik": 7.1,
-  "hardwood": 11.0
+  "hardwood": 10.6
  },
  "7522960fbb3bcea978fbb1291c8c866b": {
   "home_spread": -6.5,
   "total": 162.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-21T22:00:00Z",
   "away": "Winthrop",
   "home": "Wofford",
   "neutral": false,
   "torvik": -3.4,
-  "hardwood": -2.2
+  "hardwood": -2.1
  },
  "fa6a6d717b7ee026ba18c92b10e5e36e": {
   "home_spread": 1.5,
   "total": 153.0,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-21T22:30:00Z",
   "away": "Southern Illinois",
   "home": "East Carolina",
   "neutral": false,
   "torvik": -5.6,
-  "hardwood": -3.6
+  "hardwood": -3.5
  },
  "d4ff5572dfce3797f92425c0269392d5": {
   "home_spread": -31.0,
-  "total": 142.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "total": 143.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-21T23:00:00Z",
   "away": "Coppin St.",
   "home": "Georgetown",
   "neutral": false,
   "torvik": -26.1,
-  "hardwood": -19.1
+  "hardwood": -19.0
  },
  "a8d9f06e5e8a38eff46544b225f7b425": {
   "home_spread": -12.0,
   "total": 138.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-21T23:00:00Z",
   "away": "Maine",
   "home": "Massachusetts",
@@ -2594,20 +2594,20 @@
   "hardwood": -6.7
  },
  "7d2d0772fddef71e92f444c6221354a3": {
-  "home_spread": 12.5,
+  "home_spread": 11.5,
   "total": 149.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-21T23:00:00Z",
   "away": "UNC Wilmington",
   "home": "Norfolk St.",
   "neutral": false,
   "torvik": 13.6,
-  "hardwood": 10.6
+  "hardwood": 11.3
  },
  "509452e9c30d0b4edddf769f5d142f71": {
   "home_spread": -4.5,
   "total": 134.0,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T00:00:00Z",
   "away": "Brown",
   "home": "Vermont",
@@ -2616,20 +2616,20 @@
   "hardwood": -4.2
  },
  "d2225a902743456bc09613327cb26bb5": {
-  "home_spread": -9.0,
+  "home_spread": -8.5,
   "total": 162.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T00:00:00Z",
   "away": "Charleston Southern",
   "home": "Mercer",
   "neutral": false,
   "torvik": -7.8,
-  "hardwood": -5.2
+  "hardwood": -4.8
  },
  "e36499bff95a05a2521431370edf4dae": {
   "home_spread": -7.5,
   "total": 151.0,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T00:00:00Z",
   "away": "Radford",
   "home": "Chattanooga",
@@ -2640,7 +2640,7 @@
  "1e244cf66149400c5e73025d7d4cfc60": {
   "home_spread": -7.5,
   "total": 146.0,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T00:00:00Z",
   "away": "Gardner Webb",
   "home": "VMI",
@@ -2651,7 +2651,7 @@
  "d579b046d1ffdb6960b62c6d4e8c46e5": {
   "home_spread": -8.0,
   "total": 165.0,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T00:30:00Z",
   "away": "Presbyterian",
   "home": "Tennessee Tech",
@@ -2662,13 +2662,13 @@
  "8bdd386f44d40d94d3e032317435ebff": {
   "home_spread": -3.5,
   "total": 140.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T01:00:00Z",
   "away": "Texas A&M Corpus Chris",
   "home": "Oral Roberts",
   "neutral": false,
   "torvik": -2.6,
-  "hardwood": -1.8
+  "hardwood": -1.9
  },
  "2450397b7dee2d096ffd24673667b239": {
   "home_spread": -1.0,
@@ -2682,14 +2682,300 @@
   "hardwood": 20.8
  },
  "7be34d4b1b24a90daf0928088053bc5a": {
-  "home_spread": -1.5,
-  "total": 154.5,
-  "seen": "2026-11-21T19:53:58.992596+00:00",
+  "home_spread": -1.0,
+  "total": 154.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
   "tip": "2026-11-22T01:30:00Z",
   "away": "New Orleans",
   "home": "Texas Southern",
   "neutral": false,
   "torvik": 2.6,
   "hardwood": null
+ },
+ "9db5c4284531a6c45d11d71c9debdf30": {
+  "home_spread": -11.5,
+  "total": 153.25,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T17:00:00Z",
+  "away": "Butler",
+  "home": "Nebraska",
+  "neutral": false,
+  "torvik": -14.6,
+  "hardwood": -13.4
+ },
+ "8df795d92371ff8d107e74c5f9e3a315": {
+  "home_spread": -1.0,
+  "total": 147.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T17:00:00Z",
+  "away": "Miami OH",
+  "home": "Illinois Chicago",
+  "neutral": false,
+  "torvik": -1.1,
+  "hardwood": 2.8
+ },
+ "6720f59950e8e460d7daf76bc09897e6": {
+  "home_spread": -4.0,
+  "total": 138.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T18:00:00Z",
+  "away": "Western Illinois",
+  "home": "Canisius",
+  "neutral": false,
+  "torvik": -6.1,
+  "hardwood": -0.8
+ },
+ "a4479cbdb9666b13f2c1f33e93f6e281": {
+  "home_spread": 3.0,
+  "total": 136.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T18:00:00Z",
+  "away": "Dayton",
+  "home": "Northwestern",
+  "neutral": false,
+  "torvik": -2.1,
+  "hardwood": -1.2
+ },
+ "9df92a4f1ca806fe512c3849b181da90": {
+  "home_spread": -4.0,
+  "total": 140.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T19:00:00Z",
+  "away": "Duquesne",
+  "home": "Wyoming",
+  "neutral": false,
+  "torvik": -5.5,
+  "hardwood": -10.0
+ },
+ "ca02e6e3717e63798ba1db0542ee38ee": {
+  "home_spread": -21.0,
+  "total": 159.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T19:00:00Z",
+  "away": "Evansville",
+  "home": "Memphis",
+  "neutral": false,
+  "torvik": -16.6,
+  "hardwood": -10.3
+ },
+ "d9147d63fc7cb44ba58391e30c6d0806": {
+  "home_spread": -3.5,
+  "total": 145.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T19:00:00Z",
+  "away": "San Diego",
+  "home": "Fordham",
+  "neutral": false,
+  "torvik": -4.0,
+  "hardwood": -6.0
+ },
+ "dce1dc11a16440e70de006d164780ac2": {
+  "home_spread": -5.0,
+  "total": 147.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T19:00:00Z",
+  "away": "Western Kentucky",
+  "home": "George Washington",
+  "neutral": false,
+  "torvik": -7.5,
+  "hardwood": -9.7
+ },
+ "20c6981840df47c0889d7ae41c56aa84": {
+  "home_spread": 1.5,
+  "total": 157.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T19:00:00Z",
+  "away": "Utah Tech",
+  "home": "South Dakota",
+  "neutral": false,
+  "torvik": -2.1,
+  "hardwood": -2.6
+ },
+ "c4fb85c9d4955609536990dc5dd565d9": {
+  "home_spread": 2.0,
+  "total": 166.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T19:00:00Z",
+  "away": "William & Mary",
+  "home": "Youngstown St.",
+  "neutral": false,
+  "torvik": 2.1,
+  "hardwood": -2.5
+ },
+ "5269b87b9d1db58e870998a3d05f42eb": {
+  "home_spread": -2.5,
+  "total": 137.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T19:30:00Z",
+  "away": "Robert Morris",
+  "home": "New Mexico St.",
+  "neutral": false,
+  "torvik": -5.2,
+  "hardwood": -7.1
+ },
+ "ce609d312c528c91d20e80577d8feee5": {
+  "home_spread": -39.5,
+  "total": 148.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T20:00:00Z",
+  "away": "Southern Indiana",
+  "home": "Texas",
+  "neutral": false,
+  "torvik": -28.2,
+  "hardwood": -13.9
+ },
+ "a43c29f68105ec56703e2c7c29568490": {
+  "home_spread": 1.0,
+  "total": 159.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T20:30:00Z",
+  "away": "Virginia Tech",
+  "home": "Oklahoma St.",
+  "neutral": false,
+  "torvik": -0.0,
+  "hardwood": -1.9
+ },
+ "05c828d73504c939e026a844ffcabd3c": {
+  "home_spread": 0.0,
+  "total": 143.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T21:30:00Z",
+  "away": "Liberty",
+  "home": "Richmond",
+  "neutral": false,
+  "torvik": -4.8,
+  "hardwood": -1.5
+ },
+ "42e47ef758f2c16dcf1cc64806373809": {
+  "home_spread": 4.0,
+  "total": 139.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T21:30:00Z",
+  "away": "UC Irvine",
+  "home": "Loyola Marymount",
+  "neutral": false,
+  "torvik": 0.3,
+  "hardwood": 1.1
+ },
+ "2a7854aaf3f39f696f8f72e8b4d719be": {
+  "home_spread": -3.5,
+  "total": 162.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T22:00:00Z",
+  "away": "Cal St. Fullerton",
+  "home": "Portland St.",
+  "neutral": false,
+  "torvik": -3.9,
+  "hardwood": 1.5
+ },
+ "4d57a3b1bd68b12004210b45e6627108": {
+  "home_spread": 1.5,
+  "total": 146.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T22:30:00Z",
+  "away": "Temple",
+  "home": "Stephen F. Austin",
+  "neutral": false,
+  "torvik": -2.8,
+  "hardwood": -4.4
+ },
+ "c176d337261bbb0fe334d3bf7f270ba6": {
+  "home_spread": -10.5,
+  "total": 131.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T23:00:00Z",
+  "away": "Utah",
+  "home": "Minnesota",
+  "neutral": false,
+  "torvik": -10.4,
+  "hardwood": -19.0
+ },
+ "9d284f0191ee2d4d218bd46e7cb2ea12": {
+  "home_spread": 8.0,
+  "total": 145.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-22T23:00:00Z",
+  "away": "Valparaiso",
+  "home": "Southern Miss",
+  "neutral": false,
+  "torvik": 3.5,
+  "hardwood": 8.0
+ },
+ "26ab317bb218650201b41abfbf26b858": {
+  "home_spread": -10.5,
+  "total": 145.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-23T00:00:00Z",
+  "away": "Cal Baptist",
+  "home": "Portland",
+  "neutral": false,
+  "torvik": -10.4,
+  "hardwood": -17.5
+ },
+ "44c35f271b07ee73f3cdeb6afb468ff6": {
+  "home_spread": -29.0,
+  "total": 146.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-23T00:00:00Z",
+  "away": "Delaware",
+  "home": "UCLA",
+  "neutral": false,
+  "torvik": -22.6,
+  "hardwood": -22.1
+ },
+ "1ee2fb83953abf7e64374cbf970ddd8f": {
+  "home_spread": -2.0,
+  "total": 149.5,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-23T00:00:00Z",
+  "away": "UAB",
+  "home": "Rhode Island",
+  "neutral": false,
+  "torvik": -2.1,
+  "hardwood": -8.8
+ },
+ "441228531de5a6035d73ba3bc9f49d19": {
+  "home_spread": -32.0,
+  "total": 146.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-23T01:00:00Z",
+  "away": "Louisiana",
+  "home": "USC",
+  "neutral": false,
+  "torvik": -23.9,
+  "hardwood": -33.9
+ },
+ "4564c6b619ba4df5c3f81b609a24f582": {
+  "home_spread": -9.0,
+  "total": 146.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-23T01:00:00Z",
+  "away": "Tennessee Martin",
+  "home": "Utah Valley",
+  "neutral": false,
+  "torvik": -12.4,
+  "hardwood": -3.9
+ },
+ "193030f0c2c0c4a26223daa93d916bff": {
+  "home_spread": -1.0,
+  "total": 145.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-23T02:30:00Z",
+  "away": "Seattle",
+  "home": "UC San Diego",
+  "neutral": false,
+  "torvik": -3.0,
+  "hardwood": -1.1
+ },
+ "e1df42277edc29d6e8f5fe465c9fb695": {
+  "home_spread": -3.0,
+  "total": 149.0,
+  "seen": "2026-11-21T21:12:25.565999+00:00",
+  "tip": "2026-11-23T04:59:00Z",
+  "away": "San Jose St.",
+  "home": "Loyola Chicago",
+  "neutral": false,
+  "torvik": -5.9,
+  "hardwood": -6.6
  }
 }

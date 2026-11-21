@@ -7411,7 +7411,12 @@
   "neutral": false,
   "logged": "2026-11-20T22:22:10.964961+00:00",
   "close": 5.5,
-  "clv": 1.0
+  "clv": 1.0,
+  "final": [
+   68,
+   65
+  ],
+  "result": "W"
  },
  {
   "event_id": "fb773220f5132a61b708f5d7ed605b9f",
@@ -7461,7 +7466,12 @@
   "neutral": false,
   "logged": "2026-11-20T22:22:10.964961+00:00",
   "close": 4.0,
-  "clv": 2.2
+  "clv": 2.2,
+  "final": [
+   87,
+   69
+  ],
+  "result": "L"
  },
  {
   "event_id": "6a6c3d772fb995d1205aae1324672ea7",
@@ -7511,7 +7521,12 @@
   "neutral": false,
   "logged": "2026-11-20T22:22:10.964961+00:00",
   "close": 2.0,
-  "clv": -0.5
+  "clv": -0.5,
+  "final": [
+   60,
+   85
+  ],
+  "result": "W"
  },
  {
   "event_id": "2da6119e4539c4666b49cb8015a6c289",
@@ -7536,7 +7551,12 @@
   "neutral": false,
   "logged": "2026-11-20T22:22:10.964961+00:00",
   "close": -14.5,
-  "clv": 1.0
+  "clv": 1.0,
+  "final": [
+   63,
+   90
+  ],
+  "result": "L"
  },
  {
   "event_id": "089763b58d06f84ae9546c2037e7d941",
@@ -7653,7 +7673,12 @@
   "neutral": false,
   "logged": "2026-11-21T16:44:38.580430+00:00",
   "close": -25.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   75,
+   106
+  ],
+  "result": "L"
  },
  {
   "event_id": "ce18dbed2bcc407de6487a10df8f1771",
@@ -7701,7 +7726,9 @@
   "hardwood_spread": -0.1,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-21T16:44:38.580430+00:00"
+  "logged": "2026-11-21T16:44:38.580430+00:00",
+  "close": 1.0,
+  "clv": 0.0
  },
  {
   "event_id": "343eb2e0f080f6c844094408141efe87",
@@ -7724,7 +7751,9 @@
   "hardwood_spread": 1.3,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-21T16:44:38.580430+00:00"
+  "logged": "2026-11-21T16:44:38.580430+00:00",
+  "close": 2.5,
+  "clv": -0.5
  },
  {
   "event_id": "0355b02b6389cbbb3326e2ed70b031c9",
@@ -7747,7 +7776,9 @@
   "hardwood_spread": 3.2,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-21T16:44:38.580430+00:00"
+  "logged": "2026-11-21T16:44:38.580430+00:00",
+  "close": 3.5,
+  "clv": 0.0
  },
  {
   "event_id": "7522960fbb3bcea978fbb1291c8c866b",
@@ -7863,5 +7894,281 @@
   "both_models": false,
   "neutral": false,
   "logged": "2026-11-21T16:44:38.580430+00:00"
+ },
+ {
+  "event_id": "9db5c4284531a6c45d11d71c9debdf30",
+  "date": "2026-11-22",
+  "tip": "2026-11-22T17:00:00Z",
+  "away": "Butler",
+  "home": "Nebraska",
+  "side": "home",
+  "pick": "Nebraska -11.5",
+  "line": -11.5,
+  "model_spread": -14.6,
+  "edge": -3.1,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": -11.5,
+   "px": -103,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -13.4,
+  "both_models": false,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
+ },
+ {
+  "event_id": "a4479cbdb9666b13f2c1f33e93f6e281",
+  "date": "2026-11-22",
+  "tip": "2026-11-22T18:00:00Z",
+  "away": "Dayton",
+  "home": "Northwestern",
+  "side": "home",
+  "pick": "Northwestern +3",
+  "line": 3.0,
+  "model_spread": -2.1,
+  "edge": -5.1,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 3.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -1.2,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
+ },
+ {
+  "event_id": "ca02e6e3717e63798ba1db0542ee38ee",
+  "date": "2026-11-22",
+  "tip": "2026-11-22T19:00:00Z",
+  "away": "Evansville",
+  "home": "Memphis",
+  "side": "away",
+  "pick": "Evansville +21",
+  "line": -21.0,
+  "model_spread": -16.6,
+  "edge": 4.4,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 21.0,
+   "px": 100,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -10.3,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
+ },
+ {
+  "event_id": "20c6981840df47c0889d7ae41c56aa84",
+  "date": "2026-11-22",
+  "tip": "2026-11-22T19:00:00Z",
+  "away": "Utah Tech",
+  "home": "South Dakota",
+  "side": "home",
+  "pick": "South Dakota +1.5",
+  "line": 1.5,
+  "model_spread": -2.1,
+  "edge": -3.6,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 1.5,
+   "px": -125,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -2.6,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
+ },
+ {
+  "event_id": "ce609d312c528c91d20e80577d8feee5",
+  "date": "2026-11-22",
+  "tip": "2026-11-22T20:00:00Z",
+  "away": "Southern Indiana",
+  "home": "Texas",
+  "side": "away",
+  "pick": "Southern Indiana +39.5",
+  "line": -39.5,
+  "model_spread": -28.2,
+  "edge": 11.3,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 39.5,
+   "px": -105,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -13.9,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
+ },
+ {
+  "event_id": "05c828d73504c939e026a844ffcabd3c",
+  "date": "2026-11-22",
+  "tip": "2026-11-22T21:30:00Z",
+  "away": "Liberty",
+  "home": "Richmond",
+  "side": "home",
+  "pick": "Richmond PK",
+  "line": 0.0,
+  "model_spread": -4.8,
+  "edge": -4.8,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 0.0,
+   "px": -105,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -1.5,
+  "both_models": false,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
+ },
+ {
+  "event_id": "42e47ef758f2c16dcf1cc64806373809",
+  "date": "2026-11-22",
+  "tip": "2026-11-22T21:30:00Z",
+  "away": "UC Irvine",
+  "home": "Loyola Marymount",
+  "side": "home",
+  "pick": "Loyola Marymount +4",
+  "line": 4.0,
+  "model_spread": 0.3,
+  "edge": -3.7,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 4.0,
+   "px": -105,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": 1.1,
+  "both_models": false,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
+ },
+ {
+  "event_id": "4d57a3b1bd68b12004210b45e6627108",
+  "date": "2026-11-22",
+  "tip": "2026-11-22T22:30:00Z",
+  "away": "Temple",
+  "home": "Stephen F. Austin",
+  "side": "home",
+  "pick": "Stephen F. Austin +1.5",
+  "line": 1.5,
+  "model_spread": -2.8,
+  "edge": -4.3,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 1.5,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -4.4,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
+ },
+ {
+  "event_id": "9d284f0191ee2d4d218bd46e7cb2ea12",
+  "date": "2026-11-22",
+  "tip": "2026-11-22T23:00:00Z",
+  "away": "Valparaiso",
+  "home": "Southern Miss",
+  "side": "home",
+  "pick": "Southern Miss +8",
+  "line": 8.0,
+  "model_spread": 3.5,
+  "edge": -4.5,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 8.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": 8.0,
+  "both_models": false,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
+ },
+ {
+  "event_id": "44c35f271b07ee73f3cdeb6afb468ff6",
+  "date": "2026-11-22",
+  "tip": "2026-11-23T00:00:00Z",
+  "away": "Delaware",
+  "home": "UCLA",
+  "side": "away",
+  "pick": "Delaware +29",
+  "line": -29.0,
+  "model_spread": -22.6,
+  "edge": 6.4,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 29.0,
+   "px": -105,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -22.1,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
+ },
+ {
+  "event_id": "441228531de5a6035d73ba3bc9f49d19",
+  "date": "2026-11-22",
+  "tip": "2026-11-23T01:00:00Z",
+  "away": "Louisiana",
+  "home": "USC",
+  "side": "away",
+  "pick": "Louisiana +32",
+  "line": -32.0,
+  "model_spread": -23.9,
+  "edge": 8.1,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 32.0,
+   "px": 100,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -33.9,
+  "both_models": false,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
+ },
+ {
+  "event_id": "4564c6b619ba4df5c3f81b609a24f582",
+  "date": "2026-11-22",
+  "tip": "2026-11-23T01:00:00Z",
+  "away": "Tennessee Martin",
+  "home": "Utah Valley",
+  "side": "home",
+  "pick": "Utah Valley -9",
+  "line": -9.0,
+  "model_spread": -12.4,
+  "edge": -3.4,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": -9.0,
+   "px": -103,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -3.9,
+  "both_models": false,
+  "neutral": false,
+  "logged": "2026-11-21T21:12:25.565999+00:00"
  }
 ]
