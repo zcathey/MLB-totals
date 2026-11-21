@@ -2508,5 +2508,25 @@
   "total": 140.5,
   "torvik": -7.1,
   "hardwood_live": -10.7
+ },
+ "934d69fc4e080af297a4f91987ad87f0": {
+  "date": "2026-11-21",
+  "away": "Siena",
+  "home": "Bucknell",
+  "neutral": false,
+  "close": 6.5,
+  "total": 154.5,
+  "torvik": 5.8,
+  "hardwood_live": 5.6
+ },
+ "b346f6555c1055ecaf0494e0a23d08dc": {
+  "date": "2026-11-21",
+  "away": "USC Upstate",
+  "home": "UNC Greensboro",
+  "neutral": false,
+  "close": -7.5,
+  "total": 146.5,
+  "torvik": -6.2,
+  "hardwood_live": -10.4
  }
 }
