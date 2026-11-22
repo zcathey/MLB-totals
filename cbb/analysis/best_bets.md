@@ -2,7 +2,7 @@
 
 The one play the daily write-up rates highest. Paper trades until about mid-December. The line is the number at write-up time. "Close" is the closing home spread from `data/closers.json`. Nov 12 and Nov 17 are backfilled from the write-ups that named a top play.
 
-**Record: 4-0-1**
+**Record: 4-1-1**
 
 | Date | Best bet | Line (book) | Final | Close | Result |
 |---|---|---|---|---|---|
@@ -11,4 +11,5 @@ The one play the daily write-up rates highest. Paper trades until about mid-Dece
 | 2026-11-18 | Portland at Colorado | +14.5 (BetRivers −108) | 77-74 | CU −14.5 | W |
 | 2026-11-19 | Wisconsin at Seton Hall | +5.5 (ESPN BET −110) | 69-74 | SHU +5 | W |
 | 2026-11-20 | Central Michigan at Pittsburgh | +22 (BetOnline −115) | 82-104 | PITT −21.5 | P |
-| 2026-11-21 | Queens at LSU | +26.5 (BetRivers −109) |  |  | pending |
+| 2026-11-21 | Queens at LSU | +26.5 (BetRivers −109) | 75-106 | LSU −25.5 | L |
+| 2026-11-22 | UMass Lowell at Cincinnati | +29.5 (ESPN BET −110) |  |  | pending |
