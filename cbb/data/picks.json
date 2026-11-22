@@ -7579,7 +7579,9 @@
   "hardwood_spread": -0.9,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": 4.5,
+  "clv": 0.0
  },
  {
   "event_id": "b2203e33d7aedad7f3ac39e1282c44d4",
@@ -7602,7 +7604,9 @@
   "hardwood_spread": -16.1,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": -11.5,
+  "clv": 0.8
  },
  {
   "event_id": "abe6046c0e5100a1e721207ddedccc18",
@@ -7625,7 +7629,9 @@
   "hardwood_spread": 4.8,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-20T22:22:10.964961+00:00"
+  "logged": "2026-11-20T22:22:10.964961+00:00",
+  "close": 4.5,
+  "clv": 0.2
  },
  {
   "event_id": "9f7f8d885eb724ca669f64bacad9321c",
@@ -7801,7 +7807,9 @@
   "hardwood_spread": -2.3,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-21T16:44:38.580430+00:00"
+  "logged": "2026-11-21T16:44:38.580430+00:00",
+  "close": -6.5,
+  "clv": 0.0
  },
  {
   "event_id": "fa6a6d717b7ee026ba18c92b10e5e36e",
@@ -7824,7 +7832,9 @@
   "hardwood_spread": -3.8,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-21T16:44:38.580430+00:00"
+  "logged": "2026-11-21T16:44:38.580430+00:00",
+  "close": 1.5,
+  "clv": 0.0
  },
  {
   "event_id": "d4ff5572dfce3797f92425c0269392d5",
@@ -7847,7 +7857,9 @@
   "hardwood_spread": -19.1,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-21T16:44:38.580430+00:00"
+  "logged": "2026-11-21T16:44:38.580430+00:00",
+  "close": -31.0,
+  "clv": 0.5
  },
  {
   "event_id": "029de1352f9ba49f22486bda5427cc7a",
@@ -7870,7 +7882,9 @@
   "hardwood_spread": 1.9,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-21T16:44:38.580430+00:00"
+  "logged": "2026-11-21T16:44:38.580430+00:00",
+  "close": 3.5,
+  "clv": 0.5
  },
  {
   "event_id": "7be34d4b1b24a90daf0928088053bc5a",
@@ -7893,7 +7907,9 @@
   "hardwood_spread": null,
   "both_models": false,
   "neutral": false,
-  "logged": "2026-11-21T16:44:38.580430+00:00"
+  "logged": "2026-11-21T16:44:38.580430+00:00",
+  "close": -1.0,
+  "clv": 0.0
  },
  {
   "event_id": "9db5c4284531a6c45d11d71c9debdf30",
