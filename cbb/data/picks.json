@@ -8071,7 +8071,12 @@
   "neutral": false,
   "logged": "2026-11-21T21:12:25.565999+00:00",
   "close": -21.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   62,
+   82
+  ],
+  "result": "W"
  },
  {
   "event_id": "20c6981840df47c0889d7ae41c56aa84",
@@ -8096,7 +8101,12 @@
   "neutral": false,
   "logged": "2026-11-21T21:12:25.565999+00:00",
   "close": -1.0,
-  "clv": 2.5
+  "clv": 2.5,
+  "final": [
+   74,
+   73
+  ],
+  "result": "W"
  },
  {
   "event_id": "ce609d312c528c91d20e80577d8feee5",
@@ -8337,7 +8347,12 @@
   "neutral": false,
   "logged": "2026-11-22T16:44:47.574564+00:00",
   "close": -28.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   68,
+   78
+  ],
+  "result": "W"
  },
  {
   "event_id": "dce1dc11a16440e70de006d164780ac2",
@@ -8435,7 +8450,9 @@
   "hardwood_spread": -1.7,
   "both_models": true,
   "neutral": false,
-  "logged": "2026-11-22T16:44:47.574564+00:00"
+  "logged": "2026-11-22T16:44:47.574564+00:00",
+  "close": 1.5,
+  "clv": 0.0
  },
  {
   "event_id": "a156f22faa101eae5a832cfc5de4fbca",
@@ -8505,5 +8522,143 @@
   "both_models": true,
   "neutral": false,
   "logged": "2026-11-22T16:44:47.574564+00:00"
+ },
+ {
+  "event_id": "e4496b83963ca2f24052c8779d91cbeb",
+  "date": "2026-11-23",
+  "tip": "2026-11-23T17:30:00Z",
+  "away": "Indiana St.",
+  "home": "East Carolina",
+  "side": "home",
+  "pick": "East Carolina -3",
+  "line": -3.0,
+  "model_spread": -7.0,
+  "edge": -4.0,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": -3.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -8.7,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-22T21:17:40.553728+00:00"
+ },
+ {
+  "event_id": "f6407650f13adaa2fc13d17570ef3327",
+  "date": "2026-11-23",
+  "tip": "2026-11-23T19:30:00Z",
+  "away": "Mississippi",
+  "home": "Clemson",
+  "side": "home",
+  "pick": "Clemson +5.75",
+  "line": 5.75,
+  "model_spread": -0.5,
+  "edge": -6.2,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 6.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": 7.3,
+  "both_models": false,
+  "neutral": false,
+  "logged": "2026-11-22T21:17:40.553728+00:00"
+ },
+ {
+  "event_id": "b1abd9ff77f5dc5c376c08041fae20ea",
+  "date": "2026-11-23",
+  "tip": "2026-11-23T20:30:00Z",
+  "away": "Arkansas St.",
+  "home": "Southern Utah",
+  "side": "home",
+  "pick": "Southern Utah +7",
+  "line": 7.0,
+  "model_spread": 0.7,
+  "edge": -6.3,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 7.0,
+   "px": -105,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": 3.6,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-22T21:17:40.553728+00:00"
+ },
+ {
+  "event_id": "c26aa1b5cbdc588ee415a259da2c6bf4",
+  "date": "2026-11-23",
+  "tip": "2026-11-23T21:00:00Z",
+  "away": "Yale",
+  "home": "Belmont",
+  "side": "home",
+  "pick": "Belmont -3",
+  "line": -3.0,
+  "model_spread": -7.5,
+  "edge": -4.5,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": -3.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -9.7,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-22T21:17:40.553728+00:00"
+ },
+ {
+  "event_id": "11782e330b7215a8e2f0e3e4e9a27404",
+  "date": "2026-11-23",
+  "tip": "2026-11-24T01:00:00Z",
+  "away": "Denver",
+  "home": "Kansas",
+  "side": "away",
+  "pick": "Denver +37",
+  "line": -37.0,
+  "model_spread": -29.5,
+  "edge": 7.5,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 37.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -24.1,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-22T21:17:40.553728+00:00"
+ },
+ {
+  "event_id": "5a237fcf6422f6a245d462ba2a6835dc",
+  "date": "2026-11-23",
+  "tip": "2026-11-24T01:00:00Z",
+  "away": "Monmouth",
+  "home": "North Carolina",
+  "side": "away",
+  "pick": "Monmouth +20.5",
+  "line": -20.5,
+  "model_spread": -16.5,
+  "edge": 4.0,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": 20.5,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -12.5,
+  "both_models": true,
+  "neutral": false,
+  "logged": "2026-11-22T21:17:40.553728+00:00"
  }
 ]
