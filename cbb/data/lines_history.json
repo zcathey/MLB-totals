@@ -3018,5 +3018,15 @@
   "total": 154.0,
   "torvik": 2.6,
   "hardwood_live": null
+ },
+ "9f7f8d885eb724ca669f64bacad9321c": {
+  "date": "2026-11-21",
+  "away": "Washington St.",
+  "home": "Duke",
+  "neutral": false,
+  "close": -25.0,
+  "total": 149.5,
+  "torvik": -22.7,
+  "hardwood_live": -19.0
  }
 }
