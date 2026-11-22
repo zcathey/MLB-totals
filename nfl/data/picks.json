@@ -249,7 +249,12 @@
    "book": "ESPN BET"
   },
   "close": -11.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   13,
+   21
+  ],
+  "result": "W"
  },
  {
   "game_id": "2026_11_NO_CHI",
@@ -272,7 +277,12 @@
    "book": "BetMGM"
   },
   "close": 48.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   13,
+   21
+  ],
+  "result": "L"
  },
  {
   "game_id": "2026_11_TEN_DAL",
@@ -296,7 +306,12 @@
    "book": "BetOnline"
   },
   "close": -8.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   30,
+   51
+  ],
+  "result": "L"
  },
  {
   "game_id": "2026_11_TB_DET",
@@ -320,7 +335,12 @@
    "book": "Pinnacle"
   },
   "close": -3.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   21,
+   31
+  ],
+  "result": "W"
  },
  {
   "game_id": "2026_11_NYJ_LAC",
@@ -342,6 +362,8 @@
    "pt": 3.5,
    "px": -120,
    "book": "ESPN BET"
-  }
+  },
+  "close": -3.0,
+  "clv": 0.0
  }
 ]
