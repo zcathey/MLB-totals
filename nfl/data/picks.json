@@ -226,5 +226,114 @@
    40
   ],
   "result": "W"
+ },
+ {
+  "game_id": "2026_11_NO_CHI",
+  "week": 11,
+  "date": "2026-11-22",
+  "kickoff": "2026-11-22T18:00:00+00:00",
+  "away": "NO",
+  "home": "CHI",
+  "model_spread": -4.4,
+  "model_total": 52.8,
+  "logged": "2026-11-22T13:42:36.646235+00:00",
+  "type": "spread",
+  "side": "away",
+  "pick": "New Orleans +11.5",
+  "line": -11.5,
+  "edge": 7.1,
+  "market": "flat",
+  "best": {
+   "pt": 11.5,
+   "px": -105,
+   "book": "ESPN BET"
+  }
+ },
+ {
+  "game_id": "2026_11_NO_CHI",
+  "week": 11,
+  "date": "2026-11-22",
+  "kickoff": "2026-11-22T18:00:00+00:00",
+  "away": "NO",
+  "home": "CHI",
+  "model_spread": -4.4,
+  "model_total": 52.8,
+  "logged": "2026-11-22T13:42:36.646235+00:00",
+  "type": "total",
+  "side": "over",
+  "pick": "Over 48.5",
+  "line": 48.5,
+  "edge": 4.3,
+  "best": {
+   "pt": 48.0,
+   "px": -112,
+   "book": "BetMGM"
+  }
+ },
+ {
+  "game_id": "2026_11_TEN_DAL",
+  "week": 11,
+  "date": "2026-11-22",
+  "kickoff": "2026-11-22T18:00:00+00:00",
+  "away": "TEN",
+  "home": "DAL",
+  "model_spread": -4.5,
+  "model_total": 55.6,
+  "logged": "2026-11-22T13:42:36.646235+00:00",
+  "type": "spread",
+  "side": "away",
+  "pick": "Tennessee +8",
+  "line": -8.0,
+  "edge": 3.5,
+  "market": "flat",
+  "best": {
+   "pt": 9.0,
+   "px": -127,
+   "book": "BetOnline"
+  }
+ },
+ {
+  "game_id": "2026_11_TB_DET",
+  "week": 11,
+  "date": "2026-11-22",
+  "kickoff": "2026-11-22T18:00:00+00:00",
+  "away": "TB",
+  "home": "DET",
+  "model_spread": -7.9,
+  "model_total": 44.5,
+  "logged": "2026-11-22T13:42:36.646235+00:00",
+  "type": "spread",
+  "side": "home",
+  "pick": "Detroit -3.5",
+  "line": -3.5,
+  "edge": -4.4,
+  "market": "against",
+  "best": {
+   "pt": -3.5,
+   "px": -108,
+   "book": "Pinnacle"
+  }
+ },
+ {
+  "game_id": "2026_11_NYJ_LAC",
+  "week": 11,
+  "date": "2026-11-22",
+  "kickoff": "2026-11-22T21:05:00+00:00",
+  "away": "NYJ",
+  "home": "LAC",
+  "model_spread": 2.2,
+  "model_total": 41.4,
+  "logged": "2026-11-22T13:42:36.646235+00:00",
+  "type": "spread",
+  "side": "away",
+  "pick": "NY Jets +3",
+  "line": -3.0,
+  "edge": 5.2,
+  "market": "flat",
+  "best": {
+   "pt": 3.5,
+   "px": -120,
+   "book": "ESPN BET"
+  }
  }
 ]

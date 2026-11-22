@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T00:41:20.826571+00:00",
- "mode": "late",
+ "generated_at": "2026-11-22T13:42:36.646235+00:00",
+ "mode": "picks",
  "season": 2026,
  "week": 11,
  "through_week": 11,
@@ -11,7 +11,7 @@
  "lines": {
   "status": "ok",
   "events": 28,
-  "credits_remaining": "240"
+  "credits_remaining": "236"
  },
  "settings": {
   "points_base": 23.0,
@@ -84,8 +84,8 @@
    },
    "best_away": {
     "pt": 17.0,
-    "px": -115,
-    "book": "BetRivers"
+    "px": -120,
+    "book": "Pinnacle"
    },
    "best_over": {
     "pt": 44.5,
@@ -93,9 +93,9 @@
     "book": "Pinnacle"
    },
    "best_under": {
-    "pt": 45.5,
-    "px": -117,
-    "book": "BetRivers"
+    "pt": 44.5,
+    "px": -103,
+    "book": "Pinnacle"
    },
    "open_spread": -17.0,
    "open_total": 45.5,
@@ -136,23 +136,23 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -2.5,
-    "px": -113,
+    "px": -114,
     "book": "Pinnacle"
    },
    "best_away": {
     "pt": 3.0,
-    "px": -116,
+    "px": -118,
     "book": "DraftKings"
    },
    "best_over": {
     "pt": 43.5,
-    "px": -105,
-    "book": "ESPN BET"
-   },
-   "best_under": {
-    "pt": 43.5,
     "px": -108,
     "book": "Pinnacle"
+   },
+   "best_under": {
+    "pt": 44.5,
+    "px": -110,
+    "book": "BetOnline"
    },
    "open_spread": -2.5,
    "open_total": 44.5,
@@ -190,18 +190,18 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -11.5,
-    "px": -107,
-    "book": "DraftKings"
+    "px": 100,
+    "book": "Pinnacle"
    },
    "best_away": {
-    "pt": 12.0,
-    "px": -112,
-    "book": "Bovada"
+    "pt": 11.5,
+    "px": -105,
+    "book": "ESPN BET"
    },
    "best_over": {
-    "pt": 48.5,
-    "px": -104,
-    "book": "Pinnacle"
+    "pt": 48.0,
+    "px": -112,
+    "book": "BetMGM"
    },
    "best_under": {
     "pt": 48.5,
@@ -247,12 +247,12 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -7.5,
-    "px": -106,
-    "book": "DraftKings"
+    "px": 100,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 9.0,
-    "px": -125,
+    "px": -127,
     "book": "BetOnline"
    },
    "best_over": {
@@ -297,27 +297,27 @@
    "away_qb": "Baker Mayfield",
    "home_qb": "Jared Goff",
    "books": 8,
-   "mkt_spread": -4.5,
+   "mkt_spread": -3.5,
    "mkt_total": 47.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -4.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": -3.5,
+    "px": -108,
+    "book": "Pinnacle"
    },
    "best_away": {
-    "pt": 4.5,
+    "pt": 4.0,
     "px": -110,
-    "book": "FanDuel"
+    "book": "BetRivers"
    },
    "best_over": {
     "pt": 47.0,
-    "px": -109,
+    "px": -112,
     "book": "BetRivers"
    },
    "best_under": {
     "pt": 47.5,
-    "px": -108,
+    "px": -106,
     "book": "Pinnacle"
    },
    "open_spread": -6.5,
@@ -329,9 +329,9 @@
     "home_spread": -7.9,
     "total": 44.5
    },
-   "edge": -3.4,
-   "move": 2.0,
-   "pick": "Detroit -4.5",
+   "edge": -4.4,
+   "move": 3.0,
+   "pick": "Detroit -3.5",
    "pick_side": "home",
    "market": "against",
    "total_edge": -3.0,
@@ -352,28 +352,28 @@
    "away_qb": "Josh Johnson",
    "home_qb": "Patrick Mahomes",
    "books": 8,
-   "mkt_spread": -16.5,
-   "mkt_total": 41.0,
+   "mkt_spread": -14.5,
+   "mkt_total": 40.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -14.5,
-    "px": -112,
-    "book": "Bovada"
+    "px": -110,
+    "book": "Pinnacle"
    },
    "best_away": {
-    "pt": 16.5,
-    "px": -115,
-    "book": "FanDuel"
+    "pt": 15.5,
+    "px": -110,
+    "book": "DraftKings"
    },
    "best_over": {
+    "pt": 40.0,
+    "px": -110,
+    "book": "BetOnline"
+   },
+   "best_under": {
     "pt": 40.5,
     "px": -110,
     "book": "FanDuel"
-   },
-   "best_under": {
-    "pt": 41.0,
-    "px": -115,
-    "book": "BetOnline"
    },
    "open_spread": -16.0,
    "open_total": 41.0,
@@ -386,14 +386,11 @@
     "home_spread": -12.4,
     "total": 52.1
    },
-   "edge": 4.1,
-   "move": -0.5,
-   "pick": "Arizona +16.5",
-   "pick_side": "away",
-   "market": "against",
-   "total_edge": 11.1,
-   "total_move": 0.0,
-   "total_pick": "Over 41",
+   "edge": 2.1,
+   "move": 1.5,
+   "total_edge": 11.6,
+   "total_move": -0.5,
+   "total_pick": "Over 40.5",
    "total_side": "over",
    "blocked": true
   },
@@ -412,27 +409,27 @@
    "home_qb": "J.J. McCarthy",
    "books": 8,
    "mkt_spread": 6.0,
-   "mkt_total": 46.5,
+   "mkt_total": 45.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 6.0,
-    "px": -110,
+    "px": -107,
     "book": "DraftKings"
    },
    "best_away": {
     "pt": -5.5,
-    "px": -112,
-    "book": "Bovada"
+    "px": -110,
+    "book": "BetOnline"
    },
    "best_over": {
-    "pt": 46.0,
-    "px": -108,
-    "book": "BetMGM"
+    "pt": 45.0,
+    "px": -106,
+    "book": "Pinnacle"
    },
    "best_under": {
     "pt": 46.5,
-    "px": -112,
-    "book": "DraftKings"
+    "px": -120,
+    "book": "FanDuel"
    },
    "open_spread": 6.0,
    "open_total": 46.5,
@@ -450,8 +447,8 @@
    "pick": "NY Giants +6",
    "pick_side": "home",
    "market": "flat",
-   "total_edge": 1.8,
-   "total_move": 0.0,
+   "total_edge": 3.3,
+   "total_move": -1.5,
    "blocked": true
   },
   {
@@ -473,8 +470,8 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -3.0,
-    "px": -112,
-    "book": "BetMGM"
+    "px": -111,
+    "book": "Pinnacle"
    },
    "best_away": {
     "pt": 3.5,
@@ -484,7 +481,7 @@
    "best_over": {
     "pt": 41.5,
     "px": -115,
-    "book": "BetRivers"
+    "book": "DraftKings"
    },
    "best_under": {
     "pt": 42.5,
@@ -528,13 +525,13 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -10.5,
-    "px": -104,
-    "book": "FanDuel"
+    "px": -107,
+    "book": "Pinnacle"
    },
    "best_away": {
-    "pt": 10.5,
-    "px": -104,
-    "book": "Pinnacle"
+    "pt": 11.0,
+    "px": -110,
+    "book": "BetMGM"
    },
    "best_over": {
     "pt": 40.5,
@@ -542,9 +539,9 @@
     "book": "FanDuel"
    },
    "best_under": {
-    "pt": 41.0,
-    "px": -107,
-    "book": "Pinnacle"
+    "pt": 41.5,
+    "px": -120,
+    "book": "ESPN BET"
    },
    "open_spread": -10.0,
    "open_total": 40.0,
@@ -580,18 +577,18 @@
    "away_qb": "Aaron Rodgers",
    "home_qb": "Joe Milton III",
    "books": 8,
-   "mkt_spread": 4.5,
+   "mkt_spread": 3.5,
    "mkt_total": 37.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 4.5,
-    "px": -126,
-    "book": "Pinnacle"
+    "pt": 3.5,
+    "px": -105,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": -3.5,
-    "px": -110,
-    "book": "BetMGM"
+    "px": -103,
+    "book": "Pinnacle"
    },
    "best_over": {
     "pt": 37.5,
@@ -614,8 +611,8 @@
     "home_spread": 4.0,
     "total": 34.3
    },
-   "edge": -0.5,
-   "move": 0.0,
+   "edge": 0.5,
+   "move": -1.0,
    "total_edge": -3.2,
    "total_move": -1.0,
    "blocked": true
@@ -639,23 +636,23 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -3.0,
-    "px": -118,
-    "book": "BetMGM"
+    "px": -117,
+    "book": "Pinnacle"
    },
    "best_away": {
     "pt": 3.5,
-    "px": -115,
-    "book": "ESPN BET"
+    "px": -114,
+    "book": "DraftKings"
    },
    "best_over": {
     "pt": 46.0,
-    "px": -110,
+    "px": -108,
     "book": "Pinnacle"
    },
    "best_under": {
     "pt": 46.5,
-    "px": -104,
-    "book": "FanDuel"
+    "px": -109,
+    "book": "BetRivers"
    },
    "open_spread": -3.0,
    "open_total": 47.0,
@@ -705,9 +702,9 @@
     "book": "FanDuel"
    },
    "best_over": {
-    "pt": 53.5,
-    "px": -120,
-    "book": "FanDuel"
+    "pt": 54.5,
+    "px": -109,
+    "book": "BetRivers"
    },
    "best_under": {
     "pt": 55.0,
@@ -2429,6 +2426,115 @@
     40
    ],
    "result": "W"
+  },
+  {
+   "game_id": "2026_11_NO_CHI",
+   "week": 11,
+   "date": "2026-11-22",
+   "kickoff": "2026-11-22T18:00:00+00:00",
+   "away": "NO",
+   "home": "CHI",
+   "model_spread": -4.4,
+   "model_total": 52.8,
+   "logged": "2026-11-22T13:42:36.646235+00:00",
+   "type": "spread",
+   "side": "away",
+   "pick": "New Orleans +11.5",
+   "line": -11.5,
+   "edge": 7.1,
+   "market": "flat",
+   "best": {
+    "pt": 11.5,
+    "px": -105,
+    "book": "ESPN BET"
+   }
+  },
+  {
+   "game_id": "2026_11_NO_CHI",
+   "week": 11,
+   "date": "2026-11-22",
+   "kickoff": "2026-11-22T18:00:00+00:00",
+   "away": "NO",
+   "home": "CHI",
+   "model_spread": -4.4,
+   "model_total": 52.8,
+   "logged": "2026-11-22T13:42:36.646235+00:00",
+   "type": "total",
+   "side": "over",
+   "pick": "Over 48.5",
+   "line": 48.5,
+   "edge": 4.3,
+   "best": {
+    "pt": 48.0,
+    "px": -112,
+    "book": "BetMGM"
+   }
+  },
+  {
+   "game_id": "2026_11_TEN_DAL",
+   "week": 11,
+   "date": "2026-11-22",
+   "kickoff": "2026-11-22T18:00:00+00:00",
+   "away": "TEN",
+   "home": "DAL",
+   "model_spread": -4.5,
+   "model_total": 55.6,
+   "logged": "2026-11-22T13:42:36.646235+00:00",
+   "type": "spread",
+   "side": "away",
+   "pick": "Tennessee +8",
+   "line": -8.0,
+   "edge": 3.5,
+   "market": "flat",
+   "best": {
+    "pt": 9.0,
+    "px": -127,
+    "book": "BetOnline"
+   }
+  },
+  {
+   "game_id": "2026_11_TB_DET",
+   "week": 11,
+   "date": "2026-11-22",
+   "kickoff": "2026-11-22T18:00:00+00:00",
+   "away": "TB",
+   "home": "DET",
+   "model_spread": -7.9,
+   "model_total": 44.5,
+   "logged": "2026-11-22T13:42:36.646235+00:00",
+   "type": "spread",
+   "side": "home",
+   "pick": "Detroit -3.5",
+   "line": -3.5,
+   "edge": -4.4,
+   "market": "against",
+   "best": {
+    "pt": -3.5,
+    "px": -108,
+    "book": "Pinnacle"
+   }
+  },
+  {
+   "game_id": "2026_11_NYJ_LAC",
+   "week": 11,
+   "date": "2026-11-22",
+   "kickoff": "2026-11-22T21:05:00+00:00",
+   "away": "NYJ",
+   "home": "LAC",
+   "model_spread": 2.2,
+   "model_total": 41.4,
+   "logged": "2026-11-22T13:42:36.646235+00:00",
+   "type": "spread",
+   "side": "away",
+   "pick": "NY Jets +3",
+   "line": -3.0,
+   "edge": 5.2,
+   "market": "flat",
+   "best": {
+    "pt": 3.5,
+    "px": -120,
+    "book": "ESPN BET"
+   }
   }
  ],
  "record": {
@@ -2437,7 +2543,7 @@
    "l": 1,
    "p": 0,
    "pct": 0.75,
-   "picks": 4,
+   "picks": 8,
    "avg_clv": 0.0,
    "beat_close": 0.0
   },
@@ -2446,7 +2552,7 @@
    "l": 0,
    "p": 0,
    "pct": 1.0,
-   "picks": 4,
+   "picks": 5,
    "avg_clv": 0.0,
    "beat_close": 0.0
   },
@@ -2464,7 +2570,7 @@
    "l": 1,
    "p": 0,
    "pct": 0.5,
-   "picks": 2,
+   "picks": 3,
    "avg_clv": 0.0,
    "beat_close": 0.0
   }
