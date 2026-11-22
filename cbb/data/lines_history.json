@@ -3028,5 +3028,185 @@
   "total": 149.5,
   "torvik": -22.7,
   "hardwood_live": -19.0
+ },
+ "9db5c4284531a6c45d11d71c9debdf30": {
+  "date": "2026-11-22",
+  "away": "Butler",
+  "home": "Nebraska",
+  "neutral": false,
+  "close": -12.0,
+  "total": 156.0,
+  "torvik": -14.4,
+  "hardwood_live": -13.3
+ },
+ "8df795d92371ff8d107e74c5f9e3a315": {
+  "date": "2026-11-22",
+  "away": "Miami OH",
+  "home": "Illinois Chicago",
+  "neutral": false,
+  "close": -1.0,
+  "total": 148.5,
+  "torvik": -1.3,
+  "hardwood_live": 2.8
+ },
+ "6720f59950e8e460d7daf76bc09897e6": {
+  "date": "2026-11-22",
+  "away": "Western Illinois",
+  "home": "Canisius",
+  "neutral": false,
+  "close": -4.5,
+  "total": 140.5,
+  "torvik": -5.9,
+  "hardwood_live": -2.2
+ },
+ "a4479cbdb9666b13f2c1f33e93f6e281": {
+  "date": "2026-11-22",
+  "away": "Northwestern",
+  "home": "Dayton",
+  "neutral": false,
+  "close": 3.5,
+  "total": 136.0,
+  "torvik": -4.0,
+  "hardwood_live": 1.5
+ },
+ "9df92a4f1ca806fe512c3849b181da90": {
+  "date": "2026-11-22",
+  "away": "Wyoming",
+  "home": "Duquesne",
+  "neutral": false,
+  "close": -4.0,
+  "total": 136.5,
+  "torvik": -0.6,
+  "hardwood_live": 3.2
+ },
+ "ca02e6e3717e63798ba1db0542ee38ee": {
+  "date": "2026-11-22",
+  "away": "Evansville",
+  "home": "Memphis",
+  "neutral": false,
+  "close": -21.0,
+  "total": 156.5,
+  "torvik": -16.7,
+  "hardwood_live": -9.9
+ },
+ "d9147d63fc7cb44ba58391e30c6d0806": {
+  "date": "2026-11-22",
+  "away": "San Diego",
+  "home": "Fordham",
+  "neutral": false,
+  "close": -3.0,
+  "total": 144.0,
+  "torvik": -4.9,
+  "hardwood_live": -5.9
+ },
+ "dce1dc11a16440e70de006d164780ac2": {
+  "date": "2026-11-22",
+  "away": "George Washington",
+  "home": "Western Kentucky",
+  "neutral": false,
+  "close": -3.0,
+  "total": 147.0,
+  "torvik": 1.8,
+  "hardwood_live": 3.2
+ },
+ "20c6981840df47c0889d7ae41c56aa84": {
+  "date": "2026-11-22",
+  "away": "Utah Tech",
+  "home": "South Dakota",
+  "neutral": false,
+  "close": -1.0,
+  "total": 153.0,
+  "torvik": -2.4,
+  "hardwood_live": -2.6
+ },
+ "c4fb85c9d4955609536990dc5dd565d9": {
+  "date": "2026-11-22",
+  "away": "William & Mary",
+  "home": "Youngstown St.",
+  "neutral": false,
+  "close": 2.5,
+  "total": 164.5,
+  "torvik": 1.9,
+  "hardwood_live": -2.6
+ },
+ "5269b87b9d1db58e870998a3d05f42eb": {
+  "date": "2026-11-22",
+  "away": "New Mexico St.",
+  "home": "Robert Morris",
+  "neutral": false,
+  "close": -1.0,
+  "total": 135.5,
+  "torvik": -0.8,
+  "hardwood_live": 1.3
+ },
+ "ce609d312c528c91d20e80577d8feee5": {
+  "date": "2026-11-22",
+  "away": "Southern Indiana",
+  "home": "Texas",
+  "neutral": false,
+  "close": -38.5,
+  "total": 151.5,
+  "torvik": -28.5,
+  "hardwood_live": -13.9
+ },
+ "0e691de1e271a81490db7c766b779288": {
+  "date": "2026-11-22",
+  "away": "Towson",
+  "home": "American",
+  "neutral": false,
+  "close": -1.0,
+  "total": 131.5,
+  "torvik": -2.1,
+  "hardwood_live": -2.0
+ },
+ "d3ff354cf7590632c2f875f2c49fa5e1": {
+  "date": "2026-11-22",
+  "away": "Chicago St.",
+  "home": "Marquette",
+  "neutral": false,
+  "close": -33.5,
+  "total": 139.0,
+  "torvik": -26.5,
+  "hardwood_live": -31.1
+ },
+ "b8b8c26c46c395035dbe4fd1d013d5ec": {
+  "date": "2026-11-22",
+  "away": "Fairfield",
+  "home": "LIU",
+  "neutral": false,
+  "close": -3.0,
+  "total": 145.5,
+  "torvik": -3.8,
+  "hardwood_live": -5.4
+ },
+ "8973c989f9e6975bd343485eade0a1dc": {
+  "date": "2026-11-22",
+  "away": "UMass Lowell",
+  "home": "Cincinnati",
+  "neutral": false,
+  "close": -28.5,
+  "total": 149.0,
+  "torvik": -23.5,
+  "hardwood_live": -17.4
+ },
+ "a8fa96ce1e2424029c99737ae7278b45": {
+  "date": "2026-11-22",
+  "away": "Nicholls St.",
+  "home": "Troy",
+  "neutral": true,
+  "close": -6.0,
+  "total": 135.0,
+  "torvik": -7.1,
+  "hardwood_live": -4.0
+ },
+ "7badad13b09c40df6ad6bed5dd5aa18f": {
+  "date": "2026-11-22",
+  "away": "West Florida",
+  "home": "South Alabama",
+  "neutral": false,
+  "close": -5.5,
+  "total": 139.0,
+  "torvik": -5.4,
+  "hardwood_live": 1.7
  }
 }
