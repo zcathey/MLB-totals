@@ -1,125 +1,79 @@
-# Week 11 — Sunday, Nov 22
+# Week 11 — Monday, Nov 23
 
-**No plays today.** The model logged four spreads and one total, but none has the market moving its way: three are flat, and Detroit −3.5 is a market-against pass after Baker Mayfield was reported back. Five more edges are QB-flagged.
+**No play tonight.** The model logged Commanders +6.5 (3.9-point edge), but the market is flat on it, so it counts in the record without my endorsement. No total edge.
 
-Data: the 8 AM run hadn't fired by 8:40 AM ET (the last scheduled run was Saturday's "late" run, which fired at 7:41 PM), so I started a picks run at 8:42; it finished at 8:42. Lines OK (28 events, 8 books per game). Written about 9 AM ET, before inactives (about 90 minutes before kickoff).
+Data: the 8 AM run never fired today (the last NFL run was Sunday's 11:01 PM ET "late" run), so I started a picks run at 5:18 PM ET; it finished at 5:18. Lines OK (17 events, 8 books on tonight's game). Written about 5:30 PM ET, before inactives (6:45 PM).
 
 ---
 
-## Results since Thursday
+## Sunday's results
 
-No logged picks have finished. Thursday's Colts–Texans game had no edge, so nothing was logged. Final: HOU 26, IND 3. The model's sides would have split: Colts +12.5 lost, under 44.5 (29 points) won.
+Five logged picks went 3-2: spreads 3-1, the one total lost. None was endorsed (four flat, one market-against).
 
-## Running record (logged picks, unchanged)
+| Pick | Market | Result | CLV* |
+|---|---|---|---|
+| Saints +11.5 | flat | W (13-21) | 0 |
+| Titans +8 | flat | L (30-51) | +0.5 |
+| Lions −3.5 | against | W (21-31) | 0 |
+| Jets +3 | flat | W (27-24) | 0 |
+| Over 48.5 NO–CHI | flat | L (34) | −1.0 |
 
-| | W-L | CLV |
+*Against nflverse closing lines. The page shows 0.0 again: the Sunday 11:30 AM "late" run never fired, so the 1:00 games' "close" is the 8:42 AM line. Jets–Chargers did get a 3:15 PM snapshot (still +3).
+
+Sunday CLV: spreads +0.13 a pick, the total −1.0 (the Bears total closed 47.5).
+
+## Running record (logged picks)
+
+| | W-L | CLV (nflverse close) |
 |---|---|---|
-| Spreads | 3-1 | +0.25 (nflverse close) |
-| Totals | 4-0 | −0.13 (nflverse close) |
+| Spreads | 6-2 | −0.06 |
+| Totals | 4-1 | −0.10 |
 | Agrees | 1-0 (total only) | — |
-| Against | 3-1 (1-1 spreads, 2-0 totals) | — |
-| Flat | 3-0 (2-0 spreads, 1-0 total) | — |
+| Against | 4-1 (2-1 spreads, 2-0 totals) | — |
+| Flat | 5-2 (4-1 spreads, 1-1 totals) | — |
 
-The page still shows 0.0 CLV and agrees 0-0 / against 1-1 because totals have no market tag. The split uses the write-up tags. Eight picks, near-zero CLV: no signal yet.
+**CLV correction:** I recomputed every pick's CLV from nflverse closes. The Week 10 numbers in earlier write-ups had the sign reversed (e.g., 49ers −4 against a −3.5 close is −0.5, not +0.5). Corrected Week 10: spreads −0.25, totals +0.13. Thirteen picks, CLV near zero, only one in the "agrees" bucket. The 10-3 record is mostly picks the framework says to pass. No signal yet.
 
 ## Backtest (Weeks 4–11, closing lines)
 
 | | ATS | O/U |
 |---|---|---|
-| All edges | 28-27-2 (51%) | 28-20 (58%) |
-| Clean (no QB flag) | 19-16-2 (54%) | 21-14 (60%) |
-| QB-flagged | 9-11 (45%) | — |
+| All edges | 32-31-2 (51%) | 29-22 (57%) |
+| Clean (no QB flag) | 22-17-2 (56%) | 21-16 (57%) |
+| QB-flagged | 10-14 (42%) | 8-6 |
 
-Unchanged; Thursday added no edges.
-
----
-
-## The card
-
-Nothing to bet. Today's logged picks (they count in the record, but I'm not endorsing them):
-
-| Pick | Edge | Market | Best number |
-|---|---|---|---|
-| Saints +11.5 | 7.1 | flat | +11.5 (−105) ESPN BET |
-| Over 48.5 NO–CHI | 4.3 | flat | 48 (−112) BetMGM |
-| Titans +8 | 3.5 | flat | +9 (−127) BetOnline, +8 elsewhere |
-| Lions −3.5 | 4.4 | **against** | −3.5 (−108) Pinnacle |
-| Jets +3 | 5.2 | flat | +3.5 (−120) ESPN BET |
+Since the last write-up: ATS +4-4 (clean +3-1, flagged +1-3), O/U +1-2 (clean +0-2). Flagged spread edges are now 42%, which is the case for the flag.
 
 ---
 
-## Spread and total edges that are passes
-
-### Saints at Bears, 1:00 PM ET (Soldier Field, outdoors)
+## Bengals at Commanders, 8:15 PM ET (Northwest Stadium, outdoors)
 
 | | Model | Market (page open) | Edge | Move |
 |---|---|---|---|---|
-| Spread | CHI −4.4 | CHI −11.5 (−11.5) | 7.1 toward NO | 0 |
-| Total | 52.8 | 48.5 (48.5) | 4.3 over | 0 |
+| Spread | CIN −2.6 | CIN −6.5 (−6.5) | 3.9 toward WAS | 0 |
+| Total | 55.8 | 54 (53) | 1.8 over | 1 up |
 
-**Spread: flat, pass.** SI had Bears −11.5 on Tuesday ([SI, Nov 17](https://www.si.com/betting/saints-vs-bears-prediction-odds-spread-injuries-trends-for-nfl-week-11-2026)), so it hasn't moved all week. The ESPN odds table seems to show an opener of −6.5 and 46.5 ([ESPN](https://www.espn.com/nfl/game/_/gameId/401873071/saints-bears)), but its columns are garbled and I couldn't confirm that from another source. If true, it was a 5-point move against the model before the page's first snapshot. The model's 7 points of edge doesn't see the Saints' line: ESPN lists both starting tackles (Taliese Fuaga, Asim Richards) and C Erik McCoy as out, plus CB Martin Emerson Jr. Chicago is without CB Kyler Gordon ([ESPN](https://www.espn.com/nfl/game/_/gameId/401873071/saints-bears)). Neither QB (Shough, Williams) is on an injury list. I couldn't find the Saints' official final report: the "final injury report" link on their site leads to a 2014 page.
+**Spread: flat, logged, not endorsed.** Best number: **WAS +6.5 (−107) Pinnacle**; most books are at +6 (BetOnline has CIN −6 −115).
 
-**Total: flat, pass, and the weather points the other way.** Rain is likely at kickoff with wind around 15 mph and gusts of 20 to 30: 85% rain, WSW 15 mph ([MySportsWeather](https://mysportsweather.com/nfl/2026-11-22/no-chi)); 62% from kickoff on, 15 mph, "high" weather impact ([DraftKings Network, Nov 20](https://dknetwork.draftkings.com/2026/11/20/nfl-week-11-weather-forecast/)); gusts to 30 ([NFLWeather](https://www.nflweather.com/games/2026/week-11/saints-at-bears)). The model doesn't know about weather.
+Line history ([TheSpread](https://thespread.com/nfl-articles/bengals-vs-commanders-line-movement-november-23-2026)): opened CIN −6 last Monday, went to −6.5 after the Bengals' 38-18 win over Pittsburgh, and slid back to −6 Thursday with the first practice reports. Sportsbetting Dime has 86% of bets and 79% of money on Cincinnati ([SBD](https://www.sportsbettingdime.com/news/nfl/weather-forecast-public-betting-trends-for-bengals-vs-commanders-mnf/)). A half-point drift toward Washington against that much public money leans the model's way, but it's half a point, and the page's opener was already 6.5. Not enough to call it "agrees."
 
-### Titans at Cowboys, 1:00 PM ET (AT&T Stadium, retractable roof)
+What the model doesn't see:
 
-| | Model | Market (page open) | Edge | Move |
-|---|---|---|---|---|
-| Spread | DAL −4.5 | DAL −8 (−8) | 3.5 toward TEN | 0 |
-| Total | 55.6 | 55.5 (54.5) | 0.1 | 1 up |
+- **Terry McLaurin is on IR** and WR Dyami Brown is out ([SBD](https://www.sportsbettingdime.com/news/nfl/final-bengals-vs-commanders-injury-reports-updates-on-rachaad-white-dax-hill-andrei-iosivas-jacory-croskey-merritt/)). That's a hit to Washington the ratings don't capture, and it cuts against the edge.
+- **Jayden Daniels (left elbow)** practiced fully all week and has no game designation ([Commanders.com](https://www.commanders.com/news/game-status-commanders-bengals-week-11)). **Joe Burrow (illness)** also practiced fully, no designation ([Bengals.com](https://www.bengals.com/news/bengals-commanders-week-11-2026-injury-report-monday-night-football)).
+- Commanders questionable: RBs Rachaad White (DNP Saturday) and Jacory Croskey-Merritt (still on IR as of Saturday; must be activated), C Lucas Patrick (cleared concussion protocol, named the starter), CB Amik Robertson (ankle). RB Jeremy McNichols is out ([Commanders.com](https://www.commanders.com/news/game-status-commanders-bengals-week-11), [SI](https://www.si.com/nfl/commanders/onsi/commanders-bengals-final-injury-report-week-11), [SBD](https://www.sportsbettingdime.com/news/nfl/final-bengals-vs-commanders-injury-reports-updates-on-rachaad-white-dax-hill-andrei-iosivas-jacory-croskey-merritt/)).
+- Bengals **out**: G Dalton Risner, LB Oren Burks (IR). Doubtful: WR Andrei Iosivas, CB Jalen Davis. Questionable: CB Dax Hill (illness, DNP all week), S Kyle Dugger, Gs Dylan Fairchild and Brian Parker II. Ja'Marr Chase and Tee Higgins have no designation ([Bengals.com](https://www.bengals.com/news/bengals-commanders-week-11-2026-injury-report-monday-night-football)). I couldn't find anything on Trey Hendrickson.
+- Inactives weren't out when I wrote this. If Daniels or Burrow is a surprise inactive, the line will tell you.
 
-**Flat, pass.** Barely over the threshold, and no movement. Injuries ([Titans.com](https://www.tennesseetitans.com/news/week-11-injury-report-titans-at-cowboys), [RotoWire](https://www.rotowire.com/betting/nfl/game.php?id=2978770)):
+**Total: no edge (1.8).** It opened 53, dipped to 52.5, hit 55 Saturday after Risner was ruled out and Hill fell ill, and sits at 54–54.5 ([TheSpread](https://thespread.com/nfl-articles/bengals-vs-commanders-line-movement-november-23-2026)).
 
-- Cowboys **out**: TE Jake Ferguson, G Tyler Booker (high ankle), WR Jonathan Mingo, CB DaRon Bland (IR), S P.J. Locke; S Jalen Thompson downgraded to out per RotoWire. TE Luke Schoonmaker questionable.
-- Titans **out**: G Fernando Carmona Jr.; RB Tyjae Spears moved to IR Saturday per RotoWire. WR Wan'Dale Robinson and G Peter Skoronski are on IR. WR Carnell Tate is questionable but expected to play (Rapoport via RotoWire).
-- QBs: neither Cam Ward nor Dak Prescott is listed.
-
-**Weather:** roof is "expected closed" ([DraftKings Network](https://dknetwork.draftkings.com/2026/11/20/nfl-week-11-weather-forecast/)); I couldn't confirm it.
-
-### Buccaneers at Lions, 1:00 PM ET (Ford Field, dome)
-
-| | Model | Market (page open) | Edge | Move |
-|---|---|---|---|---|
-| Spread | DET −7.9 | DET −3.5 (−6.5) | 4.4 toward DET | 3 against |
-| Total | 44.5 | 47.5 (46.5) | 3.0 under | 1 up |
-
-**Market-against, pass.** This is the 3-point move, and the news is Mayfield. The line opened Bucs +5.5 and reached +7 by Wednesday on reports that Mayfield (foot/ankle) would miss the game ([SI, Nov 18](https://www.si.com/betting/baker-mayfield-injury-uncertainty-continues-to-shift-buccaneers-vs-lions-odds-for-nfl-week-11-2026), [SI, Nov 19](https://www.si.com/betting/baker-mayfield-injury-update-tanks-buccaneers-odds-vs-lions-in-nfl-week-11-2026)). He was upgraded to limited Thursday ([Buccaneers.com](https://www.buccaneers.com/news/buccaneers-lions-injury-report-nov-19-week-11-2026)), Todd Bowles was optimistic Friday, and Ian Rapoport reports he is slated to play ([RotoWire](https://www.rotowire.com/betting/nfl/game.php?id=2978776)). The line is now +3.5. Measured from the true opener (+5.5), the move is 2 points against the model; from Thursday's peak, 3.5. Either way the market went away from Detroit. If Mayfield is inactive, this changes completely; check inactives.
-
-Other injuries: Lions DE Aidan Hutchinson and C Cade Mays are on IR; CB D.J. Reed and RB Sione Vaki are questionable; S Kerby Joseph is back from PUP. Bucs S Antoine Winfield Jr. and CB Josh Hayes are out; OLB Yaya Diaby is questionable ([RotoWire](https://www.rotowire.com/betting/nfl/game.php?id=2978776)).
-
-### Jets at Chargers, 4:05 PM ET (SoFi Stadium, indoors)
-
-| | Model | Market (page open) | Edge | Move |
-|---|---|---|---|---|
-| Spread | NYJ −2.2 | LAC −3 (−3) | 5.2 toward NYJ | 0 |
-| Total | 41.4 | 41.5 (40.5) | 0.1 | 1 up |
-
-**Flat, pass.** The model has the 2-8 Jets as road favorites over the 1-8 Chargers. Justin Herbert has no designation but has been playing through a hand injury (he went 12 of 18 for 129 yards last week). Geno Smith was cleared to play ([RotoWire](https://www.rotowire.com/betting/nfl/game.php?id=2978788)).
-
-- Jets **out**: WR Omar Cooper Jr., WR Isaiah Williams, DT David Onyemata. Questionable: G Dylan Parham, DT Harrison Phillips, DE Joseph Ossai, LB Trevin Wallace ([NFL.com](https://www.nfl.com/injuries/league/2026/REG11)).
-- Chargers **out**: LB Daiyan Henley, S Kendall Williamson; WR Brenen Thompson doubtful; TE Charlie Kolar questionable. WR Ladd McConkey is expected to play ([RotoWire](https://www.rotowire.com/betting/nfl/game.php?id=2978788)).
-
----
-
-## QB-flagged (never plays)
-
-| Game | Edge | Flag |
-|---|---|---|
-| Dolphins at Bills | 8.8 toward MIA (+17) | McCord started 1 of 9 |
-| Vikings vs 49ers (Mexico City) | 7.1 toward SF (−3) | Cousins started 1 of 9 |
-| Cardinals at Chiefs | total 11.6 over (40.5) | Josh Johnson has no starts |
-| Jaguars at Giants | 4.8 toward NYG (+6) | McCarthy started 3 of 9 |
-| Raiders at Broncos | 4.0 toward LV (+10.5) | Mendoza started 1 of 10 |
-
-Ravens–Panthers (Huntley) and Steelers–Eagles (Milton) are also flagged, with no edge. The Cardinals total is the clearest case: the model's 52 is built on Brissett's games.
-
-**Monday preview:** Bengals at Commanders has a 3.4-point edge toward Washington +6.5, flat on the spread; the total moved 2 points up (53 to 55). It's logged Monday morning.
+**Weather: low impact.** About 54–56°F at kickoff, NW wind 6–9 mph with gusts possibly to 22, rain chance 0–15% and fading ([DK Network](https://dknetwork.draftkings.com/2026/11/23/bengals-vs-commanders-weather-forecast-mnf/), [SI](https://www.si.com/nfl/commanders/onsi/commanders-bengals-weather-forecast-week-11)).
 
 ---
 
 ## Data notes
 
-- **8 AM run missed again.** No scheduled NFL run fired between Saturday 7:41 PM and 8:40 AM ET today. Saturday's 3:45 PM "late" run fired at 7:41 PM. If the 11:30 AM late run is also hours late, the 1:00 games' "closing" lines will be the 8:42 AM line and CLV will read 0 again.
-- **Openers are Tuesday snapshots.** Every Week 11 opener was first seen at 12:15 AM ET Tuesday. For Bucs–Lions that missed the 5.5 opener and the move to 7, so the page's "3 against" is really a round trip.
+- **Scheduled runs keep missing.** No 8 AM run today or Sunday, and Sunday's 11:30 AM "late" run never fired, so most Sunday "closers" are morning lines. Tonight's 6:45 PM late run may also be late; if it is, WAS +6.5 will close at the logging line and the page's CLV will read 0.
+- **CLV sign fixed** in this write-up (see above). The page's 0.0 CLV comes from the missing snapshots, not real flat closes.
 - **Totals still have no market tag** in `picks.json`, so the page's agrees/against counts are spread-only.
-- **Bad injury-report pages:** the Saints' and Jets' "final injury report" links lead to 2014 and 2020 articles. Injuries above are from ESPN, NFL.com, team pages and RotoWire news.
+- **Openers:** the page's opener (6.5, Tuesday 12:15 AM) missed the true −6 opener, so "flat" here is really a round trip from 6 to 6.5 and back.
