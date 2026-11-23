@@ -369,6 +369,36 @@ def main():
             sc = {x['name']: int(x['score']) for x in s['scores'] if x.get('score') is not None}
             if s['home_team'] in sc and s['away_team'] in sc:
                 final[s['id']] = (sc[s['away_team']], sc[s['home_team']])
+    # ESPN box scores (data/games.json) are the source of truth for finals. The Odds API scores feed
+    # sometimes swaps the two teams' scores (mostly at neutral sites), so a pick that matches an ESPN game
+    # is graded, or re-graded, from ESPN. The Odds API final is only a fallback for games ESPN doesn't have.
+    espn_by_pair = {}
+    for eg in espn_games:
+        espn_by_pair[(eg['date'], frozenset((eg['home'], eg['away'])))] = eg
+
+    def espn_final(p):
+        pair = frozenset((p['home'], p['away']))
+        d0 = datetime.strptime(p['date'], '%Y-%m-%d').date()
+        for dd in (d0, d0 + timedelta(days=1), d0 - timedelta(days=1)):  # tip times near midnight
+            eg = espn_by_pair.get((dd.isoformat(), pair))
+            if eg:
+                pts = {eg['home']: eg['home_pts'], eg['away']: eg['away_pts']}
+                return pts[p['away']], pts[p['home']]
+        return None
+
+    regraded = 0
+    for p in picks:
+        ef = espn_final(p)
+        if ef:
+            fa, fh = ef
+            m = (fh - fa + p['line']) * (-1 if p['side'] == 'away' else 1)
+            res = 'W' if m > 0 else ('P' if m == 0 else 'L')
+            if p.get('result') and (p.get('final') != [fa, fh] or p['result'] != res):
+                regraded += 1
+                print(f"  Regraded from ESPN: {p['date']} {p['pick']}: {p.get('final')} {p['result']} -> {[fa, fh]} {res}")
+            p['final'], p['result'], p['final_src'] = [fa, fh], res, 'espn'
+    if regraded:
+        print(f'  {regraded} pick(s) regraded from ESPN finals')
     for p in picks:
         c = closers.get(p['event_id'])
         tipped = datetime.fromisoformat(p['tip'].replace('Z', '+00:00')) <= t0
@@ -377,7 +407,7 @@ def main():
             p['clv'] = round((p['close'] - p['line']) if p['side'] == 'away' else (p['line'] - p['close']), 1)
         if p['event_id'] in final and 'result' not in p:
             fa, fh = final[p['event_id']]
-            p['final'] = [fa, fh]
+            p['final'], p['final_src'] = [fa, fh], 'odds_api'
             m = (fh - fa + p['line']) * (-1 if p['side'] == 'away' else 1)
             p['result'] = 'W' if m > 0 else ('P' if m == 0 else 'L')
 
