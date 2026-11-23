@@ -524,6 +524,10 @@ def main():
         'hardwood_teams': sorted(({**v, 'conf': teams[k]['conf'], 'record': teams[k]['record'], 'torvik_rank': teams[k]['rank']}
                                   for k, v in R['teams'].items()), key=lambda t: t['rank']) if R else [],
         'backtest': {'summary': bt_summary, 'games': bt_games[-300:]},
+        # every graded game where either model's total was total_threshold+ from the closing total (Picks > Totals)
+        'totals_log': [{k: x.get(k) for k in ('date', 'away', 'home', 'close_total', 'final_total', 'tv_total', 'hw_total',
+                                              'torvik_tres', 'hardwood_tres')}
+                       for x in bt_games if x.get('torvik_tres') or x.get('hardwood_tres')],
     }
     save_json(OUT, out)
     print(f'  Wrote {OUT}: {len(games)} games, {sum("pick" in g for g in games)} model edges, {len(unmatched)} unmatched names')
