@@ -3744,5 +3744,29 @@
   "hardwood_live": -2.8,
   "torvik_total": 152.9,
   "hardwood_total_live": 159.6
+ },
+ "435ce8aaf2de67393a436fc9bf8c956e": {
+  "date": "2026-11-23",
+  "away": "St. Bonaventure",
+  "home": "Appalachian St.",
+  "neutral": true,
+  "close": 4.0,
+  "total": 137.0,
+  "torvik": 5.7,
+  "hardwood_live": 5.7,
+  "torvik_total": 133.2,
+  "hardwood_total_live": 139.1
+ },
+ "98a0b4549739cc028ffa9665d77d7ffd": {
+  "date": "2026-11-23",
+  "away": "Northern Iowa",
+  "home": "Davidson",
+  "neutral": true,
+  "close": -6.0,
+  "total": 146.0,
+  "torvik": -2.1,
+  "hardwood_live": -8.3,
+  "torvik_total": 146.8,
+  "hardwood_total_live": 154.1
  }
 }

@@ -9855,7 +9855,9 @@
   "neutral": true,
   "logged": "2026-11-23T15:18:51.860868+00:00",
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -6.0,
+  "clv": 0.0
  },
  {
   "event_id": "c247dff2509498dedc2b2408ad1d5dd4",
