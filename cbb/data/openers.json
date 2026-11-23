@@ -1,64 +1,4 @@
 {
- "5246df4438e82883d2aa2437d1f9857c": {
-  "home_spread": 9.5,
-  "total": 149.5,
-  "seen": "2026-11-19T04:21:39.521471+00:00"
- },
- "94d6da045bf64876ebfa87d69df70fb9": {
-  "home_spread": -2.5,
-  "total": 144.5,
-  "seen": "2026-11-19T04:21:39.521471+00:00"
- },
- "44061430be1aeb7eff6e79c0e48ecbb9": {
-  "home_spread": 1.5,
-  "total": 148.25,
-  "seen": "2026-11-19T04:21:39.521471+00:00"
- },
- "bd1799e8815981f90f74e705e6660de8": {
-  "home_spread": -12.5,
-  "total": 144.0,
-  "seen": "2026-11-19T04:21:39.521471+00:00"
- },
- "12dc8b35d66981d6ff559ed3761c6fed": {
-  "home_spread": -10.5,
-  "total": 137.0,
-  "seen": "2026-11-19T04:21:39.521471+00:00"
- },
- "d6ff4d964a24be574d7438aa33061cd7": {
-  "home_spread": -32.5,
-  "total": 159.0,
-  "seen": "2026-11-19T04:21:39.521471+00:00"
- },
- "dbb1b55e5ce880c36dd40da9019cfc56": {
-  "home_spread": -3.5,
-  "total": 148.5,
-  "seen": "2026-11-19T04:21:39.521471+00:00"
- },
- "1a136a0253a5b66b6057918946a432df": {
-  "home_spread": -35.5,
-  "total": 153.5,
-  "seen": "2026-11-19T04:21:39.521471+00:00"
- },
- "cd5851d9377b5aa32b67f9c534385a0c": {
-  "home_spread": -13.25,
-  "total": 145.5,
-  "seen": "2026-11-19T04:21:39.521471+00:00"
- },
- "6d51497e3276256e5dd07220b624c37f": {
-  "home_spread": 2.5,
-  "total": 150.5,
-  "seen": "2026-11-19T04:21:39.521471+00:00"
- },
- "57ce51731aa0e3325c489d30a2b2e7ed": {
-  "home_spread": 3.5,
-  "total": 152.5,
-  "seen": "2026-11-19T13:40:00.277591+00:00"
- },
- "769a46ab3c2f46e9ca8771af3d857cea": {
-  "home_spread": -2.5,
-  "total": 156.5,
-  "seen": "2026-11-19T13:40:00.277591+00:00"
- },
  "d6615873be75fcb42a72a8f14c93dd53": {
   "home_spread": -23.25,
   "total": 153.75,
@@ -922,5 +862,77 @@
   "total": 166.0,
   "seen": "2026-11-23T03:53:10.779147+00:00",
   "home": "IU Indy"
+ },
+ "c247dff2509498dedc2b2408ad1d5dd4": {
+  "home_spread": 3.0,
+  "total": 143.0,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "Tennessee Martin"
+ },
+ "aed6a97f577438479f8716801fd3d3f9": {
+  "home_spread": 4.0,
+  "total": 145.0,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "Stephen F. Austin"
+ },
+ "cac32b9a0db74c5e4ff90ebbbbcaab93": {
+  "home_spread": -1.5,
+  "total": 140.75,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "Seattle"
+ },
+ "97b6bfd4b808fd6e1c2d0d35925cd0e2": {
+  "home_spread": -1.5,
+  "total": 158.0,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "UC San Diego"
+ },
+ "38c575bb916b4b6634ccbc1d442b53a2": {
+  "home_spread": 5.5,
+  "total": 147.5,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "Maryland"
+ },
+ "4168db6bc271ba612901506cd74e1c9b": {
+  "home_spread": 7.5,
+  "total": 156.5,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "TCU"
+ },
+ "0dbbfc6c0ffe4c7d2c9b65eb8ab96cb3": {
+  "home_spread": -7.5,
+  "total": 144.5,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "Iowa St."
+ },
+ "7e24a7f74f41134d9a72a537af4cc663": {
+  "home_spread": -4.5,
+  "total": 163.5,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "Michigan"
+ },
+ "712c581bb2dc9c3072e5280bd6ccecc4": {
+  "home_spread": 5.5,
+  "total": 153.5,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "Louisville"
+ },
+ "23775e1487fe2f2a91b9572fafb704a0": {
+  "home_spread": -1.5,
+  "total": 177.5,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "Alabama"
+ },
+ "4b220aa94adc3b0fd23d9d892a130646": {
+  "home_spread": -8.5,
+  "total": 158.5,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "St. John's"
+ },
+ "62f11de81607e09d5edea5c4e1b26feb": {
+  "home_spread": 13.5,
+  "total": 158.5,
+  "seen": "2026-11-23T15:18:51.860868+00:00",
+  "home": "Kansas St."
  }
 }

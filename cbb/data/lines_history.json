@@ -3732,5 +3732,17 @@
   "hardwood_live": 2.6,
   "torvik_total": null,
   "hardwood_total_live": null
+ },
+ "e1df42277edc29d6e8f5fe465c9fb695": {
+  "date": "2026-11-22",
+  "away": "San Jose St.",
+  "home": "Loyola Chicago",
+  "neutral": true,
+  "close": -4.0,
+  "total": 147.0,
+  "torvik": -2.7,
+  "hardwood_live": -2.8,
+  "torvik_total": 152.9,
+  "hardwood_total_live": 159.6
  }
 }

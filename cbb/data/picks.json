@@ -9831,5 +9831,55 @@
   "logged": "2026-11-23T02:20:43.780425+00:00",
   "site_neutral": true,
   "neutral_missed": false
+ },
+ {
+  "event_id": "98a0b4549739cc028ffa9665d77d7ffd",
+  "date": "2026-11-23",
+  "tip": "2026-11-23T16:00:00Z",
+  "away": "Northern Iowa",
+  "home": "Davidson",
+  "side": "away",
+  "pick": "Northern Iowa +6",
+  "line": -6.0,
+  "model_spread": -2.2,
+  "edge": 3.8,
+  "market": "against",
+  "move_at_pick": -1.0,
+  "best": {
+   "pt": 6.0,
+   "px": -110,
+   "book": "Bovada"
+  },
+  "hardwood_spread": -8.3,
+  "both_models": false,
+  "neutral": true,
+  "logged": "2026-11-23T15:18:51.860868+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
+ },
+ {
+  "event_id": "c247dff2509498dedc2b2408ad1d5dd4",
+  "date": "2026-11-23",
+  "tip": "2026-11-23T22:30:00Z",
+  "away": "Temple",
+  "home": "Tennessee Martin",
+  "side": "away",
+  "pick": "Temple -3",
+  "line": 3.0,
+  "model_spread": 7.0,
+  "edge": 4.0,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": -2.5,
+   "px": -105,
+   "book": "ESPN BET"
+  },
+  "hardwood_spread": -5.8,
+  "both_models": false,
+  "neutral": true,
+  "logged": "2026-11-23T15:18:51.860868+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
  }
 ]
