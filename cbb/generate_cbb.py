@@ -37,6 +37,7 @@ SETTINGS = {
     'hfa': 3.0,              # points to the home team, 0 at neutral sites
     'edge_threshold': 3.0,   # model vs market gap needed to log a pick
     'tempo_outlier': 8.0,    # flag teams this far from league-average tempo (small samples)
+    'total_threshold': 4.0,  # model vs market total gap that counts as a totals lean (tracking only, no picks)
 }
 
 ET = timezone(timedelta(hours=-5))  # display only; DST handled loosely (season is Nov-Apr)
@@ -364,7 +365,9 @@ def main():
         if eid in closers and an and hn and not started:  # who played, in the orientation of the stored line
             closers[eid].update({'tip': ev['commence_time'], 'away': an, 'home': hn, 'neutral': g['neutral'], 'oriented': True,
                                  'torvik': (g.get('model') or {}).get('home_spread'),
-                                 'hardwood': (g.get('hardwood') or {}).get('home_spread')})
+                                 'hardwood': (g.get('hardwood') or {}).get('home_spread'),
+                                 'torvik_total': (g.get('model') or {}).get('total'),
+                                 'hardwood_total': (g.get('hardwood') or {}).get('total')})
         if g.get('model') and g['mkt_spread'] is not None:
             edge = round(g['model']['home_spread'] - g['mkt_spread'], 1)
             g['edge'] = edge
@@ -467,7 +470,8 @@ def main():
         if 'tip' in c and datetime.fromisoformat(c['tip'].replace('Z', '+00:00')) <= t0:
             history[eid] = {'date': datetime.fromisoformat(c['tip'].replace('Z', '+00:00')).astimezone(ET).strftime('%Y-%m-%d'),
                             'away': c['away'], 'home': c['home'], 'neutral': c['neutral'], 'close': c['home_spread'],
-                            'total': c.get('total'), 'torvik': c.get('torvik'), 'hardwood_live': c.get('hardwood')}
+                            'total': c.get('total'), 'torvik': c.get('torvik'), 'hardwood_live': c.get('hardwood'),
+                            'torvik_total': c.get('torvik_total'), 'hardwood_total_live': c.get('hardwood_total')}
     save_json(os.path.join(DATA, 'lines_history.json'), history)
     by_pair = {}
     for eg in espn_games:
@@ -485,7 +489,8 @@ def main():
                         'neutral': p.get('neutral', (p['away'], p['home']) in neutral_pairs),
                         'close': p['close'], 'torvik': p['model_spread'], 'final': p['final']})
     bt_rows.sort(key=lambda r: r['date'])
-    bt_summary, bt_games = hardwood.backtest(bt_rows, espn_games, set(teams), SETTINGS['hfa'], SETTINGS['edge_threshold']) \
+    bt_summary, bt_games = hardwood.backtest(bt_rows, espn_games, set(teams), SETTINGS['hfa'], SETTINGS['edge_threshold'],
+                                             SETTINGS['total_threshold']) \
         if R else ({}, [])
     print(f'  Backtest: {len(bt_games)} games with closing lines; {bt_summary}')
 

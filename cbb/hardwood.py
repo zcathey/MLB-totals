@@ -92,10 +92,11 @@ def project(R, away, home, neutral):
             'home_spread': round(pa - ph, 1), 'total': round(pa + ph, 1)}
 
 
-def backtest(rows, games, team_names, hfa_pts, threshold):
+def backtest(rows, games, team_names, hfa_pts, threshold, total_threshold=4.0):
     """rows: dicts with date (ET), away, home, neutral, close (home spread), final [away, home],
-    and optionally torvik (Torvik model home spread). Each game is projected with ratings
-    built only from games before its date. Returns a summary and per-game results."""
+    and optionally torvik (Torvik model home spread), total (closing total) and torvik_total
+    (Torvik model total saved before tip). Each game is projected with ratings built only from
+    games before its date. Returns a summary and per-game results."""
     cache, per = {}, []
     for r in rows:
         if r['date'] not in cache:
@@ -118,6 +119,21 @@ def backtest(rows, games, team_names, hfa_pts, threshold):
                 m = (margin + r['close']) * (-1 if edge > 0 else 1)
                 item[f'{model}_res'] = 'W' if m > 0 else ('P' if m == 0 else 'L')
         item['close_err'] = abs(-r['close'] - margin)
+        # totals: closing total vs each model's total; a 'pick' is a gap of total_threshold or more
+        ct = r.get('total')
+        if ct is not None:
+            ft = fa + fh
+            item.update({'close_total': ct, 'final_total': ft, 'hw_total': p['total'], 'tv_total': r.get('torvik_total')})
+            for model, key in (('hardwood', 'hw_total'), ('torvik', 'tv_total')):
+                mt = item[key]
+                if mt is None:
+                    continue
+                gap = mt - ct
+                item[f'{model}_tgap'] = round(gap, 1)
+                item[f'{model}_terr'] = abs(mt - ft)
+                if abs(gap) >= total_threshold:
+                    m = (ft - ct) * (1 if gap > 0 else -1)
+                    item[f'{model}_tres'] = ('O' if gap > 0 else 'U') + ('W' if m > 0 else ('P' if m == 0 else 'L'))
         per.append(item)
 
     def summ(model):
@@ -131,4 +147,22 @@ def backtest(rows, games, team_names, hfa_pts, threshold):
             and (x['hardwood_edge'] > 0) == (x['torvik_edge'] > 0)]
     agree = {'picks': len(both), 'w': sum(x['hardwood_res'] == 'W' for x in both),
              'l': sum(x['hardwood_res'] == 'L' for x in both)}
-    return {'hardwood': summ('hardwood'), 'torvik': summ('torvik'), 'both_agree': agree}, per
+    def tsumm(model):
+        res = [x[f'{model}_tres'] for x in per if f'{model}_tres' in x]
+        errs = [x[f'{model}_terr'] for x in per if f'{model}_terr' in x]
+        same = [x for x in per if f'{model}_terr' in x]
+        out = {'games': len(errs), 'picks': len(res), 'w': sum(r[1] == 'W' for r in res),
+               'l': sum(r[1] == 'L' for r in res), 'p': sum(r[1] == 'P' for r in res),
+               'mae': round(statistics.mean(errs), 2) if errs else None,
+               'close_mae_same_games': round(statistics.mean(abs(x['close_total'] - x['final_total']) for x in same), 2)
+               if same else None}
+        for side in ('O', 'U'):
+            out[side.lower()] = [sum(r == side + 'W' for r in res), sum(r == side + 'L' for r in res)]
+        return out
+    tg = [x for x in per if 'close_total' in x]
+    market = {'games': len(tg), 'overs': sum(x['final_total'] > x['close_total'] for x in tg),
+              'unders': sum(x['final_total'] < x['close_total'] for x in tg),
+              'avg_close': round(statistics.mean(x['close_total'] for x in tg), 1) if tg else None,
+              'avg_final': round(statistics.mean(x['final_total'] for x in tg), 1) if tg else None}
+    totals = {'threshold': total_threshold, 'hardwood': tsumm('hardwood'), 'torvik': tsumm('torvik'), 'market': market}
+    return {'hardwood': summ('hardwood'), 'torvik': summ('torvik'), 'both_agree': agree, 'totals': totals}, per
