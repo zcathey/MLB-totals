@@ -14,7 +14,8 @@ Live page: https://zcathey.github.io/MLB-totals/cbb/
 - `data/lines_history.json`: closing line for every game, with the Torvik and Hardwood projections at the time, used for the Hardwood vs Torvik backtest on the Picks tab.
 - Model: possessions = tempo x tempo / average tempo; points = adjusted offense x opponent adjusted defense / average efficiency x possessions / 100; home court 3 points (0 at neutral sites).
 - `data/openers.json`: first line seen per game. `data/closers.json`: last line seen before tip. `data/picks.json`: logged picks, closing line value and results. Results are graded from ESPN finals (`data/games.json`) whenever the game is there, and re-graded if ESPN disagrees with an earlier grade; The Odds API scores feed is only a fallback (`final_src` says which was used).
-- `neutral.json`: neutral-site games by date, as `[away, home]` in Torvik names.
+- Neutral sites: each run reads ESPN's schedule for today and the next two days and drops home court for every game ESPN marks as a neutral site (`neutral_src` on each game says where the flag came from). `neutral.json` adds games by hand, by date, as `[away, home]` in Torvik names; either order matches, because The Odds API sometimes swaps which team is home at neutral sites.
+- Home/away swaps: openers remember the home team and are flipped if the feed swaps it; closers only take team labels before tip; finals are matched by team name.
 - `analysis/latest.md`: the daily write-up shown on the Analysis tab, plus dated copies in `analysis/`.
 
 Settings live at the top of `generate_cbb.py` (`SETTINGS`).

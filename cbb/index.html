@@ -175,7 +175,7 @@ function renderGames(){
       <div class="top"><div class="match">
         <div><span class="rk">${g.away_rank?'#'+g.away_rank:''}</span><span class="nm">${esc(g.away)}</span>${teamLine(g.mkt_spread==null?null:-g.mkt_spread)}</div>
         <div><span class="rk">${g.home_rank?'#'+g.home_rank:''}</span><span class="nm">${g.neutral?'vs':'@'} ${esc(g.home)}</span>${teamLine(g.mkt_spread)}</div></div>
-      <div class="time">${ETfmt.format(t)}${g.started?'<br>started':''}${g.neutral?'<br><span class="badge b-n">NEUTRAL</span>':''}</div></div>
+      <div class="time">${ETfmt.format(t)}${g.started?'<br>started':''}${g.neutral?`<br><span class="badge b-n" title="${esc(g.neutral_src||'')}">NEUTRAL</span>`:''}</div></div>
       <div class="grid">
         <div><span class="l">MODEL</span>${pt(m.home_spread)}</div>
         <div><span class="l">MKT</span>${pt(g.mkt_spread)}</div>
