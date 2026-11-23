@@ -64,6 +64,10 @@ tr:hover td{background:#0d1a0d}
 .toggle{display:flex;gap:6px;margin-bottom:10px}
 .toggle button{font-family:'Press Start 2P',monospace;font-size:10px;background:#001100;color:var(--green);border:2px solid var(--green);padding:8px 10px;cursor:pointer}
 .toggle button.on{background:var(--green);color:#000}
+.ptoggle{display:flex;gap:6px;margin:14px 0 8px}
+.ptoggle button{font-family:'Press Start 2P',monospace;font-size:10px;background:#001100;color:var(--green);border:2px solid var(--green);padding:8px 10px;cursor:pointer}
+.ptoggle button.on{background:var(--green);color:#000}
+#totTable{font-size:17px}#totTable td{padding:4px 4px}#totTable th{padding:8px 4px}
 .bt{margin:0 0 14px}
 .bt h3{font-family:'Press Start 2P',monospace;font-size:10px;color:var(--yellow);margin:0 0 8px}
 td:first-child{white-space:nowrap}
@@ -109,9 +113,17 @@ input[type=search]{width:100%;font-family:'VT323',monospace;font-size:22px;backg
 <section id="picks" class="hidden">
   <div class="rec" id="rec"></div>
   <div class="bt" id="bt"></div>
+  <div class="ptoggle"><button data-pv="spreads" class="on">SPREAD PICKS</button><button data-pv="totals">TOTALS</button></div>
+  <div id="pv-spreads">
   <div style="overflow-x:auto"><table id="pickTable"></table></div>
   <div class="sub">N = neutral site. N* = neutral site the model didn't know about when the pick was logged, so its line included 3 points of home court.</div>
   <div class="note">CLV = closing line value in points: positive means the pick beat the last line seen before tipoff. Over a small sample it's a better test of the model than wins and losses.</div>
+  </div>
+  <div id="pv-totals" class="hidden">
+  <div class="rec" id="totRec"></div>
+  <div style="overflow-x:auto"><table id="totTable"></table></div>
+  <div class="note" id="totNote"></div>
+  </div>
 </section>
 
 <section id="ratings" class="hidden">
@@ -140,9 +152,14 @@ document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
 ['edgesOnly','hideStarted','showTotals'].forEach(id=>$('#'+id).onchange=renderGames);
 $('#q').oninput=renderRatings;
 let RSRC='hardwood';
+document.querySelectorAll('.ptoggle button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.ptoggle button').forEach(x=>x.classList.toggle('on',x===b));
+  $('#pv-spreads').classList.toggle('hidden',b.dataset.pv!=='spreads');
+  $('#pv-totals').classList.toggle('hidden',b.dataset.pv!=='totals');
+});
 document.querySelectorAll('.toggle button').forEach(b=>b.onclick=()=>{RSRC=b.dataset.src;document.querySelectorAll('.toggle button').forEach(x=>x.classList.toggle('on',x===b));renderRatings();});
 
-fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;renderStatus();renderGames();renderPicks();renderBacktest();renderRatings();})
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;renderStatus();renderGames();renderPicks();renderBacktest();renderRatings();renderTotalsLog();})
   .catch(e=>{$('#status').innerHTML='<span class="warn">Could not load data.json — the first automatic update may not have run yet.</span>';});
 fetch('analysis/latest.md?'+Date.now()).then(r=>r.ok?r.text():Promise.reject()).then(t=>{$('#md').innerHTML=md(t);})
   .catch(()=>{$('#md').innerHTML='No analysis posted yet. It runs daily at 11:30 AM ET.';});
@@ -210,6 +227,26 @@ function renderTotalsBt(T){
   const row=(n,r)=>`<tr><td>${n}</td><td>${r.games}</td><td>${r.mae??'—'}</td><td>${r.close_mae_same_games??'—'}</td><td style="white-space:nowrap">${r.games?wl(r.o):'—'}</td><td style="white-space:nowrap">${r.games?wl(r.u):'—'}</td></tr>`;
   return `<h3 style="margin-top:18px">TOTALS (TRACKING ONLY)</h3><div style="overflow-x:auto"><table><tr><th>MODEL</th><th>GAMES</th><th>AVG MISS</th><th>CLOSE MISS</th><th>OVERS</th><th>UNDERS</th></tr>${row('Hardwood',T.hardwood)}${row('Torvik',T.torvik)}</table></div>
   <div class="sub">Closing total vs final: ${M.overs} overs, ${M.unders} unders in ${M.games} games (average close ${M.avg_close}, average final ${M.avg_final}). OVERS and UNDERS are each model's record when its total is ${T.threshold}+ points above or below the close. Hardwood uses only games played before each date. Torvik totals are the ones shown on the slate, saved before tip from Nov 23 on, so that row starts empty.</div>`;
+}
+
+function renderTotalsLog(){
+  const th=(D.settings||{}).total_threshold||4;
+  const T=((D.backtest||{}).summary||{}).totals||{};
+  const box=(t,r)=>{if(!r||!r.games)return `<div><h3>${t}</h3><div class="big">—</div><div class="sub">no graded leans yet</div></div>`;
+    return `<div><h3>${t}</h3><div class="big">${r.w}-${r.l}${r.p?'-'+r.p:''}</div><div class="sub">overs ${r.o[0]}-${r.o[1]} · unders ${r.u[0]}-${r.u[1]} · avg miss ${r.mae} (close ${r.close_mae_same_games})</div></div>`;};
+  $('#totRec').innerHTML=box('TORVIK TOTALS',T.torvik)+box('HARDWOOD TOTALS',T.hardwood);
+  // pending: games not yet started where either model is th+ from the market total
+  const lean=(m,mk)=>m==null||mk==null||Math.abs(m-mk)<th?'':(m>mk?' O':' U');
+  const pend=D.games.filter(g=>!g.started&&g.mkt_total!=null&&((g.model&&lean(g.model.total,g.mkt_total))||(g.hardwood&&lean(g.hardwood.total,g.mkt_total))))
+    .map(g=>({date:g.tip?new Date(g.tip).toLocaleDateString('en-CA',{timeZone:'America/New_York'}):'',away:g.away,home:g.home,neutral:g.neutral,close_total:g.mkt_total,
+      tv_total:g.model?g.model.total:null,hw_total:g.hardwood?g.hardwood.total:null,pending:true}));
+  const done=[...(D.totals_log||[])].reverse();
+  const cell=(m,res,ct)=>{if(m==null)return '<td>—</td>';const l=res?' '+res[0]:lean(m,ct);
+    const cls=res?(res[1]==='W'?'pos':res[1]==='L'?'neg':''):'';return `<td class="${cls}" style="white-space:nowrap">${(+m).toFixed(1)}${l}</td>`;};
+  const row=r=>`<tr><td>${esc((r.date||'').slice(5))}</td><td>${esc(r.away)} ${r.neutral?'vs':'@'} ${esc(r.home)}</td><td>${r.close_total}</td>${cell(r.tv_total,r.torvik_tres,r.close_total)}${cell(r.hw_total,r.hardwood_tres,r.close_total)}<td>${r.pending?'—':r.final_total}</td></tr>`;
+  $('#totTable').innerHTML='<tr><th>DATE</th><th>MATCHUP</th><th>TOTAL</th><th>TORVIK</th><th>HARDWOOD</th><th>FINAL</th></tr>'+
+    ((pend.length||done.length)?pend.map(row).join('')+done.map(row).join(''):'<tr><td colspan="6">No totals leans yet.</td></tr>');
+  $('#totNote').innerHTML=`Tracking only, no totals picks. A model leans O (over) or U (under) when its total is ${th}+ points from the market total. Green = the lean won, red = it lost. Upcoming games are at the top with the current market total; graded games use the closing total. Hardwood is rebuilt from games before each date; Torvik totals are saved before tip from Nov 23 on.`;
 }
 
 function renderPicks(){
