@@ -868,5 +868,53 @@
   "home_spread": -17.25,
   "total": 158.5,
   "seen": "2026-11-22T21:17:40.553728+00:00"
+ },
+ "276deab7d659366b50ff0608d1501b6e": {
+  "home_spread": 7.5,
+  "total": 145.5,
+  "seen": "2026-11-23T02:20:43.780425+00:00",
+  "home": "Florida Gulf Coast"
+ },
+ "8234af74a35d1a31b73854d4fd191c64": {
+  "home_spread": -14.25,
+  "total": 133.5,
+  "seen": "2026-11-23T02:20:43.780425+00:00",
+  "home": "Youngstown St."
+ },
+ "1af3a5acedbb908ecc006767d288d16b": {
+  "home_spread": 8.5,
+  "total": 163.5,
+  "seen": "2026-11-23T02:20:43.780425+00:00",
+  "home": "North Florida"
+ },
+ "c6b930f2b10901f7c145736cde09fd95": {
+  "home_spread": -8.5,
+  "total": 131.75,
+  "seen": "2026-11-23T02:20:43.780425+00:00",
+  "home": "Iona"
+ },
+ "f35ec8dcc1ab5e6f04bdb796a46b1524": {
+  "home_spread": 2.5,
+  "total": 150.5,
+  "seen": "2026-11-23T02:20:43.780425+00:00",
+  "home": "South Carolina St."
+ },
+ "9fd23b7824675dff70bd989ae6fe4967": {
+  "home_spread": -21.5,
+  "total": 145.5,
+  "seen": "2026-11-23T02:20:43.780425+00:00",
+  "home": "Wichita St."
+ },
+ "8dac68fbecc816a6de76442cf1e28270": {
+  "home_spread": -45.5,
+  "total": 180.5,
+  "seen": "2026-11-23T02:20:43.780425+00:00",
+  "home": "Illinois"
+ },
+ "b7a4f6e90eb128b0d569dacbfe487e80": {
+  "home_spread": -19.5,
+  "total": 146.5,
+  "seen": "2026-11-23T02:20:43.780425+00:00",
+  "home": "California"
  }
 }

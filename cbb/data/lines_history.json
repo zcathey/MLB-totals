@@ -1731,13 +1731,13 @@
  },
  "5246df4438e82883d2aa2437d1f9857c": {
   "date": "2026-11-19",
-  "away": "West Virginia",
-  "home": "Florida",
+  "away": "Florida",
+  "home": "West Virginia",
   "neutral": false,
   "close": 8.0,
   "total": 147.5,
-  "torvik": -9.1,
-  "hardwood_live": -3.7
+  "torvik": 3.1,
+  "hardwood_live": -2.1
  },
  "57ce51731aa0e3325c489d30a2b2e7ed": {
   "date": "2026-11-19",
@@ -2751,13 +2751,13 @@
  },
  "83bb160a038344276c3b40967726065c": {
   "date": "2026-11-21",
-  "away": "Binghamton",
-  "home": "Army",
+  "away": "Army",
+  "home": "Binghamton",
   "neutral": false,
   "close": 1.0,
   "total": 138.0,
-  "torvik": -1.9,
-  "hardwood_live": -5.4
+  "torvik": -4.1,
+  "hardwood_live": -0.1
  },
  "343eb2e0f080f6c844094408141efe87": {
   "date": "2026-11-21",
@@ -3061,13 +3061,13 @@
  },
  "a4479cbdb9666b13f2c1f33e93f6e281": {
   "date": "2026-11-22",
-  "away": "Northwestern",
-  "home": "Dayton",
+  "away": "Dayton",
+  "home": "Northwestern",
   "neutral": false,
   "close": 3.5,
   "total": 136.0,
-  "torvik": -4.0,
-  "hardwood_live": 1.5
+  "torvik": -2.1,
+  "hardwood_live": -1.2
  },
  "9df92a4f1ca806fe512c3849b181da90": {
   "date": "2026-11-22",
@@ -3101,13 +3101,13 @@
  },
  "dce1dc11a16440e70de006d164780ac2": {
   "date": "2026-11-22",
-  "away": "George Washington",
-  "home": "Western Kentucky",
+  "away": "Western Kentucky",
+  "home": "George Washington",
   "neutral": false,
   "close": -3.0,
   "total": 147.0,
-  "torvik": 1.8,
-  "hardwood_live": 3.2
+  "torvik": -7.8,
+  "hardwood_live": -9.4
  },
  "20c6981840df47c0889d7ae41c56aa84": {
   "date": "2026-11-22",
@@ -3131,13 +3131,13 @@
  },
  "5269b87b9d1db58e870998a3d05f42eb": {
   "date": "2026-11-22",
-  "away": "New Mexico St.",
-  "home": "Robert Morris",
+  "away": "Robert Morris",
+  "home": "New Mexico St.",
   "neutral": false,
   "close": -1.0,
   "total": 135.5,
-  "torvik": -0.8,
-  "hardwood_live": 1.4
+  "torvik": -5.2,
+  "hardwood_live": -7.1
  },
  "ce609d312c528c91d20e80577d8feee5": {
   "date": "2026-11-22",
@@ -3191,13 +3191,13 @@
  },
  "a8fa96ce1e2424029c99737ae7278b45": {
   "date": "2026-11-22",
-  "away": "Troy",
-  "home": "Nicholls St.",
+  "away": "Nicholls St.",
+  "home": "Troy",
   "neutral": false,
   "close": -6.0,
   "total": 135.0,
-  "torvik": 4.1,
-  "hardwood_live": 1.1
+  "torvik": -10.1,
+  "hardwood_live": -6.9
  },
  "7badad13b09c40df6ad6bed5dd5aa18f": {
   "date": "2026-11-22",
@@ -3221,13 +3221,13 @@
  },
  "9c6b98805955f109fb5038074601ddb3": {
   "date": "2026-11-22",
-  "away": "Albany",
-  "home": "Mercyhurst",
+  "away": "Mercyhurst",
+  "home": "Albany",
   "neutral": false,
   "close": 1.5,
   "total": 132.0,
-  "torvik": -3.8,
-  "hardwood_live": -4.3
+  "torvik": -2.2,
+  "hardwood_live": -1.7
  },
  "c22529a778dfb8b70f9e62a6ea96bb2e": {
   "date": "2026-11-22",
@@ -3238,5 +3238,155 @@
   "total": 142.5,
   "torvik": -0.7,
   "hardwood_live": -9.1
+ },
+ "05c828d73504c939e026a844ffcabd3c": {
+  "date": "2026-11-22",
+  "away": "Liberty",
+  "home": "Richmond",
+  "neutral": false,
+  "close": -1.0,
+  "total": 141.0,
+  "torvik": -5.1,
+  "hardwood_live": -1.6
+ },
+ "42e47ef758f2c16dcf1cc64806373809": {
+  "date": "2026-11-22",
+  "away": "UC Irvine",
+  "home": "Loyola Marymount",
+  "neutral": false,
+  "close": 1.5,
+  "total": 137.5,
+  "torvik": 0.1,
+  "hardwood_live": 2.0
+ },
+ "2a7854aaf3f39f696f8f72e8b4d719be": {
+  "date": "2026-11-22",
+  "away": "Cal St. Fullerton",
+  "home": "Portland St.",
+  "neutral": false,
+  "close": -5.0,
+  "total": 163.5,
+  "torvik": -3.9,
+  "hardwood_live": 1.5
+ },
+ "4d57a3b1bd68b12004210b45e6627108": {
+  "date": "2026-11-22",
+  "away": "Temple",
+  "home": "Stephen F. Austin",
+  "neutral": false,
+  "close": 2.5,
+  "total": 144.0,
+  "torvik": -2.9,
+  "hardwood_live": -4.1
+ },
+ "c176d337261bbb0fe334d3bf7f270ba6": {
+  "date": "2026-11-22",
+  "away": "Utah",
+  "home": "Minnesota",
+  "neutral": false,
+  "close": -9.0,
+  "total": 132.0,
+  "torvik": -10.3,
+  "hardwood_live": -20.1
+ },
+ "9d284f0191ee2d4d218bd46e7cb2ea12": {
+  "date": "2026-11-22",
+  "away": "Valparaiso",
+  "home": "Southern Miss",
+  "neutral": true,
+  "close": 9.0,
+  "total": 143.0,
+  "torvik": 6.3,
+  "hardwood_live": 9.7
+ },
+ "26ab317bb218650201b41abfbf26b858": {
+  "date": "2026-11-22",
+  "away": "Cal Baptist",
+  "home": "Portland",
+  "neutral": false,
+  "close": -7.5,
+  "total": 147.0,
+  "torvik": -9.3,
+  "hardwood_live": -16.2
+ },
+ "44c35f271b07ee73f3cdeb6afb468ff6": {
+  "date": "2026-11-22",
+  "away": "Delaware",
+  "home": "UCLA",
+  "neutral": false,
+  "close": -28.5,
+  "total": 145.5,
+  "torvik": -22.4,
+  "hardwood_live": -22.3
+ },
+ "1ee2fb83953abf7e64374cbf970ddd8f": {
+  "date": "2026-11-22",
+  "away": "UAB",
+  "home": "Rhode Island",
+  "neutral": false,
+  "close": -2.0,
+  "total": 151.5,
+  "torvik": -2.4,
+  "hardwood_live": -8.7
+ },
+ "441228531de5a6035d73ba3bc9f49d19": {
+  "date": "2026-11-22",
+  "away": "Louisiana",
+  "home": "USC",
+  "neutral": false,
+  "close": -32.5,
+  "total": 145.5,
+  "torvik": -23.6,
+  "hardwood_live": -33.3
+ },
+ "4564c6b619ba4df5c3f81b609a24f582": {
+  "date": "2026-11-22",
+  "away": "Tennessee Martin",
+  "home": "Utah Valley",
+  "neutral": false,
+  "close": -6.5,
+  "total": 144.5,
+  "torvik": -12.3,
+  "hardwood_live": -3.1
+ },
+ "4ab6cb0c13c713f3c78fe051d94f32e5": {
+  "date": "2026-11-22",
+  "away": "Maryland Eastern Shore",
+  "home": "IU Indy",
+  "neutral": false,
+  "close": -11.0,
+  "total": 141.5,
+  "torvik": -13.1,
+  "hardwood_live": -12.7
+ },
+ "a156f22faa101eae5a832cfc5de4fbca": {
+  "date": "2026-11-22",
+  "away": "NJIT",
+  "home": "Boston College",
+  "neutral": false,
+  "close": -23.0,
+  "total": 137.5,
+  "torvik": -17.9,
+  "hardwood_live": -27.4
+ },
+ "27c34c0d38a26b69a06b6a3d3c374ab9": {
+  "date": "2026-11-22",
+  "away": "Lamar",
+  "home": "Rice",
+  "neutral": false,
+  "close": 2.0,
+  "total": 162.0,
+  "torvik": -1.2,
+  "hardwood_live": 3.1
+ },
+ "68135c1bcc1b47562304fe94b69c18ff": {
+  "date": "2026-11-22",
+  "away": "UNC Asheville",
+  "home": "Samford",
+  "neutral": false,
+  "close": -10.5,
+  "total": 155.5,
+  "torvik": -6.4,
+  "hardwood_live": -6.3
  }
 }
