@@ -1,12 +1,14 @@
 # CBB — Monday, Nov 23, 2026
 
-**Card (paper trades): Tulsa +5.5 · Colorado St. +16.5 · Alabama St. +19 · Monmouth +19.5 · Texas A&M-CC +20.5 · Denver +34.5 · Winthrop +43.5**
+**Card (paper trades): Alabama St. +19 · Texas A&M-CC +19.5 · Monmouth +19.5 · Denver +34.5 · Winthrop +43.5**
 
-**Best bet: Alabama St. +19.5 at California** (BetRivers −120; +19 −110 at most books; 10:00 PM ET). Both models are on Alabama St. (Torvik edge 5.7, Hardwood 8.7), the line has moved half a point toward them, and it's a campus game under 20 points with no new injury news. The move is small, so the market confirmation is thin. Best-bet record: 5-1-1 ([ledger](best_bets.md)).
+*Updated 10:35 AM ET with Zach's fresh Torvik upload: Tulsa and Colorado St. dropped below a 3-point edge and are off the card.*
+
+**Best bet: Alabama St. +19.5 at California** (BetRivers −120; +19 −110 at most books; 10:00 PM ET). Both models are on Alabama St. (Torvik edge 5.9, Hardwood 8.7), the line has moved half a point toward them, and it's a campus game under 20 points with no new injury news. The move is small, so the market confirmation is thin. Best-bet record: 5-1-1 ([ledger](best_bets.md)).
 
 Every pick is a paper trade until about mid-December, when Torvik's preseason priors wash out.
 
-Data: written early because of the 11 AM tips. The last run was 10:53 PM ET last night, so I started the picks run by hand at 10:18 AM ET. Lines OK (208 Odds API credits left). Ratings are from Zach's upload at 9:24 AM ET yesterday (25 hours old). No unmatched names. **First day with the new data fixes:** neutral sites now come from ESPN's schedule automatically, and grades come from ESPN box scores. Today ESPN flagged 21 neutral-site games, from Kissimmee, Fort Myers and St. Thomas to Palm Springs and Maui. No hand fixes were needed, and the records below need no corrections.
+Data: written early because of the 11 AM tips. The last run was 10:53 PM ET last night, so I started the picks run by hand at 10:18 AM ET. Lines OK (208 Odds API credits left). Ratings are fresh (Zach's upload, re-run at 10:30 AM ET). No unmatched names. **First day with the new data fixes:** neutral sites now come from ESPN's schedule automatically, and grades come from ESPN box scores. Today ESPN flagged 21 neutral-site games, from Kissimmee, Fort Myers and St. Thomas to Palm Springs and Maui. No hand fixes were needed, and the records below need no corrections.
 
 ---
 
@@ -50,22 +52,18 @@ These are the page's numbers. Grading now comes from ESPN, which fixed the eight
 
 | Tip (ET) | Pick | Torvik (HW) | Mkt (open) | Edge | Best price |
 |---|---|---|---|---|---|
-| 2:00 PM | Tulsa +5.5 vs Oregon St. (Palm Springs) | OSU −2.2 (−6.0) | −5.5 (−6.5) | 3.3 | +5.5 −109 BetRivers |
-| 7:30 PM | Texas A&M-CC +20.5 at Wichita St. | WSU −15.5 (−15.3) | −20.5 (−21.5) | 5.0 | +21.5 −129 BetRivers / +20.5 −110 |
+| 7:30 PM | Texas A&M-CC +19.5 at Wichita St. | WSU −15.4 (−15.3) | −19.5 (−21.5) | 4.1 | +21.5 −129 BetRivers / +19.5 −110 |
 | 8:00 PM | Monmouth +19.5 at North Carolina | UNC −16.5 (−12.4) | −19.5 (−20.5) | 3.0 | +19.5 −110 FanDuel |
-| 8:00 PM | Denver +34.5 at Kansas | KU −29.5 (−24.2) | −34.5 (−37) | 5.0 | +34.5 −110 BetMGM |
-| 8:00 PM | Winthrop +43.5 at Illinois | ILL −34.8 (−41.1) | −43.5 (−45.5) | 8.7 | +43.5 −108 DraftKings |
-| 10:00 PM | **Alabama St. +19 at California** | CAL −13.3 (−10.3) | −19 (−19.5) | 5.7 | +19.5 −120 BetRivers |
-| 11:30 PM | Colorado St. +16.5 vs Arizona (Maui) | ARIZ −13.5 (−12.0) | −16.5 (−17.25) | 3.0 | +16.5 −109 Pinnacle |
+| 8:00 PM | Denver +34.5 at Kansas | KU −29.1 (−24.2) | −34.5 (−37) | 5.4 | +34.5 −110 BetMGM |
+| 8:00 PM | Winthrop +43.5 at Illinois | ILL −34.7 (−41.1) | −43.5 (−45.5) | 8.8 | +43.5 −108 DraftKings |
+| 10:00 PM | **Alabama St. +19 at California** | CAL −13.1 (−10.3) | −19 (−19.5) | 5.9 | +19.5 −120 BetRivers |
 
-HW = Hardwood. Every team on the card has played at least four games, and no card game has a tempo flag. Injuries are from the [Covers report](https://www.covers.com/sport/basketball/ncaab/injuries) (Nov 23). Nothing is listed for Tulsa, Oregon St., A&M-CC, Winthrop, Denver, Monmouth, Alabama St. or Colorado St. Most listings for the favorites are weeks old and already in the lines: Wichita St.'s N. Hill (out for the season), Kansas's M. Council Jr. (broken foot) and G. Mordini (season), North Carolina's M. Smith and N. Avdalas, and Arizona's R. Godfrey (eligibility). Coverage is thin, so "no news found" isn't the same as "no news".
+HW = Hardwood. Every team on the card has played at least four games, and no card game has a tempo flag. Injuries are from the [Covers report](https://www.covers.com/sport/basketball/ncaab/injuries) (Nov 23). Nothing is listed for A&M-CC, Winthrop, Denver, Monmouth or Alabama St. Most listings for the favorites are weeks old and already in the lines: Wichita St.'s N. Hill (out for the season), Kansas's M. Council Jr. (broken foot) and G. Mordini (season), North Carolina's M. Smith and N. Avdalas. Coverage is thin, so "no news found" isn't the same as "no news".
 
 - **Alabama St. (best bet):** both models agree, and Hardwood loudly. Alabama St. is 2-4 and Cal is 4-2. Cal's Lee Dort has been questionable (ankle) since Nov 1, which isn't new. It's the both-model play with the biggest edges under 20 points. The best number costs juice: +19.5 is −120 at BetRivers, and +19 is −110 nearly everywhere. Either is fine.
-- **Colorado St. +16.5:** the smallest spread of the both-model plays, at a neutral site (Maui Invitational opener, [CSU](https://csurams.com/news/2026/7/29/mens-basketball-rams-wildcats-to-open-maui-invitational)). The edge is exactly 3.0 and the move is under a point, so it's marginal. The runner-up for best bet.
-- **Texas A&M-CC +20.5:** both models agree almost exactly (WSU by about 15.5) and the line is down a point. Just over 20. The best number is +21.5, but at −129.
+- **Texas A&M-CC +19.5:** both models agree almost exactly (WSU by about 15.4), and the line is down 2 points since the open. The edge is now 4.1 at +19.5. The best number is +21.5, but at −129. The runner-up for best bet.
 - **Monmouth +19.5:** Hardwood likes it (7.1), but Torvik's edge is exactly 3.0. Monmouth is 1-4.
 - **Denver +34.5:** the biggest move on the card (2.5 points from −37), and both models agree. But Denver is 1-4, and it's a 34-point road dog. Low confidence.
-- **Tulsa +5.5:** the only small spread on the card, but Torvik only. Hardwood has Oregon St. −6.0, right on the market. Neutral site in Palm Springs. The +6.5 logged last night is the better number. Earliest play (2 PM).
 - **Winthrop +43.5:** Torvik only (Hardwood 2.4). The line moved 2 toward Winthrop, and Covers lists three Illinois players as questionable (Z. Ivisic, Q. Coleman, L. Williams, all since Nov 19). That could be what moved the line, not a market agreeing with the model. Winthrop is 0-6. Lowest confidence.
 
 ---
@@ -74,17 +72,19 @@ HW = Hardwood. Every team on the card has played at least four games, and no car
 
 **Market against:** Northern Iowa +6 vs Davidson (Fort Myers; moved 1 toward Davidson, and Hardwood disagrees). Middle Tennessee +2.5 vs Southern Illinois (St. Thomas; moved 2 toward SIU).
 
-**Model split:** Temple −3 vs UT Martin (St. Thomas). Torvik has Temple by 7, Hardwood has UT Martin by 5.8.
+**Model split:** Temple −3 vs UT Martin (St. Thomas). Torvik has Temple by 5.6 (edge now 2.6), Hardwood has UT Martin by 5.8.
 
 **Flat (no move):** Southern Utah +7 vs Arkansas St. (Miami; Torvik 3.3, Hardwood 0.6).
+
+**Fell under 3 with the new ratings and line moves:** Tulsa (logged +6.5 last night; the line is now +4.5 and the edge 2.6) and Colorado St. vs Arizona in Maui (logged +16.5, an agrees pick; now +16 and 2.4). The logged numbers still grade, and Tulsa already has 2 points of CLV. Clemson +6 vs Mississippi (Maui) is back over 3 (3.4), but the line has drifted toward Mississippi, so it's a pass.
 
 **Logged before the neutral-site fix:** these were logged last night at 4:17 PM, before ESPN's neutral flags were added, so they included home court. They'll show as N\* on the Picks tab.
 
 | Game | Logged | Edge now (neutral) |
 |---|---|---|
-| Indiana St. vs East Carolina (St. Thomas) | ECU −3 | 1.0 |
-| Mississippi vs Clemson (Maui) | Clemson +5.75 | 2.5 |
-| Yale vs Belmont (Kissimmee) | Belmont −3 | 2.0 |
+| Indiana St. vs East Carolina (St. Thomas) | ECU −3 | 2.1 |
+| Mississippi vs Clemson (Maui) | Clemson +5.75 | 3.4, market against |
+| Yale vs Belmont (Kissimmee) | Belmont −3 | 1.9 |
 
 ---
 
