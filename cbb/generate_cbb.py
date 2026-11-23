@@ -284,7 +284,28 @@ def main():
     picks = load_json(os.path.join(DATA, 'picks.json'), [])
     neutral = load_json(os.path.join(HERE, 'neutral.json'), {})
     neutral_pairs = {(p[0], p[1]) for k, v in neutral.items() if not k.startswith('_') for p in v}
+    # ESPN's schedule flags neutral-site games before they're played; neutral.json stays as a manual override.
+    espn_neutral = espn.upcoming_neutral(match.exact, today=t0.astimezone(ET).date())
+    print(f'  ESPN neutral sites (next 3 days): {len(espn_neutral)}')
+
+    def neutral_src(an, hn, tip):
+        if (an, hn) in neutral_pairs or (hn, an) in neutral_pairs:  # the Odds API sometimes swaps home/away
+            return 'neutral.json'
+        d = tip.astimezone(ET).date()
+        for dd in (d, d - timedelta(days=1)):  # ESPN can list a just-after-midnight tip on the earlier date
+            venue = espn_neutral.get((dd.isoformat(), frozenset((an, hn))))
+            if venue:
+                return f'ESPN: {venue}'
+        return None
     logged = {p['event_id'] for p in picks}
+    # Repair closers written before 'oriented' existed: their team labels could be from after a home/away swap
+    # while the line is from before it. A pick was logged before tip, so its orientation matches the stored line.
+    for p in picks:
+        c = closers.get(p['event_id'])
+        if c and not c.get('oriented') and c.get('home') and c['home'] != p['home']:
+            c.update({'away': p['away'], 'home': p['home'], 'torvik': p['model_spread'],
+                      'hardwood': p.get('hardwood_spread'), 'oriented': True})
+            print(f"  Repaired closer orientation: {p['away']} at {p['home']} ({p['date']})")
 
     games, unmatched, name_map = [], set(), {}
     horizon = t0 + timedelta(hours=40)
@@ -298,18 +319,28 @@ def main():
         lines = summarize_lines(ev)
         eid = ev['id']
         started = tip <= t0
+        nsrc = neutral_src(an, hn, tip)
+        if nsrc and nsrc.startswith('ESPN'):
+            print(f'  Neutral site from ESPN: {an} vs {hn} ({nsrc[6:]})')
 
         # opener = first line we ever saw; closer = last line seen before tip
         if 'home_spread' in lines and not started:
-            openers.setdefault(eid, {'home_spread': lines['home_spread'], 'total': lines.get('total'), 'seen': t0.isoformat()})
+            openers.setdefault(eid, {'home_spread': lines['home_spread'], 'total': lines.get('total'), 'seen': t0.isoformat(),
+                                     'home': hn})
             closers[eid] = {'home_spread': lines['home_spread'], 'total': lines.get('total'), 'seen': t0.isoformat()}
+        # The Odds API sometimes swaps which team is home for the same event (mostly neutral sites). Openers
+        # remember the home team, so an opener seen the other way round is flipped to today's orientation.
+        op = openers.get(eid, {})
+        open_spread = op.get('home_spread')
+        if open_spread is not None and op.get('home') and hn and op['home'] != hn:
+            open_spread = -open_spread
 
         g = {'event_id': eid, 'tip': ev['commence_time'], 'away': an or ev['away_team'], 'home': hn or ev['home_team'],
              'away_raw': ev['away_team'], 'home_raw': ev['home_team'], 'started': started,
-             'neutral': (an, hn) in neutral_pairs, 'books': lines.get('books', 0),
+             'neutral': bool(nsrc), 'neutral_src': nsrc, 'books': lines.get('books', 0),
              'mkt_spread': lines.get('home_spread'), 'mkt_total': lines.get('total'), 'spread_src': lines.get('spread_src'),
              'best_home': lines.get('best_home'), 'best_away': lines.get('best_away'),
-             'open_spread': openers.get(eid, {}).get('home_spread'), 'open_total': openers.get(eid, {}).get('total')}
+             'open_spread': open_spread, 'open_total': op.get('total')}
         flags = []
         if not an:
             unmatched.add(ev['away_team']); flags.append('away not matched')
@@ -330,8 +361,8 @@ def main():
                 if g['mkt_spread'] is not None:
                     g['hw_edge'] = round(hw['home_spread'] - g['mkt_spread'], 1)
         g['flags'] = flags
-        if eid in closers and an and hn:  # remember who played, for the closing-line history
-            closers[eid].update({'tip': ev['commence_time'], 'away': an, 'home': hn, 'neutral': g['neutral'],
+        if eid in closers and an and hn and not started:  # who played, in the orientation of the stored line
+            closers[eid].update({'tip': ev['commence_time'], 'away': an, 'home': hn, 'neutral': g['neutral'], 'oriented': True,
                                  'torvik': (g.get('model') or {}).get('home_spread'),
                                  'hardwood': (g.get('hardwood') or {}).get('home_spread')})
         if g.get('model') and g['mkt_spread'] is not None:
@@ -367,17 +398,58 @@ def main():
     for s in scores:
         if s.get('completed') and s.get('scores'):
             sc = {x['name']: int(x['score']) for x in s['scores'] if x.get('score') is not None}
-            if s['home_team'] in sc and s['away_team'] in sc:
-                final[s['id']] = (sc[s['away_team']], sc[s['home_team']])
+            # keyed by our team name, so a pick logged before a home/away swap still gets the right scores
+            byname = {match(n): v for n, v in sc.items()}
+            if len(byname) == 2 and None not in byname:
+                final[s['id']] = byname
+    # ESPN box scores (data/games.json) are the source of truth for finals. The Odds API scores feed
+    # sometimes swaps the two teams' scores (mostly at neutral sites), so a pick that matches an ESPN game
+    # is graded, or re-graded, from ESPN. The Odds API final is only a fallback for games ESPN doesn't have.
+    espn_by_pair = {}
+    for eg in espn_games:
+        espn_by_pair[(eg['date'], frozenset((eg['home'], eg['away'])))] = eg
+
+    def espn_final(p):
+        pair = frozenset((p['home'], p['away']))
+        d0 = datetime.strptime(p['date'], '%Y-%m-%d').date()
+        for dd in (d0, d0 + timedelta(days=1), d0 - timedelta(days=1)):  # tip times near midnight
+            eg = espn_by_pair.get((dd.isoformat(), pair))
+            if eg:
+                pts = {eg['home']: eg['home_pts'], eg['away']: eg['away_pts']}
+                return pts[p['away']], pts[p['home']], eg.get('neutral')
+        return None
+
+    regraded = 0
+    for p in picks:
+        ef = espn_final(p)
+        # site_neutral is for display: ESPN's venue flag once the game is final, else neutral.json / the logged flag.
+        # neutral_missed: a neutral site the model gave home court to when the pick was logged.
+        assumed = bool(p.get('neutral', (p['away'], p['home']) in neutral_pairs))  # older picks have no flag
+        p['site_neutral'] = assumed or [p['away'], p['home']] in neutral.get(p['date'], [])
+        if ef and ef[2] is not None:
+            p['site_neutral'] = bool(ef[2])
+        p['neutral_missed'] = p['site_neutral'] and not assumed
+        if ef:
+            fa, fh, _ = ef
+            m =(fh - fa + p['line']) * (-1 if p['side'] == 'away' else 1)
+            res = 'W' if m > 0 else ('P' if m == 0 else 'L')
+            if p.get('result') and (p.get('final') != [fa, fh] or p['result'] != res):
+                regraded += 1
+                print(f"  Regraded from ESPN: {p['date']} {p['pick']}: {p.get('final')} {p['result']} -> {[fa, fh]} {res}")
+            p['final'], p['result'], p['final_src'] = [fa, fh], res, 'espn'
+    if regraded:
+        print(f'  {regraded} pick(s) regraded from ESPN finals')
     for p in picks:
         c = closers.get(p['event_id'])
         tipped = datetime.fromisoformat(p['tip'].replace('Z', '+00:00')) <= t0
         if c and tipped:  # closers are only written before tip, so this is the last pre-game line we saw
             p['close'] = c['home_spread']
+            if c.get('oriented') and c.get('home') not in (None, p['home']):  # line stored with home/away swapped
+                p['close'] = -p['close']
             p['clv'] = round((p['close'] - p['line']) if p['side'] == 'away' else (p['line'] - p['close']), 1)
-        if p['event_id'] in final and 'result' not in p:
-            fa, fh = final[p['event_id']]
-            p['final'] = [fa, fh]
+        if p['event_id'] in final and 'result' not in p and {p['away'], p['home']} == set(final[p['event_id']]):
+            fa, fh = final[p['event_id']][p['away']], final[p['event_id']][p['home']]
+            p['final'], p['final_src'] = [fa, fh], 'odds_api'
             m = (fh - fa + p['line']) * (-1 if p['side'] == 'away' else 1)
             p['result'] = 'W' if m > 0 else ('P' if m == 0 else 'L')
 

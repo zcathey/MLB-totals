@@ -110,6 +110,7 @@ input[type=search]{width:100%;font-family:'VT323',monospace;font-size:22px;backg
   <div class="rec" id="rec"></div>
   <div class="bt" id="bt"></div>
   <div style="overflow-x:auto"><table id="pickTable"></table></div>
+  <div class="sub">N = neutral site. N* = neutral site the model didn't know about when the pick was logged, so its line included 3 points of home court.</div>
   <div class="note">CLV = closing line value in points: positive means the pick beat the last line seen before tipoff. Over a small sample it's a better test of the model than wins and losses.</div>
 </section>
 
@@ -173,8 +174,8 @@ function renderGames(){
     html+=`<div class="${cls}">
       <div class="top"><div class="match">
         <div><span class="rk">${g.away_rank?'#'+g.away_rank:''}</span><span class="nm">${esc(g.away)}</span>${teamLine(g.mkt_spread==null?null:-g.mkt_spread)}</div>
-        <div><span class="rk">${g.home_rank?'#'+g.home_rank:''}</span><span class="nm">@ ${esc(g.home)}</span>${teamLine(g.mkt_spread)}</div></div>
-      <div class="time">${ETfmt.format(t)}${g.started?'<br>started':''}${g.neutral?'<br><span class="badge b-n">NEUTRAL</span>':''}</div></div>
+        <div><span class="rk">${g.home_rank?'#'+g.home_rank:''}</span><span class="nm">${g.neutral?'vs':'@'} ${esc(g.home)}</span>${teamLine(g.mkt_spread)}</div></div>
+      <div class="time">${ETfmt.format(t)}${g.started?'<br>started':''}${g.neutral?`<br><span class="badge b-n" title="${esc(g.neutral_src||'')}">NEUTRAL</span>`:''}</div></div>
       <div class="grid">
         <div><span class="l">MODEL</span>${pt(m.home_spread)}</div>
         <div><span class="l">MKT</span>${pt(g.mkt_spread)}</div>
@@ -208,7 +209,7 @@ function renderPicks(){
   $('#rec').innerHTML=box('ALL PICKS',R.all)+box('MODEL + MARKET',R.agrees)+box('MARKET AGAINST',R.against)+box('NO MOVE',R.flat);
   const ps=[...D.picks].reverse();
   $('#pickTable').innerHTML='<tr><th>DATE</th><th>PICK</th><th>MATCHUP</th><th>EDGE</th><th>MKT</th><th>CLOSE</th><th>CLV</th><th>FINAL</th><th>RES</th></tr>'+
-    (ps.length?ps.map(p=>`<tr><td>${esc(p.date.slice(5))}</td><td>${esc(p.pick)}</td><td>${esc(p.away)} @ ${esc(p.home)}</td><td>${sg(p.edge)}</td><td>${esc(p.market)}</td><td>${pt(p.close)}</td><td class="${p.clv>0?'pos':p.clv<0?'neg':''}">${p.clv==null?'—':sg(p.clv)}</td><td>${p.final?p.final.join('-'):'—'}</td><td class="${p.result==='W'?'pos':p.result==='L'?'neg':''}">${p.result||'—'}</td></tr>`).join(''):'<tr><td colspan="9">No picks logged yet. They are logged at the 10:45 AM update.</td></tr>');
+    (ps.length?ps.map(p=>`<tr><td>${esc(p.date.slice(5))}</td><td>${esc(p.pick)}</td><td>${esc(p.away)} ${p.site_neutral?'vs':'@'} ${esc(p.home)}${p.site_neutral?` <span class="badge b-n">N${p.neutral_missed?'*':''}</span>`:''}</td><td>${sg(p.edge)}</td><td>${esc(p.market)}</td><td>${pt(p.close)}</td><td class="${p.clv>0?'pos':p.clv<0?'neg':''}">${p.clv==null?'—':sg(p.clv)}</td><td>${p.final?p.final.join('-'):'—'}</td><td class="${p.result==='W'?'pos':p.result==='L'?'neg':''}">${p.result||'—'}</td></tr>`).join(''):'<tr><td colspan="9">No picks logged yet. They are logged at the 10:45 AM update.</td></tr>');
 }
 
 function renderRatings(){

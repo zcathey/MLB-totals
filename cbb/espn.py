@@ -63,6 +63,46 @@ def poss(b):
     return b['fga'] - b['oreb'] + b['to'] + 0.475 * b['fta']
 
 
+def parse_neutral(sb, match):
+    """From one scoreboard JSON: {frozenset((team, team)): venue} for every neutral-site game ESPN lists.
+
+    Pairs are unordered because ESPN and The Odds API don't always agree on which team is 'home' at a
+    neutral site. Games with a non-matched (non-D1 or unaliased) team are skipped."""
+    out = {}
+    for ev in (sb or {}).get('events') or []:
+        c = (ev.get('competitions') or [{}])[0]
+        if not c.get('neutralSite'):
+            continue
+        names = []
+        for comp in c.get('competitors') or []:
+            t = comp.get('team') or {}
+            names.append(match(t.get('location') or '') or match(t.get('shortDisplayName') or ''))
+        if len(names) == 2 and all(names):
+            v = c.get('venue') or {}
+            city = (v.get('address') or {}).get('city')
+            out[frozenset(names)] = ', '.join(x for x in (v.get('fullName'), city) if x) or 'neutral site'
+    return out
+
+
+def upcoming_neutral(match, today=None, days=3, log=print):
+    """Neutral-site games ESPN lists for today and the next days-1 dates (ET).
+
+    Returns {(YYYY-MM-DD, frozenset((team, team))): venue}. One scoreboard request per date; empty offline."""
+    if requests is None or os.environ.get('CBB_OFFLINE'):
+        return {}
+    today = today or datetime.now(timezone(timedelta(hours=-5))).date()
+    out = {}
+    for i in range(days):
+        d = today + timedelta(days=i)
+        sb = _get(f'{BASE}/scoreboard', {'dates': d.strftime('%Y%m%d'), 'groups': 50, 'limit': 500})
+        if sb is None:
+            log(f'  ESPN schedule {d} failed (neutral sites for that date come from neutral.json only)')
+            continue
+        for pair, venue in parse_neutral(sb, match).items():
+            out[(d.isoformat(), pair)] = venue
+    return out
+
+
 def update(path, match, today=None, log=print):
     """Refresh the cache at `path`. `match(name) -> Torvik name or None` resolves ESPN names.
 
