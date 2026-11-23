@@ -370,5 +370,27 @@
    24
   ],
   "result": "W"
+ },
+ {
+  "game_id": "2026_11_CIN_WAS",
+  "week": 11,
+  "date": "2026-11-23",
+  "kickoff": "2026-11-24T01:15:00+00:00",
+  "away": "CIN",
+  "home": "WAS",
+  "model_spread": 2.6,
+  "model_total": 55.8,
+  "logged": "2026-11-23T22:18:19.642491+00:00",
+  "type": "spread",
+  "side": "home",
+  "pick": "Washington +6.5",
+  "line": 6.5,
+  "edge": -3.9,
+  "market": "flat",
+  "best": {
+   "pt": 6.5,
+   "px": -107,
+   "book": "Pinnacle"
+  }
  }
 ]
