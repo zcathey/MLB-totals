@@ -383,15 +383,22 @@ def main():
             eg = espn_by_pair.get((dd.isoformat(), pair))
             if eg:
                 pts = {eg['home']: eg['home_pts'], eg['away']: eg['away_pts']}
-                return pts[p['away']], pts[p['home']]
+                return pts[p['away']], pts[p['home']], eg.get('neutral')
         return None
 
     regraded = 0
     for p in picks:
         ef = espn_final(p)
+        # site_neutral is for display: ESPN's venue flag once the game is final, else neutral.json / the logged flag.
+        # neutral_missed: a neutral site the model gave home court to when the pick was logged.
+        assumed = bool(p.get('neutral', (p['away'], p['home']) in neutral_pairs))  # older picks have no flag
+        p['site_neutral'] = assumed or [p['away'], p['home']] in neutral.get(p['date'], [])
+        if ef and ef[2] is not None:
+            p['site_neutral'] = bool(ef[2])
+        p['neutral_missed'] = p['site_neutral'] and not assumed
         if ef:
-            fa, fh = ef
-            m = (fh - fa + p['line']) * (-1 if p['side'] == 'away' else 1)
+            fa, fh, _ = ef
+            m =(fh - fa + p['line']) * (-1 if p['side'] == 'away' else 1)
             res = 'W' if m > 0 else ('P' if m == 0 else 'L')
             if p.get('result') and (p.get('final') != [fa, fh] or p['result'] != res):
                 regraded += 1
