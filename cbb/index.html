@@ -201,7 +201,15 @@ function renderBacktest(){
   const row=(n,r)=>`<tr><td>${n}</td><td>${r.games}</td><td>${r.mae??'—'}</td><td>${r.close_mae_same_games??'—'}</td><td>${r.w}-${r.l}${r.p?'-'+r.p:''}</td><td>${r.w+r.l?Math.round(100*r.w/(r.w+r.l))+'%':'—'}</td></tr>`;
   const A=B.both_agree||{};
   $('#bt').innerHTML=`<h3>HARDWOOD VS TORVIK</h3><div style="overflow-x:auto"><table><tr><th>MODEL</th><th>GAMES</th><th>AVG MISS</th><th>CLOSE MISS</th><th>3+ EDGE ATS</th><th>WIN %</th></tr>${row('Hardwood',B.hardwood)}${row('Torvik',B.torvik)}</table></div>
-  <div class="sub">Every graded game with a closing line, each model as it stood before the game (Hardwood uses only games played before that date). AVG MISS = average points between the model's margin and the real margin; CLOSE MISS = the same for the closing line. Both models agreeing on a 3+ edge: ${A.w??0}-${A.l??0}. Games so far are mostly ones the Torvik model picked; from Nov 15 on, every game with a closing line is added.</div>`;
+  <div class="sub">Every graded game with a closing line, each model as it stood before the game (Hardwood uses only games played before that date). AVG MISS = average points between the model's margin and the real margin; CLOSE MISS = the same for the closing line. Both models agreeing on a 3+ edge: ${A.w??0}-${A.l??0}. Games so far are mostly ones the Torvik model picked; from Nov 15 on, every game with a closing line is added.</div>`+renderTotalsBt(B.totals);
+}
+
+function renderTotalsBt(T){
+  if(!T||!T.market||!T.market.games) return '';
+  const M=T.market, wl=a=>a?`${a[0]}-${a[1]}`:'—';
+  const row=(n,r)=>`<tr><td>${n}</td><td>${r.games}</td><td>${r.mae??'—'}</td><td>${r.close_mae_same_games??'—'}</td><td style="white-space:nowrap">${r.games?wl(r.o):'—'}</td><td style="white-space:nowrap">${r.games?wl(r.u):'—'}</td></tr>`;
+  return `<h3 style="margin-top:18px">TOTALS (TRACKING ONLY)</h3><div style="overflow-x:auto"><table><tr><th>MODEL</th><th>GAMES</th><th>AVG MISS</th><th>CLOSE MISS</th><th>OVERS</th><th>UNDERS</th></tr>${row('Hardwood',T.hardwood)}${row('Torvik',T.torvik)}</table></div>
+  <div class="sub">Closing total vs final: ${M.overs} overs, ${M.unders} unders in ${M.games} games (average close ${M.avg_close}, average final ${M.avg_final}). OVERS and UNDERS are each model's record when its total is ${T.threshold}+ points above or below the close. Hardwood uses only games played before each date. Torvik totals are the ones shown on the slate, saved before tip from Nov 23 on, so that row starts empty.</div>`;
 }
 
 function renderPicks(){
