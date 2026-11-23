@@ -364,6 +364,11 @@
    "book": "ESPN BET"
   },
   "close": -3.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   27,
+   24
+  ],
+  "result": "W"
  }
 ]

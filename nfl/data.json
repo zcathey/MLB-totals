@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T21:57:45.118542+00:00",
+ "generated_at": "2026-11-23T00:29:53.681303+00:00",
  "mode": "late",
  "season": 2026,
  "week": 11,
@@ -10,8 +10,8 @@
  },
  "lines": {
   "status": "ok",
-  "events": 9,
-  "credits_remaining": "220"
+  "events": 20,
+  "credits_remaining": "218"
  },
  "settings": {
   "points_base": 23.0,
@@ -50,13 +50,13 @@
    "flags": [],
    "model": {
     "away_pts": 16.0,
-    "home_pts": 26.7,
+    "home_pts": 26.9,
     "home_spread": -10.8,
-    "total": 42.7
+    "total": 42.9
    },
    "edge": 1.7,
    "move": 0.5,
-   "total_edge": -1.8,
+   "total_edge": -1.6,
    "total_move": 0.5,
    "blocked": false
   },
@@ -67,7 +67,7 @@
    "home": "BUF",
    "away_name": "Miami",
    "home_name": "Buffalo",
-   "away_rank": 17,
+   "away_rank": 18,
    "home_rank": 4,
    "neutral": false,
    "started": true,
@@ -84,20 +84,20 @@
    "open_spread": -17.0,
    "open_total": 45.5,
    "flags": [
-    "Miami: McCord started 1 of 9"
+    "Miami: McCord started 2 of 10"
    ],
    "model": {
-    "away_pts": 19.8,
-    "home_pts": 28.0,
-    "home_spread": -8.2,
-    "total": 47.8
+    "away_pts": 18.0,
+    "home_pts": 27.0,
+    "home_spread": -9.0,
+    "total": 45.0
    },
-   "edge": 8.3,
+   "edge": 7.5,
    "move": 0.5,
    "pick": "Miami +16.5",
    "pick_side": "away",
    "market": "agrees",
-   "total_edge": 2.3,
+   "total_edge": -0.5,
    "total_move": 0.0,
    "blocked": true
   },
@@ -108,8 +108,8 @@
    "home": "CAR",
    "away_name": "Baltimore",
    "home_name": "Carolina",
-   "away_rank": 19,
-   "home_rank": 14,
+   "away_rank": 17,
+   "home_rank": 15,
    "neutral": false,
    "started": true,
    "away_qb": "Jacoby Brissett",
@@ -125,17 +125,17 @@
    "open_spread": -2.5,
    "open_total": 44.5,
    "flags": [
-    "Baltimore: Brissett has no starts; rating is from Jackson (5 of 10)"
+    "Baltimore: Brissett started 1 of 11"
    ],
    "model": {
-    "away_pts": 20.6,
-    "home_pts": 24.4,
-    "home_spread": -3.8,
-    "total": 45.0
+    "away_pts": 22.8,
+    "home_pts": 24.9,
+    "home_spread": -2.1,
+    "total": 47.7
    },
-   "edge": -1.3,
+   "edge": 0.4,
    "move": 0.0,
-   "total_edge": 0.5,
+   "total_edge": 3.2,
    "total_move": 0.0,
    "blocked": true
   },
@@ -147,7 +147,7 @@
    "away_name": "New Orleans",
    "home_name": "Chicago",
    "away_rank": 29,
-   "home_rank": 21,
+   "home_rank": 20,
    "neutral": false,
    "started": true,
    "away_qb": "Tyler Shough",
@@ -164,20 +164,18 @@
    "open_total": 48.5,
    "flags": [],
    "model": {
-    "away_pts": 24.2,
-    "home_pts": 28.6,
-    "home_spread": -4.4,
-    "total": 52.8
+    "away_pts": 22.2,
+    "home_pts": 27.5,
+    "home_spread": -5.4,
+    "total": 49.7
    },
-   "edge": 7.1,
+   "edge": 6.1,
    "move": 0.0,
    "pick": "New Orleans +11.5",
    "pick_side": "away",
    "market": "flat",
-   "total_edge": 5.3,
+   "total_edge": 2.2,
    "total_move": -1.0,
-   "total_pick": "Over 47.5",
-   "total_side": "over",
    "blocked": false
   },
   {
@@ -187,8 +185,8 @@
    "home": "DAL",
    "away_name": "Tennessee",
    "home_name": "Dallas",
-   "away_rank": 30,
-   "home_rank": 28,
+   "away_rank": 31,
+   "home_rank": 27,
    "neutral": false,
    "started": true,
    "away_qb": "Cam Ward",
@@ -205,17 +203,14 @@
    "open_total": 54.5,
    "flags": [],
    "model": {
-    "away_pts": 25.6,
-    "home_pts": 30.0,
-    "home_spread": -4.5,
-    "total": 55.6
+    "away_pts": 25.2,
+    "home_pts": 31.3,
+    "home_spread": -6.1,
+    "total": 56.5
    },
-   "edge": 3.0,
+   "edge": 1.4,
    "move": 0.5,
-   "pick": "Tennessee +7.5",
-   "pick_side": "away",
-   "market": "agrees",
-   "total_edge": 0.1,
+   "total_edge": 1.0,
    "total_move": 1.0,
    "blocked": false
   },
@@ -226,7 +221,7 @@
    "home": "DET",
    "away_name": "Tampa Bay",
    "home_name": "Detroit",
-   "away_rank": 17,
+   "away_rank": 21,
    "home_rank": 5,
    "neutral": false,
    "started": true,
@@ -244,20 +239,18 @@
    "open_total": 46.5,
    "flags": [],
    "model": {
-    "away_pts": 18.3,
-    "home_pts": 26.2,
-    "home_spread": -7.9,
-    "total": 44.5
+    "away_pts": 17.9,
+    "home_pts": 27.4,
+    "home_spread": -9.5,
+    "total": 45.3
    },
-   "edge": -4.4,
+   "edge": -6.0,
    "move": 3.0,
    "pick": "Detroit -3.5",
    "pick_side": "home",
    "market": "against",
-   "total_edge": -4.0,
+   "total_edge": -3.2,
    "total_move": 2.0,
-   "total_pick": "Under 48.5",
-   "total_side": "under",
    "blocked": false
   },
   {
@@ -267,7 +260,7 @@
    "home": "KC",
    "away_name": "Arizona",
    "home_name": "Kansas City",
-   "away_rank": 24,
+   "away_rank": 23,
    "home_rank": 3,
    "neutral": false,
    "started": true,
@@ -284,20 +277,20 @@
    "open_spread": -16.0,
    "open_total": 41.0,
    "flags": [
-    "Arizona: Johnson has no starts; rating is from Brissett (8 of 10)"
+    "Arizona: Johnson started 1 of 11"
    ],
    "model": {
-    "away_pts": 19.9,
-    "home_pts": 32.2,
-    "home_spread": -12.4,
-    "total": 52.1
+    "away_pts": 18.8,
+    "home_pts": 31.3,
+    "home_spread": -12.5,
+    "total": 50.1
    },
-   "edge": 3.1,
+   "edge": 3.0,
    "move": 0.5,
    "pick": "Arizona +15.5",
    "pick_side": "away",
    "market": "agrees",
-   "total_edge": 11.6,
+   "total_edge": 9.6,
    "total_move": -0.5,
    "total_pick": "Over 40.5",
    "total_side": "over",
@@ -310,8 +303,8 @@
    "home": "PHI",
    "away_name": "Pittsburgh",
    "home_name": "Philadelphia",
-   "away_rank": 25,
-   "home_rank": 31,
+   "away_rank": 28,
+   "home_rank": 30,
    "neutral": false,
    "started": true,
    "away_qb": "Aaron Rodgers",
@@ -327,17 +320,17 @@
    "open_spread": 4.5,
    "open_total": 38.5,
    "flags": [
-    "Philadelphia: Milton started 1 of 9"
+    "Philadelphia: Milton started 2 of 10"
    ],
    "model": {
-    "away_pts": 19.2,
-    "home_pts": 15.2,
-    "home_spread": 4.0,
-    "total": 34.3
+    "away_pts": 17.7,
+    "home_pts": 16.0,
+    "home_spread": 1.7,
+    "total": 33.7
    },
-   "edge": 0.5,
+   "edge": -1.8,
    "move": -1.0,
-   "total_edge": -3.2,
+   "total_edge": -3.8,
    "total_move": -1.0,
    "blocked": true
   },
@@ -348,51 +341,35 @@
    "home": "LAC",
    "away_name": "NY Jets",
    "home_name": "LA Chargers",
-   "away_rank": 12,
-   "home_rank": 26,
+   "away_rank": 11,
+   "home_rank": 24,
    "neutral": false,
    "started": true,
    "away_qb": "Geno Smith",
    "home_qb": "Justin Herbert",
-   "books": 7,
-   "mkt_spread": -1.5,
+   "books": 0,
+   "mkt_spread": -3.0,
    "mkt_total": 43.5,
-   "spread_src": "Pinnacle",
-   "best_home": {
-    "pt": 6.0,
-    "px": -120,
-    "book": "Bovada"
-   },
-   "best_away": {
-    "pt": 1.5,
-    "px": -123,
-    "book": "Pinnacle"
-   },
-   "best_over": {
-    "pt": 43.5,
-    "px": -107,
-    "book": "BetRivers"
-   },
-   "best_under": {
-    "pt": 44.0,
-    "px": -110,
-    "book": "Bovada"
-   },
+   "spread_src": "nflverse",
+   "best_home": null,
+   "best_away": null,
+   "best_over": null,
+   "best_under": null,
    "open_spread": -3.0,
    "open_total": 40.5,
    "flags": [],
    "model": {
-    "away_pts": 21.8,
-    "home_pts": 19.6,
-    "home_spread": 2.2,
-    "total": 41.4
+    "away_pts": 22.0,
+    "home_pts": 20.1,
+    "home_spread": 2.0,
+    "total": 42.1
    },
-   "edge": 3.7,
-   "move": 1.5,
-   "pick": "NY Jets +1.5",
+   "edge": 5.0,
+   "move": 0.0,
+   "pick": "NY Jets +3",
    "pick_side": "away",
-   "market": "agrees",
-   "total_edge": -2.1,
+   "market": "flat",
+   "total_edge": -1.4,
    "total_move": 3.0,
    "blocked": false
   },
@@ -403,35 +380,35 @@
    "home": "DEN",
    "away_name": "Las Vegas",
    "home_name": "Denver",
-   "away_rank": 27,
+   "away_rank": 26,
    "home_rank": 9,
    "neutral": false,
    "started": true,
    "away_qb": "Fernando Mendoza",
    "home_qb": "Bo Nix",
-   "books": 7,
-   "mkt_spread": -13.0,
-   "mkt_total": 37.5,
+   "books": 5,
+   "mkt_spread": -14.5,
+   "mkt_total": 54.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -13.0,
+    "pt": -6.5,
+    "px": -496,
+    "book": "DraftKings"
+   },
+   "best_away": {
+    "pt": 14.5,
+    "px": -172,
+    "book": "Pinnacle"
+   },
+   "best_over": {
+    "pt": 54.5,
     "px": -114,
     "book": "Pinnacle"
    },
-   "best_away": {
-    "pt": 16.5,
-    "px": -110,
-    "book": "ESPN BET"
-   },
-   "best_over": {
-    "pt": 37.5,
-    "px": -105,
-    "book": "Pinnacle"
-   },
    "best_under": {
-    "pt": 38.5,
-    "px": -115,
-    "book": "Bovada"
+    "pt": 55.5,
+    "px": -215,
+    "book": "BetRivers"
    },
    "open_spread": -10.0,
    "open_total": 40.0,
@@ -439,20 +416,20 @@
     "Las Vegas: Mendoza started 1 of 10"
    ],
    "model": {
-    "away_pts": 18.5,
-    "home_pts": 25.0,
-    "home_spread": -6.5,
-    "total": 43.5
+    "away_pts": 18.8,
+    "home_pts": 25.3,
+    "home_spread": -6.4,
+    "total": 44.1
    },
-   "edge": 6.5,
-   "move": -3.0,
-   "pick": "Las Vegas +13",
+   "edge": 8.1,
+   "move": -4.5,
+   "pick": "Las Vegas +14.5",
    "pick_side": "away",
    "market": "against",
-   "total_edge": 6.0,
-   "total_move": -2.5,
-   "total_pick": "Over 37.5",
-   "total_side": "over",
+   "total_edge": -10.4,
+   "total_move": 14.5,
+   "total_pick": "Under 54.5",
+   "total_side": "under",
    "blocked": true
   },
   {
@@ -462,35 +439,35 @@
    "home": "NYG",
    "away_name": "Jacksonville",
    "home_name": "NY Giants",
-   "away_rank": 15,
-   "home_rank": 22,
+   "away_rank": 14,
+   "home_rank": 21,
    "neutral": false,
    "started": true,
    "away_qb": "Trevor Lawrence",
    "home_qb": "J.J. McCarthy",
-   "books": 7,
-   "mkt_spread": 6.5,
-   "mkt_total": 43.5,
-   "spread_src": "Pinnacle",
+   "books": 6,
+   "mkt_spread": -7.5,
+   "mkt_total": 39.25,
+   "spread_src": "median",
    "best_home": {
-    "pt": 6.5,
-    "px": -113,
-    "book": "Pinnacle"
+    "pt": -7.5,
+    "px": 110,
+    "book": "BetMGM"
    },
    "best_away": {
-    "pt": -3.0,
-    "px": -114,
+    "pt": 8.0,
+    "px": -120,
     "book": "BetRivers"
    },
    "best_over": {
-    "pt": 43.5,
-    "px": -120,
+    "pt": 38.5,
+    "px": -130,
     "book": "ESPN BET"
    },
    "best_under": {
-    "pt": 44.5,
-    "px": -112,
-    "book": "BetRivers"
+    "pt": 39.5,
+    "px": -125,
+    "book": "BetMGM"
    },
    "open_spread": 6.0,
    "open_total": 46.5,
@@ -498,19 +475,19 @@
     "NY Giants: McCarthy started 3 of 9"
    ],
    "model": {
-    "away_pts": 24.7,
-    "home_pts": 23.6,
-    "home_spread": 1.2,
-    "total": 48.3
+    "away_pts": 24.8,
+    "home_pts": 23.8,
+    "home_spread": 1.0,
+    "total": 48.5
    },
-   "edge": -5.3,
-   "move": 0.5,
-   "pick": "NY Giants +6.5",
-   "pick_side": "home",
+   "edge": 8.5,
+   "move": -13.5,
+   "pick": "Jacksonville +7.5",
+   "pick_side": "away",
    "market": "against",
-   "total_edge": 4.8,
-   "total_move": -3.0,
-   "total_pick": "Over 43.5",
+   "total_edge": 9.2,
+   "total_move": -7.2,
+   "total_pick": "Over 39.25",
    "total_side": "over",
    "blocked": true
   },
@@ -521,7 +498,7 @@
    "home": "SF",
    "away_name": "Minnesota",
    "home_name": "San Francisco",
-   "away_rank": 13,
+   "away_rank": 12,
    "home_rank": 1,
    "neutral": true,
    "started": false,
@@ -533,8 +510,8 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -3.5,
-    "px": -112,
-    "book": "DraftKings"
+    "px": -116,
+    "book": "Pinnacle"
    },
    "best_away": {
     "pt": 4.5,
@@ -542,14 +519,14 @@
     "book": "ESPN BET"
    },
    "best_over": {
-    "pt": 45.0,
-    "px": -112,
-    "book": "Pinnacle"
+    "pt": 44.5,
+    "px": -116,
+    "book": "DraftKings"
    },
    "best_under": {
-    "pt": 46.5,
-    "px": -114,
-    "book": "DraftKings"
+    "pt": 45.5,
+    "px": -110,
+    "book": "FanDuel"
    },
    "open_spread": -3.0,
    "open_total": 47.0,
@@ -557,17 +534,17 @@
     "Minnesota: Cousins started 1 of 9"
    ],
    "model": {
-    "away_pts": 16.6,
-    "home_pts": 26.6,
-    "home_spread": -10.1,
-    "total": 43.2
+    "away_pts": 16.9,
+    "home_pts": 27.2,
+    "home_spread": -10.3,
+    "total": 44.1
    },
-   "edge": -6.6,
+   "edge": -6.8,
    "move": -0.5,
    "pick": "San Francisco -3.5",
    "pick_side": "home",
    "market": "agrees",
-   "total_edge": -1.8,
+   "total_edge": -0.9,
    "total_move": -2.0,
    "blocked": true
   },
@@ -579,7 +556,7 @@
    "away_name": "Cincinnati",
    "home_name": "Washington",
    "away_rank": 8,
-   "home_rank": 20,
+   "home_rank": 19,
    "neutral": false,
    "started": false,
    "away_qb": "Joe Burrow",
@@ -612,17 +589,17 @@
    "open_total": 53.0,
    "flags": [],
    "model": {
-    "away_pts": 29.3,
-    "home_pts": 26.1,
-    "home_spread": 3.1,
-    "total": 55.4
+    "away_pts": 28.9,
+    "home_pts": 26.6,
+    "home_spread": 2.3,
+    "total": 55.5
    },
-   "edge": -3.4,
+   "edge": -4.2,
    "move": 0.0,
    "pick": "Washington +6.5",
    "pick_side": "home",
    "market": "flat",
-   "total_edge": 0.4,
+   "total_edge": 0.5,
    "total_move": 2.0,
    "blocked": false
   }
@@ -636,11 +613,11 @@
    "off_ypp": 6.663,
    "def_ypp": 4.91,
    "raw": 1.753,
-   "O": 1.411,
-   "D": 0.403,
-   "adj": 1.813,
-   "sos_off": 0.081,
-   "sos_def": -0.024,
+   "O": 1.435,
+   "D": 0.401,
+   "adj": 1.837,
+   "sos_off": 0.093,
+   "sos_def": -0.012,
    "to_pg": 0.333,
    "margin_pg": 9.444,
    "opps": [
@@ -654,15 +631,15 @@
     "LV",
     "DAL"
    ],
-   "sos": 0.057,
+   "sos": 0.081,
    "rank": 1,
    "off_rank": 1,
    "def_rank": 5,
-   "sos_rank": 13,
-   "sos_off_rank": 11,
-   "sos_def_rank": 16,
+   "sos_rank": 11,
+   "sos_off_rank": 10,
+   "sos_def_rank": 14,
    "prev_rank": 1,
-   "proj_pf": 31.5,
+   "proj_pf": 31.6,
    "proj_pa": 20.6,
    "qb_starts": [
     [
@@ -679,11 +656,11 @@
    "off_ypp": 5.374,
    "def_ypp": 4.002,
    "raw": 1.372,
-   "O": -0.066,
-   "D": 1.571,
-   "adj": 1.505,
-   "sos_off": -0.109,
-   "sos_def": 0.237,
+   "O": -0.014,
+   "D": 1.546,
+   "adj": 1.532,
+   "sos_off": -0.068,
+   "sos_def": 0.224,
    "to_pg": -0.3,
    "margin_pg": 4.8,
    "opps": [
@@ -698,16 +675,16 @@
     "ARI",
     "LV"
    ],
-   "sos": 0.128,
+   "sos": 0.156,
    "rank": 2,
    "off_rank": 16,
    "def_rank": 1,
-   "sos_rank": 10,
-   "sos_off_rank": 22,
+   "sos_rank": 8,
+   "sos_off_rank": 19,
    "sos_def_rank": 6,
    "prev_rank": 2,
-   "proj_pf": 22.6,
-   "proj_pa": 13.6,
+   "proj_pf": 22.9,
+   "proj_pa": 13.7,
    "qb_starts": [
     [
      "Drew Lock",
@@ -722,18 +699,18 @@
   {
    "team": "KC",
    "name": "Kansas City",
-   "games": 9,
-   "record": "7-2",
-   "off_ypp": 6.379,
-   "def_ypp": 4.961,
-   "raw": 1.418,
-   "O": 1.283,
-   "D": 0.107,
-   "adj": 1.39,
-   "sos_off": 0.237,
-   "sos_def": -0.268,
-   "to_pg": 0.667,
-   "margin_pg": 9.0,
+   "games": 10,
+   "record": "8-2",
+   "off_ypp": 6.34,
+   "def_ypp": 4.853,
+   "raw": 1.487,
+   "O": 1.22,
+   "D": 0.201,
+   "adj": 1.42,
+   "sos_off": 0.2,
+   "sos_def": -0.27,
+   "to_pg": 0.6,
+   "margin_pg": 10.8,
    "opps": [
     "DEN",
     "IND",
@@ -743,40 +720,41 @@
     "SEA",
     "DEN",
     "NYJ",
-    "ATL"
+    "ATL",
+    "ARI"
    ],
-   "sos": -0.031,
+   "sos": -0.071,
    "rank": 3,
    "off_rank": 2,
    "def_rank": 11,
-   "sos_rank": 16,
-   "sos_off_rank": 3,
-   "sos_def_rank": 30,
+   "sos_rank": 18,
+   "sos_off_rank": 6,
+   "sos_def_rank": 31,
    "prev_rank": 3,
-   "proj_pf": 30.7,
-   "proj_pa": 22.4,
+   "proj_pf": 30.3,
+   "proj_pa": 21.8,
    "qb_starts": [
     [
      "Patrick Mahomes",
-     9
+     10
     ]
    ]
   },
   {
    "team": "BUF",
    "name": "Buffalo",
-   "games": 9,
-   "record": "8-1",
-   "off_ypp": 6.127,
-   "def_ypp": 5.26,
-   "raw": 0.867,
-   "O": 0.884,
-   "D": 0.083,
-   "adj": 0.967,
-   "sos_off": 0.09,
-   "sos_def": 0.007,
-   "to_pg": 0.0,
-   "margin_pg": 9.778,
+   "games": 10,
+   "record": "9-1",
+   "off_ypp": 6.033,
+   "def_ypp": 5.094,
+   "raw": 0.939,
+   "O": 0.796,
+   "D": 0.246,
+   "adj": 1.041,
+   "sos_off": 0.083,
+   "sos_def": 0.015,
+   "to_pg": -0.1,
+   "margin_pg": 10.5,
    "opps": [
     "HOU",
     "DET",
@@ -786,40 +764,41 @@
     "LV",
     "BAL",
     "MIN",
-    "NYJ"
+    "NYJ",
+    "MIA"
    ],
-   "sos": 0.097,
+   "sos": 0.099,
    "rank": 4,
-   "off_rank": 3,
-   "def_rank": 12,
-   "sos_rank": 11,
-   "sos_off_rank": 10,
-   "sos_def_rank": 14,
+   "off_rank": 5,
+   "def_rank": 10,
+   "sos_rank": 10,
+   "sos_off_rank": 11,
+   "sos_def_rank": 13,
    "prev_rank": 4,
-   "proj_pf": 28.3,
-   "proj_pa": 22.5,
+   "proj_pf": 27.8,
+   "proj_pa": 21.5,
    "qb_starts": [
     [
      "Josh Allen",
-     9
+     10
     ]
    ]
   },
   {
    "team": "DET",
    "name": "Detroit",
-   "games": 9,
-   "record": "7-2",
-   "off_ypp": 5.976,
-   "def_ypp": 5.166,
-   "raw": 0.811,
-   "O": 0.786,
-   "D": 0.128,
-   "adj": 0.914,
-   "sos_off": 0.142,
-   "sos_def": -0.041,
-   "to_pg": 0.222,
-   "margin_pg": 6.444,
+   "games": 10,
+   "record": "8-2",
+   "off_ypp": 6.037,
+   "def_ypp": 5.07,
+   "raw": 0.967,
+   "O": 0.882,
+   "D": 0.127,
+   "adj": 1.009,
+   "sos_off": 0.165,
+   "sos_def": -0.127,
+   "to_pg": 0.2,
+   "margin_pg": 6.8,
    "opps": [
     "NO",
     "BUF",
@@ -829,22 +808,23 @@
     "GB",
     "MIN",
     "MIA",
-    "NE"
+    "NE",
+    "TB"
    ],
-   "sos": 0.1,
+   "sos": 0.038,
    "rank": 5,
-   "off_rank": 5,
-   "def_rank": 10,
-   "sos_rank": 11,
+   "off_rank": 3,
+   "def_rank": 13,
+   "sos_rank": 13,
    "sos_off_rank": 7,
-   "sos_def_rank": 18,
+   "sos_def_rank": 21,
    "prev_rank": 5,
-   "proj_pf": 27.7,
+   "proj_pf": 28.3,
    "proj_pa": 22.2,
    "qb_starts": [
     [
      "Jared Goff",
-     9
+     10
     ]
    ]
   },
@@ -856,11 +836,11 @@
    "off_ypp": 5.684,
    "def_ypp": 4.914,
    "raw": 0.771,
-   "O": 0.355,
-   "D": 0.344,
-   "adj": 0.699,
-   "sos_off": 0.003,
-   "sos_def": -0.078,
+   "O": 0.411,
+   "D": 0.33,
+   "adj": 0.742,
+   "sos_off": 0.047,
+   "sos_def": -0.08,
    "to_pg": -0.3,
    "margin_pg": 6.1,
    "opps": [
@@ -875,16 +855,16 @@
     "WAS",
     "ARI"
    ],
-   "sos": -0.075,
+   "sos": -0.033,
    "rank": 6,
-   "off_rank": 9,
-   "def_rank": 7,
-   "sos_rank": 19,
-   "sos_off_rank": 16,
-   "sos_def_rank": 20,
+   "off_rank": 8,
+   "def_rank": 6,
+   "sos_rank": 17,
+   "sos_off_rank": 13,
+   "sos_def_rank": 19,
    "prev_rank": 6,
-   "proj_pf": 25.1,
-   "proj_pa": 20.9,
+   "proj_pf": 25.5,
+   "proj_pa": 21.0,
    "qb_starts": [
     [
      "Matthew Stafford",
@@ -900,11 +880,11 @@
    "off_ypp": 5.458,
    "def_ypp": 4.876,
    "raw": 0.582,
-   "O": 0.171,
-   "D": 0.48,
-   "adj": 0.651,
-   "sos_off": 0.045,
-   "sos_def": 0.02,
+   "O": 0.149,
+   "D": 0.498,
+   "adj": 0.647,
+   "sos_off": 0.011,
+   "sos_def": 0.05,
    "to_pg": 0.5,
    "margin_pg": 0.5,
    "opps": [
@@ -919,16 +899,16 @@
     "NE",
     "MIN"
    ],
-   "sos": 0.065,
+   "sos": 0.061,
    "rank": 7,
    "off_rank": 11,
    "def_rank": 4,
-   "sos_rank": 13,
-   "sos_off_rank": 14,
-   "sos_def_rank": 12,
+   "sos_rank": 12,
+   "sos_off_rank": 15,
+   "sos_def_rank": 11,
    "prev_rank": 7,
-   "proj_pf": 24.0,
-   "proj_pa": 20.1,
+   "proj_pf": 23.9,
+   "proj_pa": 20.0,
    "qb_starts": [
     [
      "Jordan Love",
@@ -944,11 +924,11 @@
    "off_ypp": 6.244,
    "def_ypp": 5.515,
    "raw": 0.729,
-   "O": 0.858,
-   "D": -0.403,
-   "adj": 0.455,
-   "sos_off": -0.054,
-   "sos_def": -0.223,
+   "O": 0.826,
+   "D": -0.447,
+   "adj": 0.379,
+   "sos_off": -0.097,
+   "sos_def": -0.255,
    "to_pg": 0.222,
    "margin_pg": 9.444,
    "opps": [
@@ -962,16 +942,16 @@
     "ATL",
     "PIT"
    ],
-   "sos": -0.276,
+   "sos": -0.352,
    "rank": 8,
    "off_rank": 4,
    "def_rank": 27,
    "sos_rank": 26,
-   "sos_off_rank": 20,
-   "sos_def_rank": 24,
+   "sos_off_rank": 21,
+   "sos_def_rank": 29,
    "prev_rank": 8,
-   "proj_pf": 28.2,
-   "proj_pa": 25.4,
+   "proj_pf": 28.0,
+   "proj_pa": 25.7,
    "qb_starts": [
     [
      "Joe Burrow",
@@ -987,11 +967,11 @@
    "off_ypp": 4.791,
    "def_ypp": 5.17,
    "raw": -0.379,
-   "O": -0.324,
-   "D": 0.631,
-   "adj": 0.306,
-   "sos_off": 0.217,
-   "sos_def": 0.465,
+   "O": -0.306,
+   "D": 0.618,
+   "adj": 0.311,
+   "sos_off": 0.224,
+   "sos_def": 0.464,
    "to_pg": 0.556,
    "margin_pg": 1.333,
    "opps": [
@@ -1005,16 +985,16 @@
     "KC",
     "CAR"
    ],
-   "sos": 0.683,
+   "sos": 0.688,
    "rank": 9,
-   "off_rank": 21,
+   "off_rank": 20,
    "def_rank": 3,
-   "sos_rank": 1,
-   "sos_off_rank": 6,
+   "sos_rank": 2,
+   "sos_off_rank": 5,
    "sos_def_rank": 1,
    "prev_rank": 9,
-   "proj_pf": 21.1,
-   "proj_pa": 19.2,
+   "proj_pf": 21.2,
+   "proj_pa": 19.3,
    "qb_starts": [
     [
      "Bo Nix",
@@ -1030,11 +1010,11 @@
    "off_ypp": 5.68,
    "def_ypp": 5.714,
    "raw": -0.034,
-   "O": 0.455,
-   "D": -0.201,
+   "O": 0.49,
+   "D": -0.236,
    "adj": 0.254,
-   "sos_off": 0.106,
-   "sos_def": 0.177,
+   "sos_off": 0.131,
+   "sos_def": 0.154,
    "to_pg": -1.0,
    "margin_pg": -2.1,
    "opps": [
@@ -1049,72 +1029,20 @@
     "GB",
     "DET"
    ],
-   "sos": 0.284,
+   "sos": 0.285,
    "rank": 10,
-   "off_rank": 8,
+   "off_rank": 6,
    "def_rank": 23,
    "sos_rank": 6,
    "sos_off_rank": 8,
-   "sos_def_rank": 8,
+   "sos_def_rank": 9,
    "prev_rank": 10,
-   "proj_pf": 25.7,
-   "proj_pa": 24.2,
+   "proj_pf": 25.9,
+   "proj_pa": 24.4,
    "qb_starts": [
     [
      "Drake Maye",
      10
-    ]
-   ]
-  },
-  {
-   "team": "ATL",
-   "name": "Atlanta",
-   "games": 10,
-   "record": "3-7",
-   "off_ypp": 5.493,
-   "def_ypp": 5.571,
-   "raw": -0.077,
-   "O": 0.148,
-   "D": 0.02,
-   "adj": 0.169,
-   "sos_off": -0.013,
-   "sos_def": 0.256,
-   "to_pg": -0.9,
-   "margin_pg": -5.7,
-   "opps": [
-    "PIT",
-    "CAR",
-    "GB",
-    "NO",
-    "BAL",
-    "CHI",
-    "SF",
-    "TB",
-    "CIN",
-    "KC"
-   ],
-   "sos": 0.242,
-   "rank": 11,
-   "off_rank": 12,
-   "def_rank": 18,
-   "sos_rank": 7,
-   "sos_off_rank": 19,
-   "sos_def_rank": 5,
-   "prev_rank": 11,
-   "proj_pf": 23.9,
-   "proj_pa": 22.9,
-   "qb_starts": [
-    [
-     "Michael Penix Jr.",
-     8
-    ],
-    [
-     "Cooper Rush",
-     1
-    ],
-    [
-     "Tua Tagovailoa",
-     1
     ]
    ]
   },
@@ -1126,11 +1054,11 @@
    "off_ypp": 5.293,
    "def_ypp": 5.288,
    "raw": 0.004,
-   "O": -0.179,
-   "D": 0.34,
-   "adj": 0.161,
-   "sos_off": -0.14,
-   "sos_def": 0.292,
+   "O": -0.134,
+   "D": 0.298,
+   "adj": 0.164,
+   "sos_off": -0.106,
+   "sos_def": 0.262,
    "to_pg": 0.3,
    "margin_pg": -6.0,
    "opps": [
@@ -1145,16 +1073,16 @@
     "KC",
     "BUF"
    ],
-   "sos": 0.153,
-   "rank": 12,
-   "off_rank": 18,
+   "sos": 0.156,
+   "rank": 11,
+   "off_rank": 19,
    "def_rank": 7,
-   "sos_rank": 9,
-   "sos_off_rank": 26,
-   "sos_def_rank": 4,
+   "sos_rank": 8,
+   "sos_off_rank": 22,
+   "sos_def_rank": 5,
    "prev_rank": 12,
-   "proj_pf": 21.9,
-   "proj_pa": 21.0,
+   "proj_pf": 22.2,
+   "proj_pa": 21.2,
    "qb_starts": [
     [
      "Geno Smith",
@@ -1170,11 +1098,11 @@
    "off_ypp": 4.668,
    "def_ypp": 4.547,
    "raw": 0.121,
-   "O": -0.668,
-   "D": 0.804,
-   "adj": 0.135,
-   "sos_off": -0.003,
-   "sos_def": 0.015,
+   "O": -0.61,
+   "D": 0.739,
+   "adj": 0.129,
+   "sos_off": 0.044,
+   "sos_def": -0.038,
    "to_pg": 0.889,
    "margin_pg": 5.556,
    "opps": [
@@ -1188,16 +1116,16 @@
     "BUF",
     "GB"
    ],
-   "sos": 0.012,
-   "rank": 13,
-   "off_rank": 30,
+   "sos": 0.006,
+   "rank": 12,
+   "off_rank": 29,
    "def_rank": 2,
-   "sos_rank": 15,
-   "sos_off_rank": 16,
-   "sos_def_rank": 12,
+   "sos_rank": 16,
+   "sos_off_rank": 14,
+   "sos_def_rank": 17,
    "prev_rank": 13,
-   "proj_pf": 19.0,
-   "proj_pa": 18.2,
+   "proj_pf": 19.3,
+   "proj_pa": 18.6,
    "qb_starts": [
     [
      "Kyler Murray",
@@ -1214,45 +1142,54 @@
    ]
   },
   {
-   "team": "CAR",
-   "name": "Carolina",
-   "games": 9,
-   "record": "4-5",
-   "off_ypp": 5.366,
-   "def_ypp": 5.122,
-   "raw": 0.244,
-   "O": 0.086,
-   "D": 0.048,
-   "adj": 0.133,
-   "sos_off": 0.052,
-   "sos_def": -0.166,
-   "to_pg": 0.111,
-   "margin_pg": -1.889,
+   "team": "ATL",
+   "name": "Atlanta",
+   "games": 10,
+   "record": "3-7",
+   "off_ypp": 5.493,
+   "def_ypp": 5.571,
+   "raw": -0.077,
+   "O": 0.149,
+   "D": -0.023,
+   "adj": 0.127,
+   "sos_off": -0.024,
+   "sos_def": 0.224,
+   "to_pg": -0.9,
+   "margin_pg": -5.7,
    "opps": [
-    "CHI",
-    "ATL",
-    "CLE",
-    "DET",
-    "PHI",
-    "TB",
+    "PIT",
+    "CAR",
     "GB",
-    "DEN",
-    "NO"
+    "NO",
+    "BAL",
+    "CHI",
+    "SF",
+    "TB",
+    "CIN",
+    "KC"
    ],
-   "sos": -0.113,
-   "rank": 14,
-   "off_rank": 13,
-   "def_rank": 14,
-   "sos_rank": 20,
-   "sos_off_rank": 12,
-   "sos_def_rank": 23,
-   "prev_rank": 14,
-   "proj_pf": 23.5,
-   "proj_pa": 22.7,
+   "sos": 0.2,
+   "rank": 12,
+   "off_rank": 11,
+   "def_rank": 16,
+   "sos_rank": 7,
+   "sos_off_rank": 17,
+   "sos_def_rank": 6,
+   "prev_rank": 11,
+   "proj_pf": 23.9,
+   "proj_pa": 23.1,
    "qb_starts": [
     [
-     "Bryce Young",
-     9
+     "Michael Penix Jr.",
+     8
+    ],
+    [
+     "Cooper Rush",
+     1
+    ],
+    [
+     "Tua Tagovailoa",
+     1
     ]
    ]
   },
@@ -1264,11 +1201,11 @@
    "off_ypp": 5.959,
    "def_ypp": 5.441,
    "raw": 0.518,
-   "O": 0.479,
-   "D": -0.39,
-   "adj": 0.089,
-   "sos_off": -0.148,
-   "sos_def": -0.285,
+   "O": 0.474,
+   "D": -0.383,
+   "adj": 0.091,
+   "sos_off": -0.165,
+   "sos_def": -0.265,
    "to_pg": 1.0,
    "margin_pg": 13.889,
    "opps": [
@@ -1282,20 +1219,64 @@
     "BAL",
     "TEN"
    ],
-   "sos": -0.432,
-   "rank": 15,
-   "off_rank": 6,
+   "sos": -0.429,
+   "rank": 14,
+   "off_rank": 7,
    "def_rank": 26,
    "sos_rank": 30,
-   "sos_off_rank": 27,
-   "sos_def_rank": 31,
+   "sos_off_rank": 26,
+   "sos_def_rank": 29,
    "prev_rank": 15,
-   "proj_pf": 25.9,
+   "proj_pf": 25.8,
    "proj_pa": 25.3,
    "qb_starts": [
     [
      "Trevor Lawrence",
      9
+    ]
+   ]
+  },
+  {
+   "team": "CAR",
+   "name": "Carolina",
+   "games": 10,
+   "record": "5-5",
+   "off_ypp": 5.386,
+   "def_ypp": 5.291,
+   "raw": 0.095,
+   "O": 0.126,
+   "D": -0.144,
+   "adj": -0.018,
+   "sos_off": 0.061,
+   "sos_def": -0.177,
+   "to_pg": 0.4,
+   "margin_pg": -1.5,
+   "opps": [
+    "CHI",
+    "ATL",
+    "CLE",
+    "DET",
+    "PHI",
+    "TB",
+    "GB",
+    "DEN",
+    "NO",
+    "BAL"
+   ],
+   "sos": -0.117,
+   "rank": 15,
+   "off_rank": 13,
+   "def_rank": 22,
+   "sos_rank": 20,
+   "sos_off_rank": 12,
+   "sos_def_rank": 23,
+   "prev_rank": 14,
+   "proj_pf": 23.8,
+   "proj_pa": 23.9,
+   "qb_starts": [
+    [
+     "Bryce Young",
+     10
     ]
    ]
   },
@@ -1307,11 +1288,11 @@
    "off_ypp": 5.603,
    "def_ypp": 5.175,
    "raw": 0.428,
-   "O": -0.113,
-   "D": 0.054,
-   "adj": -0.059,
-   "sos_off": -0.383,
-   "sos_def": -0.107,
+   "O": -0.099,
+   "D": 0.044,
+   "adj": -0.056,
+   "sos_off": -0.382,
+   "sos_def": -0.105,
    "to_pg": 0.4,
    "margin_pg": 3.7,
    "opps": [
@@ -1326,15 +1307,15 @@
     "CLE",
     "IND"
    ],
-   "sos": -0.49,
+   "sos": -0.487,
    "rank": 16,
-   "off_rank": 17,
-   "def_rank": 14,
-   "sos_rank": 31,
+   "off_rank": 18,
+   "def_rank": 15,
+   "sos_rank": 32,
    "sos_off_rank": 32,
-   "sos_def_rank": 21,
+   "sos_def_rank": 20,
    "prev_rank": 16,
-   "proj_pf": 22.3,
+   "proj_pf": 22.4,
    "proj_pa": 22.7,
    "qb_starts": [
     [
@@ -1344,114 +1325,20 @@
    ]
   },
   {
-   "team": "MIA",
-   "name": "Miami",
-   "games": 9,
-   "record": "1-8",
-   "off_ypp": 5.002,
-   "def_ypp": 5.485,
-   "raw": -0.483,
-   "O": -0.327,
-   "D": 0.18,
-   "adj": -0.147,
-   "sos_off": 0.004,
-   "sos_def": 0.329,
-   "to_pg": -0.222,
-   "margin_pg": -8.444,
-   "opps": [
-    "LV",
-    "SF",
-    "KC",
-    "MIN",
-    "CIN",
-    "NYJ",
-    "NE",
-    "DET",
-    "IND"
-   ],
-   "sos": 0.333,
-   "rank": 17,
-   "off_rank": 23,
-   "def_rank": 9,
-   "sos_rank": 5,
-   "sos_off_rank": 16,
-   "sos_def_rank": 2,
-   "prev_rank": 17,
-   "proj_pf": 21.0,
-   "proj_pa": 21.9,
-   "qb_starts": [
-    [
-     "Malik Willis",
-     8
-    ],
-    [
-     "Kyle McCord",
-     1
-    ]
-   ]
-  },
-  {
-   "team": "TB",
-   "name": "Tampa Bay",
-   "games": 9,
-   "record": "3-6",
-   "off_ypp": 4.906,
-   "def_ypp": 5.021,
-   "raw": -0.115,
-   "O": -0.534,
-   "D": 0.379,
-   "adj": -0.155,
-   "sos_off": -0.107,
-   "sos_def": 0.064,
-   "to_pg": 0.778,
-   "margin_pg": 2.667,
-   "opps": [
-    "CIN",
-    "CLE",
-    "MIN",
-    "GB",
-    "DAL",
-    "PIT",
-    "CAR",
-    "ATL",
-    "CHI"
-   ],
-   "sos": -0.042,
-   "rank": 17,
-   "off_rank": 29,
-   "def_rank": 6,
-   "sos_rank": 17,
-   "sos_off_rank": 22,
-   "sos_def_rank": 11,
-   "prev_rank": 18,
-   "proj_pf": 19.8,
-   "proj_pa": 20.7,
-   "qb_starts": [
-    [
-     "Baker Mayfield",
-     6
-    ],
-    [
-     "Jalon Daniels",
-     3
-    ]
-   ]
-  },
-  {
    "team": "BAL",
    "name": "Baltimore",
-   "games": 10,
-   "record": "4-6",
-   "off_ypp": 5.463,
-   "def_ypp": 5.361,
-   "raw": 0.102,
-   "O": -0.229,
-   "D": -0.026,
-   "adj": -0.255,
-   "sos_off": -0.359,
-   "sos_def": -0.001,
-   "to_pg": -0.4,
-   "margin_pg": -5.0,
+   "games": 11,
+   "record": "4-7",
+   "off_ypp": 5.595,
+   "def_ypp": 5.381,
+   "raw": 0.214,
+   "O": -0.057,
+   "D": -0.063,
+   "adj": -0.12,
+   "sos_off": -0.333,
+   "sos_def": -0.007,
+   "to_pg": -0.636,
+   "margin_pg": -4.727,
    "opps": [
     "IND",
     "NO",
@@ -1462,18 +1349,19 @@
     "CIN",
     "BUF",
     "JAX",
-    "LAC"
+    "LAC",
+    "CAR"
    ],
-   "sos": -0.36,
-   "rank": 19,
-   "off_rank": 19,
-   "def_rank": 19,
-   "sos_rank": 28,
-   "sos_off_rank": 31,
-   "sos_def_rank": 15,
+   "sos": -0.34,
+   "rank": 17,
+   "off_rank": 17,
+   "def_rank": 18,
+   "sos_rank": 25,
+   "sos_off_rank": 30,
+   "sos_def_rank": 14,
    "prev_rank": 19,
-   "proj_pf": 21.6,
-   "proj_pa": 23.2,
+   "proj_pf": 22.7,
+   "proj_pa": 23.4,
    "qb_starts": [
     [
      "Lamar Jackson",
@@ -1486,6 +1374,58 @@
     [
      "Joe Fagnano",
      1
+    ],
+    [
+     "Jacoby Brissett",
+     1
+    ]
+   ]
+  },
+  {
+   "team": "MIA",
+   "name": "Miami",
+   "games": 10,
+   "record": "1-9",
+   "off_ypp": 4.842,
+   "def_ypp": 5.465,
+   "raw": -0.623,
+   "O": -0.463,
+   "D": 0.256,
+   "adj": -0.207,
+   "sos_off": 0.015,
+   "sos_def": 0.397,
+   "to_pg": -0.1,
+   "margin_pg": -9.3,
+   "opps": [
+    "LV",
+    "SF",
+    "KC",
+    "MIN",
+    "CIN",
+    "NYJ",
+    "NE",
+    "DET",
+    "IND",
+    "BUF"
+   ],
+   "sos": 0.412,
+   "rank": 18,
+   "off_rank": 25,
+   "def_rank": 9,
+   "sos_rank": 5,
+   "sos_off_rank": 15,
+   "sos_def_rank": 2,
+   "prev_rank": 17,
+   "proj_pf": 20.2,
+   "proj_pa": 21.5,
+   "qb_starts": [
+    [
+     "Malik Willis",
+     8
+    ],
+    [
+     "Kyle McCord",
+     2
     ]
    ]
   },
@@ -1497,11 +1437,11 @@
    "off_ypp": 5.227,
    "def_ypp": 5.353,
    "raw": -0.126,
-   "O": -0.007,
-   "D": -0.31,
-   "adj": -0.317,
-   "sos_off": 0.098,
-   "sos_def": -0.293,
+   "O": 0.027,
+   "D": -0.276,
+   "adj": -0.249,
+   "sos_off": 0.121,
+   "sos_def": -0.246,
    "to_pg": 0.778,
    "margin_pg": -3.0,
    "opps": [
@@ -1515,16 +1455,16 @@
     "LA",
     "NYG"
    ],
-   "sos": -0.195,
-   "rank": 20,
+   "sos": -0.125,
+   "rank": 19,
    "off_rank": 15,
-   "def_rank": 24,
-   "sos_rank": 22,
+   "def_rank": 25,
+   "sos_rank": 20,
    "sos_off_rank": 9,
-   "sos_def_rank": 32,
+   "sos_def_rank": 26,
    "prev_rank": 20,
-   "proj_pf": 23.0,
-   "proj_pa": 24.9,
+   "proj_pf": 23.2,
+   "proj_pa": 24.7,
    "qb_starts": [
     [
      "Jayden Daniels",
@@ -1539,18 +1479,18 @@
   {
    "team": "CHI",
    "name": "Chicago",
-   "games": 9,
-   "record": "7-2",
-   "off_ypp": 5.428,
-   "def_ypp": 5.941,
-   "raw": -0.512,
-   "O": 0.483,
-   "D": -0.825,
-   "adj": -0.342,
-   "sos_off": 0.388,
-   "sos_def": -0.22,
-   "to_pg": -0.444,
-   "margin_pg": 6.333,
+   "games": 10,
+   "record": "8-2",
+   "off_ypp": 5.423,
+   "def_ypp": 5.729,
+   "raw": -0.306,
+   "O": 0.39,
+   "D": -0.65,
+   "adj": -0.26,
+   "sos_off": 0.288,
+   "sos_def": -0.246,
+   "to_pg": -0.4,
+   "margin_pg": 6.5,
    "opps": [
     "CAR",
     "MIN",
@@ -1560,22 +1500,23 @@
     "ATL",
     "NE",
     "SEA",
-    "TB"
+    "TB",
+    "NO"
    ],
-   "sos": 0.167,
-   "rank": 21,
-   "off_rank": 6,
-   "def_rank": 31,
-   "sos_rank": 8,
-   "sos_off_rank": 1,
-   "sos_def_rank": 24,
+   "sos": 0.042,
+   "rank": 20,
+   "off_rank": 10,
+   "def_rank": 30,
+   "sos_rank": 13,
+   "sos_off_rank": 2,
+   "sos_def_rank": 26,
    "prev_rank": 21,
-   "proj_pf": 25.9,
-   "proj_pa": 28.0,
+   "proj_pf": 25.3,
+   "proj_pa": 26.9,
    "qb_starts": [
     [
      "Caleb Williams",
-     6
+     7
     ],
     [
      "Case Keenum",
@@ -1588,6 +1529,54 @@
    ]
   },
   {
+   "team": "TB",
+   "name": "Tampa Bay",
+   "games": 10,
+   "record": "3-7",
+   "off_ypp": 4.834,
+   "def_ypp": 5.184,
+   "raw": -0.35,
+   "O": -0.594,
+   "D": 0.277,
+   "adj": -0.318,
+   "sos_off": -0.108,
+   "sos_def": 0.136,
+   "to_pg": 0.7,
+   "margin_pg": 1.4,
+   "opps": [
+    "CIN",
+    "CLE",
+    "MIN",
+    "GB",
+    "DAL",
+    "PIT",
+    "CAR",
+    "ATL",
+    "CHI",
+    "DET"
+   ],
+   "sos": 0.028,
+   "rank": 21,
+   "off_rank": 27,
+   "def_rank": 8,
+   "sos_rank": 15,
+   "sos_off_rank": 22,
+   "sos_def_rank": 10,
+   "prev_rank": 18,
+   "proj_pf": 19.4,
+   "proj_pa": 21.3,
+   "qb_starts": [
+    [
+     "Baker Mayfield",
+     7
+    ],
+    [
+     "Jalon Daniels",
+     3
+    ]
+   ]
+  },
+  {
    "team": "NYG",
    "name": "NY Giants",
    "games": 9,
@@ -1595,11 +1584,11 @@
    "off_ypp": 5.184,
    "def_ypp": 5.029,
    "raw": 0.155,
-   "O": -0.419,
-   "D": 0.065,
-   "adj": -0.353,
-   "sos_off": -0.271,
-   "sos_def": -0.241,
+   "O": -0.376,
+   "D": 0.057,
+   "adj": -0.319,
+   "sos_off": -0.239,
+   "sos_def": -0.237,
    "to_pg": -0.222,
    "margin_pg": 0.778,
    "opps": [
@@ -1613,16 +1602,16 @@
     "PHI",
     "WAS"
    ],
-   "sos": -0.512,
-   "rank": 22,
-   "off_rank": 25,
-   "def_rank": 13,
-   "sos_rank": 32,
+   "sos": -0.477,
+   "rank": 21,
+   "off_rank": 24,
+   "def_rank": 14,
+   "sos_rank": 31,
    "sos_off_rank": 29,
-   "sos_def_rank": 26,
+   "sos_def_rank": 25,
    "prev_rank": 22,
-   "proj_pf": 20.5,
-   "proj_pa": 22.6,
+   "proj_pf": 20.7,
+   "proj_pa": 22.7,
    "qb_starts": [
     [
      "Jameis Winston",
@@ -1639,6 +1628,102 @@
    ]
   },
   {
+   "team": "ARI",
+   "name": "Arizona",
+   "games": 11,
+   "record": "3-8",
+   "off_ypp": 4.577,
+   "def_ypp": 5.704,
+   "raw": -1.127,
+   "O": -0.375,
+   "D": -0.039,
+   "adj": -0.414,
+   "sos_off": 0.368,
+   "sos_def": 0.34,
+   "to_pg": -0.091,
+   "margin_pg": -12.0,
+   "opps": [
+    "LAC",
+    "SEA",
+    "SF",
+    "NYG",
+    "DET",
+    "LA",
+    "DEN",
+    "DAL",
+    "SEA",
+    "LA",
+    "KC"
+   ],
+   "sos": 0.708,
+   "rank": 23,
+   "off_rank": 22,
+   "def_rank": 17,
+   "sos_rank": 1,
+   "sos_off_rank": 1,
+   "sos_def_rank": 3,
+   "prev_rank": 24,
+   "proj_pf": 20.7,
+   "proj_pa": 23.2,
+   "qb_starts": [
+    [
+     "Jacoby Brissett",
+     8
+    ],
+    [
+     "Gardner Minshew",
+     2
+    ],
+    [
+     "Josh Johnson",
+     1
+    ]
+   ]
+  },
+  {
+   "team": "LAC",
+   "name": "LA Chargers",
+   "games": 9,
+   "record": "1-8",
+   "off_ypp": 4.746,
+   "def_ypp": 5.603,
+   "raw": -0.857,
+   "O": -0.317,
+   "D": -0.099,
+   "adj": -0.416,
+   "sos_off": 0.258,
+   "sos_def": 0.181,
+   "to_pg": -0.556,
+   "margin_pg": -10.556,
+   "opps": [
+    "ARI",
+    "LV",
+    "BUF",
+    "SEA",
+    "DEN",
+    "KC",
+    "LA",
+    "HOU",
+    "BAL"
+   ],
+   "sos": 0.439,
+   "rank": 24,
+   "off_rank": 21,
+   "def_rank": 20,
+   "sos_rank": 4,
+   "sos_off_rank": 4,
+   "sos_def_rank": 8,
+   "prev_rank": 26,
+   "proj_pf": 21.1,
+   "proj_pa": 23.6,
+   "qb_starts": [
+    [
+     "Justin Herbert",
+     9
+    ]
+   ]
+  },
+  {
    "team": "CLE",
    "name": "Cleveland",
    "games": 10,
@@ -1646,11 +1731,11 @@
    "off_ypp": 5.071,
    "def_ypp": 5.156,
    "raw": -0.085,
-   "O": -0.323,
-   "D": -0.063,
-   "adj": -0.386,
-   "sos_off": -0.062,
-   "sos_def": -0.242,
+   "O": -0.369,
+   "D": -0.097,
+   "adj": -0.466,
+   "sos_off": -0.119,
+   "sos_def": -0.265,
    "to_pg": 0.1,
    "margin_pg": -3.2,
    "opps": [
@@ -1665,16 +1750,16 @@
     "NO",
     "HOU"
    ],
-   "sos": -0.304,
-   "rank": 23,
-   "off_rank": 21,
+   "sos": -0.385,
+   "rank": 25,
+   "off_rank": 22,
    "def_rank": 20,
-   "sos_rank": 27,
-   "sos_off_rank": 21,
-   "sos_def_rank": 26,
+   "sos_rank": 28,
+   "sos_off_rank": 24,
+   "sos_def_rank": 31,
    "prev_rank": 23,
-   "proj_pf": 21.1,
-   "proj_pa": 23.4,
+   "proj_pf": 20.8,
+   "proj_pa": 23.6,
    "qb_starts": [
     [
      "Deshaun Watson",
@@ -1687,140 +1772,6 @@
    ]
   },
   {
-   "team": "ARI",
-   "name": "Arizona",
-   "games": 10,
-   "record": "3-7",
-   "off_ypp": 4.65,
-   "def_ypp": 5.664,
-   "raw": -1.014,
-   "O": -0.291,
-   "D": -0.131,
-   "adj": -0.423,
-   "sos_off": 0.391,
-   "sos_def": 0.197,
-   "to_pg": -0.1,
-   "margin_pg": -10.5,
-   "opps": [
-    "LAC",
-    "SEA",
-    "SF",
-    "NYG",
-    "DET",
-    "LA",
-    "DEN",
-    "DAL",
-    "SEA",
-    "LA"
-   ],
-   "sos": 0.588,
-   "rank": 24,
-   "off_rank": 20,
-   "def_rank": 22,
-   "sos_rank": 2,
-   "sos_off_rank": 1,
-   "sos_def_rank": 7,
-   "prev_rank": 24,
-   "proj_pf": 21.2,
-   "proj_pa": 23.8,
-   "qb_starts": [
-    [
-     "Jacoby Brissett",
-     8
-    ],
-    [
-     "Gardner Minshew",
-     2
-    ]
-   ]
-  },
-  {
-   "team": "PIT",
-   "name": "Pittsburgh",
-   "games": 9,
-   "record": "6-3",
-   "off_ypp": 5.051,
-   "def_ypp": 5.268,
-   "raw": -0.217,
-   "O": -0.467,
-   "D": 0.028,
-   "adj": -0.439,
-   "sos_off": -0.186,
-   "sos_def": -0.04,
-   "to_pg": 0.556,
-   "margin_pg": 1.778,
-   "opps": [
-    "ATL",
-    "NE",
-    "CIN",
-    "CLE",
-    "IND",
-    "TB",
-    "NO",
-    "CLE",
-    "CIN"
-   ],
-   "sos": -0.225,
-   "rank": 25,
-   "off_rank": 26,
-   "def_rank": 17,
-   "sos_rank": 24,
-   "sos_off_rank": 28,
-   "sos_def_rank": 18,
-   "prev_rank": 25,
-   "proj_pf": 20.2,
-   "proj_pa": 22.8,
-   "qb_starts": [
-    [
-     "Aaron Rodgers",
-     9
-    ]
-   ]
-  },
-  {
-   "team": "LAC",
-   "name": "LA Chargers",
-   "games": 9,
-   "record": "1-8",
-   "off_ypp": 4.746,
-   "def_ypp": 5.603,
-   "raw": -0.857,
-   "O": -0.353,
-   "D": -0.1,
-   "adj": -0.453,
-   "sos_off": 0.234,
-   "sos_def": 0.168,
-   "to_pg": -0.556,
-   "margin_pg": -10.556,
-   "opps": [
-    "ARI",
-    "LV",
-    "BUF",
-    "SEA",
-    "DEN",
-    "KC",
-    "LA",
-    "HOU",
-    "BAL"
-   ],
-   "sos": 0.401,
-   "rank": 26,
-   "off_rank": 24,
-   "def_rank": 21,
-   "sos_rank": 4,
-   "sos_off_rank": 5,
-   "sos_def_rank": 9,
-   "prev_rank": 26,
-   "proj_pf": 20.9,
-   "proj_pa": 23.6,
-   "qb_starts": [
-    [
-     "Justin Herbert",
-     9
-    ]
-   ]
-  },
-  {
    "team": "LV",
    "name": "Las Vegas",
    "games": 10,
@@ -1828,11 +1779,11 @@
    "off_ypp": 5.101,
    "def_ypp": 6.162,
    "raw": -1.061,
-   "O": 0.009,
-   "D": -0.53,
-   "adj": -0.521,
-   "sos_off": 0.24,
-   "sos_def": 0.296,
+   "O": 0.051,
+   "D": -0.561,
+   "adj": -0.511,
+   "sos_off": 0.27,
+   "sos_def": 0.276,
    "to_pg": 0.3,
    "margin_pg": -3.8,
    "opps": [
@@ -1847,16 +1798,16 @@
     "SF",
     "SEA"
    ],
-   "sos": 0.536,
-   "rank": 27,
+   "sos": 0.547,
+   "rank": 26,
    "off_rank": 14,
    "def_rank": 28,
    "sos_rank": 3,
    "sos_off_rank": 3,
-   "sos_def_rank": 3,
+   "sos_def_rank": 4,
    "prev_rank": 27,
-   "proj_pf": 23.1,
-   "proj_pa": 26.2,
+   "proj_pf": 23.3,
+   "proj_pa": 26.4,
    "qb_starts": [
     [
      "Kirk Cousins",
@@ -1871,18 +1822,18 @@
   {
    "team": "DAL",
    "name": "Dallas",
-   "games": 10,
-   "record": "4-6",
-   "off_ypp": 5.589,
-   "def_ypp": 6.144,
-   "raw": -0.555,
-   "O": 0.292,
-   "D": -1.048,
-   "adj": -0.756,
-   "sos_off": 0.035,
-   "sos_def": -0.24,
-   "to_pg": -0.3,
-   "margin_pg": 0.4,
+   "games": 11,
+   "record": "5-6",
+   "off_ypp": 5.766,
+   "def_ypp": 6.085,
+   "raw": -0.319,
+   "O": 0.41,
+   "D": -1.011,
+   "adj": -0.601,
+   "sos_off": -0.036,
+   "sos_def": -0.251,
+   "to_pg": -0.182,
+   "margin_pg": 2.273,
    "opps": [
     "NYG",
     "WAS",
@@ -1893,21 +1844,66 @@
     "PHI",
     "ARI",
     "IND",
-    "SF"
+    "SF",
+    "TEN"
    ],
-   "sos": -0.205,
-   "rank": 28,
-   "off_rank": 10,
+   "sos": -0.287,
+   "rank": 27,
+   "off_rank": 8,
    "def_rank": 32,
    "sos_rank": 23,
-   "sos_off_rank": 15,
+   "sos_off_rank": 18,
    "sos_def_rank": 26,
    "prev_rank": 28,
-   "proj_pf": 24.8,
-   "proj_pa": 29.3,
+   "proj_pf": 25.5,
+   "proj_pa": 29.1,
    "qb_starts": [
     [
      "Dak Prescott",
+     11
+    ]
+   ]
+  },
+  {
+   "team": "PIT",
+   "name": "Pittsburgh",
+   "games": 10,
+   "record": "6-4",
+   "off_ypp": 4.904,
+   "def_ypp": 5.186,
+   "raw": -0.283,
+   "O": -0.593,
+   "D": -0.067,
+   "adj": -0.66,
+   "sos_off": -0.177,
+   "sos_def": -0.205,
+   "to_pg": 0.6,
+   "margin_pg": 1.3,
+   "opps": [
+    "ATL",
+    "NE",
+    "CIN",
+    "CLE",
+    "IND",
+    "TB",
+    "NO",
+    "CLE",
+    "CIN",
+    "PHI"
+   ],
+   "sos": -0.381,
+   "rank": 28,
+   "off_rank": 27,
+   "def_rank": 19,
+   "sos_rank": 28,
+   "sos_off_rank": 27,
+   "sos_def_rank": 24,
+   "prev_rank": 25,
+   "proj_pf": 19.4,
+   "proj_pa": 23.4,
+   "qb_starts": [
+    [
+     "Aaron Rodgers",
      10
     ]
    ]
@@ -1915,18 +1911,18 @@
   {
    "team": "NO",
    "name": "New Orleans",
-   "games": 9,
-   "record": "3-6",
-   "off_ypp": 4.777,
-   "def_ypp": 5.541,
-   "raw": -0.764,
-   "O": -0.503,
-   "D": -0.325,
-   "adj": -0.828,
-   "sos_off": 0.053,
-   "sos_def": -0.12,
-   "to_pg": -0.889,
-   "margin_pg": -3.778,
+   "games": 10,
+   "record": "3-7",
+   "off_ypp": 4.729,
+   "def_ypp": 5.525,
+   "raw": -0.796,
+   "O": -0.66,
+   "D": -0.242,
+   "adj": -0.902,
+   "sos_off": -0.068,
+   "sos_def": -0.041,
+   "to_pg": -0.8,
+   "margin_pg": -4.2,
    "opps": [
     "DET",
     "BAL",
@@ -1936,83 +1932,41 @@
     "NYG",
     "PIT",
     "CLE",
-    "CAR"
+    "CAR",
+    "CHI"
    ],
-   "sos": -0.067,
+   "sos": -0.109,
    "rank": 29,
-   "off_rank": 27,
-   "def_rank": 25,
-   "sos_rank": 18,
-   "sos_off_rank": 12,
-   "sos_def_rank": 22,
+   "off_rank": 30,
+   "def_rank": 23,
+   "sos_rank": 19,
+   "sos_off_rank": 19,
+   "sos_def_rank": 17,
    "prev_rank": 29,
-   "proj_pf": 20.0,
-   "proj_pa": 25.0,
+   "proj_pf": 19.0,
+   "proj_pa": 24.5,
    "qb_starts": [
     [
      "Tyler Shough",
-     9
-    ]
-   ]
-  },
-  {
-   "team": "TEN",
-   "name": "Tennessee",
-   "games": 9,
-   "record": "1-8",
-   "off_ypp": 4.945,
-   "def_ypp": 5.834,
-   "raw": -0.889,
-   "O": -0.498,
-   "D": -0.755,
-   "adj": -1.253,
-   "sos_off": -0.11,
-   "sos_def": -0.257,
-   "to_pg": -0.111,
-   "margin_pg": -8.0,
-   "opps": [
-    "NYJ",
-    "PHI",
-    "NYG",
-    "BAL",
-    "HOU",
-    "IND",
-    "CLE",
-    "CIN",
-    "JAX"
-   ],
-   "sos": -0.367,
-   "rank": 30,
-   "off_rank": 27,
-   "def_rank": 30,
-   "sos_rank": 29,
-   "sos_off_rank": 22,
-   "sos_def_rank": 29,
-   "prev_rank": 30,
-   "proj_pf": 20.0,
-   "proj_pa": 27.5,
-   "qb_starts": [
-    [
-     "Cam Ward",
-     9
+     10
     ]
    ]
   },
   {
    "team": "PHI",
    "name": "Philadelphia",
-   "games": 9,
-   "record": "2-7",
+   "games": 10,
+   "record": "3-7",
    "off_ypp": 4.289,
-   "def_ypp": 5.373,
-   "raw": -1.084,
-   "O": -1.397,
-   "D": 0.047,
-   "adj": -1.35,
-   "sos_off": -0.354,
-   "sos_def": 0.085,
-   "to_pg": -0.444,
-   "margin_pg": -8.111,
+   "def_ypp": 5.198,
+   "raw": -0.91,
+   "O": -1.358,
+   "D": 0.163,
+   "adj": -1.195,
+   "sos_off": -0.327,
+   "sos_def": 0.038,
+   "to_pg": -0.5,
+   "margin_pg": -7.0,
    "opps": [
     "WAS",
     "TEN",
@@ -2022,18 +1976,19 @@
     "CAR",
     "DAL",
     "WAS",
-    "NYG"
+    "NYG",
+    "PIT"
    ],
-   "sos": -0.269,
-   "rank": 31,
+   "sos": -0.289,
+   "rank": 30,
    "off_rank": 32,
-   "def_rank": 14,
-   "sos_rank": 25,
+   "def_rank": 12,
+   "sos_rank": 23,
    "sos_off_rank": 30,
-   "sos_def_rank": 10,
+   "sos_def_rank": 12,
    "prev_rank": 31,
-   "proj_pf": 14.6,
-   "proj_pa": 22.7,
+   "proj_pf": 14.8,
+   "proj_pa": 22.0,
    "qb_starts": [
     [
      "Jalen Hurts",
@@ -2045,7 +2000,51 @@
     ],
     [
      "Joe Milton III",
-     1
+     2
+    ]
+   ]
+  },
+  {
+   "team": "TEN",
+   "name": "Tennessee",
+   "games": 10,
+   "record": "1-9",
+   "off_ypp": 5.005,
+   "def_ypp": 6.003,
+   "raw": -0.998,
+   "O": -0.521,
+   "D": -0.846,
+   "adj": -1.367,
+   "sos_off": -0.206,
+   "sos_def": -0.167,
+   "to_pg": -0.2,
+   "margin_pg": -9.3,
+   "opps": [
+    "NYJ",
+    "PHI",
+    "NYG",
+    "BAL",
+    "HOU",
+    "IND",
+    "CLE",
+    "CIN",
+    "JAX",
+    "DAL"
+   ],
+   "sos": -0.373,
+   "rank": 31,
+   "off_rank": 26,
+   "def_rank": 31,
+   "sos_rank": 27,
+   "sos_off_rank": 28,
+   "sos_def_rank": 22,
+   "prev_rank": 30,
+   "proj_pf": 19.9,
+   "proj_pa": 28.1,
+   "qb_starts": [
+    [
+     "Cam Ward",
+     10
     ]
    ]
   },
@@ -2057,11 +2056,11 @@
    "off_ypp": 4.455,
    "def_ypp": 5.914,
    "raw": -1.458,
-   "O": -0.994,
-   "D": -0.612,
+   "O": -0.988,
+   "D": -0.617,
    "adj": -1.605,
-   "sos_off": -0.118,
-   "sos_def": -0.033,
+   "sos_off": -0.124,
+   "sos_def": -0.028,
    "to_pg": -1.091,
    "margin_pg": -7.818,
    "opps": [
@@ -2081,11 +2080,11 @@
    "rank": 32,
    "off_rank": 31,
    "def_rank": 29,
-   "sos_rank": 21,
-   "sos_off_rank": 25,
-   "sos_def_rank": 17,
+   "sos_rank": 22,
+   "sos_off_rank": 24,
+   "sos_def_rank": 16,
    "prev_rank": 32,
-   "proj_pf": 17.0,
+   "proj_pf": 17.1,
    "proj_pa": 26.7,
    "qb_starts": [
     [
@@ -2461,15 +2460,20 @@
     "book": "ESPN BET"
    },
    "close": -3.0,
-   "clv": 0.0
+   "clv": 0.0,
+   "final": [
+    27,
+    24
+   ],
+   "result": "W"
   }
  ],
  "record": {
   "spreads": {
-   "w": 5,
+   "w": 6,
    "l": 2,
    "p": 0,
-   "pct": 0.714,
+   "pct": 0.75,
    "picks": 8,
    "avg_clv": 0.0,
    "beat_close": 0.0
@@ -2509,22 +2513,22 @@
     11
    ],
    "all_ats": {
-    "w": 53,
+    "w": 54,
     "l": 53,
     "p": 3,
-    "pct": 0.5
+    "pct": 0.505
    },
    "edge_ats": {
-    "w": 30,
+    "w": 31,
     "l": 30,
     "p": 2,
-    "pct": 0.5
+    "pct": 0.508
    },
    "edge_ats_clean": {
-    "w": 21,
+    "w": 22,
     "l": 17,
     "p": 2,
-    "pct": 0.553
+    "pct": 0.564
    },
    "edge_ats_flagged": {
     "w": 9,
@@ -2533,16 +2537,16 @@
     "pct": 0.409
    },
    "su": {
-    "w": 68,
+    "w": 69,
     "l": 40,
     "p": 0,
-    "pct": 0.63
+    "pct": 0.633
    },
    "all_ou": {
     "w": 59,
-    "l": 50,
+    "l": 51,
     "p": 0,
-    "pct": 0.541
+    "pct": 0.536
    },
    "edge_ou": {
     "w": 29,
@@ -2707,10 +2711,10 @@
     {
      "week": 11,
      "ats": {
-      "w": 2,
+      "w": 3,
       "l": 1,
       "p": 0,
-      "pct": 0.667
+      "pct": 0.75
      },
      "ou": {
       "w": 0,
@@ -2719,10 +2723,10 @@
       "pct": 0.0
      },
      "all": {
-      "w": 2,
+      "w": 3,
       "l": 6,
       "p": 0,
-      "pct": 0.25
+      "pct": 0.333
      }
     }
    ]
@@ -4817,6 +4821,25 @@
     "total_line": 37.5,
     "total_edge": -3.2,
     "ou": "W"
+   },
+   {
+    "week": 11,
+    "away": "NYJ",
+    "home": "LAC",
+    "model": 2.2,
+    "line": -3.0,
+    "edge": 5.2,
+    "final": [
+     27,
+     24
+    ],
+    "qb_flag": false,
+    "ats": "W",
+    "su": "W",
+    "model_total": 41.3,
+    "total_line": 43.5,
+    "total_edge": -2.2,
+    "ou": "L"
    }
   ]
  }
