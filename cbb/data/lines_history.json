@@ -1737,7 +1737,9 @@
   "close": 8.0,
   "total": 147.5,
   "torvik": 3.1,
-  "hardwood_live": -2.1
+  "hardwood_live": -2.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "57ce51731aa0e3325c489d30a2b2e7ed": {
   "date": "2026-11-19",
@@ -1747,7 +1749,9 @@
   "close": 3.5,
   "total": 151.5,
   "torvik": 2.8,
-  "hardwood_live": -2.4
+  "hardwood_live": -2.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "58f585d704a7d4680f9dd7e877eddaaf": {
   "date": "2026-11-19",
@@ -1757,7 +1761,9 @@
   "close": 3.5,
   "total": 165.0,
   "torvik": 7.6,
-  "hardwood_live": 1.7
+  "hardwood_live": 1.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "7c168df70997b32224c52c8ab031d704": {
   "date": "2026-11-19",
@@ -1767,7 +1773,9 @@
   "close": -12.0,
   "total": 147.0,
   "torvik": -10.4,
-  "hardwood_live": -13.7
+  "hardwood_live": -13.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "daeb1516248941803c043ccbd01dd18c": {
   "date": "2026-11-19",
@@ -1777,7 +1785,9 @@
   "close": -16.0,
   "total": 164.0,
   "torvik": -13.8,
-  "hardwood_live": -12.1
+  "hardwood_live": -12.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "1a7893819f5bab2287cbc72dc8226d7e": {
   "date": "2026-11-19",
@@ -1787,7 +1797,9 @@
   "close": -7.5,
   "total": 145.0,
   "torvik": -5.4,
-  "hardwood_live": -17.2
+  "hardwood_live": -17.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "9fd39939b846d3cbd50dc78087ec35f1": {
   "date": "2026-11-19",
@@ -1797,7 +1809,9 @@
   "close": -2.0,
   "total": 159.0,
   "torvik": -1.0,
-  "hardwood_live": 7.6
+  "hardwood_live": 7.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "8bc6641f480ada7dae2744e3336dbcfa": {
   "date": "2026-11-19",
@@ -1807,7 +1821,9 @@
   "close": -2.0,
   "total": 142.5,
   "torvik": 1.3,
-  "hardwood_live": 1.8
+  "hardwood_live": 1.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "b5ff26a1800958caa39a89f0235999dc": {
   "date": "2026-11-19",
@@ -1817,7 +1833,9 @@
   "close": -7.0,
   "total": 149.5,
   "torvik": -6.7,
-  "hardwood_live": -3.3
+  "hardwood_live": -3.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "a25d06bbc2209ccc30f89edcbb8efb8e": {
   "date": "2026-11-19",
@@ -1827,7 +1845,9 @@
   "close": -35.5,
   "total": 155.5,
   "torvik": -25.1,
-  "hardwood_live": -32.9
+  "hardwood_live": -32.9,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "a21492045a6fa8b2a6e9d8b136534ac4": {
   "date": "2026-11-19",
@@ -1837,7 +1857,9 @@
   "close": -1.0,
   "total": 162.0,
   "torvik": 1.6,
-  "hardwood_live": 5.1
+  "hardwood_live": 5.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "7f7fd17bc583d3d43cdde63affb31764": {
   "date": "2026-11-19",
@@ -1847,7 +1869,9 @@
   "close": 5.0,
   "total": 139.5,
   "torvik": 1.9,
-  "hardwood_live": -0.3
+  "hardwood_live": -0.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "32098b4b5ed4967c39128b31e6d16b6c": {
   "date": "2026-11-19",
@@ -1857,7 +1881,9 @@
   "close": -1.5,
   "total": 133.0,
   "torvik": -2.5,
-  "hardwood_live": 1.7
+  "hardwood_live": 1.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "112a3e561a6b673b4ca74bb0e0605c2c": {
   "date": "2026-11-19",
@@ -1867,7 +1893,9 @@
   "close": -1.5,
   "total": 159.5,
   "torvik": -8.4,
-  "hardwood_live": -4.0
+  "hardwood_live": -4.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "06c795c1626c246ad89e38eb1a35dbfb": {
   "date": "2026-11-19",
@@ -1877,7 +1905,9 @@
   "close": 2.0,
   "total": 149.0,
   "torvik": 4.0,
-  "hardwood_live": 4.4
+  "hardwood_live": 4.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "028a30dac6c59487da6c8a7d657875e0": {
   "date": "2026-11-19",
@@ -1887,7 +1917,9 @@
   "close": -17.0,
   "total": 155.5,
   "torvik": -17.2,
-  "hardwood_live": -12.9
+  "hardwood_live": -12.9,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "df2f770cd36480fbf467976988b1bd8b": {
   "date": "2026-11-19",
@@ -1897,7 +1929,9 @@
   "close": -17.5,
   "total": 154.5,
   "torvik": -9.7,
-  "hardwood_live": -11.1
+  "hardwood_live": -11.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "42a35684e7ff6f13af5834f9a5004df6": {
   "date": "2026-11-19",
@@ -1907,7 +1941,9 @@
   "close": -2.0,
   "total": 163.5,
   "torvik": -1.0,
-  "hardwood_live": -5.0
+  "hardwood_live": -5.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "9b9dda4d07eb93b5e16e9fc62ff01ca3": {
   "date": "2026-11-19",
@@ -1917,7 +1953,9 @@
   "close": -28.0,
   "total": 159.0,
   "torvik": -17.2,
-  "hardwood_live": -22.2
+  "hardwood_live": -22.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "94d6da045bf64876ebfa87d69df70fb9": {
   "date": "2026-11-19",
@@ -1927,7 +1965,9 @@
   "close": -1.5,
   "total": 144.5,
   "torvik": -5.4,
-  "hardwood_live": -2.2
+  "hardwood_live": -2.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "44061430be1aeb7eff6e79c0e48ecbb9": {
   "date": "2026-11-19",
@@ -1937,7 +1977,9 @@
   "close": 1.5,
   "total": 146.0,
   "torvik": 2.1,
-  "hardwood_live": -4.8
+  "hardwood_live": -4.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "bd1799e8815981f90f74e705e6660de8": {
   "date": "2026-11-19",
@@ -1947,7 +1989,9 @@
   "close": -12.0,
   "total": 144.0,
   "torvik": -9.3,
-  "hardwood_live": -8.5
+  "hardwood_live": -8.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "12dc8b35d66981d6ff559ed3761c6fed": {
   "date": "2026-11-19",
@@ -1957,7 +2001,9 @@
   "close": -8.5,
   "total": 134.0,
   "torvik": -8.3,
-  "hardwood_live": -3.7
+  "hardwood_live": -3.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "d6ff4d964a24be574d7438aa33061cd7": {
   "date": "2026-11-19",
@@ -1967,7 +2013,9 @@
   "close": -28.5,
   "total": 155.5,
   "torvik": -24.4,
-  "hardwood_live": -15.9
+  "hardwood_live": -15.9,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "dbb1b55e5ce880c36dd40da9019cfc56": {
   "date": "2026-11-19",
@@ -1977,7 +2025,9 @@
   "close": -3.5,
   "total": 153.0,
   "torvik": -4.8,
-  "hardwood_live": -9.9
+  "hardwood_live": -9.9,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "1a136a0253a5b66b6057918946a432df": {
   "date": "2026-11-19",
@@ -1987,7 +2037,9 @@
   "close": -36.0,
   "total": 154.5,
   "torvik": -26.0,
-  "hardwood_live": -21.0
+  "hardwood_live": -21.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "cd5851d9377b5aa32b67f9c534385a0c": {
   "date": "2026-11-19",
@@ -1997,7 +2049,9 @@
   "close": -14.0,
   "total": 145.5,
   "torvik": -10.9,
-  "hardwood_live": -6.6
+  "hardwood_live": -6.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "769a46ab3c2f46e9ca8771af3d857cea": {
   "date": "2026-11-19",
@@ -2007,7 +2061,9 @@
   "close": -2.5,
   "total": 157.5,
   "torvik": -3.5,
-  "hardwood_live": -7.5
+  "hardwood_live": -7.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "6d51497e3276256e5dd07220b624c37f": {
   "date": "2026-11-19",
@@ -2017,7 +2073,9 @@
   "close": 3.5,
   "total": 151.5,
   "torvik": -0.2,
-  "hardwood_live": 0.5
+  "hardwood_live": 0.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "d6615873be75fcb42a72a8f14c93dd53": {
   "date": "2026-11-20",
@@ -2027,7 +2085,9 @@
   "close": -22.5,
   "total": 156.0,
   "torvik": -16.6,
-  "hardwood_live": -15.5
+  "hardwood_live": -15.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "79e05f83b74f5df0385955f0d3f3cdcb": {
   "date": "2026-11-20",
@@ -2037,7 +2097,9 @@
   "close": 3.0,
   "total": 146.0,
   "torvik": -1.9,
-  "hardwood_live": -4.2
+  "hardwood_live": -4.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "2c61b23dd09630b92c98ca00c4e8dad1": {
   "date": "2026-11-20",
@@ -2047,7 +2109,9 @@
   "close": -1.0,
   "total": 149.5,
   "torvik": -1.4,
-  "hardwood_live": -3.7
+  "hardwood_live": -3.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "d6250787bbbfa6483fa5032b6f00a3ac": {
   "date": "2026-11-20",
@@ -2057,7 +2121,9 @@
   "close": -9.5,
   "total": 150.0,
   "torvik": 5.2,
-  "hardwood_live": 13.7
+  "hardwood_live": 13.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "c42a6f010c505da91cae91ba184692fa": {
   "date": "2026-11-20",
@@ -2067,7 +2133,9 @@
   "close": -4.0,
   "total": 145.5,
   "torvik": -9.3,
-  "hardwood_live": -5.8
+  "hardwood_live": -5.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "8f88d57c43c67df9c1beb816e0c11d5c": {
   "date": "2026-11-20",
@@ -2077,7 +2145,9 @@
   "close": -11.5,
   "total": 143.5,
   "torvik": 3.6,
-  "hardwood_live": 7.6
+  "hardwood_live": 7.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "b2f8a6556938a584b2d3ce16aad1aa8c": {
   "date": "2026-11-20",
@@ -2087,7 +2157,9 @@
   "close": -6.5,
   "total": 138.0,
   "torvik": -7.1,
-  "hardwood_live": -3.9
+  "hardwood_live": -3.9,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "58fd00286fe702703270602ff058da8b": {
   "date": "2026-11-20",
@@ -2097,7 +2169,9 @@
   "close": 5.5,
   "total": 142.0,
   "torvik": 4.4,
-  "hardwood_live": 13.4
+  "hardwood_live": 13.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "9d327abf7311461d1cfaeb835057b5db": {
   "date": "2026-11-20",
@@ -2107,7 +2181,9 @@
   "close": 1.5,
   "total": 141.5,
   "torvik": -1.5,
-  "hardwood_live": 2.4
+  "hardwood_live": 2.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "86aad9e9d1093833464eac0c88635a2c": {
   "date": "2026-11-20",
@@ -2117,7 +2193,9 @@
   "close": -36.5,
   "total": 150.0,
   "torvik": -32.1,
-  "hardwood_live": -27.6
+  "hardwood_live": -27.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "e1804fe8283327513088eada01a00c7e": {
   "date": "2026-11-20",
@@ -2127,7 +2205,9 @@
   "close": -1.0,
   "total": 139.0,
   "torvik": -2.3,
-  "hardwood_live": -4.8
+  "hardwood_live": -4.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "18bce8d38273bd5b44a6768f1d5aa1d6": {
   "date": "2026-11-20",
@@ -2137,7 +2217,9 @@
   "close": -2.5,
   "total": 149.5,
   "torvik": -7.4,
-  "hardwood_live": 0.8
+  "hardwood_live": 0.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "eaa7e563508f83b89da51b138fda7d0b": {
   "date": "2026-11-20",
@@ -2147,7 +2229,9 @@
   "close": -8.0,
   "total": 151.5,
   "torvik": -4.7,
-  "hardwood_live": -2.8
+  "hardwood_live": -2.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "90a6a382f23f5dc02ca9a06d1a019861": {
   "date": "2026-11-20",
@@ -2157,7 +2241,9 @@
   "close": 2.5,
   "total": 132.0,
   "torvik": 1.8,
-  "hardwood_live": -3.1
+  "hardwood_live": -3.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "0744ae65a239d93ad6981bcca04ec1d1": {
   "date": "2026-11-20",
@@ -2167,7 +2253,9 @@
   "close": -21.5,
   "total": 145.0,
   "torvik": -14.6,
-  "hardwood_live": -17.0
+  "hardwood_live": -17.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "cdf9ed66e5ad6a4af973a7c08740af15": {
   "date": "2026-11-20",
@@ -2177,7 +2265,9 @@
   "close": -26.0,
   "total": 146.5,
   "torvik": -21.4,
-  "hardwood_live": -19.5
+  "hardwood_live": -19.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "3290d93b2078b71d318a773cb4252d89": {
   "date": "2026-11-20",
@@ -2187,7 +2277,9 @@
   "close": 3.5,
   "total": 138.5,
   "torvik": 4.3,
-  "hardwood_live": 2.6
+  "hardwood_live": 2.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "70ee5e0a821c9547549edc4e946098e2": {
   "date": "2026-11-20",
@@ -2197,7 +2289,9 @@
   "close": -1.0,
   "total": 138.0,
   "torvik": -1.7,
-  "hardwood_live": 2.2
+  "hardwood_live": 2.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "f23f37ea3ecae62d09994228b460a5bb": {
   "date": "2026-11-20",
@@ -2207,7 +2301,9 @@
   "close": -4.5,
   "total": 141.0,
   "torvik": -4.7,
-  "hardwood_live": -1.6
+  "hardwood_live": -1.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "d6bf1938b3e709f64957d9e071899659": {
   "date": "2026-11-20",
@@ -2217,7 +2313,9 @@
   "close": -4.0,
   "total": 140.5,
   "torvik": -4.0,
-  "hardwood_live": -0.4
+  "hardwood_live": -0.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "eba8e4a8e30f46858748483483f488ea": {
   "date": "2026-11-20",
@@ -2227,7 +2325,9 @@
   "close": -21.0,
   "total": 147.0,
   "torvik": -18.6,
-  "hardwood_live": -16.6
+  "hardwood_live": -16.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "a873493a7ad136458cf98553f9c8a216": {
   "date": "2026-11-20",
@@ -2237,7 +2337,9 @@
   "close": -1.0,
   "total": 148.5,
   "torvik": -3.4,
-  "hardwood_live": -4.4
+  "hardwood_live": -4.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "100d3d166816eec2b3b05481324cd009": {
   "date": "2026-11-20",
@@ -2247,7 +2349,9 @@
   "close": -3.5,
   "total": 145.0,
   "torvik": -4.2,
-  "hardwood_live": -6.0
+  "hardwood_live": -6.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "8c80c405ee0dd1df68d714b6d8e13ec9": {
   "date": "2026-11-20",
@@ -2257,7 +2361,9 @@
   "close": -7.0,
   "total": 152.5,
   "torvik": -7.1,
-  "hardwood_live": -10.1
+  "hardwood_live": -10.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "7dca3ce414b200c5bf9e73a01896e0a0": {
   "date": "2026-11-20",
@@ -2267,7 +2373,9 @@
   "close": -16.5,
   "total": 155.0,
   "torvik": -14.7,
-  "hardwood_live": -16.1
+  "hardwood_live": -16.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "7a7ea19f66aa175473014416c6d00417": {
   "date": "2026-11-20",
@@ -2277,7 +2385,9 @@
   "close": -4.0,
   "total": 149.0,
   "torvik": -6.6,
-  "hardwood_live": -3.3
+  "hardwood_live": -3.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "9953076d1a99f171f14ffe7ea369f012": {
   "date": "2026-11-20",
@@ -2287,7 +2397,9 @@
   "close": 8.5,
   "total": 166.0,
   "torvik": 7.2,
-  "hardwood_live": 4.8
+  "hardwood_live": 4.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "cd962be2d33dbd38b2b7d21dcd5fe124": {
   "date": "2026-11-20",
@@ -2297,7 +2409,9 @@
   "close": -3.0,
   "total": 154.0,
   "torvik": -3.1,
-  "hardwood_live": -4.8
+  "hardwood_live": -4.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "fcabf1a2b0755f9cb7af39534aae66a2": {
   "date": "2026-11-20",
@@ -2307,7 +2421,9 @@
   "close": -15.0,
   "total": 146.5,
   "torvik": -15.6,
-  "hardwood_live": -11.6
+  "hardwood_live": -11.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "d44e3c27019bbb61def8acdb1f51c22d": {
   "date": "2026-11-20",
@@ -2317,7 +2433,9 @@
   "close": -16.5,
   "total": 157.0,
   "torvik": -11.3,
-  "hardwood_live": -20.0
+  "hardwood_live": -20.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "0bc84da1a3e9aff13e6946b3b29cf21a": {
   "date": "2026-11-20",
@@ -2327,7 +2445,9 @@
   "close": -12.0,
   "total": 169.5,
   "torvik": -9.5,
-  "hardwood_live": -7.4
+  "hardwood_live": -7.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "73becee99238228e81a7770cea1108c8": {
   "date": "2026-11-20",
@@ -2337,7 +2457,9 @@
   "close": -2.0,
   "total": 153.0,
   "torvik": -7.5,
-  "hardwood_live": 1.7
+  "hardwood_live": 1.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "ccd4397771cec2458b64efaca3c2c783": {
   "date": "2026-11-20",
@@ -2347,7 +2469,9 @@
   "close": -49.0,
   "total": 165.0,
   "torvik": -37.0,
-  "hardwood_live": -47.5
+  "hardwood_live": -47.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "6b10d0e25f551c8d3eb324fc144777a8": {
   "date": "2026-11-20",
@@ -2357,7 +2481,9 @@
   "close": -18.5,
   "total": 158.0,
   "torvik": -17.5,
-  "hardwood_live": -10.0
+  "hardwood_live": -10.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "facfbe499809f5b11e275d41d8d5b49d": {
   "date": "2026-11-20",
@@ -2367,7 +2493,9 @@
   "close": -1.0,
   "total": 161.5,
   "torvik": -2.7,
-  "hardwood_live": 13.5
+  "hardwood_live": 13.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "d0029acaae5a5244f37f2de648af2fac": {
   "date": "2026-11-20",
@@ -2377,7 +2505,9 @@
   "close": 3.5,
   "total": 136.0,
   "torvik": 0.9,
-  "hardwood_live": 3.3
+  "hardwood_live": 3.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "4f71b0b4696cf2d3fa0688acb7fe896a": {
   "date": "2026-11-20",
@@ -2387,7 +2517,9 @@
   "close": -8.5,
   "total": 144.5,
   "torvik": -5.8,
-  "hardwood_live": -12.4
+  "hardwood_live": -12.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "a4ecade84e986fc8617884b7fe54581e": {
   "date": "2026-11-20",
@@ -2397,7 +2529,9 @@
   "close": -1.0,
   "total": 133.5,
   "torvik": -2.4,
-  "hardwood_live": -8.5
+  "hardwood_live": -8.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "60dd6652c2f1e4af18cc3ce565e8dd1d": {
   "date": "2026-11-20",
@@ -2407,7 +2541,9 @@
   "close": 11.5,
   "total": 137.0,
   "torvik": 9.9,
-  "hardwood_live": 7.2
+  "hardwood_live": 7.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "75dbb2a9b9e7a17415777572d1623ad8": {
   "date": "2026-11-20",
@@ -2417,7 +2553,9 @@
   "close": -11.5,
   "total": 154.5,
   "torvik": -9.0,
-  "hardwood_live": -10.3
+  "hardwood_live": -10.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "6490128d2a737c7c4b91289a0b40a5d0": {
   "date": "2026-11-20",
@@ -2427,7 +2565,9 @@
   "close": -41.5,
   "total": 150.5,
   "torvik": -34.5,
-  "hardwood_live": -30.7
+  "hardwood_live": -30.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "660bc79d92165bc04fe6db1c51bfa80d": {
   "date": "2026-11-20",
@@ -2437,7 +2577,9 @@
   "close": -33.5,
   "total": 149.0,
   "torvik": -27.3,
-  "hardwood_live": -24.0
+  "hardwood_live": -24.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "8451559752d29c603ed0de56691dd802": {
   "date": "2026-11-20",
@@ -2447,7 +2589,9 @@
   "close": -3.0,
   "total": 143.0,
   "torvik": -0.3,
-  "hardwood_live": 1.7
+  "hardwood_live": 1.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "06df46ace9654cc71563660d03a73cf4": {
   "date": "2026-11-20",
@@ -2457,7 +2601,9 @@
   "close": 3.5,
   "total": 146.0,
   "torvik": 2.0,
-  "hardwood_live": 4.4
+  "hardwood_live": 4.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "66a5eceb22c3b172e759e7b78d5c5b44": {
   "date": "2026-11-20",
@@ -2467,7 +2613,9 @@
   "close": 5.0,
   "total": 149.0,
   "torvik": 1.7,
-  "hardwood_live": 1.5
+  "hardwood_live": 1.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "5510f024997e32ccb84f6d5ad2b58e8d": {
   "date": "2026-11-20",
@@ -2477,7 +2625,9 @@
   "close": -35.0,
   "total": 154.5,
   "torvik": -28.6,
-  "hardwood_live": -32.4
+  "hardwood_live": -32.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "4cdc62eabb761684bea423f40e8aa358": {
   "date": "2026-11-20",
@@ -2487,7 +2637,9 @@
   "close": -10.0,
   "total": 146.5,
   "torvik": -6.2,
-  "hardwood_live": -2.3
+  "hardwood_live": -2.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "f74a59473918b8b98feab33b4bf8b836": {
   "date": "2026-11-20",
@@ -2497,7 +2649,9 @@
   "close": -3.5,
   "total": 160.5,
   "torvik": -4.0,
-  "hardwood_live": 3.9
+  "hardwood_live": 3.9,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "e1a630421d7f278a4da6480a7d1c788f": {
   "date": "2026-11-20",
@@ -2507,7 +2661,9 @@
   "close": 3.5,
   "total": 140.5,
   "torvik": -7.1,
-  "hardwood_live": -10.7
+  "hardwood_live": -10.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "934d69fc4e080af297a4f91987ad87f0": {
   "date": "2026-11-21",
@@ -2517,7 +2673,9 @@
   "close": 6.5,
   "total": 154.5,
   "torvik": 5.8,
-  "hardwood_live": 5.6
+  "hardwood_live": 5.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "b346f6555c1055ecaf0494e0a23d08dc": {
   "date": "2026-11-21",
@@ -2527,7 +2685,9 @@
   "close": -7.5,
   "total": 146.5,
   "torvik": -6.2,
-  "hardwood_live": -10.4
+  "hardwood_live": -10.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "2c2ac18a26394f55d2739cdbd06ae05c": {
   "date": "2026-11-21",
@@ -2537,7 +2697,9 @@
   "close": -40.0,
   "total": 150.0,
   "torvik": -29.7,
-  "hardwood_live": -38.3
+  "hardwood_live": -38.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "32314571b0ef6ac30a06778a1d5c1cc1": {
   "date": "2026-11-21",
@@ -2547,7 +2709,9 @@
   "close": 3.5,
   "total": 146.0,
   "torvik": 1.6,
-  "hardwood_live": -5.7
+  "hardwood_live": -5.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "b3fab0afee75218dc01cdc6679c9ad17": {
   "date": "2026-11-21",
@@ -2557,7 +2721,9 @@
   "close": -7.5,
   "total": 140.0,
   "torvik": -9.2,
-  "hardwood_live": -7.6
+  "hardwood_live": -7.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "6188932ccdcc9ce9bdb8d0164df7ee6e": {
   "date": "2026-11-21",
@@ -2567,7 +2733,9 @@
   "close": -5.5,
   "total": 148.0,
   "torvik": -7.8,
-  "hardwood_live": 0.8
+  "hardwood_live": 0.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "bbccadc262abe84faa9467469b89be97": {
   "date": "2026-11-21",
@@ -2577,7 +2745,9 @@
   "close": 4.0,
   "total": 151.5,
   "torvik": -0.5,
-  "hardwood_live": 3.8
+  "hardwood_live": 3.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "e9245afd02b038b953f892119fe558d6": {
   "date": "2026-11-21",
@@ -2587,7 +2757,9 @@
   "close": 2.0,
   "total": 157.0,
   "torvik": -2.4,
-  "hardwood_live": 1.8
+  "hardwood_live": 1.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "ce18dbed2bcc407de6487a10df8f1771": {
   "date": "2026-11-21",
@@ -2597,7 +2769,9 @@
   "close": 5.5,
   "total": 126.0,
   "torvik": 2.0,
-  "hardwood_live": 4.5
+  "hardwood_live": 4.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "2da6119e4539c4666b49cb8015a6c289": {
   "date": "2026-11-21",
@@ -2607,7 +2781,9 @@
   "close": -14.5,
   "total": 147.0,
   "torvik": -11.5,
-  "hardwood_live": -15.9
+  "hardwood_live": -15.9,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "78595a04d81f88f96e1045a0c36edf26": {
   "date": "2026-11-21",
@@ -2617,7 +2793,9 @@
   "close": -1.0,
   "total": 142.0,
   "torvik": 1.3,
-  "hardwood_live": 0.6
+  "hardwood_live": 0.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "23caa88d308de07ac04fa745540ab35f": {
   "date": "2026-11-21",
@@ -2627,7 +2805,9 @@
   "close": 2.0,
   "total": 130.5,
   "torvik": 0.5,
-  "hardwood_live": 2.3
+  "hardwood_live": 2.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "fd01d6bd019da1ef030bd2214291558c": {
   "date": "2026-11-21",
@@ -2637,7 +2817,9 @@
   "close": 5.5,
   "total": 130.5,
   "torvik": 4.8,
-  "hardwood_live": 1.0
+  "hardwood_live": 1.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "fb773220f5132a61b708f5d7ed605b9f": {
   "date": "2026-11-21",
@@ -2647,7 +2829,9 @@
   "close": 5.0,
   "total": 158.5,
   "torvik": 2.2,
-  "hardwood_live": 1.3
+  "hardwood_live": 1.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "6f123d463b01dadf8743c5323d3b2200": {
   "date": "2026-11-21",
@@ -2657,7 +2841,9 @@
   "close": 6.0,
   "total": 161.5,
   "torvik": 5.0,
-  "hardwood_live": 1.6
+  "hardwood_live": 1.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "6a6c3d772fb995d1205aae1324672ea7": {
   "date": "2026-11-21",
@@ -2667,7 +2853,9 @@
   "close": -25.0,
   "total": 142.5,
   "torvik": -21.2,
-  "hardwood_live": -20.6
+  "hardwood_live": -20.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "9de7cd2ef79bce15e4a473b9241c1e82": {
   "date": "2026-11-21",
@@ -2677,7 +2865,9 @@
   "close": 4.5,
   "total": 135.0,
   "torvik": 4.2,
-  "hardwood_live": 2.6
+  "hardwood_live": 2.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "46f732d3eef66ef6e78bb2a0f31c1ebb": {
   "date": "2026-11-21",
@@ -2687,7 +2877,9 @@
   "close": -25.5,
   "total": 173.5,
   "torvik": -20.3,
-  "hardwood_live": -21.8
+  "hardwood_live": -21.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "2b15ead6a4087a68d986d3ec08373d14": {
   "date": "2026-11-21",
@@ -2697,7 +2889,9 @@
   "close": 3.5,
   "total": 140.5,
   "torvik": 2.8,
-  "hardwood_live": -4.0
+  "hardwood_live": -4.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "800f544706a95dd11ec63acbf95fc7ca": {
   "date": "2026-11-21",
@@ -2707,7 +2901,9 @@
   "close": 1.5,
   "total": 152.5,
   "torvik": 1.4,
-  "hardwood_live": 1.3
+  "hardwood_live": 1.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "306af7e6892625ac626354ebcdefe1ba": {
   "date": "2026-11-21",
@@ -2717,7 +2913,9 @@
   "close": -3.5,
   "total": 148.0,
   "torvik": -4.3,
-  "hardwood_live": -1.8
+  "hardwood_live": -1.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "b21de9c914b929255529918fffaa1efb": {
   "date": "2026-11-21",
@@ -2727,7 +2925,9 @@
   "close": -2.5,
   "total": 160.0,
   "torvik": -1.1,
-  "hardwood_live": -0.9
+  "hardwood_live": -0.9,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "264c7486fa86ec1cf972df7956696ac5": {
   "date": "2026-11-21",
@@ -2737,7 +2937,9 @@
   "close": -5.5,
   "total": 144.0,
   "torvik": -6.8,
-  "hardwood_live": -5.5
+  "hardwood_live": -5.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "e8da92986a48fdfe244d61eee9036ced": {
   "date": "2026-11-21",
@@ -2747,7 +2949,9 @@
   "close": 2.5,
   "total": 146.5,
   "torvik": 1.5,
-  "hardwood_live": -0.8
+  "hardwood_live": -0.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "83bb160a038344276c3b40967726065c": {
   "date": "2026-11-21",
@@ -2757,7 +2961,9 @@
   "close": 1.0,
   "total": 138.0,
   "torvik": -4.1,
-  "hardwood_live": -0.1
+  "hardwood_live": -0.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "343eb2e0f080f6c844094408141efe87": {
   "date": "2026-11-21",
@@ -2767,7 +2973,9 @@
   "close": 2.5,
   "total": 139.5,
   "torvik": -1.6,
-  "hardwood_live": 1.1
+  "hardwood_live": 1.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "0355b02b6389cbbb3326e2ed70b031c9": {
   "date": "2026-11-21",
@@ -2777,7 +2985,9 @@
   "close": 3.5,
   "total": 146.0,
   "torvik": -0.3,
-  "hardwood_live": 3.3
+  "hardwood_live": 3.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "0547585c4affb18dcbcc337074462c31": {
   "date": "2026-11-21",
@@ -2787,7 +2997,9 @@
   "close": -5.5,
   "total": 142.0,
   "torvik": -6.1,
-  "hardwood_live": -3.7
+  "hardwood_live": -3.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "089763b58d06f84ae9546c2037e7d941": {
   "date": "2026-11-21",
@@ -2797,7 +3009,9 @@
   "close": 4.5,
   "total": 134.0,
   "torvik": 0.6,
-  "hardwood_live": -1.0
+  "hardwood_live": -1.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "a25c47368079760e1df98f700e9cda49": {
   "date": "2026-11-21",
@@ -2807,7 +3021,9 @@
   "close": -5.0,
   "total": 173.5,
   "torvik": -6.9,
-  "hardwood_live": -5.0
+  "hardwood_live": -5.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "8c116bae5bbaa0e4fe66308c754c8637": {
   "date": "2026-11-21",
@@ -2817,7 +3033,9 @@
   "close": -13.5,
   "total": 135.5,
   "torvik": -11.9,
-  "hardwood_live": -18.0
+  "hardwood_live": -18.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "ab342b5218a6e8b0cc7efa7c92bf8c01": {
   "date": "2026-11-21",
@@ -2827,7 +3045,9 @@
   "close": -8.0,
   "total": 154.5,
   "torvik": -9.3,
-  "hardwood_live": -5.7
+  "hardwood_live": -5.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "b2203e33d7aedad7f3ac39e1282c44d4": {
   "date": "2026-11-21",
@@ -2837,7 +3057,9 @@
   "close": -11.5,
   "total": 144.5,
   "torvik": -8.5,
-  "hardwood_live": -16.2
+  "hardwood_live": -16.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "029de1352f9ba49f22486bda5427cc7a": {
   "date": "2026-11-21",
@@ -2847,7 +3069,9 @@
   "close": 3.5,
   "total": 160.5,
   "torvik": 0.9,
-  "hardwood_live": 1.8
+  "hardwood_live": 1.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "abe6046c0e5100a1e721207ddedccc18": {
   "date": "2026-11-21",
@@ -2857,7 +3081,9 @@
   "close": 4.5,
   "total": 137.0,
   "torvik": 1.2,
-  "hardwood_live": 8.0
+  "hardwood_live": 8.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "a771a9f91712c2747321ed9cadf62f36": {
   "date": "2026-11-21",
@@ -2867,7 +3093,9 @@
   "close": -8.5,
   "total": 130.0,
   "torvik": -9.3,
-  "hardwood_live": -11.5
+  "hardwood_live": -11.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "6ed855b5052c6914a70d4c336653271e": {
   "date": "2026-11-21",
@@ -2877,7 +3105,9 @@
   "close": -2.5,
   "total": 142.5,
   "torvik": -5.3,
-  "hardwood_live": -3.2
+  "hardwood_live": -3.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "e7d59ea4f2c81294a88a46cc63628713": {
   "date": "2026-11-21",
@@ -2887,7 +3117,9 @@
   "close": 9.0,
   "total": 146.5,
   "torvik": 7.1,
-  "hardwood_live": 10.6
+  "hardwood_live": 10.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "7522960fbb3bcea978fbb1291c8c866b": {
   "date": "2026-11-21",
@@ -2897,7 +3129,9 @@
   "close": -6.5,
   "total": 162.5,
   "torvik": -3.4,
-  "hardwood_live": -2.1
+  "hardwood_live": -2.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "fa6a6d717b7ee026ba18c92b10e5e36e": {
   "date": "2026-11-21",
@@ -2907,7 +3141,9 @@
   "close": 1.5,
   "total": 153.0,
   "torvik": -5.6,
-  "hardwood_live": -3.5
+  "hardwood_live": -3.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "d4ff5572dfce3797f92425c0269392d5": {
   "date": "2026-11-21",
@@ -2917,7 +3153,9 @@
   "close": -31.0,
   "total": 143.5,
   "torvik": -26.1,
-  "hardwood_live": -19.0
+  "hardwood_live": -19.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "a8d9f06e5e8a38eff46544b225f7b425": {
   "date": "2026-11-21",
@@ -2927,7 +3165,9 @@
   "close": -12.0,
   "total": 138.5,
   "torvik": -9.1,
-  "hardwood_live": -6.7
+  "hardwood_live": -6.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "7d2d0772fddef71e92f444c6221354a3": {
   "date": "2026-11-21",
@@ -2937,7 +3177,9 @@
   "close": 11.5,
   "total": 149.5,
   "torvik": 13.6,
-  "hardwood_live": 11.3
+  "hardwood_live": 11.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "509452e9c30d0b4edddf769f5d142f71": {
   "date": "2026-11-21",
@@ -2947,7 +3189,9 @@
   "close": -4.5,
   "total": 134.0,
   "torvik": -7.0,
-  "hardwood_live": -4.2
+  "hardwood_live": -4.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "d2225a902743456bc09613327cb26bb5": {
   "date": "2026-11-21",
@@ -2957,7 +3201,9 @@
   "close": -8.5,
   "total": 162.5,
   "torvik": -7.8,
-  "hardwood_live": -4.8
+  "hardwood_live": -4.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "e36499bff95a05a2521431370edf4dae": {
   "date": "2026-11-21",
@@ -2967,7 +3213,9 @@
   "close": -7.5,
   "total": 151.0,
   "torvik": -8.3,
-  "hardwood_live": -13.5
+  "hardwood_live": -13.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "1e244cf66149400c5e73025d7d4cfc60": {
   "date": "2026-11-21",
@@ -2977,7 +3225,9 @@
   "close": -7.5,
   "total": 146.0,
   "torvik": -6.8,
-  "hardwood_live": -14.0
+  "hardwood_live": -14.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "d579b046d1ffdb6960b62c6d4e8c46e5": {
   "date": "2026-11-21",
@@ -2987,7 +3237,9 @@
   "close": -8.0,
   "total": 165.0,
   "torvik": -5.8,
-  "hardwood_live": -11.4
+  "hardwood_live": -11.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "8bdd386f44d40d94d3e032317435ebff": {
   "date": "2026-11-21",
@@ -2997,7 +3249,9 @@
   "close": -3.5,
   "total": 140.5,
   "torvik": -2.6,
-  "hardwood_live": -2.1
+  "hardwood_live": -2.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "2450397b7dee2d096ffd24673667b239": {
   "date": "2026-11-21",
@@ -3007,7 +3261,9 @@
   "close": -1.0,
   "total": 160.0,
   "torvik": 22.7,
-  "hardwood_live": 20.8
+  "hardwood_live": 20.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "7be34d4b1b24a90daf0928088053bc5a": {
   "date": "2026-11-21",
@@ -3017,7 +3273,9 @@
   "close": -1.0,
   "total": 154.0,
   "torvik": 2.6,
-  "hardwood_live": null
+  "hardwood_live": null,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "9f7f8d885eb724ca669f64bacad9321c": {
   "date": "2026-11-21",
@@ -3027,7 +3285,9 @@
   "close": -25.0,
   "total": 149.5,
   "torvik": -22.7,
-  "hardwood_live": -19.0
+  "hardwood_live": -19.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "9db5c4284531a6c45d11d71c9debdf30": {
   "date": "2026-11-22",
@@ -3037,7 +3297,9 @@
   "close": -12.0,
   "total": 156.0,
   "torvik": -14.4,
-  "hardwood_live": -13.3
+  "hardwood_live": -13.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "8df795d92371ff8d107e74c5f9e3a315": {
   "date": "2026-11-22",
@@ -3047,7 +3309,9 @@
   "close": -1.0,
   "total": 148.5,
   "torvik": -1.3,
-  "hardwood_live": 2.8
+  "hardwood_live": 2.8,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "6720f59950e8e460d7daf76bc09897e6": {
   "date": "2026-11-22",
@@ -3057,7 +3321,9 @@
   "close": -4.5,
   "total": 140.5,
   "torvik": -5.9,
-  "hardwood_live": -2.2
+  "hardwood_live": -2.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "a4479cbdb9666b13f2c1f33e93f6e281": {
   "date": "2026-11-22",
@@ -3067,7 +3333,9 @@
   "close": 3.5,
   "total": 136.0,
   "torvik": -2.1,
-  "hardwood_live": -1.2
+  "hardwood_live": -1.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "9df92a4f1ca806fe512c3849b181da90": {
   "date": "2026-11-22",
@@ -3077,7 +3345,9 @@
   "close": -4.0,
   "total": 136.5,
   "torvik": -0.6,
-  "hardwood_live": 3.2
+  "hardwood_live": 3.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "ca02e6e3717e63798ba1db0542ee38ee": {
   "date": "2026-11-22",
@@ -3087,7 +3357,9 @@
   "close": -21.0,
   "total": 156.5,
   "torvik": -16.7,
-  "hardwood_live": -9.9
+  "hardwood_live": -9.9,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "d9147d63fc7cb44ba58391e30c6d0806": {
   "date": "2026-11-22",
@@ -3097,7 +3369,9 @@
   "close": -3.0,
   "total": 144.0,
   "torvik": -4.9,
-  "hardwood_live": -5.9
+  "hardwood_live": -5.9,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "dce1dc11a16440e70de006d164780ac2": {
   "date": "2026-11-22",
@@ -3107,7 +3381,9 @@
   "close": -3.0,
   "total": 147.0,
   "torvik": -7.8,
-  "hardwood_live": -9.4
+  "hardwood_live": -9.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "20c6981840df47c0889d7ae41c56aa84": {
   "date": "2026-11-22",
@@ -3117,7 +3393,9 @@
   "close": -1.0,
   "total": 153.0,
   "torvik": -2.4,
-  "hardwood_live": -2.6
+  "hardwood_live": -2.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "c4fb85c9d4955609536990dc5dd565d9": {
   "date": "2026-11-22",
@@ -3127,7 +3405,9 @@
   "close": 2.5,
   "total": 164.5,
   "torvik": 1.9,
-  "hardwood_live": -2.6
+  "hardwood_live": -2.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "5269b87b9d1db58e870998a3d05f42eb": {
   "date": "2026-11-22",
@@ -3137,7 +3417,9 @@
   "close": -1.0,
   "total": 135.5,
   "torvik": -5.2,
-  "hardwood_live": -7.1
+  "hardwood_live": -7.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "ce609d312c528c91d20e80577d8feee5": {
   "date": "2026-11-22",
@@ -3147,7 +3429,9 @@
   "close": -38.5,
   "total": 151.5,
   "torvik": -28.5,
-  "hardwood_live": -14.2
+  "hardwood_live": -14.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "0e691de1e271a81490db7c766b779288": {
   "date": "2026-11-22",
@@ -3157,7 +3441,9 @@
   "close": -1.0,
   "total": 131.5,
   "torvik": -2.1,
-  "hardwood_live": -2.0
+  "hardwood_live": -2.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "d3ff354cf7590632c2f875f2c49fa5e1": {
   "date": "2026-11-22",
@@ -3167,7 +3453,9 @@
   "close": -33.5,
   "total": 139.0,
   "torvik": -26.5,
-  "hardwood_live": -31.1
+  "hardwood_live": -31.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "b8b8c26c46c395035dbe4fd1d013d5ec": {
   "date": "2026-11-22",
@@ -3177,7 +3465,9 @@
   "close": -3.0,
   "total": 145.5,
   "torvik": -3.8,
-  "hardwood_live": -5.4
+  "hardwood_live": -5.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "8973c989f9e6975bd343485eade0a1dc": {
   "date": "2026-11-22",
@@ -3187,7 +3477,9 @@
   "close": -28.5,
   "total": 149.0,
   "torvik": -23.5,
-  "hardwood_live": -17.4
+  "hardwood_live": -17.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "a8fa96ce1e2424029c99737ae7278b45": {
   "date": "2026-11-22",
@@ -3197,7 +3489,9 @@
   "close": -6.0,
   "total": 135.0,
   "torvik": -10.1,
-  "hardwood_live": -6.9
+  "hardwood_live": -6.9,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "7badad13b09c40df6ad6bed5dd5aa18f": {
   "date": "2026-11-22",
@@ -3207,7 +3501,9 @@
   "close": -5.5,
   "total": 139.0,
   "torvik": -5.4,
-  "hardwood_live": 1.7
+  "hardwood_live": 1.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "a43c29f68105ec56703e2c7c29568490": {
   "date": "2026-11-22",
@@ -3217,7 +3513,9 @@
   "close": 1.5,
   "total": 158.5,
   "torvik": -5.7,
-  "hardwood_live": -4.7
+  "hardwood_live": -4.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "9c6b98805955f109fb5038074601ddb3": {
   "date": "2026-11-22",
@@ -3227,7 +3525,9 @@
   "close": 1.5,
   "total": 132.0,
   "torvik": -2.2,
-  "hardwood_live": -1.7
+  "hardwood_live": -1.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "c22529a778dfb8b70f9e62a6ea96bb2e": {
   "date": "2026-11-22",
@@ -3237,7 +3537,9 @@
   "close": -2.0,
   "total": 142.5,
   "torvik": -0.7,
-  "hardwood_live": -9.1
+  "hardwood_live": -9.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "05c828d73504c939e026a844ffcabd3c": {
   "date": "2026-11-22",
@@ -3247,7 +3549,9 @@
   "close": -1.0,
   "total": 141.0,
   "torvik": -5.1,
-  "hardwood_live": -1.6
+  "hardwood_live": -1.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "42e47ef758f2c16dcf1cc64806373809": {
   "date": "2026-11-22",
@@ -3257,7 +3561,9 @@
   "close": 1.5,
   "total": 137.5,
   "torvik": 0.1,
-  "hardwood_live": 2.0
+  "hardwood_live": 2.0,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "2a7854aaf3f39f696f8f72e8b4d719be": {
   "date": "2026-11-22",
@@ -3267,7 +3573,9 @@
   "close": -5.0,
   "total": 163.5,
   "torvik": -3.9,
-  "hardwood_live": 1.5
+  "hardwood_live": 1.5,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "4d57a3b1bd68b12004210b45e6627108": {
   "date": "2026-11-22",
@@ -3277,7 +3585,9 @@
   "close": 2.5,
   "total": 144.0,
   "torvik": -2.9,
-  "hardwood_live": -4.1
+  "hardwood_live": -4.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "c176d337261bbb0fe334d3bf7f270ba6": {
   "date": "2026-11-22",
@@ -3287,7 +3597,9 @@
   "close": -9.0,
   "total": 132.0,
   "torvik": -10.3,
-  "hardwood_live": -20.1
+  "hardwood_live": -20.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "9d284f0191ee2d4d218bd46e7cb2ea12": {
   "date": "2026-11-22",
@@ -3297,7 +3609,9 @@
   "close": 9.0,
   "total": 143.0,
   "torvik": 6.3,
-  "hardwood_live": 9.7
+  "hardwood_live": 9.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "26ab317bb218650201b41abfbf26b858": {
   "date": "2026-11-22",
@@ -3307,7 +3621,9 @@
   "close": -7.5,
   "total": 147.0,
   "torvik": -9.3,
-  "hardwood_live": -16.2
+  "hardwood_live": -16.2,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "44c35f271b07ee73f3cdeb6afb468ff6": {
   "date": "2026-11-22",
@@ -3317,7 +3633,9 @@
   "close": -28.5,
   "total": 145.5,
   "torvik": -22.4,
-  "hardwood_live": -22.3
+  "hardwood_live": -22.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "1ee2fb83953abf7e64374cbf970ddd8f": {
   "date": "2026-11-22",
@@ -3327,7 +3645,9 @@
   "close": -2.0,
   "total": 151.5,
   "torvik": -2.4,
-  "hardwood_live": -8.7
+  "hardwood_live": -8.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "441228531de5a6035d73ba3bc9f49d19": {
   "date": "2026-11-22",
@@ -3337,7 +3657,9 @@
   "close": -32.5,
   "total": 145.5,
   "torvik": -23.6,
-  "hardwood_live": -33.3
+  "hardwood_live": -33.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "4564c6b619ba4df5c3f81b609a24f582": {
   "date": "2026-11-22",
@@ -3347,7 +3669,9 @@
   "close": -6.5,
   "total": 144.5,
   "torvik": -12.3,
-  "hardwood_live": -3.1
+  "hardwood_live": -3.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "4ab6cb0c13c713f3c78fe051d94f32e5": {
   "date": "2026-11-22",
@@ -3357,7 +3681,9 @@
   "close": -11.0,
   "total": 141.5,
   "torvik": -13.1,
-  "hardwood_live": -12.7
+  "hardwood_live": -12.7,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "a156f22faa101eae5a832cfc5de4fbca": {
   "date": "2026-11-22",
@@ -3367,7 +3693,9 @@
   "close": -23.0,
   "total": 137.5,
   "torvik": -17.9,
-  "hardwood_live": -27.4
+  "hardwood_live": -27.4,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "27c34c0d38a26b69a06b6a3d3c374ab9": {
   "date": "2026-11-22",
@@ -3377,7 +3705,9 @@
   "close": 2.0,
   "total": 162.0,
   "torvik": -1.2,
-  "hardwood_live": 3.1
+  "hardwood_live": 3.1,
+  "torvik_total": null,
+  "hardwood_total_live": null
  },
  "68135c1bcc1b47562304fe94b69c18ff": {
   "date": "2026-11-22",
@@ -3387,6 +3717,20 @@
   "close": -10.5,
   "total": 155.5,
   "torvik": -6.4,
-  "hardwood_live": -6.3
+  "hardwood_live": -6.3,
+  "torvik_total": null,
+  "hardwood_total_live": null
+ },
+ "193030f0c2c0c4a26223daa93d916bff": {
+  "date": "2026-11-22",
+  "away": "Seattle",
+  "home": "UC San Diego",
+  "neutral": true,
+  "close": 1.0,
+  "total": 148.0,
+  "torvik": 0.0,
+  "hardwood_live": 2.6,
+  "torvik_total": null,
+  "hardwood_total_live": null
  }
 }
