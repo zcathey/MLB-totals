@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-24T13:15:02.104974+00:00",
+ "generated_at": "2026-11-24T13:16:08.756733+00:00",
  "mode": "picks",
  "ratings": {
   "status": "fresh",
-  "updated": "2026-11-23T15:30:07+00:00",
+  "updated": "2026-11-24T13:12:00+00:00",
   "teams": 365,
   "avg_eff": 107.46,
   "avg_tempo": 69.16
@@ -11,7 +11,7 @@
  "lines": {
   "status": "ok",
   "events": 78,
-  "credits_remaining": "180"
+  "credits_remaining": "176"
  },
  "settings": {
   "hfa": 3.0,
@@ -2962,13 +2962,13 @@
    "spread_src": "median",
    "best_home": {
     "pt": 3.5,
-    "px": -107,
-    "book": "BetOnline"
+    "px": -110,
+    "book": "DraftKings"
    },
    "best_away": {
-    "pt": -3.5,
-    "px": 100,
-    "book": "ESPN BET"
+    "pt": -3.0,
+    "px": -110,
+    "book": "BetOnline"
    },
    "open_spread": 5.5,
    "open_total": 153.5,
@@ -3831,13 +3831,13 @@
    "neutral": true,
    "neutral_src": "ESPN: Michelob ULTRA Arena, Las Vegas",
    "books": 6,
-   "mkt_spread": -10.5,
+   "mkt_spread": -10.25,
    "mkt_total": 155.5,
    "spread_src": "median",
    "best_home": {
     "pt": -9.5,
-    "px": -117,
-    "book": "BetRivers"
+    "px": -115,
+    "book": "Bovada"
    },
    "best_away": {
     "pt": 10.5,
@@ -3864,12 +3864,12 @@
    },
    "hw_away_rank": 77,
    "hw_home_rank": 10,
-   "hw_edge": 0.8,
+   "hw_edge": 0.6,
    "flags": [],
-   "edge": 4.5,
-   "move": -2.0,
+   "edge": 4.2,
+   "move": -1.8,
    "total_edge": 3.4,
-   "pick": "Oregon +10.5",
+   "pick": "Oregon +10.25",
    "pick_side": "away",
    "market": "against",
    "both_models": false
@@ -12566,7 +12566,7 @@
  "hardwood": {
   "status": "ok",
   "games": 974,
-  "new_games": 1,
+  "new_games": 0,
   "avg_eff": 106.67,
   "avg_tempo": 70.44,
   "prior_games": 2.0
