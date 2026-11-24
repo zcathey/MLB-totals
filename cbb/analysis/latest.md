@@ -1,52 +1,48 @@
-# CBB — Monday, Nov 23, 2026
+# CBB — Tuesday, Nov 24, 2026
 
-**Card (paper trades): Alabama St. +19 · Texas A&M-CC +19.5 · Monmouth +19.5 · Denver +33.5 · Winthrop +43**
+**Card (paper trades): Tarleton St. +1 · Alcorn St. +16 · Jacksonville +27 · Milwaukee +34 (flagged)**
 
-*Updated 10:35 AM ET with Zach's fresh Torvik upload: Tulsa and Colorado St. dropped below a 3-point edge and are off the card.*
-
-*Re-checked 11:50 AM ET against the 11:05 AM data run: same five plays, same best bet. Denver has moved another point (now +33.5, 3.5 off the open) and Winthrop half a point; both are flagged below. Kansas's Tyran Stokes is a possible reason for the Denver move.*
-
-**Best bet: Alabama St. +19.5 at California** (BetRivers −120; +19 −110 at most books; 10:00 PM ET). Both models are on Alabama St. (Torvik edge 5.9, Hardwood 8.7), the line has moved half a point toward them, and it's a campus game under 20 points with no new injury news. The move is small, so the market confirmation is thin. Best-bet record: 5-1-1 ([ledger](best_bets.md)).
+**Best bet: Tarleton St. +1.5 at Weber St.** (BetRivers −117; +1 at −104 Pinnacle; 7:00 PM ET). Both models have Tarleton winning outright (Torvik by 4.7, Hardwood by 2.8), the line has drifted half a point their way, it's a small spread, and I found no new injury news. The move is small, so the market confirmation is thin. Best-bet record: 5-2-1 ([ledger](best_bets.md)).
 
 Every pick is a paper trade until about mid-December, when Torvik's preseason priors wash out.
 
-Data: written early because of the 11 AM tips. The last run was 10:53 PM ET last night, so I started the picks run by hand at 10:18 AM ET. Lines OK (208 Odds API credits left). Ratings are fresh (Zach's upload, re-run at 10:30 AM ET). No unmatched names. **First day with the new data fixes:** neutral sites now come from ESPN's schedule automatically, and grades come from ESPN box scores. Today ESPN flagged 21 neutral-site games, from Kissimmee, Fort Myers and St. Thomas to Palm Springs and Maui. No hand fixes were needed, and the records below need no corrections.
+Data: the 10:10 AM ET picks run is current (written at noon ET, so no manual run was needed). Lines OK (172 Odds API credits left). Ratings are fresh (Zach's upload, 8:12 AM ET). Two unmatched names; see Notes.
 
 ---
 
-## Yesterday (Nov 22)
+## Yesterday (Nov 23)
 
-**Card: 2-2** at write-up lines.
+**Card: 2-3** at write-up lines.
 
-- UMass Lowell +29.5 (best bet): Cincinnati won 78-68. **W**
-- Chicago St. +34.5: lost 106-62. L
-- Delaware +29.5: lost 85-48. L
-- Southern Indiana +39.5: lost 97-61 (by 36). **W**
-- Richmond −1 came off the card at 9 PM (neutral site). Richmond won 92-88, so it would have won.
+- Alabama St. +19.5 (best bet): Cal won 96-54. L
+- Texas A&M-CC +19.5: lost 91-73 (by 18). **W**
+- Monmouth +19.5: lost 85-45. L
+- Denver +33.5: lost 84-67. **W**
+- Winthrop +43: lost 133-83. L
 
-All 21 graded picks for Nov 22, by the bucket they had when logged:
+All 14 graded picks for Nov 23:
 
 | Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Agrees | 2-2-0 | 0.00 | 0/4 |
-| Against | 1-3-0 | 0.00 | 0/4 |
-| Flat | 10-3-0 | +0.23 | 7/13 |
-| **All** | **13-8-0** | **+0.14** | **7/21** |
+| Agrees | 1-0-0 | +0.50 | 1/1 |
+| Against | 1-1-0 | −0.25 | 0/2 |
+| Flat | 5-6-0 | +1.21 | 6/11 |
+| **All** | **7-7-0** | **+0.95** | **7/14** |
 
-Every pick logged at 11:44 AM had a CLV of exactly 0. No update ran between then and their afternoon tips, so the "close" is the same line the pick was logged at. Today's early games will have the same problem.
+A good CLV day on a .500 record. Denver (+5.5 CLV, closed −31.5 from a pick at +37) did most of the lifting.
 
 ### Season to date
 
 | Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Agrees | 26-23-0 | +0.23 | 33% |
-| Against | 60-66-1 | +0.42 | 38% |
-| Flat | 81-44-1 | +0.55 | 55% |
-| **All** | **167-133-2** | **+0.45** | **44%** |
+| Agrees | 27-23-0 | +0.24 | 34% |
+| Against | 61-67-1 | +0.41 | 37% |
+| Flat | 86-50-1 | +0.61 | 55% |
+| **All** | **174-140-2** | **+0.47** | **44%** |
 
-These are the page's numbers. Grading now comes from ESPN, which fixed the eight swapped results. Flat picks are still the best bucket by a wide margin. Agrees picks are 12-9 (+0.17 CLV) under 20 points and 14-14 (+0.29) at 20+. Picks at neutral sites the model didn't know about (N\* on the Picks tab) are 21-21.
+Flat is still the best bucket on every measure. Agrees picks beat the close only a third of the time, which says the move we "confirm" on is often over by the time we log it.
 
-**Best bet:** UMass Lowell +29.5 won (Cincinnati by 10; closed −28.5). Ledger is 5-1-1.
+**Best bet:** Alabama St. +19.5 lost by 42 (closed CAL −18, so +1.5 CLV but nowhere close). Ledger is 5-2-1.
 
 ---
 
@@ -54,45 +50,46 @@ These are the page's numbers. Grading now comes from ESPN, which fixed the eight
 
 | Tip (ET) | Pick | Torvik (HW) | Mkt (open) | Edge | Best price |
 |---|---|---|---|---|---|
-| 7:30 PM | Texas A&M-CC +19.5 at Wichita St. | WSU −15.4 (−15.3) | −19.5 (−21.5) | 4.1 | +21.5 −132 BetRivers / +19.5 −110 |
-| 8:00 PM | Monmouth +19.5 at North Carolina | UNC −16.5 (−12.4) | −19.5 (−20.5) | 3.0 | +19.5 −110 FanDuel |
-| 8:00 PM | Denver +33.5 at Kansas | KU −29.1 (−24.2) | −33.5 (−37) | 4.4 | +34.5 −115 BetRivers |
-| 8:00 PM | Winthrop +43 at Illinois | ILL −34.7 (−41.1) | −43 (−45.5) | 8.3 | +43.5 −108 DraftKings |
-| 10:00 PM | **Alabama St. +19 at California** | CAL −13.1 (−10.3) | −19 (−19.5) | 5.9 | +19.5 −120 BetRivers |
+| 7:00 PM | **Tarleton St. +1 at Weber St.** | WEB +4.7 (+2.8) | −1 (−1.5) | 5.7 | +1.5 −117 BetRivers |
+| 7:00 PM | Jacksonville +27 at Indiana | IU −21.8 (−24.0) | −27 (−27.75) | 5.2 | +27.5 −106 BetRivers |
+| 7:00 PM | Milwaukee +34 at Florida | UF −28.8 (−25.2) | −34 (−38.5) | 5.2 | +34.5 −105 BetRivers |
+| 7:30 PM | Alcorn St. +16 at Louisiana Tech | LT −10.6 (−16.5) | −16 (−16.5) | 5.4 | +16.5 −110 Bovada |
 
-HW = Hardwood. Every team on the card has played at least four games, and no card game has a tempo flag. Injuries are from the [Covers report](https://www.covers.com/sport/basketball/ncaab/injuries) (Nov 23). Nothing is listed for A&M-CC, Winthrop, Denver, Monmouth or Alabama St. Most listings for the favorites are weeks old and already in the lines: Wichita St.'s N. Hill (out for the season), Kansas's M. Council Jr. (broken foot) and G. Mordini (season), North Carolina's M. Smith and N. Avdalas. Coverage is thin, so "no news found" isn't the same as "no news".
+Spreads are the home team's. HW = Hardwood. All four are campus games (ESPN doesn't flag any as neutral). Every team has played 4+ games; no tempo flags. I couldn't load the Covers injury page today, so injury checks are from news searches only: "no news found" is weaker than usual.
 
-- **Alabama St. (best bet):** both models agree, and Hardwood loudly. Alabama St. is 2-4 and Cal is 4-2. Cal's Lee Dort has been questionable (ankle) since Nov 1, which isn't new. It's the both-model play with the biggest edges under 20 points. The best number costs juice: +19.5 is −120 at BetRivers, and +19 is −110 nearly everywhere. Either is fine.
-- **Texas A&M-CC +19.5:** both models agree almost exactly (WSU by about 15.4), and the line is down 2 points since the open. The edge is now 4.1 at +19.5. The best number is +21.5, but at −129. The runner-up for best bet.
-- **Monmouth +19.5:** Hardwood likes it (7.1), but Torvik's edge is exactly 3.0. DraftKings is already down to UNC −18.5, so take +19.5 (FanDuel) while it lasts; at +18.5 the Torvik edge falls under 3. Monmouth is 1-4.
-- **Denver +33.5:** the biggest move on the card, now 3.5 points from −37, and both models agree. A move that size usually means news. The likeliest candidate is Kansas's freshman star Tyran Stokes: he missed the West Virginia game on Nov 18 with a right-leg bone bruise ([ESPN](https://www.espn.com/mens-college-basketball/story/_/id/50524441/kansas-says-tyran-stokes-game-call-vs-west-virginia)), then played against Houston (22 points, 11 rebounds; [Southern Sports Today](https://www.southernsportstoday.com/2026/11/23/tyran-stokes-no-11-kansas-look-to-rebound-vs-denver/)). [Through the Phog](https://throughthephog.com/no-11-kansas-vs-denver-when-where-how-to-watch-and-phoggy-notes) suggests resting him against Denver if he isn't 100%. That's a writer's guess, not an injury report, but if the market is pricing a Stokes rest, the move isn't agreeing with the model. Denver is 1-4 (lost 70-68 at Eastern Michigan Saturday), and it's a 34-point road dog. Low confidence.
-- **Winthrop +43:** Torvik only (Hardwood 1.9). The line has moved 2.5 toward Winthrop, and Covers lists three Illinois players as questionable (Z. Ivisic, Q. Coleman, L. Williams, all since Nov 19). That could be what moved the line, not a market agreeing with the model. Winthrop is 0-6. Lowest confidence.
+- **Tarleton St. (best bet):** both models agree, and it's the only play under 15 points. Tarleton is 4-2, Weber St. 1-4. Weber lost junior guard Alvin Jackson III to a torn ACL in the preseason ([Standard-Examiner](https://www.standard.net/sports/weber-state/2026/oct/27/weber-state-notebook-mens-basketball-hit-with-injury-football-remains-ranked/), Oct 27). That's old news and already in the line; if anything, Torvik's priors may still overrate Weber. The +1.5 costs −117; +1 at −104 (Pinnacle) is nearly as good.
+- **Alcorn St. +16:** Torvik only. Hardwood (−16.5) sits right on the market. Alcorn is 0-6 and 356th in Torvik. Half-point move. Lower confidence.
+- **Jacksonville +27:** both models agree (Torvik edge 5.2, Hardwood 3.0), but it's a 27-point road dog, the model's weak spot, and the move is under a point. No 2026 injury news found for either side.
+- **Milwaukee +34 (flagged):** the 4.5-point move from −38.5 fits the model, but news explains at least part of it. Florida guard Boogie Fland will miss the game with a nagging shoulder injury ([SI](https://www.si.com/college/florida/basketball/boogie-fland-availability-revealed-for-gators-vs-milwaukee-game); [Alligator](https://www.alligator.org/article/2026/11/florida-mens-basketball-milwuakee-preparation)). He averages 6.8 points and has already missed two games, so he's probably not worth 4.5 points alone. Florida is also home from a Las Vegas event. Still, it's a 34-point road dog with an injury-assisted move. Lowest confidence; I'd treat it as a pass.
 
 ---
 
 ## Logged but passing
 
-**Market against:** Northern Iowa +6 vs Davidson (Fort Myers; moved 1 toward Davidson, and Hardwood disagrees). Middle Tennessee +3 vs Southern Illinois (St. Thomas; moved 2 toward SIU).
+**Market against (by bucket when logged):**
 
-**Model split:** Temple −3 vs UT Martin (St. Thomas). Torvik has Temple by 5.6 (edge now 2.6), Hardwood has UT Martin by 5.8.
+- New Mexico St. +5 vs Ohio (Jacksonville, neutral; tipped 11 AM)
+- Detroit Mercy +4.5 vs North Dakota (Cancun)
+- San Diego St. +8.5 vs Iowa St. (Las Vegas)
+- Oregon +10.5 vs St. John's (Las Vegas)
+- Colorado +4.5 vs Stanford (Palm Springs; moved 2 toward Stanford)
+- Air Force −3.5 vs Army (San Antonio)
+- Sam Houston +5.5 at Washington St.
+- Bryant at **Marist −1.5**: moved 3 toward Bryant
+- **Lipscomb +26 at Auburn: moved 6.5 toward Auburn** (from −19.5). Moves that big usually mean news. Stay away.
+- **UNC Asheville +29 at Florida St.: moved 4.5 toward FSU** (from −24.5)
+- New Hampshire +21.5 at Seton Hall, Delaware St. +17 at Chattanooga, Coppin St. +32.5 at Villanova, UMBC +27.5 at Iowa, Central Michigan +21 at Notre Dame, Idaho St. +20.5 at Boise St.
 
-**Flat (no move):** Southern Utah +7 vs Arkansas St. (Miami; Torvik 3.3, Hardwood 0.6).
+**Flat (no move):** Evansville +31.5 at Missouri is the biggest edge on the slate with both models on it (Torvik 7.7, Hardwood 6.8). Flat picks are 86-50 this season, so it's worth watching, but it's another 30+ point road dog. Also Stetson +18.5 at South Florida and Florida A&M +18.5 at South Alabama (both Torvik only), and Harvard −5 vs BU (models split).
 
-**Fell under 3 with the new ratings and line moves:** Tulsa (logged +6.5 last night; the line is now +4.5 and the edge 2.6) and Colorado St. vs Arizona in Maui (logged +16.5, an agrees pick; now +16 and 2.4). The logged numbers still grade, and Tulsa already has 2 points of CLV. Clemson +6 vs Mississippi (Maui) is back over 3 (3.4), but the line has drifted toward Mississippi, so it's a pass.
-
-**Logged before the neutral-site fix:** these were logged last night at 4:17 PM, before ESPN's neutral flags were added, so they included home court. They'll show as N\* on the Picks tab.
-
-| Game | Logged | Edge now (neutral) |
-|---|---|---|
-| Indiana St. vs East Carolina (St. Thomas) | ECU −3 | 2.1 |
-| Mississippi vs Clemson (Maui) | Clemson +5.75 | 3.4, market against |
-| Yale vs Belmont (Kissimmee) | Belmont −3 | 1.9 |
+**Totals:** three gaps of 9+ points (Gardner-Webb/Bowling Green, Hampton/Old Dominion, Idaho St./Boise St.), but Hardwood disagrees with Torvik on all three. Nothing worth noting.
 
 ---
 
 ## Notes
 
-- **Neutral sites:** ESPN flagged 21 of today's games across seven event sites: Maui, Palm Springs, Kissimmee, Fort Myers, St. Thomas, Miami (at FIU) and Youngstown (at Youngstown St.). The host schools' own games (FIU, Youngstown St.) are correctly left as home games. I spot-checked Maui; the rest look consistent. I made no `neutral.json` changes.
-- **A bad pick in the log:** `picks.json` has "LSU +35.5" at Texas Tech from Nov 18, with a Torvik edge of 29.5. LSU didn't play Texas Tech; it beat Louisiana Monroe that night. The name matcher probably mapped a non-Division I team (an LSU branch campus) to LSU. It has no result, so it doesn't affect the record, but it should be deleted. Requiring an exact name match for "LSU" in `ALIASES` would stop it happening again.
-- **Closing lines for early games:** no update runs between the 10:45 AM picks run and the 6:30 PM run, so afternoon games get no real closing line. A 1:30 PM run would fix that, at about 3 extra Odds API credits a day.
-- **Totals (tracking only).** Akron vs Wright St. (Kissimmee) is 149 at the market against Torvik 141 and Hardwood 136, with no tempo flag. Both models are 8+ under, but Hardwood has only three Akron games. No pick. The new totals table on the Picks tab has Hardwood at 76-50 on overs and 23-27 on unders at a 4+ gap. Torvik's row has one game so far.
+- **Unmatched names (2):** suggested `ALIASES` in `generate_cbb.py`:
+  - `'mt st marys': "Mount St. Mary's"` (Mt. St. Mary's at Morgan St., 7 PM)
+  - `'n colorado': 'Northern Colorado'` (SE Louisiana vs N. Colorado, 12:30 PM)
+- Neutral sites: ESPN flagged all the tournament games above. The four card games are campus games. No hand fixes to `neutral.json`.
+- The 6:30 PM run will set closing lines for tonight's games.
