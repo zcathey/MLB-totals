@@ -391,6 +391,13 @@
    "pt": 6.5,
    "px": -107,
    "book": "Pinnacle"
-  }
+  },
+  "close": 6.5,
+  "clv": 0.0,
+  "final": [
+   20,
+   22
+  ],
+  "result": "W"
  }
 ]
