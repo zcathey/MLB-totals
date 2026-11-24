@@ -9554,8 +9554,16 @@
   "both_models": true,
   "neutral": false,
   "logged": "2026-11-22T21:17:40.553728+00:00",
-  "site_neutral": false,
-  "neutral_missed": false
+  "site_neutral": true,
+  "neutral_missed": true,
+  "final": [
+   77,
+   76
+  ],
+  "result": "L",
+  "final_src": "espn",
+  "close": -2.0,
+  "clv": -1.0
  },
  {
   "event_id": "f6407650f13adaa2fc13d17570ef3327",
@@ -9579,8 +9587,16 @@
   "both_models": false,
   "neutral": false,
   "logged": "2026-11-22T21:17:40.553728+00:00",
-  "site_neutral": false,
-  "neutral_missed": false
+  "site_neutral": true,
+  "neutral_missed": true,
+  "final": [
+   82,
+   62
+  ],
+  "result": "L",
+  "final_src": "espn",
+  "close": 6.0,
+  "clv": -0.2
  },
  {
   "event_id": "b1abd9ff77f5dc5c376c08041fae20ea",
@@ -9604,8 +9620,16 @@
   "both_models": true,
   "neutral": false,
   "logged": "2026-11-22T21:17:40.553728+00:00",
-  "site_neutral": false,
-  "neutral_missed": false
+  "site_neutral": true,
+  "neutral_missed": true,
+  "final": [
+   104,
+   102
+  ],
+  "result": "W",
+  "final_src": "espn",
+  "close": 7.0,
+  "clv": 0.0
  },
  {
   "event_id": "c26aa1b5cbdc588ee415a259da2c6bf4",
@@ -9629,8 +9653,16 @@
   "both_models": true,
   "neutral": false,
   "logged": "2026-11-22T21:17:40.553728+00:00",
-  "site_neutral": false,
-  "neutral_missed": false
+  "site_neutral": true,
+  "neutral_missed": true,
+  "final": [
+   60,
+   68
+  ],
+  "result": "W",
+  "final_src": "espn",
+  "close": -2.5,
+  "clv": -0.5
  },
  {
   "event_id": "11782e330b7215a8e2f0e3e4e9a27404",
@@ -9705,7 +9737,15 @@
   "neutral": true,
   "logged": "2026-11-23T02:20:43.780425+00:00",
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "final": [
+   66,
+   69
+  ],
+  "result": "W",
+  "final_src": "espn",
+  "close": -4.5,
+  "clv": 2.0
  },
  {
   "event_id": "f1dad846a15c864b10f3cf4914c7cbd5",
@@ -9730,7 +9770,15 @@
   "neutral": true,
   "logged": "2026-11-23T02:20:43.780425+00:00",
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "final": [
+   77,
+   76
+  ],
+  "result": "W",
+  "final_src": "espn",
+  "close": -3.0,
+  "clv": -0.5
  },
  {
   "event_id": "9fd23b7824675dff70bd989ae6fe4967",
@@ -9755,7 +9803,9 @@
   "neutral": false,
   "logged": "2026-11-23T02:20:43.780425+00:00",
   "site_neutral": false,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -19.5,
+  "clv": 2.0
  },
  {
   "event_id": "8dac68fbecc816a6de76442cf1e28270",
@@ -9857,7 +9907,13 @@
   "site_neutral": true,
   "neutral_missed": false,
   "close": -6.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   48,
+   79
+  ],
+  "result": "L",
+  "final_src": "espn"
  },
  {
   "event_id": "c247dff2509498dedc2b2408ad1d5dd4",
@@ -9882,6 +9938,8 @@
   "neutral": true,
   "logged": "2026-11-23T15:18:51.860868+00:00",
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": 3.0,
+  "clv": 0.0
  }
 ]
