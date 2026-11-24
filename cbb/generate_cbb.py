@@ -384,7 +384,12 @@ def main():
                 g['market'] = 'flat' if not mv else ('agrees' if (edge > 0) == (mv > 0) else 'against')
                 he = g.get('hw_edge')
                 g['both_models'] = he is not None and abs(he) >= SETTINGS['edge_threshold'] and (he > 0) == (edge > 0)
-                if mode == 'picks' and not started and eid not in logged:
+                # Only log games on today's slate (ET): GitHub often runs the 10:45 AM job hours late, and a night run
+                # would otherwise freeze tomorrow's picks with yesterday's ratings and lines. The slate day runs to
+                # 6 AM ET, so a West Coast tip after midnight ET still counts as the evening it belongs to.
+                slate_day = lambda t: (t.astimezone(ET) - timedelta(hours=6)).date()  # noqa: E731
+                tips_today = slate_day(tip) == slate_day(t0)
+                if mode == 'picks' and not started and tips_today and eid not in logged:
                     picks.append({'event_id': eid, 'date': tip.astimezone(ET).strftime('%Y-%m-%d'), 'tip': ev['commence_time'],
                                   'away': g['away'], 'home': g['home'], 'side': side, 'pick': g['pick'],
                                   'line': g['mkt_spread'], 'model_spread': g['model']['home_spread'], 'edge': edge,

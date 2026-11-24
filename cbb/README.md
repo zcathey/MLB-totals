@@ -6,7 +6,7 @@ Live page: https://zcathey.github.io/MLB-totals/cbb/
 
 - `generate_cbb.py` runs in GitHub Actions (`.github/workflows/update_cbb.yml`) three times a day:
   - **8:00 AM ET** (`open`): snapshots lines, grades yesterday's picks from final scores (the 10:45 run grades too, in case this one is late).
-  - **10:45 AM ET** (`picks`): snapshots lines and logs every model pick (edge of 3+ points, no data flags).
+  - **10:45 AM ET** (`picks`): snapshots lines and logs every model pick (edge of 3+ points, no data flags) for games on today's slate only (ET; the slate runs to 6 AM, so a West Coast tip after midnight counts as the night before). Tomorrow's games show on the slate but aren't logged until a picks run on game day, so a late-firing run can't freeze them with the previous day's ratings and lines.
   - **6:30 PM ET** (`late`): snapshots lines so evening games get a closing line.
 - Ratings: Bart Torvik T-Rank CSV (`data/torvik.csv`, refreshed each run; the last good copy is kept if the download fails).
 - Lines: The Odds API (`ODDS_API_KEY` repo secret, shared with the MLB page). About 10 credits a day.
