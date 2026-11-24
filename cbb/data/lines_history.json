@@ -4104,5 +4104,53 @@
   "hardwood_live": 2.9,
   "torvik_total": 141.2,
   "hardwood_total_live": 141.1
+ },
+ "8236efa27962bd6d4b110bb43e861b07": {
+  "date": "2026-11-23",
+  "away": "Eastern Washington",
+  "home": "UNLV",
+  "neutral": false,
+  "close": -8.0,
+  "total": 160.0,
+  "torvik": -7.3,
+  "hardwood_live": -3.3,
+  "torvik_total": 160.2,
+  "hardwood_total_live": 162.6
+ },
+ "b45e9d96ab3298d614e74c19902f3998": {
+  "date": "2026-11-23",
+  "away": "Colorado St.",
+  "home": "Arizona",
+  "neutral": true,
+  "close": -16.0,
+  "total": 158.5,
+  "torvik": -13.6,
+  "hardwood_live": -12.0,
+  "torvik_total": 153.3,
+  "hardwood_total_live": 154.3
+ },
+ "b7a4f6e90eb128b0d569dacbfe487e80": {
+  "date": "2026-11-23",
+  "away": "Alabama St.",
+  "home": "California",
+  "neutral": false,
+  "close": -18.0,
+  "total": 143.0,
+  "torvik": -13.1,
+  "hardwood_live": -10.3,
+  "torvik_total": 144.9,
+  "hardwood_total_live": 143.2
+ },
+ "97b6bfd4b808fd6e1c2d0d35925cd0e2": {
+  "date": "2026-11-23",
+  "away": "San Jose St.",
+  "home": "UC San Diego",
+  "neutral": true,
+  "close": -2.0,
+  "total": 155.0,
+  "torvik": -0.6,
+  "hardwood_live": 7.6,
+  "torvik_total": 157.3,
+  "hardwood_total_live": 168.1
  }
 }
