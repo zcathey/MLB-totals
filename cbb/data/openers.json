@@ -988,5 +988,179 @@
   "total": 143.5,
   "seen": "2026-11-24T00:30:14.780735+00:00",
   "home": "Stanford"
+ },
+ "aa88b3c9dbbd08c5d5b25ea5f6b52bf1": {
+  "home_spread": -1.5,
+  "total": 158.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "BYU"
+ },
+ "963ef5f90b0991bdd17147e22683e18e": {
+  "home_spread": 1.5,
+  "total": 134.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Yale"
+ },
+ "a9d72fa7f4207364b30b2b31daa37521": {
+  "home_spread": 5.5,
+  "total": 158.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Long Beach St."
+ },
+ "b46d2fa42df6e66be9af4204f2f8c609": {
+  "home_spread": -1.5,
+  "total": 132.25,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Lindenwood"
+ },
+ "cebf116689f6c16151415bb0f130dc5b": {
+  "home_spread": -1.5,
+  "total": 142.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Tulsa"
+ },
+ "6eebf254c2b2fe1f45604d6d30c42577": {
+  "home_spread": -0.75,
+  "total": 174.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Wofford"
+ },
+ "9896f5dfb6cf5fefd00dd1b813254965": {
+  "home_spread": 3.5,
+  "total": 156.0,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Robert Morris"
+ },
+ "9529e122f1dafb7c0802b5eb4d0b5ae5": {
+  "home_spread": 2.25,
+  "total": 154.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Bellarmine"
+ },
+ "9bfe60f0e81a07d8ac7c88c95a05879e": {
+  "home_spread": -8.5,
+  "total": 134.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Lehigh"
+ },
+ "89632d555740a0300af46ea6f5562e39": {
+  "home_spread": -5.0,
+  "total": 139.0,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Harvard"
+ },
+ "864548d14d1c51b9eb5c8124103739bd": {
+  "home_spread": -12.5,
+  "total": 150.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Bowling Green"
+ },
+ "56cd92243f65d84421355bf0dadb2a77": {
+  "home_spread": -4.5,
+  "total": 131.0,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Marist"
+ },
+ "1568999acf01fb7bcd3c2eb51a944861": {
+  "home_spread": -13.5,
+  "total": 151.0,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "James Madison"
+ },
+ "7b26240263d57054f865ed13eadc3fc3": {
+  "home_spread": -15.75,
+  "total": 146.75,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Chattanooga"
+ },
+ "cd53ee535b2696ad269d2a8411ee5e44": {
+  "home_spread": -31.0,
+  "total": 141.25,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Villanova"
+ },
+ "ce03e086bc077ee90407285728e44a69": {
+  "home_spread": -27.75,
+  "total": 146.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Indiana"
+ },
+ "28d88203cb1ec82ed778671f2504c112": {
+  "home_spread": -27.0,
+  "total": 145.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Iowa"
+ },
+ "278837a5be17c7fb57ffd1da5eaf812b": {
+  "home_spread": -3.5,
+  "total": 140.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Loyola MD"
+ },
+ "4372f4cc1a42725718b121950f7e4390": {
+  "home_spread": 0.0,
+  "total": 145.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Morgan St."
+ },
+ "72b630289253e0d84e7882c0f2106a48": {
+  "home_spread": -20.0,
+  "total": 128.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Seton Hall"
+ },
+ "e2079f2683b71a764d7c3a4c56504ea1": {
+  "home_spread": -2.5,
+  "total": 157.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Siena"
+ },
+ "efbf615ae4d7d1ab262bb4158cada8db": {
+  "home_spread": -18.5,
+  "total": 152.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "South Florida"
+ },
+ "3a7a826d98d77fdc8fd9f0e0ee77af6c": {
+  "home_spread": -16.5,
+  "total": 146.0,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Louisiana Tech"
+ },
+ "1f58ab67f5b86f2ec0308d6b03affa6b": {
+  "home_spread": 2.0,
+  "total": 151.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Louisiana Monroe"
+ },
+ "b96a1616ca40a186cf203b892683f222": {
+  "home_spread": -4.5,
+  "total": 152.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Air Force"
+ },
+ "17a9a4ec4b37ec676576d40fd025472b": {
+  "home_spread": -3.25,
+  "total": 142.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "North Alabama"
+ },
+ "f63093115e6f6e0280f63f271f97d3c4": {
+  "home_spread": -10.5,
+  "total": 152.75,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Cornell"
+ },
+ "59e3968ce2b702ee8df02da575a47778": {
+  "home_spread": 2.0,
+  "total": 153.0,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "Washington"
+ },
+ "1ae5c95564b806157de7bef407bae0c9": {
+  "home_spread": -18.5,
+  "total": 144.5,
+  "seen": "2026-11-24T02:36:07.238094+00:00",
+  "home": "South Alabama"
  }
 }

@@ -4020,5 +4020,89 @@
   "hardwood_live": -5.8,
   "torvik_total": 139.2,
   "hardwood_total_live": 150.3
+ },
+ "11782e330b7215a8e2f0e3e4e9a27404": {
+  "date": "2026-11-23",
+  "away": "Denver",
+  "home": "Kansas",
+  "neutral": false,
+  "close": -31.5,
+  "total": 158.0,
+  "torvik": -29.1,
+  "hardwood_live": -24.3,
+  "torvik_total": 157.8,
+  "hardwood_total_live": 150.1
+ },
+ "5a237fcf6422f6a245d462ba2a6835dc": {
+  "date": "2026-11-23",
+  "away": "Monmouth",
+  "home": "North Carolina",
+  "neutral": false,
+  "close": -19.0,
+  "total": 153.5,
+  "torvik": -16.5,
+  "hardwood_live": -12.4,
+  "torvik_total": 152.0,
+  "hardwood_total_live": 151.1
+ },
+ "bd51dcc9b4ceb556e17992c7f5fe7f75": {
+  "date": "2026-11-23",
+  "away": "VCU",
+  "home": "Providence",
+  "neutral": true,
+  "close": -1.5,
+  "total": 154.5,
+  "torvik": -0.3,
+  "hardwood_live": -1.8,
+  "torvik_total": 149.7,
+  "hardwood_total_live": 140.9
+ },
+ "69e165166aa1f48345e5bdd45029fb18": {
+  "date": "2026-11-23",
+  "away": "UNC Greensboro",
+  "home": "Pepperdine",
+  "neutral": false,
+  "close": -10.5,
+  "total": 153.5,
+  "torvik": -11.6,
+  "hardwood_live": -4.1,
+  "torvik_total": 155.2,
+  "hardwood_total_live": 161.6
+ },
+ "8dac68fbecc816a6de76442cf1e28270": {
+  "date": "2026-11-23",
+  "away": "Winthrop",
+  "home": "Illinois",
+  "neutral": false,
+  "close": -43.0,
+  "total": 182.5,
+  "torvik": -34.7,
+  "hardwood_live": -41.2,
+  "torvik_total": 178.9,
+  "hardwood_total_live": 181.1
+ },
+ "aed6a97f577438479f8716801fd3d3f9": {
+  "date": "2026-11-23",
+  "away": "Utah Valley",
+  "home": "Stephen F. Austin",
+  "neutral": true,
+  "close": 4.0,
+  "total": 146.0,
+  "torvik": 2.0,
+  "hardwood_live": 4.4,
+  "torvik_total": 147.6,
+  "hardwood_total_live": 160.5
+ },
+ "cac32b9a0db74c5e4ff90ebbbbcaab93": {
+  "date": "2026-11-23",
+  "away": "Loyola Chicago",
+  "home": "Seattle",
+  "neutral": true,
+  "close": -1.5,
+  "total": 140.0,
+  "torvik": -0.7,
+  "hardwood_live": 2.9,
+  "torvik_total": 141.2,
+  "hardwood_total_live": 141.1
  }
 }
