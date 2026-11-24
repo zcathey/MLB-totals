@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T22:18:19.642491+00:00",
+ "generated_at": "2026-11-24T00:42:05.212685+00:00",
  "mode": "picks",
  "season": 2026,
  "week": 11,
@@ -11,7 +11,7 @@
  "lines": {
   "status": "ok",
   "events": 17,
-  "credits_remaining": "196"
+  "credits_remaining": "190"
  },
  "settings": {
   "points_base": 23.0,
@@ -512,7 +512,7 @@
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": 6.5,
-    "px": -107,
+    "px": -106,
     "book": "Pinnacle"
    },
    "best_away": {
@@ -527,7 +527,7 @@
    },
    "best_under": {
     "pt": 54.5,
-    "px": -106,
+    "px": -113,
     "book": "DraftKings"
    },
    "open_spread": 6.5,
