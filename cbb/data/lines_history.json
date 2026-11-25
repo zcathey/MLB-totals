@@ -5052,5 +5052,17 @@
   "hardwood_live": 6.6,
   "torvik_total": 147.2,
   "hardwood_total_live": 148.3
+ },
+ "62f11de81607e09d5edea5c4e1b26feb": {
+  "date": "2026-11-25",
+  "away": "Gonzaga",
+  "home": "Kansas St.",
+  "neutral": false,
+  "close": 15.0,
+  "total": 157.5,
+  "torvik": 7.6,
+  "hardwood_live": 2.5,
+  "torvik_total": 160.2,
+  "hardwood_total_live": 157.3
  }
 }
