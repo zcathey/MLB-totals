@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T22:58:00.401601+00:00",
+ "generated_at": "2026-11-25T22:20:07.928968+00:00",
  "mode": "picks",
  "season": 2026,
  "week": 12,
@@ -11,7 +11,7 @@
  "lines": {
   "status": "ok",
   "events": 30,
-  "credits_remaining": "164"
+  "credits_remaining": "144"
  },
  "settings": {
   "points_base": 23.0,
@@ -37,29 +37,29 @@
    "started": false,
    "away_qb": "Jordan Love",
    "home_qb": "Matthew Stafford",
-   "books": 6,
+   "books": 8,
    "mkt_spread": -2.5,
-   "mkt_total": 44.5,
+   "mkt_total": 43.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -1.5,
-    "px": -122,
-    "book": "BetOnline"
+    "pt": -2.5,
+    "px": -110,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 2.5,
-    "px": -108,
-    "book": "FanDuel"
+    "px": 100,
+    "book": "BetMGM"
    },
    "best_over": {
-    "pt": 43.5,
-    "px": -114,
-    "book": "BetRivers"
+    "pt": 43.0,
+    "px": -110,
+    "book": "BetOnline"
    },
    "best_under": {
-    "pt": 44.5,
-    "px": -120,
-    "book": "FanDuel"
+    "pt": 43.5,
+    "px": -107,
+    "book": "DraftKings"
    },
    "open_spread": -2.5,
    "open_total": 44.5,
@@ -72,8 +72,8 @@
    },
    "edge": 0.5,
    "move": 0.0,
-   "total_edge": -0.2,
-   "total_move": 0.0,
+   "total_edge": 0.8,
+   "total_move": -1.0,
    "blocked": false
   },
   {
@@ -89,29 +89,29 @@
    "started": false,
    "away_qb": "Caleb Williams",
    "home_qb": "Jared Goff",
-   "books": 6,
-   "mkt_spread": 2.5,
+   "books": 8,
+   "mkt_spread": 1.0,
    "mkt_total": 55.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 2.5,
-    "px": -104,
-    "book": "Pinnacle"
+    "pt": 1.5,
+    "px": -108,
+    "book": "BetRivers"
    },
    "best_away": {
-    "pt": -2.5,
-    "px": -108,
+    "pt": -1.0,
+    "px": -107,
     "book": "Pinnacle"
    },
    "best_over": {
-    "pt": 55.5,
-    "px": -104,
-    "book": "DraftKings"
+    "pt": 55.0,
+    "px": -114,
+    "book": "BetRivers"
    },
    "best_under": {
     "pt": 55.5,
     "px": -108,
-    "book": "BetOnline"
+    "book": "FanDuel"
    },
    "open_spread": 2.5,
    "open_total": 55.5,
@@ -122,11 +122,11 @@
     "home_spread": -9.1,
     "total": 56.7
    },
-   "edge": -11.6,
-   "move": 0.0,
-   "pick": "Detroit +2.5",
+   "edge": -10.1,
+   "move": -1.5,
+   "pick": "Detroit +1",
    "pick_side": "home",
-   "market": "flat",
+   "market": "agrees",
    "total_edge": 1.2,
    "total_move": 0.0,
    "blocked": false
@@ -144,29 +144,29 @@
    "started": false,
    "away_qb": "Joe Milton III",
    "home_qb": "Dak Prescott",
-   "books": 6,
+   "books": 8,
    "mkt_spread": -8.5,
    "mkt_total": 47.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -8.5,
-    "px": -106,
-    "book": "Pinnacle"
+    "px": -108,
+    "book": "BetMGM"
    },
    "best_away": {
-    "pt": 10.0,
-    "px": -126,
+    "pt": 9.0,
+    "px": -110,
     "book": "BetOnline"
    },
    "best_over": {
     "pt": 47.5,
-    "px": -115,
-    "book": "DraftKings"
+    "px": -114,
+    "book": "Pinnacle"
    },
    "best_under": {
-    "pt": 48.5,
-    "px": -115,
-    "book": "FanDuel"
+    "pt": 48.0,
+    "px": -110,
+    "book": "BetOnline"
    },
    "open_spread": -8.5,
    "open_total": 47.5,
@@ -201,29 +201,29 @@
    "started": false,
    "away_qb": "Patrick Mahomes",
    "home_qb": "Josh Allen",
-   "books": 6,
+   "books": 8,
    "mkt_spread": -2.5,
-   "mkt_total": 47.5,
+   "mkt_total": 46.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -2.5,
-    "px": -115,
+    "px": -116,
     "book": "Pinnacle"
    },
    "best_away": {
     "pt": 3.0,
     "px": -115,
-    "book": "BetRivers"
+    "book": "ESPN BET"
    },
    "best_over": {
-    "pt": 47.5,
-    "px": -101,
-    "book": "Pinnacle"
+    "pt": 46.0,
+    "px": -110,
+    "book": "BetOnline"
    },
    "best_under": {
-    "pt": 47.5,
-    "px": -109,
-    "book": "BetRivers"
+    "pt": 46.5,
+    "px": -106,
+    "book": "Pinnacle"
    },
    "open_spread": -2.5,
    "open_total": 48.5,
@@ -239,9 +239,9 @@
    "pick": "Kansas City +2.5",
    "pick_side": "away",
    "market": "flat",
-   "total_edge": 7.8,
-   "total_move": -1.0,
-   "total_pick": "Over 47.5",
+   "total_edge": 8.8,
+   "total_move": -2.0,
+   "total_pick": "Over 46.5",
    "total_side": "over",
    "blocked": false
   },
@@ -257,45 +257,47 @@
    "neutral": false,
    "started": false,
    "away_qb": "Bo Nix",
-   "home_qb": "Aaron Rodgers",
-   "books": 6,
-   "mkt_spread": 2.5,
-   "mkt_total": 37.0,
+   "home_qb": "Mason Rudolph",
+   "books": 8,
+   "mkt_spread": 3.5,
+   "mkt_total": 36.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 3.0,
-    "px": -115,
-    "book": "BetRivers"
+    "pt": 4.0,
+    "px": -110,
+    "book": "ESPN BET"
    },
    "best_away": {
-    "pt": -2.5,
-    "px": -119,
+    "pt": -3.5,
+    "px": -109,
     "book": "Pinnacle"
    },
    "best_over": {
-    "pt": 37.0,
-    "px": -110,
+    "pt": 36.0,
+    "px": -118,
     "book": "Pinnacle"
    },
    "best_under": {
-    "pt": 38.0,
-    "px": -113,
-    "book": "BetRivers"
+    "pt": 36.5,
+    "px": -105,
+    "book": "DraftKings"
    },
    "open_spread": 2.5,
    "open_total": 38.0,
-   "flags": [],
+   "flags": [
+    "Pittsburgh: Rudolph has no starts; rating is from Rodgers (10 of 10)"
+   ],
    "model": {
     "away_pts": 20.6,
     "home_pts": 16.9,
     "home_spread": 3.8,
     "total": 37.5
    },
-   "edge": 1.3,
-   "move": 0.0,
-   "total_edge": 0.5,
-   "total_move": -1.0,
-   "blocked": false
+   "edge": 0.3,
+   "move": 1.0,
+   "total_edge": 1.5,
+   "total_move": -2.0,
+   "blocked": true
   },
   {
    "game_id": "2026_12_NO_CIN",
@@ -310,14 +312,14 @@
    "started": false,
    "away_qb": "Tyler Shough",
    "home_qb": "Joe Burrow",
-   "books": 6,
+   "books": 8,
    "mkt_spread": -10.0,
-   "mkt_total": 50.5,
+   "mkt_total": 49.0,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -9.5,
-    "px": -120,
-    "book": "FanDuel"
+    "px": -110,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 10.0,
@@ -325,14 +327,14 @@
     "book": "BetMGM"
    },
    "best_over": {
-    "pt": 50.5,
-    "px": -107,
-    "book": "DraftKings"
+    "pt": 49.0,
+    "px": -115,
+    "book": "Pinnacle"
    },
    "best_under": {
-    "pt": 50.5,
-    "px": -106,
-    "book": "Pinnacle"
+    "pt": 50.0,
+    "px": -113,
+    "book": "BetRivers"
    },
    "open_spread": -10.0,
    "open_total": 50.5,
@@ -345,8 +347,8 @@
    },
    "edge": 1.9,
    "move": 0.0,
-   "total_edge": 0.9,
-   "total_move": 0.0,
+   "total_edge": 2.4,
+   "total_move": -1.5,
    "blocked": false
   },
   {
@@ -362,29 +364,29 @@
    "started": false,
    "away_qb": "Jacoby Brissett",
    "home_qb": "C.J. Stroud",
-   "books": 6,
+   "books": 8,
    "mkt_spread": -6.5,
-   "mkt_total": 46.5,
+   "mkt_total": 47.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -6.5,
-    "px": -114,
-    "book": "BetRivers"
+    "px": -105,
+    "book": "ESPN BET"
    },
    "best_away": {
     "pt": 7.0,
-    "px": -116,
+    "px": -115,
     "book": "BetOnline"
    },
    "best_over": {
-    "pt": 46.5,
-    "px": -117,
-    "book": "BetRivers"
+    "pt": 47.0,
+    "px": -112,
+    "book": "BetMGM"
    },
    "best_under": {
     "pt": 47.5,
-    "px": -115,
-    "book": "FanDuel"
+    "px": -108,
+    "book": "Pinnacle"
    },
    "open_spread": -6.5,
    "open_total": 46.5,
@@ -402,8 +404,8 @@
    "pick": "Baltimore +6.5",
    "pick_side": "away",
    "market": "flat",
-   "total_edge": -1.0,
-   "total_move": 0.0,
+   "total_edge": -2.0,
+   "total_move": 1.0,
    "blocked": true
   },
   {
@@ -419,24 +421,24 @@
    "started": false,
    "away_qb": "J.J. McCarthy",
    "home_qb": "Anthony Richardson",
-   "books": 6,
+   "books": 8,
    "mkt_spread": 6.5,
    "mkt_total": 42.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 7.0,
-    "px": -123,
-    "book": "BetOnline"
+    "pt": 6.5,
+    "px": -106,
+    "book": "DraftKings"
    },
    "best_away": {
-    "pt": -6.5,
-    "px": -107,
-    "book": "Pinnacle"
+    "pt": -6.0,
+    "px": -110,
+    "book": "ESPN BET"
    },
    "best_over": {
-    "pt": 41.5,
-    "px": -108,
-    "book": "BetMGM"
+    "pt": 40.5,
+    "px": -115,
+    "book": "BetRivers"
    },
    "best_under": {
     "pt": 42.5,
@@ -474,9 +476,9 @@
    "started": false,
    "away_qb": "Cam Ward",
    "home_qb": "Trevor Lawrence",
-   "books": 6,
+   "books": 8,
    "mkt_spread": -14.5,
-   "mkt_total": 47.5,
+   "mkt_total": 48.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -14.5,
@@ -484,19 +486,19 @@
     "book": "DraftKings"
    },
    "best_away": {
-    "pt": 14.5,
-    "px": -105,
-    "book": "BetOnline"
+    "pt": 15.5,
+    "px": -113,
+    "book": "BetRivers"
    },
    "best_over": {
-    "pt": 47.5,
-    "px": -108,
+    "pt": 48.5,
+    "px": -106,
     "book": "BetRivers"
    },
    "best_under": {
-    "pt": 48.5,
-    "px": -115,
-    "book": "FanDuel"
+    "pt": 49.5,
+    "px": -110,
+    "book": "ESPN BET"
    },
    "open_spread": -14.5,
    "open_total": 47.5,
@@ -512,10 +514,8 @@
    "pick": "Tennessee +14.5",
    "pick_side": "away",
    "market": "flat",
-   "total_edge": 4.3,
-   "total_move": 0.0,
-   "total_pick": "Over 47.5",
-   "total_side": "over",
+   "total_edge": 3.3,
+   "total_move": 1.0,
    "blocked": false
   },
   {
@@ -531,28 +531,28 @@
    "started": false,
    "away_qb": "Geno Smith",
    "home_qb": "Kyle McCord",
-   "books": 6,
-   "mkt_spread": 3.5,
+   "books": 8,
+   "mkt_spread": 4.0,
    "mkt_total": 41.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 4.0,
-    "px": -112,
-    "book": "BetMGM"
+    "pt": 5.0,
+    "px": -108,
+    "book": "Bovada"
    },
    "best_away": {
     "pt": -3.5,
-    "px": -107,
-    "book": "Pinnacle"
+    "px": -115,
+    "book": "DraftKings"
    },
    "best_over": {
-    "pt": 40.5,
+    "pt": 40.0,
     "px": -110,
-    "book": "FanDuel"
+    "book": "BetOnline"
    },
    "best_under": {
     "pt": 41.0,
-    "px": -109,
+    "px": -117,
     "book": "Pinnacle"
    },
    "open_spread": 3.5,
@@ -566,8 +566,11 @@
     "home_spread": 1.0,
     "total": 39.2
    },
-   "edge": -2.5,
-   "move": 0.0,
+   "edge": -3.0,
+   "move": 0.5,
+   "pick": "Miami +4",
+   "pick_side": "home",
+   "market": "against",
    "total_edge": -1.8,
    "total_move": 0.0,
    "blocked": true
@@ -585,14 +588,14 @@
    "started": false,
    "away_qb": "Michael Penix Jr.",
    "home_qb": "Kirk Cousins",
-   "books": 6,
+   "books": 8,
    "mkt_spread": -7.0,
    "mkt_total": 41.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -7.0,
-    "px": 100,
-    "book": "DraftKings"
+    "pt": -6.5,
+    "px": -117,
+    "book": "BetRivers"
    },
    "best_away": {
     "pt": 7.0,
@@ -606,8 +609,8 @@
    },
    "best_under": {
     "pt": 42.5,
-    "px": -112,
-    "book": "BetRivers"
+    "px": -115,
+    "book": "ESPN BET"
    },
    "open_spread": -7.0,
    "open_total": 41.5,
@@ -642,19 +645,19 @@
    "started": false,
    "away_qb": "Drake Maye",
    "home_qb": "Justin Herbert",
-   "books": 6,
+   "books": 8,
    "mkt_spread": -1.0,
    "mkt_total": 35.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 0.0,
-    "px": -110,
-    "book": "BetOnline"
-   },
-   "best_away": {
     "pt": 1.5,
     "px": -115,
     "book": "FanDuel"
+   },
+   "best_away": {
+    "pt": 1.0,
+    "px": -120,
+    "book": "Pinnacle"
    },
    "best_over": {
     "pt": 35.0,
@@ -663,7 +666,7 @@
    },
    "best_under": {
     "pt": 36.5,
-    "px": -118,
+    "px": -115,
     "book": "BetRivers"
    },
    "open_spread": -1.25,
@@ -699,18 +702,18 @@
    "started": false,
    "away_qb": "Jayden Daniels",
    "home_qb": "Gardner Minshew",
-   "books": 6,
+   "books": 8,
    "mkt_spread": 7.5,
    "mkt_total": 41.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": 7.5,
-    "px": -122,
-    "book": "Pinnacle"
+    "pt": 8.0,
+    "px": -130,
+    "book": "BetOnline"
    },
    "best_away": {
     "pt": -7.0,
-    "px": -109,
+    "px": -106,
     "book": "DraftKings"
    },
    "best_over": {
@@ -758,29 +761,29 @@
    "started": false,
    "away_qb": "Sam Darnold",
    "home_qb": "Brock Purdy",
-   "books": 6,
-   "mkt_spread": -3.0,
-   "mkt_total": 45.0,
+   "books": 8,
+   "mkt_spread": -2.5,
+   "mkt_total": 44.0,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -3.0,
-    "px": -108,
-    "book": "BetRivers"
+    "pt": -2.5,
+    "px": -110,
+    "book": "ESPN BET"
    },
    "best_away": {
-    "pt": 3.5,
-    "px": -118,
-    "book": "DraftKings"
+    "pt": 3.0,
+    "px": -121,
+    "book": "BetRivers"
    },
    "best_over": {
-    "pt": 45.0,
-    "px": -110,
-    "book": "BetOnline"
+    "pt": 44.0,
+    "px": -112,
+    "book": "Pinnacle"
    },
    "best_under": {
-    "pt": 46.0,
-    "px": -112,
-    "book": "BetRivers"
+    "pt": 44.5,
+    "px": -110,
+    "book": "DraftKings"
    },
    "open_spread": -3.0,
    "open_total": 46.5,
@@ -793,10 +796,10 @@
     "home_spread": -3.3,
     "total": 43.4
    },
-   "edge": -0.3,
-   "move": 0.0,
-   "total_edge": -1.6,
-   "total_move": -1.5,
+   "edge": -0.8,
+   "move": 0.5,
+   "total_edge": -0.6,
+   "total_move": -2.5,
    "blocked": true
   },
   {
@@ -812,9 +815,9 @@
    "started": false,
    "away_qb": "Fernando Mendoza",
    "home_qb": "Deshaun Watson",
-   "books": 6,
+   "books": 8,
    "mkt_spread": -4.5,
-   "mkt_total": 41.5,
+   "mkt_total": 40.5,
    "spread_src": "Pinnacle",
    "best_home": {
     "pt": -4.5,
@@ -822,19 +825,19 @@
     "book": "DraftKings"
    },
    "best_away": {
-    "pt": 4.5,
-    "px": -105,
-    "book": "FanDuel"
+    "pt": 5.0,
+    "px": -112,
+    "book": "Bovada"
    },
    "best_over": {
-    "pt": 40.0,
-    "px": -112,
-    "book": "BetOnline"
+    "pt": 39.5,
+    "px": -116,
+    "book": "DraftKings"
    },
    "best_under": {
-    "pt": 41.5,
-    "px": -110,
-    "book": "BetRivers"
+    "pt": 40.5,
+    "px": -115,
+    "book": "FanDuel"
    },
    "open_spread": -4.5,
    "open_total": 41.5,
@@ -852,9 +855,9 @@
    "pick": "Las Vegas +4.5",
    "pick_side": "away",
    "market": "flat",
-   "total_edge": 6.7,
-   "total_move": 0.0,
-   "total_pick": "Over 41.5",
+   "total_edge": 7.7,
+   "total_move": -1.0,
+   "total_pick": "Over 40.5",
    "total_side": "over",
    "blocked": true
   },
@@ -871,24 +874,24 @@
    "started": false,
    "away_qb": "Bryce Young",
    "home_qb": "Baker Mayfield",
-   "books": 6,
+   "books": 8,
    "mkt_spread": -3.0,
    "mkt_total": 43.5,
    "spread_src": "Pinnacle",
    "best_home": {
-    "pt": -3.0,
-    "px": 100,
-    "book": "FanDuel"
+    "pt": -2.5,
+    "px": -120,
+    "book": "BetRivers"
    },
    "best_away": {
     "pt": 3.0,
-    "px": -109,
-    "book": "Pinnacle"
+    "px": -105,
+    "book": "ESPN BET"
    },
    "best_over": {
     "pt": 43.5,
-    "px": -107,
-    "book": "Pinnacle"
+    "px": -105,
+    "book": "ESPN BET"
    },
    "best_under": {
     "pt": 43.5,
