@@ -5400,5 +5400,89 @@
   "hardwood_live": -28.7,
   "torvik_total": 149.4,
   "hardwood_total_live": 147.8
+ },
+ "836e49363e2e574ede8873b9e53cb5f7": {
+  "date": "2026-11-25",
+  "away": "South Carolina",
+  "home": "USC",
+  "neutral": true,
+  "close": -10.0,
+  "total": 144.5,
+  "torvik": -8.9,
+  "hardwood_live": -12.8,
+  "torvik_total": 147.0,
+  "hardwood_total_live": 150.4
+ },
+ "15a92ac931f0e07923ce6f87c599a20d": {
+  "date": "2026-11-25",
+  "away": "Cal St. Northridge",
+  "home": "Weber St.",
+  "neutral": false,
+  "close": 2.0,
+  "total": 167.5,
+  "torvik": 1.2,
+  "hardwood_live": 1.9,
+  "torvik_total": 171.0,
+  "hardwood_total_live": 174.3
+ },
+ "985ed2684e4f7145af44f9ab8ba3b240": {
+  "date": "2026-11-25",
+  "away": "BYU",
+  "home": "Providence",
+  "neutral": true,
+  "close": 2.5,
+  "total": 155.0,
+  "torvik": 4.3,
+  "hardwood_live": 3.8,
+  "torvik_total": 152.3,
+  "hardwood_total_live": 149.5
+ },
+ "0ec8ea3a510487bfe5c36c23bbd99048": {
+  "date": "2026-11-25",
+  "away": "Albany",
+  "home": "Syracuse",
+  "neutral": false,
+  "close": -24.5,
+  "total": 145.0,
+  "torvik": -22.3,
+  "hardwood_live": -20.9,
+  "torvik_total": 152.4,
+  "hardwood_total_live": 154.0
+ },
+ "7d634711ef483a1dd9f38dfaa54f6ac3": {
+  "date": "2026-11-25",
+  "away": "Bethune Cookman",
+  "home": "Richmond",
+  "neutral": false,
+  "close": -11.5,
+  "total": 147.0,
+  "torvik": -7.5,
+  "hardwood_live": -8.8,
+  "torvik_total": 152.3,
+  "hardwood_total_live": 156.6
+ },
+ "f0f0b454eef63dd1b844b600289ef264": {
+  "date": "2026-11-25",
+  "away": "West Florida",
+  "home": "Northwestern St.",
+  "neutral": false,
+  "close": -1.5,
+  "total": 139.0,
+  "torvik": -4.2,
+  "hardwood_live": 1.2,
+  "torvik_total": 141.5,
+  "hardwood_total_live": 148.8
+ },
+ "f52a7bbdb47fd52438b0be34a4377f53": {
+  "date": "2026-11-25",
+  "away": "Kennesaw St.",
+  "home": "Charleston",
+  "neutral": true,
+  "close": -1.0,
+  "total": 160.0,
+  "torvik": 1.7,
+  "hardwood_live": 1.4,
+  "torvik_total": 161.7,
+  "hardwood_total_live": 159.5
  }
 }
