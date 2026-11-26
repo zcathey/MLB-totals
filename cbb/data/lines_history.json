@@ -5736,5 +5736,17 @@
   "hardwood_live": -0.5,
   "torvik_total": 150.0,
   "hardwood_total_live": 153.4
+ },
+ "22c0c9538b8e804cc96baa21c839726f": {
+  "date": "2026-11-26",
+  "away": "Georgia",
+  "home": "Cincinnati",
+  "neutral": true,
+  "close": -2.5,
+  "total": 155.0,
+  "torvik": -1.6,
+  "hardwood_live": -3.4,
+  "torvik_total": 156.3,
+  "hardwood_total_live": 151.8
  }
 }

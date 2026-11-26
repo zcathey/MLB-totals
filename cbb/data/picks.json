@@ -11231,5 +11231,80 @@
   "logged": "2026-11-26T14:21:28.444070+00:00",
   "site_neutral": true,
   "neutral_missed": false
+ },
+ {
+  "event_id": "35a3f7e451a688a08a5aec9c161172e1",
+  "date": "2026-11-26",
+  "tip": "2026-11-26T17:00:00Z",
+  "away": "Army",
+  "home": "UTSA",
+  "side": "home",
+  "pick": "UTSA -11.5",
+  "line": -11.5,
+  "model_spread": -15.3,
+  "edge": -3.8,
+  "market": "against",
+  "move_at_pick": 2.5,
+  "best": {
+   "pt": -10.0,
+   "px": -115,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": -14.0,
+  "both_models": false,
+  "neutral": false,
+  "logged": "2026-11-26T16:45:07.734105+00:00",
+  "site_neutral": false,
+  "neutral_missed": false
+ },
+ {
+  "event_id": "b71753c18ee4bb20584550465299033b",
+  "date": "2026-11-26",
+  "tip": "2026-11-26T19:00:00Z",
+  "away": "South Carolina",
+  "home": "Arizona St.",
+  "side": "away",
+  "pick": "South Carolina +5",
+  "line": -5.0,
+  "model_spread": -1.9,
+  "edge": 3.1,
+  "market": "against",
+  "move_at_pick": -1.5,
+  "best": {
+   "pt": 5.0,
+   "px": -110,
+   "book": "BetOnline"
+  },
+  "hardwood_spread": 0.8,
+  "both_models": true,
+  "neutral": true,
+  "logged": "2026-11-26T16:45:07.734105+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
+ },
+ {
+  "event_id": "ddd97a754132d5db69231a8b2fe84a9b",
+  "date": "2026-11-26",
+  "tip": "2026-11-26T20:30:00Z",
+  "away": "Tennessee",
+  "home": "Iowa St.",
+  "side": "away",
+  "pick": "Tennessee +4.5",
+  "line": -4.5,
+  "model_spread": -0.7,
+  "edge": 3.8,
+  "market": "against",
+  "move_at_pick": -3.0,
+  "best": {
+   "pt": 4.5,
+   "px": -110,
+   "book": "ESPN BET"
+  },
+  "hardwood_spread": -0.5,
+  "both_models": true,
+  "neutral": true,
+  "logged": "2026-11-26T16:45:07.734105+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
  }
 ]
