@@ -11181,5 +11181,55 @@
   "final_src": "espn",
   "close": -20.0,
   "clv": 0.0
+ },
+ {
+  "event_id": "fce1d0e39b7353f5d69bc77cf21ee9d1",
+  "date": "2026-11-26",
+  "tip": "2026-11-26T18:00:00Z",
+  "away": "Maryland",
+  "home": "San Diego St.",
+  "side": "home",
+  "pick": "San Diego St. +4.5",
+  "line": 4.5,
+  "model_spread": -0.1,
+  "edge": -4.6,
+  "market": "against",
+  "move_at_pick": 3.0,
+  "best": {
+   "pt": 4.5,
+   "px": -105,
+   "book": "ESPN BET"
+  },
+  "hardwood_spread": -1.8,
+  "both_models": true,
+  "neutral": true,
+  "logged": "2026-11-26T14:21:28.444070+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
+ },
+ {
+  "event_id": "ff463f606d0a8912ca36a58b809e5f9e",
+  "date": "2026-11-26",
+  "tip": "2026-11-27T02:00:00Z",
+  "away": "Kansas St.",
+  "home": "Alabama",
+  "side": "away",
+  "pick": "Kansas St. +15",
+  "line": -15.0,
+  "model_spread": -9.7,
+  "edge": 5.3,
+  "market": "against",
+  "move_at_pick": -1.5,
+  "best": {
+   "pt": 15.0,
+   "px": -114,
+   "book": "Pinnacle"
+  },
+  "hardwood_spread": -10.5,
+  "both_models": true,
+  "neutral": true,
+  "logged": "2026-11-26T14:21:28.444070+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
  }
 ]
