@@ -1,91 +1,73 @@
-# CBB — Wednesday, Nov 25, 2026
+# CBB — Thursday, Nov 26, 2026 (Thanksgiving)
 
-**Card (paper trades): Northeastern +20 · Prairie View A&M +13.5 · Southern +35 (lean pass)**
+**No plays today.** Two picks were logged, and the market moved against both.
 
-**Best bet: Northeastern +20.5 at Wisconsin** (BetRivers −110; +20 at Pinnacle; 7:00 PM ET). Both models are well inside the number (Torvik WIS −14.6, Hardwood −9.9), the line has come 1.5 our way since it opened, and the one injury in the game (a Wisconsin bench guard) was already public before the opener. Best-bet record: 5-3-1 ([ledger](best_bets.md)).
+**Best bet:** none today. Best-bet record: 5-4-1 ([ledger](best_bets.md)).
 
 Every pick is a paper trade until about mid-December, when Torvik's preseason priors wash out.
 
-Data: the 10:45 AM picks run hadn't fired by 11:44 AM ET, so I started it by hand; it finished at 11:44 AM. Lines OK (152 Odds API credits left). Ratings are fresh (Zach's upload, 9:33 AM ET). Two unmatched names; see Notes.
+Data: I started the picks run early (9:21 AM ET), at Zach's request, so the 11 AM tips are covered. Lines OK (132 Odds API credits left). Ratings are fresh (Zach's upload, 9:17 AM ET). No unmatched names.
 
 ---
 
-## Yesterday (Nov 24)
+## Yesterday (Nov 25)
 
-**Card: 2-2** at write-up lines.
+**Card: 2-1** at write-up lines.
 
-- Tarleton St. +1.5 (best bet): lost 89-87 at Weber St. **L** by half a point. Closed WEB −2, so −1 CLV. The market went the other way after we wrote it up.
-- Jacksonville +27: lost 82-64 (by 18). **W**
-- Milwaukee +34 (flagged, I said pass): lost 76-67 (by 9). **W**
-- Alcorn St. +16: lost 83-41. **L**
+- Northeastern +20.5 (best bet): lost 91-54 at Wisconsin. **L**, and never close. Closed WIS −20, so no CLV.
+- Prairie View A&M +13.5: lost 64-58 (by 6). **W**
+- Southern +35 (lean pass): lost 101-72 (by 29). **W**
 
-All 24 graded picks dated Nov 24:
+All 12 graded picks dated Nov 25 (this includes Kansas St. +16 vs Gonzaga, the 12:30 AM tip already reported yesterday):
 
 | Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Agrees | 2-2-0 | −0.75 | 0/4 |
-| Against | 7-9-0 | +0.12 | 6/16 |
-| Flat | 1-3-0 | +1.25 | 4/4 |
-| **All** | **10-14-0** | **+0.17** | **10/24** |
+| Agrees | 2-1-0 | 0.00 | 0/3 |
+| Against | 5-2-0 | +0.29 | 3/7 |
+| Flat | 2-0-0 | +1.00 | 1/2 |
+| **All** | **9-3-0** | **+0.33** | **4/12** |
 
-Plus the late game: Kansas St. +16 vs Gonzaga (Las Vegas, 12:30 AM ET tip, filed under Nov 25) lost 101-61. **L**, +1.0 CLV.
-
-A bad day for the agrees bucket. All four agrees picks closed worse than we logged them.
+A good W-L day on thin CLV. Most picks closed right where we logged them, so treat the 9-3 as mostly luck. Bellarmine +7 won outright (66-52), and Albany +26.5 (closed −24.5, +2 CLV) was the best number we got.
 
 ### Season to date
 
 | Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
-| Agrees | 29-25-0 | +0.17 | 32% |
-| Against | 68-77-1 | +0.38 | 37% |
-| Flat | 87-53-1 | +0.62 | 56% |
-| **All** | **184-155-2** | **+0.45** | **44%** |
+| Agrees | 31-26-0 | +0.16 | 30% |
+| Against | 73-78-1 | +0.38 | 37% |
+| Flat | 89-53-1 | +0.63 | 56% |
+| **All** | **193-157-2** | **+0.44** | **44%** |
 
-Same story as all week. Flat is the best bucket on every measure, and agrees is the worst on CLV. The bucket we "play" has the weakest closing-line record. At 54 picks that may be noise, but if it holds into December, the confirmation rule may need rethinking.
+No change in the pattern. Flat leads on every measure, and agrees still beats the close less than a third of the time.
 
-**Best bet:** Tarleton St. +1.5 lost by 2. Ledger is now 5-3-1, with losses on three of the last four.
+**Best bet:** Northeastern lost by 37. The ledger is 5-4-1, with losses on four of the last five, all as road underdogs. Three of those were 19.5+ point dogs.
 
 ---
 
 ## Today's card
 
-| Tip (ET) | Pick | Torvik (HW) | Mkt (open) | Edge | Best price |
-|---|---|---|---|---|---|
-| 4:00 PM | Prairie View A&M +13.5 at Marshall | MAR −8.8 (−12.8) | −13.5 (−15.5) | 4.7 | +14.5 −115 DraftKings |
-| 5:00 PM | Southern +35 at Nebraska | NEB −28.0 (−28.7) | −35 (−35.5) | 7.0 | +35.5 −132 BetRivers |
-| 7:00 PM | **Northeastern +20 at Wisconsin** | WIS −14.6 (−9.9) | −20 (−21.5) | 5.4 | +20.5 −110 BetRivers |
-
-Spreads are the home team's. HW = Hardwood. All three are campus games. Every team has played 6+ games; no tempo flags.
-
-- **Northeastern +20 (best bet):** both models agree, and Hardwood's edge (10.1) is the biggest on the card. Wisconsin is 4-2. It went 0-2 at the Baha Mar event, losing to Seton Hall and then 70-53 to Murray St., and Greg Gard publicly questioned the team's effort ([SI](https://si.com/college/wisconsin/basketball/wisconsin-head-coach-greg-gard-uses-a-colorful-quip-in-analyzing-badgers-struggles)). Reserve guard Jack Janicki (4.0 ppg, 17.8 min) is out for the season after foot surgery ([AP via Fox](https://www.foxsports.com/articles/cbk/wisconsin-guard-jack-janicki-is-undergoing-seasonending-foot-surgery)). That was announced Nov 23, before our opener (Nov 24 evening), and he's a defensive sub, so it doesn't explain the 1.5-point move. No Northeastern injuries found. The [SI preview](https://www.si.com/college/wisconsin/basketball/struggling-wisconsin-should-be-tested-by-northeastern-s-starting-lineup) lists full starting lineups with no caveats. Caveats: Northeastern is 2-4 (0-4 on the road) with a bottom-40 defense by KenPom, and this is a 20-point road dog, the model's weak spot. The total also fell 5 points (158.5 to 153.5) and I found no news to explain it. Modest confidence.
-- **Prairie View A&M +13.5:** Torvik only. Hardwood (−12.8) is within a point of the market. The line moved 2 from −15.5 with no injury news found for either side ([WMUL preview](https://www.marshall.edu/wmul/2026/11/24/herd-plays-host-to-prairie-view-am-in-first-matchup/); Covers shows no Marshall injuries). Both teams are 2-4, and PVAM has lost four straight. Lower confidence.
-- **Southern +35 (lean pass):** both models agree (Torvik 7.0, Hardwood 6.3), but the move is half a point, and No. 21 Nebraska is 6-0 at a sold-out home game ([Huskers.com](https://huskers.com/news/2026/11/24/no-21-huskers-return-home-to-face-southern-on-wednesday)). No injuries listed. 30+ point road dogs are where this model has been least trustworthy, and the extra half point costs −132. I'd log it and not play it.
+No plays. Thanksgiving has 21 games, and 20 of them are at neutral-site events: three Las Vegas arenas (including Players Era), plus Palm Springs, Kissimmee, Fort Myers, San Diego and Detroit. ESPN flagged all of them, so the model already projects them with no home court. Most lines sit within 3 points of Torvik, which is what you'd expect for well-known teams in high-profile events.
 
 ---
 
-## Logged but passing
+## Logged but passing (market against)
 
-**Market against:**
+| Tip (ET) | Pick | Torvik (HW) | Mkt (open) | Edge | Best price |
+|---|---|---|---|---|---|
+| 1:00 PM | San Diego St. +4.5 vs Maryland | SDSU −0.1 (−1.8) | +4.5 (+1.5) | 4.6 | +4.5 −105 ESPN BET |
+| 9:00 PM | Kansas St. +15 vs Alabama | BAMA −9.7 (−10.5) | −15 (−13.5) | 5.3 | +15 −114 Pinnacle |
 
-- **Jackson St. +35.5 at Oklahoma St.:** biggest edge on the slate (Torvik 10.5, Hardwood 7.0), half a point against. Another 35-point road dog.
-- **Bellarmine +7 at Northern Kentucky:** both models (Hardwood edge 8.7), half a point against. Probably the most interesting pass.
-- **Lindenwood +11.5 at Stony Brook:** moved 2.5 toward Stony Brook (from −9). Stay away.
-- Arkansas-Pine Bluff +22 at South Dakota, Holy Cross +12 at Dartmouth (both Torvik only), Northwestern St. −1 vs West Florida (models split).
-- Kansas St. +16 vs Gonzaga: already graded above (L).
+- **San Diego St. +4.5 (Las Vegas):** both models make it about a pick'em, but the line has moved 3 toward Maryland. I found no injury news for either team. Maryland's [preview](https://umterps.com/news/2026/11/25/mens-basketball-mens-hoops-faces-san-diego-state-on-thursday-at-players-era-tournament) lists nobody out, and [Bang the Book](https://bangthebook.com/san-diego-state-aztecs-vs-maryland-terrapins-prediction-2026-11-26/) shows no player statuses. Both teams lost Tuesday (Maryland to Tennessee, SDSU 81-68 to Iowa St.). The move is unexplained, so it's a pass under the framework.
+- **Kansas St. +15 (Las Vegas):** both models agree, but the line moved 1.5 toward Alabama. That probably reflects K-State's 101-61 loss to Gonzaga on Tuesday night. I found no injury news. Pass.
 
-**Flat (no move):** Albany +26.5 at Syracuse (both models, 4.2/5.4) and Bethune-Cookman +11.5 at Richmond (Torvik only; +11.5 at +105 BetRivers). Flat has been the best bucket this season (87-53), so both are worth watching.
+**Hardwood-only gap worth a look:** Saint Mary's vs UCLA (San Diego). Hardwood has UCLA by 17.8, against a market of 7.5. Torvik (−5.7) is near the market, so there's no pick. Hardwood is built from only this season's games, so a 10-point split usually means a small sample.
 
-**Not logged:** Northern Iowa +10.5 vs Charlotte (Fort Myers) tipped at 11 AM, before the picks run. It had moved 3 against anyway.
-
-**Totals (tracking only):** a few large gaps where both models agree and there's no tempo flag. Arkansas-Pine Bluff/South Dakota: market 149, Torvik 162.9, Hardwood 157.7. Akron/App St. (Kissimmee): market 135, Torvik 122.9, Hardwood 124.7. Memphis/Penn St. (Nassau): market 163, both models ~172. Worth seeing how they land. No totals picks.
+**Totals (tracking only):** no gap where both models agree. The biggest Hardwood gaps (Tennessee/Iowa St. under 17, Saint Mary's/UCLA over 13) aren't backed by Torvik.
 
 ---
 
 ## Notes
 
-- **Unmatched names (2).** Suggested `ALIASES` for `generate_cbb.py`:
-  - `'miss valley st': 'Mississippi Valley St.'` (Miss. Valley St. at New Mexico, 9 PM)
-  - `'n colorado': 'Northern Colorado'` (N. Colorado at Detroit Mercy, 12:30 PM; also unmatched yesterday)
-- **Neutral sites:** ESPN flagged all of today's tournament games (Kissimmee, Nassau, Maui, Palm Springs, Las Vegas, Fort Myers, Cancun, Ruston). The three card games are campus games. No hand fixes to `neutral.json`.
-- **Dating quirk:** Kansas St. vs Gonzaga tipped 12:30 AM ET today and is filed under Nov 25 in `picks.json`. The README says tips before 6 AM count as the previous night, so it may belong under Nov 24. Worth a look; it doesn't affect grading.
-- The 6:30 PM run will set closing lines for tonight's games.
+- Ratings refreshed from Zach's upload this morning (`torvik.csv`, includes Wednesday's games). All team names matched, including Miss. Valley St. and N. Colorado, which were unmatched yesterday.
+- Army at UTSA is today's only campus game. No `neutral.json` changes.
+- The 6:30 PM run will set closing lines for the evening games.
