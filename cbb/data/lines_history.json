@@ -5724,5 +5724,17 @@
   "hardwood_live": -7.7,
   "torvik_total": 150.8,
   "hardwood_total_live": 152.6
+ },
+ "48369de2888c9b053bc390ff138c9434": {
+  "date": "2026-11-26",
+  "away": "Clemson",
+  "home": "Colorado St.",
+  "neutral": false,
+  "close": 4.0,
+  "total": 146.5,
+  "torvik": -1.1,
+  "hardwood_live": -0.5,
+  "torvik_total": 150.0,
+  "hardwood_total_live": 153.4
  }
 }
