@@ -420,7 +420,14 @@
    "pt": 1.5,
    "px": -110,
    "book": "FanDuel"
-  }
+  },
+  "close": 1.0,
+  "clv": 0.0,
+  "final": [
+   39,
+   35
+  ],
+  "result": "L"
  },
  {
   "game_id": "2026_12_KC_BUF",
