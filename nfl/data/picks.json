@@ -76,8 +76,8 @@
    "px": -105,
    "book": "ESPN BET"
   },
-  "close": 38.0,
-  "clv": 0.0,
+  "close": 37.5,
+  "clv": -0.5,
   "final": [
    22,
    24
@@ -105,8 +105,8 @@
    "px": -115,
    "book": "DraftKings"
   },
-  "close": -1.0,
-  "clv": 0.0,
+  "close": -1.5,
+  "clv": -0.5,
   "final": [
    20,
    17
@@ -162,8 +162,8 @@
    "px": -107,
    "book": "Pinnacle"
   },
-  "close": 51.0,
-  "clv": 0.0,
+  "close": 50.5,
+  "clv": 0.5,
   "final": [
    31,
    12
@@ -190,8 +190,8 @@
    "px": -110,
    "book": "Pinnacle"
   },
-  "close": 45.0,
-  "clv": 0.0,
+  "close": 45.5,
+  "clv": 0.5,
   "final": [
    40,
    23
@@ -219,8 +219,8 @@
    "px": -115,
    "book": "Bovada"
   },
-  "close": 4.0,
-  "clv": 0.0,
+  "close": 3.5,
+  "clv": -0.5,
   "final": [
    46,
    40
@@ -399,5 +399,70 @@
    22
   ],
   "result": "W"
+ },
+ {
+  "game_id": "2026_12_CHI_DET",
+  "week": 12,
+  "date": "2026-11-26",
+  "kickoff": "2026-11-26T18:00:00+00:00",
+  "away": "CHI",
+  "home": "DET",
+  "model_spread": -9.1,
+  "model_total": 56.6,
+  "logged": "2026-11-26T14:36:36.331335+00:00",
+  "type": "spread",
+  "side": "home",
+  "pick": "Detroit +1",
+  "line": 1.0,
+  "edge": -10.1,
+  "market": "agrees",
+  "best": {
+   "pt": 1.5,
+   "px": -110,
+   "book": "FanDuel"
+  }
+ },
+ {
+  "game_id": "2026_12_KC_BUF",
+  "week": 12,
+  "date": "2026-11-26",
+  "kickoff": "2026-11-27T01:20:00+00:00",
+  "away": "KC",
+  "home": "BUF",
+  "model_spread": 0.6,
+  "model_total": 55.2,
+  "logged": "2026-11-26T14:36:36.331335+00:00",
+  "type": "spread",
+  "side": "away",
+  "pick": "Kansas City +2.5",
+  "line": -2.5,
+  "edge": 3.1,
+  "market": "flat",
+  "best": {
+   "pt": 3.0,
+   "px": -110,
+   "book": "ESPN BET"
+  }
+ },
+ {
+  "game_id": "2026_12_KC_BUF",
+  "week": 12,
+  "date": "2026-11-26",
+  "kickoff": "2026-11-27T01:20:00+00:00",
+  "away": "KC",
+  "home": "BUF",
+  "model_spread": 0.6,
+  "model_total": 55.2,
+  "logged": "2026-11-26T14:36:36.331335+00:00",
+  "type": "total",
+  "side": "over",
+  "pick": "Over 46",
+  "line": 46.0,
+  "edge": 9.2,
+  "best": {
+   "pt": 45.5,
+   "px": -112,
+   "book": "BetRivers"
+  }
  }
 ]
