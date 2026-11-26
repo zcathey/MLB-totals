@@ -62,7 +62,15 @@ No plays. Thanksgiving has 21 games, and 20 of them are at neutral-site events: 
 
 **Hardwood-only gap worth a look:** Saint Mary's vs UCLA (San Diego). Hardwood has UCLA by 17.8, against a market of 7.5. Torvik (−5.7) is near the market, so there's no pick. Hardwood is built from only this season's games, so a 10-point split usually means a small sample.
 
-**Totals (tracking only):** no gap where both models agree. The biggest Hardwood gaps (Tennessee/Iowa St. under 17, Saint Mary's/UCLA over 13) aren't backed by Torvik.
+**Totals (tracking only):** under the page's 4-point lean rule, both models lean the same way on three games, none with a tempo flag. In each, Torvik is only just past the line and Hardwood supplies most of the gap:
+
+| Game | Market | Torvik | Hardwood | Lean |
+|---|---|---|---|---|
+| Tennessee vs Iowa St. | 139.5 | 135.3 (−4.2) | 122.6 (−16.9) | Under |
+| Saint Mary's vs UCLA | 152.5 | 157.1 (+4.6) | 165.9 (+13.4) | Over |
+| Georgetown vs Texas | 154.0 | 158.6 (+4.6) | 158.1 (+4.1) | Over |
+
+When both models have leaned the same way, they're 13-14 so far. No totals picks.
 
 ---
 
