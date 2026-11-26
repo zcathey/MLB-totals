@@ -124,7 +124,7 @@ input[type=search]{width:100%;font-family:'VT323',monospace;font-size:22px;backg
 <section id="ratings" class="hidden">
   <input type="search" id="q" placeholder="Search team…">
   <div style="overflow-x:auto"><table id="rt"></table></div>
-  <div class="note">Ratings are yards per play above or below average, adjusted for every opponent's strength (offense and defense solved together). OVR = OFF + DEF. Points are projected per game against an average opponent: 23.0 + 6.01 × rating. MARGIN and TO are actual points and turnover margin per game, shown for context; the model doesn't use them. Click a column to sort.</div>
+  <div class="note">Ratings are yards per play above or below average, adjusted for every opponent's strength (offense and defense solved together). OVR = OFF + DEF. SOS = average OVR of the opponents played (higher = tougher schedule; rank in parentheses, 1 = toughest); it's already built into the ratings, so it's shown for context. Points are projected per game against an average opponent: 23.0 + 6.01 × rating. MARGIN and TO are actual points and turnover margin per game, shown for context; the model doesn't use them. Click a column to sort.</div>
 </section>
 
 <section id="sos" class="hidden">
@@ -241,13 +241,13 @@ function renderBacktest(){
 
 const surname = n => { const p=n.split(' ').filter(w=>!['Jr','Sr','II','III','IV','V'].includes(w.replace(/\.$/,''))); return p.length?p[p.length-1]:n; };
 function arrow(t){ if(t.prev_rank==null) return '—'; const c=t.prev_rank-t.rank; return c===0?'—':(c>0?`<span class="pos">▲${c}</span>`:`<span class="neg">▼${-c}</span>`); }
-const COLS=[['rank','RK'],['name','TEAM'],['record','REC'],['adj','OVR'],['O','OFF'],['D','DEF'],['proj_pf','PTS FOR'],['proj_pa','PTS AGST'],['chg','CHG'],['margin_pg','MARGIN/G'],['to_pg','TO/G'],['qb','QB STARTS']];
+const COLS=[['rank','RK'],['name','TEAM'],['record','REC'],['adj','OVR'],['O','OFF'],['D','DEF'],['sos','SOS'],['proj_pf','PTS FOR'],['proj_pa','PTS AGST'],['chg','CHG'],['margin_pg','MARGIN/G'],['to_pg','TO/G'],['qb','QB STARTS']];
 function renderRatings(){
   const q=$('#q').value.toLowerCase();
   let ts=D.teams.filter(t=>!q||t.name.toLowerCase().includes(q)||t.team.toLowerCase()===q);
   ts=ts.slice().sort((a,b)=>(typeof a[sortKey]==='string'?a[sortKey].localeCompare(b[sortKey]):(a[sortKey]-b[sortKey]))*sortDir);
   $('#rt').innerHTML='<tr>'+COLS.map(([k,l])=>`<th class="s" data-k="${k}">${l}</th>`).join('')+'</tr>'+
-    ts.map(t=>`<tr><td>${t.rank}</td><td class="n">${esc(t.name)}</td><td>${esc(t.record)}</td><td class="${t.adj>0?'pos':'neg'}">${sg(t.adj,2)}</td><td>${sg(t.O,2)} <span class="rk">(${t.off_rank})</span></td><td>${sg(t.D,2)} <span class="rk">(${t.def_rank})</span></td><td>${t.proj_pf.toFixed(1)}</td><td>${t.proj_pa.toFixed(1)}</td><td>${arrow(t)}</td><td>${sg(t.margin_pg)}</td><td>${sg(t.to_pg)}</td><td class="sub n">${t.qb_starts.map(([n,c])=>esc(surname(n))+' '+c).join(', ')}</td></tr>`).join('');
+    ts.map(t=>`<tr><td>${t.rank}</td><td class="n">${esc(t.name)}</td><td>${esc(t.record)}</td><td class="${t.adj>0?'pos':'neg'}">${sg(t.adj,2)}</td><td>${sg(t.O,2)} <span class="rk">(${t.off_rank})</span></td><td>${sg(t.D,2)} <span class="rk">(${t.def_rank})</span></td><td>${sg(t.sos,2)} <span class="rk">(${t.sos_rank})</span></td><td>${t.proj_pf.toFixed(1)}</td><td>${t.proj_pa.toFixed(1)}</td><td>${arrow(t)}</td><td>${sg(t.margin_pg)}</td><td>${sg(t.to_pg)}</td><td class="sub n">${t.qb_starts.map(([n,c])=>esc(surname(n))+' '+c).join(', ')}</td></tr>`).join('');
   // click a column to sort; click again to flip. Lower is better for rank, name and points allowed.
   document.querySelectorAll('#rt th.s').forEach(th=>th.onclick=()=>{const k=th.dataset.k; if(k==='chg'||k==='qb')return;
     sortDir = sortKey===k ? -sortDir : (['rank','name','record','proj_pa'].includes(k)?1:-1); sortKey=k; renderRatings();});
