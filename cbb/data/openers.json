@@ -1,109 +1,4 @@
 {
- "435ce8aaf2de67393a436fc9bf8c956e": {
-  "home_spread": 5.0,
-  "total": 134.0,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "98a0b4549739cc028ffa9665d77d7ffd": {
-  "home_spread": -5.0,
-  "total": 142.5,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "e4496b83963ca2f24052c8779d91cbeb": {
-  "home_spread": -3.0,
-  "total": 146.0,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "037aac2cff7aea7fec09fbb5a3dcf04b": {
-  "home_spread": -9.0,
-  "total": 158.5,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "03914af0d22bba6c22c326407049444a": {
-  "home_spread": -1.5,
-  "total": 148.0,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "7672e3ae078a7b505b50f15e46208e4f": {
-  "home_spread": -6.5,
-  "total": 151.5,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "f6407650f13adaa2fc13d17570ef3327": {
-  "home_spread": 5.75,
-  "total": 149.75,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "f1dad846a15c864b10f3cf4914c7cbd5": {
-  "home_spread": -1.0,
-  "total": 150.0,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "b1abd9ff77f5dc5c376c08041fae20ea": {
-  "home_spread": 7.0,
-  "total": 159.0,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "c26aa1b5cbdc588ee415a259da2c6bf4": {
-  "home_spread": -3.0,
-  "total": 144.5,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "dd58df55a7af85441c65eee7310a71f5": {
-  "home_spread": -1.5,
-  "total": 148.0,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "8705fa29b81b3f96d689da909e406bff": {
-  "home_spread": 7.0,
-  "total": 139.0,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "fc86a54f6abd13932c62fa66b82a3e28": {
-  "home_spread": -11.25,
-  "total": 165.75,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "120e2421c480efcf51c1aa27d4973187": {
-  "home_spread": -3.0,
-  "total": 163.5,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "a711d8899fd6dad91337247433157f87": {
-  "home_spread": -5.0,
-  "total": 152.0,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "11782e330b7215a8e2f0e3e4e9a27404": {
-  "home_spread": -37.0,
-  "total": 156.5,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "5a237fcf6422f6a245d462ba2a6835dc": {
-  "home_spread": -20.5,
-  "total": 152.5,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "bd51dcc9b4ceb556e17992c7f5fe7f75": {
-  "home_spread": -1.25,
-  "total": 152.75,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "69e165166aa1f48345e5bdd45029fb18": {
-  "home_spread": -11.0,
-  "total": 153.0,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "8236efa27962bd6d4b110bb43e861b07": {
-  "home_spread": -7.0,
-  "total": 160.5,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
- "b45e9d96ab3298d614e74c19902f3998": {
-  "home_spread": -17.25,
-  "total": 158.5,
-  "seen": "2026-11-22T21:17:40.553728+00:00"
- },
  "276deab7d659366b50ff0608d1501b6e": {
   "home_spread": 7.5,
   "total": 145.5,
@@ -1123,5 +1018,155 @@
   "total": 150.5,
   "seen": "2026-11-25T23:47:49.454991+00:00",
   "home": "UTSA"
+ },
+ "70d6ec6a65d41a114e5e07f1111c4b44": {
+  "home_spread": 8.5,
+  "total": 157.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Xavier"
+ },
+ "f3cd5043f4c5a7d9f1a5b5dc4f0417f3": {
+  "home_spread": 1.0,
+  "total": 146.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "St. Thomas"
+ },
+ "eaf627a916aa57020a2810007ee9bcf2": {
+  "home_spread": 2.5,
+  "total": 155.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Wake Forest"
+ },
+ "4c0c9710cadfc6d63465ad20a30f5565": {
+  "home_spread": 0.25,
+  "total": 147.75,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "South Alabama"
+ },
+ "98353c12132a5d3a705bf618d7439389": {
+  "home_spread": 8.5,
+  "total": 139.0,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Louisiana Tech"
+ },
+ "1f84214524f065c0d07b4e612dbca753": {
+  "home_spread": -7.75,
+  "total": 151.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "UNC Wilmington"
+ },
+ "0e10d0c5de8b05e7dc93f8989d1bee0d": {
+  "home_spread": 9.25,
+  "total": 141.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Boston College"
+ },
+ "22a987e36b9d9dc97e7b84b24f307b83": {
+  "home_spread": -12.5,
+  "total": 159.0,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Kansas"
+ },
+ "61fabe838642d2eb1431fcee1cf2ec02": {
+  "home_spread": 3.0,
+  "total": 157.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Marquette"
+ },
+ "198026478bc045be9a9cf746579c4230": {
+  "home_spread": -17.75,
+  "total": 147.25,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Virginia Tech"
+ },
+ "56ba55a83df061ede47d0b562e16ce69": {
+  "home_spread": -6.5,
+  "total": 156.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Boise St."
+ },
+ "ff2176f4daaef2d1975208c1449ac700": {
+  "home_spread": -23.0,
+  "total": 153.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Indiana"
+ },
+ "1f87dcbca697a752ec04a6d6294636f0": {
+  "home_spread": -27.0,
+  "total": 175.25,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Illinois"
+ },
+ "41c094906504126724c665a8f8cbd73a": {
+  "home_spread": -5.5,
+  "total": 146.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Penn"
+ },
+ "a3b0558a4bc97d4aedb25c7e618304f4": {
+  "home_spread": -5.5,
+  "total": 162.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Georgia"
+ },
+ "cd744c919b9a21ddf2611504bf49f376": {
+  "home_spread": 1.5,
+  "total": 149.0,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "North Carolina"
+ },
+ "9666ebe69d71e8c0cf9a8f7ed988130b": {
+  "home_spread": -39.5,
+  "total": 150.0,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Houston"
+ },
+ "ec62bd5e2e768c55151f12678f44714e": {
+  "home_spread": -5.5,
+  "total": 156.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Mississippi St."
+ },
+ "7597feb141f43dac0aadd1c931ec3fac": {
+  "home_spread": -12.5,
+  "total": 147.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Washington St."
+ },
+ "5740fd8d57f3a4f53ee913dacffe55c0": {
+  "home_spread": -2.5,
+  "total": 145.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Oral Roberts"
+ },
+ "d41c0bb8557bb274bce7d03b0dd33d3a": {
+  "home_spread": 6.5,
+  "total": 143.0,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "North Dakota St."
+ },
+ "6e113a934fe1e4d2d00277778483f23e": {
+  "home_spread": -12.0,
+  "total": 148.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Northwestern"
+ },
+ "ebb91d3cb7c017b0bf6de2b333909d71": {
+  "home_spread": 4.75,
+  "total": 138.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "UC Davis"
+ },
+ "6be9c20350d10df66086b7ec8949ddc9": {
+  "home_spread": -3.5,
+  "total": 159.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Kentucky"
+ },
+ "018ae040de9fffa378fba5cfbb88c8f7": {
+  "home_spread": 7.5,
+  "total": 144.5,
+  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home": "Nebraska Omaha"
  }
 }
