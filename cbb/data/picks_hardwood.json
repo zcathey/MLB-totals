@@ -11075,7 +11075,13 @@
   "site_neutral": false,
   "neutral_missed": false,
   "close": -18.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   56,
+   92
+  ],
+  "result": "L",
+  "final_src": "espn"
  },
  {
   "event_id": "98353c12132a5d3a705bf618d7439389",
@@ -11103,7 +11109,13 @@
   "site_neutral": false,
   "neutral_missed": false,
   "close": 4.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   78,
+   70
+  ],
+  "result": "W",
+  "final_src": "espn"
  },
  {
   "event_id": "1f84214524f065c0d07b4e612dbca753",
@@ -11131,7 +11143,13 @@
   "site_neutral": false,
   "neutral_missed": false,
   "close": -8.0,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   66,
+   68
+  ],
+  "result": "W",
+  "final_src": "espn"
  },
  {
   "event_id": "70b5b5c697f509bfd278d01f32999aba",
@@ -11159,7 +11177,13 @@
   "site_neutral": true,
   "neutral_missed": false,
   "close": -9.5,
-  "clv": -1.0
+  "clv": -1.0,
+  "final": [
+   86,
+   89
+  ],
+  "result": "W",
+  "final_src": "espn"
  },
  {
   "event_id": "c335ca4fcf33e4467182cbd8cab09aa5",
@@ -11187,7 +11211,13 @@
   "site_neutral": false,
   "neutral_missed": false,
   "close": -21.0,
-  "clv": -0.5
+  "clv": -0.5,
+  "final": [
+   51,
+   91
+  ],
+  "result": "W",
+  "final_src": "espn"
  },
  {
   "event_id": "c8562cce3b018d6b9ad5674ec02416cb",
@@ -11241,7 +11271,9 @@
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "backfilled": true,
   "site_neutral": false,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -17.5,
+  "clv": 1.0
  },
  {
   "event_id": "918b4ba713416af8455ad0aac5e2d6e6",
@@ -11267,7 +11299,9 @@
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "backfilled": true,
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": 8.0,
+  "clv": -0.5
  },
  {
   "event_id": "015a5c88e4f2a9776b503e419aa2055e",
@@ -11293,7 +11327,9 @@
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "backfilled": true,
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": 10.5,
+  "clv": -2.5
  },
  {
   "event_id": "ff2176f4daaef2d1975208c1449ac700",
@@ -11319,7 +11355,9 @@
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "backfilled": true,
   "site_neutral": false,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -22.5,
+  "clv": 0.0
  },
  {
   "event_id": "e061cfa22d4b263a276740908fd719b3",
@@ -11507,7 +11545,9 @@
   "neutral": false,
   "logged": "2026-11-27T16:45:30.153486+00:00",
   "site_neutral": false,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -10.5,
+  "clv": 0.5
  },
  {
   "event_id": "ebb91d3cb7c017b0bf6de2b333909d71",
@@ -11531,6 +11571,56 @@
   "both_models": false,
   "neutral": true,
   "logged": "2026-11-27T16:45:30.153486+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
+ },
+ {
+  "event_id": "ec62bd5e2e768c55151f12678f44714e",
+  "date": "2026-11-27",
+  "tip": "2026-11-28T00:30:00Z",
+  "away": "Penn St.",
+  "home": "Mississippi St.",
+  "side": "away",
+  "pick": "Penn St. +7",
+  "line": -7.0,
+  "model_spread": -3.8,
+  "edge": 3.2,
+  "market": "against",
+  "move_at_pick": -1.5,
+  "best": {
+   "pt": 7.5,
+   "px": -115,
+   "book": "ESPN BET"
+  },
+  "torvik_spread": -5.3,
+  "both_models": false,
+  "neutral": true,
+  "logged": "2026-11-27T23:44:47.260982+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
+ },
+ {
+  "event_id": "692fbccb2725151453aade80cc1002a4",
+  "date": "2026-11-27",
+  "tip": "2026-11-28T01:30:00Z",
+  "away": "Miami FL",
+  "home": "Alabama",
+  "side": "away",
+  "pick": "Miami FL -2.5",
+  "line": 2.5,
+  "model_spread": 5.7,
+  "edge": 3.2,
+  "market": "flat",
+  "move_at_pick": 0.0,
+  "best": {
+   "pt": -1.5,
+   "px": -115,
+   "book": "ESPN BET"
+  },
+  "torvik_spread": 2.3,
+  "both_models": false,
+  "neutral": true,
+  "logged": "2026-11-27T23:44:47.260982+00:00",
   "site_neutral": true,
   "neutral_missed": false
  }

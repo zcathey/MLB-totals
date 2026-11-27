@@ -11438,7 +11438,13 @@
   "site_neutral": true,
   "neutral_missed": false,
   "close": -7.5,
-  "clv": 1.0
+  "clv": 1.0,
+  "final": [
+   63,
+   75
+  ],
+  "result": "L",
+  "final_src": "espn"
  },
  {
   "event_id": "bc3fb1851c83444219f558d4229a1f0c",
@@ -11465,7 +11471,13 @@
   "site_neutral": false,
   "neutral_missed": false,
   "close": -18.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   56,
+   92
+  ],
+  "result": "L",
+  "final_src": "espn"
  },
  {
   "event_id": "76843c506b1ba5d7d938c6379d8cf4d3",
@@ -11492,7 +11504,13 @@
   "site_neutral": false,
   "neutral_missed": false,
   "close": -49.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   61,
+   97
+  ],
+  "result": "W",
+  "final_src": "espn"
  },
  {
   "event_id": "198026478bc045be9a9cf746579c4230",
@@ -11517,7 +11535,9 @@
   "neutral": false,
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "site_neutral": false,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -17.5,
+  "clv": 1.0
  },
  {
   "event_id": "918b4ba713416af8455ad0aac5e2d6e6",
@@ -11542,7 +11562,9 @@
   "neutral": true,
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": 8.0,
+  "clv": 0.5
  },
  {
   "event_id": "ff2176f4daaef2d1975208c1449ac700",
@@ -11567,7 +11589,9 @@
   "neutral": false,
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "site_neutral": false,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -22.5,
+  "clv": 0.0
  },
  {
   "event_id": "1f87dcbca697a752ec04a6d6294636f0",
@@ -11592,7 +11616,9 @@
   "neutral": false,
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "site_neutral": false,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -26.5,
+  "clv": 0.5
  },
  {
   "event_id": "e061cfa22d4b263a276740908fd719b3",
@@ -11702,7 +11728,13 @@
   "site_neutral": true,
   "neutral_missed": false,
   "close": 3.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   73,
+   88
+  ],
+  "result": "W",
+  "final_src": "espn"
  },
  {
   "event_id": "7597feb141f43dac0aadd1c931ec3fac",
@@ -11751,6 +11783,31 @@
   "both_models": true,
   "neutral": true,
   "logged": "2026-11-27T16:45:30.153486+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
+ },
+ {
+  "event_id": "cd744c919b9a21ddf2611504bf49f376",
+  "date": "2026-11-27",
+  "tip": "2026-11-28T00:00:00Z",
+  "away": "West Virginia",
+  "home": "North Carolina",
+  "side": "home",
+  "pick": "North Carolina +3.5",
+  "line": 3.5,
+  "model_spread": 0.4,
+  "edge": -3.1,
+  "market": "against",
+  "move_at_pick": 2.0,
+  "best": {
+   "pt": 3.5,
+   "px": -110,
+   "book": "FanDuel"
+  },
+  "hardwood_spread": 1.1,
+  "both_models": false,
+  "neutral": true,
+  "logged": "2026-11-27T23:44:47.260982+00:00",
   "site_neutral": true,
   "neutral_missed": false
  }

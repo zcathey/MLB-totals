@@ -1402,5 +1402,101 @@
   "total": 156.5,
   "seen": "2026-11-27T21:45:06.231505+00:00",
   "home": "UC San Diego"
+ },
+ "6b7546051f151f75d04c67037d323b96": {
+  "home_spread": -27.5,
+  "total": 162.5,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Georgia Tech"
+ },
+ "d8d91df758dd1233efdc1abe92137305": {
+  "home_spread": -1.75,
+  "total": 146.0,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Colgate"
+ },
+ "b362042974aee5671eb394441d619e4e": {
+  "home_spread": 0.0,
+  "total": 140.5,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Gardner Webb"
+ },
+ "429fc7a3909cd917f75ee782fa44e6b8": {
+  "home_spread": 1.25,
+  "total": 137.5,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Hampton"
+ },
+ "fb41bc142de3b6171acb38e45dbc19cc": {
+  "home_spread": -9.25,
+  "total": 149.5,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Pepperdine"
+ },
+ "8b06f4d875045427bb05d25baca8f79a": {
+  "home_spread": -15.5,
+  "total": 131.0,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Bradley"
+ },
+ "32f080171c0ab9a3f7fff73b3e48473b": {
+  "home_spread": 2.0,
+  "total": 133.0,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Navy"
+ },
+ "d1b2e22fe4fa54fcd8ac9966b38cf884": {
+  "home_spread": -14.5,
+  "total": 155.5,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Columbia"
+ },
+ "33764207c3ac183b765322d034ca676f": {
+  "home_spread": -8.5,
+  "total": 141.5,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "North Carolina A&T"
+ },
+ "a4bba989a865bb1cae29196209ac44ee": {
+  "home_spread": -8.5,
+  "total": 146.0,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Marshall"
+ },
+ "c0ab01a46447717304775d584243fa10": {
+  "home_spread": 2.0,
+  "total": 159.0,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "UNC Asheville"
+ },
+ "888b36820cccba73b0fffe14653301b8": {
+  "home_spread": -25.0,
+  "total": 142.0,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "High Point"
+ },
+ "01b42eb6b1e23ee85c7d97b0c211ef15": {
+  "home_spread": -30.75,
+  "total": 138.0,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Iowa"
+ },
+ "970ac6b6a3844cdfce7fc20d35cae505": {
+  "home_spread": 2.5,
+  "total": 145.0,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Niagara"
+ },
+ "ba8475c27efc1d5f07fcfbec8d5196b4": {
+  "home_spread": -2.0,
+  "total": 149.0,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Morgan St."
+ },
+ "100c03d3d8e1f7448dc08e8564c5241e": {
+  "home_spread": -1.5,
+  "total": 154.0,
+  "seen": "2026-11-27T23:44:47.260982+00:00",
+  "home": "Presbyterian"
  }
 }
