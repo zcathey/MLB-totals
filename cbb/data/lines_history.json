@@ -5916,5 +5916,77 @@
   "hardwood_live": -5.0,
   "torvik_total": 160.1,
   "hardwood_total_live": 158.4
+ },
+ "ff463f606d0a8912ca36a58b809e5f9e": {
+  "date": "2026-11-26",
+  "away": "Kansas St.",
+  "home": "Alabama",
+  "neutral": true,
+  "close": -14.0,
+  "total": 170.0,
+  "torvik": -9.7,
+  "hardwood_live": -10.5,
+  "torvik_total": 169.0,
+  "hardwood_total_live": 165.1
+ },
+ "3cb03cfb4f93a60fd1ce506ee8555130": {
+  "date": "2026-11-26",
+  "away": "St. John's",
+  "home": "Louisville",
+  "neutral": true,
+  "close": 1.5,
+  "total": 161.0,
+  "torvik": 3.6,
+  "hardwood_live": 8.9,
+  "torvik_total": 159.1,
+  "hardwood_total_live": 160.8
+ },
+ "00ffa84e4fac12fc9b2885305e76ad31": {
+  "date": "2026-11-26",
+  "away": "Baylor",
+  "home": "Gonzaga",
+  "neutral": true,
+  "close": -3.5,
+  "total": 153.5,
+  "torvik": -4.1,
+  "hardwood_live": -0.2,
+  "torvik_total": 158.1,
+  "hardwood_total_live": 155.3
+ },
+ "3ce2ec8471b46e17dc7b246a086a3e8d": {
+  "date": "2026-11-26",
+  "away": "Texas Tech",
+  "home": "Oregon",
+  "neutral": true,
+  "close": 10.5,
+  "total": 149.0,
+  "torvik": 7.2,
+  "hardwood_live": 6.7,
+  "torvik_total": 149.2,
+  "hardwood_total_live": 142.1
+ },
+ "8d107304a440a02e1eaf34b9e8eac486": {
+  "date": "2026-11-26",
+  "away": "Jacksonville St.",
+  "home": "UC Davis",
+  "neutral": true,
+  "close": 3.0,
+  "total": 137.0,
+  "torvik": 1.8,
+  "hardwood_live": 0.8,
+  "torvik_total": 143.2,
+  "hardwood_total_live": 150.2
+ },
+ "f8c8f160933b1de8443aee985386d93f": {
+  "date": "2026-11-26",
+  "away": "Nebraska Omaha",
+  "home": "Pacific",
+  "neutral": true,
+  "close": -7.5,
+  "total": 139.0,
+  "torvik": -10.4,
+  "hardwood_live": -10.9,
+  "torvik_total": 140.1,
+  "hardwood_total_live": 143.3
  }
 }

@@ -11238,7 +11238,15 @@
   "neutral": true,
   "logged": "2026-11-26T14:21:28.444070+00:00",
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "final": [
+   91,
+   104
+  ],
+  "result": "W",
+  "final_src": "espn",
+  "close": -14.0,
+  "clv": 1.0
  },
  {
   "event_id": "35a3f7e451a688a08a5aec9c161172e1",
@@ -11362,6 +11370,8 @@
   "neutral": true,
   "logged": "2026-11-27T00:01:46.387125+00:00",
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": 10.5,
+  "clv": 0.0
  }
 ]
