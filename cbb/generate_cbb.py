@@ -283,6 +283,9 @@ def main():
     openers = load_json(os.path.join(DATA, 'openers.json'), {})
     closers = load_json(os.path.join(DATA, 'closers.json'), {})
     picks = load_json(os.path.join(DATA, 'picks.json'), [])
+    # Hardwood's own pick log: same rules as the Torvik log (3+ edge vs market, no flags, today's slate), tracked
+    # separately so the two models can be compared by market bucket. The page's picks and write-ups still use Torvik.
+    picks_hw = load_json(os.path.join(DATA, 'picks_hardwood.json'), [])
     neutral = load_json(os.path.join(HERE, 'neutral.json'), {})
     neutral_pairs = {(p[0], p[1]) for k, v in neutral.items() if not k.startswith('_') for p in v}
     # ESPN's schedule flags neutral-site games before they're played; neutral.json stays as a manual override.
@@ -299,6 +302,11 @@ def main():
                 return f'ESPN: {venue}'
         return None
     logged = {p['event_id'] for p in picks}
+    logged_hw = {p['event_id'] for p in picks_hw}
+    # Only log games on today's slate (ET): GitHub often runs the 10:45 AM job hours late, and a night run
+    # would otherwise freeze tomorrow's picks with yesterday's ratings and lines. The slate day runs to
+    # 6 AM ET, so a West Coast tip after midnight ET still counts as the evening it belongs to.
+    slate_day = lambda t: (t.astimezone(ET) - timedelta(hours=6)).date()  # noqa: E731
     # Repair closers written before 'oriented' existed: their team labels could be from after a home/away swap
     # while the line is from before it. A pick was logged before tip, so its orientation matches the stored line.
     for p in picks:
@@ -384,10 +392,6 @@ def main():
                 g['market'] = 'flat' if not mv else ('agrees' if (edge > 0) == (mv > 0) else 'against')
                 he = g.get('hw_edge')
                 g['both_models'] = he is not None and abs(he) >= SETTINGS['edge_threshold'] and (he > 0) == (edge > 0)
-                # Only log games on today's slate (ET): GitHub often runs the 10:45 AM job hours late, and a night run
-                # would otherwise freeze tomorrow's picks with yesterday's ratings and lines. The slate day runs to
-                # 6 AM ET, so a West Coast tip after midnight ET still counts as the evening it belongs to.
-                slate_day = lambda t: (t.astimezone(ET) - timedelta(hours=6)).date()  # noqa: E731
                 tips_today = slate_day(tip) == slate_day(t0)
                 if mode == 'picks' and not started and tips_today and eid not in logged:
                     picks.append({'event_id': eid, 'date': tip.astimezone(ET).strftime('%Y-%m-%d'), 'tip': ev['commence_time'],
@@ -398,6 +402,24 @@ def main():
                                   'both_models': g['both_models'], 'neutral': g['neutral'],
                                   'logged': t0.isoformat()})
                     logged.add(eid)
+        he = g.get('hw_edge')
+        if he is not None and abs(he) >= SETTINGS['edge_threshold'] and not flags:
+            side = 'away' if he > 0 else 'home'
+            pt = -g['mkt_spread'] if side == 'away' else g['mkt_spread']
+            mv = g.get('move')
+            te = g.get('edge')
+            g['hw_pick'] = f"{g[side]} {fmt_pt(pt)}"
+            g['hw_pick_side'] = side
+            g['hw_market'] = 'flat' if not mv else ('agrees' if (he > 0) == (mv > 0) else 'against')
+            if mode == 'picks' and not started and slate_day(tip) == slate_day(t0) and eid not in logged_hw:
+                picks_hw.append({'event_id': eid, 'date': tip.astimezone(ET).strftime('%Y-%m-%d'), 'tip': ev['commence_time'],
+                                 'away': g['away'], 'home': g['home'], 'side': side, 'pick': g['hw_pick'],
+                                 'line': g['mkt_spread'], 'model_spread': g['hardwood']['home_spread'], 'edge': he,
+                                 'market': g['hw_market'], 'move_at_pick': mv, 'best': g[f'best_{side}'],
+                                 'torvik_spread': (g.get('model') or {}).get('home_spread'),
+                                 'both_models': te is not None and abs(te) >= SETTINGS['edge_threshold'] and (te > 0) == (he > 0),
+                                 'neutral': g['neutral'], 'logged': t0.isoformat()})
+                logged_hw.add(eid)
         games.append(g)
 
     # ── grading ──
@@ -427,39 +449,43 @@ def main():
                 return pts[p['away']], pts[p['home']], eg.get('neutral')
         return None
 
-    regraded = 0
-    for p in picks:
-        ef = espn_final(p)
-        # site_neutral is for display: ESPN's venue flag once the game is final, else neutral.json / the logged flag.
-        # neutral_missed: a neutral site the model gave home court to when the pick was logged.
-        assumed = bool(p.get('neutral', (p['away'], p['home']) in neutral_pairs))  # older picks have no flag
-        p['site_neutral'] = assumed or [p['away'], p['home']] in neutral.get(p['date'], [])
-        if ef and ef[2] is not None:
-            p['site_neutral'] = bool(ef[2])
-        p['neutral_missed'] = p['site_neutral'] and not assumed
-        if ef:
-            fa, fh, _ = ef
-            m =(fh - fa + p['line']) * (-1 if p['side'] == 'away' else 1)
-            res = 'W' if m > 0 else ('P' if m == 0 else 'L')
-            if p.get('result') and (p.get('final') != [fa, fh] or p['result'] != res):
-                regraded += 1
-                print(f"  Regraded from ESPN: {p['date']} {p['pick']}: {p.get('final')} {p['result']} -> {[fa, fh]} {res}")
-            p['final'], p['result'], p['final_src'] = [fa, fh], res, 'espn'
-    if regraded:
-        print(f'  {regraded} pick(s) regraded from ESPN finals')
-    for p in picks:
-        c = closers.get(p['event_id'])
-        tipped = datetime.fromisoformat(p['tip'].replace('Z', '+00:00')) <= t0
-        if c and tipped:  # closers are only written before tip, so this is the last pre-game line we saw
-            p['close'] = c['home_spread']
-            if c.get('oriented') and c.get('home') not in (None, p['home']):  # line stored with home/away swapped
-                p['close'] = -p['close']
-            p['clv'] = round((p['close'] - p['line']) if p['side'] == 'away' else (p['line'] - p['close']), 1)
-        if p['event_id'] in final and 'result' not in p and {p['away'], p['home']} == set(final[p['event_id']]):
-            fa, fh = final[p['event_id']][p['away']], final[p['event_id']][p['home']]
-            p['final'], p['final_src'] = [fa, fh], 'odds_api'
-            m = (fh - fa + p['line']) * (-1 if p['side'] == 'away' else 1)
-            p['result'] = 'W' if m > 0 else ('P' if m == 0 else 'L')
+    def grade(plist):
+        regraded = 0
+        for p in plist:
+            ef = espn_final(p)
+            # site_neutral is for display: ESPN's venue flag once the game is final, else neutral.json / the logged flag.
+            # neutral_missed: a neutral site the model gave home court to when the pick was logged.
+            assumed = bool(p.get('neutral', (p['away'], p['home']) in neutral_pairs))  # older picks have no flag
+            p['site_neutral'] = assumed or [p['away'], p['home']] in neutral.get(p['date'], [])
+            if ef and ef[2] is not None:
+                p['site_neutral'] = bool(ef[2])
+            p['neutral_missed'] = p['site_neutral'] and not assumed
+            if ef:
+                fa, fh, _ = ef
+                m =(fh - fa + p['line']) * (-1 if p['side'] == 'away' else 1)
+                res = 'W' if m > 0 else ('P' if m == 0 else 'L')
+                if p.get('result') and (p.get('final') != [fa, fh] or p['result'] != res):
+                    regraded += 1
+                    print(f"  Regraded from ESPN: {p['date']} {p['pick']}: {p.get('final')} {p['result']} -> {[fa, fh]} {res}")
+                p['final'], p['result'], p['final_src'] = [fa, fh], res, 'espn'
+        if regraded:
+            print(f'  {regraded} pick(s) regraded from ESPN finals')
+        for p in plist:
+            c = closers.get(p['event_id'])
+            tipped = datetime.fromisoformat(p['tip'].replace('Z', '+00:00')) <= t0
+            if c and tipped:  # closers are only written before tip, so this is the last pre-game line we saw
+                p['close'] = c['home_spread']
+                if c.get('oriented') and c.get('home') not in (None, p['home']):  # line stored with home/away swapped
+                    p['close'] = -p['close']
+                p['clv'] = round((p['close'] - p['line']) if p['side'] == 'away' else (p['line'] - p['close']), 1)
+            if p['event_id'] in final and 'result' not in p and {p['away'], p['home']} == set(final[p['event_id']]):
+                fa, fh = final[p['event_id']][p['away']], final[p['event_id']][p['home']]
+                p['final'], p['final_src'] = [fa, fh], 'odds_api'
+                m = (fh - fa + p['line']) * (-1 if p['side'] == 'away' else 1)
+                p['result'] = 'W' if m > 0 else ('P' if m == 0 else 'L')
+
+    grade(picks)
+    grade(picks_hw)
 
     def record(ps):
         w = sum(p.get('result') == 'W' for p in ps); l = sum(p.get('result') == 'L' for p in ps)
@@ -507,6 +533,7 @@ def main():
     save_json(os.path.join(DATA, 'openers.json'), openers)
     save_json(os.path.join(DATA, 'closers.json'), closers)
     save_json(os.path.join(DATA, 'picks.json'), picks)
+    save_json(os.path.join(DATA, 'picks_hardwood.json'), picks_hw)
 
     games.sort(key=lambda g: (g['tip'], g['home']))
     out = {
@@ -522,6 +549,13 @@ def main():
                    'agrees': record([p for p in picks if p.get('market') == 'agrees']),
                    'against': record([p for p in picks if p.get('market') == 'against']),
                    'flat': record([p for p in picks if p.get('market') == 'flat'])},
+        'picks_hardwood': picks_hw[-150:],
+        # Hardwood log by market bucket; 'both' = Torvik also had a 3+ edge on the same side, 'hw_only' = it didn't
+        'record_hardwood': {grp: {b: record([p for p in ps if b == 'all' or p.get('market') == b])
+                                  for b in ('all', 'agrees', 'against', 'flat')}
+                            for grp, ps in (('all', picks_hw),
+                                            ('both', [p for p in picks_hw if p.get('both_models')]),
+                                            ('hw_only', [p for p in picks_hw if not p.get('both_models')]))},
         'teams': sorted(teams.values(), key=lambda t: t['rank']),
         'hardwood': {'status': espn_stats.get('status'), 'games': R['games'] if R else 0, 'new_games': espn_stats.get('new'),
                      'avg_eff': round(R['mu'], 2) if R else None, 'avg_tempo': round(R['tmu'], 2) if R else None,

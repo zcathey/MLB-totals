@@ -64,7 +64,7 @@ tr:hover td{background:#0d1a0d}
 .toggle{display:flex;gap:6px;margin-bottom:10px}
 .toggle button{font-family:'Press Start 2P',monospace;font-size:10px;background:#001100;color:var(--green);border:2px solid var(--green);padding:8px 10px;cursor:pointer}
 .toggle button.on{background:var(--green);color:#000}
-.ptoggle{display:flex;gap:6px;margin:14px 0 8px}
+.ptoggle{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 8px}
 .ptoggle button{font-family:'Press Start 2P',monospace;font-size:10px;background:#001100;color:var(--green);border:2px solid var(--green);padding:8px 10px;cursor:pointer}
 .ptoggle button.on{background:var(--green);color:#000}
 #totTable{font-size:17px}#totTable td{padding:4px 4px}#totTable th{padding:8px 4px}
@@ -113,11 +113,19 @@ input[type=search]{width:100%;font-family:'VT323',monospace;font-size:22px;backg
 <section id="picks" class="hidden">
   <div class="rec" id="rec"></div>
   <div class="bt" id="bt"></div>
-  <div class="ptoggle"><button data-pv="spreads" class="on">SPREAD PICKS</button><button data-pv="totals">TOTALS</button></div>
+  <div class="ptoggle"><button data-pv="spreads" class="on">TORVIK PICKS</button><button data-pv="hardwood">HARDWOOD PICKS</button><button data-pv="totals">TOTALS</button></div>
   <div id="pv-spreads">
   <div style="overflow-x:auto"><table id="pickTable"></table></div>
   <div class="sub">N = neutral site. N* = neutral site the model didn't know about when the pick was logged, so its line included 3 points of home court.</div>
   <div class="note">CLV = closing line value in points: positive means the pick beat the last line seen before tipoff. Over a small sample it's a better test of the model than wins and losses.</div>
+  </div>
+  <div id="pv-hardwood" class="hidden">
+  <div class="rec" id="hwRec"></div>
+  <div class="bt"><h3>BOTH MODELS VS HARDWOOD ONLY</h3>
+  <div style="overflow-x:auto"><table id="hwSplit"></table></div>
+  <div class="sub">BOTH = Torvik also had a 3+ edge on the same side. HW ONLY = it didn't. Each cell: W-L, then average CLV · % of picks that beat the close.</div></div>
+  <div style="overflow-x:auto;margin-top:12px"><table id="hwTable"></table></div>
+  <div class="note">Hardwood's own pick log, kept on the same rules as the Torvik log: a 3+ point edge against the market, no data flags, logged at the picks run on game day, graded from ESPN finals with CLV against the last line before tip. It's for comparing the models; the write-ups and best bets still use Torvik. Nov 15 to Nov 26 were rebuilt from the saved data snapshots (Hardwood first appears on Nov 15); live logging started Nov 27.</div>
   </div>
   <div id="pv-totals" class="hidden">
   <div class="rec" id="totRec"></div>
@@ -154,12 +162,11 @@ $('#q').oninput=renderRatings;
 let RSRC='hardwood';
 document.querySelectorAll('.ptoggle button').forEach(b=>b.onclick=()=>{
   document.querySelectorAll('.ptoggle button').forEach(x=>x.classList.toggle('on',x===b));
-  $('#pv-spreads').classList.toggle('hidden',b.dataset.pv!=='spreads');
-  $('#pv-totals').classList.toggle('hidden',b.dataset.pv!=='totals');
+  ['spreads','hardwood','totals'].forEach(v=>$('#pv-'+v).classList.toggle('hidden',b.dataset.pv!==v));
 });
 document.querySelectorAll('.toggle button').forEach(b=>b.onclick=()=>{RSRC=b.dataset.src;document.querySelectorAll('.toggle button').forEach(x=>x.classList.toggle('on',x===b));renderRatings();});
 
-fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;renderStatus();renderGames();renderPicks();renderBacktest();renderRatings();renderTotalsLog();})
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;renderStatus();renderGames();renderPicks();renderHardwoodPicks();renderBacktest();renderRatings();renderTotalsLog();})
   .catch(e=>{$('#status').innerHTML='<span class="warn">Could not load data.json — the first automatic update may not have run yet.</span>';});
 fetch('analysis/latest.md?'+Date.now()).then(r=>r.ok?r.text():Promise.reject()).then(t=>{$('#md').innerHTML=md(t);})
   .catch(()=>{$('#md').innerHTML='No analysis posted yet. It runs daily at 11:30 AM ET.';});
@@ -251,10 +258,24 @@ function renderTotalsLog(){
 
 function renderPicks(){
   const R=D.record, box=(t,r)=>`<div><h3>${t}</h3><div class="big">${r.w}-${r.l}${r.p?'-'+r.p:''}</div><div class="sub">${r.picks} logged · CLV ${r.avg_clv==null?'—':sg(r.avg_clv)} · beat close ${r.beat_close==null?'—':Math.round(r.beat_close*100)+'%'}</div></div>`;
-  $('#rec').innerHTML=box('ALL PICKS',R.all)+box('MODEL + MARKET',R.agrees)+box('MARKET AGAINST',R.against)+box('NO MOVE',R.flat);
+  $('#rec').innerHTML=box('TORVIK: ALL PICKS',R.all)+box('MODEL + MARKET',R.agrees)+box('MARKET AGAINST',R.against)+box('NO MOVE',R.flat);
   const ps=[...D.picks].reverse();
   $('#pickTable').innerHTML='<tr><th>DATE</th><th>PICK</th><th>MATCHUP</th><th>EDGE</th><th>MKT</th><th>CLOSE</th><th>CLV</th><th>FINAL</th><th>RES</th></tr>'+
     (ps.length?ps.map(p=>`<tr><td>${esc(p.date.slice(5))}</td><td>${esc(p.pick)}</td><td>${esc(p.away)} ${p.site_neutral?'vs':'@'} ${esc(p.home)}${p.site_neutral?` <span class="badge b-n">N${p.neutral_missed?'*':''}</span>`:''}</td><td>${sg(p.edge)}</td><td>${esc(p.market)}</td><td>${pt(p.close)}</td><td class="${p.clv>0?'pos':p.clv<0?'neg':''}">${p.clv==null?'—':sg(p.clv)}</td><td>${p.final?p.final.join('-'):'—'}</td><td class="${p.result==='W'?'pos':p.result==='L'?'neg':''}">${p.result||'—'}</td></tr>`).join(''):'<tr><td colspan="9">No picks logged yet. They are logged at the 10:45 AM update.</td></tr>');
+}
+
+function renderHardwoodPicks(){
+  const H=D.record_hardwood;
+  if(!H){$('#hwRec').innerHTML='<div class="sub">No Hardwood picks logged yet.</div>';return;}
+  const box=(t,r)=>`<div><h3>${t}</h3><div class="big">${r.w}-${r.l}${r.p?'-'+r.p:''}</div><div class="sub">${r.picks} logged · CLV ${r.avg_clv==null?'—':sg(r.avg_clv)} · beat close ${r.beat_close==null?'—':Math.round(r.beat_close*100)+'%'}</div></div>`;
+  $('#hwRec').innerHTML=box('HARDWOOD: ALL PICKS',H.all.all)+box('MODEL + MARKET',H.all.agrees)+box('MARKET AGAINST',H.all.against)+box('NO MOVE',H.all.flat);
+  const cell=r=>{if(!r||!r.picks)return '<td>—</td>';const c=Math.round((r.avg_clv||0)*10)/10||0;return `<td><b style="font-weight:normal">${r.w}-${r.l}${r.p?'-'+r.p:''}</b><div class="sub" style="white-space:nowrap"><span class="${c>0?'pos':c<0?'neg':''}">${r.avg_clv==null?'—':sg(c)}</span> · ${r.beat_close==null?'—':Math.round(r.beat_close*100)+'%'}</div></td>`;};
+  const names={agrees:'Agrees',flat:'No move',against:'Against',all:'All'};
+  $('#hwSplit').innerHTML='<tr><th>MKT</th><th>BOTH</th><th>HW ONLY</th></tr>'+
+    ['agrees','flat','against','all'].map(b=>`<tr><td>${names[b]}</td>${cell(H.both[b])}${cell(H.hw_only[b])}</tr>`).join('');
+  const ps=[...(D.picks_hardwood||[])].reverse();
+  $('#hwTable').innerHTML='<tr><th>DATE</th><th>PICK</th><th>MATCHUP</th><th>EDGE</th><th>MKT</th><th>BOTH</th><th>CLOSE</th><th>CLV</th><th>FINAL</th><th>RES</th></tr>'+
+    (ps.length?ps.map(p=>`<tr><td>${esc(p.date.slice(5))}</td><td>${esc(p.pick)}</td><td>${esc(p.away)} ${p.site_neutral?'vs':'@'} ${esc(p.home)}${p.site_neutral?` <span class="badge b-n">N</span>`:''}</td><td>${sg(p.edge)}</td><td>${esc(p.market)}</td><td>${p.both_models?'✓':''}</td><td>${pt(p.close)}</td><td class="${p.clv>0?'pos':p.clv<0?'neg':''}">${p.clv==null?'—':sg(p.clv)}</td><td>${p.final?p.final.join('-'):'—'}</td><td class="${p.result==='W'?'pos':p.result==='L'?'neg':''}">${p.result||'—'}</td></tr>`).join(''):'<tr><td colspan="10">No Hardwood picks logged yet.</td></tr>');
 }
 
 function renderRatings(){
