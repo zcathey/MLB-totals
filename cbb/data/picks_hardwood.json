@@ -11414,5 +11414,80 @@
   "backfilled": true,
   "site_neutral": true,
   "neutral_missed": false
+ },
+ {
+  "event_id": "4c0c9710cadfc6d63465ad20a30f5565",
+  "date": "2026-11-27",
+  "tip": "2026-11-27T19:00:00Z",
+  "away": "Fresno St.",
+  "home": "South Alabama",
+  "side": "away",
+  "pick": "Fresno St. +2.5",
+  "line": -2.5,
+  "model_spread": 1.0,
+  "edge": 3.5,
+  "market": "against",
+  "move_at_pick": -2.8,
+  "best": {
+   "pt": 2.5,
+   "px": -109,
+   "book": "Pinnacle"
+  },
+  "torvik_spread": 1.2,
+  "both_models": true,
+  "neutral": true,
+  "logged": "2026-11-27T16:45:30.153486+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
+ },
+ {
+  "event_id": "22a987e36b9d9dc97e7b84b24f307b83",
+  "date": "2026-11-27",
+  "tip": "2026-11-27T22:00:00Z",
+  "away": "Villanova",
+  "home": "Kansas",
+  "side": "home",
+  "pick": "Kansas -10",
+  "line": -10.0,
+  "model_spread": -14.2,
+  "edge": -4.2,
+  "market": "against",
+  "move_at_pick": 2.5,
+  "best": {
+   "pt": -10.0,
+   "px": -116,
+   "book": "Pinnacle"
+  },
+  "torvik_spread": -11.8,
+  "both_models": false,
+  "neutral": false,
+  "logged": "2026-11-27T16:45:30.153486+00:00",
+  "site_neutral": false,
+  "neutral_missed": false
+ },
+ {
+  "event_id": "ebb91d3cb7c017b0bf6de2b333909d71",
+  "date": "2026-11-27",
+  "tip": "2026-11-28T01:00:00Z",
+  "away": "Pacific",
+  "home": "UC Davis",
+  "side": "home",
+  "pick": "UC Davis +6.5",
+  "line": 6.5,
+  "model_spread": 3.5,
+  "edge": -3.0,
+  "market": "against",
+  "move_at_pick": 1.8,
+  "best": {
+   "pt": 7.0,
+   "px": -115,
+   "book": "Bovada"
+  },
+  "torvik_spread": 4.7,
+  "both_models": false,
+  "neutral": true,
+  "logged": "2026-11-27T16:45:30.153486+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
  }
 ]

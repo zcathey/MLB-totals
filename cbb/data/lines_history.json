@@ -5988,5 +5988,17 @@
   "hardwood_live": -10.9,
   "torvik_total": 140.1,
   "hardwood_total_live": 143.3
+ },
+ "70d6ec6a65d41a114e5e07f1111c4b44": {
+  "date": "2026-11-27",
+  "away": "Virginia",
+  "home": "Xavier",
+  "neutral": true,
+  "close": 7.0,
+  "total": 157.0,
+  "torvik": 7.0,
+  "hardwood_live": 6.3,
+  "torvik_total": 160.7,
+  "hardwood_total_live": 154.6
  }
 }
