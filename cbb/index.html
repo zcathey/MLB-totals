@@ -206,6 +206,7 @@ function renderGames(){
         <div><span class="l">OPEN</span><span>${pt(g.open_spread)}${mv}</span></div>
         <div><span class="l">EDGE</span><b class="${ek}" style="font-weight:normal">${g.edge==null?'—':sg(g.edge)}</b></div>
       </div>`;
+    if(m.away_pts!=null) html+=`<div class="sub">Proj: ${esc(g.away)} ${(+m.away_pts).toFixed(1)} – ${esc(g.home)} ${(+m.home_pts).toFixed(1)}</div>`;
     if(g.hardwood) html+=`<div class="hwline"><span>HARDWOOD <b>${pt(g.hardwood.home_spread)}</b></span><span>edge <b class="${g.hw_edge!=null&&Math.abs(g.hw_edge)>=D.settings.edge_threshold?'hi':''}" style="font-weight:normal">${g.hw_edge==null?'—':sg(g.hw_edge)}</b></span></div>`;
     if(g.pick){
       const tag={agrees:['t-agree','MODEL+MKT'],against:['t-against','MKT AGAINST'],flat:['t-flat','NO MOVE']}[g.market]||['t-flat','—'];
