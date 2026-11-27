@@ -11403,7 +11403,15 @@
   "neutral": false,
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "site_neutral": false,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "final": [
+   56,
+   111
+  ],
+  "result": "L",
+  "final_src": "espn",
+  "close": -37.5,
+  "clv": 0.0
  },
  {
   "event_id": "e70390bc589c34764d968355a3430fc3",
@@ -11428,7 +11436,9 @@
   "neutral": true,
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -7.5,
+  "clv": 1.0
  },
  {
   "event_id": "bc3fb1851c83444219f558d4229a1f0c",
@@ -11453,7 +11463,9 @@
   "neutral": false,
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "site_neutral": false,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -18.5,
+  "clv": 0.0
  },
  {
   "event_id": "76843c506b1ba5d7d938c6379d8cf4d3",
@@ -11478,7 +11490,9 @@
   "neutral": false,
   "logged": "2026-11-27T14:11:18.477691+00:00",
   "site_neutral": false,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -49.5,
+  "clv": 0.0
  },
  {
   "event_id": "198026478bc045be9a9cf746579c4230",
@@ -11653,7 +11667,15 @@
   "neutral": true,
   "logged": "2026-11-27T16:45:30.153486+00:00",
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": -2.5,
+  "clv": 0.0,
+  "final": [
+   81,
+   61
+  ],
+  "final_src": "odds_api",
+  "result": "W"
  },
  {
   "event_id": "01bd058905375db1fe1874b7964352ab",
@@ -11678,7 +11700,9 @@
   "neutral": true,
   "logged": "2026-11-27T16:45:30.153486+00:00",
   "site_neutral": true,
-  "neutral_missed": false
+  "neutral_missed": false,
+  "close": 3.5,
+  "clv": 0.0
  },
  {
   "event_id": "7597feb141f43dac0aadd1c931ec3fac",
