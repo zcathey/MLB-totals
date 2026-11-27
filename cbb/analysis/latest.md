@@ -1,90 +1,83 @@
-# CBB — Thursday, Nov 26, 2026 (Thanksgiving)
+# CBB — Friday, Nov 27, 2026
 
-**No plays today.** Five picks are logged, and the market has moved against all five.
+**Card (paper trades): Bowling Green +22.5 · Oakland +36 (low confidence)**
 
-**Best bet:** none today. Best-bet record: 5-4-1 ([ledger](best_bets.md)).
+**Best bet: Bowling Green +22.5 at Indiana** (BetRivers −108; 6:00 PM ET). Both models have this inside the number (Torvik IND −19.2, Hardwood −14.3). The line has drifted half a point our way, and I found no injury news for either side. Best-bet record: 5-4-1 ([ledger](best_bets.md)).
 
 Every pick is a paper trade until about mid-December, when Torvik's preseason priors wash out.
 
-Data: updated at 11:45 AM ET. The scheduled 10:45 run hadn't fired, so I started it myself. That run logged three more picks (UTSA, South Carolina, Tennessee) on top of the two from the 9:21 AM run. Lines OK (126 Odds API credits left). Ratings are fresh (Zach's upload, 9:17 AM ET). No unmatched names.
+Data: Zach uploaded ratings at 9:08 AM ET; they include Thanksgiving's games. At his request I started the picks run early (finished 9:11 AM), so the 11 AM tips are covered. Lines OK, but only 104 Odds API credits are left (see Notes). No unmatched names.
 
 ---
 
-## Yesterday (Nov 25)
+## Yesterday (Nov 26)
 
-**Card: 2-1** at write-up lines.
+**Card: no plays.** All six logged picks were market-against passes, and they went **5-1**:
 
-- Northeastern +20.5 (best bet): lost 91-54 at Wisconsin. **L**, and it was never close. Closed WIS −20, so no CLV.
-- Prairie View A&M +13.5: lost 64-58 (by 6). **W**
-- Southern +35 (lean pass): lost 101-72 (by 29). **W**
-
-All 12 graded picks dated Nov 25. This includes Kansas St. +16 vs Gonzaga, the 12:30 AM tip already reported yesterday:
-
-| Bucket | W-L-P | Avg CLV | Beat close |
+| Pick | Final | Result | CLV |
 |---|---|---|---|
-| Agrees | 2-1-0 | 0.00 | 0/3 |
-| Against | 5-2-0 | +0.29 | 3/7 |
-| Flat | 2-0-0 | +1.00 | 1/2 |
-| **All** | **9-3-0** | **+0.33** | **4/12** |
+| San Diego St. +4.5 | won 75-71 | W | 0 |
+| Kansas St. +15 | lost 104-91 | W | +1 |
+| UTSA −11.5 | lost 79-61 to Army | L | 0 |
+| South Carolina +5 | won 80-73 | W | 0 |
+| Tennessee +4.5 | won 75-64 | W | 0 |
+| Oregon +10.5 | lost 62-59 | W | 0 |
 
-A good W-L day on thin CLV. Most picks closed right where we logged them, so treat the 9-3 as mostly luck.
+Avg CLV +0.17, and 1 of 6 beat the close. Almost every pick closed where we logged it, so the 5-1 is noise. It's still a reminder that "against" passes aren't automatic losers. Tennessee won by 11 after the 3-point move toward Iowa St.
 
 ### Season to date
 
 | Bucket | W-L-P | Avg CLV | Beat close |
 |---|---|---|---|
 | Agrees | 31-26-0 | +0.16 | 30% |
-| Against | 73-78-1 | +0.38 | 37% |
+| Against | 78-79-1 | +0.37 | 37% |
 | Flat | 89-53-1 | +0.63 | 56% |
-| **All** | **193-157-2** | **+0.44** | **44%** |
+| **All** | **198-158-2** | **+0.44** | **43%** |
 
-No change in the pattern. Flat leads on every measure, and agrees still beats the close less than a third of the time.
+Same pattern as all month. Flat leads on every measure, and agrees, the bucket we actually play, beats the close least often.
 
-**Best bet:** Northeastern lost by 37. The ledger is 5-4-1. Four of the last five best bets lost, all as road underdogs.
+**Best bet:** none yesterday. The ledger stays 5-4-1.
 
 ---
 
 ## Today's card
 
-No plays. Thanksgiving has 21 games. Twenty are at neutral-site events (Players Era and other Las Vegas events, Palm Desert, Kissimmee, Fort Myers, San Diego, Detroit), and ESPN flagged all of them, so the model already projects them with no home court. Most lines sit within 3 points of Torvik.
+| Tip (ET) | Pick | Torvik (HW) | Mkt (open) | Edge | Best price |
+|---|---|---|---|---|---|
+| 6:00 PM | **Bowling Green +22.5 at Indiana** | IND −19.2 (−14.3) | −22.5 (−23) | 3.3 | +22.5 −108 BetRivers |
+| 7:30 PM | Oakland +36 at Houston | HOU −30.4 (−35.8) | −36 (−39.5) | 5.6 | +36.5 −107 BetRivers |
+
+Spreads are the home team's. Both are campus games, and neither has a tempo flag.
+
+- **Bowling Green +22.5 (best bet):** this is the only play where both models agree. Hardwood's edge (8.2) is bigger than Torvik's. Indiana is 7-0 and beat Jacksonville 82-64 on Tuesday, but committed 14 turnovers. BG is 4-2: it lost at William & Mary and at home to Northern Illinois, then beat Gardner-Webb Tuesday ([Inside the Hall](https://www.insidethehall.com/2026/11/26/game-8-iu-basketball-vs-bowling-green-preview/)). Nobody is listed out for either team. BG did shuffle its lineup Tuesday, bringing two of its top scorers (Makhi Leach and Josiah Shackelford) off the bench, so watch the rotation. Caveats: the move toward us is only half a point, which is weak confirmation, and 20+ point road dogs have been this model's weak spot. The last three best bets that lost were all 19.5+ road dogs. Modest confidence.
+- **Oakland +36 (low confidence):** the line has come 3.5 points from −39.5, all toward the model. Only Torvik has the edge, though. Hardwood (−35.8) sits right on the market. I found no Oakland injuries ([Oakland preview](https://goldengrizzlies.com/news/2026/11/24/mens-basketball-kampe-sampson-renew-matchup-as-golden-grizzlies-face-no-1-houston.aspx)). The only Houston news was guard Chendall Weaver being ruled eligible for the rest of the season ([Rotowire](https://www.rotowire.com/betting/college-basketball/game/houston-vs-oakland-odds-2026-11-27-3006905)), and that would push the line toward Houston, not away. More likely the market is pricing a letdown: Houston just won three games in three days in Las Vegas (Rutgers, Florida, Kansas), moved up to No. 1, and flew home. Oakland is 1-6 and lost 95-49 at Purdue. A 36-point road dog backed by one model is the kind of play this model has been worst at. I'd log it and keep the stake small or skip it.
 
 ---
 
-## Logged but passing (market against)
+## Logged but passing
 
-| Tip (ET) | Pick | Torvik (HW) | Mkt (open) | Edge | Best price now |
-|---|---|---|---|---|---|
-| 12:00 PM | UTSA −11.5 vs Army | UTSA −15.3 (−14.0) | −11.5 (−14) | 3.8 | −10 −115 BetOnline |
-| 1:00 PM | San Diego St. +4.5 vs Maryland | SDSU −0.1 (−1.8) | +4.5 (+1.5) | 4.6 | +4.5 −105 ESPN BET |
-| 2:00 PM | South Carolina +5 vs Arizona St. | ASU −1.9 (+0.8) | −5 (−3.5) | 3.1 | +5 −110 BetOnline |
-| 3:30 PM | Tennessee +4.5 vs Iowa St. | ISU −0.7 (−0.5) | −4.5 (−1.5) | 3.8 | +4.5 −110 ESPN BET |
-| 9:00 PM | Kansas St. +15 vs Alabama | BAMA −9.7 (−10.5) | −14 (−13.5) | 4.3 | +14.5 −113 BetRivers |
+**Market against:**
 
-- **UTSA −11.5 (campus game, Convocation Center):** this is the only true home game today, part of UTSA's Military City Classic ([UTSA preview](https://goutsa.com/news/2026/11/25/mbb2026-army-preview)). The line has dropped 2.5 toward Army, and the preview mentions no injuries. UTSA is 4-2 and coming off back-to-back 90-point games. Army is 2-5. Pass.
-- **San Diego St. +4.5 (Las Vegas):** both models make this about a pick'em, but the line has moved 3 toward Maryland. I found no injury news ([Maryland preview](https://umterps.com/news/2026/11/25/mens-basketball-mens-hoops-faces-san-diego-state-on-thursday-at-players-era-tournament)). Pass.
-- **South Carolina +5 (Acrisure Arena, neutral):** Hardwood makes South Carolina a slight favorite, and Torvik has Arizona St. by 1.9. The market opened ASU −3.5 and is now −5. [Bang the Book](https://bangthebook.com/south-carolina-gamecocks-vs-arizona-state-sun-devils-prediction-2026-11-26/) shows no player statuses for either team. South Carolina's wins all came at home against weak opponents, and ASU already played at this arena (lost 94-92 to LSU). That could explain why the market rates ASU higher than the models do. Pass.
-- **Tennessee +4.5 (Players Era, Las Vegas):** this one stands out. Both models have it within a point, and the line has gone from ISU −1.5 to −4.5. DraftKings was still at +2.5 earlier this morning ([Rocky Top Insider](https://www.rockytopinsider.com/2026/11/26/tennessee-vs-iowa-state-odds-kalshi-polymarket-players-era-16/)). Neither that article nor the [Des Moines Register preview](https://sports.yahoo.com/mens-college-basketball/articles/iowa-state-basketball-vs-tennessee-134529794.html) mentions an injury. Tennessee is 6-0 and beat Maryland 72-64. Iowa St. beat SDSU 81-68. A 3-point move in a high-profile game with no news is the kind of signal the framework says to respect. Pass.
-- **Kansas St. +15 (Las Vegas):** logged at +15. It's now +14, with +14.5 still at BetRivers. That's a small move toward Alabama, probably reflecting K-State's 101-61 loss to Gonzaga on Tuesday. No injury news found. Pass.
+- **Southern +37.5 at Vanderbilt:** the biggest edge on the slate (Torvik 8.0, Hardwood 3.6), but the line has moved a point toward Vandy. Southern covered +35 at Nebraska on Wednesday. Another 35+ road dog. Pass.
+- **Old Dominion +18.5 at Virginia Tech:** both models (Hardwood edge 9.8), moved 0.75 against. Pass.
+- **Saint Mary's +8.5 vs Texas (San Diego):** Torvik only, and the models split badly (Hardwood has Texas by 13). Pass.
 
-Georgia vs Cincinnati (Kissimmee) tipped at 11 AM before this run. The 7.9-point "edge" on it comes from a live line and isn't a pick.
+**Flat (no move):** flat has been the best bucket all season (89-53, 56% beating the close), so these are worth tracking:
 
-**Hardwood-only gap worth a look:** Saint Mary's vs UCLA (San Diego). Hardwood has UCLA by 17.8 and the market has 7.5. Torvik (−5.7) is close to the market, so there's no pick. Hardwood uses only this season's games, so a 10-point split usually means a small sample.
+- **Bellarmine +18.5 at Butler:** both models (Torvik 3.1, Hardwood 6.1). Bellarmine won outright at Northern Kentucky on Tuesday. +18.5 −105 at BetOnline.
+- **Lehigh +14.5 vs UC Santa Barbara (Thousand Oaks, neutral):** both models (3.3/4.3).
+- **Georgetown +8.5 vs UCLA (San Diego):** Torvik only.
+- **Western Kentucky +27 at Illinois:** Torvik only. +28.5 −115 at BetMGM.
+- **Arkansas-Pine Bluff +49.5 at Missouri:** Torvik only. Hardwood (−50.6) agrees with the market. Ignore.
 
-**Totals (tracking only):** both models lean the same way by 4+ on four games, none with a tempo flag. In three of them, Hardwood supplies most of the gap:
+**Big moves with no pick:** Louisiana Tech went from −8.5 to −4 against Texas St., and Louisville from +1.5 to −1.5 against Tennessee. Neither crosses the 3-point model edge.
 
-| Game | Market | Torvik | Hardwood | Lean |
-|---|---|---|---|---|
-| Tennessee vs Iowa St. | 139.5 | 135.3 | 122.6 | Under |
-| Saint Mary's vs UCLA | 152.5 | 157.1 | 165.9 | Over |
-| Georgetown vs Texas | 154.0 | 158.6 | 158.1 | Over |
-| Jacksonville St. vs UC Davis | 138.5 | 143.2 | 150.2 | Over |
-
-When both models have leaned the same way, they're 13-14 so far. No totals picks.
+**Totals (tracking only):** both models are 4+ over the market on five games, none with a tempo flag: Bowling Green/Indiana (152 vs 160.7/158.5), Old Dominion/Virginia Tech (145.5 vs ~151), Oakland/Houston (146.5 vs ~152), Memphis/Wake Forest (154.5 vs ~160) and Maryland/Oregon (149.5 vs 153.6/156.4). None is unusually large. When both models have leaned the same way, they're 16-15-1. No totals picks.
 
 ---
 
 ## Notes
 
-- Ratings: refreshed from Zach's upload this morning (`torvik.csv`, includes Wednesday's games). All team names matched.
-- Neutral sites: Army at UTSA is the only campus game, confirmed at UTSA's Convocation Center. No `neutral.json` changes.
-- Lines: the 6:30 PM run will set closing lines for the evening games.
+- **Odds API credits:** 104 left, down from 132 yesterday morning. The three scheduled runs plus the manual runs used about 28 in a day, so at this pace the key runs dry in about four days. Consider adding credits or skipping manual runs on light days.
+- Ratings: fresh, from Zach's 9:08 AM upload. All 365 teams matched.
+- Neutral sites: ESPN flagged all of today's event games (Nassau, Las Vegas, Kissimmee, San Diego, Idaho Falls, Thousand Oaks and others). Bellarmine at Butler, Bowling Green at Indiana and Oakland at Houston are all campus games. No `neutral.json` changes.

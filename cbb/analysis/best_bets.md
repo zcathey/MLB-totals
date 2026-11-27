@@ -16,3 +16,4 @@ The one play the daily write-up rates highest. Paper trades until about mid-Dece
 | 2026-11-23 | Alabama St. at California | +19.5 (BetRivers −120) | 54-96 | CAL −18 | L |
 | 2026-11-24 | Tarleton St. at Weber St. | +1.5 (BetRivers −117) | 87-89 | WEB −2 | L |
 | 2026-11-25 | Northeastern at Wisconsin | +20.5 (BetRivers −110) | 54-91 | WIS −20 | L |
+| 2026-11-27 | Bowling Green at Indiana | +22.5 (BetRivers −108) |  |  | pending |
