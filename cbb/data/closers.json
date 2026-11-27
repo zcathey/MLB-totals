@@ -2428,7 +2428,7 @@
  "ff463f606d0a8912ca36a58b809e5f9e": {
   "home_spread": -14.0,
   "total": 170.0,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T02:00:00Z",
   "away": "Kansas St.",
   "home": "Alabama",
@@ -2437,12 +2437,12 @@
   "torvik": -9.7,
   "hardwood": -10.5,
   "torvik_total": 169.0,
-  "hardwood_total": 165.0
+  "hardwood_total": 165.1
  },
  "3cb03cfb4f93a60fd1ce506ee8555130": {
   "home_spread": 1.5,
   "total": 161.0,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T02:00:00Z",
   "away": "St. John's",
   "home": "Louisville",
@@ -2451,12 +2451,12 @@
   "torvik": 3.6,
   "hardwood": 8.9,
   "torvik_total": 159.1,
-  "hardwood_total": 160.7
+  "hardwood_total": 160.8
  },
  "00ffa84e4fac12fc9b2885305e76ad31": {
   "home_spread": -3.5,
   "total": 153.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T04:30:00Z",
   "away": "Baylor",
   "home": "Gonzaga",
@@ -2465,12 +2465,12 @@
   "torvik": -4.1,
   "hardwood": -0.2,
   "torvik_total": 158.1,
-  "hardwood_total": 155.4
+  "hardwood_total": 155.3
  },
  "3ce2ec8471b46e17dc7b246a086a3e8d": {
   "home_spread": 10.5,
   "total": 149.0,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T04:30:00Z",
   "away": "Texas Tech",
   "home": "Oregon",
@@ -2623,31 +2623,31 @@
  },
  "8d107304a440a02e1eaf34b9e8eac486": {
   "home_spread": 3.0,
-  "total": 138.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "total": 137.0,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T01:00:00Z",
   "away": "Jacksonville St.",
   "home": "UC Davis",
   "neutral": true,
   "oriented": true,
   "torvik": 1.8,
-  "hardwood": 0.9,
+  "hardwood": 0.8,
   "torvik_total": 143.2,
   "hardwood_total": 150.2
  },
  "f8c8f160933b1de8443aee985386d93f": {
   "home_spread": -7.5,
   "total": 139.0,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T03:30:00Z",
   "away": "Nebraska Omaha",
   "home": "Pacific",
   "neutral": true,
   "oriented": true,
   "torvik": -10.4,
-  "hardwood": -11.0,
+  "hardwood": -10.9,
   "torvik_total": 140.1,
-  "hardwood_total": 143.1
+  "hardwood_total": 143.3
  },
  "35a3f7e451a688a08a5aec9c161172e1": {
   "home_spread": -11.5,
@@ -2665,8 +2665,8 @@
  },
  "70d6ec6a65d41a114e5e07f1111c4b44": {
   "home_spread": 8.5,
-  "total": 157.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "total": 157.0,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T16:00:00Z",
   "away": "Virginia",
   "home": "Xavier",
@@ -2675,12 +2675,12 @@
   "torvik": 6.9,
   "hardwood": 6.3,
   "torvik_total": 160.0,
-  "hardwood_total": 154.3
+  "hardwood_total": 154.5
  },
  "f3cd5043f4c5a7d9f1a5b5dc4f0417f3": {
-  "home_spread": 1.0,
+  "home_spread": 1.25,
   "total": 146.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T17:00:00Z",
   "away": "Liberty",
   "home": "St. Thomas",
@@ -2693,22 +2693,22 @@
  },
  "eaf627a916aa57020a2810007ee9bcf2": {
   "home_spread": 2.5,
-  "total": 155.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "total": 154.5,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T18:30:00Z",
   "away": "Memphis",
   "home": "Wake Forest",
   "neutral": true,
   "oriented": true,
   "torvik": 0.6,
-  "hardwood": 1.6,
+  "hardwood": 1.4,
   "torvik_total": 159.2,
-  "hardwood_total": 160.7
+  "hardwood_total": 160.4
  },
  "4c0c9710cadfc6d63465ad20a30f5565": {
-  "home_spread": 0.25,
-  "total": 147.75,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home_spread": -1.0,
+  "total": 146.5,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T19:00:00Z",
   "away": "Fresno St.",
   "home": "South Alabama",
@@ -2717,12 +2717,12 @@
   "torvik": 1.1,
   "hardwood": 0.9,
   "torvik_total": 144.9,
-  "hardwood_total": 156.2
+  "hardwood_total": 156.1
  },
  "98353c12132a5d3a705bf618d7439389": {
-  "home_spread": 8.5,
-  "total": 139.0,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home_spread": 7.75,
+  "total": 138.5,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T20:00:00Z",
   "away": "Texas St.",
   "home": "Louisiana Tech",
@@ -2734,9 +2734,9 @@
   "hardwood_total": 138.1
  },
  "1f84214524f065c0d07b4e612dbca753": {
-  "home_spread": -7.75,
+  "home_spread": -8.25,
   "total": 151.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T20:00:00Z",
   "away": "Princeton",
   "home": "UNC Wilmington",
@@ -2748,9 +2748,9 @@
   "hardwood_total": 161.0
  },
  "0e10d0c5de8b05e7dc93f8989d1bee0d": {
-  "home_spread": 9.25,
+  "home_spread": 9.0,
   "total": 141.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T21:30:00Z",
   "away": "Cincinnati",
   "home": "Boston College",
@@ -2764,35 +2764,35 @@
  "22a987e36b9d9dc97e7b84b24f307b83": {
   "home_spread": -12.5,
   "total": 159.0,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T22:00:00Z",
   "away": "Villanova",
   "home": "Kansas",
   "neutral": false,
   "oriented": true,
   "torvik": -11.7,
-  "hardwood": -14.1,
+  "hardwood": -14.4,
   "torvik_total": 156.5,
-  "hardwood_total": 156.8
+  "hardwood_total": 156.7
  },
  "61fabe838642d2eb1431fcee1cf2ec02": {
-  "home_spread": 3.0,
+  "home_spread": 2.5,
   "total": 157.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T22:00:00Z",
   "away": "Texas A&M",
   "home": "Marquette",
   "neutral": true,
   "oriented": true,
   "torvik": 0.5,
-  "hardwood": 0.1,
+  "hardwood": 0.5,
   "torvik_total": 155.4,
-  "hardwood_total": 151.3
+  "hardwood_total": 151.2
  },
  "198026478bc045be9a9cf746579c4230": {
-  "home_spread": -17.75,
-  "total": 147.25,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home_spread": -18.5,
+  "total": 146.5,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T22:00:00Z",
   "away": "Old Dominion",
   "home": "Virginia Tech",
@@ -2801,12 +2801,12 @@
   "torvik": -15.5,
   "hardwood": -8.7,
   "torvik_total": 150.7,
-  "hardwood_total": 151.0
+  "hardwood_total": 150.9
  },
  "56ba55a83df061ede47d0b562e16ce69": {
-  "home_spread": -6.5,
+  "home_spread": -5.5,
   "total": 156.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T22:30:00Z",
   "away": "Drake",
   "home": "Boise St.",
@@ -2818,23 +2818,23 @@
   "hardwood_total": 161.9
  },
  "ff2176f4daaef2d1975208c1449ac700": {
-  "home_spread": -23.0,
-  "total": 153.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home_spread": -23.5,
+  "total": 152.75,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T23:00:00Z",
   "away": "Bowling Green",
   "home": "Indiana",
   "neutral": false,
   "oriented": true,
   "torvik": -19.1,
-  "hardwood": -14.2,
+  "hardwood": -14.3,
   "torvik_total": 160.1,
-  "hardwood_total": 158.3
+  "hardwood_total": 158.5
  },
  "1f87dcbca697a752ec04a6d6294636f0": {
-  "home_spread": -27.0,
-  "total": 175.25,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home_spread": -27.5,
+  "total": 175.5,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T23:00:00Z",
   "away": "Western Kentucky",
   "home": "Illinois",
@@ -2846,9 +2846,9 @@
   "hardwood_total": 174.5
  },
  "41c094906504126724c665a8f8cbd73a": {
-  "home_spread": -5.5,
+  "home_spread": -4.5,
   "total": 146.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-27T23:00:00Z",
   "away": "Towson",
   "home": "Penn",
@@ -2860,9 +2860,9 @@
   "hardwood_total": 145.3
  },
  "a3b0558a4bc97d4aedb25c7e618304f4": {
-  "home_spread": -5.5,
+  "home_spread": -5.25,
   "total": 162.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-28T00:00:00Z",
   "away": "UCF",
   "home": "Georgia",
@@ -2875,36 +2875,36 @@
  },
  "cd744c919b9a21ddf2611504bf49f376": {
   "home_spread": 1.5,
-  "total": 149.0,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "total": 149.5,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-28T00:00:00Z",
   "away": "West Virginia",
   "home": "North Carolina",
   "neutral": true,
   "oriented": true,
   "torvik": 0.4,
-  "hardwood": 1.2,
+  "hardwood": 1.1,
   "torvik_total": 148.1,
-  "hardwood_total": 146.1
+  "hardwood_total": 146.2
  },
  "9666ebe69d71e8c0cf9a8f7ed988130b": {
-  "home_spread": -39.5,
-  "total": 150.0,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home_spread": -38.5,
+  "total": 150.75,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-28T00:30:00Z",
   "away": "Oakland",
   "home": "Houston",
   "neutral": false,
   "oriented": true,
   "torvik": -30.3,
-  "hardwood": -35.7,
+  "hardwood": -36.0,
   "torvik_total": 151.1,
-  "hardwood_total": 152.8
+  "hardwood_total": 152.7
  },
  "ec62bd5e2e768c55151f12678f44714e": {
-  "home_spread": -5.5,
+  "home_spread": -6.5,
   "total": 156.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-28T00:30:00Z",
   "away": "Penn St.",
   "home": "Mississippi St.",
@@ -2917,8 +2917,8 @@
  },
  "7597feb141f43dac0aadd1c931ec3fac": {
   "home_spread": -12.5,
-  "total": 147.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "total": 149.0,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-28T01:00:00Z",
   "away": "Idaho",
   "home": "Washington St.",
@@ -2931,8 +2931,8 @@
  },
  "5740fd8d57f3a4f53ee913dacffe55c0": {
   "home_spread": -2.5,
-  "total": 145.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "total": 144.5,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-28T01:00:00Z",
   "away": "Missouri St.",
   "home": "Oral Roberts",
@@ -2941,12 +2941,12 @@
   "torvik": -4.1,
   "hardwood": -0.7,
   "torvik_total": 144.8,
-  "hardwood_total": 142.3
+  "hardwood_total": 142.2
  },
  "d41c0bb8557bb274bce7d03b0dd33d3a": {
-  "home_spread": 6.5,
-  "total": 143.0,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home_spread": 6.25,
+  "total": 144.5,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-28T01:00:00Z",
   "away": "North Texas",
   "home": "North Dakota St.",
@@ -2958,9 +2958,9 @@
   "hardwood_total": 145.5
  },
  "6e113a934fe1e4d2d00277778483f23e": {
-  "home_spread": -12.0,
-  "total": 148.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "home_spread": -12.5,
+  "total": 149.5,
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-28T01:00:00Z",
   "away": "Northeastern",
   "home": "Northwestern",
@@ -2972,23 +2972,23 @@
   "hardwood_total": 149.3
  },
  "ebb91d3cb7c017b0bf6de2b333909d71": {
-  "home_spread": 4.75,
+  "home_spread": 5.5,
   "total": 138.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-28T01:00:00Z",
   "away": "Pacific",
   "home": "UC Davis",
   "neutral": true,
   "oriented": true,
   "torvik": 5.1,
-  "hardwood": 4.6,
+  "hardwood": 4.5,
   "torvik_total": 140.6,
   "hardwood_total": 141.3
  },
  "6be9c20350d10df66086b7ec8949ddc9": {
-  "home_spread": -3.5,
+  "home_spread": -4.5,
   "total": 159.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-28T02:00:00Z",
   "away": "Wichita St.",
   "home": "Kentucky",
@@ -2997,20 +2997,20 @@
   "torvik": -1.8,
   "hardwood": 2.8,
   "torvik_total": 156.3,
-  "hardwood_total": 154.7
+  "hardwood_total": 154.9
  },
  "018ae040de9fffa378fba5cfbb88c8f7": {
-  "home_spread": 7.5,
+  "home_spread": 6.5,
   "total": 144.5,
-  "seen": "2026-11-26T22:02:38.372477+00:00",
+  "seen": "2026-11-27T00:01:46.387125+00:00",
   "tip": "2026-11-28T03:30:00Z",
   "away": "Jacksonville St.",
   "home": "Nebraska Omaha",
   "neutral": true,
   "oriented": true,
   "torvik": 7.2,
-  "hardwood": 7.5,
+  "hardwood": 7.4,
   "torvik_total": 142.5,
-  "hardwood_total": 151.7
+  "hardwood_total": 152.0
  }
 }

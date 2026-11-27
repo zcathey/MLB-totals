@@ -11331,6 +11331,37 @@
   "site_neutral": true,
   "neutral_missed": false,
   "close": -4.5,
-  "clv": 0.0
+  "clv": 0.0,
+  "final": [
+   75,
+   64
+  ],
+  "result": "W",
+  "final_src": "espn"
+ },
+ {
+  "event_id": "3ce2ec8471b46e17dc7b246a086a3e8d",
+  "date": "2026-11-26",
+  "tip": "2026-11-27T04:30:00Z",
+  "away": "Texas Tech",
+  "home": "Oregon",
+  "side": "home",
+  "pick": "Oregon +10.5",
+  "line": 10.5,
+  "model_spread": 7.2,
+  "edge": -3.3,
+  "market": "against",
+  "move_at_pick": 2.0,
+  "best": {
+   "pt": 10.5,
+   "px": -105,
+   "book": "Bovada"
+  },
+  "hardwood_spread": 6.7,
+  "both_models": true,
+  "neutral": true,
+  "logged": "2026-11-27T00:01:46.387125+00:00",
+  "site_neutral": true,
+  "neutral_missed": false
  }
 ]

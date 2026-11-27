@@ -5880,5 +5880,41 @@
   "hardwood_live": -14.0,
   "torvik_total": 147.6,
   "hardwood_total_live": 145.3
+ },
+ "f026af6e32a421c5d3478e37d9198de0": {
+  "date": "2026-11-26",
+  "away": "TCU",
+  "home": "Creighton",
+  "neutral": true,
+  "close": -1.0,
+  "total": 153.0,
+  "torvik": -2.3,
+  "hardwood_live": 0.1,
+  "torvik_total": 153.7,
+  "hardwood_total_live": 159.9
+ },
+ "958c447826e0cf914c566770b0f9bdab": {
+  "date": "2026-11-26",
+  "away": "DePaul",
+  "home": "Pittsburgh",
+  "neutral": true,
+  "close": -1.0,
+  "total": 137.5,
+  "torvik": 1.9,
+  "hardwood_live": 1.2,
+  "torvik_total": 140.6,
+  "hardwood_total_live": 138.6
+ },
+ "8cdf0f9df5b4480c117a9455b60b067b": {
+  "date": "2026-11-26",
+  "away": "SMU",
+  "home": "LSU",
+  "neutral": true,
+  "close": -7.5,
+  "total": 155.5,
+  "torvik": -5.5,
+  "hardwood_live": -5.0,
+  "torvik_total": 160.1,
+  "hardwood_total_live": 158.4
  }
 }
