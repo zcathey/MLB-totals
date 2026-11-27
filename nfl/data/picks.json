@@ -449,7 +449,14 @@
    "pt": 3.0,
    "px": -110,
    "book": "ESPN BET"
-  }
+  },
+  "close": -3.0,
+  "clv": -0.5,
+  "final": [
+   10,
+   13
+  ],
+  "result": "L"
  },
  {
   "game_id": "2026_12_KC_BUF",
@@ -470,6 +477,13 @@
    "pt": 45.5,
    "px": -112,
    "book": "BetRivers"
-  }
+  },
+  "close": 46.0,
+  "clv": 0.0,
+  "final": [
+   10,
+   13
+  ],
+  "result": "L"
  }
 ]
