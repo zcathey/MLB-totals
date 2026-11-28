@@ -1,16 +1,4 @@
 {
- "164c30fe9e3df9f785daa57c5053cf5d": {
-  "home_spread": -7.5,
-  "total": 154.5,
-  "seen": "2026-11-24T07:01:38.259494+00:00",
-  "home": "Arizona"
- },
- "3765877faa0c50d3b04fa96abdbb3568": {
-  "home_spread": 5.5,
-  "total": 149.5,
-  "seen": "2026-11-24T07:01:38.259494+00:00",
-  "home": "Colorado St."
- },
  "38d1af886179efb99270618ed4702a3d": {
   "home_spread": 3.0,
   "total": 140.5,
@@ -1150,5 +1138,11 @@
   "total": 149.5,
   "seen": "2026-11-28T04:50:34.077551+00:00",
   "home": "Notre Dame"
+ },
+ "c12532f69cb63c9a2e000c7d4d4575b6": {
+  "home_spread": -4.5,
+  "total": 158.5,
+  "seen": "2026-11-28T14:01:30.888454+00:00",
+  "home": "Louisville"
  }
 }
