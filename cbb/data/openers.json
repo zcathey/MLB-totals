@@ -1,412 +1,4 @@
 {
- "9d626cb5f6f86d655376c21b250ef528": {
-  "home_spread": 1.5,
-  "total": 146.75,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "St. Bonaventure"
- },
- "c431e5cece6a42f0acf8f2898b29e83e": {
-  "home_spread": -4.5,
-  "total": 148.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Ohio"
- },
- "c027a1281dd4c9e8ac848bc06f0e29fb": {
-  "home_spread": -3.5,
-  "total": 140.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Akron"
- },
- "f199c1cbe3ed8c1fc4c77116bfc48499": {
-  "home_spread": -3.5,
-  "total": 143.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": null
- },
- "25c249c5d826256a741704663708b66f": {
-  "home_spread": -8.5,
-  "total": 163.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "FIU"
- },
- "43a5ccec7f338df1651b828c9c8e8c5f": {
-  "home_spread": 3.5,
-  "total": 146.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Oklahoma"
- },
- "becb255ccc8bc25b5f7bd29df33c9f11": {
-  "home_spread": 7.5,
-  "total": 141.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Rice"
- },
- "805ca96e9d27ffe645d7a7f11348756f": {
-  "home_spread": 10.5,
-  "total": 150.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "San Francisco"
- },
- "2643c9fdcf8ea923eba3adf7e2d63034": {
-  "home_spread": 2.5,
-  "total": 151.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Detroit Mercy"
- },
- "eded8145f35a188e673fde457a1eb00f": {
-  "home_spread": -9.5,
-  "total": 144.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Wyoming"
- },
- "3493a2092ac513abea61c5182bef95d8": {
-  "home_spread": -4.5,
-  "total": 134.75,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Purdue"
- },
- "8d263dc36ea2b979c8b9130d531924aa": {
-  "home_spread": -4.5,
-  "total": 145.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Kennesaw St."
- },
- "c1d3fd33faf203ca224c34cc16d7a3ee": {
-  "home_spread": -7.25,
-  "total": 160.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Florida Atlantic"
- },
- "d9934c874976567f4d6344c9244f65e9": {
-  "home_spread": -23.5,
-  "total": 157.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Rutgers"
- },
- "89feea7b535634fa859b78078f91ae71": {
-  "home_spread": -5.5,
-  "total": 145.0,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "VMI"
- },
- "1e3a2e8c68dcf6c024c3acd7340891d0": {
-  "home_spread": -8.5,
-  "total": 148.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Furman"
- },
- "f781e6b5530a39b9f984a7eab6a66d48": {
-  "home_spread": -2.25,
-  "total": 149.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Coastal Carolina"
- },
- "6a06c847f0e649f0dfa197206f62ae0a": {
-  "home_spread": -38.5,
-  "total": 158.25,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Florida"
- },
- "e5806851c93f603da7c7942c81a49491": {
-  "home_spread": -10.5,
-  "total": 160.75,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Georgia Tech"
- },
- "1ce662de828158b33eeb5d693d2dd9e5": {
-  "home_spread": -8.5,
-  "total": 130.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Old Dominion"
- },
- "36cd60be0deb29366cd82284a9668faa": {
-  "home_spread": 2.0,
-  "total": 152.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Santa Clara"
- },
- "6cfdfa5bb6f60d50485998c29c0bed9e": {
-  "home_spread": 2.5,
-  "total": 156.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Ohio St."
- },
- "e230b04451f3fe3dbfd9cdf83dc15792": {
-  "home_spread": -1.5,
-  "total": 159.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Weber St."
- },
- "1093df65c3f02a9b287b474ff6c464b6": {
-  "home_spread": -2.5,
-  "total": 150.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Southeast Missouri St."
- },
- "a78dc73464df7565244fa09ad22f8a3e": {
-  "home_spread": -16.5,
-  "total": 163.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Tennessee Tech"
- },
- "d65b43e1e335b6ace622fd146193369c": {
-  "home_spread": 10.5,
-  "total": 138.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Duquesne"
- },
- "8007f744856111cf162e4770b19628a9": {
-  "home_spread": -19.5,
-  "total": 153.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Auburn"
- },
- "62721346d2909208ad093276ade60892": {
-  "home_spread": -20.5,
-  "total": 151.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Notre Dame"
- },
- "c9b53b27825cd1927a73f1cace7c0131": {
-  "home_spread": -5.75,
-  "total": 144.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Penn"
- },
- "ee1434c68caaef481b4433fdfb2c8164": {
-  "home_spread": -0.75,
-  "total": 142.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "UMKC"
- },
- "f7d009960feda2b039e5f3a0ada2220f": {
-  "home_spread": -4.5,
-  "total": 148.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "UT Arlington"
- },
- "fe27496cb1eb4ae152d0598f1d70e8dc": {
-  "home_spread": -0.75,
-  "total": 150.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Charleston"
- },
- "90f5cee824c1dc80d48319e38587b75b": {
-  "home_spread": -19.5,
-  "total": 163.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Boise St."
- },
- "4dc8cb6a7648e8a24132baf3563d8887": {
-  "home_spread": -31.5,
-  "total": 148.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Missouri"
- },
- "43f1834ce15a8fa15990477292bbd923": {
-  "home_spread": -24.5,
-  "total": 160.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Florida St."
- },
- "fd33c89fab911d3dd09da769140c7f5f": {
-  "home_spread": -4.5,
-  "total": 153.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Washington St."
- },
- "427e125509d4fb46d23c30b52a010699": {
-  "home_spread": -19.5,
-  "total": 149.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "UC Santa Barbara"
- },
- "5ec9f8cc223de8cb0d2128449c0ab77b": {
-  "home_spread": -1.5,
-  "total": 165.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Grand Canyon"
- },
- "7a374c26e6bdab50be65f2b155fef2c8": {
-  "home_spread": -2.5,
-  "total": 143.5,
-  "seen": "2026-11-24T00:30:14.780735+00:00",
-  "home": "Stanford"
- },
- "aa88b3c9dbbd08c5d5b25ea5f6b52bf1": {
-  "home_spread": -1.5,
-  "total": 158.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "BYU"
- },
- "963ef5f90b0991bdd17147e22683e18e": {
-  "home_spread": 1.5,
-  "total": 134.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Yale"
- },
- "a9d72fa7f4207364b30b2b31daa37521": {
-  "home_spread": 5.5,
-  "total": 158.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Long Beach St."
- },
- "b46d2fa42df6e66be9af4204f2f8c609": {
-  "home_spread": -1.5,
-  "total": 132.25,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Lindenwood"
- },
- "cebf116689f6c16151415bb0f130dc5b": {
-  "home_spread": -1.5,
-  "total": 142.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Tulsa"
- },
- "6eebf254c2b2fe1f45604d6d30c42577": {
-  "home_spread": -0.75,
-  "total": 174.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Wofford"
- },
- "9896f5dfb6cf5fefd00dd1b813254965": {
-  "home_spread": 3.5,
-  "total": 156.0,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Robert Morris"
- },
- "9529e122f1dafb7c0802b5eb4d0b5ae5": {
-  "home_spread": 2.25,
-  "total": 154.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Bellarmine"
- },
- "9bfe60f0e81a07d8ac7c88c95a05879e": {
-  "home_spread": -8.5,
-  "total": 134.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Lehigh"
- },
- "89632d555740a0300af46ea6f5562e39": {
-  "home_spread": -5.0,
-  "total": 139.0,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Harvard"
- },
- "864548d14d1c51b9eb5c8124103739bd": {
-  "home_spread": -12.5,
-  "total": 150.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Bowling Green"
- },
- "56cd92243f65d84421355bf0dadb2a77": {
-  "home_spread": -4.5,
-  "total": 131.0,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Marist"
- },
- "1568999acf01fb7bcd3c2eb51a944861": {
-  "home_spread": -13.5,
-  "total": 151.0,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "James Madison"
- },
- "7b26240263d57054f865ed13eadc3fc3": {
-  "home_spread": -15.75,
-  "total": 146.75,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Chattanooga"
- },
- "cd53ee535b2696ad269d2a8411ee5e44": {
-  "home_spread": -31.0,
-  "total": 141.25,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Villanova"
- },
- "ce03e086bc077ee90407285728e44a69": {
-  "home_spread": -27.75,
-  "total": 146.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Indiana"
- },
- "28d88203cb1ec82ed778671f2504c112": {
-  "home_spread": -27.0,
-  "total": 145.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Iowa"
- },
- "278837a5be17c7fb57ffd1da5eaf812b": {
-  "home_spread": -3.5,
-  "total": 140.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Loyola MD"
- },
- "4372f4cc1a42725718b121950f7e4390": {
-  "home_spread": 0.0,
-  "total": 145.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Morgan St."
- },
- "72b630289253e0d84e7882c0f2106a48": {
-  "home_spread": -20.0,
-  "total": 128.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Seton Hall"
- },
- "e2079f2683b71a764d7c3a4c56504ea1": {
-  "home_spread": -2.5,
-  "total": 157.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Siena"
- },
- "efbf615ae4d7d1ab262bb4158cada8db": {
-  "home_spread": -18.5,
-  "total": 152.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "South Florida"
- },
- "3a7a826d98d77fdc8fd9f0e0ee77af6c": {
-  "home_spread": -16.5,
-  "total": 146.0,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Louisiana Tech"
- },
- "1f58ab67f5b86f2ec0308d6b03affa6b": {
-  "home_spread": 2.0,
-  "total": 151.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Louisiana Monroe"
- },
- "b96a1616ca40a186cf203b892683f222": {
-  "home_spread": -4.5,
-  "total": 152.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Air Force"
- },
- "17a9a4ec4b37ec676576d40fd025472b": {
-  "home_spread": -3.25,
-  "total": 142.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "North Alabama"
- },
- "f63093115e6f6e0280f63f271f97d3c4": {
-  "home_spread": -10.5,
-  "total": 152.75,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Cornell"
- },
- "59e3968ce2b702ee8df02da575a47778": {
-  "home_spread": 2.0,
-  "total": 153.0,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "Washington"
- },
- "1ae5c95564b806157de7bef407bae0c9": {
-  "home_spread": -18.5,
-  "total": 144.5,
-  "seen": "2026-11-24T02:36:07.238094+00:00",
-  "home": "South Alabama"
- },
  "164c30fe9e3df9f785daa57c5053cf5d": {
   "home_spread": -7.5,
   "total": 154.5,
@@ -1498,5 +1090,65 @@
   "total": 154.0,
   "seen": "2026-11-27T23:44:47.260982+00:00",
   "home": "Presbyterian"
+ },
+ "4497a970cf3525016679fe0da54f4cb2": {
+  "home_spread": -10.5,
+  "total": 150.5,
+  "seen": "2026-11-28T04:50:34.077551+00:00",
+  "home": "UNLV"
+ },
+ "f74785461a18d105d8e622152c252eab": {
+  "home_spread": -6.5,
+  "total": 141.5,
+  "seen": "2026-11-28T04:50:34.077551+00:00",
+  "home": "American"
+ },
+ "6231380814e9d3b84baa3b09e4a37e91": {
+  "home_spread": 8.5,
+  "total": 138.5,
+  "seen": "2026-11-28T04:50:34.077551+00:00",
+  "home": "Louisiana"
+ },
+ "afe9b977319660e9f1e02a017df59625": {
+  "home_spread": -6.5,
+  "total": 133.5,
+  "seen": "2026-11-28T04:50:34.077551+00:00",
+  "home": "Lafayette"
+ },
+ "c70f9b950cddeb76de0d3c88022fc5b6": {
+  "home_spread": -15.5,
+  "total": 149.5,
+  "seen": "2026-11-28T04:50:34.077551+00:00",
+  "home": "Penn"
+ },
+ "74d5ac66072f44d8588f37b9ba1dd114": {
+  "home_spread": -9.5,
+  "total": 136.5,
+  "seen": "2026-11-28T04:50:34.077551+00:00",
+  "home": "Army"
+ },
+ "72a6c6f2d7b437d489d489b8850db58a": {
+  "home_spread": -10.0,
+  "total": 148.5,
+  "seen": "2026-11-28T04:50:34.077551+00:00",
+  "home": "San Francisco"
+ },
+ "0621e218a662075859e747c4fa500e6b": {
+  "home_spread": 2.5,
+  "total": 147.75,
+  "seen": "2026-11-28T04:50:34.077551+00:00",
+  "home": "Morehead St."
+ },
+ "89d7f45fe31e4356f1089f7590e2f644": {
+  "home_spread": -20.5,
+  "total": 142.5,
+  "seen": "2026-11-28T04:50:34.077551+00:00",
+  "home": "Duquesne"
+ },
+ "ec961e773c72348f784ad65dd8fd83a3": {
+  "home_spread": -30.5,
+  "total": 149.5,
+  "seen": "2026-11-28T04:50:34.077551+00:00",
+  "home": "Notre Dame"
  }
 }
