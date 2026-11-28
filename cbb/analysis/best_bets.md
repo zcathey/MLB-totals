@@ -2,7 +2,7 @@
 
 The one play the daily write-up rates highest. Paper trades until about mid-December. The line is the number at write-up time. "Close" is the closing home spread from `data/closers.json`. Nov 12 and Nov 17 are backfilled from the write-ups that named a top play.
 
-**Record: 5-4-1**
+**Record: 5-5-1**
 
 | Date | Best bet | Line (book) | Final | Close | Result |
 |---|---|---|---|---|---|
@@ -16,4 +16,5 @@ The one play the daily write-up rates highest. Paper trades until about mid-Dece
 | 2026-11-23 | Alabama St. at California | +19.5 (BetRivers −120) | 54-96 | CAL −18 | L |
 | 2026-11-24 | Tarleton St. at Weber St. | +1.5 (BetRivers −117) | 87-89 | WEB −2 | L |
 | 2026-11-25 | Northeastern at Wisconsin | +20.5 (BetRivers −110) | 54-91 | WIS −20 | L |
-| 2026-11-27 | Bowling Green at Indiana | +22.5 (BetRivers −108) |  |  | pending |
+| 2026-11-27 | Bowling Green at Indiana | +22.5 (BetRivers −108) | 57-93 | IND −22.5 | L |
+| 2026-11-28 | Ball St. at Southern Indiana | +3.5 (FanDuel −120) |  |  | pending |
